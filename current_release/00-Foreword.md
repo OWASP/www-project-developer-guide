@@ -7,6 +7,7 @@ author:
 contributors:
 document: OWASP Developer Guide
 order: 1
+permalink: /current_release/
 
 ---
 
