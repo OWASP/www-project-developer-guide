@@ -7,7 +7,6 @@ level: 2
 type: documentation
 pitch: The Developer Guide allows businesses, developers, designers and solution architects to produce secure web applications. If done from the earliest stages, secure   
        applications cost about the same to develop as insecure applications, but are far more cost effective in the long run. 
-auto-migrated: 
 
 ---
 {% assign dev_file = site.static_files | where: "name", "devsite.txt" %}
