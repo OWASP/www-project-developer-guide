@@ -35,4 +35,4 @@ or discuss topics in the [project wiki][wiki].
 [issues]: https://github.com/OWASP/www-project-developer-guide/issues/new/choose
 [request]: https://github.com/OWASP/www-project-developer-guide/pulls
 [versions]: https://github.com/OWASP/DevGuide/wiki#old-versions
-[wiki]: https://github.com/OWASP/DevGuide/wiki
+[wiki]: https://github.com/OWASP/www-project-developer-guide/wiki
