@@ -12,14 +12,8 @@ pitch: The Developer Guide allows businesses, developers, designers
        but are far more cost effective in the long run.
 
 ---
-{% assign dev_file = site.static_files | where: "name", "devsite.txt" %}
-{% if dev_file.size > 0 %}
-{% assign site_base_url = '/' %}
-{% else %}
-{% assign site_base_url = site.github.url | replace: 'owasp.github.io','owasp.org' | replace: 'http://', 'https://' %}
-{% endif %}
 
-## OWASP Developer Guide project
+## OWASP Developer Guide
 Along with the OWASP Top Ten, the Developer Guide is one of the original resources
 published by OWASP soon after it was created in 2001.
 
@@ -35,9 +29,10 @@ and now we need as many members of the security community as possible to contrib
 ### Contributing
 Contributions and suggestions are all welcome, we just ask that you follow our [code of conduct][conduct].
 Contributors can [make suggestions][issues], provide changes via a [pull request][request]
-or discuss topics in the wiki.
+or discuss topics in the [project wiki][wiki].
 
 [conduct]: CODE_OF_CONDUCT.md
-[issues]: issues/new
-[request]: pulls
+[issues]: https://github.com/OWASP/www-project-developer-guide/issues/new/choose
+[request]: https://github.com/OWASP/www-project-developer-guide/pulls
 [versions]: https://github.com/OWASP/DevGuide/wiki#old-versions
+[wiki]: https://github.com/OWASP/DevGuide/wiki
