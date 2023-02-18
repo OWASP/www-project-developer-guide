@@ -30,8 +30,8 @@ or open a [pull request][request].
 [conduct]: CODE_OF_CONDUCT.md
 [DevGuide]: https://github.com/OWASP/DevGuide
 [guide]: current_release
+[issues]: issues/new
 [original]: https://github.com/OWASP/DevGuide/blob/1d24d140de3724b6f95655e53b8d0cc6689fbfd8/DevGuide1.0/OWASPBuildingSecureWebApplicationsAndWebServices-V1.0.pdf
 [pages]: https://owasp.org/www-project-developer-guide/
-[versions]: https://github.com/OWASP/DevGuide/wiki versions
+[versions]: https://github.com/OWASP/DevGuide/wiki
 [request]: pulls
-[issues]: issues/new
