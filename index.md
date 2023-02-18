@@ -12,8 +12,13 @@ pitch: The Developer Guide allows businesses, developers, designers
        but are far more cost effective in the long run.
 
 ---
+{% assign dev_file = site.static_files | where: "name", "devsite.txt" %}
+{% if dev_file.size > 0 %}
+{% assign site_base_url = '/' %}
+{% else %}
+{% assign site_base_url = site.github.url | replace: 'owasp.github.io','owasp.org' | replace: 'http://', 'https://' %}
+{% endif %}
 
-## OWASP Developer Guide
 Along with the OWASP Top Ten, the Developer Guide is one of the original resources
 published by OWASP soon after it was created in 2001.
 
