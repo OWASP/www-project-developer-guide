@@ -1,5 +1,18 @@
+# ignore Apple's desktop store files
+**/.DS_Store
+
+# ignore VS and Eclipse files
+.project
+.vscode/
+.settings/
+
+# ignore IntelliJ IDEA files
+.idea/
+
+# ignore working files
 /Gemfile
 /Gemfile.lock
 /favicon.ico
 _site/
 devsite.txt
+
