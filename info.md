@@ -1,7 +1,7 @@
 ### Classification
 
 * <i class="fas fa-egg" style="color:#233e81;"></i> Incubator Project
-* <i class="fas fa-text" style="color:#233e81;"></i> Documentation
+* <i class="fas fa-book" style="color:#233e81;"></i> Documentation
 
 ### Audience
 
