@@ -11,8 +11,6 @@ order: 2
 ---
 
 {% include breadcrumb.html %}
-<From the OWASP board>
-
 ### Copyright
 
 Copyright © 2001 – 2023 licensed as per the Free Documentation License in Appendix A.
