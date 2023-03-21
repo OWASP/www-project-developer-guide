@@ -7,14 +7,12 @@ author:
 contributors:
 document: OWASP Developer Guide
 order: 0
-permalink: /_draft/
+permalink: /draft/
 
 ---
 
 {% include breadcrumb.html %}
 ## OWASP Developer Guide (Draft)
-
-### 0. [Foreword](00-Foreword)
 
 ### 1. [About the Development Guide](01-About-Development-Guide)
 

@@ -1,9 +1,6 @@
 docs_list_title: OWASP Developer Guide (Draft)
 docs:
 
-- title: '0. Foreword'
-  url: 00-Foreword
-
 - title: '1. About the Development Guide'
   url: 01-About-Development-Guide
 

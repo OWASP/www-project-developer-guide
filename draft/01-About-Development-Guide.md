@@ -11,6 +11,13 @@ order: 2
 ---
 
 {% include breadcrumb.html %}
+<From the OWASP board>
+
+### Copyright
+
+Copyright © 2001 – 2023 licensed as per the Free Documentation License in Appendix A.
+PERMISSION IS GRANTED TO COPY, DISTRIBUTE, AND/OR MODIFY THIS DOCUMENT PROVIDED THIS COPYRIGHT NOTICE AND ATTRIBUTION TO OWASP IS RETAINED.
+
 # About the Development Guide
 
 Welcome to the OWASP Development Guide 3.0
