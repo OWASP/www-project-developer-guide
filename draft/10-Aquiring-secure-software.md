@@ -10,6 +10,7 @@ order: 11
 
 ---
 
+{% include breadcrumb.html %}
 # Acquiring secure software
 
 ## Software options

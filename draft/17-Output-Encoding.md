@@ -10,9 +10,8 @@ order: 18
 
 ---
 
+{% include breadcrumb.html %}
 # Output encoding
-
-Allocated to Viral
 
 ## Background
 

@@ -10,6 +10,7 @@ order: 8
 
 ---
 
+{% include breadcrumb.html %}
 # Risk Management
 
 [Risk management][1] is the identification, assessment, and prioritization of risks (defined in ISO 31000 as the effect of uncertainty on objectives) followed by coordinated and economical application of resources to minimize, monitor, and control the probability and/or impact of unfortunate events or to maximize the realization of opportunities. Risk management’s objective is to assure uncertainty does not deflect the endeavor from the business goals.

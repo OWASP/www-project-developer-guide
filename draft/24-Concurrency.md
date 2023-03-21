@@ -10,6 +10,7 @@ order: 25
 
 ---
 
+{% include breadcrumb.html %}
 # Concurrency 
 
 ## Background

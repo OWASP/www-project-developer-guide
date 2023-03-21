@@ -10,6 +10,7 @@ order: 4
 
 ---
 
+{% include breadcrumb.html %}
 # Contributors
 
 ## Editors

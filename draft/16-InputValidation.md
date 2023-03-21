@@ -10,8 +10,7 @@ order: 17
 
 ---
 
-Allocated to Viral
-
+{% include breadcrumb.html %}
 ## Background
 
 Majority of today’s applications get exploited because it fails to validate the input coming from users, files, third party applications, infrastructure, external entities, database systems or by other processes. Almost every application on the web requires some sort of input from the listed entity. These input sources can be a great starting point for an attacker. Hence, all inputs to an application must be checked and validated before processing it.

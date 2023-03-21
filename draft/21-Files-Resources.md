@@ -10,6 +10,7 @@ order: 22
 
 ---
 
+{% include breadcrumb.html %}
 # Files And Resources
 
 ## Background

@@ -10,6 +10,7 @@ order: 12
 
 ---
 
+{% include breadcrumb.html %}
 # Secure Design Principles
 
 ## Defense in Depth

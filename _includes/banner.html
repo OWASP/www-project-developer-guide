@@ -1,0 +1,21 @@
+<div role="banner" style="position:sticky;top:0;text-align:center;box-sizing:border-box;font-size:0.875em;width:100%;">
+    {% if page.url contains "/draft/" %}
+    <div style="background-color:#FFBABA;color:#6A0E0E;padding:8px 20px 8px;">
+        This content represents the latest contributions to the Developer Guide, and it will frequently change
+    </div>
+    {% endif %}
+
+    {% if page.url contains "/stable/" or page.url contains site.stable_version %}
+    <div style="background-color:#9ce37d;color:#344d2a;padding:8px 20px 8px;">
+        This is the current stable version of the Developer Guide
+    </div>
+    {% endif %}
+
+    {% if page.url contains "/v" %}
+      {% unless page.url contains site.stable_version %}
+      <div style="background-color:#f7ee7f;color:#666334;padding:8px 20px 8px;">
+          This is a release version of the Developer Guide. For the latest stable version, <a href="{{ site.base_url }}/www-project-developer-guide/stable/">visit /stable</a>.
+      </div>
+      {% endunless %}
+    {% endif %}
+</div>

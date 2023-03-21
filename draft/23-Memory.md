@@ -10,6 +10,7 @@ order: 24
 
 ---
 
+{% include breadcrumb.html %}
 # Memory 
 
 ## Overview

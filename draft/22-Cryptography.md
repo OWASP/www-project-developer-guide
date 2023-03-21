@@ -10,6 +10,7 @@ order: 23
 
 ---
 
+{% include breadcrumb.html %}
 # Cryptography
 
 Note: Email [me](mailto:kevin.w.wall@gmail) if you have questions.

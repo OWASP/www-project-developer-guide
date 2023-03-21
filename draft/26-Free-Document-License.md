@@ -10,6 +10,7 @@ order: 27
 
 ---
 
+{% include breadcrumb.html %}
 # GNU Free Documentation License
 Version 1.1, March 2000
 

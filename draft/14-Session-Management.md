@@ -10,8 +10,7 @@ order: 15
 
 ---
 
-Assigned to LB
-
+{% include breadcrumb.html %}
 ## Overview
 Session management is required to track the state of a user's journey through a web application. It is the role of a developer/designer to create or use a session management system in a way that is secure, avoiding the leaking of this
 information to an attacker, leading to common attack vectors such as replay of state, forging state or intercepting the state of another user.
@@ -156,8 +155,8 @@ Potentially applies to all frameworks
 Take a session cookie and inject it into the application from another browser. If you are able to use the session at the same time in different browsers or if logging out from one browser session does not prevent the other from continuing to use the session, your application is vulnerable.
 #### How to protect yourself
 Use a library or framework that can tie the session to a unique browser id. Attempting access from another browser should either fail or cause intrusion detection to log out the first user.
-Use a library or framework that supports session id regeneration to shorten the window of attack. 
-Do not use persistent cookies for session ids, which expose the session id more easily to an attacker. 
+Use a library or framework that supports session id regeneration to shorten the window of attack.
+Do not use persistent cookies for session ids, which expose the session id more easily to an attacker.
 Force cleanup of session data during logout including server-side session so that a replay cannot occur after the user has logged out.
 
 ### Session fixation
@@ -194,7 +193,7 @@ Note that this topic overlaps with the authentication and authorization chapters
 #### Applies to frameworks
 All frameworks
 #### How to determine if you are vulnerable
-Log into two browsers with two different users. Take the session id from one session and replace the session id in the other session. If your application is vulnerable, the server should detect the mismatch between authentication and the session id and immediately error with a forced logout. 
+Log into two browsers with two different users. Take the session id from one session and replace the session id in the other session. If your application is vulnerable, the server should detect the mismatch between authentication and the session id and immediately error with a forced logout.
 If the system allows you to continue as the user that you logged in with (but the wrong session) then your application is vulnerable but the risk of this depends on what information is stored in the session.
 If the system changes the user you are logged in with as a result of the changed session id then your system is vulnerable.
 #### How to protect yourself
@@ -203,7 +202,7 @@ Use browser identification to prevent the session being used by a second person 
 
 
 ### Split Session Attacks
-If the server has no way of linking a session id to a client, it might be possible for an attacker to piggy-back a victim’s session, possibly seeing what the victim is doing or has done. 
+If the server has no way of linking a session id to a client, it might be possible for an attacker to piggy-back a victim’s session, possibly seeing what the victim is doing or has done.
 #### Applies to frameworks
 All frameworks
 #### How to determine if you are vulnerable
@@ -214,7 +213,7 @@ Use session regeneration at suitable intervals, at which point the old session c
 Require re-authentication for high-value operations and regenerate the session id at this point.
 
 ## Sessions in RESTful applications
-RESTful applications create a special kind of session problem. The idea behind a RESTful service or application is that no state is stored server-side, all of the relevant information is stored on the client and passed in with the request, either as parameters or implied from the url that is accessed for the request. This brings special considerations for a session scheme, such as how to prevent tampering, hijacking, fixating and replay attacks. 
+RESTful applications create a special kind of session problem. The idea behind a RESTful service or application is that no state is stored server-side, all of the relevant information is stored on the client and passed in with the request, either as parameters or implied from the url that is accessed for the request. This brings special considerations for a session scheme, such as how to prevent tampering, hijacking, fixating and replay attacks.
 
 One of the special considerations is what data can be stored in the session. Since the session is necessarily exposed outside of the server, it cannot contain any information that we cannot trust the client not to modify. For example, setting the users privilege level in a cookie that is sent to the user would not normally be done in a non-REST situation due to the chance of someone attempting to elevate their privilege but in the case of REST, there is no choice, in which case the design should not depend on storing such sensitive information in the session cookie.
 

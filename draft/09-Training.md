@@ -10,6 +10,7 @@ order: 10
 
 ---
 
+{% include breadcrumb.html %}
 # Training
 
 "It's all to do with the training: you can do a lot if you're properly trained." -- *Queen Elizabeth II*

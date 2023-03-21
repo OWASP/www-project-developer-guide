@@ -1,0 +1,86 @@
+docs_list_title: OWASP Developer Guide (Draft)
+docs:
+
+- title: '0. Foreword'
+  url: 00-Foreword
+
+- title: '1. About the Development Guide'
+  url: 01-About-Development-Guide
+
+- title: '2. About the Open Worldwide Application Security Project'
+  url: 02-About-Open-Web-Application-Security-Project
+
+- title: '3. Authors'
+  url: 03-Authors
+
+- title: '4. Introduction'
+  url: 04-Introduction
+
+- title: '5. Security Fundamentals'
+  url: 05-Security-Fundamentals
+
+- title: '6. Policies, Standards and Guidelines'
+  url: 06-Policies-Standards-Guidelines
+
+- title: '7. Risk Management'
+  url: 07-Risk-Management
+
+- title: '8. Secure Development Lifecycle'
+  url: 08-Secure-Development-Lifecycle
+
+- title: '9. Training'
+  url: 09-Training
+
+- title: '10. Aquiring secure software'
+  url: 10-Aquiring-secure-software
+
+- title: '11. Principles of Security Engineering'
+  url: 11-Principles-Security-Engineering
+
+- title: '12. Security Architecture'
+  url: 12-Security-Architecture
+
+- title: '13. Authentication'
+  url: 13-Authentication
+
+- title: '14. Session Management'
+  url: 14-Session-Management
+
+- title: '15. Access Control'
+  url: 15-Access-Control
+
+- title: '16. Input Validation'
+  url: 16-InputValidation
+
+- title: '17. Output Encoding'
+  url: 17-Output-Encoding
+
+- title: '18. Business Logic'
+  url: 18-Business-Logic
+
+- title: '19. Accountability'
+  url: 19-Accountability
+
+- title: '20. Data Protection'
+  url: 20-Data-Protection
+
+- title: '21. Files and Resources'
+  url: 21-Files-Resources
+
+- title: '22. Cryptography'
+  url: 22-Cryptography
+
+- title: '23. Memory'
+  url: 23-Memory
+
+- title: '24. Concurrency'
+  url: 24-Concurrency
+
+- title: '25. Administrative Interfaces'
+  url: 25-Administrative-Interfaces
+
+- title: 'Appendix A: Free Document License'
+  url: 26-Free-Document-License
+
+- title: 'Appendix B: i18n'
+  url: 27-i18n

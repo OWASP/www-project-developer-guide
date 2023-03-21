@@ -10,6 +10,7 @@ order: 19
 
 ---
 
+{% include breadcrumb.html %}
 # Business Logic Flaws
 
 ## Background

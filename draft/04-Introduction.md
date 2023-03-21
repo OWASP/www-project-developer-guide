@@ -10,6 +10,7 @@ order: 5
 
 ---
 
+{% include breadcrumb.html %}
 # Introduction
 
 Welcome to the totally re-written OWASP Guide 3.0! The OWASP Guide has been re-written to be:

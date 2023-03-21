@@ -10,6 +10,7 @@ order: 2
 
 ---
 
+{% include breadcrumb.html %}
 # About the Development Guide
 
 Welcome to the OWASP Development Guide 3.0
