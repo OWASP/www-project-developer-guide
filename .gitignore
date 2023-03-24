@@ -1,18 +1,23 @@
-# ignore Apple's desktop store files
-**/.DS_Store
+# uses allow-list, so ignore everything
+*
 
-# ignore VS and Eclipse files
-.project
-.vscode/
-.settings/
+# allow github, workflows and templates
+!.github/**/*
+!.gitignore
+!.lycheeignore
 
-# ignore IntelliJ IDEA files
-.idea/
+# allow jekyll build files
+!404.html
+!_config.yml
+!_data/*.yaml
+!_includes/*.html
 
-# ignore working files
-/Gemfile
-/Gemfile.lock
-/favicon.ico
-_site/
-devsite.txt
+# draft version
+!draft/**/*.md
+!draft/assets/images/*.png
+
+# pages markdown
+!./*.md
+!assets/images/*
+!LICENSE.txt
 
