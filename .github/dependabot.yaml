@@ -1,0 +1,10 @@
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: ".github/workflows"
+    schedule:
+      interval: "daily"
+    ignore:
+      # ignore all (non-security) patch updates
+      - dependency-name: "*"
+        update-types: ["version-update:semver-patch"]
