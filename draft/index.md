@@ -14,56 +14,22 @@ permalink: /draft/
 {% include breadcrumb.html %}
 ## OWASP Developer Guide (Draft)
 
-### 1. [About the Development Guide](01-About-Development-Guide)
+### 1. [Audience](01-audience)
 
-### 2. [About the Open Worldwide Application Security Project](02-About-Open-Web-Application-Security-Project)
+### 2. [Background](02-background)
 
-### 3. [Authors](03-Authors)
+### 3. [Abstract](03-abstract)
 
-### 4. [Introduction](04-Introduction)
+### 4. [Introduction](04-introduction)
 
-### 5. [Security Fundamentals](05-Security-Fundamentals)
+### 5. [Security Requirements](05-security-requirements)
 
-### 6. [Policies, Standards and Guidelines](06-Policies-Standards-Guidelines)
+### 6. [Secure Design](06-secure-design)
 
-### 7. [Risk Management](07-Risk-Management)
+### 7. [Container Security](07-container-security)
 
-### 8. [Secure Development Lifecycle](08-Secure-Development-Lifecycle)
+### 8. [Open Source Software](08-open-source-software)
 
-### 9. [Training](09-Training)
+### 9. [Secure Environment](09-secure-environment)
 
-### 10. [Aquiring secure software](10-Aquiring-secure-software)
-
-### 11. [Principles of Security Engineering](11-Principles-Security-Engineering)
-
-### 12. [Security Architecture](12-Security-Architecture)
-
-### 13. [Authentication](13-Authentication)
-
-### 14. [Session Management](14-Session-Management)
-
-### 15. [Access Control](15-Access-Control)
-
-### 16. [Input Validation](16-InputValidation)
-
-### 17. [Output Encoding](17-Output-Encoding)
-
-### 18. [Business Logic](18-Business-Logic)
-
-### 19. [Accountability](19-Accountability)
-
-### 20. [Data Protection](20-Data-Protection)
-
-### 21. [Files and Resources](21-Files-Resources)
-
-### 22. [Cryptography](22-Cryptography)
-
-### 23. [Memory](23-Memory)
-
-### 24. [Concurrency](24-Concurrency)
-
-### 25. [Administrative Interfaces](25-Administrative-Interfaces)
-
-### Appendix A: [Free Document License](26-Free-Document-License)
-
-### Appendix B: [Internationalization](27-i18n)
+### 10. [Security Testing and Validation](10-security-testing-validation)
