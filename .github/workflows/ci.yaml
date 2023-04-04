@@ -20,6 +20,8 @@ jobs:
       - name: Link Checker
         uses: lycheeverse/lychee-action@v1.6.1
         with:
+          # skip the jekyll files
+          args: --exclude-path './_includes/*.html' './**/*.md'
           fail: true
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
