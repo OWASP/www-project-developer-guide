@@ -2,6 +2,7 @@
 *
 
 # allow github, workflows and templates
+!.github
 !.github/**/*
 !.gitignore
 !.lycheeignore
@@ -9,10 +10,13 @@
 # allow jekyll build files
 !404.html
 !_config.yml
+!_data
 !_data/*.yaml
+!_includes
 !_includes/*.html
 
 # draft version
+!draft
 !draft/**/*.md
 !draft/assets/images/*.png
 
