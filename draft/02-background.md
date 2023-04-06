@@ -11,7 +11,7 @@ order: 3
 ---
 
 {% include breadcrumb.html %}
-### Background
+### 2. Background
 
 The OWASP Development Guide is being rewritten by the OWASP community.
 and the content of this section has yet to be filled in.

@@ -1,32 +1,38 @@
 docs_list_title: OWASP Developer Guide (Draft)
 docs:
 
-- title: 'Audience'
+- title: '1. Audience'
   url: 01-audience
 
-- title: 'Background'
+- title: '2. Background'
   url: 02-background
 
-- title: 'Abstract'
+- title: '3. Abstract'
   url: 03-abstract
 
-- title: 'Introduction'
+- title: '4. Introduction'
   url: 04-introduction
 
-- title: 'Security Requirements'
-  url: 05-security-requirements
+- title: '5. Security Requirements'
+  url: 05-security-requirements/05-security-requirements
 
-- title: 'Secure Design'
+- title: '5.1 Threat Modeling'
+  url: 05-security-requirements/06-threat-modeling
+
+- title: '5.2 Regulatory and Statutory Requirements'
+  url: 05-security-requirements/07-regulatory-statutory-requirements
+
+- title: '6. Secure Design'
   url: 06-secure-design
 
-- title: 'Container Security'
+- title: '7. Container Security'
   url: 07-container-security
 
-- title: 'Open Source Software'
+- title: '8. Open Source Software'
   url: 08-open-source-software
 
-- title: 'Secure Environment'
+- title: '9. Secure Environment'
   url: 09-secure-environment
 
-- title: 'Security Testing and Validation'
+- title: '10. Security Testing and Validation'
   url: 10-security-testing-validation

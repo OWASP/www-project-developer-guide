@@ -11,7 +11,7 @@ order: 11
 ---
 
 {% include breadcrumb.html %}
-### Security Testing and Validation
+### 10. Security Testing and Validation
 
 The OWASP Development Guide is being rewritten by the OWASP community.
 and the content of this section has yet to be filled in.

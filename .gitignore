@@ -17,6 +17,7 @@
 
 # draft version
 !draft
+!draft/**
 !draft/**/*.md
 !draft/assets/images/*.png
 

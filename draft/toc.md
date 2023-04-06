@@ -22,7 +22,9 @@ permalink: /draft/
 
 ### 4. [Introduction](04-introduction.md)
 
-### 5. [Security Requirements](05-security-requirements.md)
+### 5. [Security Requirements](05-security-requirements/05-security-requirements.md)
+### 5.1 [Threat Modeling](05-security-requirements/06-threat-modeling.md)
+### 5.2 [Regulatory and Statutory Requirements](05-security-requirements/07-regulatory-statutory-requirements.md)
 
 ### 6. [Secure Design](06-secure-design.md)
 

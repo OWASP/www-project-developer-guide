@@ -11,7 +11,7 @@ order: 9
 ---
 
 {% include breadcrumb.html %}
-### Open Source Software
+### 8. Open Source Software
 
 The OWASP Development Guide is being rewritten by the OWASP community.
 and the content of this section has yet to be filled in.
