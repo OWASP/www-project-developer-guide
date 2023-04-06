@@ -1,6 +1,6 @@
 ---
 name: Change request
-about: Suggest a change for this project
+about: Suggest a change for the Developer Guide
 title: ''
 labels: 'enhancement'
 assignees: ''
