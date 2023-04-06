@@ -21,6 +21,7 @@ If you would like to contribute then follow the
 and submit your content for review.
 
 The following subsections are planned:
+
   * Secure coding guidelines
     * Authentication
       * User
