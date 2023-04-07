@@ -22,7 +22,7 @@ and submit your content for review.
 
 The following subsections are planned:
 
-  * Secure coding guidelines
+  * Secure coding
     * Authentication
       * User
       * Server
@@ -50,9 +50,11 @@ The following subsections are planned:
     * Verification of hashes for integrity and signature	
     * Secrets handling
     * Keys (generation, lifecycle management), secrets, API keys
-  * Application spoofing, domain squatting, typo squatting
+  * Application spoofing
+    * domain squatting
+    * typo squatting
   * Content Security policy
-  * Exception / error handling
+  * Exception and error handling
     * Fail secure
     * Logging
   * File management
