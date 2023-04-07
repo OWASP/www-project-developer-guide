@@ -23,9 +23,9 @@ The draft version has the latest contributions to the Developer Guide, and so th
 
 ## 4. [Introduction](04-introduction.md)
 
-## 5. [Security Requirements](05-security-requirements/05-security-requirements.md)
-### 5.1 [Threat Modeling](05-security-requirements/06-threat-modeling.md)
-### 5.2 [Regulatory and Statutory Requirements](05-security-requirements/07-regulatory-statutory-requirements.md)
+## 5. [Security Requirements](05-security-requirements/01-security-requirements.md)
+### 5.1 [Threat Modeling](05-security-requirements/02-threat-modeling.md)
+### 5.2 [Regulatory and Statutory Requirements](05-security-requirements/03-regulatory-statutory-requirements.md)
 
 ## 6. [Secure Design](06-secure-design/01-secure-design.md)
 ### 6.1 [Secure coding](06-secure-design/02-secure-coding.md)
@@ -41,8 +41,8 @@ The draft version has the latest contributions to the Developer Guide, and so th
 ### 7.2 [Container scanning](07-container-security/03-container-scanning.md)
 
 ## 8. [Open Source Software](08-open-source-software/01-open-source-software.md)
-### 8.1 [Static Code Analysis](08-open-source-software/02.sca.md)
-### 8.2 [Third Party Software and Libraries](08-open-source-software/03.tps.md)
+### 8.1 [Static Code Analysis](08-open-source-software/02-sca.md)
+### 8.2 [Third Party Software and Libraries](08-open-source-software/03-tps.md)
 
 ## 9. [Secure Environment](09-secure-environment/01-secure-environment.md)
 ### 9.1 [System hardening](09-secure-environment/02-system-hardening.md)
