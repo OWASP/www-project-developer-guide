@@ -10,7 +10,7 @@ document: OWASP Developer Guide
 ---
 
 {% include breadcrumb.html %}
-### 10.1 Static Application Security Testing
+### 10.2 Static Application Security Testing
 
 The OWASP Development Guide is being rewritten by the OWASP community.
 and the content of this section has yet to be filled in.

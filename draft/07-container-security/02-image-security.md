@@ -10,7 +10,7 @@ document: OWASP Developer Guide
 ---
 
 {% include breadcrumb.html %}
-### 7.1 Image security
+### 7.2 Image security
 
 The OWASP Development Guide is being rewritten by the OWASP community.
 and the content of this section has yet to be filled in.

@@ -10,7 +10,7 @@ document: OWASP Developer Guide
 ---
 
 {% include breadcrumb.html %}
-### 6.7 Memory Management
+### 6.8 Memory Management
 
 The OWASP Development Guide is being rewritten by the OWASP community.
 and the content of this section has yet to be filled in.

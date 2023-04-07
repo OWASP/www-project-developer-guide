@@ -10,7 +10,7 @@ document: OWASP Developer Guide
 ---
 
 {% include breadcrumb.html %}
-### 6.2 Cryptographic Practices
+### 6.3 Cryptographic Practices
 
 The OWASP Development Guide is being rewritten by the OWASP community.
 and the content of this section has yet to be filled in.

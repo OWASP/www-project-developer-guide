@@ -7,11 +7,10 @@ author:
 contributors:
 document: OWASP Developer Guide
 
-
 ---
 
 {% include breadcrumb.html %}
-### 6.1 Secure coding
+### 6.2 Secure coding
 
 The OWASP Development Guide is being rewritten by the OWASP community.
 and the content of this section has yet to be filled in.

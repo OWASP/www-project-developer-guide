@@ -11,7 +11,9 @@ order: 7
 ---
 
 {% include breadcrumb.html %}
-### 6. Secure Design
+## 6. Secure Design
+
+### 6.1 Overview
 
 The OWASP Development Guide is being rewritten by the OWASP community.
 and the content of this section has yet to be filled in.

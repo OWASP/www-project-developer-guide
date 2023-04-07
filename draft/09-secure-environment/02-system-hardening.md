@@ -10,7 +10,7 @@ document: OWASP Developer Guide
 ---
 
 {% include breadcrumb.html %}
-### 9.1 System hardening
+### 9.2 System hardening
 
 The OWASP Development Guide is being rewritten by the OWASP community.
 and the content of this section has yet to be filled in.
