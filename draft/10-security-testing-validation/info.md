@@ -1,1 +1,1 @@
-{% include navigation.html collection="latest" %}
+{% include navigation.html collection="draft" %}
