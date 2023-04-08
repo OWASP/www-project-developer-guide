@@ -1,7 +1,7 @@
 ## OWASP Foundation Developer Guide project 
 
 This repo is the source for the OWASP Developer Guide project [web pages][pages]
-and also the [developer guide][draft] itself
+and also the [developer guide][draftGuide] itself
 
 ## Developer Guide
 This guide is one of the original documents from OWASP and so has a long history.
@@ -9,9 +9,9 @@ The [DevGuide repository][devGuide] has many of the [previous versions][versions
 going back to the [original version 1.0][original] from 2002.
 Note that the original DevGuide [repository][DevGuide] has been deprecated in favour of this one.
 
-The source code for the latest draft developer guide and can be found under the ['draft'][draft] directory.
-The source is in markdown and is used to create the [developer guide][pages] HTML (PDF and ePub are not in place yet).
-This is being actively worked on for the next release of the Developer Guide and may be subject to large scale changes.
+The source code for the latest draft developer guide can be found under the ['draft'][draft] directory.
+The source is in markdown and is used to create the [developer guide][draft] HTML (PDF and ePub are not in place yet).
+The content is subject to large scale changes with no notice, as it is being actively worked on for the next release of the Developer Guide.
 
 ### Contributing
 Contributions and suggestions for the Developer Guide are all welcome;
@@ -30,8 +30,9 @@ For other contributions to these pages please [create an issue][issues] or open 
 [guide]: CONTRIBUTING.md
 [devGuide]: https://github.com/OWASP/DevGuide
 [draft]: draft
+[draftGuide]: https://owasp.org/www-project-developer-guide/draft/
 [issues]: https://github.com/OWASP/www-project-developer-guide/issues/new/choose
 [original]: https://github.com/OWASP/DevGuide/blob/1d24d140de3724b6f95655e53b8d0cc6689fbfd8/DevGuide1.0/OWASPBuildingSecureWebApplicationsAndWebServices-V1.0.pdf
-[pages]: https://owasp.org/www-project-developer-guide/draft/
+[pages]: https://owasp.org/www-project-developer-guide/
 [request]: https://github.com/OWASP/www-project-developer-guide/pulls
 [versions]: https://github.com/OWASP/DevGuide/wiki#old-versions
