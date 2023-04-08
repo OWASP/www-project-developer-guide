@@ -11,12 +11,13 @@ Contributors can [make suggestions][issues] and provide changes via a [pull requ
 Feel free to discuss topics in the [project wiki][wiki] and create new discussions.
 
 ### Etiquette
-There is a [project dashboard][dashboard] which helps to coordinate contributions.
-* select an issue from the project that is free
-* if the issue is already being worked on then coordinate with the issue owner
-* if there is not an existing issue that describes your content then [suggest one][issues]
-* provide your content as a [pull request][request]
+There is a [project board][dashboard] which helps to coordinate contributions.
 
+* select an issue from the project board for the section you want to work on
+* if this issue is free ask for it to be assigned to you
+* if the issue has already been assigned then coordinate with the existing owner
+* if there is not an existing issue that describes your content then [suggest one][issues]
+* provide your contributed content as a [pull request][request]
 
 [conduct]: CODE_OF_CONDUCT.md
 [dashboard]: https://github.com/orgs/OWASP/projects/14/views/1
