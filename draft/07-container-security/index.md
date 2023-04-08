@@ -12,6 +12,8 @@ document: OWASP Developer Guide
 {% include breadcrumb.html %}
 ## 7. Container Security
 
-7.1 [Image security](02-image-security.md)
+7.1 [Overview](01-container-security.md)
 
-7.2 [Container scanning](03-container-scanning.md)
+7.2 [Image security](02-image-security.md)
+
+7.3 [Container scanning](03-container-scanning.md)
