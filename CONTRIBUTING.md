@@ -19,8 +19,15 @@ There is a [project board][dashboard] which helps to coordinate contributions.
 * if there is not an existing issue that describes your content then [suggest one][issues]
 * provide your contributed content as a [pull request][request]
 
+### Style Guide
+The Developer Guide will have many contributors, and it is an aim to keep the style of writing similar throughout.
+It would be good to keep to a style used in OWASP flagship projects [ASVS][asvs] and [WSTG][wstg],
+which is speaking from first person plural and semi-formal in tone.
+
+[asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [conduct]: CODE_OF_CONDUCT.md
 [dashboard]: https://github.com/orgs/OWASP/projects/14/views/1
 [issues]: https://github.com/OWASP/www-project-developer-guide/issues/new/choose
 [request]: https://github.com/OWASP/www-project-developer-guide/pulls
 [wiki]: https://github.com/OWASP/www-project-developer-guide/wiki
+[wstg]: https://owasp.org/www-project-web-security-testing-guide/
