@@ -116,7 +116,7 @@ Setting rules for Android application:
     <permission android:name="my_custom_permission_name"
                 android:protectionLevel="signature" />
 -	Disallow other apps from accessing ContentProvider objects
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<manifest xmlns:android=<link to android schemas ...>
     package="com.example.myapp">
     <application ... >
         <provider
