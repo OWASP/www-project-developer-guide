@@ -4,18 +4,4 @@
         This content represents the latest contributions to the Developer Guide, and it will frequently change
     </div>
     {% endif %}
-
-    {% if page.url contains "/stable/" or page.url contains site.stable_version %}
-    <div style="background-color:#9ce37d;color:#344d2a;padding:8px 20px 8px;">
-        This is the current stable version of the Developer Guide
-    </div>
-    {% endif %}
-
-    {% if page.url contains "/v" %}
-      {% unless page.url contains site.stable_version %}
-      <div style="background-color:#f7ee7f;color:#666334;padding:8px 20px 8px;">
-          This is a released version of the Developer Guide
-      </div>
-      {% endunless %}
-    {% endif %}
 </div>

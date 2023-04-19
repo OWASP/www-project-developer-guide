@@ -111,7 +111,7 @@ Setting rules for Android application:
 -	Use addJavaScriptInterface() with particular care because it allows JavaScript to invoke operations that are normally reserved for Android applications. If you use it, expose addJavaScriptInterface() only to web pages from which all input is trustworthy
 -	Expose addJavaScriptInterface() only to JavaScript that is contained within your application APK
 -	When sharing data between two apps that you control or own, use signature-based permissions
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<manifest xmlns:android=<link to android schemas ...>
     package="com.example.myapp">
     <permission android:name="my_custom_permission_name"
                 android:protectionLevel="signature" />
