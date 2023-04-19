@@ -24,6 +24,16 @@ The Developer Guide will have many contributors, and it is an aim to keep the st
 It would be good to keep to a style used in OWASP flagship projects [ASVS][asvs] and [WSTG][wstg],
 which is speaking from first person plural and semi-formal in tone.
 
+### Technical level
+Generally the guide is aimed at the introductory to medium technical levels,
+and should rarely deal with a subject at an advanced level.
+This is a deliberate policy that makes the guide as accessible as possible and keeps the length reasonable.
+
+The content of the main sections should be aimed at the introductory level,
+with more detail contained in the sub-sections at a medium technical level.
+Note this guide does should not replicate the many detailed sources on specific security topics;
+instead provide links to specialist security topics.
+
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [conduct]: CODE_OF_CONDUCT.md
 [dashboard]: https://github.com/orgs/OWASP/projects/14/views/1
