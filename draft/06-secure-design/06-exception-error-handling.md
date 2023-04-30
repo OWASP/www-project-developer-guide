@@ -67,3 +67,59 @@ e.g: ""A logged in user looking to access an account which is not registered to 
 * Search for commented out code, commented out test code, which may contain sensitive information.
 
 * Search for any calls to the underlying operating system or file open calls and examine the error possibilities.
+
+Logging:
+* Ensure that no sensitive information is logged in the event of an error.
+
+* Ensure the payload being logged is of a defined maximum length and that the logging mechanism enforces that length.
+
+* Ensure no sensitive data can be logged; E.g. cookies, HTTP “GET” method, authentication credentials.
+
+* Examine if the application will audit the actions being taken by the application on behalf of the client (particularly data manipulation/Create, Read, Update, Delete (CRUD) operations).
+
+* Ensure successful and unsuccessful authentication is logged.
+
+* Ensure application errors are logged.
+
+* Examine the application for debug logging with the view to logging of sensitive data. 
+
+* Ensure change in sensitive configuration information is logged along with user who modified it. Ensure access to secure storage areas including crypto keys are logged.
+
+* Credentials and sensitive user data should not be logged
+
+* Does the code include poor logging practice of not declaring Logger object as static and final?
+
+* Does the code allow entering invalidated user input to the log file?
+
+* Capture following details for the events:
+
+ - User identification.
+ - Type of event.
+ - Date and time.
+ - Success and failure indication.
+ - Origination of event.
+ - Identity or name of affected data, system component, resource, or service (for example, name and protocol).
+
+* Log file access, privilege elevation, and failures of financial transactions.
+
+* Log all administrators actions. Log all actions taken after privileges are elevated - runas / sudo
+
+* Log all input validation failures
+
+* Log all authentication attempts, especially failures
+
+* Log all access control failures
+
+* Log all apparent tampering events, including unexpected changes to state data
+
+* Log attempts to connect with invalid or expired session tokens
+
+* Log all system exceptions
+
+* Log all administrative functions, including changes to the security configuration settings
+
+* Log all backend TLS connection failures
+
+* Log cryptographic module failures
+
+* Use a cryptographic hash function to validate log entry integrity
