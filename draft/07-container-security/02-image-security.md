@@ -47,7 +47,7 @@ o Use layer caching and multi stage builds to:
 * Offline keys are owned by the organisation and secured in an out-of-band location.
 * Scan images frequently for any vulnerabilities. Rebuilt all images to include patches and instantiate new containers from them
 * Remove Setuid and setgid permissions from the images.
-* Where applicable, use “copy” instruction in place of “add” instruction.
+* Where applicable, use ‘copy’ instruction in place of ‘add’ instruction.
 * Verify authenticity of packages before installing them into images
 * Use namespaces and control groups for containers
 * Use bridge interfaces for the host
@@ -77,8 +77,8 @@ o Use layer caching and multi stage builds to:
 * TLS CA certificate file on the image host (the file that is passed along with the --tlscacert parameter) has permissions of 444 or is set more restrictively
 * Containers should run as a non-root user.
 * Containers should have as small a footprint as possible, and should not contain unnecessary software packages which could increase their attack surface
-* Docker's default bridge "docker0" is not used to avoid ARP spoofing and MAC flooding attacks.
-* Either Docker’s AppArmor policy is enabled or the Docker host’s AppArmor is enabled.
+* Docker's default bridge ‘docker0’ is not used to avoid ARP spoofing and MAC flooding attacks.
+* Either Dockers AppArmor policy is enabled or the Docker hosts AppArmor is enabled.
 * SELinux policy is enabled on the Docker host.
 * Linux kernel capabilities are restricted within containers
 * privileged containers are not used
@@ -86,18 +86,18 @@ o Use layer caching and multi stage builds to:
 * sshd is not run within containers
 * privileged ports are not mapped within containers (TCP/IP port numbers below 1024 are considered privileged ports)
 * only needed ports are open on the container.
-* the host's network namespace is not shared.
-* container's root filesystem is mounted as read only
+* the hosts network namespace is not shared.
+* containers root filesystem is mounted as read only
 * Do not use docker exec with the --privileged option.
 * docker exec commands are not used with the user=root option
 * cgroup usage is confirmed
 * The no_new_priv option prevents LSMs like SELinux from allowing processes to acquire new privileges
 * Docker socket is not mounted inside any containers to prevent processes running within the container to execute Docker commands which would effectively allow for full control of the host.
 * incoming container traffic is bound to a specific host interface
-* host's process namespace is not shared to ensure that processes are separated.
-* host's IPC namespace is not shared to ensure that inter-process communications does not take place.
+* hosts process namespace is not shared to ensure that processes are separated.
+* hosts IPC namespace is not shared to ensure that inter-process communications does not take place.
 * host devices are not directly exposed to containers
-* host's user namespaces are not shared to ensure isolation of containers.
+* hosts user namespaces are not shared to ensure isolation of containers.
 * CPU priority is set appropriately on containers
 * memory usage for containers is limited.
 * 'on-failure' container restart policy is set to '5'
