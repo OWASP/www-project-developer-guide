@@ -18,10 +18,45 @@ jobs:
       - uses: actions/checkout@v3.5.0
 
       - name: Link Checker
-        uses: lycheeverse/lychee-action@v1.6.1
+        uses: lycheeverse/lychee-action@v1.7.0
         with:
           # skip the jekyll files
           args: --exclude-path './_includes/*.html' './**/*.md'
           fail: true
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+  export_draft:
+    name: Export epub and pdf (Draft)
+    runs-on: ubuntu-22.04
+    needs: [link_checker]
+    steps:
+      - name: Checkout markdown
+        uses: actions/checkout@v3.4.0
+
+      - name: Combine markdown
+        run: |
+          tail --lines=+14 --quiet draft/0*.md draft/0**/0*.md > draft.markdown
+          mkdir -p publish
+
+      - name: Export to pdf
+        uses: docker://pandoc/latex:3.1
+        with:
+          args: >-
+            --output=publish/OWASP_Developer_Guide.draft.pdf
+            draft/title.pdf.yaml
+            draft.markdown
+
+      - name: Export to epub
+        uses: docker://pandoc/latex:3.1
+        with:
+          args: >-
+            --output=publish/OWASP_Developer_Guide.draft.epub
+            draft/title.yaml
+            draft.markdown
+
+      - name: Save pdfs and epubs
+        uses: actions/upload-artifact@master
+        with:
+          name: export-draft
+          path: publish

@@ -29,23 +29,23 @@ To this effect CSP helps in addressing vulnerabilities that are the target of sc
 
 2.	I assume fonts / images / media / plugins are not loaded from any external sources. 
 
-3.	Do not use ‘*’ as an attribute for any of the components of the policy.
+3.	Do not use \*\ as an attribute for any of the components of the policy.
 
 CSP considers two types of content:
 
-•	Passive content – resources which cannot directly interact with or modify other resources on a page: images, fonts, audio, and video for example
+Passive content - resources which cannot directly interact with or modify other resources on a page: images, fonts, audio, and video for example
 
-•	Active content – content which can in some way directly manipulate the resource with which a user is interacting.
+Active content - content which can in some way directly manipulate the resource with which a user is interacting.
 
 SCOPE
 
 The scope of this policy / procedure / whatever includes (but not limited to):
 
-•	Applications that are displayed in browsers
+-	Applications that are displayed in browsers
 o	On desktops
 o	On laptops
 o	On mobile devices
-•	Mobile Applications
+-	Mobile Applications
 o	iOS
 o	Android
 
@@ -55,28 +55,28 @@ Policy for content security should be set in <<add SSDLC Policy / Secure Coding 
 Web Applications
 
 For web applications, the source of all content is set to self.
-•	default-src 'self'
-•	script-src 'self'; 
-•	script-src 'unsafe-inline' 'unsafe-eval' https:; (I am fairly sure this is used to block unsafe inline scripts and “eval” but to be checked) – Have checked now and unsafe-inline should not be used
-•	connect-src 'self'; 
-•	img-src 'self'; 
-•	style-src 'self'
-•	style-src 'unsafe-inline' https:; (I am fairly sure this is used to block unsafe inline scripts but to be checked) – Have checked now and unsafe-inline should not be used
-•	font-src 'self';
-•	frame-src https:;
-•	frame-ancestors 'none' (This is to prevent ClickJacking equivalent to X-FRAME-OPTIONS = SAME-ORIGIN)
-•	frame-ancestors 'self' (This is to prevent ClickJacking equivalent to X-FRAME-OPTIONS = SAME-ORIGIN)
-•	frame-ancestors ‘example.com’ (This component allows content to be loaded only from example.com.)
-•	media-src ‘self’:;  
-•	object-src ‘self:;
-•	report-uri <<>> (insert the URL where the report for policy violations should be sent)
-•	sandbox (this is something to be tried out … specifies an HTML sandbox policy that the user agent applies to the protected resource)
-•	plugin-types <<>> (insert the list of plugins that the protected resource can invoke)
-•	base-uri (restricts the URLs that can be used to specify the document base URL, but I do not know how this is used)
-•	child-src ‘self’
+-	default-src 'self'
+-	script-src 'self';
+-	script-src 'unsafe-inline' 'unsafe-eval' https:; (I am fairly sure this is used to block unsafe inline scripts and 'eval' but to be checked) - Have checked now and unsafe-inline should not be used
+-	connect-src 'self';
+-	img-src 'self';
+-	style-src 'self'
+-	style-src 'unsafe-inline' https:; (I am fairly sure this is used to block unsafe inline scripts but to be checked) - Have checked now and unsafe-inline should not be used
+-	font-src 'self';
+-	frame-src https:;
+-	frame-ancestors 'none' (This is to prevent ClickJacking equivalent to X-FRAME-OPTIONS = SAME-ORIGIN)
+-	frame-ancestors 'self' (This is to prevent ClickJacking equivalent to X-FRAME-OPTIONS = SAME-ORIGIN)
+-	frame-ancestors 'example.com' (This component allows content to be loaded only from example.com.)
+-	media-src 'self':;
+-	object-src 'self:;
+-	report-uri <<>> (insert the URL where the report for policy violations should be sent)
+-	sandbox (this is something to be tried out specifies an HTML sandbox policy that the user agent applies to the protected resource)
+-	plugin-types <<>> (insert the list of plugins that the protected resource can invoke)
+-	base-uri (restricts the URLs that can be used to specify the document base URL, but I do not know how this is used)
+-	child-src 'self'
 
 An Example:
-<add name="Content-Security-Policy" value="script-src *.google-analytics.com maps.googleapis.com apis.google.com 'self';" “script-src 'self'” “”font-src 'self' “frame-ancestors ‘toyota.co.uk’” “object-src ‘self’” />
+<add name="Content-Security-Policy" value="script-src *.google-analytics.com maps.googleapis.com apis.google.com 'self';" script-src 'self' font-src 'self' frame-ancestors 'toyota.co.uk' object-src 'self' />
 
 For display on desktops and laptops:
 add name="Content-Security-Policy" value
@@ -106,17 +106,17 @@ NSAppTransportSecurity : Dictionary {
 
 4.	Android
 Setting rules for Android application:
-•	If your application doesn't directly use JavaScript within a WebView, do not call setJavaScriptEnabled()
-•	By default, WebView does not execute JavaScript, so cross-site-scripting is not possible
-•	Use addJavaScriptInterface() with particular care because it allows JavaScript to invoke operations that are normally reserved for Android applications. If you use it, expose addJavaScriptInterface() only to web pages from which all input is trustworthy
-•	Expose addJavaScriptInterface() only to JavaScript that is contained within your application APK
-•	When sharing data between two apps that you control or own, use signature-based permissions
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+-	If your application doesn't directly use JavaScript within a WebView, do not call setJavaScriptEnabled()
+-	By default, WebView does not execute JavaScript, so cross-site-scripting is not possible
+-	Use addJavaScriptInterface() with particular care because it allows JavaScript to invoke operations that are normally reserved for Android applications. If you use it, expose addJavaScriptInterface() only to web pages from which all input is trustworthy
+-	Expose addJavaScriptInterface() only to JavaScript that is contained within your application APK
+-	When sharing data between two apps that you control or own, use signature-based permissions
+<manifest xmlns:android=<link to android schemas ...>
     package="com.example.myapp">
     <permission android:name="my_custom_permission_name"
                 android:protectionLevel="signature" />
-•	Disallow other apps from accessing ContentProvider objects
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+-	Disallow other apps from accessing ContentProvider objects
+<manifest xmlns:android=<link to android schemas ...>
     package="com.example.myapp">
     <application ... >
         <provider
