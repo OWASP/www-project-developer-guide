@@ -11,29 +11,7 @@ order: 603
 ---
 
 {% include breadcrumb.html %}
-### 6.3 Cryptographic Practices
-
-The OWASP Development Guide is being rewritten by the OWASP community.
-and the content of this section has yet to be filled in.
-
-If you would like to contribute then follow the 
-[contributing guidelines](https://github.com/OWASP/www-project-developer-guide/blob/main/CONTRIBUTING.md)
-and submit your content for review.
-
-The following subsections are planned:
-
-  * Cryptographic Practices
-    * Data protection
-    * Communication security
-    * TLS certificate management
-    * Database security
-    * Hashes 
-    * File hashes, password hashes, salting
-    * Verification of hashes for integrity and signature	
-    * Secrets handling
-    * Keys (generation, lifecycle management), secrets, API keys
-
-Cryptographic practices
+### 6.3 Cryptographic practices
 
 * The basis for usage of PKI is to address (using encryption and hashing)
 * Confidentiality
@@ -60,7 +38,7 @@ o Communication security
 * Do not use IV twice for a fixed key
 o Cryptography in general
 * All protocols and algorithms for authentication and secure communication should be well vetted by the cryptographic community.
-* Perform Message integrity checking by using a “combined mode of operation,” or a MAC based on a block cipher.
+* Perform Message integrity checking by using a combined mode of operation, or a MAC based on a block cipher.
 * Do not use key sizes less than 128 bits or cryptographic hash functions with output sizes less than 160 bits.
 * Do not use custom cryptographic algorithms that have not been vetted by cryptography community
 * Do not hardcode cryptographic keys in applications?
@@ -77,7 +55,5 @@ o Cryptography in general
 * Persist secret keys in a secure vault like HSM, KMS, Secrets Manager
 * Do not use IV twice for a fixed key 
 * Ensure that cryptographic randomness is used where appropriate, and that it has not been seeded in a predictable way or with low entropy. Most modern APIs do not require the developer to seed the CSPRNG to get security.
-	
 
-
-
+\newpage

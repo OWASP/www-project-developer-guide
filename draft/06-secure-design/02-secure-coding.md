@@ -40,3 +40,5 @@ The following subsections are planned:
     * Unvalidated redirects
     * JSON
     * Usage of DOM and functions
+
+\newpage

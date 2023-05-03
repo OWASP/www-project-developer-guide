@@ -38,3 +38,5 @@ Those who set policy are recommended to read as much as they can;
 only by knowledge of what can go wrong can organizations set policy to prevent the acquisition or development of insecure software.
 
 [samm]: https://owaspsamm.org/about/
+
+\newpage

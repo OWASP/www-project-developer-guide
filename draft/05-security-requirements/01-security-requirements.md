@@ -11,8 +11,6 @@ order: 501
 ---
 
 {% include breadcrumb.html %}
-## 5. Security Requirements
-
 ### 5.1 Overview
 
 The OWASP Development Guide is being rewritten by the OWASP community.
@@ -26,3 +24,5 @@ The following subsections are planned:
 
   * Threat modeling (hive off to threat modeling material on OWASP)
   * Regulatory / statutory requirements
+
+\newpage

@@ -11,8 +11,6 @@ order: 1001
 ---
 
 {% include breadcrumb.html %}
-## 10. Security Testing and Validation
-
 ### 10.1 Overview
 
 The OWASP Development Guide is being rewritten by the OWASP community.
@@ -27,4 +25,5 @@ The following subsections are planned:
   * SAST
   * DAST (hive off to OWASP ASVS and OWASP WSTG)
   * Security test cases
-  
+
+\newpage

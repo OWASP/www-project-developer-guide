@@ -11,8 +11,6 @@ order: 601
 ---
 
 {% include breadcrumb.html %}
-## 6. Secure Design
-
 ### 6.1 Overview
 
 The OWASP Development Guide is being rewritten by the OWASP community.
@@ -62,3 +60,4 @@ The following subsections are planned:
   * File management
   * Memory management
 
+\newpage

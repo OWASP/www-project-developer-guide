@@ -13,13 +13,6 @@ order: 702
 {% include breadcrumb.html %}
 ### 7.2 Image security
 
-The OWASP Development Guide is being rewritten by the OWASP community.
-and the content of this section has yet to be filled in.
-
-If you would like to contribute then follow the 
-[contributing guidelines](https://github.com/OWASP/www-project-developer-guide/blob/main/CONTRIBUTING.md)
-and submit your content for review.
-
 Image security, host security, client security, daemon security, runtime security:
 * Choose the right base image
 * Include only the required packages in the image
@@ -47,7 +40,7 @@ o Use layer caching and multi stage builds to:
 * Offline keys are owned by the organisation and secured in an out-of-band location.
 * Scan images frequently for any vulnerabilities. Rebuilt all images to include patches and instantiate new containers from them
 * Remove Setuid and setgid permissions from the images.
-* Where applicable, use ‘copy’ instruction in place of ‘add’ instruction.
+* Where applicable, use 'copy' instruction in place of 'add' instruction.
 * Verify authenticity of packages before installing them into images
 * Use namespaces and control groups for containers
 * Use bridge interfaces for the host
@@ -77,7 +70,7 @@ o Use layer caching and multi stage builds to:
 * TLS CA certificate file on the image host (the file that is passed along with the --tlscacert parameter) has permissions of 444 or is set more restrictively
 * Containers should run as a non-root user.
 * Containers should have as small a footprint as possible, and should not contain unnecessary software packages which could increase their attack surface
-* Docker's default bridge ‘docker0’ is not used to avoid ARP spoofing and MAC flooding attacks.
+* Docker's default bridge 'docker0' is not used to avoid ARP spoofing and MAC flooding attacks.
 * Either Dockers AppArmor policy is enabled or the Docker hosts AppArmor is enabled.
 * SELinux policy is enabled on the Docker host.
 * Linux kernel capabilities are restricted within containers
@@ -117,4 +110,4 @@ o Use layer caching and multi stage builds to:
 * daemon.json file individual ownership and group ownership is correctly set to root, if it is in use.
 * daemon.json file is present its file permissions are correctly set to 644 or more restrictively.
 
-
+\newpage

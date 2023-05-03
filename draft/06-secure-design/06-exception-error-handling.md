@@ -13,19 +13,6 @@ order: 606
 {% include breadcrumb.html %}
 ### 6.6 Exception and Error Handling
 
-The OWASP Development Guide is being rewritten by the OWASP community.
-and the content of this section has yet to be filled in.
-
-If you would like to contribute then follow the 
-[contributing guidelines](https://github.com/OWASP/www-project-developer-guide/blob/main/CONTRIBUTING.md)
-and submit your content for review.
-
-The following subsections are planned:
-
-  * Exception and error handling
-    * Fail secure
-    * Logging
-
 * Ensure that all method/function calls that return a value have proper error handling and return value checking.
 * Ensure that exceptions and error conditions are properly handled.
 * Ensure that no system errors can be returned to the user.
@@ -41,20 +28,26 @@ and an exception occurred without finally, the connection object shall not be re
 * This can lead to pool exhaustion. finally() is called even if no exception is thrown.
 * Handle errors and exception conditions in the code
 * Do not expose sensitive information in user sessions
-* When working with a multi-threaded or otherwise asynchronous environment, ensure that proper locking APIs are used to lock before the if statement; and unlock when it has finished.
+* When working with a multi-threaded or otherwise asynchronous environment, ensure that proper locking APIs are used to lock before the if statement;
+    and unlock when it has finished.
 
 * Types of errors:
-• The result of business logic conditions not being met.
-• The result of the environment wherein the business logic resides fails.
-• The result of upstream or downstream systems upon which the application depends fail.
-• Technical hardware / physical failure.
+- The result of business logic conditions not being met.
+- The result of the environment wherein the business logic resides fails.
+- The result of upstream or downstream systems upon which the application depends fail.
+- Technical hardware / physical failure.
 
-* Failures are never expected, but they do occur. In the event of a failure, it is important not to leave the "doors" of the application open and the keys to other "rooms" within the application sitting on the table. In the course of a logical workflow, which is designed based upon requirements, errors may occur which can be programmatically handled, such as a connection pool not being available, or a downstream server not being contactable. 
+* Failures are never expected, but they do occur.
+    In the event of a failure, it is important not to leave the "doors" of the application open
+    and the keys to other "rooms" within the application sitting on the table.
+    In the course of a logical workflow, which is designed based upon requirements, errors may occur which can be programmatically handled,
+    such as a connection pool not being available, or a downstream server not being contactable.
 
 * This is a very tricky guideline.
 
 To fail securely, areas of failure should be examined during the course of the code review. 
-It should be examined if all resources should be released in the case of a failure and during the thread of execution if there is any potential for resource leakage, resources being memory, connection pools, file handles etc. 
+It should be examined if all resources should be released in the case of a failure
+and during the thread of execution if there is any potential for resource leakage, resources being memory, connection pools, file handles etc.
 Include a statement that defaults to safe failure
 
 * The review of code should also include pinpointing areas where the user session should be terminated or invalidated. 
@@ -62,7 +55,9 @@ Sometimes errors may occur which do not make any logical sense from a business l
 
 e.g: ""A logged in user looking to access an account which is not registered to that user and such data could not be inputted in the normal fashion."""
 
-* Examine the application for “main()” executable functions and debug harnesses/backdoors. In their basic form, backdoors are user id / password combination with the required privileges, embedded in the code, which can be used later on by the developer to get into the system without having to request for login credentials.
+* Examine the application for 'main()' executable functions and debug harnesses/backdoors.
+In their basic form, backdoors are user id / password combination with the required privileges, embedded in the code,
+which can be used later on by the developer to get into the system without having to request for login credentials.
 
 * Search for commented out code, commented out test code, which may contain sensitive information.
 
@@ -73,7 +68,7 @@ Logging:
 
 * Ensure the payload being logged is of a defined maximum length and that the logging mechanism enforces that length.
 
-* Ensure no sensitive data can be logged; E.g. cookies, HTTP “GET” method, authentication credentials.
+* Ensure no sensitive data can be logged; E.g. cookies, HTTP GET method, authentication credentials.
 
 * Examine if the application will audit the actions being taken by the application on behalf of the client (particularly data manipulation/Create, Read, Update, Delete (CRUD) operations).
 
@@ -123,3 +118,5 @@ Logging:
 * Log cryptographic module failures
 
 * Use a cryptographic hash function to validate log entry integrity
+
+\newpage

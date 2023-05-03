@@ -11,8 +11,6 @@ order: 701
 ---
 
 {% include breadcrumb.html %}
-## 7. Container Security
-
 ### 7.1 Overview
 
 The OWASP Development Guide is being rewritten by the OWASP community.
@@ -26,3 +24,5 @@ The following subsections are planned:
 
   * Image security
   * Container scanning
+
+\newpage

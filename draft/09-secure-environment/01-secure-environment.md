@@ -11,8 +11,6 @@ order: 901
 ---
 
 {% include breadcrumb.html %}
-## 9. Secure Environment
-
 ### 9.1 Overview
 
 The OWASP Development Guide is being rewritten by the OWASP community.
@@ -26,3 +24,5 @@ The following subsections are planned:
 
   * System hardening
   * File systems and downloads
+
+\newpage

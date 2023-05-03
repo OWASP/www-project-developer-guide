@@ -129,3 +129,5 @@ Setting rules for Android application:
         ...
     </application>
 </manifest>
+
+\newpage

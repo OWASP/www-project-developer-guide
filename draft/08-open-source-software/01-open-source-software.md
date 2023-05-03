@@ -11,8 +11,6 @@ order: 801
 ---
 
 {% include breadcrumb.html %}
-## 8. Open Source Software
-
 ### 8.1 Overview
 
 The OWASP Development Guide is being rewritten by the OWASP community.
@@ -26,3 +24,5 @@ The following subsections are planned:
 
   * Static Code Analysis (for licencing and dependencies)
   * Third Party Software and Libraries (hive off to OWASP’s Dependency Tracker)
+
+\newpage
