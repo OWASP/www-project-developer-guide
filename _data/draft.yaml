@@ -1,6 +1,9 @@
 docs_list_title: Developer Guide (draft)
 docs:
 
+- title: 'Table of contents'
+  url: 00-toc
+
 - title: '1. Audience'
   url: 01-audience
 
@@ -13,20 +16,20 @@ docs:
 - title: '4. Introduction'
   url: 04-introduction
 
-- title: '5. Security Requirements'
-  url: 05-security-requirements/01-security-requirements
+- title: '5. Security requirements'
+  url: 05-security-requirements/00-toc
 
 - title: '5.1 Overview'
   url: 05-security-requirements/01-security-requirements#overview
 
-- title: '5.2 Threat Modeling'
+- title: '5.2 Threat modeling'
   url: 05-security-requirements/02-threat-modeling
 
-- title: '5.3 Regulatory and Statutory Requirements'
+- title: '5.3 Regulatory and statutory requirements'
   url: 05-security-requirements/03-regulatory-statutory-requirements
 
-- title: '6. Secure Design'
-  url: 06-secure-design/01-secure-design
+- title: '6. Secure design'
+  url: 06-secure-design/00-toc
 
 - title: '6.1 Overview'
   url: 06-secure-design/01-secure-design#overview
@@ -34,26 +37,26 @@ docs:
 - title: '6.2 Secure coding'
   url: 06-secure-design/02-secure-coding
 
-- title: '6.3 Cryptographic Practices'
+- title: '6.3 Cryptographic practices'
   url: 06-secure-design/03-cryptographic-practices
 
-- title: '6.4 Application Spoofing'
+- title: '6.4 Application spoofing'
   url: 06-secure-design/04-application-spoofing
 
-- title: '6.5 Content Security policy'
+- title: '6.5 Content Security Policy (CSP)'
   url: 06-secure-design/05-content-security-policy
 
-- title: '6.6 Exception and Error Handling'
+- title: '6.6 Exception and error handling'
   url: 06-secure-design/06-exception-error-handling
 
-- title: '6.7 File Management'
+- title: '6.7 File management'
   url: 06-secure-design/07-file-management
 
-- title: '6.8 Memory Management'
+- title: '6.8 Memory management'
   url: 06-secure-design/08-memory-management
 
-- title: '7. Container Security'
-  url: 07-container-security/01-container-security
+- title: '7. Container security'
+  url: 07-container-security/00-toc
 
 - title: '7.1 Overview'
   url: 07-container-security/01-container-security#overview
@@ -64,20 +67,20 @@ docs:
 - title: '7.3 Container scanning'
   url: 07-container-security/03-container-scanning
 
-- title: '8. Open Source Software'
-  url: 08-open-source-software/01-open-source-software
+- title: '8. Open-Source software'
+  url: 08-open-source-software/00-toc
 
 - title: '8.1 Overview'
   url: 08-open-source-software/01-open-source-software#overview
 
-- title: '8.2 Static Code Analysis'
+- title: '8.2 Static code analysis'
   url: 08-open-source-software/02-sca
 
-- title: '8.3 Third Party Software and Libraries'
+- title: '8.3 Third Party Software (TPS) and libraries'
   url: 08-open-source-software/03-tps
 
-- title: '9. Secure Environment'
-  url: 09-secure-environment/01-secure-environment
+- title: '9. Secure environment'
+  url: 09-secure-environment/00-toc
 
 - title: '9.1 Overview'
   url: 09-secure-environment/01-secure-environment#overview
@@ -88,14 +91,14 @@ docs:
 - title: '9.3 File systems and downloads'
   url: 09-secure-environment/03-files
 
-- title: '10. Security Testing and Validation'
-  url: 10-security-testing-validation/01-security-testing-validation
+- title: '10. Security testing and validation'
+  url: 10-security-testing-validation/00-toc
   
 - title: '10.1 Overview'
   url: 10-security-testing-validation/01-security-testing-validation#overview
   
-- title: '10.2 Static Application Security Testing'
+- title: '10.2 Static Application Security Testing (SAST)'
   url: 10-security-testing-validation/02-sast
 
-- title: '10.3 Dynamic Application Security Testing'
+- title: '10.3 Dynamic Application Security Testing (DAST)'
   url: 10-security-testing-validation/03-dast
