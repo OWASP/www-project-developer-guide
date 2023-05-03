@@ -1,9 +1,6 @@
 docs_list_title: Developer Guide (draft)
 docs:
 
-- title: 'Table of contents'
-  url: 00-toc
-
 - title: '1. Audience'
   url: 01-audience
 
