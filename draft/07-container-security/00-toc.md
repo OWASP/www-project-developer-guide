@@ -1,22 +1,19 @@
 ---
 
-title: Table of Contents
+title: Container Security
 layout: col-document
 tags: OWASP Developer Guide
 author:
 contributors:
 document: OWASP Developer Guide
-order: 700
+order:
 
 ---
 
 {% include breadcrumb.html %}
 ## 7. Container security
-
-7.1 [Overview](01-container-security.md)
-
-7.2 [Image security](02-image-security.md)
-
-7.3 [Container scanning](03-container-scanning.md)
+7.1 [Overview](#container-security-overview)  
+7.2 [Image security](#image-security)  
+7.3 [Container scanning](#container-scanning)  
 
 \newpage

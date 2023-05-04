@@ -42,12 +42,12 @@ SCOPE
 The scope of this policy / procedure / whatever includes (but not limited to):
 
 -	Applications that are displayed in browsers
-o	On desktops
-o	On laptops
-o	On mobile devices
+    - On desktops
+    - On laptops
+    - On mobile devices
 -	Mobile Applications
-o	iOS
-o	Android
+    - iOS
+    - Android
 
 
 Policy for content security should be set in <<add SSDLC Policy / Secure Coding Policy / any others that is applicable>>. Unless otherwise specified  by the customer, third party sources should not be allowed to connect from the deployed solutions

@@ -1,6 +1,6 @@
 ---
 
-title: Container Security
+title: Container Security Overview
 layout: col-document
 tags: OWASP Developer Guide
 author:
@@ -11,7 +11,7 @@ order: 701
 ---
 
 {% include breadcrumb.html %}
-### 7.1 Overview
+### 7.1 Container security overview
 
 The OWASP Development Guide is being rewritten by the OWASP community.
 and the content of this section has yet to be filled in.
