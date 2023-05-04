@@ -1,6 +1,6 @@
 ---
 
-title: Secure Environment
+title: Secure Environment Overview
 layout: col-document
 tags: OWASP Developer Guide
 author:
@@ -11,7 +11,7 @@ order: 901
 ---
 
 {% include breadcrumb.html %}
-### 9.1 Overview
+### 9.1 Secure environment overview
 
 The OWASP Development Guide is being rewritten by the OWASP community.
 and the content of this section has yet to be filled in.

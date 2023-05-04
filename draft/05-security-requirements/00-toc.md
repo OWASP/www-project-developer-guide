@@ -1,22 +1,19 @@
 ---
 
-title: Table of Contents
+title: Security Requirements
 layout: col-document
 tags: OWASP Developer Guide
 author:
 contributors:
 document: OWASP Developer Guide
-order: 500
+order:
 
 ---
 
 {% include breadcrumb.html %}
 ## 5. Security requirements
-
-5.1 [Overview](01-security-requirements.md)
-
-5.2 [Threat modeling](02-threat-modeling.md)
-
-5.3 [Regulatory and statutory requirements](03-regulatory-statutory-requirements.md)
+5.1 [Overview](#security-requirements-overview)  
+5.2 [Threat modeling](#threat-modeling)  
+5.3 [Regulatory and statutory requirements](#regulatory-and-statutory-requirements)  
 
 \newpage

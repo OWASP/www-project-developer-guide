@@ -1,6 +1,6 @@
 ---
 
-title: Security Testing and Validation
+title: Security Testing and Validation Overview
 layout: col-document
 tags: OWASP Developer Guide
 author:
@@ -11,7 +11,7 @@ order: 1001
 ---
 
 {% include breadcrumb.html %}
-### 10.1 Overview
+### 10.1 Security testing and validation overview
 
 The OWASP Development Guide is being rewritten by the OWASP community.
 and the content of this section has yet to be filled in.

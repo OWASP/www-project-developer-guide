@@ -1,32 +1,24 @@
 ---
 
-title: Table of Contents
+title: Secure Design
 layout: col-document
 tags: OWASP Developer Guide
 author:
 contributors:
 document: OWASP Developer Guide
-order: 600
+order:
 
 ---
 
 {% include breadcrumb.html %}
 ## 6. Secure design
-
-6.1 [Overview](01-secure-design.md)
-
-6.2 [Secure coding](02-secure-coding.md)
-
-6.3 [Cryptographic practices](03-cryptographic-practices.md)
-
-6.4 [Application spoofing](04-application-spoofing.md)
-
-6.5 [Content Security Policy (CPS)](05-content-security-policy.md)
-
-6.6 [Exception and error handling](06-exception-error-handling.md)
-
-6.7 [File management](07-file-management.md)
-
-6.8 [Memory management](08-memory-management.md)
+6.1 [Overview](#secure-design-overview)  
+6.2 [Secure coding](#secure-coding)  
+6.3 [Cryptographic practices](#cryptographic-practices)  
+6.4 [Application spoofing](#application-spoofing)  
+6.5 [Content Security Policy (CSP)](#content-security-policy)  
+6.6 [Exception and error handling](#exception-and-error-handling)  
+6.7 [File management](#file-management)  
+6.8 [Memory management](#memory-management)  
 
 \newpage
