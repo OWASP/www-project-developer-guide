@@ -3,7 +3,7 @@
 title: Image security
 layout: col-document
 tags: OWASP Developer Guide
-author:
+author: Shruti Kulkarni
 contributors:
 document: OWASP Developer Guide
 order: 702
