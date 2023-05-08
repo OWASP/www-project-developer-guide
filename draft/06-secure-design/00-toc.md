@@ -1,6 +1,6 @@
 ---
 
-title: Secure Design
+title: Secure Design overview
 layout: col-document
 tags: OWASP Developer Guide
 author:
@@ -12,6 +12,13 @@ order:
 
 {% include breadcrumb.html %}
 ## 6. Secure design
+
+### Overview
+This should be a brief overview / abstract of the section on security design.
+The Introduction contains more detail and the further sections expand on that
+
+Sections:
+
 6.1 [Introduction](#introduction-to-secure-design)  
 6.2 [Secure coding](#secure-coding)  
 6.3 [Cryptographic practices](#cryptographic-practices)  
