@@ -12,9 +12,6 @@ order: 700
 
 {% include breadcrumb.html %}
 ## 7. Container security
-
-7.1 [Overview](01-container-security.md)
-
-7.2 [Image security](02-image-security.md)
-
+7.1 [Introduction](01-container-security.md)  
+7.2 [Image security](02-image-security.md)  
 7.3 [Container scanning](03-container-scanning.md)

@@ -1,6 +1,6 @@
 ---
 
-title: Secure Design
+title: Secure Design Introduction
 layout: col-document
 tags: OWASP Developer Guide
 author:
@@ -11,7 +11,7 @@ order: 601
 ---
 
 {% include breadcrumb.html %}
-### 6.1 Secure design overview
+### 6.1 Introduction to secure design
 
 The OWASP Development Guide is being rewritten by the OWASP community.
 and the content of this section has yet to be filled in.

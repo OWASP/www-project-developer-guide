@@ -12,7 +12,7 @@ order:
 
 {% include breadcrumb.html %}
 ## 6. Secure design
-6.1 [Overview](#secure-design-overview)  
+6.1 [Introduction](#introduction-to-secure-design)  
 6.2 [Secure coding](#secure-coding)  
 6.3 [Cryptographic practices](#cryptographic-practices)  
 6.4 [Application spoofing](#application-spoofing)  

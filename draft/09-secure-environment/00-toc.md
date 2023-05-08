@@ -12,7 +12,7 @@ order:
 
 {% include breadcrumb.html %}
 ## 9. Secure environment
-9.1 [Overview](#secure-environment-overview)  
+9.1 [Introduction](#introduction-to-secure-environment)  
 9.2 [System hardening](#system-hardening)  
 9.3 [File systems and downloads](#file-systems-and-downloads)  
 
