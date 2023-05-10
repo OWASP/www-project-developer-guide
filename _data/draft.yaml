@@ -16,8 +16,8 @@ docs:
 - title: '5. Security requirements'
   url: 05-security-requirements/toc
 
-- title: '5.1 Overview'
-  url: 05-security-requirements/01-security-requirements#overview
+- title: '5.1 Introduction'
+  url: 05-security-requirements/01-security-requirements
 
 - title: '5.2 Threat modeling'
   url: 05-security-requirements/02-threat-modeling
@@ -28,8 +28,8 @@ docs:
 - title: '6. Secure design'
   url: 06-secure-design/toc
 
-- title: '6.1 Overview'
-  url: 06-secure-design/01-secure-design#overview
+- title: '6.1 Introduction'
+  url: 06-secure-design/01-secure-design
 
 - title: '6.2 Secure coding'
   url: 06-secure-design/02-secure-coding
@@ -55,8 +55,8 @@ docs:
 - title: '7. Container security'
   url: 07-container-security/toc
 
-- title: '7.1 Overview'
-  url: 07-container-security/01-container-security#overview
+- title: '7.1 Introduction'
+  url: 07-container-security/01-container-security
 
 - title: '7.2 Image security'
   url: 07-container-security/02-image-security
@@ -67,8 +67,8 @@ docs:
 - title: '8. Open-Source software'
   url: 08-open-source-software/toc
 
-- title: '8.1 Overview'
-  url: 08-open-source-software/01-open-source-software#overview
+- title: '8.1 Introduction'
+  url: 08-open-source-software/01-open-source-software
 
 - title: '8.2 Static code analysis'
   url: 08-open-source-software/02-sca
@@ -79,8 +79,8 @@ docs:
 - title: '9. Secure environment'
   url: 09-secure-environment/toc
 
-- title: '9.1 Overview'
-  url: 09-secure-environment/01-secure-environment#overview
+- title: '9.1 Introduction'
+  url: 09-secure-environment/01-secure-environment
 
 - title: '9.2 System hardening'
   url: 09-secure-environment/02-system-hardening
@@ -91,8 +91,8 @@ docs:
 - title: '10. Security testing and validation'
   url: 10-security-testing-validation/toc
   
-- title: '10.1 Overview'
-  url: 10-security-testing-validation/01-security-testing-validation#overview
+- title: '10.1 Introduction'
+  url: 10-security-testing-validation/01-security-testing-validation
   
 - title: '10.2 Static Application Security Testing (SAST)'
   url: 10-security-testing-validation/02-sast

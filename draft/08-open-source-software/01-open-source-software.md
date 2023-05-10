@@ -1,6 +1,6 @@
 ---
 
-title: Open Source Software Overview
+title: Open Source Software Introduction
 layout: col-document
 tags: OWASP Developer Guide
 author:
@@ -11,7 +11,7 @@ order: 801
 ---
 
 {% include breadcrumb.html %}
-### 8.1 Open Source software overview
+### 8.1 Introduction to Open Source software
 
 The OWASP Development Guide is being rewritten by the OWASP community.
 and the content of this section has yet to be filled in.
