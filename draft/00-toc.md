@@ -14,13 +14,13 @@ permalink: /draft/
 ## OWASP Developer Guide (draft)
 _The draft version has the latest contributions to the Developer Guide, and so the content is expected to frequently change._
 
-1 **[Audience](#1-audience)**
+1 **[Audience](#audience)**
 
-2 **[Background](#2-background)**
+2 **[Background](#background)**
 
-3 **[Abstract](#3-abstract)**
+3 **[Abstract](#abstract)**
 
-4 **[Introduction](#4-introduction)**
+4 **[Introduction](#introduction)**
 
 5 **[Security requirements](#security-requirements)**  
 5.1 [Introduction](#introduction-to-security-requirements)  
@@ -54,7 +54,7 @@ _The draft version has the latest contributions to the Developer Guide, and so t
 
 10 **[Security testing and validation](#security-testing-and-validation)**  
 10.1 [Introduction](#introduction-to-security-testing-and-validation)  
-10.2 [Static Application Security Testing (SAST)](#-static-application-security-testing)  
-10.3 [Dynamic Application Security Testing (DAST)](#-dynamic-application-security-testing)  
+10.2 [Static Application Security Testing (SAST)](#static-application-security-testing)  
+10.3 [Dynamic Application Security Testing (DAST)](#dynamic-application-security-testing)  
 
 \newpage
