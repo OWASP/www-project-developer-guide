@@ -14,18 +14,19 @@ order: 702
 ### 7.2 Image security
 
 Image security, host security, client security, daemon security, runtime security:
+
 * Choose the right base image
 * Include only the required packages in the image
-* If using Docker images, use multi-stage builds 
-o Use layer caching and multi stage builds to:
-* 	Separate build-time dependencies from runtime dependencies
-* 	Remove special permissions from images 
-* 	find / -perm /6000 -type f -exec ls -ld {} \;
-* 	RUN find / -xdev -perm /6000 -type f -exec chmod a-s {} \; || true
+* If using Docker images, use multi-stage builds
+* Use layer caching and multi stage builds to:
+    * Separate build-time dependencies from runtime dependencies
+    * Remove special permissions from images 
+    * find / -perm /6000 -type f -exec ls -ld {} \;
+    * RUN find / -xdev -perm /6000 -type f -exec chmod a-s {} \; || true
 * Reduce overall image size by shipping only what your app needs to run
 * Please see the URL - https://docs.docker.com/get-started/09_image_best/ - for more information
 * Remove unused images with prune
-* $ docker image prune [OPTIONS]
+* docker image prune [OPTIONS]
 * Do not embed any secrets, passwords, keys, credentials, etc in images
 * Use a read-only file system
 * Sign images with cryptographic keys and not with username/password combination
