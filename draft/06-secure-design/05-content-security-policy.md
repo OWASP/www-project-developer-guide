@@ -13,23 +13,15 @@ order: 605
 {% include breadcrumb.html %}
 ### 6.5 Content Security policy
 
-The OWASP Development Guide is being rewritten by the OWASP community.
-and the content of this section has yet to be filled in.
-
-If you would like to contribute then follow the 
-[contributing guidelines](https://github.com/OWASP/www-project-developer-guide/blob/main/CONTRIBUTING.md)
-and submit your content for review.
-
-
 Content Security Policy (CSP) helps in whitelisting the sources that are allowed to be executed by clients.
 
 To this effect CSP helps in addressing vulnerabilities that are the target of scripts getting executed from different domains (namely XSS, ClickJacking)  
 
-1.	The policy elements listed below is restrictive. Third party libraries can be whitelisted as a part of script-src, default-src, frame-src or frame-ancestors.
+1. The policy elements listed below is restrictive. Third party libraries can be whitelisted as a part of script-src, default-src, frame-src or frame-ancestors.
 
-2.	I assume fonts / images / media / plugins are not loaded from any external sources. 
+2. I assume fonts / images / media / plugins are not loaded from any external sources.
 
-3.	Do not use \*\ as an attribute for any of the components of the policy.
+3. Do not use \*\ as an attribute for any of the components of the policy.
 
 CSP considers two types of content:
 
@@ -52,9 +44,9 @@ The scope of this policy / procedure / whatever includes (but not limited to):
 
 Policy for content security should be set in <<add SSDLC Policy / Secure Coding Policy / any others that is applicable>>. Unless otherwise specified  by the customer, third party sources should not be allowed to connect from the deployed solutions
 
-Web Applications
-
+#### Web Applications
 For web applications, the source of all content is set to self.
+
 - default-src 'self'
 - script-src 'self';
 - script-src 'unsafe-inline' 'unsafe-eval' https:; (I am fairly sure this is used to block unsafe inline scripts and 'eval' but to be checked) - Have checked now and unsafe-inline should not be used
@@ -76,17 +68,16 @@ For web applications, the source of all content is set to self.
 - child-src 'self'
 
 An Example:
-```
-<add name="Content-Security-Policy" value="script-src *.google-analytics.com maps.googleapis.com apis.google.com 'self';" script-src 'self' font-src 'self' frame-ancestors 'toyota.co.uk' object-src 'self' />
-```
 
-For display on desktops and laptops:
-add name="Content-Security-Policy" value
+`<add name="Content-Security-Policy" value="script-src *.google-analytics.com maps.googleapis.com apis.google.com 'self';" script-src 'self' font-src 'self' frame-ancestors 'toyota.co.uk' object-src 'self' />`
 
-For display on other mobile decvices that use HTML5:
-meta http-equiv="Content-Security-Policy"
-Mobile Apps	 
-iOS
+For display on desktops and laptops: add `name="Content-Security-Policy"` value
+
+For display on other mobile decvices that use HTML5: `meta http-equiv="Content-Security-Policy"`
+
+#### Mobile Applications	
+
+#### iOS
 
 iOS framework has capability to restrict connecting to sites that are not a part of the whitelist on the application, which is the NSExceptionDomains. Use this setting to restrict the content that gets executed by the application
 
@@ -108,17 +99,22 @@ NSAppTransportSecurity : Dictionary {
 }
 ```
 
-4.	Android
+#### Android
 Setting rules for Android application:
+
 - If your application doesn't directly use JavaScript within a WebView, do not call setJavaScriptEnabled()
 - By default, WebView does not execute JavaScript, so cross-site-scripting is not possible
 - Use addJavaScriptInterface() with particular care because it allows JavaScript to invoke operations that are normally reserved for Android applications. If you use it, expose addJavaScriptInterface() only to web pages from which all input is trustworthy
 - Expose addJavaScriptInterface() only to JavaScript that is contained within your application APK
 - When sharing data between two apps that you control or own, use signature-based permissions
+
+```
 <manifest xmlns:android=<link to android schemas ...>
     package="com.example.myapp">
     <permission android:name="my_custom_permission_name"
                 android:protectionLevel="signature" />
+```
+
 - Disallow other apps from accessing ContentProvider objects
 
 ```

@@ -32,16 +32,17 @@ and an exception occurred without finally, the connection object shall not be re
     and unlock when it has finished.
 
 * Types of errors:
-- The result of business logic conditions not being met.
-- The result of the environment wherein the business logic resides fails.
-- The result of upstream or downstream systems upon which the application depends fail.
-- Technical hardware / physical failure.
+    * The result of business logic conditions not being met.
+    * The result of the environment wherein the business logic resides fails.
+    * The result of upstream or downstream systems upon which the application depends fail.
+    * Technical hardware / physical failure.
 
 * Failures are never expected, but they do occur.
-    In the event of a failure, it is important not to leave the "doors" of the application open
-    and the keys to other "rooms" within the application sitting on the table.
-    In the course of a logical workflow, which is designed based upon requirements, errors may occur which can be programmatically handled,
-    such as a connection pool not being available, or a downstream server not being contactable.
+
+In the event of a failure, it is important not to leave the "doors" of the application open
+and the keys to other "rooms" within the application sitting on the table.
+In the course of a logical workflow, which is designed based upon requirements, errors may occur which can be programmatically handled,
+such as a connection pool not being available, or a downstream server not being contactable.
 
 * This is a very tricky guideline.
 
@@ -63,7 +64,8 @@ which can be used later on by the developer to get into the system without havin
 
 * Search for any calls to the underlying operating system or file open calls and examine the error possibilities.
 
-Logging:
+#### Logging
+
 * Ensure that no sensitive information is logged in the event of an error.
 
 * Ensure the payload being logged is of a defined maximum length and that the logging mechanism enforces that length.

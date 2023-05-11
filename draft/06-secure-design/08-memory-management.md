@@ -13,13 +13,6 @@ order: 608
 {% include breadcrumb.html %}
 ### 6.8 Memory Management
 
-The OWASP Development Guide is being rewritten by the OWASP community.
-and the content of this section has yet to be filled in.
-
-If you would like to contribute then follow the 
-[contributing guidelines](https://github.com/OWASP/www-project-developer-guide/blob/main/CONTRIBUTING.md)
-and submit your content for review.
-
 * Check that the buffer is as large as specified
 
 * When using functions that accept a number of bytes to copy, such as strncpy( ), be aware that if the destination buffer size is equal to the source buffer size, it may not NULL-terminate the string
