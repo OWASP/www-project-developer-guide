@@ -29,7 +29,7 @@ Much of this guide is based on various OWASP sources:
 * [Cheat Sheet Series][cheat]
 * [Web Security Testing Guide][wstg]
 
-and for greater detail or wider context then follow the links to these resources.
+follow the links to these resources for greater detail or wider context.
 
 [cheat]: https://owasp.org/www-project-cheat-sheets/
 [top10]: https://owasp.org/www-project-top-ten/

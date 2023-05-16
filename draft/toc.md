@@ -20,9 +20,9 @@ _The draft version has the latest contributions to the Developer Guide, and so t
 
 3 **[Introduction](03-introduction.md)**
 
-4 **[Foundations](04-foundations/toc.md)**
+4 **[Foundations](04-foundations/toc.md)**  
 4.1 [Security fundamentals](04-foundations/01-foundations.md)  
-4.2 [Secure Development Lifecycle (SDLC)](02-sdlc.md)  
+4.2 [Secure Development Lifecycle (SDLC)](04-foundations/02-sdlc.md)  
 
 5 **[Security requirements](05-security-requirements/toc.md)**  
 5.1 [Introduction](05-security-requirements/01-security-requirements.md)  
