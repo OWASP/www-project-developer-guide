@@ -20,11 +20,10 @@ pitch: The Developer Guide allows businesses, developers, designers
 {% endif %}
 
 Along with the OWASP Top Ten, the Developer Guide is one of the original resources
-published by OWASP soon after it was created in 2001.
+published soon after OWASP was formed in 2001.
 
-Version 1.0 of the Developer Guide was provided in 2002
-and since then there have been various [releases][versions],
-the latest being version 2.0 in 2005.
+Version 1.0 of the Developer Guide was released in 2002
+and since then there have been various [releases][versions], the latest being version 2.0 in 2005.
 There is a [draft version](draft) available that is based on an unreleased version (3.0) from 2015.
 This is very much work in progress and is subject to large scale and frequent changes.
 

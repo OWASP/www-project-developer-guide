@@ -18,14 +18,17 @@ _The draft version has the latest contributions to the Developer Guide, and so t
 
 2 **[Background](02-background.md)**
 
-3 **[Abstract](03-abstract.md)**
+3 **[Introduction](03-introduction.md)**
 
-4 **[Introduction](04-introduction.md)**
+4 **[Foundations](04-foundations/toc.md)**
+4.1 [Security fundamentals](04-foundations/01-foundations.md)  
+4.2 [Secure Development Lifecycle (SDLC)](02-sdlc.md)  
 
 5 **[Security requirements](05-security-requirements/toc.md)**  
 5.1 [Introduction](05-security-requirements/01-security-requirements.md)  
-5.2 [Threat modeling](05-security-requirements/02-threat-modeling.md)  
-5.3 [Regulatory and statutory requirements](05-security-requirements/03-regulatory-statutory-requirements.md)  
+5.2 [Regulatory and statutory requirements](05-security-requirements/02-regulatory-statutory-requirements.md)  
+5.3 [Threat modeling](05-security-requirements/03-threat-modeling.md)  
+5.2 [Remediation](05-security-requirements/04-remediation.md)  
 
 6 **[Secure design](06-secure-design/toc.md)**  
 6.1 [Introduction](06-secure-design/01-secure-design.md)  

@@ -18,12 +18,12 @@
 # draft version
 !draft/
 !draft/title*.yaml
-!draft/**
+!draft/0*/
 !draft/**/*.md
 !draft/assets/images/*.png
 
 # pages markdown
 !./*.md
-!assets/images/*
+!assets/images/*.png
 !LICENSE.txt
 

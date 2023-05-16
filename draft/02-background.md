@@ -13,11 +13,27 @@ order: 200
 {% include breadcrumb.html %}
 ### 2. Background
 
-The OWASP Development Guide is being rewritten by the OWASP community.
-and the content of this section has yet to be filled in.
+Welcome to the OWASP Development Guide.
 
-If you would like to contribute then follow the 
-[contributing guidelines](https://github.com/OWASP/www-project-developer-guide/blob/main/CONTRIBUTING.md)
-and submit your content for review.
+Along with the OWASP Top Ten, the Developer Guide is one of the original resources
+published soon after OWASP was formed in 2001.
+Version 1.0 of the Developer Guide was released in 2002
+and since then there have been various [releases][versions] culminating in version 2.0 in 2005.
+The guide has been revised extensively to bring it up to date since then and no longer has version numbers,
+but notionally it is version 4.0 as version 3.0 was never released.
+
+The purpose of this guide is to provide an introduction to security and a handy reference for application / system developers.
+Much of this guide is based on various OWASP sources:
+
+* [Top 10][top10]
+* [Cheat Sheet Series][cheat]
+* [Web Security Testing Guide][wstg]
+
+and for greater detail or wider context then follow the links to these resources.
+
+[cheat]: https://owasp.org/www-project-cheat-sheets/
+[top10]: https://owasp.org/www-project-top-ten/
+[versions]: https://github.com/OWASP/DevGuide/wiki#old-versions
+[wstg]: https://owasp.org/www-project-web-security-testing-guide/
 
 \newpage
