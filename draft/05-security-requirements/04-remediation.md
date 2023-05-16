@@ -37,7 +37,7 @@ Examples:
 
 2. Mitigation: there are many examples of where risks are mitigated;
     for example input sanitization or output encoding may be used for information supplied by an untrusted source,
-    or the use of encrypted communication channels for transferring sensitive information
+    or the use of encrypted communication channels for transferring high risk information
 
 3. Transferring: a common example of transferring risk is the use of third party insurance in response to the risk of RansomWare.
     Insurance premiums are paid but losses to the business are covered by the insurance
