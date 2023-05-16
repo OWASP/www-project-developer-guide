@@ -1,17 +1,17 @@
 ---
 
-title: Abstract
+title: Secure Development Lifecycle
 layout: col-document
 tags: OWASP Developer Guide
 author:
 contributors:
 document: OWASP Developer Guide
-order: 300
+order: 402
 
 ---
 
 {% include breadcrumb.html %}
-### 3. Abstract
+### 5.3 Secure Development Lifecycle
 
 The OWASP Development Guide is being rewritten by the OWASP community.
 and the content of this section has yet to be filled in.

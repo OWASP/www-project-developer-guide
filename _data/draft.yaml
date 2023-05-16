@@ -7,11 +7,17 @@ docs:
 - title: '2. Background'
   url: 02-background
 
-- title: '3. Abstract'
-  url: 03-abstract
+- title: '3. Introduction'
+  url: 03-introduction
 
-- title: '4. Introduction'
-  url: 04-introduction
+- title: '4. Foundations'
+  url: 04-foundations/toc
+
+- title: '4.1 Security fundamentals'
+  url: 04-foundations/01-foundations
+
+- title: '4.2 Secure Development Lifecycle (SDLC)'
+  url: 04-foundations/02-sdlc
 
 - title: '5. Security requirements'
   url: 05-security-requirements/toc
@@ -19,11 +25,14 @@ docs:
 - title: '5.1 Introduction'
   url: 05-security-requirements/01-security-requirements
 
-- title: '5.2 Threat modeling'
-  url: 05-security-requirements/02-threat-modeling
+- title: '5.2 Regulatory and statutory requirements'
+  url: 05-security-requirements/02-regulatory-statutory-requirements
 
-- title: '5.3 Regulatory and statutory requirements'
-  url: 05-security-requirements/03-regulatory-statutory-requirements
+- title: '5.3 Threat modeling'
+  url: 05-security-requirements/03-threat-modeling
+
+- title: '5.4 Remediation'
+  url: 05-security-requirements/04-remediation
 
 - title: '6. Secure design'
   url: 06-secure-design/toc
