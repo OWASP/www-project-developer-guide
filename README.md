@@ -19,6 +19,9 @@ make a start by reading the [contributing guidelines][guide] and follow the [con
 
 For other contributions to these pages please [create an issue][issues] or open a [pull request][request].
 
+The easiest way to get in contact with the development community for this documentation project
+is via the OWASP Slack [#project-developer-guide][project] project channel.
+
 ### Project leaders / editors
 * [Andra Lezza](mailto:andra.lezza@owasp.org)
 * [Shruti Kulkarni](mailto:shruti.kulkarni@owasp.org)
@@ -34,5 +37,6 @@ For other contributions to these pages please [create an issue][issues] or open 
 [issues]: https://github.com/OWASP/www-project-developer-guide/issues/new/choose
 [original]: https://github.com/OWASP/DevGuide/blob/1d24d140de3724b6f95655e53b8d0cc6689fbfd8/DevGuide1.0/OWASPBuildingSecureWebApplicationsAndWebServices-V1.0.pdf
 [pages]: https://owasp.org/www-project-developer-guide/
+[project]: https://owasp.slack.com/messages/C04QN6CMNAC
 [request]: https://github.com/OWASP/www-project-developer-guide/pulls
 [versions]: https://github.com/OWASP/DevGuide/wiki#old-versions

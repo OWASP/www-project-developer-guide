@@ -37,8 +37,12 @@ Contributions and suggestions are all welcome, we just ask that you follow our [
 Contributors can [make suggestions][issues], provide changes via a [pull request][request]
 or discuss topics in the [project wiki][wiki].
 
+The easiest way to get in contact with the development community for this documentation project
+is via the OWASP Slack [#project-developer-guide][project] project channel.
+
 [conduct]: CODE_OF_CONDUCT.md
 [issues]: https://github.com/OWASP/www-project-developer-guide/issues/new/choose
+[project]: https://owasp.slack.com/messages/C04QN6CMNAC
 [request]: https://github.com/OWASP/www-project-developer-guide/pulls
 [versions]: https://github.com/OWASP/DevGuide/wiki#old-versions
 [wiki]: https://github.com/OWASP/www-project-developer-guide/wiki
