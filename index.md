@@ -38,7 +38,8 @@ Contributors can [make suggestions][issues], provide changes via a [pull request
 or discuss topics in the [project wiki][wiki].
 
 The easiest way to get in contact with the development community for this documentation project
-is via the OWASP Slack [#project-developer-guide][project] project channel.
+is via the OWASP Slack [#project-developer-guide][project] project channel
+(you may need to [subscribe](https://owasp.org/slack/invite) first).
 
 [conduct]: CODE_OF_CONDUCT.md
 [issues]: https://github.com/OWASP/www-project-developer-guide/issues/new/choose

@@ -20,7 +20,8 @@ make a start by reading the [contributing guidelines][guide] and follow the [con
 For other contributions to these pages please [create an issue][issues] or open a [pull request][request].
 
 The easiest way to get in contact with the development community for this documentation project
-is via the OWASP Slack [#project-developer-guide][project] project channel.
+is via the OWASP Slack [#project-developer-guide][project] project channel
+(you may need to [subscribe](https://owasp.org/slack/invite) first).
 
 ### Project leaders / editors
 * [Andra Lezza](mailto:andra.lezza@owasp.org)
