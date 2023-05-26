@@ -96,7 +96,7 @@ Even implementation choices such as using regular expressions for validation int
 
 _Threat modeling: the sooner the better, but never too late_
 
-#### How to do it
+#### Questions to ask
 Often threat modeling is a conceptual activity rather than a rigorous process,
 where development teams are brought together and asked to think up ways of subverting their system.
 To provide some structure it is useful to start with Shostack's [Four Question Framework][4QuestionFrame]:
@@ -113,12 +113,13 @@ You will also need to gather people from different roles with sufficient technic
 to agree on the framework to be used during the Threat modeling exercise.
 
 **2 What can go wrong?**  
-This is a “research” activity in which you want to find the main threats that apply to your application.
-There are many ways to approach the question, including brainstorming or using a structure to help think it through.
-Structures that can help include STRIDE, Kill Chains, CAPEC and others.
+This is a research activity in which you want to find the main threats that apply to your application.
+There are many ways to approach the question, including open discussion or using a structure to help think it through.
+Techniques that can help include [CIA][cia], [STRIDE][stride], [LINDDUN][linddun],
+[cyber kill chains][chains], [PASTA][pasta], common attack patterns ([CAPEC][capec]) and others.
 
 **What are we going to do about that?**  
-In this phase you turn your findings into specific actions. See Threat_Modeling_Outputs
+In this phase you turn your findings into specific actions.
 
 **Did we do a good enough job?**  
 Finally, carry out a retrospective activity over the work you have done to check quality, feasibility, progress, and/or planning.
@@ -126,10 +127,30 @@ Finally, carry out a retrospective activity over the work you have done to check
 The OWASP [Threat Modeling Playbook][OTMP] goes into these practicalities in more detail
 and provides strategies for maintaining threat modeling within an organisation.
 
-#### Advice
+#### How to do it
+There is no one process for threat modeling.
+How it is done in practice will vary according to the organisation's culture,
+according to what type of system / application is being modeled
+and according to preferences of the development team itself.
+The various techniques and concepts are discussed in the [Threat Modeling Cheat Sheet][OTMCS]
+and can be summarised:
+
+1. Terminology: try to use standard terms such as actors, trust boundaries, etc as this will help convey these concepts
+2. Scope: be clear what is being modeled and keep within this scope
+3. Document: decide which tools and what outputs are required to satisfy compliance, for example
+4. Decompose: break the system being modeled into manageable pieces and identify your trust boundaries
+5. Agents: identify who the actors are (malicious or otherwise) and what they can do
+6. Categorise: prioritise the threats taking into account probability, impact and any other factors
+7. Remediation: be sure to decide what to do about any threats identified ...
+    after all, that is the whole point of threat modeling
+
+It is worth saying this again: there are many ways to do threat modeling,
+all perfectly valid, so choose the right process that works for your team.
+
+#### Final advice
 Finally some advice on threat modeling.
 
-**Incremental**  
+**Make it incremental**  
 Use [incremental threat modeling](https://owaspsamm.org/guidance/agile/#TA).
 It is almost certainly a bad idea trying to fully model an existing application or system;
 it can be very time consuming modeling a whole system,
@@ -142,7 +163,6 @@ It is the new features or new applications that pose a greater security risk;
 if they are vulnerable then they will reduce the security of the existing application or system.
 Concentrating on the new changes applies threat modeling effort at the place that it is needed most;
 at the very least the changes should not make the security worse - and ideally the security should be better.
-
 
 **Tools are secondary**  
 It is good to standardise threat modeling tools across an organisation, but also allow teams to choose how they record their threat models.
@@ -166,11 +186,14 @@ This could be [STRIDE][stride] or [LINNDUN][linddun], but if the [CIA][cia] tria
 
 * [Threat Modeling Manifesto](https://www.threatmodelingmanifesto.org/)
 * [OWASP Threat Model project](https://owasp.org/www-project-threat-model/)
-* [OWASP Threat Modeling Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html)
+* [OWASP Threat Modeling Cheat Sheet][OTMCS]
 * [OWASP Threat Modeling Playbook (OTMP)][OTMP]
 * OWASP community pages on [Threat Modeling](https://owasp.org/www-community/Threat_Modeling)
     and [Threat Modeling Process](https://owasp.org/www-community/Threat_Modeling_Process)
 * [The Four Question Framework For Threat Modeling](https://youtu.be/Yt0PhyEdZXU) 60 second video
+* Lockheed's [Cyber Kill Chain][chains]
+* VerSprite's Process for Attack Simulation and Threat Analysis ([PASTA][pasta])
+* Mitre's Common Attack Pattern Enumeration and Classification ([CAPEC][capec])
 
 #### Resources
 
@@ -182,10 +205,14 @@ This could be [STRIDE][stride] or [LINNDUN][linddun], but if the [CIA][cia] tria
 * [threatspec](https://threatspec.org/), an open source tool based on comments inline with code
 
 [4QuestionFrame]: https://github.com/adamshostack/4QuestionFrame
+[capec]: https://capec.mitre.org/
+[chains]: https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html
 [cia]: https://www.nccoe.nist.gov/publication/1800-25/VolA/index.html
 [linddun]: https://www.linddun.org/
 [OTM]: https://owasp.org/www-project-threat-model/
+[OTMCS]: https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html
 [OTMP]: https://owasp.org/www-project-threat-modeling-playbook/
+[pasta]: https://versprite.com/blog/what-is-pasta-threat-modeling/
 [samm]: https://owaspsamm.org/about/
 [stride]: https://en.wikipedia.org/wiki/STRIDE_%28security%29
 
