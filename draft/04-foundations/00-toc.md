@@ -24,6 +24,6 @@ Sections:
 4.1 [Security fundamentals](#security-fundamentals)  
 4.2 [Secure Development Lifecycle (SDLC)](#secure-development-lifecycle)  
 4.3 [Principles of security](#principles-of-security)  
-
+4.4 [Principles of cryptography](#principles-of-cryptography)  
 
 \newpage
