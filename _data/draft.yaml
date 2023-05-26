@@ -19,6 +19,9 @@ docs:
 - title: '4.2 Secure Development Lifecycle (SDLC)'
   url: 04-foundations/02-sdlc
 
+- title: '4.4 Principles of cryptography'
+  url: 04-foundations/04-crypto-principles
+
 - title: '5. Security requirements'
   url: 05-security-requirements/toc
 
