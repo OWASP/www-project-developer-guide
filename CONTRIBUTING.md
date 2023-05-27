@@ -10,6 +10,16 @@ Contributors can [make suggestions][issues] and provide changes via a [pull requ
 
 Feel free to discuss topics in the [project wiki][wiki] and create new discussions.
 
+### Philosophy
+The Developer Guide does not seek to duplicate the information contained in the many OWASP documentation projects;
+these projects address their subject fully and completely.
+Instead the Developer Guide is a starting point on a wide range of subjects
+which a developer would need to know at least the basics.
+The Developer Guide should supply this basic knowledge only,
+and then refer the developer to further reading for more in-depth treatment of the subject.
+As a rule of thumb, if a section is more than two pages then it is probably too long;
+split the section up or refer to another more detailed project.
+
 ### Etiquette
 There is a [project board][dashboard] which helps to coordinate contributions
 and keeps track of progress towards each milestone.
@@ -37,7 +47,7 @@ instead provide links to these specialist security knowledge bases.
 
 ### Page structure
 Each sub-section should deal with one specific subject, for example 'Threat modeling' or 'Digests'.
-The sub-sections ideally follows the same structure:
+The sub-sections ideally follow the same structure:
 1. Overview, summarising the subject at an introductory level
 2. Main body, explaining the subject to a medium/general level
 3. Further reading, providing links to the subject at an advanced/detailed level
