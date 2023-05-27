@@ -11,9 +11,8 @@ on:
 # for security reasons the github actions are pinned to specific release versions
 jobs:
   link_checker:
-    name: link checker
+    name: Link checker
     runs-on: ubuntu-22.04
-
     steps:
       - name: Checkout markdown
         uses: actions/checkout@v3.5.2
@@ -27,10 +26,22 @@ jobs:
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
+  linter:
+    name: Lint markdown
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout markdown
+        uses: actions/checkout@v3.5.2
+
+      - name: Lint markdown
+        uses: DavidAnson/markdownlint-cli2-action@v10.0.1
+        with:
+          globs: *.md
+
   export_draft:
     name: Export epub and pdf (Draft)
     runs-on: ubuntu-22.04
-    needs: [link_checker]
+    needs: [link_checker, linter]
     steps:
       - name: Checkout markdown
         uses: actions/checkout@v3.5.2
