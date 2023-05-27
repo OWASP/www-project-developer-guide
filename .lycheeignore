@@ -1,8 +1,5 @@
 # ignore these false positives from the link checker housekeeper
 
-# at present the Developer Guide project is marked private, so no public access
-github.com/orgs/OWASP/projects/
-
 # some sites that are examples only, no intention of being real
 myfriend.site.com/
 

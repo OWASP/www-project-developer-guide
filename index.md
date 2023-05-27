@@ -33,17 +33,19 @@ The project has a team of leaders that will oversee the project
 and now we need as many members of the security community as possible to contribute.
 
 ### Contributing
-Contributions and suggestions are all welcome, we just ask that you follow our [code of conduct][conduct].
-Contributors can [make suggestions][issues], provide changes via a [pull request][request]
-or discuss topics in the [project wiki][wiki].
+Contributions and suggestions are all welcome, we just ask that you follow our [code of conduct][conduct]
+and read the [contributing guidelines][contribution] which provide style and document structure suggestions.
+We also welcome [new issues][issues], changes via a [pull request][request]
+and discussions in the [project wiki][wiki].
 
 The easiest way to get in contact with the development community for this documentation project
 is via the OWASP Slack [#project-developer-guide][project] project channel
 (you may need to [subscribe](https://owasp.org/slack/invite) first).
 
 [conduct]: CODE_OF_CONDUCT.md
+[contribution]: CONTRIBUTING.md
 [issues]: https://github.com/OWASP/www-project-developer-guide/issues/new/choose
-[project]: https://owasp.slack.com/messages/C04QN6CMNAC
+[slack]: https://owasp.slack.com/messages/C04QN6CMNAC
 [request]: https://github.com/OWASP/www-project-developer-guide/pulls
 [versions]: https://github.com/OWASP/DevGuide/wiki#old-versions
 [wiki]: https://github.com/OWASP/www-project-developer-guide/wiki

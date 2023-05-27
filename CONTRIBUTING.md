@@ -4,14 +4,25 @@ and OWASP is reviving this project to do just that.
 The project has a team of leaders that will oversee the project
 and now we need as many members of the security community as possible to contribute.
 
-All contributions and suggestions are certainly welcome, we only ask that
+All contributions and suggestions are certainly welcome, and we ask that
 you follow the [contributing code of conduct][conduct].
 Contributors can [make suggestions][issues] and provide changes via a [pull request][request].
 
 Feel free to discuss topics in the [project wiki][wiki] and create new discussions.
 
+### Philosophy
+The Developer Guide does not seek to duplicate the information contained in the many OWASP documentation projects;
+these projects address their subject fully and completely.
+Instead the Developer Guide is a starting point on a wide range of subjects
+which a developer would need to know at least the basics.
+The Developer Guide should supply this basic knowledge only,
+and then refer the developer to further reading for more in-depth treatment of the subject.
+As a rule of thumb, if a section is more than two pages then it is probably too long;
+split the section up or refer to another more detailed project.
+
 ### Etiquette
-There is a [project board][dashboard] which helps to coordinate contributions.
+There is a [project board][dashboard] which helps to coordinate contributions
+and keeps track of progress towards each milestone.
 
 * select an issue from the project board for the section you want to work on
 * if this issue is free ask for it to be assigned to you
@@ -27,12 +38,20 @@ which is speaking from first person plural and semi-formal in tone.
 ### Technical level
 Generally the guide is aimed at the introductory to medium technical levels,
 and should rarely deal with a subject at an advanced level.
-This is a deliberate policy that makes the guide as accessible as possible and keeps the length reasonable.
+This is a deliberate policy that makes the guide accessible and keeps the length reasonable.
 
-The content of the main sections should be aimed at the introductory level,
+The overview/introduction of the main sections should be aimed at the introductory level,
 with more detail contained in the sub-sections at a medium technical level.
-Note this guide does should not replicate the many detailed sources on specific security topics;
-instead provide links to specialist security topics.
+Note this guide should not replicate the many detailed sources on specific security topics;
+instead provide links to these specialist security knowledge bases.
+
+### Page structure
+Each sub-section should deal with one specific subject, for example 'Threat modeling' or 'Digests'.
+The sub-sections ideally follow the same structure:
+1. Overview, summarising the subject at an introductory level
+2. Main body, explaining the subject to a medium/general level
+3. Further reading, providing links to the subject at an advanced/detailed level
+4. Resources, providing links to tools and applications that may be used when working within this domain
 
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [conduct]: CODE_OF_CONDUCT.md
