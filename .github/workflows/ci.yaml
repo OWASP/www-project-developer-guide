@@ -36,7 +36,8 @@ jobs:
       - name: Lint markdown
         uses: DavidAnson/markdownlint-cli2-action@v10.0.1
         with:
-          globs: *.md
+          globs: |
+            *.md
 
   export_draft:
     name: Export epub and pdf (Draft)

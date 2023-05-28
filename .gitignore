@@ -6,6 +6,7 @@
 !.github/**/*
 !.gitignore
 !.lycheeignore
+!.spellcheck.yaml
 
 # allow jekyll build files
 !404.html
