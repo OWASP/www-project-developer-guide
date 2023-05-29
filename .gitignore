@@ -5,7 +5,9 @@
 !.github/
 !.github/**/*
 !.gitignore
+!.lintcheck.yaml
 !.lycheeignore
+!.markdownlint.yaml
 !.spellcheck.yaml
 
 # allow jekyll build files

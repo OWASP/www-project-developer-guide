@@ -26,23 +26,36 @@ jobs:
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
-  linter:
+  md_linter:
     name: Lint markdown
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout markdown
         uses: actions/checkout@v3.5.2
 
+      # use  **/*.md for all markdown files in project
       - name: Lint markdown
         uses: DavidAnson/markdownlint-cli2-action@v10.0.1
         with:
+          command: config
           globs: |
+            .markdownlint.yaml
             *.md
+
+  spell_checker:
+    name: Check spelling
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout markdown
+        uses: actions/checkout@v3.5.2
+
+      - name: spell_checker
+        uses: rojopolis/spellcheck-github-actions@v0.32.0
 
   export_draft:
     name: Export epub and pdf (Draft)
     runs-on: ubuntu-22.04
-    needs: [link_checker, linter]
+    needs: [link_checker, md_linter, spell_checker]
     steps:
       - name: Checkout markdown
         uses: actions/checkout@v3.5.2
