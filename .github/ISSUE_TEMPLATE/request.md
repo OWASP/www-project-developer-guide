@@ -7,9 +7,9 @@ assignees: ''
 
 ---
 
-**Describe what change you would like**
+**Describe what change you would like** :  
 <!-- Describe below what change is needed -->
 
-**Context**
+**Context** :  
 Section: (eg '01-About the Development Guide')
 <!-- Add below any other context or screenshots about the change request -->

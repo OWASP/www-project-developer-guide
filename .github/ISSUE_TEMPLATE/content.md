@@ -7,9 +7,9 @@ assignees: ''
 
 ---
 
-**Describe what content should be added**
+**Describe what content should be added** :  
 <!-- Describe below what content should be added -->
 
-**Context**
+**Context** :  
 Section: (eg '01-About the Development Guide')
 <!-- Add below any other context or screenshots about this change request -->
