@@ -11,9 +11,11 @@ order: 400
 ---
 
 {% include breadcrumb.html %}
+
 ## 4. Foundations
 
 ### Overview
+
 ToDo:
 
 This should be a brief overview / abstract of the section on foundations.

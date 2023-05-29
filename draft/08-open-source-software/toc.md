@@ -11,9 +11,11 @@ order: 800
 ---
 
 {% include breadcrumb.html %}
+
 ## 8. Open-Source software
 
 ### Overview
+
 This should be a brief overview / abstract of the section on Open-Source software.
 The Introduction contains more detail and the further sections expand on that
 

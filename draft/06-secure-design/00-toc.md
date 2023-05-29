@@ -11,9 +11,11 @@ order:
 ---
 
 {% include breadcrumb.html %}
+
 ## 6. Secure design
 
 ### Overview
+
 This should be a brief overview / abstract of the section on security design.
 The Introduction contains more detail and the further sections expand on that
 

@@ -40,7 +40,7 @@ jobs:
           command: config
           globs: |
             .markdownlint.yaml
-            *.md
+            **/*.md
 
   spell_checker:
     name: Check spelling
