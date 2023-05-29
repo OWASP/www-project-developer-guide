@@ -1,9 +1,10 @@
-## OWASP Foundation Developer Guide project 
+## OWASP Foundation Developer Guide project
 
 This repo is the source for the OWASP Developer Guide project [web pages][pages]
 and also the [developer guide][draftGuide] itself
 
 ## Developer Guide
+
 This guide is one of the original documents from OWASP and so has a long history.
 The [DevGuide repository][devGuide] has many of the [previous versions][versions]
 going back to the [original version 1.0][original] from 2002.
@@ -11,9 +12,11 @@ Note that the original DevGuide [repository][DevGuide] has been deprecated in fa
 
 The source code for the latest draft developer guide can be found under the ['draft'][draft] directory.
 The source is in markdown and is used to create the [developer guide][draft] HTML (PDF and ePub are not in place yet).
-The content is subject to large scale changes with no notice, as it is being actively worked on for the next release of the Developer Guide.
+The content is subject to large scale changes with no notice,
+as it is being actively worked on for the next release of the Developer Guide.
 
 ### Contributing
+
 Contributions and suggestions for the Developer Guide are all welcome;
 make a start by reading the [contributing guidelines][guide] and follow the [contributing code of conduct][conduct].
 
@@ -24,6 +27,7 @@ is via the OWASP Slack [#project-developer-guide][project] project channel
 (you may need to [subscribe](https://owasp.org/slack/invite) first).
 
 ### Project leaders / editors
+
 * [Andra Lezza](mailto:andra.lezza@owasp.org)
 * [Shruti Kulkarni](mailto:shruti.kulkarni@owasp.org)
 * [Vandana Verma](vandana.verma@owasp.org)
