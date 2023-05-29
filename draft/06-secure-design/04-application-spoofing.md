@@ -73,6 +73,6 @@ How can it be addressed:
 * In the event a dispute needs to be raised, it can be done with [URDP][urdp]
 * Verify packages in registries before using them
 
-[urdp]: (https://www.icann.org/resources/pages/help/dndr/udrp-en)
+[urdp]: https://www.icann.org/resources/pages/help/dndr/udrp-en
 
 \newpage
