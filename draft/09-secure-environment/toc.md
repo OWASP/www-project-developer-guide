@@ -11,9 +11,11 @@ order: 900
 ---
 
 {% include breadcrumb.html %}
+
 ## 9. Secure environment
 
 ### Overview
+
 This should be a brief overview / abstract of the section on the secure environment.
 The Introduction contains more detail and the further sections expand on that
 

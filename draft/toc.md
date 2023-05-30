@@ -11,8 +11,11 @@ permalink: /draft/
 ---
 
 {% include breadcrumb.html %}
+
 ## OWASP Developer Guide (draft)
-_The draft version has the latest contributions to the Developer Guide, and so the content is expected to frequently change._
+
+_The draft version has the latest contributions to the Developer Guide,
+and so the content is expected to frequently change._
 
 1 **[Audience](01-audience.md)**
 

@@ -11,6 +11,7 @@ order: 200
 ---
 
 {% include breadcrumb.html %}
+
 ### 2. Background
 
 Welcome to the OWASP Development Guide.
@@ -22,7 +23,8 @@ and since then there have been various [releases][versions] culminating in versi
 The guide has been revised extensively to bring it up to date since then and no longer has version numbers,
 but notionally it is version 4.0 as version 3.0 was never released.
 
-The purpose of this guide is to provide an introduction to security and a handy reference for application / system developers.
+The purpose of this guide is to provide an introduction to security
+and a handy reference for application / system developers.
 Much of this guide is based on various OWASP sources:
 
 * [Top 10][top10]

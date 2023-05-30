@@ -136,11 +136,12 @@ There are many ways to approach the question, including open discussion or using
 Techniques that can help include [CIA][cia], [STRIDE][stride], [LINDDUN][linddun],
 [cyber kill chains][chains], [PASTA][pasta], common attack patterns ([CAPEC][capec]) and others.
 
-**What are we going to do about that**?
+**3 What are we going to do about that**?
 
 In this phase you turn your findings into specific actions.
+Consider the appropriate [remediation](#remediation) for each threat identified.
 
-**Did we do a good enough job**?
+**4 Did we do a good enough job**?
 
 Finally, carry out a retrospective activity over the work you have done to check
 quality, feasibility, progress, or planning.
@@ -166,7 +167,7 @@ and can be summarised:
 7. Remediation: be sure to decide what to do about any threats identified, the whole reason for threat modeling
 
 It is worth saying this again: there are many ways to do threat modeling,
-all perfectly valid, so choose the right process that works for your team.
+all perfectly valid, so choose the right process that works for a specific team.
 
 #### Final advice
 
@@ -209,7 +210,7 @@ malicious actors (external or internal) trying to subvert your system.
 
 It is a good strategy to choose a threat categorisation methodology for the whole organisation
 and then try and keep to it.
-This could be [STRIDE][stride] or [LINNDUN][linddun], but if the [CIA][cia] triad gives enough granularity
+This could be [STRIDE][stride] or [LINDDUN][linddun], but if the [CIA][cia] triad gives enough granularity
 then that is a perfectly good choice.
 
 #### Further reading

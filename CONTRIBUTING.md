@@ -1,4 +1,5 @@
 ### Contributing
+
 The Developer Guide needs to be updated for the modern security landscape,
 and OWASP is reviving this project to do just that.
 The project has a team of leaders that will oversee the project
@@ -11,6 +12,7 @@ Contributors can [make suggestions][issues] and provide changes via a [pull requ
 Feel free to discuss topics in the [project wiki][wiki] and create new discussions.
 
 ### Philosophy
+
 The Developer Guide does not seek to duplicate the information contained in the many OWASP documentation projects;
 these projects address their subject fully and completely.
 Instead the Developer Guide is a starting point on a wide range of subjects
@@ -21,6 +23,7 @@ As a rule of thumb, if a section is more than two pages then it is probably too 
 split the section up or refer to another more detailed project.
 
 ### Etiquette
+
 There is a [project board][dashboard] which helps to coordinate contributions
 and keeps track of progress towards each milestone.
 
@@ -31,11 +34,13 @@ and keeps track of progress towards each milestone.
 * provide your contributed content as a [pull request][request]
 
 ### Style Guide
+
 The Developer Guide will have many contributors, and it is an aim to keep the style of writing similar throughout.
 It would be good to keep to a style used in OWASP flagship projects [ASVS][asvs] and [WSTG][wstg],
 which is speaking from first person plural and semi-formal in tone.
 
 ### Technical level
+
 Generally the guide is aimed at the introductory to medium technical levels,
 and should rarely deal with a subject at an advanced level.
 This is a deliberate policy that makes the guide accessible and keeps the length reasonable.
@@ -46,12 +51,24 @@ Note this guide should not replicate the many detailed sources on specific secur
 instead provide links to these specialist security knowledge bases.
 
 ### Page structure
+
 Each sub-section should deal with one specific subject, for example 'Threat modeling' or 'Digests'.
 The sub-sections ideally follow the same structure:
+
 1. Overview, summarising the subject at an introductory level
 2. Main body, explaining the subject to a medium/general level
 3. Further reading, providing links to the subject at an advanced/detailed level
 4. Resources, providing links to tools and applications that may be used when working within this domain
+
+### Pull requests
+
+The pull requests have checks applied to them:
+
+1. Link checker for any broken links; if there is an imperative for a broken link then add it to `.lycheeignore`
+2. Markdown lint that ensures the markdown is consistent and valid
+3. Spell checker; new words that are not recognised can be added to `/.wordlist.txt`
+
+if all these checks pass then both the PDF and ePub versions of the guide are provided as github artifacts.
 
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [conduct]: CODE_OF_CONDUCT.md

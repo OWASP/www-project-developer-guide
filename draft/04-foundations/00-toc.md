@@ -11,10 +11,12 @@ order:
 ---
 
 {% include breadcrumb.html %}
+
 ## 4. Foundations
 
 ### Overview
-ToDo:
+
+To Do:
 
 This should be a brief overview / abstract of the section on foundations.
 Section 4.1 contains more detail and the further sections expand on that

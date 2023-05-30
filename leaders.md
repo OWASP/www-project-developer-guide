@@ -1,4 +1,5 @@
 ### Leaders
+
 * [Andra Lezza](mailto:andra.lezza@owasp.org)
 * [Shruti Kulkarni](mailto:shruti.kulkarni@owasp.org)
 * [Vandana Verma Sehgal](mailto:vandana.verma@owasp.org)
