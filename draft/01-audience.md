@@ -13,7 +13,8 @@ order: 100
 {% include breadcrumb.html %}
 ### 1. Audience
 
-The OWASP Developer Guide has been written by the security community to help software developers write solid, safe and secure applications.
+The OWASP Developer Guide has been written by the security community to help software developers write solid,
+safe and secure applications.
 Generally it describes the security practices within the Design and Implementation business functions
 of the OWASP Software Assurance Maturity Model ([SAMM][samm]).
 
