@@ -60,6 +60,16 @@ The sub-sections ideally follow the same structure:
 3. Further reading, providing links to the subject at an advanced/detailed level
 4. Resources, providing links to tools and applications that may be used when working within this domain
 
+### Pull requests
+
+The pull requests have checks applied to them:
+
+1. Link checker for any broken links; if there is an imperative for a broken link then add it to `.lycheeignore`
+2. Markdown lint that ensures the markdown is consistent and valid
+3. Spell checker; new words that are not recognised can be added to `/.wordlist.txt`
+
+if all these checks pass then both the PDF and ePub versions of the guide are provided as github artifacts.
+
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [conduct]: CODE_OF_CONDUCT.md
 [dashboard]: https://github.com/orgs/OWASP/projects/14/views/1
