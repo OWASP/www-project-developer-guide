@@ -167,7 +167,7 @@ and can be summarised:
 7. Remediation: be sure to decide what to do about any threats identified, the whole reason for threat modeling
 
 It is worth saying this again: there are many ways to do threat modeling,
-all perfectly valid, so choose the right process that works for your team.
+all perfectly valid, so choose the right process that works for a specific team.
 
 #### Final advice
 
