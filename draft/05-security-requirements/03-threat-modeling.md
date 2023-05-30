@@ -210,7 +210,7 @@ malicious actors (external or internal) trying to subvert your system.
 
 It is a good strategy to choose a threat categorisation methodology for the whole organisation
 and then try and keep to it.
-This could be [STRIDE][stride] or [LINNDUN][linddun], but if the [CIA][cia] triad gives enough granularity
+This could be [STRIDE][stride] or [LINDDUN][linddun], but if the [CIA][cia] triad gives enough granularity
 then that is a perfectly good choice.
 
 #### Further reading
