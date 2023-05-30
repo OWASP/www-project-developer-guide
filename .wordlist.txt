@@ -113,6 +113,7 @@ json
 JSON
 DOM
 SAST
+DAST
 SDLC
 SSDLC
 lifecycle
@@ -136,7 +137,7 @@ unkeyed
 decrypt
 algorithmically
 ciphertext
-ryptosystems
+cryptosystems
 plaintext
 cryptographically
 Diffie
@@ -149,6 +150,7 @@ cybersquatting
 typosquatting
 ClickJacking
 Clickjacking
+clickjacking
 UTF
 URDP
 JWT
@@ -176,3 +178,7 @@ io
 owasp
 txt
 url
+backdoors
+exfiltrate
+APK
+permalink

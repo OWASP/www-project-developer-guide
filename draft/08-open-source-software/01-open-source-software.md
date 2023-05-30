@@ -24,6 +24,6 @@ and submit your content for review.
 The following subsections are planned:
 
 * Static Code Analysis (for licensing and dependencies)
-* Third Party Software and Libraries (hive off to OWASP’s Dependency Tracker)
+* Third Party Software and Libraries (hive off to OWASP Dependency Tracker)
 
 \newpage

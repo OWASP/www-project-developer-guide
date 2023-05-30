@@ -25,7 +25,7 @@ How can it be addressed:
 
 #### Application spoofing / clickjacking
 
-Set X-FRAME-OPTIONS header to SAMEORIGIN or DENY, depending on what the business requirement is
+Set `X-FRAME-OPTIONS` header to `SAMEORIGIN` or `DENY`, depending on what the business requirement is
 for rendering the web page.
 This will help prevent a malicious actor including your application in an iFrame to capture credentials/exfiltrate data.
 As a caveat, this will not work with Meta Tags. X-FRAME-OPTIONS must be applied as HTTP Response Header
