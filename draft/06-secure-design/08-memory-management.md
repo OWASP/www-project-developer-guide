@@ -16,7 +16,7 @@ order: 608
 
 * Check that the buffer is as large as specified
 
-* When using functions that accept a number of bytes to copy, such as strncpy( ),
+* When using functions that accept a number of bytes to copy, such as `strncpy()`,
     be aware that if the destination buffer size is equal to the source buffer size,
     it may not NULL-terminate the string
 

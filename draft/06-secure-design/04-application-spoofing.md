@@ -45,12 +45,12 @@ This only allows the current site to frame the content.
 
 Content-Security-Policy: frame-ancestors 'self' `*.somesite.com https://myfriend.site.com;`
 
-This allows the current site, as well as any page on somesite.com (using any protocol),
-and only the page myfriend.site.com, using HTTPS only on the default port (443).
+This allows the current site, as well as any page on `somesite.com` (using any protocol),
+and only the page `myfriend.site.com`, using HTTPS only on the default port (443).
 
-Use SameSite Cookies
+Use `SameSite` Cookies
 
-Use httpOnly cookies
+Use `httpOnly` cookies
 
 #### Domain squatting / typo squatting
 

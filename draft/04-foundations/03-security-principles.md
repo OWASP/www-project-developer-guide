@@ -61,7 +61,7 @@ the successful completion of a single task
 is dependent upon two or more conditions that are insufficient for completing the task by itself.
 
 There are many applications for this principle,
-for example limiting the damage an aggreived or malicious insider can do, or by limiting privilege escalation.
+for example limiting the damage an aggrieved or malicious insider can do, or by limiting privilege escalation.
 
 #### Economy of Mechanism
 

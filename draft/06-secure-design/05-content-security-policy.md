@@ -20,11 +20,11 @@ To this effect CSP helps in addressing vulnerabilities that are the target of sc
 from different domains (namely XSS, ClickJacking)  
 
 1. The policy elements listed below is restrictive.
-    Third party libraries can be whitelisted as a part of script-src, default-src, frame-src or frame-ancestors.
+    Third party libraries can be whitelisted as a part of `script-src`, `default-src`, `frame-src` or `frame-ancestors`.
 
 2. I assume fonts / images / media / plugins are not loaded from any external sources.
 
-3. Do not use \*\ as an attribute for any of the components of the policy.
+3. Do not use `\*\` as an attribute for any of the components of the policy.
 
 CSP considers two types of content:
 
@@ -53,27 +53,27 @@ to connect from the deployed solutions
 
 For web applications, the source of all content is set to self.
 
-- default-src 'self'
-- script-src 'self';
-- script-src 'unsafe-inline' 'unsafe-eval' https:; (I am fairly sure this is used to block unsafe inline scripts
-    and 'eval' but to be checked) - Have checked now and unsafe-inline should not be used
-- connect-src 'self';
-- img-src 'self';
-- style-src 'self'
-- style-src 'unsafe-inline' should not be used
-- font-src 'self';
-- frame-src https:;
-- frame-ancestors 'none' (This is to prevent ClickJacking equivalent to X-FRAME-OPTIONS = SAME-ORIGIN)
-- frame-ancestors 'self' (This is to prevent ClickJacking equivalent to X-FRAME-OPTIONS = SAME-ORIGIN)
-- frame-ancestors 'example.com' (This component allows content to be loaded only from example.com.)
-- media-src 'self':;
-- object-src 'self:;
-- report-uri <<>> (insert the URL where the report for policy violations should be sent)
+- `default-src` 'self'
+- `script-src` 'self';
+- `script-src` `unsafe-inline` `unsafe-eval` https:; (I am fairly sure this is used to block unsafe inline scripts
+    and 'eval' but to be checked) - Have checked now and `unsafe-inline` should not be used
+- `connect-src` 'self';
+- `img-src` 'self';
+- `style-src` 'self'
+- `style-src` 'unsafe-inline' should not be used
+- `font-src` 'self';
+- `frame-src` https:;
+- `frame-ancestors` 'none' (This is to prevent ClickJacking equivalent to X-FRAME-OPTIONS = SAME-ORIGIN)
+- `frame-ancestors` 'self' (This is to prevent ClickJacking equivalent to X-FRAME-OPTIONS = SAME-ORIGIN)
+- `frame-ancestors` `example.com` (This component allows content to be loaded only from `example.com`)
+- `media-src` 'self':;
+- `object-src` 'self:;
+- `report-uri` <<>> (insert the URL where the report for policy violations should be sent)
 - sandbox (this is something to be tried out specifies an HTML sandbox policy
      that the user agent applies to the protected resource)
-- plugin-types <<>> (insert the list of plugins that the protected resource can invoke)
-- base-uri (restricts the URLs that can be used to specify the document base URL, but I do not know how this is used)
-- child-src 'self'
+- `plugin-types` <<>> (insert the list of plugins that the protected resource can invoke)
+- `base-uri` (restricts the URLs that can be used to specify the document base URL, but I do not know how this is used)
+- `child-src` 'self'
 
 An Example:
 
@@ -84,14 +84,14 @@ An Example:
 
 For display on desktops and laptops: add `name="Content-Security-Policy"` value
 
-For display on other mobile decvices that use HTML5: `meta http-equiv="Content-Security-Policy"`
+For display on other mobile devices that use HTML5: `meta http-equiv="Content-Security-Policy"`
 
 #### Mobile Application
 
 #### iOS
 
 iOS framework has capability to restrict connecting to sites that are not a part of the whitelist on the application,
-which is the NSExceptionDomains. Use this setting to restrict the content that gets executed by the application
+which is the `NSExceptionDomains`. Use this setting to restrict the content that gets executed by the application
 
 ```text
 NSAppTransportSecurity : Dictionary {
@@ -115,12 +115,12 @@ NSAppTransportSecurity : Dictionary {
 
 Setting rules for Android application:
 
-- If your application doesn't directly use JavaScript within a WebView, do not call setJavaScriptEnabled()
+- If your application doesn't directly use JavaScript within a WebView, do not call `setJavaScriptEnabled()`
 - By default, WebView does not execute JavaScript, so cross-site-scripting is not possible
-- Use addJavaScriptInterface() with particular care because it allows JavaScript to invoke operations
-    that are normally reserved for Android applications. If you use it, expose addJavaScriptInterface()
+- Use `addJavaScriptInterface()` with particular care because it allows JavaScript to invoke operations
+    that are normally reserved for Android applications. If you use it, expose `addJavaScriptInterface()`
     only to web pages from which all input is trustworthy
-- Expose addJavaScriptInterface() only to JavaScript that is contained within your application APK
+- Expose a`ddJavaScriptInterface()` only to JavaScript that is contained within your application APK
 - When sharing data between two apps that you control or own, use signature-based permissions
 
 ```text
@@ -130,7 +130,7 @@ Setting rules for Android application:
                 android:protectionLevel="signature" />
 ```
 
-- Disallow other apps from accessing ContentProvider objects
+- Disallow other apps from accessing Content Provider objects
 
 ```text
 <manifest xmlns:android=<link to android schemas ...>

@@ -109,7 +109,7 @@ which can be used later on by the developer to get into the system without havin
 
 * Log file access, privilege elevation, and failures of financial transactions.
 
-* Log all administrators actions. Log all actions taken after privileges are elevated - runas / sudo
+* Log all administrators actions. Log all actions taken after privileges are elevated - `runas` / `sudo`
 
 * Log all input validation failures
 

@@ -22,8 +22,8 @@ Image security, host security, client security, daemon security, runtime securit
 * Use layer caching and multi stage builds to:
   * Separate build-time dependencies from runtime dependencies
   * Remove special permissions from images
-  * find / -perm /6000 -type f -exec ls -ld {} \;
-  * RUN find / -xdev -perm /6000 -type f -exec chmod a-s {} \; || true
+  * `find / -perm /6000 -type f -exec ls -ld {} \;`
+  * RUN `find / -xdev -perm /6000 -type f -exec chmod a-s {} \; || true`
 * Reduce overall image size by shipping only what your app needs to run
 * Please see the [Docker documentation][docker] for more information
 * Remove unused images with prune
@@ -43,7 +43,7 @@ Image security, host security, client security, daemon security, runtime securit
 * Offline keys are owned by the organisation and secured in an out-of-band location.
 * Scan images frequently for any vulnerabilities. Rebuilt all images to include patches
     and instantiate new containers from them
-* Remove Setuid and setgid permissions from the images.
+* Remove `setuid` and `setgid` permissions from the images.
 * Where applicable, use 'copy' instruction in place of 'add' instruction.
 * Verify authenticity of packages before installing them into images
 * Use namespaces and control groups for containers
@@ -74,23 +74,23 @@ Image security, host security, client security, daemon security, runtime securit
 * Where hairpin NAT is enabled, userland proxy is disabled.
 * Docker daemon is run as a non-root user to mitigate lateral privilege escalation
     due to any possible compromise of vulnerabilities.
-* No_new_priv is set (but not to false) to ensure that containers cannot gain additional privileges
+* `No_new_priv` is set (but not to false) to ensure that containers cannot gain additional privileges
     via suid or sgid
 * Default SECCOMP profile is applied for access control.
-* TLS CA certificate file on the image host (the file that is passed along with the --tlscacert parameter)
+* TLS CA certificate file on the image host (the file that is passed along with the `--tlscacert` parameter)
     is individually owned and group owned by root
-* TLS CA certificate file on the image host (the file that is passed along with the --tlscacert parameter)
+* TLS CA certificate file on the image host (the file that is passed along with the `--tlscacert` parameter)
     has permissions of 444 or is set more restrictively
 * Containers should run as a non-root user.
 * Containers should have as small a footprint as possible, and should not contain unnecessary software packages
     which could increase their attack surface
-* Docker's default bridge 'docker0' is not used to avoid ARP spoofing and MAC flooding attacks.
+* Docker default bridge 'docker0' is not used to avoid ARP spoofing and MAC flooding attacks.
 * Either Dockers AppArmor policy is enabled or the Docker hosts AppArmor is enabled.
 * SELinux policy is enabled on the Docker host.
 * Linux kernel capabilities are restricted within containers
 * privileged containers are not used
 * sensitive host system directories are not mounted on containers
-* sshd is not run within containers
+* `sshd` is not run within containers
 * privileged ports are not mapped within containers (TCP/IP port numbers below 1024 are considered privileged ports)
 * only needed ports are open on the container.
 * the hosts network namespace is not shared.
@@ -109,24 +109,24 @@ Image security, host security, client security, daemon security, runtime securit
 * CPU priority is set appropriately on containers
 * memory usage for containers is limited.
 * 'on-failure' container restart policy is set to '5'
-* default ulimit is overwritten at runtime if needed
+* default `ulimit` is overwritten at runtime if needed
 * container health is checked at runtime
 * PIDs cgroup limit is used (limit is set as applicable)
 * The Docker host is hardened to ensure that only Docker services are run on the host
 * Secure configurations are applied to ensure that the containers do not gain access to the host via the Docker daemon.
 * Docker is updated with the latest patches such that vulnerabilities are not compromised.
 * The underlying host is managed to ensure that vulnerabilities are identified and mitigated with patches.
-* Docker server certificate file (the file that is passed along with the --tlscert parameter)
+* Docker server certificate file (the file that is passed along with the `--tlscert` parameter)
     is individual owned and group owned by root.
-* Docker server certificate file (the file that is passed along with the --tlscert parameter)
+* Docker server certificate file (the file that is passed along with the `--tlscert` parameter)
     has permissions of 444 or more restrictive permissions.
-* Docker server certificate key file (the file that is passed along with the --tlskey parameter)
+* Docker server certificate key file (the file that is passed along with the `--tlskey` parameter)
     is individually owned and group owned by root.
-* Docker server certificate key file (the file that is passed along with the --tlskey parameter)
+* Docker server certificate key file (the file that is passed along with the `--tlskey` parameter)
     has permissions of 400.
 * Docker socket file is owned by root and group owned by docker.
 * Docker socket file has permissions of 660 or are configured more restrictively.
-* daemon.json file individual ownership and group ownership is correctly set to root, if it is in use.
+* `daemon.json` file individual ownership and group ownership is correctly set to root, if it is in use.
 * daemon.json file is present its file permissions are correctly set to 644 or more restrictively.
 
 [docker]: https://docs.docker.com/get-started/09_image_best/

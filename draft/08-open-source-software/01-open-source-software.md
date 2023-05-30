@@ -23,7 +23,7 @@ and submit your content for review.
 
 The following subsections are planned:
 
-* Static Code Analysis (for licencing and dependencies)
+* Static Code Analysis (for licensing and dependencies)
 * Third Party Software and Libraries (hive off to OWASP’s Dependency Tracker)
 
 \newpage

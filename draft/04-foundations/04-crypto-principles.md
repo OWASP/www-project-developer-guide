@@ -69,7 +69,7 @@ Cryptography can be used to prevent tampering by means of Message Authentication
 When you hear the term "message authenticity" being referred to, it is really referring to integrity.
 It sometimes is referred to as "authenticated encryption" as well,
 although in the case of symmetric encryption and shared keys,
-it really doesn't authenticate the sending party per se. However, if asymmetric encryption is used,
+it does not authenticate the sending party. However, if asymmetric encryption is used,
 one can in fact use it to authenticate the sender.
 
 #### Non-repudiation

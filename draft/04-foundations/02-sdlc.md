@@ -14,7 +14,7 @@ order: 402
 
 ### 4.2 Secure Development Lifecycle
 
-ToDo:
+To Do:
 
 The OWASP Development Guide is being rewritten by the OWASP community.
 and the content of this section has yet to be filled in.
