@@ -109,6 +109,7 @@ LSMs
 IPC
 runtime
 PID
+PIDs
 json
 JSON
 DOM
@@ -182,3 +183,4 @@ backdoors
 exfiltrate
 APK
 permalink
+TCP

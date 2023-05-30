@@ -75,7 +75,7 @@ Image security, host security, client security, daemon security, runtime securit
 * Docker daemon is run as a non-root user to mitigate lateral privilege escalation
     due to any possible compromise of vulnerabilities.
 * `No_new_priv` is set (but not to false) to ensure that containers cannot gain additional privileges
-    via suid or sgid
+    via `suid` or `sgid`
 * Default SECCOMP profile is applied for access control.
 * TLS CA certificate file on the image host (the file that is passed along with the `--tlscacert` parameter)
     is individually owned and group owned by root
@@ -95,10 +95,10 @@ Image security, host security, client security, daemon security, runtime securit
 * only needed ports are open on the container.
 * the hosts network namespace is not shared.
 * containers root filesystem is mounted as read only
-* Do not use docker exec with the --privileged option.
+* Do not use docker exec with the `--privileged` option.
 * docker exec commands are not used with the user=root option
 * cgroup usage is confirmed
-* The no_new_priv option prevents LSMs like SELinux from allowing processes to acquire new privileges
+* The `no_new_priv` option prevents LSMs like SELinux from allowing processes to acquire new privileges
 * Docker socket is not mounted inside any containers to prevent processes running within the container
     to execute Docker commands which would effectively allow for full control of the host.
 * incoming container traffic is bound to a specific host interface
