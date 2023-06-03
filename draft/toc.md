@@ -25,7 +25,7 @@ and so the content is expected to frequently change._
 
 4 **[Foundations](04-foundations/toc.md)**  
 4.1 [Security fundamentals](04-foundations/01-foundations.md)  
-4.2 [Secure Development Lifecycle (SDLC)](04-foundations/02-sdlc.md)  
+4.2 [Secure development and integration](04-foundations/02-secure-development.md)  
 4.3 [Principles of security](04-foundations/03-security-principles.md)  
 4.4 [Principles of cryptography](04-foundations/04-crypto-principles.md)  
 

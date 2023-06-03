@@ -1,6 +1,6 @@
 ---
 
-title: Secure Development Lifecycle
+title: Secure Development and Integration
 layout: col-document
 tags: OWASP Developer Guide
 author:
@@ -12,7 +12,7 @@ order: 402
 
 {% include breadcrumb.html %}
 
-### 4.2 Secure Development Lifecycle
+### 4.2 Secure development and integration
 
 To Do:
 

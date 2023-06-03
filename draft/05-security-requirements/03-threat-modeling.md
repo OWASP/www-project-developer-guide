@@ -67,7 +67,7 @@ Usually this is difficult to quantify; an easier way to approach it may be to as
 what are the costs of _not_ doing threat modeling?
 These costs may consist of a lack of compliance, an increased risk of being exploited, harm to reputation and so on.
 
-The inclusion of threat modeling in the secure development lifecycle can help:
+The inclusion of threat modeling in the secure development activities can help:
 
 * Build a secure design
 * Efficient investment of resources; appropriately prioritize security, development, and other tasks

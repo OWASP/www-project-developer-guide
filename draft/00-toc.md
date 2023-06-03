@@ -25,7 +25,7 @@ and so the content is expected to frequently change._
 
 4 **[Foundations](#foundations)**  
 4.1 [Security fundamentals](#security-fundamentals)  
-4.2 [Secure Development Lifecycle (SDLC)](#secure-development-lifecycle)  
+4.2 [Secure development and integration](#secure-development-and-integration)  
 4.3 [Principles of security](#principles-of-security)  
 4.4 [Principles of cryptography](#principles-of-cryptography)  
 
