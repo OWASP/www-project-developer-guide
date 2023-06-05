@@ -33,7 +33,7 @@ and so the content is expected to frequently change._
 5.1 [Introduction](05-security-requirements/01-security-requirements.md)  
 5.2 [Regulatory and statutory requirements](05-security-requirements/02-regulatory-statutory-requirements.md)  
 5.3 [Threat modeling](05-security-requirements/03-threat-modeling.md)  
-5.2 [Remediation](05-security-requirements/04-remediation.md)  
+5.2 [Risk management](05-security-requirements/04-risk-management.md)  
 
 6 **[Secure design](06-secure-design/toc.md)**  
 6.1 [Introduction](06-secure-design/01-secure-design.md)  

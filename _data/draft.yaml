@@ -37,8 +37,8 @@ docs:
 - title: '5.3 Threat modeling'
   url: 05-security-requirements/03-threat-modeling
 
-- title: '5.4 Remediation'
-  url: 05-security-requirements/04-remediation
+- title: '5.4 Risk management'
+  url: 05-security-requirements/04-risk-management
 
 - title: '6. Secure design'
   url: 06-secure-design/toc

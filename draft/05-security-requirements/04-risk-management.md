@@ -1,6 +1,6 @@
 ---
 
-title: Remediation
+title: Risk Management
 layout: col-document
 tags: OWASP Developer Guide
 author:
@@ -12,14 +12,18 @@ order: 504
 
 {% include breadcrumb.html %}
 
-### 5.4 Remediation
+### 5.4 Risk management
+
+#### Overview
 
 Risk management is the identification, assessment, and prioritization of risks to the application or system.
 The objective of risk management is to ensure that uncertainty does not deflect the endeavor from the business goals,
 and remediation is the strategy chosen in response to identifying this risk.
 
-Risk management can be split in two parts. First determine which risks exists
-and then secondly handling those risks in a way that is best for the business;
+#### Remediation
+
+Risk management can be split in two parts. First determine which risks exists and then apply remediation.
+Managing these risks should be done in a way that is best for the business;
 risk management should always be business driven.
 
 There are four common ways to handling risk:
