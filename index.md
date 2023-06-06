@@ -42,8 +42,8 @@ and discussions in the [project wiki][wiki].
 The easiest way to get in contact with the development community for this documentation project
 is via the OWASP Slack [#project-developer-guide][project] project channel (you may need to [subscribe][slack] first).
 
-[conduct]: CODE_OF_CONDUCT.md
-[contribution]: CONTRIBUTING.md
+[conduct]: code_of_conduct.md
+[contribution]: contributing.md
 [issues]: https://github.com/OWASP/www-project-developer-guide/issues/new/choose
 [project]: https://owasp.slack.com/messages/C04QN6CMNAC
 [slack]: https://owasp.org/slack/invite

@@ -3,7 +3,11 @@
 
 # allow github, workflows and templates
 !.github/
-!.github/**/*
+!.github/*.yaml
+!.github/issue_template/
+!.github/issue_template/*.md
+!.github/workflows/
+!.github/workflows/*.yaml
 !.gitignore
 !.lintcheck.yaml
 !.lycheeignore
@@ -29,5 +33,5 @@
 # pages markdown
 !./*.md
 !assets/images/*.png
-!LICENSE.txt
+!license.txt
 
