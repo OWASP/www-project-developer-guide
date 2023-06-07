@@ -71,7 +71,7 @@ The pull requests have checks applied to them:
 if all these checks pass then both the PDF and ePub versions of the guide are provided as github artifacts.
 
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
-[conduct]: CODE_OF_CONDUCT.md
+[conduct]: code_of_conduct.md
 [dashboard]: https://github.com/orgs/OWASP/projects/14/views/1
 [issues]: https://github.com/OWASP/www-project-developer-guide/issues/new/choose
 [request]: https://github.com/OWASP/www-project-developer-guide/pulls
