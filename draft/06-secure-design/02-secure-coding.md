@@ -49,11 +49,11 @@ order: 602
     * If any potentially hazardous characters must be allowed as input,
         be sure that you implement additional controls like output encoding,
         secure task specific APIs and accounting for  the utilization of that data throughout the application.
-        Examples of common hazardous characters include: < > " ' % ( ) & + \ \' \"
+        Examples of common hazardous characters include `< > " ' % ( ) & + \ \' \"`
     * If your standard validation routine cannot address the following inputs, then they should be checked discretely
-      * Check for null bytes (%00)
-      * Check for new line characters (%0d, %0a, \r, \n)
-      * Check for “dot-dot-slash" (../ or ..\) path alterations characters.
+      * Check for null bytes `%00`
+      * Check for new line characters `%0d, %0a, \r, \n`
+      * Check for “dot-dot-slash" `../` or `..\` path alterations characters.
           In cases where UTF-8 extended character set encoding is supported, address alternate representation like:
           `%c0%ae%c0%ae/`
           (Utilise canonicalization to address double encoding or other forms of obfuscation attacks)
@@ -137,7 +137,7 @@ order: 602
 ### JSON Vulnerability Protection
 
 A JSON vulnerability allows third party website to turn your JSON resource URL into JSONP request under some conditions.
-To counter this your server can prefix all JSON requests with following string "")]}',\n"".
+To counter this your server can prefix all JSON requests with following string `")]}',\n"`.
 AngularJS will automatically strip the prefix before processing it as JSON.
 
 For example if your server needs to return: `['one','two']`

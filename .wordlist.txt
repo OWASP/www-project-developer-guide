@@ -190,12 +190,10 @@ Shostack
 Shostack's
 dataflows
 dataflow
-Dataflow
 CAPEC
 LINDDUN
 cyber
 OTMP
-Cyber
 VerSprite
 VerSprite's
 CAPEC
@@ -219,4 +217,8 @@ exfiltration
 deserializing
 canonicalization
 encodings
+linter
 parameterization
+npm
+lychee
+pandoc
