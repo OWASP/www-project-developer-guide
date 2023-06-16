@@ -201,4 +201,8 @@ CAPEC
 Pythonic
 pytm
 Threagile
+webapp
+JSP
+executables
 threatspec
+subdirectories
