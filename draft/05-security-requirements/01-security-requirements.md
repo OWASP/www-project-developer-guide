@@ -3,7 +3,7 @@
 title: Security Requirements Introduction
 layout: col-document
 tags: OWASP Developer Guide
-author: Shruti Kulkarni
+author:
 contributors:
 document: OWASP Developer Guide
 order: 501
@@ -25,6 +25,5 @@ The following subsections are planned:
 
 * Threat modeling (hive off to threat modeling material on OWASP)
 * Regulatory / statutory requirements
-
 
 \newpage
