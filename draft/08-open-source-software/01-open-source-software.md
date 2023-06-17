@@ -42,12 +42,12 @@ The following subsections are planned:
     This could be in the form of a workflow or obtaining security approvals for the chosen open source software
     We realise it could be challenging, but if feasible, maintain a list of approved open source software
 
-        * Address vulnerabilities with: Binaries / pre-compiled code / packages – where source code sharing is not a part of the license (Examples executables / nugets)
+        * Address vulnerabilities with: Binaries / pre-compiled code / packages – where source code sharing is not a part of the license (Examples executables / NuGets)
               - Where possible use version pinning 
               - Where possible use integrity verification
-              - Check for vulnerabilities for the selected binies in vulnerability disclosure databases like
-                         - CVE database (https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=bouncy+castle)
-                         - VulnDB (https://vuldb.com/?id.173918)
+              - Check for vulnerabilities for the selected binaries in vulnerability disclosure databases like
+                         - CVE database (`https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=bouncy+castle`)
+                         - VulnDB (`https://vuldb.com/?id.173918`)
               - If within the budget of your organisation, use an SCA tool to scan for vulnerabilities 
               - Always vet and perform due-diligence on third-party modules that you install in order to confirm their health and credibility.
               - Hold-off on upgrading immediately to new versions; allow new package versions some time to circulate before trying them out.
@@ -61,7 +61,7 @@ The following subsections are planned:
               - [GitHub] CodeQL / third party tool
               - If within the budget of your organisation, use an SCA tool to scan for vulnerabilities
 
-        * Security Testing: Binaries / pre-compiled code / packages – where source code sharing is not a part of the license (Examples executables / nugets)
+        * Security Testing: Binaries / pre-compiled code / packages – where source code sharing is not a part of the license (Examples executables / NuGets)
               - Perform Dynamic application analysis
               - Perform Pen testing
               - Verify which tokens are created for your user or revoke tokens in cases of emergency - use npm token list or npm token revoke respectively.
@@ -72,7 +72,7 @@ The following subsections are planned:
               - Perform Pen testing.
 
 * Third Party Software and Libraries (hive off to OWASP Dependency Tracker)
-    *  Address supply chain risk with: Binaries / pre-compiled code / packages – where source code sharing is not a part of the license (Examples executables / nugets)
+    *  Address supply chain risk with: Binaries / pre-compiled code / packages – where source code sharing is not a part of the license (Examples executables / NuGets)
             - Use  signed binaries / packages
             - Reference private feed in your code
             - Use controlled scopes
@@ -84,7 +84,7 @@ The following subsections are planned:
             - [GitHub]Dependabot alerts
             - [GitHub]Commit and tag signatures
 
-    * Monitor Dependencies: Binaries / pre-compiled code / packages – where source code sharing is not a part of the license (Examples executables / nugets)
+    * Monitor Dependencies: Binaries / pre-compiled code / packages – where source code sharing is not a part of the license (Examples executables / NuGets)
            - Use dependency graphs
            - Enable repeatable package restores using lock files
 
@@ -97,9 +97,9 @@ The following subsections are planned:
 	         - Use dependency graphs
            - Lock files
 	         - Monitor vulnerabilities with:
-                 - Check for vulnerabilities for the selected binies in vulnerability disclosure databases like
-                         - CVE database (https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=bouncy+castle)
-                         - VulnDB (https://vuldb.com/?id.173918)
+                 - Check for vulnerabilities for the selected binaries in vulnerability disclosure databases like
+                         - CVE database (`https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=bouncy+castle`)
+                         - VulnDB (`https://vuldb.com/?id.173918`)
            - If within the budget of your organisation, use an SCA tool to scan for vulnerabilities "
 
 * Copying source code off public domain (internet) - For example source code that is on a blog or in discussion forums like stacktrace or snippets of example on writeups	

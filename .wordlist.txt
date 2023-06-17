@@ -201,4 +201,11 @@ CAPEC
 Pythonic
 pytm
 Threagile
+executables
+NuGets
 threatspec
+npm
+stacktrace
+writeups
+SCA
+VulnDB
