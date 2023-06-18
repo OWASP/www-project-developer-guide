@@ -208,6 +208,11 @@ stacktrace
 writeups
 SCA
 VulnDB
+webapp
+JSP
+executables
+threatspec
+subdirectories
 serializer
 AngularJS
 angularjs
