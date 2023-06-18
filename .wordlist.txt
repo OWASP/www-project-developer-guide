@@ -200,6 +200,11 @@ CAPEC
 Pythonic
 pytm
 Threagile
+webapp
+JSP
+executables
+threatspec
+subdirectories
 serializer
 AngularJS
 angularjs
