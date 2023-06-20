@@ -200,6 +200,14 @@ CAPEC
 Pythonic
 pytm
 Threagile
+executables
+NuGets
+threatspec
+npm
+stacktrace
+writeups
+SCA
+VulnDB
 webapp
 JSP
 executables
@@ -227,3 +235,4 @@ parameterization
 npm
 lychee
 pandoc
+CodeQL
