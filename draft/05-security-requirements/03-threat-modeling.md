@@ -236,18 +236,22 @@ then that is a perfectly good choice.
     widely used tool and free to download
 * [threatspec](https://threatspec.org/), an open source tool based on comments inline with code
 
+---
+The OWASP Developer Guide is a community effort; if you see something that needs changing
+then [submit an issue][issue] or a [pull request][pr] .
+
 [4QuestionFrame]: https://github.com/adamshostack/4QuestionFrame
 [capec]: https://capec.mitre.org/
 [chains]: https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html
 [cia]: https://www.nccoe.nist.gov/publication/1800-25/VolA/index.html
+[issue]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-security-requirements/03-threat-modeling
 [linddun]: https://www.linddun.org/
 [OTM]: https://owasp.org/www-project-threat-model/
 [OTMCS]: https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html
 [OTMP]: https://owasp.org/www-project-threat-modeling-playbook/
 [pasta]: https://versprite.com/blog/what-is-pasta-threat-modeling/
+[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 [samm]: https://owaspsamm.org/about/
 [stride]: https://en.wikipedia.org/wiki/STRIDE_%28security%29
-
----
 
 \newpage

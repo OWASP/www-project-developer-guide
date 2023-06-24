@@ -14,16 +14,22 @@ order: 501
 
 ### 5.1 Introduction to security requirements
 
-The OWASP Development Guide is being rewritten by the OWASP community.
-and the content of this section has yet to be filled in.
+This section deals with Security Requirements, which is a security practice in the Design business function
+section of the OWASP Software Assurance Maturity Model ([SAMM][samm]).
+Security requirements has two activities, Software Requirements and Supplier Security.
 
-If you would like to contribute then follow the
-[contributing guidelines](https://github.com/OWASP/www-project-developer-guide/blob/main/contributing.md)
-and submit your content for review.
+#### Overview
 
-The following subsections are planned:
+#### Software requirements
 
-* Threat modeling (hive off to threat modeling material on OWASP)
-* Regulatory / statutory requirements
+#### Supplier security
+
+----
+The OWASP Developer Guide is a community effort; if you see something that needs changing
+then [submit an issue][issue] or a [pull request][pr] .
+
+[issue]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-security-requirements
+[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+[samm]: https://owaspsamm.org/about/
 
 \newpage

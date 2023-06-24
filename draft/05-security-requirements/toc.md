@@ -24,4 +24,4 @@ Sections:
 5.1 [Introduction](01-security-requirements.md)  
 5.2 [Regulatory and statutory requirements](02-regulatory-statutory-requirements.md)  
 5.3 [Threat modeling](03-threat-modeling.md)  
-5.4 [Remediation](04-remediation.md)  
+5.4 [Risk profile](04-risk-profile.md)  

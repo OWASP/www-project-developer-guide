@@ -1,6 +1,6 @@
 ---
 
-title: Remediation
+title: Risk Profile
 layout: col-document
 tags: OWASP Developer Guide
 author:
@@ -12,15 +12,24 @@ order: 504
 
 {% include breadcrumb.html %}
 
-### 5.4 Remediation
+### 5.4 Risk profile
+
+This section discusses the Application Risk Profile: an activity used for the Threat Assessment security practice
+in the Design business function, which is part of the OWASP Software Assurance Maturity Model ([SAMM][samm]).
+
+#### Overview
+
+Remediation is the strategy chosen in response to a risk to the business system,
+and these risks are identified using various techniques such as threat modeling and security requirements analysis.
 
 Risk management is the identification, assessment, and prioritization of risks to the application or system.
-The objective of risk management is to ensure that uncertainty does not deflect the endeavor from the business goals,
-and remediation is the strategy chosen in response to identifying this risk.
+The objective of risk management is to ensure that uncertainty does not deflect the endeavor from the business goals.
 
-Risk management can be split in two parts. First determine which risks exists
-and then secondly handling those risks in a way that is best for the business;
+Risk management can be split into two phases. First determine which risks exists
+and then provide remedies (remediate) those risks in a way that is best for the business;
 risk management should always be business driven.
+
+#### Remediation
 
 There are four common ways to handling risk:
 
@@ -49,5 +58,13 @@ Examples:
 
 4. Elimination: an example may be that an application implements legacy functionality that is no longer used,
     if there is a risk of it being exploited then the risk can be eliminated by removing this legacy functionality
+
+---
+The OWASP Developer Guide is a community effort; if you see something that needs changing
+then [submit an issue][issue] or a [pull request][pr] .
+
+[issue]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-security-requirements/04-risk-profile
+[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+[samm]: https://owaspsamm.org/about/
 
 \newpage
