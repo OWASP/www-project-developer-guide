@@ -12,7 +12,7 @@ on:
 jobs:
   link_checker:
     name: Link checker
-    runs-on: ubuntu-22.04.2
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout markdown
         uses: actions/checkout@v3.5.2
