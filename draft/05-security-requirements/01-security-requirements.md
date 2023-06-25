@@ -24,6 +24,8 @@ Security requirements has two activities, Software Requirements and Supplier Sec
 
 #### Supplier security
 
+#### Further reading
+
 ----
 The OWASP Developer Guide is a community effort; if you see something that needs changing
 then [submit an issue][issue] or a [pull request][pr] .

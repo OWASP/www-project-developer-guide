@@ -14,8 +14,8 @@ order: 503
 
 ### 5.3 Threat modeling
 
-This section deals with Threat Modeling: an activity used for the Threat Assessment security practice
-in the Design business function, which is part of the OWASP Software Assurance Maturity Model ([SAMM][samm]).
+This section discusses Threat Modeling, an activity in the OWASP Software Assurance Maturity Model ([SAMM][samm]).
+Threat modeling is part of the Threat Assessment security practice in the Design business function.
 Much of the material in this section is derived from the [OWASP Threat Model project][OTM].
 
 #### Overview
