@@ -216,42 +216,49 @@ then that is a perfectly good choice.
 #### Further reading
 
 * [Threat Modeling Manifesto](https://www.threatmodelingmanifesto.org/)
-* [OWASP Threat Model project](https://owasp.org/www-project-threat-model/)
-* [OWASP Threat Modeling Cheat Sheet][OTMCS]
-* [OWASP Threat Modeling Playbook (OTMP)][OTMP]
-* OWASP community pages on [Threat Modeling](https://owasp.org/www-community/Threat_Modeling)
-    and [Threat Modeling Process](https://owasp.org/www-community/Threat_Modeling_Process)
+* OWASP [Threat Model project](https://owasp.org/www-project-threat-model/)
+* OWASP [Threat Modeling Cheat Sheet][OTMCS]
+* OWASP [Threat Modeling Playbook (OTMP)][OTMP]
+* OWASP [Attack Surface Analysis Cheat Sheet][ASACS]
+* OWASP community pages on [Threat Modeling][TM] and the [Threat Modeling Process][TMP]
 * [The Four Question Framework For Threat Modeling](https://youtu.be/Yt0PhyEdZXU) 60 second video
 * Lockheed's [Cyber Kill Chain][chains]
 * VerSprite's Process for Attack Simulation and Threat Analysis ([PASTA][pasta])
-* Mitre's Common Attack Pattern Enumeration and Classification ([CAPEC][capec])
 
 #### Resources
 
-* Shostack's [Four Question Framework][4QuestionFrame]
-* OWASP [pytm](https://owasp.org/www-project-pytm/) Pythonic Threat Modeling tool
-* OWASP [Threat Dragon](https://owasp.org/www-project-threat-dragon/) threat modeling tool using dataflow diagrams
+* Shostack's [Four Question Framework][4QFW]
+* OWASP [pytm][PYTM] Pythonic Threat Modeling tool
+* OWASP [Threat Dragon][TD] threat modeling tool using dataflow diagrams
 * [Threagile](https://threagile.io), an open source project that provides for Agile threat modeling
-* Microsoft [Threat Modeling Tool](https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool),
-    widely used tool and free to download
+* Microsoft [Threat Modeling Tool][TMT], a widely used tool throughout the security community and free to download
 * [threatspec](https://threatspec.org/), an open source tool based on comments inline with code
+* Mitre's Common Attack Pattern Enumeration and Classification ([CAPEC][capec])
+* NIST [Common Vulnerability Scoring System Calculator][NIST]
 
 ---
 The OWASP Developer Guide is a community effort; if you see something that needs changing
 then [submit an issue][issue] or a [pull request][pr] .
 
-[4QuestionFrame]: https://github.com/adamshostack/4QuestionFrame
+[4QFW]: https://github.com/adamshostack/4QuestionFrame
+[ASACS]: https://cheatsheetseries.owasp.org/cheatsheets/Attack_Surface_Analysis_Cheat_Sheet.html
 [capec]: https://capec.mitre.org/
 [chains]: https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html
 [cia]: https://www.nccoe.nist.gov/publication/1800-25/VolA/index.html
 [issue]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-security-requirements/03-threat-modeling
 [linddun]: https://www.linddun.org/
+[NIST]: https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator
 [OTM]: https://owasp.org/www-project-threat-model/
 [OTMCS]: https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html
 [OTMP]: https://owasp.org/www-project-threat-modeling-playbook/
 [pasta]: https://versprite.com/blog/what-is-pasta-threat-modeling/
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+[PYTM]: https://owasp.org/www-project-pytm/
 [samm]: https://owaspsamm.org/about/
 [stride]: https://en.wikipedia.org/wiki/STRIDE_%28security%29
+[TD]: https://owasp.org/www-project-threat-dragon/
+[TM]: https://owasp.org/www-community/Threat_Modeling
+[TMP]: https://owasp.org/www-community/Threat_Modeling_Process
+[TMT]: https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool
 
 \newpage
