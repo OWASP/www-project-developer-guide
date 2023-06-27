@@ -115,7 +115,7 @@ Threat modeling: _the sooner the better, but never too late_
 
 Often threat modeling is a conceptual activity rather than a rigorous process,
 where development teams are brought together and asked to think up ways of subverting their system.
-To provide some structure it is useful to start with Shostack's [Four Question Framework][4QuestionFrame]:
+To provide some structure it is useful to start with Shostack's [Four Question Framework][4QFW]:
 
 **1 What are we building**?
 

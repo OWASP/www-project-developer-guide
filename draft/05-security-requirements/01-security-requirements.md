@@ -22,9 +22,9 @@ with regulatory and statutory requirements being an important subset of these ac
 #### Overview
 
 Security requirements are part of every secure development process
-and form the foundation for the application's security posture.
+and form the foundation for the application's security posture - they will certainly help with
+the prevention of many types of vulnerabilities.
 Ideally security requirements are built in at the beginning of development,
-they certainly help with the prevention of many types of vulnerabilities,
 but there is no wrong time to consider these security requirements and add new ones as necessary.
 
 Requirements can come from many sources and in general there are three main sources:
@@ -42,8 +42,8 @@ both of which may have a direct impact on the application.
 
 #### Software requirements
 
-The OWASP [Top Ten Proactive Controls][proactive] describes the most important control and control categories
-that every architect and developer should include in every project.
+The OWASP [Top Ten Proactive Controls][proactive] describes the most important categories of controls
+that architects and developers should include in every project.
 At the head of the list of controls is [C1: Define Security Requirements][c1]
 and this reflects the importance of software security requirements: without them the development will not be secure.
 
@@ -56,7 +56,7 @@ and this is certainly sufficient to require that authentication is included in t
 The SAMM [Security Requirements practice][samm-reqs] lists maturity levels of software security requirements
 that specify objectives and expectations.
 Choose the level that is appropriate for the organization and the development team,
-with the understanding that nay of these levels are perfectly acceptable.
+with the understanding that any of these levels are perfectly acceptable.
 
 The software security requirements maturity levels are:
 
@@ -68,15 +68,15 @@ OWASP provides projects that can help in identifying security requirements
 that will protect the service and data at the core of the application.
 The [Application Security Verification Standard][asvs] provides a list of requirements for secure development,
 and this can be used as a starting point for the security requirements.
-The [Mobile Application Security][mas] provides a similar set of security standard requirements for mobile applications.
+The [Mobile Application Security][mas] provides a similar set of standard security requirements for mobile applications.
 
 #### Supplier security
 
 External suppliers involved in the development process need to be assessed for their security practices and compliance.
-Depending on what their involvement is these suppliers can have a significant impact on the security of the application
-and security requirements will have to be negotiated. 
+Depending on their level of involvement these suppliers can have a significant impact on the security of the application
+so a set of security requirements will have to be negotiated with them.
 
-[SAMM][samm-reqs] lists maturity levels for supplier security requirements
+[SAMM][samm-reqs] lists maturity levels for the security requirements
 that will clarify the strengths and weaknesses of your suppliers.
 Note that supplier security is distinct from security of third-party software and libraries,
 and the use of third-party and open source software is discussed
@@ -90,14 +90,14 @@ The supplier security requirements maturity levels are:
 
 #### Regulatory and statutory requirements
 
-Regulatory requirements can include security requirements which then must also be taken into account.
+Regulatory requirements can include security requirements which then must be taken into account.
 Different industries are regulated are regulated to a lesser or greater extent,
 and the only general advice is to be aware and follow the regulations.
 
 Various jurisdictions will have different statutory requirements that may result in security requirements.
-Any applicable statutory security requirements should be added to the application security requirements.
-Similarly to regulatory requirements, the only general advice is
-to be familiar with and follow the appropriate statutory requirements.
+Any applicable statutory security requirement should be added to the application security requirements.
+Similarly to regulatory requirements,
+the only general advice is to be familiar with and follow the appropriate statutory requirements.
 
 #### Further reading
 
@@ -116,7 +116,7 @@ then [submit an issue][issue] or a [pull request][pr].
 [issue]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-security-requirements
 [mas]: https://mas.owasp.org/
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
-[proactive]: [c1]: https://owasp.org/www-project-proactive-controls/
+[proactive]: https://owasp.org/www-project-proactive-controls/
 [samm]: https://owaspsamm.org/about/
 [samm-reqs]: https://owaspsamm.org/model/design/security-requirements/
 
