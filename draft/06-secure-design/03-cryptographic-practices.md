@@ -63,4 +63,11 @@ o Cryptography in general
     and that it has not been seeded in a predictable way or with low entropy.
     Most modern APIs do not require the developer to seed the CSPRNG to get security.
 
+---
+The OWASP Developer Guide is a community effort; if you see something that needs changing
+then [submit an issue][issue] or a [pull request][pr] .
+
+[issue]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-secure-design/03-cryptographic-practices
+[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+
 \newpage

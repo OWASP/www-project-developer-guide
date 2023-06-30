@@ -14,12 +14,11 @@ order: 402
 
 ### 4.2 Secure development and integration
 
-The OWASP Development Guide is being rewritten by the OWASP community,
-and the content of this section has yet to be filled in.
+---
+The OWASP Developer Guide is a community effort; if you see something that needs changing
+then [submit an issue][issue] or a [pull request][pr] .
 
-If you would like to contribute then follow the [contributing guidelines][contribute]
-and submit your content for review.
-
-[contribute]: https://github.com/OWASP/www-project-developer-guide/blob/main/contributing.md
+[issue]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/02-secure-development
+[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 
 \newpage

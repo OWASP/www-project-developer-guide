@@ -124,5 +124,10 @@ and also should have security patches available.
 In addition open source components have the benefit of 'many eyes' and are likely to be even more secure.
 
 ---
+The OWASP Developer Guide is a community effort; if you see something that needs changing
+then [submit an issue][issue] or a [pull request][pr] .
+
+[issue]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/03-security-principles
+[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 
 \newpage

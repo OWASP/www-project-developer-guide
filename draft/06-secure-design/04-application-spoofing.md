@@ -73,6 +73,12 @@ How can it be addressed:
 * In the event a dispute needs to be raised, it can be done with [URDP][urdp]
 * Verify packages in registries before using them
 
+---
+The OWASP Developer Guide is a community effort; if you see something that needs changing
+then [submit an issue][issue] or a [pull request][pr] .
+
+[issue]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-secure-design/04-application-spoofing
+[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 [urdp]: https://www.icann.org/resources/pages/help/dndr/udrp-en
 
 \newpage

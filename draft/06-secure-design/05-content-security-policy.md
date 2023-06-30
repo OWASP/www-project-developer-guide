@@ -148,4 +148,11 @@ Setting rules for Android application:
 </manifest>
 ```
 
+---
+The OWASP Developer Guide is a community effort; if you see something that needs changing
+then [submit an issue][issue] or a [pull request][pr] .
+
+[issue]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-secure-design/05-content-security-policy
+[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+
 \newpage

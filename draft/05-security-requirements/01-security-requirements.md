@@ -107,7 +107,7 @@ the only general advice is to be familiar with and follow the appropriate statut
   * [Application Security Verification Standard (ASVS)][asvs]
   * [Mobile Application Security][mas]
 
-----
+---
 The OWASP Developer Guide is a community effort; if you see something that needs changing
 then [submit an issue][issue] or a [pull request][pr].
 
