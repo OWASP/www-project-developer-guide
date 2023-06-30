@@ -34,8 +34,8 @@ is via the OWASP Slack [#project-developer-guide][project] project channel
 * [Harold Blankenship](mailto:harold.blankenship@owasp.org)
 * [Jon Gadsden](mailto:jon.gadsden@owasp.org)
 
-[conduct]: CODE_OF_CONDUCT.md
-[guide]: CONTRIBUTING.md
+[conduct]: code_of_conduct.md
+[guide]: contributing.md
 [devGuide]: https://github.com/OWASP/DevGuide
 [draft]: draft
 [draftGuide]: https://owasp.org/www-project-developer-guide/draft/

@@ -3,3 +3,6 @@
 # some sites that are examples only, no intention of being real
 myfriend.site.com/
 
+# Lockheed Martin has trouble with SSL certificates, temporarily ignore
+https://www.lockheedmartin.com
+

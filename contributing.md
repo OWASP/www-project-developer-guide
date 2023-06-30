@@ -70,10 +70,30 @@ The pull requests have checks applied to them:
 
 if all these checks pass then both the PDF and ePub versions of the guide are provided as github artifacts.
 
+### Running checks locally
+
+The pipeline will apply checks to all pull-requests, and will fail on any error.
+To run these checks locally before pushing a commit, run these commands from the top directory:
+
+1. Link checker: `lychee --max-retries 5 --exclude-path './_includes/*.html' './**/*.md'`
+2. Markdown linter: `markdownlint-cli2  **/*.md`
+3. Spell checker: `pyspelling --config .spellcheck.yaml`
+4. PDF and ePub:
+    1. `tail --lines=+14 -q draft/*0*.md draft/*0**/*0*.md > draft.markdown`
+    2. `pandoc --output=draft.pdf draft/title.yaml draft.markdown`
+    3. `pandoc --output=draft.epub draft/title.yaml draft.markdown`
+
+Follow instructions to install the command line [lychee][lychee-install] and [pandoc][pandoc-install].
+
+To install `markdownlint-cli2` use npm: `npm install markdownlint-cli2 --global`,
+and to install `pyspelling` use pip: `pip install pyspelling`
+
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
-[conduct]: CODE_OF_CONDUCT.md
+[conduct]: code_of_conduct.md
 [dashboard]: https://github.com/orgs/OWASP/projects/14/views/1
 [issues]: https://github.com/OWASP/www-project-developer-guide/issues/new/choose
+[lychee-install]: https://lib.rs/crates/lychee
+[pandoc-install]: https://pandoc.org/installing.html
 [request]: https://github.com/OWASP/www-project-developer-guide/pulls
 [wiki]: https://github.com/OWASP/www-project-developer-guide/wiki
 [wstg]: https://owasp.org/www-project-web-security-testing-guide/
