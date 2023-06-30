@@ -31,9 +31,8 @@ and so the content is expected to frequently change._
 
 5 **[Security requirements](#security-requirements)**  
 5.1 [Introduction](#introduction-to-security-requirements)  
-5.2 [Regulatory and statutory requirements](#regulatory-and-statutory-requirements)  
-5.3 [Threat modeling](#threat-modeling)  
-5.4 [Remediation](#remediation)  
+5.2 [Threat modeling](#threat-modeling)  
+5.3 [Risk profile](#risk-profile)  
 
 6 **[Secure design](#secure-design)**  
 6.1 [Introduction](#introduction-to-secure-design)  
