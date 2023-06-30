@@ -54,11 +54,12 @@ order: 902
   * Remove backup or old files that are not in use
   * Change/disable all default account passwords
 
----
-The OWASP Developer Guide is a community effort; if you see something that needs changing
-then [submit an issue][issue] or a [pull request][pr] .
+----
 
-[issue]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2009-secure-environment/02-system-hardening
+The OWASP Developer Guide is a community effort; if you see something that needs changing
+then [submit an issue][issue0902] or a [pull request][pr] .
+
+[issue0902]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2009-secure-environment/02-system-hardening
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 
 \newpage

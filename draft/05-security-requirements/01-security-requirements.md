@@ -107,13 +107,14 @@ the only general advice is to be familiar with and follow the appropriate statut
   * [Application Security Verification Standard (ASVS)][asvs]
   * [Mobile Application Security][mas]
 
----
+----
+
 The OWASP Developer Guide is a community effort; if you see something that needs changing
-then [submit an issue][issue] or a [pull request][pr].
+then [submit an issue][issue0501] or a [pull request][pr].
 
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [c1]: https://owasp.org/www-project-proactive-controls/v3/en/c1-security-requirements
-[issue]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-security-requirements
+[issue0501]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-security-requirements
 [mas]: https://mas.owasp.org/
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 [proactive]: https://owasp.org/www-project-proactive-controls/

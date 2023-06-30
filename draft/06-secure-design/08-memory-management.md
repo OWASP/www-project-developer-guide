@@ -29,11 +29,12 @@ order: 608
 
 * Properly free allocated memory upon the completion of functions and at all exit points.
 
----
-The OWASP Developer Guide is a community effort; if you see something that needs changing
-then [submit an issue][issue] or a [pull request][pr] .
+----
 
-[issue]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-secure-design/08-memory-management
+The OWASP Developer Guide is a community effort; if you see something that needs changing
+then [submit an issue][issue0608] or a [pull request][pr] .
+
+[issue0608]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-secure-design/08-memory-management
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 
 \newpage

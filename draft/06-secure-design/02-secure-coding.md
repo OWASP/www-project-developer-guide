@@ -159,11 +159,12 @@ Also not exploitable: `{""result"": [{""object"": ""inside an array""}]}"`
 * When using node.js, on the server use a proper JSON serializer to encode user-supplied data properly
     to prevent the execution of user-supplied input on the browser.
 
----
-The OWASP Developer Guide is a community effort; if you see something that needs changing
-then [submit an issue][issue] or a [pull request][pr] .
+----
 
-[issue]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-secure-design/02-secure-coding
+The OWASP Developer Guide is a community effort; if you see something that needs changing
+then [submit an issue][issue0602] or a [pull request][pr] .
+
+[issue0602]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-secure-design/02-secure-coding
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 
 \newpage

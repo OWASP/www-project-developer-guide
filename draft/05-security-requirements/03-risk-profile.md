@@ -93,12 +93,13 @@ Examples:
 * Mozilla's [Risk Assessment Summary][rrs] and [Rapid Risk Assessment (RRA)][rra]
 * [Common Vulnerability Scoring System (CVSS)][cvss] used for severity and risk ranking
 
----
+----
+
 The OWASP Developer Guide is a community effort; if you see something that needs changing
-then [submit an issue][submit] or a [pull request][pr] .
+then [submit an issue][issue0503] or a [pull request][pr] .
 
 [cvss]: https://www.first.org/cvss/
-[submit]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-security-requirements/04-risk-profile
+[issue0503]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-security-requirements/03-risk-profile
 [nist]: https://csrc.nist.gov/publications/detail/sp/800-30/rev-1/final
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 [rra]: https://infosec.mozilla.org/guidelines/risk/rapid_risk_assessment.html

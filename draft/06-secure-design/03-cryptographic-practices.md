@@ -34,12 +34,12 @@ order: 603
 * Maintain a contingency plan that can recover data in the event of an encrypted key being lost
 * Store keys away from the data
 * Do not use IV twice for a fixed key
-o Communication security
+* Communication security
 * Ensure no sensitive data is transmitted in the clear, internally or externally.
 * Validate certificates properly against the hostnames/users for whom they are meant
 * Failed TLS connections should not fall back to an insecure connection
 * Do not use IV twice for a fixed key
-o Cryptography in general
+* Cryptography in general
 * All protocols and algorithms for authentication and secure communication
     should be well vetted by the cryptographic community.
 * Perform Message integrity checking by using a combined mode of operation, or a MAC based on a block cipher.
@@ -63,11 +63,12 @@ o Cryptography in general
     and that it has not been seeded in a predictable way or with low entropy.
     Most modern APIs do not require the developer to seed the CSPRNG to get security.
 
----
-The OWASP Developer Guide is a community effort; if you see something that needs changing
-then [submit an issue][issue] or a [pull request][pr] .
+----
 
-[issue]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-secure-design/03-cryptographic-practices
+The OWASP Developer Guide is a community effort; if you see something that needs changing
+then [submit an issue][issue0603] or a [pull request][pr] .
+
+[issue0603]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-secure-design/03-cryptographic-practices
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 
 \newpage
