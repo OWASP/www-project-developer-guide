@@ -31,14 +31,11 @@ docs:
 - title: '5.1 Introduction'
   url: 05-security-requirements/01-security-requirements
 
-- title: '5.2 Regulatory and statutory requirements'
-  url: 05-security-requirements/02-regulatory-statutory-requirements
+- title: '5.2 Threat modeling'
+  url: 05-security-requirements/02-threat-modeling
 
-- title: '5.3 Threat modeling'
-  url: 05-security-requirements/03-threat-modeling
-
-- title: '5.4 Remediation'
-  url: 05-security-requirements/04-remediation
+- title: '5.3 Risk profile'
+  url: 05-security-requirements/03-risk-profile
 
 - title: '6. Secure design'
   url: 06-secure-design/toc
