@@ -3,8 +3,6 @@
 title: Security Fundamentals
 layout: col-document
 tags: OWASP Developer Guide
-author:
-contributors:
 document: OWASP Developer Guide
 order: 401
 
@@ -14,9 +12,15 @@ order: 401
 
 ### 4.1 Security fundamentals
 
+The OWASP Software Assurance Maturity Model [(SAMM)][samm] provides a good context for the scope of software security,
+and the foundations of SAMM rely on the security concepts in this section.
+
+#### Overview
+
 Security is simply about controlling who can interact with your information,
 what they can do with it, and when they can interact with it.
-These characteristics of control are described through what is called the CIA triad.
+These characteristics of security can be described using the CIA triad,
+and can be extended using the AAA triad.
 
 #### CIA
 
@@ -68,7 +72,7 @@ Auditing is about keeping track of implementation-level events, as well as domai
 This helps to provide non-repudiation, which means that changes or actions on the protected system are undeniable.
 Auditing can provide not only technical information about the running system,
 but also proof that particular actions have been performed.
-The typical questions that are answered by auditing are "*Who* did *What*? *When*? And potentially *How*?"
+The typical questions that are answered by auditing are "*Who* did *What* *When* and potentially *How*?"
 
 ----
 
@@ -77,5 +81,6 @@ then [submit an issue][issue0401] or a [pull request][pr] .
 
 [issue0401]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/01-foundations
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+[samm]: https://owaspsamm.org/about/
 
 \newpage

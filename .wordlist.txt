@@ -238,5 +238,6 @@ pandoc
 CVSS
 RRA
 NIST
-
+DevSecOps
 CodeQL
+lifecycles

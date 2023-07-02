@@ -3,8 +3,6 @@
 title: Container Security Introduction
 layout: col-document
 tags: OWASP Developer Guide
-author:
-contributors:
 document: OWASP Developer Guide
 order: 701
 

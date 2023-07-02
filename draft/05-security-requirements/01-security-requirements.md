@@ -3,8 +3,6 @@
 title: Security Requirements Introduction
 layout: col-document
 tags: OWASP Developer Guide
-author:
-contributors:
 document: OWASP Developer Guide
 order: 501
 
@@ -17,15 +15,13 @@ order: 501
 This section deals with Security Requirements, which is a security practice in the Design business function
 section of the OWASP Software Assurance Maturity Model ([SAMM][samm]).
 This security requirements practice has two activities, Software Requirements and Supplier Security,
-with regulatory and statutory requirements being an important subset of these activities.
+with regulatory and statutory requirements being an important subset of both these activities.
 
 #### Overview
 
 Security requirements are part of every secure development process
 and form the foundation for the application's security posture - they will certainly help with
 the prevention of many types of vulnerabilities.
-Ideally security requirements are built in at the beginning of development,
-but there is no wrong time to consider these security requirements and add new ones as necessary.
 
 Requirements can come from many sources and in general there are three main sources:
 
@@ -34,11 +30,8 @@ Requirements can come from many sources and in general there are three main sour
 2. Requirements relative to supplier organizations that are part of the development context of the application
 3. Regulatory and Statutory requirements
 
-The security requirements should be identified and recorded at the beginning of any new development
-and also when new features are added to an existing application.
-These security requirements should be periodically revisited and revised as necessary;
-for example security standards are updated and new standards come into force,
-both of which may have a direct impact on the application.
+Ideally security requirements are built in at the beginning of development,
+but there is no wrong time to consider these security requirements and add new ones as necessary.
 
 #### Software requirements
 
@@ -98,6 +91,14 @@ Various jurisdictions will have different statutory requirements that may result
 Any applicable statutory security requirement should be added to the application security requirements.
 Similarly to regulatory requirements,
 the only general advice is to be familiar with and follow the appropriate statutory requirements.
+
+#### Periodic review
+
+The security requirements should be identified and recorded at the beginning of any new development
+and also when new features are added to an existing application.
+These security requirements should be periodically revisited and revised as necessary;
+for example security standards are updated and new standards come into force,
+both of which may have a direct impact on the application.
 
 #### Further reading
 

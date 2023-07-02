@@ -79,7 +79,7 @@ To run these checks locally before pushing a commit, run these commands from the
 2. Markdown linter: `markdownlint-cli2  **/*.md`
 3. Spell checker: `pyspelling --config .spellcheck.yaml`
 4. PDF and ePub:
-    1. `tail --lines=+14 -q draft/*0*.md draft/*0**/*0*.md > draft.markdown`
+    1. `tail --lines=+13 -q draft/*0*.md draft/*0**/*0*.md > draft.markdown`
     2. `pandoc --output=draft.pdf draft/title.pdf.yaml draft.markdown`
     3. `pandoc --output=draft.epub draft/title.yaml draft.markdown`
 

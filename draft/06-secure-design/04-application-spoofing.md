@@ -4,7 +4,6 @@ title: Application Spoofing
 layout: col-document
 tags: OWASP Developer Guide
 author: Shruti Kulkarni
-contributors:
 document: OWASP Developer Guide
 order: 604
 

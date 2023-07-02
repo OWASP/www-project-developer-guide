@@ -3,8 +3,6 @@
 title: Container Security overview
 layout: col-document
 tags: OWASP Developer Guide
-author:
-contributors:
 document: OWASP Developer Guide
 order:
 

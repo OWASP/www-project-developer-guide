@@ -4,7 +4,6 @@ title: Secure coding
 layout: col-document
 tags: OWASP Developer Guide
 author: Shruti Kulkarni
-contributors:
 document: OWASP Developer Guide
 order: 602
 

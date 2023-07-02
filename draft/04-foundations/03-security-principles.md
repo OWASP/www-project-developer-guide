@@ -3,8 +3,6 @@
 title: Principles of Security
 layout: col-document
 tags: OWASP Developer Guide
-author:
-contributors:
 document: OWASP Developer Guide
 order: 403
 
@@ -14,18 +12,36 @@ order: 403
 
 ### 4.3 Principles of security
 
-There are various concepts and terms used in the product security domain
-that development teams need to be familiar with.
+This section is a very brief introduction to some concepts used within the software security domain,
+and these may not be familiar to many application developers.
+The OWASP [Cheat Sheet Series][cheat] provides more in depth explanations for these security principles,
+see the further reading at the end of this section.
+
+#### Overview
+
+There are various concepts and terms used in the security domain that are fundamental
+to the understanding and discussion of application security.
+Security architects and security engineers will be familiar with these terms and development teams
+will also need this understanding to implement secure applications.
+
+#### No security guarantee
+
+One of the most important principles of software security is that **no** application or system is totally
+100% guaranteed to be secure from all attacks. This may seem an unusually pessimistic starting point
+but it is merely acknowledging the real world; given enough time and enough resources any system can be compromised.
+The goal of software security is not '100% secure' but to make it hard enough and the rewards small enough
+that malicious actors look elsewhere for systems to exploit.
 
 #### Defense in Depth
 
-Also known as layered defense, defense in depth is a security principle where defense against attack
+Also known as layered defense, [defense in depth][did] is a security principle where defense against attack
 is provided by multiple security controls.
 The aim is that single points of complete compromise are eliminated or mitigated
 by the incorporation of a series or multiple layers of security safeguards and risk-mitigation countermeasures.
 
 If one layer of defense turns out to be inadequate then, if diverse defensive strategies are in place,
-another layer of defense will hopefully prevent a full breach.
+another layer of defense may prevent a full breach and if that one is circumvented then
+the next layer may block the exploit.
 
 #### Fail Safe
 
@@ -46,17 +62,17 @@ upon design or implementation flaws.
 #### Least Privilege
 
 A security principle in which a person or process is given only the minimum level of access rights (privileges)
-that is necessary
-for that person or process to complete an assigned operation.
+that is necessary for that person or process to complete an assigned operation.
 This right must be given only for a minimum amount of time that is necessary to complete the operation.
 
 This helps to limits the damage when a system is compromised by minimising the ability of an attacker
-to escalate privileges (horizontally or vertically).
-In order to apply this principle, proper granularity of privileges and permissions should be established.
+to escalate privileges both horizontally or vertically.
+In order to apply this [principle of least privilege][elp] proper granularity
+of privileges and permissions should be established.
 
 #### Separation of Duties
 
-Also known as separation of privilege, separation of duties is a security principle which requires that
+Also known as [separation of privilege][sop], separation of duties is a security principle which requires that
 the successful completion of a single task
 is dependent upon two or more conditions that are insufficient for completing the task by itself.
 
@@ -123,12 +139,26 @@ Existing components are more likely to be tried and tested, and hence more secur
 and also should have security patches available.
 In addition open source components have the benefit of 'many eyes' and are likely to be even more secure.
 
+#### Further reading
+
+* OWASP Cheat Sheet series
+  * [Authentication Cheat Sheet][ancs]
+  * [Authorization_Cheat_Sheet][azcs]
+  * [Secure Product Design Cheat Sheet][spdcs]
+
 ----
 
 The OWASP Developer Guide is a community effort; if you see something that needs changing
 then [submit an issue][issue0403] or a [pull request][pr] .
 
+[ancs]: https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html
+[azcs]: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html
+[cheat]: https://owasp.org/www-project-cheat-sheets/
+[did]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet.html#2-the-principle-of-defense-in-depth
 [issue0403]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/03-security-principles
+[elp]: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html#enforce-least-privileges
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+[sop]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet.html#1-the-principle-of-least-privilege-and-separation-of-duties
+[spdcs]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet.html
 
 \newpage

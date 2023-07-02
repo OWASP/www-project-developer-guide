@@ -3,7 +3,6 @@
 title: Table of Contents
 layout: col-document
 tags: OWASP Developer Guide
-contributors:
 document: OWASP Developer Guide
 order: 0
 permalink: /draft/
