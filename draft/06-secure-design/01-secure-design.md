@@ -3,6 +3,7 @@
 title: Secure Design Introduction
 layout: col-document
 tags: OWASP Developer Guide
+contributors:
 document: OWASP Developer Guide
 order: 601
 

@@ -3,6 +3,7 @@
 title: Static Code Analysis
 layout: col-document
 tags: OWASP Developer Guide
+contributors:
 document: OWASP Developer Guide
 order: 802
 

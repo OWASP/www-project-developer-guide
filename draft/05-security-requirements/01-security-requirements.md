@@ -3,6 +3,7 @@
 title: Security Requirements Introduction
 layout: col-document
 tags: OWASP Developer Guide
+contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 501
 
@@ -104,7 +105,7 @@ both of which may have a direct impact on the application.
 
 * OWASP projects:
   * [Software Assurance Maturity Model (SAMM)][samm]
-  * [Top Ten Proactive Controls][proactive
+  * [Top Ten Proactive Controls][proactive]
   * [Application Security Verification Standard (ASVS)][asvs]
   * [Mobile Application Security][mas]
 

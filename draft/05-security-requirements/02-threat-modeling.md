@@ -3,6 +3,7 @@
 title: Threat modeling
 layout: col-document
 tags: OWASP Developer Guide
+contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 503
 
@@ -14,7 +15,7 @@ order: 503
 
 This section discusses Threat Modeling, an activity in the OWASP Software Assurance Maturity Model ([SAMM][samm]).
 Threat modeling is part of the Threat Assessment security practice in the Design business function.
-Much of the material in this section is derived from the [OWASP Threat Model project][OTM].
+Much of the material in this section is drawn from the OWASP [Threat Model project][otm].
 
 #### Overview
 
@@ -247,7 +248,7 @@ then [submit an issue][issue0502] or a [pull request][pr] .
 [issue0502]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-security-requirements/02-threat-modeling
 [linddun]: https://www.linddun.org/
 [nist-cvss]: https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator
-[OTM]: https://owasp.org/www-project-threat-model/
+[otm]: https://owasp.org/www-project-threat-model/
 [OTMCS]: https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html
 [OTMP]: https://owasp.org/www-project-threat-modeling-playbook/
 [pasta]: https://versprite.com/blog/what-is-pasta-threat-modeling/
