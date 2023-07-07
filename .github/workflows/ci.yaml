@@ -59,14 +59,16 @@ jobs:
 
       - name: Combine markdown
         run: |
-          tail --lines=+13 --quiet draft/*0*.md draft/*0**/*0*.md > draft.markdown
+          tail --lines=+14 --quiet draft/*0*.md draft/*0**/*0*.md > draft.markdown
           mkdir -p publish
 
       - name: Export to pdf
         uses: docker://pandoc/latex:3.1
         with:
           args: >-
-            --output=publish/OWASP_Developer_Guide.draft.pdf
+            --from=markdown
+            --output=publish/OWASP_Developer_Guide.draft.epub
+            --resource-path=draft
             draft/title.pdf.yaml
             draft.markdown
 
@@ -74,7 +76,9 @@ jobs:
         uses: docker://pandoc/latex:3.1
         with:
           args: >-
+            --from=markdown
             --output=publish/OWASP_Developer_Guide.draft.epub
+            --resource-path=draft
             draft/title.yaml
             draft.markdown
 

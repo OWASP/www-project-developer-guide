@@ -12,9 +12,13 @@ permalink: /draft/
 
 {% include breadcrumb.html %}
 
+# ![SDLC Diagram](../assets/images/dg_logo.png){ height=100% }
+
+\newpage
+
 ## OWASP Developer Guide (draft)
 
-_The draft version has the latest contributions to the Developer Guide,
+_The draft version has the latest contributions to the Developer Guide
 and so the content is expected to frequently change._
 
 1 **[Audience](#audience)**

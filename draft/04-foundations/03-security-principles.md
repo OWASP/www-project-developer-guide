@@ -14,7 +14,7 @@ order: 403
 ### 4.3 Principles of security
 
 This section is a very brief introduction to some concepts used within the software security domain,
-and these may not be familiar to many application developers.
+as these may not be familiar to many application developers.
 The OWASP [Cheat Sheet Series][cheat] provides more in depth explanations for these security principles,
 see the further reading at the end of this section.
 

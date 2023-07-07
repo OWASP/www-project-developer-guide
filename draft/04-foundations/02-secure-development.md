@@ -19,7 +19,9 @@ Much of the material in this section is drawn from the OWASP [Integration Standa
 
 #### Overview
 
-#### Secure development lifecycles
+![SDLC Diagram](assets/images/sdlc_diag.png "typical SDLC diagram"){height=25%}
+
+#### Secure development lifecycle
 
 #### Secure CI/CD
 
