@@ -114,6 +114,7 @@ json
 JSON
 JSONP
 DOM
+IAST
 SAST
 DAST
 SDLC
@@ -242,3 +243,6 @@ DevSecOps
 CodeQL
 lifecycles
 Wayfinder
+LifeCycle
+DevOps
+

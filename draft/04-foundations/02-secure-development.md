@@ -36,13 +36,13 @@ DevOps integrates and automates many of the SDLC phases and implements Continuou
 and Continuous Delivery/Deployment (CD) pipelines to provide much of this automation.
 DevOps and pipelines have been successfully exploited with serious large scale consequences
 and so, in a similar manner to the SDLC, much of the DevOps actions have also had to have security built in.
-Secure DevOps, or DevSecOps, builds security practices into the DevOPs activities to guard against attack
+Secure DevOps, or DevSecOps, builds security practices into the DevOps activities to guard against attack
 and to provide the SDLC with automated security testing.
 Examples of how DevSecOps is 'building security in' is the provision of
 Interactive, Static and Dynamic Application Security Testing (IAST, SAST & DAST)
 and implementing supply chain security, but there are many other security activities that can be applied.
 
-![SDLC Diagram](assets/images/sdlc_diag.png "typical SDLC diagram"){height=25%}
+![SDLC Diagram](../assets/images/sdlc_diag.png "typical SDLC diagram"){height=25%}
 
 #### Secure development lifecycle
 
