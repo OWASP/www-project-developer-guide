@@ -3,8 +3,7 @@
 title: Exception and Error Handling
 layout: col-document
 tags: OWASP Developer Guide
-author: Shruti Kulkarni
-contributors:
+contributors: Shruti Kulkarni
 document: OWASP Developer Guide
 order: 606
 
@@ -130,5 +129,13 @@ which can be used later on by the developer to get into the system without havin
 * Log cryptographic module failures
 
 * Use a cryptographic hash function to validate log entry integrity
+
+----
+
+The OWASP Developer Guide is a community effort; if you see something that needs changing
+then [submit an issue][issue0606] or a [pull request][pr] .
+
+[issue0606]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-secure-design/06-exception-error-handling
+[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 
 \newpage

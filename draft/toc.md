@@ -12,9 +12,11 @@ permalink: /draft/
 
 {% include breadcrumb.html %}
 
+![SDLC Diagram](../assets/images/dg_logo.png "OWASP Developer Guide"){ height=100 }
+
 ## OWASP Developer Guide (draft)
 
-_The draft version has the latest contributions to the Developer Guide,
+_The draft version has the latest contributions to the Developer Guide
 and so the content is expected to frequently change._
 
 1 **[Audience](01-audience.md)**
@@ -24,8 +26,8 @@ and so the content is expected to frequently change._
 3 **[Introduction](03-introduction.md)**
 
 4 **[Foundations](04-foundations/toc.md)**  
-4.1 [Security fundamentals](04-foundations/01-foundations.md)  
-4.2 [Secure Development Lifecycle (SDLC)](04-foundations/02-sdlc.md)  
+4.1 [Security fundamentals](04-foundations/01-security-fundamentals.md)  
+4.2 [Secure development and integration](04-foundations/02-secure-development.md)  
 4.3 [Principles of security](04-foundations/03-security-principles.md)  
 4.4 [Principles of cryptography](04-foundations/04-crypto-principles.md)  
 

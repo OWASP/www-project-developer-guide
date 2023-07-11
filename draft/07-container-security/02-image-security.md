@@ -3,8 +3,7 @@
 title: Image security
 layout: col-document
 tags: OWASP Developer Guide
-author: Shruti Kulkarni
-contributors:
+contributors: Shruti Kulkarni
 document: OWASP Developer Guide
 order: 702
 
@@ -129,6 +128,13 @@ Image security, host security, client security, daemon security, runtime securit
 * `daemon.json` file individual ownership and group ownership is correctly set to root, if it is in use.
 * daemon.json file is present its file permissions are correctly set to 644 or more restrictively.
 
+----
+
+The OWASP Developer Guide is a community effort; if you see something that needs changing
+then [submit an issue][issue0702] or a [pull request][pr] .
+
+[issue0702]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-container-security/02-image-security
+[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 [docker]: https://docs.docker.com/get-started/09_image_best/
 
 \newpage

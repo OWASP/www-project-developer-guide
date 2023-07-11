@@ -3,8 +3,7 @@
 title: System hardening
 layout: col-document
 tags: OWASP Developer Guide
-author:
-contributors:
+contributors: Shruti Kulkarni
 document: OWASP Developer Guide
 order: 902
 
@@ -13,13 +12,6 @@ order: 902
 {% include breadcrumb.html %}
 
 ### 9.2 System hardening
-
-The OWASP Development Guide is being rewritten by the OWASP community.
-and the content of this section has yet to be filled in.
-
-If you would like to contribute then follow the
-[contributing guidelines](https://github.com/OWASP/www-project-developer-guide/blob/main/contributing.md)
-and submit your content for review.
 
 * System hardening
   * The WEB-INF directory tree contains web application classes, pre-compiled files, server side libraries,
@@ -60,5 +52,13 @@ and submit your content for review.
       or protect against the discovered issue.
   * Remove backup or old files that are not in use
   * Change/disable all default account passwords
+
+----
+
+The OWASP Developer Guide is a community effort; if you see something that needs changing
+then [submit an issue][issue0902] or a [pull request][pr] .
+
+[issue0902]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2009-secure-environment/02-system-hardening
+[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 
 \newpage

@@ -16,8 +16,8 @@ docs:
 - title: '4.1 Security fundamentals'
   url: 04-foundations/01-foundations
 
-- title: '4.2 Secure Development Lifecycle (SDLC)'
-  url: 04-foundations/02-sdlc
+- title: '4.2 Secure development and integration'
+  url: 04-foundations/02-secure-development
 
 - title: '4.3 Principles of security'
   url: 04-foundations/03-security-principles

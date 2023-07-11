@@ -3,8 +3,7 @@
 title: Principles of Cryptography
 layout: col-document
 tags: OWASP Developer Guide
-author:
-contributors:
+contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 404
 
@@ -12,13 +11,19 @@ order: 404
 
 {% include breadcrumb.html %}
 
-### Principles of cryptography
+### 4.4 Principles of cryptography
+
+Cryptography is fundamental to the Confidentiality and Integrity of applications and systems.
+The OWASP [Cheat Sheet][cheat] series describes the use of cryptography and some of these are
+listed in the further reading at the end of this section.
 
 #### Overview
 
-This section provides a brief introduction to cryptography (colloquially referred to as "crypto") and the terms used.
-Cryptography is a huge subject and can get very mathematical,
+This section provides a brief introduction to cryptography (often referred to as "crypto") and the terms used.
+Cryptography is a large subject and can get very mathematical,
 but fortunately for the majority of development teams a general understanding of the concepts is sufficient.
+This general understanding, with the guidance of security architects, should allow implementation
+of cryptography by the development team for the application or system.
 
 #### Uses of cryptography
 
@@ -226,9 +231,34 @@ Key Transport protocols are where one party generates the key and sends it secur
 #### Key agreement protocols
 
 Key Agreement protocols are protocols whereby N parties (usually two) can agree on a common key
-with all parties contribute to the key value.
+with all parties contributing to the key value.
 These protocols prevent adversaries from learning the key or forcing their own key choice on the participating parties.
 
----
+#### Further reading
+
+* OWASP Cheat Sheet series
+  * [Authentication Cheat Sheet][ancs]
+  * [Authorization_Cheat_Sheet][azcs]
+  * [Cryptographic Storage Cheat Sheet][cscs]
+  * [Key Management Cheat Sheet][kmcs]
+  * [SAML Security Cheat Sheet][sscs]
+  * [Secure Product Design Cheat Sheet][spdcs]
+  * [User Privacy Protection Cheat Sheet][uppcs]
+
+----
+
+The OWASP Developer Guide is a community effort; if you see something that needs changing
+then [submit an issue][issue0404] or a [pull request][pr] .
+
+[ancs]: https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html
+[azcs]: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html
+[cheat]: https://owasp.org/www-project-cheat-sheets/
+[cscs]: https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html
+[issue0404]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/04-crypto-principles
+[kmcs]: https://cheatsheetseries.owasp.org/cheatsheets/Key_Management_Cheat_Sheet.html
+[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+[sscs]: https://cheatsheetseries.owasp.org/cheatsheets/SAML_Security_Cheat_Sheet.html
+[spdcs]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet.html
+[uppcs]: https://cheatsheetseries.owasp.org/cheatsheets/User_Privacy_Protection_Cheat_Sheet.html
 
 \newpage

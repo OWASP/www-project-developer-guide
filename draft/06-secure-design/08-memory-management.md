@@ -3,8 +3,7 @@
 title: Memory Management
 layout: col-document
 tags: OWASP Developer Guide
-author: Shruti Kulkarni
-contributors:
+contributors: Shruti Kulkarni
 document: OWASP Developer Guide
 order: 608
 
@@ -28,5 +27,13 @@ order: 608
 * Specifically close resources, do not rely on garbage collection. (for example connection objects, file handles, etc.)
 
 * Properly free allocated memory upon the completion of functions and at all exit points.
+
+----
+
+The OWASP Developer Guide is a community effort; if you see something that needs changing
+then [submit an issue][issue0608] or a [pull request][pr] .
+
+[issue0608]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-secure-design/08-memory-management
+[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 
 \newpage

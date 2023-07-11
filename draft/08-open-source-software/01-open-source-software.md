@@ -3,8 +3,7 @@
 title: Open Source Software Introduction
 layout: col-document
 tags: OWASP Developer Guide
-author: Shruti Kulkarni
-contributors:
+contributors: Shruti Kulkarni
 document: OWASP Developer Guide
 order: 801
 
@@ -104,5 +103,13 @@ We realise it could be challenging, but if feasible, maintain a list of approved
 * Copying source code off public domain (internet)
     For example source code that is on a blog or in discussion forums like stacktrace or snippets of example on writeups
     *******Don’t do it!!!*******
+
+----
+
+The OWASP Developer Guide is a community effort; if you see something that needs changing
+then [submit an issue][issue0801] or a [pull request][pr] .
+
+[issue0801]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2008-open-source-software/01-open-source-software
+[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 
 \newpage

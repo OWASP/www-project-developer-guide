@@ -3,8 +3,7 @@
 title: Secure coding
 layout: col-document
 tags: OWASP Developer Guide
-author: Shruti Kulkarni
-contributors:
+contributors: Shruti Kulkarni
 document: OWASP Developer Guide
 order: 602
 
@@ -158,5 +157,13 @@ Also not exploitable: `{""result"": [{""object"": ""inside an array""}]}"`
 * Wrap JSON in () to force the interpreter to think of it as JSON and not a code block
 * When using node.js, on the server use a proper JSON serializer to encode user-supplied data properly
     to prevent the execution of user-supplied input on the browser.
+
+----
+
+The OWASP Developer Guide is a community effort; if you see something that needs changing
+then [submit an issue][issue0602] or a [pull request][pr] .
+
+[issue0602]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-secure-design/02-secure-coding
+[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 
 \newpage

@@ -21,7 +21,7 @@ jobs:
         uses: lycheeverse/lychee-action@v1.8.0
         with:
           # skip the jekyll files
-          args: --verbose --no-progress --max-retries 5 --exclude-path './_includes/*.html' './**/*.md'
+          args: --verbose --no-progress --max-retries 5 --exclude-path './_includes/*.html' '**/*.md' '*.md'
           fail: true
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
@@ -66,7 +66,9 @@ jobs:
         uses: docker://pandoc/latex:3.1
         with:
           args: >-
-            --output=publish/OWASP_Developer_Guide.draft.pdf
+            --from=markdown
+            --output=publish/OWASP_Developer_Guide.draft.epub
+            --resource-path=draft
             draft/title.pdf.yaml
             draft.markdown
 
@@ -74,7 +76,9 @@ jobs:
         uses: docker://pandoc/latex:3.1
         with:
           args: >-
+            --from=markdown
             --output=publish/OWASP_Developer_Guide.draft.epub
+            --resource-path=draft
             draft/title.yaml
             draft.markdown
 

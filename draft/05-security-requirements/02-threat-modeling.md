@@ -3,8 +3,7 @@
 title: Threat modeling
 layout: col-document
 tags: OWASP Developer Guide
-author:
-contributors:
+contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 503
 
@@ -16,7 +15,7 @@ order: 503
 
 This section discusses Threat Modeling, an activity in the OWASP Software Assurance Maturity Model ([SAMM][samm]).
 Threat modeling is part of the Threat Assessment security practice in the Design business function.
-Much of the material in this section is derived from the [OWASP Threat Model project][OTM].
+Much of the material in this section is drawn from the OWASP [Threat Model project][otm].
 
 #### Overview
 
@@ -67,7 +66,7 @@ Usually this is difficult to quantify; an easier way to approach it may be to as
 what are the costs of _not_ doing threat modeling?
 These costs may consist of a lack of compliance, an increased risk of being exploited, harm to reputation and so on.
 
-The inclusion of threat modeling in the secure development lifecycle can help:
+The inclusion of threat modeling in the secure development activities can help:
 
 * Build a secure design
 * Efficient investment of resources; appropriately prioritize security, development, and other tasks
@@ -234,21 +233,22 @@ then that is a perfectly good choice.
 * Microsoft [Threat Modeling Tool][TMT], a widely used tool throughout the security community and free to download
 * [threatspec](https://threatspec.org/), an open source tool based on comments inline with code
 * Mitre's Common Attack Pattern Enumeration and Classification ([CAPEC][capec])
-* NIST [Common Vulnerability Scoring System Calculator][NIST]
+* NIST [Common Vulnerability Scoring System Calculator][nist-cvss]
 
----
+----
+
 The OWASP Developer Guide is a community effort; if you see something that needs changing
-then [submit an issue][issue] or a [pull request][pr] .
+then [submit an issue][issue0502] or a [pull request][pr] .
 
 [4QFW]: https://github.com/adamshostack/4QuestionFrame
 [ASACS]: https://cheatsheetseries.owasp.org/cheatsheets/Attack_Surface_Analysis_Cheat_Sheet.html
 [capec]: https://capec.mitre.org/
 [chains]: https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html
 [cia]: https://www.nccoe.nist.gov/publication/1800-25/VolA/index.html
-[issue]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-security-requirements/03-threat-modeling
+[issue0502]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-security-requirements/02-threat-modeling
 [linddun]: https://www.linddun.org/
-[NIST]: https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator
-[OTM]: https://owasp.org/www-project-threat-model/
+[nist-cvss]: https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator
+[otm]: https://owasp.org/www-project-threat-model/
 [OTMCS]: https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html
 [OTMP]: https://owasp.org/www-project-threat-modeling-playbook/
 [pasta]: https://versprite.com/blog/what-is-pasta-threat-modeling/

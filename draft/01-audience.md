@@ -3,8 +3,7 @@
 title: Audience
 layout: col-document
 tags: OWASP Developer Guide
-author:
-contributors:
+contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 100
 
@@ -42,8 +41,13 @@ Those who set policy are recommended to read as much as they can;
 only by knowledge of what can go wrong can organizations set policy
 to prevent the acquisition or development of insecure software.
 
-[samm]: https://owaspsamm.org/about/
+----
 
----
+The OWASP Developer Guide is a community effort; if you see something that needs changing
+then [submit an issue][issue01] or a [pull request][pr] .
+
+[issue01]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2001-audience
+[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+[samm]: https://owaspsamm.org/about/
 
 \newpage

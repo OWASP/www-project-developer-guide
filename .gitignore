@@ -28,6 +28,8 @@
 !draft/title*.yaml
 !draft/0*/
 !draft/**/*.md
+!draft/assets/
+!draft/assets/images/
 !draft/assets/images/*.png
 
 # pages markdown

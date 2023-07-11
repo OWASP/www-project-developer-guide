@@ -1,10 +1,9 @@
 ---
 
-title: Foundations overview
+title: Foundations
 layout: col-document
 tags: OWASP Developer Guide
-author:
-contributors:
+contributors: Jon Gadsden
 document: OWASP Developer Guide
 order:
 
@@ -14,17 +13,16 @@ order:
 
 ## 4. Foundations
 
-### Overview
-
-To Do:
-
-This should be a brief overview / abstract of the section on foundations.
-Section 4.1 contains more detail and the further sections expand on that
+There are various foundational concepts and terminology that are commonly used in software security.
+Although many of these concepts are complex to implement and are based on heavy-duty theory,
+the principles are often fairly straight forward and are accessible for every software engineer.
+A reasonable grasp of these foundational concepts allows development teams to understand and implement
+software security for the application or system under development.
 
 Sections:
 
 4.1 [Security fundamentals](#security-fundamentals)  
-4.2 [Secure Development Lifecycle (SDLC)](#secure-development-lifecycle)  
+4.2 [Secure development and integration)](#secure-development-and-integration)  
 4.3 [Principles of security](#principles-of-security)  
 4.4 [Principles of cryptography](#principles-of-cryptography)  
 
