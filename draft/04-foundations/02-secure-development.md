@@ -42,7 +42,7 @@ Examples of how DevSecOps is 'building security in' is the provision of
 Interactive, Static and Dynamic Application Security Testing (IAST, SAST & DAST)
 and implementing supply chain security, and there are many other security activities that can be applied.
 
-![SDLC Diagram](../assets/images/sdlc_diag.png "typical SDLC diagram"){height=25%}
+![SDLC Diagram](../assets/images/sdlc_diag.png "typical SDLC diagram"){ :height="25px" }
 
 #### Secure development lifecycle
 
