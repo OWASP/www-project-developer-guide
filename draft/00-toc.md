@@ -12,7 +12,7 @@ permalink: /draft/
 
 {% include breadcrumb.html %}
 
-## ![SDLC Diagram](../assets/images/dg_logo.png){ height=100% }
+## ![SDLC Diagram](../assets/images/dg_logo.png){ height="220px" }
 
 \newpage
 
