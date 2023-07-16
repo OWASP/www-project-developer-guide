@@ -25,6 +25,8 @@ Theses phases are revisited in a cyclic manner throughout the lifetime of the ap
 A generic Software Development LifeCycle (SDLC) is shown below, and in practice there may be more or less phases
 according to the processes adopted by the business.
 
+![SDLC Diagram](../assets/images/sdlc_diag.png "typical SDLC diagram"){: height="220px" }
+
 With the increasing number and sophistication of exploits against almost every application or business system,
 most companies have adopted a secure Software Development LifeCycle (SDLC).
 The secure SDLC should never be a separate lifecycle,
@@ -41,8 +43,6 @@ and to provide the SDLC with automated security testing.
 Examples of how DevSecOps is 'building security in' is the provision of
 Interactive, Static and Dynamic Application Security Testing (IAST, SAST & DAST)
 and implementing supply chain security, and there are many other security activities that can be applied.
-
-![SDLC Diagram](../assets/images/sdlc_diag.png "typical SDLC diagram"){ :height="25px" }
 
 #### Secure development lifecycle
 
