@@ -12,9 +12,7 @@ permalink: /draft/
 
 {% include breadcrumb.html %}
 
-## ![SDLC Diagram](../assets/images/dg_logo.png){ height="220px" }
-
-\newpage
+## ![Developer Guide](../assets/images/dg_logo.png){ height=220px }
 
 ## OWASP Developer Guide (draft)
 
