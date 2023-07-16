@@ -19,18 +19,18 @@ pitch: The Developer Guide allows businesses, developers, designers
 {% assign site_base_url = site.github.url | replace: 'owasp.github.io','owasp.org' | replace: 'http://', 'https://' %}
 {% endif %}
 
+![Developer Guide](assets/images/dg_logo.png "OWASP Developer Guide"){: height="220px" }
+
 Along with the OWASP Top Ten, the Developer Guide is one of the original resources
 published soon after OWASP was formed in 2001.
-
 Version 1.0 of the Developer Guide was released in 2002
 and since then there have been various [releases][versions], the latest being version 2.0 in 2005.
-There is a [draft version](draft) available that is based on an unreleased version (3.0) from 2015.
-This is very much work in progress and is subject to large scale and frequent changes.
 
 The Developer Guide needs to be updated for the modern security landscape,
 and OWASP is reviving this project to do just that.
 The project has a team of leaders that will oversee the project
 and now we need as many members of the security community as possible to contribute.
+There is a [draft version](draft) which is a work in progress and is subject to large scale and frequent changes.
 
 ### Contributing
 
