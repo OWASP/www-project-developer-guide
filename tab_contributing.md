@@ -9,15 +9,16 @@ tags: dev-guide, developer guide
 ---
 
 <style type="text/css">
-.image-left {
+.image-right {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  float: left;
+  float: right;
+  height: 300px;
 }
 </style>
 
-![developer guide logo](/assets/images/alt-owasp-dev-guide.png){: .image-left }
+![developer guide logo](assets/images/alt-owasp-dev-guide.png){: .image-right }
 
 ## Contribute to the Developer Guide
 
@@ -36,16 +37,16 @@ If you feel a section is missing then suggest changes to the structure in a [fea
 
 | Section                | Status |
 | ---------------------- | ------ |
-| Audience               | revision requested |
-| Background             | revision requested |
-| Introduction           | on hold, written when the scope of the guide is nearing completion |
-| Foundations            | more detail requested |
-| Requirements           | more detail requested  |
+| Audience               | revision requested - copied from version 3.0 |
+| Background             | fairly complete |
+| Introduction           | **on hold** waiting for the rest of the guide to be in place |
+| Foundations            | more detail requested for existing content |
+| Requirements           | needs introduction at top of ToC |
 | Design                 | editing suggested |
-| Container Security     | editing suggested  |
-| Open Source            | editing suggested  |
-| Environment            | editing suggested  |
-| Testing & Verification | content required |
+| Container Security     | editing suggested |
+| Open Source            | editing suggested, content required |
+| Environment            | editing suggested, content required |
+| Testing & Verification | no content at present |
 
 Be sure to follow our [code of conduct][conduct] and the [contributing guidelines][contribute]
 which provide style and document structure suggestions.
