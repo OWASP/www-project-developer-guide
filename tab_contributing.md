@@ -1,10 +1,11 @@
 ---
-title: Contributing to Developer Guide
-displaytext: Contributing
+
+title: Contributing
 layout: null
 tab: true
 order: 1
 tags: dev-guide, developer guide
+
 ---
 
 <style type="text/css">
@@ -18,7 +19,7 @@ tags: dev-guide, developer guide
 
 ![developer guide logo](/assets/images/alt-owasp-dev-guide.png){: .image-left }
 
-## Contributing
+## Contribute to the Developer Guide
 
 The Developer Guide is first and foremost a guide for development teams,
 and is intended to be a body of knowledge that these teams can draw on and should be familiar with.
@@ -30,8 +31,8 @@ referencing other projects for a more in depth or advanced treatment of the subj
 
 There are various areas of the guide that have not been started and these need content.
 There are other areas of the guide that have some content which need editing or revising.
-Listed below are the sections and a snapshot of their status - if you feel a section is missing
-then suggest changes to the structure in a [feature request][feature].
+Listed below are the sections and a snapshot of their status; please contribute where you can.
+If you feel a section is missing then suggest changes to the structure in a [feature request][feature].
 
 | Section                | Status |
 | ---------------------- | ------ |
