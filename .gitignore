@@ -33,7 +33,7 @@
 !draft/assets/images/*.png
 
 # pages markdown
-!./*.md
+!*.md
 !assets/images/*.png
 !license.txt
 
