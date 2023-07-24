@@ -260,3 +260,16 @@ OWTF
 WebGoat
 px
 ToC
+Okta
+DNS
+WAF
+WEBDav
+referer
+DNS
+TOCTOU
+PRNG
+HMAC
+JWTs
+PKIX
+JWA
+JWKS
