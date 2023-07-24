@@ -117,7 +117,7 @@ order: 602
     * Re-Authenticate the user before authorising the user to perform business critical activities
     * Re-Authenticate the user before authorising the user to admin section of the application
     * Do not include authorisation in the query string. Direct the user to the page via a hyperlink on a page.
-        Authenticate the user before granting access. For example if `admin.php` is the admin page for `www.example.com`,
+        Authenticate the user before granting access. For example if `admin.php` is the admin page for `www.example.com`
         do not create a query string like `www.example.com/admin.php`.
         Instead include a hyperlink to `admin.php` on a page and control authorisation to the page
     * Prevent forced browsing with role based access control matrix
