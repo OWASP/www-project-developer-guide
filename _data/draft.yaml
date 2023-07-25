@@ -14,7 +14,7 @@ docs:
   url: 04-foundations/toc
 
 - title: '4.1 Security fundamentals'
-  url: 04-foundations/01-foundations
+  url: 04-foundations/01-security-fundamentals
 
 - title: '4.2 Secure development and integration'
   url: 04-foundations/02-secure-development

@@ -11,5 +11,6 @@ assignees: ''
 <!-- Describe below what content should be added -->
 
 **Context** :  
-Section: (eg '01-About the Development Guide')
+Section: (eg '04-foundations/03-security-principles')
+
 <!-- Add below any other context or screenshots about this change request -->
