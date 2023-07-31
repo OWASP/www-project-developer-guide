@@ -231,7 +231,7 @@ then that is a perfectly good choice.
 * OWASP [Threat Dragon][TD] threat modeling tool using dataflow diagrams
 * [Threagile](https://threagile.io), an open source project that provides for Agile threat modeling
 * Microsoft [Threat Modeling Tool][TMT], a widely used tool throughout the security community and free to download
-* [threatspec](https://threatspec.org/), an open source tool based on comments inline with code
+* [threatspec](https://github.com/threatspec/threatspec), an open source tool based on comments inline with code
 * Mitre's Common Attack Pattern Enumeration and Classification ([CAPEC][capec])
 * NIST [Common Vulnerability Scoring System Calculator][nist-cvss]
 
