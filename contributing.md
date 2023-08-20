@@ -1,3 +1,5 @@
+<img src="assets/images/dg_logo_bbd.png" height="220px"/>
+
 ### Contributing
 
 The Developer Guide needs to be updated for the modern security landscape,
