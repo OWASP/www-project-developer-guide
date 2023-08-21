@@ -12,7 +12,7 @@ permalink: /draft/
 
 {% include breadcrumb.html %}
 
-## ![Developer Guide](../assets/images/dg_logo.png){ height=220px }
+## ![Developer Guide](../assets/images/dg_logo.png){ height=120px }
 
 ## OWASP Developer Guide (draft)
 
@@ -30,6 +30,7 @@ and so the content is expected to frequently change._
 4.2 [Secure development and integration](#secure-development-and-integration)  
 4.3 [Principles of security](#principles-of-security)  
 4.4 [Principles of cryptography](#principles-of-cryptography)  
+4.5 [Top Ten Web Application Security Risks](#top-ten-web-application-security-risks)  
 
 5 **[Security requirements](#security-requirements)**  
 5.1 [Introduction](#introduction-to-security-requirements)  
@@ -65,5 +66,18 @@ and so the content is expected to frequently change._
 10.1 [Introduction](#introduction-to-security-testing-and-validation)  
 10.2 [Static Application Security Testing (SAST)](#static-application-security-testing)  
 10.3 [Dynamic Application Security Testing (DAST)](#dynamic-application-security-testing)  
+
+20 **[OWASP Top Ten Proactive Controls checklist](#owasp-top-ten-proactive-controls-checklist)**  
+20.1 [Introduction](#owasp-top-ten-proactive-controls-introduction)  
+20.2 [C1: Define Security Requirements](#c1-define-security-requirements)  
+20.3 [C2: Leverage Security Frameworks and Libraries](#c2-leverage-security-frameworks-and-libraries)  
+20.4 [C3: Secure Database Access](#c3-secure-database-access)  
+20.5 [C4: Encode and Escape Data](#c4-encode-and-escape-data)  
+20.6 [C5: Validate All Inputs](#c5-validate-all-inputs)  
+20.7 [C6: Implement Digital Identity](#c6-implement-digital-identity)  
+20.8 [C7: Enforce Access Controls](#c7-enforce-access-controls)  
+20.9 [C8: Protect Data Everywhere](#c8-protect-data-everywhere)  
+20.10 [C9: Implement Security Logging and Monitoring](#c9-implement-security-logging-and-monitoring)  
+20.11 [C10: Handle all Errors and Exceptions](#c10-handle-all-errors-and-exceptions)  
 
 \newpage

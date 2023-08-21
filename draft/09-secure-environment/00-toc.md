@@ -13,10 +13,10 @@ order:
 
 ## 9. Secure environment
 
-### Overview
+![Developer Guide](../assets/images/dg_wip.png){ height=120px }
 
-**To do**: this should be a brief overview / abstract of the section on the secure environment.
-The Introduction contains more detail and the further sections expand on that
+**To do**: this should be a brief overview / abstract of the section on the 'secure environments'.
+The Introduction will contain more detail and the further sections will expand on that.
 
 Sections:
 

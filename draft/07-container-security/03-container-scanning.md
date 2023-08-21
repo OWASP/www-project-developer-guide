@@ -13,8 +13,10 @@ order: 703
 
 ### 7.3 Container scanning
 
+![Developer Guide](../assets/images/dg_wip.png "OWASP Developer Guide"){: height="220px" }
+
 The OWASP Development Guide is being rewritten by the OWASP community,
-and the content of this section has yet to be filled in.
+and the content has yet to be filled in for the section on 'Container Scanning'.
 
 If you would like to contribute then follow the [contributing guidelines][contribute]
 and submit your content for review.

@@ -1,22 +1,22 @@
 ---
 
-title: Third Party Software and Libraries
+title: Control 10 Handle all Errors and Exceptions
 layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 803
+order: 2011
 
 ---
 
 {% include breadcrumb.html %}
 
-### 8.3 Third Party Software and Libraries
+### 20.11 C10: Handle all Errors and Exceptions
 
 ![Developer Guide](../assets/images/dg_wip.png "OWASP Developer Guide"){: height="220px" }
 
 The OWASP Development Guide is being rewritten by the OWASP community,
-and the content has yet to be filled in for the section on 'Third Party Software and Libraries'.
+and the content has yet to be filled in for section 'C10: Handle all Errors and Exceptions'.
 
 If you would like to contribute then follow the [contributing guidelines][contribute]
 and submit your content for review.

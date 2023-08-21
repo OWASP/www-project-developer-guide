@@ -13,10 +13,10 @@ order: 700
 
 ## 7. Container security
 
-### Overview
+![Developer Guide](../assets/images/dg_wip.png "OWASP Developer Guide"){: height="220px" }
 
-This should be a brief overview / abstract of the section on container security.
-The Introduction contains more detail and the further sections expand on that
+**To do**: This should be a brief overview / abstract of the section on 'container security'.
+The Introduction will contain more detail and the further sections will expand on that.
 
 Sections:
 

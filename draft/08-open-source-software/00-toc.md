@@ -13,10 +13,10 @@ order:
 
 ## 8. Open-Source software
 
-### Overview
+![Developer Guide](../assets/images/dg_wip.png){ height=120px }
 
-**To do**: this should be a brief overview / abstract of the section on Open-Source software.
-The Introduction contains more detail and the further sections expand on that
+**To do**: this should be a brief overview / abstract of the section on 'Open-Source software'.
+The Introduction will contain more detail and the further sections will expand on that.
 
 Sections:
 

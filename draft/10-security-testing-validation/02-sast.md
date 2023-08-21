@@ -13,8 +13,10 @@ order: 1002
 
 ### 10.2 Static Application Security Testing
 
+![Developer Guide](../assets/images/dg_wip.png "OWASP Developer Guide"){: height="220px" }
+
 The OWASP Development Guide is being rewritten by the OWASP community,
-and the content of this section has yet to be filled in.
+and the content has yet to be filled in for the section on 'Static Application Security Testing'.
 
 If you would like to contribute then follow the [contributing guidelines][contribute]
 and submit your content for review.

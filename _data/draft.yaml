@@ -111,3 +111,40 @@ docs:
 
 - title: '10.3 Dynamic Application Security Testing (DAST)'
   url: 10-security-testing-validation/03-dast
+
+- title: '20. OWASP Top Ten Proactive Controls checklist'
+  url: 20-proactive-control-checklist/toc
+
+- title: '20.1 Introduction'
+  url: 20-proactive-control-checklist/01-proactive-control-introduction
+
+- title: '20.2 C1: Define Security Requirements'
+  url: 20-proactive-control-checklist/02-define-security-requirements
+  
+- title: '20.3 C2: Leverage Security Frameworks and Libraries'
+  url: 20-proactive-control-checklist/03-frameworks-libraries
+  
+- title: '20.4 C3: Secure Database Access'
+  url: 20-proactive-control-checklist/04-secure-database-access
+  
+- title: '20.5 C4: Encode and Escape Data'
+  url: 20-proactive-control-checklist/05-encode-escape-data
+  
+- title: '20.6 C5: Validate All Inputs'
+  url: 20-proactive-control-checklist/06-validate-inputs
+  
+- title: '20.7 C6: Implement Digital Identity'
+  url: 20-proactive-control-checklist/07-digital-identity
+  
+- title: '20.8 C7: Enforce Access Controls'
+  url: 20-proactive-control-checklist/08-access-controls
+  
+- title: '20.9 C8: Protect Data Everywhere'
+  url: 20-proactive-control-checklist/09-protect-data
+  
+- title: '20.10 C9: Implement Security Logging and Monitoring'
+  url: 20-proactive-control-checklist/10-security-logging-monitoring
+  
+- title: '20.11 C10: Handle all Errors and Exceptions'
+  url: 20-proactive-control-checklist/11-handle-errors-exceptions
+  

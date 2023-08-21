@@ -1,22 +1,22 @@
 ---
 
-title: Third Party Software and Libraries
+title: Top Ten Web Application Security Risks
 layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 803
+order: 405
 
 ---
 
 {% include breadcrumb.html %}
 
-### 8.3 Third Party Software and Libraries
+### 4.5 Top Ten Web Application Security Risks
 
 ![Developer Guide](../assets/images/dg_wip.png "OWASP Developer Guide"){: height="220px" }
 
 The OWASP Development Guide is being rewritten by the OWASP community,
-and the content has yet to be filled in for the section on 'Third Party Software and Libraries'.
+and the content has yet to be filled in for section 'Top Ten Web Application Security Risks'.
 
 If you would like to contribute then follow the [contributing guidelines][contribute]
 and submit your content for review.
