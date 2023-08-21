@@ -67,7 +67,7 @@ and so the content is expected to frequently change._
 10.2 [Static Application Security Testing (SAST)](10-security-testing-validation/02-sast.md)  
 10.3 [Dynamic Application Security Testing (DAST)](10-security-testing-validation/03-dast.md)  
 
-20 **[OWASP Top Ten Proactive Controls checklist](20-proactive-control-checklist/toc)**  
+20 **[OWASP Top Ten Proactive Controls checklist](20-proactive-control-checklist/toc.md)**  
 20.1 [Introduction](20-proactive-control-checklist/01-proactive-control-introduction.md)  
 20.2 [C1: Define Security Requirements](20-proactive-control-checklist/02-define-security-requirements.md)  
 20.3 [C2: Leverage Security Frameworks and Libraries](20-proactive-control-checklist/03-frameworks-libraries.md)  
