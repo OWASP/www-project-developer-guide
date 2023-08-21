@@ -260,3 +260,5 @@ OWTF
 WebGoat
 px
 ToC
+XML
+weightage

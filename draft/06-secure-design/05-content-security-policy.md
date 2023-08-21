@@ -13,13 +13,14 @@ order: 605
 
 ### 6.5 Content Security policy
 
-Content Security Policy (CSP) helps in whitelisting the sources that are allowed to be executed by clients.
+Content Security Policy (CSP) helps in allow-listing the sources that are allowed to be executed by clients.
 
 To this effect CSP helps in addressing vulnerabilities that are the target of scripts getting executed
 from different domains (namely XSS, ClickJacking)  
 
 1. The policy elements listed below is restrictive.
-    Third party libraries can be whitelisted as a part of `script-src`, `default-src`, `frame-src` or `frame-ancestors`.
+    Third party libraries can be allow-listed as a part of `script-src`, `default-src`, `frame-src`
+    or `frame-ancestors`.
 
 2. I assume fonts / images / media / plugins are not loaded from any external sources.
 
@@ -89,7 +90,7 @@ For display on other mobile devices that use HTML5: `meta http-equiv="Content-Se
 
 #### iOS
 
-iOS framework has capability to restrict connecting to sites that are not a part of the whitelist on the application,
+iOS framework has capability to restrict connecting to sites that are not a part of the allow-list on the application,
 which is the `NSExceptionDomains`. Use this setting to restrict the content that gets executed by the application
 
 ```text
