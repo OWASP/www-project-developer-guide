@@ -30,6 +30,7 @@ and so the content is expected to frequently change._
 4.2 [Secure development and integration](04-foundations/02-secure-development.md)  
 4.3 [Principles of security](04-foundations/03-security-principles.md)  
 4.4 [Principles of cryptography](04-foundations/04-crypto-principles.md)  
+4.5 [Top Ten Web Application Security Risks](04-foundations/05-top-ten.md)  
 
 5 **[Security requirements](05-security-requirements/toc.md)**  
 5.1 [Introduction](05-security-requirements/01-security-requirements.md)  
@@ -65,3 +66,16 @@ and so the content is expected to frequently change._
 10.1 [Introduction](10-security-testing-validation/01-security-testing-validation.md)  
 10.2 [Static Application Security Testing (SAST)](10-security-testing-validation/02-sast.md)  
 10.3 [Dynamic Application Security Testing (DAST)](10-security-testing-validation/03-dast.md)  
+
+20 **[OWASP Top Ten Proactive Controls checklist](20-proactive-control-checklist/toc.md)**  
+20.1 [Introduction](20-proactive-control-checklist/01-proactive-control-introduction.md)  
+20.2 [C1: Define Security Requirements](20-proactive-control-checklist/02-define-security-requirements.md)  
+20.3 [C2: Leverage Security Frameworks and Libraries](20-proactive-control-checklist/03-frameworks-libraries.md)  
+20.4 [C3: Secure Database Access](20-proactive-control-checklist/04-secure-database-access.md)  
+20.5 [C4: Encode and Escape Data](20-proactive-control-checklist/05-encode-escape-data.md)  
+20.6 [C5: Validate All Inputs](20-proactive-control-checklist/06-validate-inputs.md)  
+20.7 [C6: Implement Digital Identity](20-proactive-control-checklist/07-digital-identity.md)  
+20.8 [C7: Enforce Access Controls](20-proactive-control-checklist/08-access-controls.md)  
+20.9 [C8: Protect Data Everywhere](20-proactive-control-checklist/09-protect-data.md)  
+20.10 [C9: Implement Security Logging and Monitoring](20-proactive-control-checklist/10-logging-monitoring.md)  
+20.11 [C10: Handle all Errors and Exceptions](20-proactive-control-checklist/11-handle-errors-exceptions.md)  

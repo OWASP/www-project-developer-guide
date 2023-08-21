@@ -160,7 +160,7 @@ In cryptography, an initialization vector (IV) is a fixed size input
 to a block cipher's encryption / decryption primitive.
 The IV is recommended (and in many cases, required) to be random or at least pseudo-random.
 
-### Padding
+#### Padding
 
 Block ciphers generally operate on fixed size blocks (the exception is when they are operating in a "streaming" mode).
 However, these ciphers must also operate on messages of any sizes,
@@ -181,7 +181,7 @@ The plaintext data itself is encrypted with the session key.
 Then the entire bundle (encrypted session key and encrypted message) is all sent together.
 Both TLS and S/MIME are common cryptosystems using hybrid cryptography.
 
-### Digital signature
+#### Digital signature
 
 Digital signatures are a cryptographically unique data string that is used to ensure data integrity
 and prove the authenticity of some digital message, and that associates some input message with an originating entity.

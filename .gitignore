@@ -27,7 +27,8 @@
 !draft/
 !draft/title*.yaml
 !draft/0*/
-!draft/**/*.md
+!draft/1*/
+!draft/2*/
 !draft/assets/
 !draft/assets/images/
 !draft/assets/images/*.png

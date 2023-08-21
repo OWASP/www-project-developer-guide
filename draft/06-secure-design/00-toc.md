@@ -13,9 +13,9 @@ order:
 
 ## 6. Secure design
 
-### Overview
+![Developer Guide](../assets/images/dg_wip.png){ height=120px }
 
-**To do**: this should be a brief overview / abstract of the section on security design.
+**To do**: this should be a brief overview / abstract of the section on 'secure design'.
 The Introduction contains more detail and the further sections expand on that
 
 Sections:

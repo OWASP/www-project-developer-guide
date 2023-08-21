@@ -13,10 +13,10 @@ order: 600
 
 ## 6. Secure design
 
-### Overview
+![Developer Guide](../assets/images/dg_wip.png "OWASP Developer Guide"){: height="220px" }
 
-This should be a brief overview / abstract of the section on security design.
-The Introduction contains more detail and the further sections expand on that
+**To do**: This should be a brief overview / abstract of the section on 'secure design'.
+The Introduction will contain more detail and the further sections will expand on that.
 
 Sections:
 
