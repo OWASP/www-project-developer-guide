@@ -1,5 +1,7 @@
 # Contributor Covenant Code of Conduct
 
+<img src="assets/images/dg_logo_di.png" height="220px"/>
+
 ## Our Pledge
 
 We as members, contributors, and leaders pledge to make participation in our

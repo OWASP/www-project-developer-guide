@@ -14,11 +14,11 @@ tags: dev-guide, developer guide
   margin-left: auto;
   margin-right: auto;
   float: right;
-  height: 300px;
+  height: 220px;
 }
 </style>
 
-![developer guide logo](assets/images/alt-owasp-dev-guide.png){: .image-right }
+![developer guide logo](assets/images/dg_logo_bbd.png){: .image-right }
 
 ## Contribute to the Developer Guide
 

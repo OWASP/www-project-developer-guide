@@ -1,3 +1,5 @@
+<img src="assets/images/dg_logo_bbd.png" height="220px"/>
+
 ### Contributing
 
 The Developer Guide needs to be updated for the modern security landscape,
@@ -92,7 +94,7 @@ and to install `pyspelling` use pip: `pip install pyspelling`
 [conduct]: code_of_conduct.md
 [dashboard]: https://github.com/orgs/OWASP/projects/14/views/1
 [issues]: https://github.com/OWASP/www-project-developer-guide/issues/new/choose
-[lychee-install]: https://lib.rs/crates/lychee
+[lychee-install]: https://lychee.cli.rs/
 [pandoc-install]: https://pandoc.org/installing.html
 [request]: https://github.com/OWASP/www-project-developer-guide/pulls
 [wiki]: https://github.com/OWASP/www-project-developer-guide/wiki
