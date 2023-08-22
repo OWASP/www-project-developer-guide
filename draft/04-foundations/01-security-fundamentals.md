@@ -13,8 +13,8 @@ order: 401
 
 ### 4.1 Security fundamentals
 
-The OWASP Software Assurance Maturity Model [(SAMM)][samm] provides a good context for the scope of software security,
-and the foundations of SAMM rely on the security concepts in this section.
+The OWASP Software Assurance Maturity Model [(SAMM)][samm] is used throughout this Developer Guide
+to provide context for each section. Refer to the section below for a brief introduction to SAMM.
 
 #### Overview
 
@@ -29,7 +29,7 @@ CIA stands for Confidentiality, Integrity and Availability,
 and it is usually depicted as a triangle representing the strong bonds between its three tenets.
 This trio is considered the pillars of application security,
 with CIA described as a property of some data or of a process.
-Often CIA is extended with Authorization, Authentication and Auditing.
+Often CIA is extended with AAA: Authorization, Authentication and Auditing.
 
 #### Confidentiality
 
@@ -74,6 +74,30 @@ This helps to provide non-repudiation, which means that changes or actions on th
 Auditing can provide not only technical information about the running system,
 but also proof that particular actions have been performed.
 The typical questions that are answered by auditing are "*Who* did *What* *When* and potentially *How*?"
+
+#### Software Assurance Maturity Model
+
+The OWASP Software Assurance Maturity Model [(SAMM)][samm] provides a good context for the scope of software security,
+and the foundations of SAMM rely on the security concepts in this section.
+The SAMM model describes the five fundamentals of software security, which it calls Business Functions:
+
+* Governance
+* Design
+* Implementation
+* Verification
+* Operations
+
+Each of these five fundamentals are further split into three Business Practices:
+
+| Business Function   | Business Practices      |                             |                        |
+| ------------------- | ----------------------- | --------------------------- | ---------------------- |
+| Governance          | Strategy and Metrics    | Policy and Compliance       | Education and Guidance |
+| Design              | Threat Assessment       | Security Requirements       | Security Architecture  |
+| Implementation      | Secure Build            | Secure Deployment           | Defect Management      |
+| Verification        | Architecture Assessment | Requirements-driven Testing | Security Testing       |
+| Operations          | Incident Management     | Environment Management      | Operational Management |
+
+Each section in the Developer Guide references at least one of the Business Functions or Practices in SAMM.
 
 ----
 
