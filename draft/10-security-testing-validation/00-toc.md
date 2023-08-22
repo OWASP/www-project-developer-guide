@@ -1,6 +1,6 @@
 ---
 
-title: Security Testing and Validation overview
+title: Security Testing and Validation
 layout: col-document
 tags: OWASP Developer Guide
 contributors:

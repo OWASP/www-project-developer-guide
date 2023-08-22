@@ -1,6 +1,6 @@
 ---
 
-title: Security Requirements overview
+title: Security Requirements
 layout: col-document
 tags: OWASP Developer Guide
 contributors:
