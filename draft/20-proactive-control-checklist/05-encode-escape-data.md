@@ -13,14 +13,48 @@ order: 2005
 
 ### 20.5 C4: Encode and Escape Data
 
-![Developer Guide](../assets/images/dg_wip.png "OWASP Developer Guide"){: height="220px" }
+Encoding and escaping of output data are defensive techniques meant to stop injection attacks
+on a target system or application which is receiving the output data.
+Refer to proactive control '[Encode and Escape Data][control4]' in the 'OWASP Top 10 Proactive Controls' project.
 
-The OWASP Development Guide is being rewritten by the OWASP community,
-and the content has yet to be filled in for section 'C4: Encode and Escape Data'.
+The target system may be another software component or it may be reflected back to the initial system,
+such as operating system commands,
+so encoding and escaping output data helps to provide defense in depth for the system as a whole.
 
-If you would like to contribute then follow the [contributing guidelines][contribute]
-and submit your content for review.
+#### Character Encoding and Canonicalization
 
-[contribute]: https://github.com/OWASP/www-project-developer-guide/blob/main/contributing.md
+* Apply output encoding just before the content is passed to the target system
+* Conduct all output encoding on a trusted system
+* Utilize a standard, tested routine for each type of outbound encoding
+* Specify character sets, such as UTF-8, for all outputs
+* Apply canonicalization to convert unicode data into a standard form
+* Ensure the output encoding is safe for all target systems
+* In particular sanitize all output used for operating system commands
+
+#### Contextual Output Encoding
+
+Contextual output encoding of data is based on how it will be utilized by the target.
+The specific methods vary depending on the way the output data is used, such as HTML entity encoding.
+
+* Contextually encode all data returned to the client from untrusted sources
+* Contextually encode all output of untrusted data to queries for SQL, XML, and LDAP
+
+#### References
+
+* OWASP [Cheat Sheet: Injection Prevention][ipcs]
+* OWASP [Java Encoder Project][encoder]
+* OWASP [Top 10 Proactive Controls][proactive10]
+
+----
+
+The OWASP Developer Guide is a community effort; if you see something that needs changing
+then [submit an issue][issue2005] or a [pull request][pr].
+
+[control4]: https://owasp.org/www-project-proactive-controls/v3/en/c4-encode-escape-data
+[encoder]: https://www.owasp.org/index.php/OWASP_Java_Encoder_Project
+[ipcs]: https://cheatsheetseries.owasp.org/cheatsheets/Injection_Prevention_Cheat_Sheet.html
+[issue2005]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2020-proactive-control-checklist/05-encode-escape-data
+[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+[proactive10]: https://owasp.org/www-project-proactive-controls/v3/en/c5-validate-inputs
 
 \newpage

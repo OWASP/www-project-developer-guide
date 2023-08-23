@@ -275,3 +275,7 @@ JWTs
 PKIX
 JWA
 JWKS
+deserialize
+deserialization
+unicode
+deserializes
