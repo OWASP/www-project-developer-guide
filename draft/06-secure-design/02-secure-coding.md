@@ -203,7 +203,7 @@ order: 602
       Many technologies now come with data access layers that support input data validation.
       These layers are usually in the form of a library or a package. Ensure to add
       these libraries  / dependencies / packages to the project file such that they are not missed out.
-  * Use a security vetted library for input data validation. Try not to use hard coded whitelist of characters.
+  * Use a security vetted library for input data validation. Try not to use hard coded allow-list of characters.
       Validate all data from a centralised function / routine.
       In order to add a variable to a HTML context safely, use HTML entity encoding
       for that variable as you add it to a web template.

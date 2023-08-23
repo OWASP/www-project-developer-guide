@@ -260,6 +260,8 @@ OWTF
 WebGoat
 px
 ToC
+XML
+weightage
 Okta
 DNS
 WAF

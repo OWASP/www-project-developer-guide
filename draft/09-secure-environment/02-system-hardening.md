@@ -30,7 +30,7 @@ order: 902
       Remove file metadata (e.g. `.git`)
   * Set “Deny All” in security constraints (for the roles being set up)
       while setting up the application on the web server.
-  * The listing of HTTP methods in security constraints works in a similar way to blacklisting.
+  * The listing of HTTP methods in security constraints works in a similar way to deny-listing.
       Any verb not explicitly listed is allowed for execution.
       Hence use “Deny All” and then allow the methods for the required roles.
       This setting is particularly important using “Anonymous User” role.
