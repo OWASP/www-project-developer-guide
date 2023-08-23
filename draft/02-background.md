@@ -27,7 +27,7 @@ and a handy reference for application / system developers.
 Much of this guide is based on various OWASP sources:
 
 * [Top 10][top10]
-* [Top 10 Proactive Controls][proactive]
+* [Top 10 Proactive Controls][proactive10]
 * [Application Security Verification Standard ((ASVS)][asvs]
 * [Cheat Sheet Series][cheat]
 * [Integration Standards project][ois]
@@ -48,7 +48,7 @@ then [submit an issue][issue02] or a [pull request][pr] .
 [mas]: https://mas.owasp.org/
 [ois]: https://owasp.org/www-project-integration-standards/
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
-[proactive]: https://owasp.org/www-project-proactive-controls/
+[proactive10]: https://owasp.org/www-project-proactive-controls/
 [samm]: https://owaspsamm.org/about/
 [top10]: https://owasp.org/www-project-top-ten/
 [versions]: https://github.com/OWASP/DevGuide/wiki#old-versions

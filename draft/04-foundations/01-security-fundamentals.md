@@ -97,7 +97,8 @@ Each of these five fundamentals are further split into three Business Practices:
 | Verification        | Architecture Assessment | Requirements-driven Testing | Security Testing       |
 | Operations          | Incident Management     | Environment Management      | Operational Management |
 
-Each section in the Developer Guide references at least one of the Business Functions or Practices in SAMM.
+Each Business Practice is further subdivided into two streams,
+and the sections in the Developer Guide reference at least one of the Business Functions or Practices in SAMM.
 
 ----
 

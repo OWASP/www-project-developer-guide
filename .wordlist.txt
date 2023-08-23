@@ -272,4 +272,5 @@ HMAC
 JWTs
 PKIX
 JWA
+Misconfiguration
 JWKS
