@@ -329,7 +329,7 @@ Also not exploitable: `{""result"": [{""object"": ""inside an array""}]}"`
 
 ----
 
-The OWASP Developer Guide is a community effort; if you see something that needs changing
+The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue0602] or a [pull request][pr] .
 
 [issue0602]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-secure-design/02-secure-coding

@@ -1,6 +1,6 @@
 ---
 
-title: Control 5 Validate All Inputs
+title: Validate All Inputs Checklist
 layout: col-document
 tags: OWASP Developer Guide
 contributors:
@@ -11,11 +11,12 @@ order: 2006
 
 {% include breadcrumb.html %}
 
-### 20.6 C5: Validate All Inputs
+### 20.6 Checklist: Validate All Inputs
 
 Input validation is a collection of techniques that ensure only properly formatted data
 may enter a software application or system component.
-Refer to proactive control '[Validate All Inputs][control5]' in the 'OWASP Top 10 Proactive Controls' project.
+Refer to proactive control '[C5: Validate All Inputs][control5]'
+for more context from the 'OWASP Top 10 Proactive Controls' project.
 
 It is vital that input validation is performed to provide the starting point for a secure application or system.
 Without input validation the software application/system will continue to be vulnerable to new and varied attacks.
@@ -60,14 +61,14 @@ Without input validation the software application/system will continue to be vul
 
 ----
 
-The OWASP Developer Guide is a community effort; if you see something that needs changing
+The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue2006] or a [pull request][pr].
 
 [control5]: https://owasp.org/www-project-proactive-controls/v3/en/c5-validate-inputs
 [ivcs]: https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html
 [issue2006]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2020-proactive-control-checklist/06-validate-inputs
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
-[proactive10]: https://owasp.org/www-project-proactive-controls/v3/en/c5-validate-inputs
+[proactive10]: https://owasp.org/www-project-proactive-controls/
 [sanitizer]: https://www.owasp.org/index.php/OWASP_Java_HTML_Sanitizer
 
 \newpage

@@ -94,7 +94,7 @@ Examples:
 
 ----
 
-The OWASP Developer Guide is a community effort; if you see something that needs changing
+The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue0503] or a [pull request][pr] .
 
 [cvss]: https://www.first.org/cvss/

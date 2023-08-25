@@ -1,6 +1,6 @@
 ---
 
-title: Control 4 Encode and Escape Data
+title: Encode and Escape Data Checklist
 layout: col-document
 tags: OWASP Developer Guide
 contributors:
@@ -11,11 +11,12 @@ order: 2005
 
 {% include breadcrumb.html %}
 
-### 20.5 C4: Encode and Escape Data
+### 20.5 Checklist: Encode and Escape Data
 
 Encoding and escaping of output data are defensive techniques meant to stop injection attacks
 on a target system or application which is receiving the output data.
-Refer to proactive control '[Encode and Escape Data][control4]' in the 'OWASP Top 10 Proactive Controls' project.
+Refer to proactive control '[C4: Encode and Escape Data][control4]'
+for more context from the 'OWASP Top 10 Proactive Controls' project.
 
 The target system may be another software component or it may be reflected back to the initial system,
 such as operating system commands,
@@ -47,7 +48,7 @@ The specific methods vary depending on the way the output data is used, such as 
 
 ----
 
-The OWASP Developer Guide is a community effort; if you see something that needs changing
+The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue2005] or a [pull request][pr].
 
 [control4]: https://owasp.org/www-project-proactive-controls/v3/en/c4-encode-escape-data
@@ -55,6 +56,6 @@ then [submit an issue][issue2005] or a [pull request][pr].
 [ipcs]: https://cheatsheetseries.owasp.org/cheatsheets/Injection_Prevention_Cheat_Sheet.html
 [issue2005]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2020-proactive-control-checklist/05-encode-escape-data
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
-[proactive10]: https://owasp.org/www-project-proactive-controls/v3/en/c5-validate-inputs
+[proactive10]: https://owasp.org/www-project-proactive-controls/
 
 \newpage

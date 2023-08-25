@@ -1,6 +1,6 @@
 ---
 
-title: Control 2 Leverage Security Frameworks and Libraries
+title: Leverage Security Frameworks and Libraries Checklist
 layout: col-document
 tags: OWASP Developer Guide
 contributors:
@@ -11,7 +11,7 @@ order: 2003
 
 {% include breadcrumb.html %}
 
-### 20.3 C2: Leverage Security Frameworks and Libraries
+### 20.3 Checklist: Leverage Security Frameworks and Libraries
 
 ![Developer Guide](../assets/images/dg_wip.png "OWASP Developer Guide"){: height="220px" }
 

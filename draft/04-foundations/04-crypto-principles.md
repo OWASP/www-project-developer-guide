@@ -247,7 +247,7 @@ These protocols prevent adversaries from learning the key or forcing their own k
 
 ----
 
-The OWASP Developer Guide is a community effort; if you see something that needs changing
+The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue0404] or a [pull request][pr] .
 
 [ancs]: https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html

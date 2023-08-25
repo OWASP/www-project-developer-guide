@@ -23,7 +23,7 @@ and submit your content for review.
 
 ----
 
-The OWASP Developer Guide is a community effort; if you see something that needs changing
+The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue0405] or a [pull request][pr] .
 
 [contribute]: https://github.com/OWASP/www-project-developer-guide/blob/main/contributing.md

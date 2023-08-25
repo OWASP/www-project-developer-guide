@@ -1,6 +1,6 @@
 ---
 
-title: Control 3 Secure Database Access
+title: Secure Database Access Checklist
 layout: col-document
 tags: OWASP Developer Guide
 contributors:
@@ -11,7 +11,7 @@ order: 2004
 
 {% include breadcrumb.html %}
 
-### 20.4 C3: Secure Database Access
+### 20.4 Checklist: Secure Database Access
 
 ![Developer Guide](../assets/images/dg_wip.png "OWASP Developer Guide"){: height="220px" }
 

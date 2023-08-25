@@ -1,6 +1,6 @@
 ---
 
-title: Control 9 Implement Security Logging and Monitoring
+title: Implement Security Logging and Monitoring Checklist
 layout: col-document
 tags: OWASP Developer Guide
 contributors:
@@ -11,7 +11,7 @@ order: 2010
 
 {% include breadcrumb.html %}
 
-### 20.10 C9: Implement Security Logging and Monitoring
+### 20.10 Checklist: Implement Security Logging and Monitoring
 
 ![Developer Guide](../assets/images/dg_wip.png "OWASP Developer Guide"){: height="220px" }
 

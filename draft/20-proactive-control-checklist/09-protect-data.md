@@ -1,6 +1,6 @@
 ---
 
-title: Control 8 Protect Data Everywhere
+title: Protect Data Everywhere Checklist
 layout: col-document
 tags: OWASP Developer Guide
 contributors:
@@ -11,7 +11,7 @@ order: 2009
 
 {% include breadcrumb.html %}
 
-### 20.9 C8: Protect Data Everywhere
+### 20.9 Checklist: Protect Data Everywhere
 
 ![Developer Guide](../assets/images/dg_wip.png "OWASP Developer Guide"){: height="220px" }
 

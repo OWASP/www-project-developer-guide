@@ -238,7 +238,7 @@ then that is a perfectly good choice.
 
 ----
 
-The OWASP Developer Guide is a community effort; if you see something that needs changing
+The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue0502] or a [pull request][pr] .
 
 [4QFW]: https://github.com/adamshostack/4QuestionFrame

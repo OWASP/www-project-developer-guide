@@ -1,6 +1,6 @@
 ---
 
-title: Control 10 Handle all Errors and Exceptions
+title: Handle all Errors and Exceptions Checklist
 layout: col-document
 tags: OWASP Developer Guide
 contributors:
@@ -11,7 +11,7 @@ order: 2011
 
 {% include breadcrumb.html %}
 
-### 20.11 C10: Handle all Errors and Exceptions
+### 20.11 Checklist: Handle all Errors and Exceptions
 
 ![Developer Guide](../assets/images/dg_wip.png "OWASP Developer Guide"){: height="220px" }
 

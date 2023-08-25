@@ -130,7 +130,7 @@ Image security, host security, client security, daemon security, runtime securit
 
 ----
 
-The OWASP Developer Guide is a community effort; if you see something that needs changing
+The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue0702] or a [pull request][pr] .
 
 [issue0702]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-container-security/02-image-security

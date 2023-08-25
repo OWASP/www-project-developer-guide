@@ -69,15 +69,15 @@ and so the content is expected to frequently change._
 
 20 **[OWASP Top Ten Proactive Controls checklist](#owasp-top-ten-proactive-controls-checklist)**  
 20.1 [Introduction](#owasp-top-ten-proactive-controls-introduction)  
-20.2 [C1: Define Security Requirements](#c1-define-security-requirements)  
-20.3 [C2: Leverage Security Frameworks and Libraries](#c2-leverage-security-frameworks-and-libraries)  
-20.4 [C3: Secure Database Access](#c3-secure-database-access)  
-20.5 [C4: Encode and Escape Data](#c4-encode-and-escape-data)  
-20.6 [C5: Validate All Inputs](#c5-validate-all-inputs)  
-20.7 [C6: Implement Digital Identity](#c6-implement-digital-identity)  
-20.8 [C7: Enforce Access Controls](#c7-enforce-access-controls)  
-20.9 [C8: Protect Data Everywhere](#c8-protect-data-everywhere)  
-20.10 [C9: Implement Security Logging and Monitoring](#c9-implement-security-logging-and-monitoring)  
-20.11 [C10: Handle all Errors and Exceptions](#c10-handle-all-errors-and-exceptions)  
+20.2 [Checklist: Define Security Requirements](#checklist-define-security-requirements)  
+20.3 [Checklist: Leverage Security Frameworks and Libraries](#checklist-leverage-security-frameworks-and-libraries)  
+20.4 [Checklist: Secure Database Access](#checklist-secure-database-access)  
+20.5 [Checklist: Encode and Escape Data](#checklist-encode-and-escape-data)  
+20.6 [Checklist: Validate All Inputs](#checklist-validate-all-inputs)  
+20.7 [Checklist: Implement Digital Identity](#checklist-implement-digital-identity)  
+20.8 [Checklist: Enforce Access Controls](#checklist-enforce-access-controls)  
+20.9 [Checklist: Protect Data Everywhere](#checklist-protect-data-everywhere)  
+20.10 [Checklist: Implement Security Logging and Monitoring](#checklist-implement-security-logging-and-monitoring)  
+20.11 [Checklist: Handle all Errors and Exceptions](#checklist-handle-all-errors-and-exceptions)  
 
 \newpage

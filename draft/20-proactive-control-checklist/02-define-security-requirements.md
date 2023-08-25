@@ -1,6 +1,6 @@
 ---
 
-title: Control 1 Define Security Requirements
+title: Define Security Requirements Checklist
 layout: col-document
 tags: OWASP Developer Guide
 contributors:
@@ -11,7 +11,7 @@ order: 2002
 
 {% include breadcrumb.html %}
 
-### 20.2 C1: Define Security Requirements
+### 20.2 Checklist: Define Security Requirements
 
 ![Developer Guide](../assets/images/dg_wip.png "OWASP Developer Guide"){: height="220px" }
 

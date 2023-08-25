@@ -170,7 +170,7 @@ There are many OWASP tools and resources to help build security into the SDLC.
 
 ----
 
-The OWASP Developer Guide is a community effort; if you see something that needs changing
+The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue0402] or a [pull request][pr] .
 
 [amass]: https://owasp.org/www-project-amass/
