@@ -24,8 +24,6 @@ for more context from the 'OWASP Top 10 Proactive Controls' project.
 
 * Design access control authentication thoroughly up-front
 * Force all requests to go through access control checks unless public
-* Deny by default; if a request is not specifically allowed then it is denied
-* Apply least privilege, all the least access as is necessary
 * Do not hard code access controls that are role based
 * Log all access control events
 * Use Multi-Factor Authentication for highly sensitive or high value transactional accounts

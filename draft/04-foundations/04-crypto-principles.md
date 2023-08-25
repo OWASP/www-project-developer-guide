@@ -238,7 +238,7 @@ These protocols prevent adversaries from learning the key or forcing their own k
 
 * OWASP Cheat Sheet series
   * [Authentication Cheat Sheet][ancs]
-  * [Authorization_Cheat_Sheet][azcs]
+  * [Authorization_Cheat_Sheet][csaz]
   * [Cryptographic Storage Cheat Sheet][cscs]
   * [Key Management Cheat Sheet][kmcs]
   * [SAML Security Cheat Sheet][sscs]
@@ -251,7 +251,7 @@ The OWASP Developer Guide is a community effort; if there is something that need
 then [submit an issue][issue0404] or a [pull request][pr] .
 
 [ancs]: https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html
-[azcs]: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html
+[csaz]: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html
 [cheat]: https://owasp.org/www-project-cheat-sheets/
 [cscs]: https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html
 [issue0404]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/04-crypto-principles

@@ -16,71 +16,45 @@ order: 2008
 Access Control (or Authorization) is the process of granting or denying specific requests
 from a user, program, or process.
 
+Refer to proactive control '[C8: Protect Data Everywhere][control7]'
+for more context from the 'OWASP Top 10 Proactive Controls' project.
+
+#### Authorization
+
+* Design access control / authorization thoroughly up-front
+* Force all requests to go through access control checks unless public
+* Deny by default; if a request is not specifically allowed then it is denied
+* Apply least privilege, providing the least access as is necessary
+* Log all authorization events
+
 ## Access control
 
-* Use only trusted system objects, e.g. server side session objects,
-    for making access authorization decisions
-
-* Use a single site-wide component to check access authorization. This
-    includes libraries that call external authorization services
-
+* Enforce authorization controls on every request
+* Use only trusted system objects for making access authorization decisions
+* Use a single site-wide component to check access authorization
 * Access controls should fail securely
-
-* Deny all access if the application cannot access its security
-    configuration information
-
-* Enforce authorization controls on every request, including those made by server side scripts
-
+* Deny all access if the application cannot access its security configuration information
 * Segregate privileged logic from other application code
-
-* Restrict access to files or other resources, including those outside
-    the application\'s direct control, to only authorized users
-
-* Restrict access to protected URLs to only authorized users
-
-* Restrict access to protected functions to only authorized users
-
-* Restrict direct object references to only authorized users
-
-* Restrict access to services to only authorized users
-
-* Restrict access to application data to only authorized users
-
-* Restrict access to user and data attributes and policy information used by access controls
-
-* Restrict access security-relevant configuration information to only authorized users
-
-* Server side implementation and presentation layer representations of access control rules must match
-
-* If state data must be stored on the client, use encryption and integrity checking on the server side
-    to detect state tampering
-
-* Enforce application logic flows to comply with business rules
-
-* Limit the number of transactions a single user or device can perform
-    in a given period of time, low enough to deter automated attacks
-    but above the actual business requirement
-
-* Use the \"referer\" header as a supplemental check only, it should
-    never be the sole authorization check as it is can be spoofed
-
-* If long authenticated sessions are allowed, periodically re-validate
-    a user's authorization to ensure that their privileges have not
-    changed and if they have, log the user out and force them to
-    re-authenticate
-
+* Limit the number of transactions a single user or device can perform in a given period of time,
+    low enough to deter automated attacks but above the actual business requirement
+* If long authenticated sessions are allowed, periodically re-validate a user's authorization
 * Implement account auditing and enforce the disabling of unused accounts
+* The application must support termination of sessions when authorization ceases
 
-* The application must support disabling of accounts
-    and terminating sessions when authorization ceases
+#### References
 
-* Service accounts or accounts supporting connections to or from
-    external systems should have the least privilege possible
+* OWASP [Cheat Sheet: Authorization][csaz]
+* OWASP [Top 10 Proactive Controls][proactive10]
 
-* Create an Access Control Policy to document an application\'s
-    business rules, data types and access authorization criteria
-    and/or processes so that access can be properly provisioned and
-    controlled. This includes identifying access requirements for both
-    the data and system resources
+----
+
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue2008] or a [pull request][pr].
+
+[control7]: https://owasp.org/www-project-proactive-controls/v3/en/c7-enforce-access-controls
+[csaz]: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html
+[issue2008]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2020-proactive-control-checklist/08-access-controls
+[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+[proactive10]: https://owasp.org/www-project-proactive-controls/
 
 \newpage
