@@ -13,14 +13,46 @@ order: 2011
 
 ### 20.11 Checklist: Handle all Errors and Exceptions
 
-![Developer Guide](../assets/images/dg_wip.png "OWASP Developer Guide"){: height="220px" }
+Handling exceptions and errors correctly is critical to making your code reliable and secure.
+Error and exception handling occurs in all areas of an application including critical business logic
+as well as security features and framework code.
 
-The OWASP Development Guide is being rewritten by the OWASP community,
-and the content has yet to be filled in for section 'C10: Handle all Errors and Exceptions'.
+Refer to proactive control '[C10: Handle all Errors and Exceptions][control10]'
+for more context from the 'OWASP Top 10 Proactive Controls' project.
 
-If you would like to contribute then follow the [contributing guidelines][contribute]
-and submit your content for review.
+#### Errors and Exceptions
 
-[contribute]: https://github.com/OWASP/www-project-developer-guide/blob/main/contributing.md
+* Manage exceptions in a centralized manner to avoid duplicated try/catch blocks in the code
+* Ensure that all unexpected behavior is correctly handled inside the application
+* Ensure that error messages displayed to users do not leak critical data,
+    but are still verbose enough to enable the proper user response.
+* Ensure that exceptions are logged in a way that gives enough information
+    for support, QA, forensics or incident response teams to understand the problem.
+* Carefully test and verify error handling code.
+* Do not disclose sensitive information in error responses, for example
+    system details, session identifiers or account information
+* Use error handlers that do not display debugging or stack trace information
+* Implement generic error messages and use custom error pages
+* The application should handle application errors and not rely on the server configuration
+* Properly free allocated memory when error conditions occur
+* Error handling logic associated with security controls should deny access by default
+
+#### References
+
+* OWASP [Code Review Guide: Error Handling][review]
+* OWASP [Improper Error Handling][handle]
+* OWASP [Top 10 Proactive Controls][proactive10]
+
+----
+
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue2011] or a [pull request][pr].
+
+[control10]: https://owasp.org/www-project-proactive-controls/v3/en/c10-errors-exceptions.html
+[handle]: https://owasp.org/www-community/Improper_Error_Handling
+[issue2011]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2020-proactive-control-checklist/11-handle-errors-exceptions
+[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+[proactive10]: https://owasp.org/www-project-proactive-controls/
+[review]: https://owasp.org/www-project-code-review-guide/
 
 \newpage

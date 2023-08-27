@@ -14,7 +14,7 @@ order: 2009
 ### 20.9 Checklist: Protect Data Everywhere
 
 Sensitive data such as passwords, credit card numbers, health records, personal information and business secrets
-require extra protection, particularly if that data falls under privacy laws (EU’s General Data Protection Regulation GDPR),
+require extra protection, particularly if that data falls under privacy laws (EU General Data Protection Regulation GDPR),
 financial data protection rules such as PCI Data Security Standard (PCI DSS) or other regulations.
 
 Refer to proactive control '[C8: Protect Data Everywhere][control8]'
@@ -40,7 +40,7 @@ for more context from the 'OWASP Top 10 Proactive Controls' project.
 * Use peer reviewed and open solution cryptographic modules
 * All cryptographic functions used to protect secrets from the application user must be implemented on a trusted system
 * Cryptographic modules must fail securely
-* Ensure all random numbers, random file names, random GUIDs, and random strings are generated
+* Ensure all random elements such as numbers, file names, UUID and strings are generated
     using the cryptographic module approved random number generator
 * Cryptographic modules used by the application are compliant to FIPS 140-2 or an equivalent standard
 * Establish and utilize a policy and process for how cryptographic keys will be managed

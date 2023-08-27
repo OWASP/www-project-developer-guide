@@ -13,67 +13,51 @@ order: 2010
 
 ### 20.10 Checklist: Implement Security Logging and Monitoring
 
-![Developer Guide](../assets/images/dg_wip.png "OWASP Developer Guide"){: height="220px" }
+Logging is recording security information during the runtime operation of an application.
+Monitoring is the live review of application and security logs using various forms of automation.
 
-The OWASP Development Guide is being rewritten by the OWASP community,
-and the content has yet to be filled in for section 'C9: Implement Security Logging and Monitoring.
+Refer to proactive control '[C9: HImplement Security Logging and Monitoring][control9]'
+for more context from the 'OWASP Top 10 Proactive Controls' project.
 
-If you would like to contribute then follow the [contributing guidelines][contribute]
-and submit your content for review.
+#### Security logging
 
-[contribute]: https://github.com/OWASP/www-project-developer-guide/blob/main/contributing.md
+* Log submitted data that is outside of an expected numeric range.
+* Log submitted data that involves changes to data that should not be modifiable
+* Log requests that violate server-side access control rules
+* Encode and validate any dangerous characters before logging to prevent log injection attacks
+* Do not log sensitive information
+* Logging controls should support both success and failure of specified security events
+* Do not store sensitive information in logs, including unnecessary system details, session identifiers or passwords
+* Use a cryptographic hash function to validate log entry integrity
 
+#### Security logging design
 
-- [ ]   Do not disclose sensitive information in error responses, including
-    system details, session identifiers or account information
+* Protect log integrity
+* Ensure log entries that include untrusted data will not execute as code in the intended log viewing interface or software
+* Restrict access to logs to only authorized individuals
+* Utilize a central routine for all logging operations
+* Forward logs from distributed systems to a central, secure logging service
+* Follow a common logging format and approach within the system and across systems of an organization
+* Synchronize across nodes to ensure that timestamps are consistent
+* All logging controls should be implemented on a trusted system
+* Ensure that a mechanism exists to conduct log analysis
 
-- [ ]   Use error handlers that do not display debugging or stack trace information
+#### References
 
-- [ ]   Implement generic error messages and use custom error pages
+* OWASP [Cheat Sheet: Logging][cslogging]
+* OWASP [Cheat Sheet: Application Logging Vocabulary][csvocabulary]
+* OWASP [Top 10 Proactive Controls][proactive10]
 
-- [ ]   The application should handle application errors and not rely on the server configuration
+----
 
-- [ ]   Properly free allocated memory when error conditions occur
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue2010] or a [pull request][pr].
 
-- [ ]   Error handling logic associated with security controls should deny access by default
-
-- [ ]   All logging controls should be implemented on a trusted system
-
-- [ ]   Logging controls should support both success and failure of specified security events
-
-- [ ]   Ensure logs contain important log event data
-
-- [ ]   Ensure log entries that include un-trusted data will not execute as
-    code in the intended log viewing interface or software
-
-- [ ]   Restrict access to logs to only authorized individuals
-
-- [ ]   Utilize a central routine for all logging operations
-
-- [ ]   Do not store sensitive information in logs, including unnecessary
-    system details, session identifiers or passwords
-
-- [ ]   Ensure that a mechanism exists to conduct log analysis
-
-- [ ]   Log all input validation failures
-
-- [ ]   Log all authentication attempts, especially failures
-
-- [ ]   Log all access control failures
-
-- [ ]   Log all apparent tampering events, including unexpected changes to state data
-
-- [ ]   Log attempts to connect with invalid or expired session tokens
-
-- [ ]   Log all system exceptions
-
-- [ ]   Log all administrative functions, including changes to the security configuration settings
-
-- [ ]   Log all backend TLS connection failures
-
-- [ ]   Log cryptographic module failures
-
-- [ ]   Use a cryptographic hash function to validate log entry integrity
-
+[control9]: https://owasp.org/www-project-proactive-controls/v3/en/c9-security-logging.html
+[cslogging]: https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html
+[csvocabulary]: https://cheatsheetseries.owasp.org/cheatsheets/Logging_Vocabulary_Cheat_Sheet.html
+[issue2010]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2020-proactive-control-checklist/10-logging-monitoring
+[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+[proactive10]: https://owasp.org/www-project-proactive-controls/
 
 \newpage

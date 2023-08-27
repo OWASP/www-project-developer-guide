@@ -29,7 +29,7 @@ and submit your content for review.
 
 - [ ]   Check that the buffer is as large as specified
 
-- [ ]   When using functions that accept a number of bytes ensure that NULL terminatation is handled correctly
+- [ ]   When using functions that accept a number of bytes ensure that NULL termination is handled correctly
 
 - [ ]   Check buffer boundaries if calling the function in a loop and protect against overflow
 

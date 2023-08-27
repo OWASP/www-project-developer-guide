@@ -27,7 +27,7 @@ for more context from the 'OWASP Top 10 Proactive Controls' project.
 * Apply least privilege, providing the least access as is necessary
 * Log all authorization events
 
-## Access control
+#### Access control
 
 * Enforce authorization controls on every request
 * Use only trusted system objects for making access authorization decisions
