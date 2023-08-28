@@ -275,3 +275,16 @@ JWTs
 PKIX
 JWA
 JWKS
+deserialize
+deserialization
+unicode
+DSS
+GDPR
+PCI
+deserializes
+schemas
+unmanaged
+checksums
+FIPS
+UUID
+NoSQL

@@ -132,7 +132,7 @@ which can be used later on by the developer to get into the system without havin
 
 ----
 
-The OWASP Developer Guide is a community effort; if you see something that needs changing
+The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue0606] or a [pull request][pr] .
 
 [issue0606]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-secure-design/06-exception-error-handling

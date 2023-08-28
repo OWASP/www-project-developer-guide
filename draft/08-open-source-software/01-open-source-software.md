@@ -106,7 +106,7 @@ We realise it could be challenging, but if feasible, maintain a list of approved
 
 ----
 
-The OWASP Developer Guide is a community effort; if you see something that needs changing
+The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue0801] or a [pull request][pr] .
 
 [issue0801]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2008-open-source-software/01-open-source-software
