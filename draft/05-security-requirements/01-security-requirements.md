@@ -111,7 +111,7 @@ both of which may have a direct impact on the application.
 
 ----
 
-The OWASP Developer Guide is a community effort; if you see something that needs changing
+The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue0501] or a [pull request][pr].
 
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/

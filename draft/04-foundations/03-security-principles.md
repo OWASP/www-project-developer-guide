@@ -149,7 +149,7 @@ In addition open source components have the benefit of 'many eyes' and are likel
 
 ----
 
-The OWASP Developer Guide is a community effort; if you see something that needs changing
+The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue0403] or a [pull request][pr] .
 
 [ancs]: https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html

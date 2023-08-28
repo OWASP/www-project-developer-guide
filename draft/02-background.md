@@ -39,7 +39,7 @@ These resources provide greater detail and wider context for the various section
 
 ----
 
-The OWASP Developer Guide is a community effort; if you see something that needs changing
+The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue02] or a [pull request][pr] .
 
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/

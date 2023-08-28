@@ -260,6 +260,8 @@ OWTF
 WebGoat
 px
 ToC
+XML
+weightage
 Okta
 DNS
 WAF
@@ -274,3 +276,16 @@ PKIX
 JWA
 Misconfiguration
 JWKS
+deserialize
+deserialization
+unicode
+DSS
+GDPR
+PCI
+deserializes
+schemas
+unmanaged
+checksums
+FIPS
+UUID
+NoSQL

@@ -39,7 +39,7 @@ order: 607
 * Implement safe uploading in UNIX by mounting the targeted file directory as a logical drive
     using the associated path or the chrooted environment
 
-* When referencing existing files, use a white list of allowed file names and types.
+* When referencing existing files, use an allow list of allowed file names and types.
     Validate the value of the parameter being passed and if it does not match one of the expected values,
     either reject it or use a hard coded default file value for the content instead
 
@@ -56,7 +56,7 @@ order: 607
 
 ----
 
-The OWASP Developer Guide is a community effort; if you see something that needs changing
+The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue0607] or a [pull request][pr] .
 
 [issue0607]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-secure-design/07-file-management

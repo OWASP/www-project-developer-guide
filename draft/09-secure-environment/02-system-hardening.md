@@ -30,7 +30,7 @@ order: 902
       Remove file metadata (e.g. `.git`)
   * Set “Deny All” in security constraints (for the roles being set up)
       while setting up the application on the web server.
-  * The listing of HTTP methods in security constraints works in a similar way to blacklisting.
+  * The listing of HTTP methods in security constraints works in a similar way to deny-listing.
       Any verb not explicitly listed is allowed for execution.
       Hence use “Deny All” and then allow the methods for the required roles.
       This setting is particularly important using “Anonymous User” role.
@@ -55,7 +55,7 @@ order: 902
 
 ----
 
-The OWASP Developer Guide is a community effort; if you see something that needs changing
+The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue0902] or a [pull request][pr] .
 
 [issue0902]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2009-secure-environment/02-system-hardening
