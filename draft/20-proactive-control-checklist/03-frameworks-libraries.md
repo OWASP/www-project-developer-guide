@@ -13,72 +13,41 @@ order: 2003
 
 ### 20.3 Checklist: Leverage Security Frameworks and Libraries
 
-![Developer Guide](../assets/images/dg_wip.png "OWASP Developer Guide"){: height="220px" }
+Secure coding libraries and software frameworks with embedded security help software developers guard against
+security-related design and implementation flaws.
 
-The OWASP Development Guide is being rewritten by the OWASP community,
-and the content has yet to be filled in for section 'C2: Leverage Security Frameworks and Libraries'.
+Refer to proactive control '[C2: Leverage Security Frameworks and Libraries][control2]'
+for more context from the 'OWASP Top 10 Proactive Controls' project.
 
-If you would like to contribute then follow the [contributing guidelines][contribute]
-and submit your content for review.
+#### Best practices
 
-[contribute]: https://github.com/OWASP/www-project-developer-guide/blob/main/contributing.md
+* Use libraries and frameworks from trusted sources that are actively maintained and widely used
+* Review all secondary applications and third party libraries to determine business necessity
+* Validate safe functionality for all secondary applications and third party libraries
+* Create and maintain an inventory catalog of all third party libraries using Software Composition Analysis (SCA)
+* Proactively keep all third party libraries and components up to date
+* Reduce the attack surface by encapsulating the library and expose only the required behaviour into your software
+* Use tested and approved managed code rather than creating new unmanaged code for common tasks
+* Utilize task specific built-in APIs to conduct operating system tasks
+* Do not allow the application to issue commands directly to the Operating System
+* Use checksums or hashes to verify the integrity of interpreted code, libraries, executables, and configuration files
+* Restrict users from generating new code or altering existing code
+* Implement safe updates using encrypted channels
 
-## Memory management
+#### References
 
-- [ ]   Utilize input and output controls for untrusted data
+* OWASP [Dependency Check][dependency]
+* OWASP [Top 10 Proactive Controls][proactive10]
 
-- [ ]   Check that the buffer is as large as specified
+----
 
-- [ ]   When using functions that accept a number of bytes ensure that NULL termination is handled correctly
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue2003] or a [pull request][pr].
 
-- [ ]   Check buffer boundaries if calling the function in a loop and protect against overflow
-
-- [ ]   Truncate all input strings to a reasonable length before passing them to other functions
-
-- [ ]   Specifically close resources, don't rely on garbage collection
-
-- [ ]   Use non-executable stacks when available
-
-- [ ]   Avoid the use of known vulnerable functions
-
-- [ ]   Properly free allocated memory upon the completion of functions and at all exit points
-
-- [ ]   Overwrite any sensitive information stored in allocated memory at all exit points from the function
-
-## General coding practices
-
-- [ ]   Use tested and approved managed code rather than creating new unmanaged code for common tasks
-
-- [ ]   Utilize task specific built-in APIs to conduct operating system
-    tasks. Do not allow the application to issue commands directly to
-    the Operating System, especially through the use of application
-    initiated command shells
-
-- [ ]   Use checksums or hashes to verify the integrity of interpreted code,
-    libraries, executables, and configuration files
-
-- [ ]   Utilize locking to prevent multiple simultaneous requests or use a
-    synchronization mechanism to prevent race conditions
-
-- [ ]   Protect shared variables and resources from inappropriate concurrent
-    access
-
-- [ ]   Explicitly initialize all your variables and other data stores,
-    either during declaration or just before the first usage
-
-- [ ]   In cases where the application must run with elevated privileges,
-    raise privileges as late as possible, and drop them as soon as
-    possible
-
-- [ ]   Avoid calculation errors by understanding your programming language\'s underlying representation
-
-- [ ]   Do not pass user supplied data to any dynamic execution function
-
-- [ ]   Restrict users from generating new code or altering existing code
-
-- [ ]   Review all secondary applications, third party code and libraries to
-    determine business necessity and validate safe functionality
-
-- [ ]   Implement safe updating using encrypted channels
+[control2]: https://owasp.org/www-project-proactive-controls/v3/en/c2-leverage-security-frameworks-libraries.html
+[dependency]: https://owasp.org/www-project-dependency-check/
+[issue2003]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2020-proactive-control-checklist/03-frameworks-libraries
+[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+[proactive10]: https://owasp.org/www-project-proactive-controls/
 
 \newpage

@@ -20,15 +20,14 @@ as well as security features and framework code.
 Refer to proactive control '[C10: Handle all Errors and Exceptions][control10]'
 for more context from the 'OWASP Top 10 Proactive Controls' project.
 
-#### Errors and Exceptions
+#### Errors and exceptions
 
 * Manage exceptions in a centralized manner to avoid duplicated try/catch blocks in the code
 * Ensure that all unexpected behavior is correctly handled inside the application
 * Ensure that error messages displayed to users do not leak critical data,
-    but are still verbose enough to enable the proper user response.
-* Ensure that exceptions are logged in a way that gives enough information
-    for support, QA, forensics or incident response teams to understand the problem.
-* Carefully test and verify error handling code.
+    but are still verbose enough to enable the proper user response
+* Ensure that exceptions logs give enough information for support, QA, forensics or incident response teams
+* Carefully test and verify error handling code
 * Do not disclose sensitive information in error responses, for example
     system details, session identifiers or account information
 * Use error handlers that do not display debugging or stack trace information

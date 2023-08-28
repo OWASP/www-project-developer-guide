@@ -22,7 +22,7 @@ The target system may be another software component or it may be reflected back 
 such as operating system commands,
 so encoding and escaping output data helps to provide defense in depth for the system as a whole.
 
-#### Character Encoding and Canonicalization
+#### Character encoding and canonicalization
 
 * Apply output encoding just before the content is passed to the target system
 * Conduct all output encoding on a trusted system
@@ -32,7 +32,7 @@ so encoding and escaping output data helps to provide defense in depth for the s
 * Ensure the output encoding is safe for all target systems
 * In particular sanitize all output used for operating system commands
 
-#### Contextual Output Encoding
+#### Contextual output encoding
 
 Contextual output encoding of data is based on how it will be utilized by the target.
 The specific methods vary depending on the way the output data is used, such as HTML entity encoding.

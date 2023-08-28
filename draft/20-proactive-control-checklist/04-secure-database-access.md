@@ -13,49 +13,52 @@ order: 2004
 
 ### 20.4 Checklist: Secure Database Access
 
-![Developer Guide](../assets/images/dg_wip.png "OWASP Developer Guide"){: height="220px" }
+Secure access to all data stores, including both relational databases and NoSQL databases.
+Refer to proactive control '[C3: Secure Database Access][control3]'
+for more context from the 'OWASP Top 10 Proactive Controls' project.
 
-The OWASP Development Guide is being rewritten by the OWASP community,
-and the content has yet to be filled in for section 'C3: Secure Database Access'.
+#### Secure queries
 
-If you would like to contribute then follow the [contributing guidelines][contribute]
-and submit your content for review.
+* Use Query Parameterization to prevent untrusted input being interpreted as part of a SQL command
+* Use strongly typed parameterized queries
+* Utilize input validation and output encoding and be sure to address meta characters
+* Do not run the database command if input validation fails
+* Ensure that variables are strongly typed
+* Connection strings should not be hard coded within the application
+* Connection strings should be stored in a separate configuration file on a trusted system and they should be encrypted
 
-[contribute]: https://github.com/OWASP/www-project-developer-guide/blob/main/contributing.md
+#### Secure configuration
 
-## Database security
+* The application should use the lowest possible level of privilege when accessing the database
+* Use stored procedures to abstract data access and allow for the removal of permissions to the base tables in the database
+* Close the database connection as soon as possible
+* Turn off all unnecessary database functionality
+* Remove unnecessary default vendor content, for example sample schemas
+* Disable any default accounts that are not required to support business requirements
 
-- [ ]   Use strongly typed parameterized queries
+#### Secure authentication
 
-- [ ]   Utilize input validation and output encoding and be sure to address
-    meta characters. If these fail, do not run the database command
+* Remove or change all default database administrative passwords
+* The application should connect to the database with different credentials for every trust distinction
+    (for example user, read-only user, guest, administrators)
+* Use secure credentials for database access
 
-- [ ]   Ensure that variables are strongly typed
+#### References
 
-- [ ]   The application should use the lowest possible level of privilege
-    when accessing the database
+* OWASP [Cheat Sheet: Query Parameterization][query]
+* OWASP [Cheat Sheet: Database Security][dbsec]
+* OWASP [Top 10 Proactive Controls][proactive10]
 
-- [ ]   Use secure credentials for database access
+----
 
-- [ ]   Connection strings should not be hard coded within the application.
-    Connection strings should be stored in a separate configuration
-    file on a trusted system and they should be encrypted.
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue2004] or a [pull request][pr].
 
-- [ ]   Use stored procedures to abstract data access and allow for the
-    removal of permissions to the base tables in the database
-
-- [ ]   Close the connection as soon as possible
-
-- [ ]   Remove or change all default database administrative passwords
-
-- [ ]   Turn off all unnecessary database functionality
-
-- [ ]   Remove unnecessary default vendor content (for example sample schemas)
-
-- [ ]   Disable any default accounts that are not required to support business requirements
-
-- [ ]   The application should connect to the database with different
-    credentials for every trust distinction (for example user, read-only
-    user, guest, administrators)
+[control3]: https://owasp.org/www-project-proactive-controls/v3/en/c3-secure-database.html
+[dbsec]: https://cheatsheetseries.owasp.org/cheatsheets/Database_Security_Cheat_Sheet.html
+[issue2004]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2020-proactive-control-checklist/04-secure-database-access
+[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+[proactive10]: https://owasp.org/www-project-proactive-controls/
+[query]: https://cheatsheetseries.owasp.org/cheatsheets/Query_Parameterization_Cheat_Sheet.html
 
 \newpage

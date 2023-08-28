@@ -21,7 +21,7 @@ for more context from the 'OWASP Top 10 Proactive Controls' project.
 It is vital that input validation is performed to provide the starting point for a secure application or system.
 Without input validation the software application/system will continue to be vulnerable to new and varied attacks.
 
-#### Syntax and Semantic Validity
+#### Syntax and semantic validity
 
 * Identify all data sources and classify them into trusted and untrusted
 * Validate all input data from untrusted sources such as client provided data
@@ -34,7 +34,7 @@ Without input validation the software application/system will continue to be vul
 * Utilize canonicalization to address obfuscation attacks
 * All validation failures should result in input rejection
 
-#### Validate using Libraries and Frameworks
+#### Libraries and frameworks
 
 * Conduct all input validation on a trusted system
 * Use a centralized input validation library or framework for the whole application
@@ -42,7 +42,7 @@ Without input validation the software application/system will continue to be vul
 * If any potentially hazardous input _must_ be allowed then implement additional controls
 * Validate for expected data types using an allow-list rather than a deny-list
 
-#### Validate Serialized Data
+#### Validate serialized data
 
 * Implement integrity checks or encryption of the serialized objects
     to prevent hostile object creation or data tampering

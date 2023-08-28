@@ -287,3 +287,4 @@ unmanaged
 checksums
 FIPS
 UUID
+NoSQL

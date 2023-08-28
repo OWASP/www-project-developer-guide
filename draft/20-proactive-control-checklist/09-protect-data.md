@@ -20,7 +20,7 @@ financial data protection rules such as PCI Data Security Standard (PCI DSS) or 
 Refer to proactive control '[C8: Protect Data Everywhere][control8]'
 for more context from the 'OWASP Top 10 Proactive Controls' project.
 
-#### Data Protection
+#### Data protection
 
 * Classify data according to the level of sensitivity
 * Implement appropriate access controls for sensitive data
@@ -34,6 +34,17 @@ for more context from the 'OWASP Top 10 Proactive Controls' project.
 * Implement least privilege, restricting access to functionality, data and system information
 * Protect all cached or temporary copies of sensitive data from unauthorized access
 * Purge those temporary copies of sensitive data as soon as they are no longer required
+
+#### Memory management
+
+* Explicitly initialize all variables and data stores
+* Check that any buffers are as large as specified
+* Check buffer boundaries if calling the function in a loop and protect against overflow
+* Specifically close resources, don't rely on garbage collection
+* Use non-executable stacks when available
+* Properly free allocated memory upon the completion of functions and at all exit points
+* Overwrite any sensitive information stored in allocated memory at all exit points from the function
+* Protect shared variables and resources from inappropriate concurrent access
 
 #### Cryptographic practices
 

@@ -62,7 +62,7 @@ for more context from the 'OWASP Top 10 Proactive Controls' project.
 * If using third party code for authentication inspect the code carefully
     to ensure it is not affected by any malicious code
 
-#### Cryptographic Based Authentication
+#### Cryptographic based authentication
 
 * Use the server or framework's session management controls
 * Session identifier creation must always be done on a trusted system
