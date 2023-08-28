@@ -55,11 +55,11 @@ for more context from the 'OWASP Top 10 Proactive Controls' project.
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue2002] or a [pull request][pr].
+then [submit an issue][issue2001] or a [pull request][pr].
 
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [control1]: https://owasp.org/www-project-proactive-controls/v3/en/c1-security-requirements.html
-[issue2002]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2020-proactive-control-checklist/02-define-security-requirements
+[issue2001]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2011-checklist/01-define-security-requirements
 [mas]: https://mas.owasp.org/
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 [proactive10]: https://owasp.org/www-project-proactive-controls/

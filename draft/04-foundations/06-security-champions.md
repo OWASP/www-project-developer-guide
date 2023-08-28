@@ -1,0 +1,33 @@
+---
+
+title: Security Champions
+layout: col-document
+tags: OWASP Developer Guide
+contributors:
+document: OWASP Developer Guide
+order: 405
+
+---
+
+{% include breadcrumb.html %}
+
+### 4.6 Security champions
+
+![Developer Guide](../assets/images/dg_wip.png "OWASP Developer Guide"){: height="220px" }
+
+The OWASP Development Guide is being rewritten by the OWASP community,
+and the content has yet to be filled in for section 'Top Ten Web Application Security Risks'.
+
+If you would like to contribute then follow the [contributing guidelines][contribute]
+and submit your content for review.
+
+----
+
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue0406] or a [pull request][pr] .
+
+[contribute]: https://github.com/OWASP/www-project-developer-guide/blob/main/contributing.md
+[issue0406]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/06-security-champions
+[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+
+\newpage

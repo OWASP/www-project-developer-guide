@@ -25,6 +25,9 @@ docs:
 - title: '4.4 Principles of cryptography'
   url: 04-foundations/04-crypto-principles
 
+- title: '4.6 Security champions'
+  url: 04-foundations/06-security-champions
+
 - title: '5. Security requirements'
   url: 05-security-requirements/toc
 

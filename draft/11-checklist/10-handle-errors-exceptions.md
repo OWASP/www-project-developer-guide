@@ -45,11 +45,11 @@ for more context from the 'OWASP Top 10 Proactive Controls' project.
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue2011] or a [pull request][pr].
+then [submit an issue][issue2010] or a [pull request][pr].
 
 [control10]: https://owasp.org/www-project-proactive-controls/v3/en/c10-errors-exceptions.html
 [handle]: https://owasp.org/www-community/Improper_Error_Handling
-[issue2011]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2020-proactive-control-checklist/11-handle-errors-exceptions
+[issue2010]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2011-checklist/10-handle-errors-exceptions
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 [proactive10]: https://owasp.org/www-project-proactive-controls/
 [review]: https://owasp.org/www-project-code-review-guide/
