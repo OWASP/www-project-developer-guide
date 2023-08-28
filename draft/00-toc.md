@@ -67,17 +67,16 @@ and so the content is expected to frequently change._
 10.2 [Static Application Security Testing (SAST)](#static-application-security-testing)  
 10.3 [Dynamic Application Security Testing (DAST)](#dynamic-application-security-testing)  
 
-20 **[OWASP Top Ten Proactive Controls checklist](#owasp-top-ten-proactive-controls-checklist)**  
-20.1 [Introduction](#owasp-top-ten-proactive-controls-introduction)  
-20.2 [Checklist: Define Security Requirements](#checklist-define-security-requirements)  
-20.3 [Checklist: Leverage Security Frameworks and Libraries](#checklist-leverage-security-frameworks-and-libraries)  
-20.4 [Checklist: Secure Database Access](#checklist-secure-database-access)  
-20.5 [Checklist: Encode and Escape Data](#checklist-encode-and-escape-data)  
-20.6 [Checklist: Validate All Inputs](#checklist-validate-all-inputs)  
-20.7 [Checklist: Implement Digital Identity](#checklist-implement-digital-identity)  
-20.8 [Checklist: Enforce Access Controls](#checklist-enforce-access-controls)  
-20.9 [Checklist: Protect Data Everywhere](#checklist-protect-data-everywhere)  
-20.10 [Checklist: Implement Security Logging and Monitoring](#checklist-implement-security-logging-and-monitoring)  
-20.11 [Checklist: Handle all Errors and Exceptions](#checklist-handle-all-errors-and-exceptions)  
+10 **[Checklist](#checklist)**  
+11.1 [Checklist: Define Security Requirements](#checklist-define-security-requirements)  
+11.2 [Checklist: Leverage Security Frameworks and Libraries](#checklist-leverage-security-frameworks-and-libraries)  
+11.3 [Checklist: Secure Database Access](#checklist-secure-database-access)  
+11.4 [Checklist: Encode and Escape Data](#checklist-encode-and-escape-data)  
+11.5 [Checklist: Validate All Inputs](#checklist-validate-all-inputs)  
+11.6 [Checklist: Implement Digital Identity](#checklist-implement-digital-identity)  
+11.7 [Checklist: Enforce Access Controls](#checklist-enforce-access-controls)  
+11.8 [Checklist: Protect Data Everywhere](#checklist-protect-data-everywhere)  
+11.9 [Checklist: Implement Security Logging and Monitoring](#checklist-implement-security-logging-and-monitoring)  
+11.10 [Checklist: Handle all Errors and Exceptions](#checklist-handle-all-errors-and-exceptions)  
 
 \newpage
