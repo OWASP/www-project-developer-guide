@@ -25,6 +25,9 @@ docs:
 - title: '4.4 Principles of cryptography'
   url: 04-foundations/04-crypto-principles
 
+- title: '4.5 OWASP Top Ten'
+  url: 04-foundations/05-top-ten
+
 - title: '5. Security requirements'
   url: 05-security-requirements/toc
 
