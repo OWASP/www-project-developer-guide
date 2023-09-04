@@ -1,6 +1,6 @@
 ---
 
-title: Secure Environment overview
+title: Secure Environment
 layout: col-document
 tags: OWASP Developer Guide
 contributors:

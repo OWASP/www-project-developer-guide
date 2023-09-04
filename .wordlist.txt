@@ -274,6 +274,7 @@ HMAC
 JWTs
 PKIX
 JWA
+Misconfiguration
 JWKS
 deserialize
 deserialization
@@ -287,4 +288,8 @@ unmanaged
 checksums
 FIPS
 UUID
+decrypts
 NoSQL
+misconfiguration
+SSRF
+IAM

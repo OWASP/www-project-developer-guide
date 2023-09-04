@@ -1,6 +1,6 @@
 ---
 
-title: Open Source Software overview
+title: Open Source Software
 layout: col-document
 tags: OWASP Developer Guide
 contributors:

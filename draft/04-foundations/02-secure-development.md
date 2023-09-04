@@ -70,7 +70,7 @@ There are many OWASP tools and resources to help build security into the SDLC.
     but the earlier the better (and easier). OWASP provides two tools, [Pythonic Threat Modeling][pytm]
     and [Threat Dragon][td], for threat modeling along with security gamification using [Cornucopia][cornucopia].
 
-* Implementation: the OWASP [Top 10 Proactive Controls][proactive] project states that they are
+* Implementation: the OWASP [Top 10 Proactive Controls][proactive10] project states that they are
     "the most important control and control categories that every architect and developer should absolutely,
     100% include in every project" and this is certainly good advice. Implementing these controls can provide
     a high degree of confidence that the application or system will be reasonably secure.
@@ -130,7 +130,7 @@ There are many OWASP tools and resources to help build security into the SDLC.
 * [DevSecOps Guideline][devsecops]
 * [Security Champions Guide][champions]
 * [Security Culture project][culture]
-* [Top 10 Proactive Controls][proactive]
+* [Top 10 Proactive Controls][proactive10]
 
 #### OWASP verification projects
 
@@ -150,7 +150,7 @@ There are many OWASP tools and resources to help build security into the SDLC.
 * [Mobile Top 10][mobile10]
 * [Security Shepherd][shepherd]
 * [Snakes And Ladders][snakes]
-* [Top Ten][top10]
+* [Top Ten Web Application security risks][top10]
 * [WebGoat][goat]
 
 #### OWASP resources
@@ -198,7 +198,7 @@ then [submit an issue][issue0402] or a [pull request][pr] .
 [ois]: https://owasp.org/www-project-integration-standards/
 [owtf]: https://owasp.org/www-project-owtf/
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
-[proactive]: https://owasp.org/www-project-proactive-controls/
+[proactive10]: https://owasp.org/www-project-proactive-controls/
 [pulse]: https://owasp.org/www-project-code-pulse/
 [pytm]: https://owasp.org/www-project-pytm/
 [samm]: https://owaspsamm.org/about/

@@ -30,7 +30,7 @@ and so the content is expected to frequently change._
 4.2 [Secure development and integration](04-foundations/02-secure-development.md)  
 4.3 [Principles of security](04-foundations/03-security-principles.md)  
 4.4 [Principles of cryptography](04-foundations/04-crypto-principles.md)  
-4.5 [Top Ten Web Application Security Risks](04-foundations/05-top-ten.md)  
+4.5 [OWASP Top Ten](04-foundations/05-top-ten.md)  
 
 5 **[Security requirements](05-security-requirements/toc.md)**  
 5.1 [Introduction](05-security-requirements/01-security-requirements.md)  
