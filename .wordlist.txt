@@ -288,4 +288,8 @@ unmanaged
 checksums
 FIPS
 UUID
+decrypts
 NoSQL
+misconfiguration
+SSRF
+IAM
