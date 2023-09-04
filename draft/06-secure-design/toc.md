@@ -1,6 +1,6 @@
 ---
 
-title: Table of Contents and Overview
+title: Secure Design
 layout: col-document
 tags: OWASP Developer Guide
 contributors:

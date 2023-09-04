@@ -36,7 +36,7 @@ but there is no wrong time to consider these security requirements and add new o
 
 #### Software requirements
 
-The OWASP [Top Ten Proactive Controls][proactive] describes the most important categories of controls
+The OWASP [Top Ten Proactive Controls][proactive10] describes the most important categories of controls
 that architects and developers should include in every project.
 At the head of the list of controls is [C1: Define Security Requirements][c1]
 and this reflects the importance of software security requirements: without them the development will not be secure.
@@ -105,7 +105,7 @@ both of which may have a direct impact on the application.
 
 * OWASP projects:
   * [Software Assurance Maturity Model (SAMM)][samm]
-  * [Top Ten Proactive Controls][proactive]
+  * [Top Ten Proactive Controls][proactive10]
   * [Application Security Verification Standard (ASVS)][asvs]
   * [Mobile Application Security][mas]
 
@@ -119,7 +119,7 @@ then [submit an issue][issue0501] or a [pull request][pr].
 [issue0501]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-security-requirements
 [mas]: https://mas.owasp.org/
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
-[proactive]: https://owasp.org/www-project-proactive-controls/
+[proactive10]: https://owasp.org/www-project-proactive-controls/
 [samm]: https://owaspsamm.org/about/
 [samm-reqs]: https://owaspsamm.org/model/design/security-requirements/
 

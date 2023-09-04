@@ -1,6 +1,6 @@
 ---
 
-title: Container Security overview
+title: Container Security
 layout: col-document
 tags: OWASP Developer Guide
 contributors:

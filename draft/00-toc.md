@@ -30,8 +30,8 @@ and so the content is expected to frequently change._
 4.2 [Secure development and integration](#secure-development-and-integration)  
 4.3 [Principles of security](#principles-of-security)  
 4.4 [Principles of cryptography](#principles-of-cryptography)  
-4.5 [Top Ten Web Application Security Risks](#top-ten-web-application-security-risks)  
-4.6 [Security champions](#security-champions)
+4.5 [OWASP Top Ten](#owasp-top-ten)  
+4.6 [Security champions](#security-champions)  
 
 5 **[Security requirements](#security-requirements)**  
 5.1 [Introduction](#introduction-to-security-requirements)  
