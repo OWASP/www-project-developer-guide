@@ -14,16 +14,16 @@ order: 405
 ### 4.6 Security champions
 
 A Security Champion program is a commonly used way of helping development teams successfully run a development lifecycle
-that is secure, and this is achieved by selecting members of the teams to become Security Champions.
+that is secure, and this is achieved by selecting members of teams to become Security Champions.
 The role of Security Champion is described by the OWASP Software Assurance Maturity Model [(SAMM)][sammoc]
 Organization and Culture stream within the Governance business function of the Education & Guidance practice.
 
 #### Overview
 
 Referring to the OWASP [Security Culture project][scculture], it can be hard to introduce security across development teams
-using the application security team alone. Information Security people do not scale across teams of developers.
-A good way to scale security and distribute security across development teams is by using Security Champions
-and providing a Security Champions program to encourage this community within the organization.
+using the application security team alone. Information security people do not scale across teams of developers.
+A good way to scale security and distribute security across development teams is by creating a security champion role
+and providing a Security Champions program to encourage a community spirit within the organization.
 
 Security champions are usually individuals within each development team that show special interest in application security.
 The security champion provides a knowledgeable point of contact between the application security team and development,
@@ -33,8 +33,8 @@ and so a Security Champions program is important for providing support and train
 
 #### Security champion role
 
-Security Champions are active members of a development team that act as the "voice" of security within their team.
-Security Champions also provide visibility of their team's security activities to the application security team,
+Security champions are active members of a development team that act as the "voice" of security within their team.
+Security champions also provide visibility of their team's security activities to the application security team,
 and are seen as the first point of contact between developers and a central security team.
 
 There is no universally defined role for a security champion, but the [Security Culture project][scculture]
@@ -48,9 +48,10 @@ provides various suggestions:
 * Oversee secure code reviews: raise issues of risk in the code base that arise from peer group code reviews
 * Use security testing tools: provide support to their team for the use of security testing tools
 
-An important point to keep in mind is that security champions should come forward because they are interested in security,
-rather than assigned or chosen out of expediency.
-It is a role that requires a passion and interest in application security, we are hard to find but we certainly do exist.
+The security champion role requires a passion and interest in application security,
+and so arbitrarily assigning this role is unlikely to work in practice.
+A better strategy is to provide a security champions program, so that developers who are interested can come forward;
+in effect they should self-select.
 
 #### Security champions program
 
