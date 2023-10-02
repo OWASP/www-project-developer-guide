@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout markdown
-        uses: actions/checkout@v4.0.0
+        uses: actions/checkout@v4.1.0
 
       - name: Link Checker
         uses: lycheeverse/lychee-action@v1.8.0
@@ -31,10 +31,10 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout markdown
-        uses: actions/checkout@v4.0.0
+        uses: actions/checkout@v4.1.0
 
       - name: Lint markdown
-        uses: DavidAnson/markdownlint-cli2-action@v12.0.0
+        uses: DavidAnson/markdownlint-cli2-action@v13.0.0
         with:
           config: '.markdownlint.yaml'
           globs: '**/*.md'
@@ -44,10 +44,10 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout markdown
-        uses: actions/checkout@v4.0.0
+        uses: actions/checkout@v4.1.0
 
       - name: spell_checker
-        uses: rojopolis/spellcheck-github-actions@0.33.0
+        uses: rojopolis/spellcheck-github-actions@0.34.0
 
   export_draft:
     name: Export epub and pdf (Draft)
@@ -55,7 +55,7 @@ jobs:
     needs: [link_checker, md_linter, spell_checker]
     steps:
       - name: Checkout markdown
-        uses: actions/checkout@v4.0.0
+        uses: actions/checkout@v4.1.0
 
       - name: Combine markdown
         run: |
