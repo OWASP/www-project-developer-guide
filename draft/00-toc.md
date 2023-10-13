@@ -68,16 +68,16 @@ and so the content is expected to frequently change._
 10.2 [Static Application Security Testing (SAST)](#static-application-security-testing)  
 10.3 [Dynamic Application Security Testing (DAST)](#dynamic-application-security-testing)  
 
-10 **[Checklist](#checklist)**  
-11.1 [Checklist: Define Security Requirements](#checklist-define-security-requirements)  
-11.2 [Checklist: Leverage Security Frameworks and Libraries](#checklist-leverage-security-frameworks-and-libraries)  
-11.3 [Checklist: Secure Database Access](#checklist-secure-database-access)  
-11.4 [Checklist: Encode and Escape Data](#checklist-encode-and-escape-data)  
-11.5 [Checklist: Validate All Inputs](#checklist-validate-all-inputs)  
-11.6 [Checklist: Implement Digital Identity](#checklist-implement-digital-identity)  
-11.7 [Checklist: Enforce Access Controls](#checklist-enforce-access-controls)  
-11.8 [Checklist: Protect Data Everywhere](#checklist-protect-data-everywhere)  
-11.9 [Checklist: Implement Security Logging and Monitoring](#checklist-implement-security-logging-and-monitoring)  
-11.10 [Checklist: Handle all Errors and Exceptions](#checklist-handle-all-errors-and-exceptions)  
+14 **[Checklist](#checklist)**  
+14.1 [Checklist: Define Security Requirements](#checklist-define-security-requirements)  
+14.2 [Checklist: Leverage Security Frameworks and Libraries](#checklist-leverage-security-frameworks-and-libraries)  
+14.3 [Checklist: Secure Database Access](#checklist-secure-database-access)  
+14.4 [Checklist: Encode and Escape Data](#checklist-encode-and-escape-data)  
+14.5 [Checklist: Validate All Inputs](#checklist-validate-all-inputs)  
+14.6 [Checklist: Implement Digital Identity](#checklist-implement-digital-identity)  
+14.7 [Checklist: Enforce Access Controls](#checklist-enforce-access-controls)  
+14.8 [Checklist: Protect Data Everywhere](#checklist-protect-data-everywhere)  
+14.9 [Checklist: Implement Security Logging and Monitoring](#checklist-implement-security-logging-and-monitoring)  
+14.10 [Checklist: Handle all Errors and Exceptions](#checklist-handle-all-errors-and-exceptions)  
 
 \newpage

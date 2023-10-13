@@ -5,13 +5,13 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 2010
+order: 1409
 
 ---
 
 {% include breadcrumb.html %}
 
-### 20.10 Checklist: Implement Security Logging and Monitoring
+### 14.9 Checklist: Implement Security Logging and Monitoring
 
 Logging is recording security information during the runtime operation of an application.
 Monitoring is the live review of application and security logs using various forms of automation.
@@ -51,12 +51,12 @@ for more context from the 'OWASP Top 10 Proactive Controls' project.
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue2009] or a [pull request][pr].
+then [submit an issue][issue1409] or a [pull request][pr].
 
 [control9]: https://owasp.org/www-project-proactive-controls/v3/en/c9-security-logging.html
 [cslogging]: https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html
 [csvocabulary]: https://cheatsheetseries.owasp.org/cheatsheets/Logging_Vocabulary_Cheat_Sheet.html
-[issue2009]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2011-checklist/09-logging-monitoring
+[issue1409]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2014-checklist/09-logging-monitoring
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 [proactive10]: https://owasp.org/www-project-proactive-controls/
 

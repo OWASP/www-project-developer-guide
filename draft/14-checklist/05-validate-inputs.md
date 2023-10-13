@@ -5,13 +5,13 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 2006
+order: 1405
 
 ---
 
 {% include breadcrumb.html %}
 
-### 20.6 Checklist: Validate All Inputs
+### 14.5 Checklist: Validate All Inputs
 
 Input validation is a collection of techniques that ensure only properly formatted data
 may enter a software application or system component.
@@ -62,11 +62,11 @@ Without input validation the software application/system will continue to be vul
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue2005] or a [pull request][pr].
+then [submit an issue][issue1405] or a [pull request][pr].
 
 [control5]: https://owasp.org/www-project-proactive-controls/v3/en/c5-validate-inputs
 [ivcs]: https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html
-[issue2005]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2011-checklist/05-validate-inputs
+[issue1405]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2014-checklist/05-validate-inputs
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 [proactive10]: https://owasp.org/www-project-proactive-controls/
 [sanitizer]: https://www.owasp.org/index.php/OWASP_Java_HTML_Sanitizer

@@ -5,13 +5,13 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 2003
+order: 1402
 
 ---
 
 {% include breadcrumb.html %}
 
-### 20.3 Checklist: Leverage Security Frameworks and Libraries
+### 14.2 Checklist: Leverage Security Frameworks and Libraries
 
 Secure coding libraries and software frameworks with embedded security help software developers guard against
 security-related design and implementation flaws.
@@ -42,11 +42,11 @@ for more context from the 'OWASP Top 10 Proactive Controls' project.
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue2002] or a [pull request][pr].
+then [submit an issue][issue1402] or a [pull request][pr].
 
 [control2]: https://owasp.org/www-project-proactive-controls/v3/en/c2-leverage-security-frameworks-libraries.html
 [dependency]: https://owasp.org/www-project-dependency-check/
-[issue2002]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2011-checklist/02-frameworks-libraries
+[issue1402]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2014-checklist/02-frameworks-libraries
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 [proactive10]: https://owasp.org/www-project-proactive-controls/
 

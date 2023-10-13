@@ -118,36 +118,36 @@ docs:
 - title: '10.3 Dynamic Application Security Testing (DAST)'
   url: 10-security-testing-validation/03-dast
 
-- title: '11. Checklist'
-  url: 11-checklist/toc
+- title: '14. Checklist'
+  url: 14-checklist/toc
 
-- title: '11.1 Checklist: Define Security Requirements'
-  url: 11-checklist/01-define-security-requirements
+- title: '14.1 Checklist: Define Security Requirements'
+  url: 14-checklist/01-define-security-requirements
   
-- title: '11.2 Checklist: Leverage Security Frameworks and Libraries'
-  url: 11-checklist/02-frameworks-libraries
+- title: '14.2 Checklist: Leverage Security Frameworks and Libraries'
+  url: 14-checklist/02-frameworks-libraries
   
-- title: '11.3 Checklist: Secure Database Access'
-  url: 11-checklist/03-secure-database-access
+- title: '14.3 Checklist: Secure Database Access'
+  url: 14-checklist/03-secure-database-access
   
-- title: '11.4 Checklist: Encode and Escape Data'
-  url: 11-checklist/04-encode-escape-data
+- title: '14.4 Checklist: Encode and Escape Data'
+  url: 14-checklist/04-encode-escape-data
   
-- title: '11.5 Checklist: Validate All Inputs'
-  url: 11-checklist/05-validate-inputs
+- title: '14.5 Checklist: Validate All Inputs'
+  url: 14-checklist/05-validate-inputs
   
-- title: '11.6 Checklist: Implement Digital Identity'
-  url: 11-checklist/06-digital-identity
+- title: '14.6 Checklist: Implement Digital Identity'
+  url: 14-checklist/06-digital-identity
   
-- title: '11.7 Checklist: Enforce Access Controls'
-  url: 11-checklist/07-access-controls
+- title: '14.7 Checklist: Enforce Access Controls'
+  url: 14-checklist/07-access-controls
   
-- title: '11.8 Checklist: Protect Data Everywhere'
-  url: 11-checklist/08-protect-data
+- title: '14.8 Checklist: Protect Data Everywhere'
+  url: 14-checklist/08-protect-data
   
-- title: '11.9 Checklist: Implement Security Logging and Monitoring'
-  url: 11-checklist/09-security-logging-monitoring
+- title: '14.9 Checklist: Implement Security Logging and Monitoring'
+  url: 14-checklist/09-security-logging-monitoring
   
-- title: '11.10 Checklist: Handle all Errors and Exceptions'
-  url: 11-checklist/10-handle-errors-exceptions
+- title: '14.10 Checklist: Handle all Errors and Exceptions'
+  url: 14-checklist/10-handle-errors-exceptions
   

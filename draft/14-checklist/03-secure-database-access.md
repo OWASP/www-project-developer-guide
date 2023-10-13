@@ -5,13 +5,13 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 2004
+order: 1403
 
 ---
 
 {% include breadcrumb.html %}
 
-### 20.4 Checklist: Secure Database Access
+### 14.3 Checklist: Secure Database Access
 
 Secure access to all data stores, including both relational databases and NoSQL databases.
 Refer to proactive control '[C3: Secure Database Access][control3]'
@@ -52,11 +52,11 @@ for more context from the 'OWASP Top 10 Proactive Controls' project.
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue2003] or a [pull request][pr].
+then [submit an issue][issue1403] or a [pull request][pr].
 
 [control3]: https://owasp.org/www-project-proactive-controls/v3/en/c3-secure-database.html
 [dbsec]: https://cheatsheetseries.owasp.org/cheatsheets/Database_Security_Cheat_Sheet.html
-[issue2003]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2011-checklist/03-secure-database-access
+[issue1403]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2014-checklist/03-secure-database-access
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 [proactive10]: https://owasp.org/www-project-proactive-controls/
 [query]: https://cheatsheetseries.owasp.org/cheatsheets/Query_Parameterization_Cheat_Sheet.html

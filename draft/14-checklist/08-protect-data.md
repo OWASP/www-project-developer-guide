@@ -5,13 +5,13 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 2009
+order: 1408
 
 ---
 
 {% include breadcrumb.html %}
 
-### 20.9 Checklist: Protect Data Everywhere
+### 14.8 Checklist: Protect Data Everywhere
 
 Sensitive data such as passwords, credit card numbers, health records, personal information and business secrets
 require extra protection, particularly if that data falls under privacy laws (EU General Data Protection Regulation GDPR),
@@ -70,12 +70,12 @@ for more context from the 'OWASP Top 10 Proactive Controls' project.
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue2008] or a [pull request][pr].
+then [submit an issue][issue1408] or a [pull request][pr].
 
 [control8]: https://owasp.org/www-project-proactive-controls/v3/en/c8-protect-data-everywhere
 [cscs]: https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html
 [cssm]: https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html
-[issue2008]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2011-checklist/08-protect-data
+[issue1408]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2014-checklist/08-protect-data
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 [proactive10]: https://owasp.org/www-project-proactive-controls/
 

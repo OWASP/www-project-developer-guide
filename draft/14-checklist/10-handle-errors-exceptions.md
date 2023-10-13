@@ -5,13 +5,13 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 2011
+order: 1410
 
 ---
 
 {% include breadcrumb.html %}
 
-### 20.11 Checklist: Handle all Errors and Exceptions
+### 14.10 Checklist: Handle all Errors and Exceptions
 
 Handling exceptions and errors correctly is critical to making your code reliable and secure.
 Error and exception handling occurs in all areas of an application including critical business logic
@@ -45,11 +45,11 @@ for more context from the 'OWASP Top 10 Proactive Controls' project.
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue2010] or a [pull request][pr].
+then [submit an issue][issue1410] or a [pull request][pr].
 
 [control10]: https://owasp.org/www-project-proactive-controls/v3/en/c10-errors-exceptions.html
 [handle]: https://owasp.org/www-community/Improper_Error_Handling
-[issue2010]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2011-checklist/10-handle-errors-exceptions
+[issue1410]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2014-checklist/10-handle-errors-exceptions
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 [proactive10]: https://owasp.org/www-project-proactive-controls/
 [review]: https://owasp.org/www-project-code-review-guide/
