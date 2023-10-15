@@ -18,7 +18,8 @@ require extra protection, particularly if that data falls under privacy laws (EU
 financial data protection rules such as PCI Data Security Standard (PCI DSS) or other regulations.
 
 Refer to proactive control '[C8: Protect Data Everywhere][control8]'
-for more context from the 'OWASP Top 10 Proactive Controls' project.
+for more context from the 'OWASP Top 10 Proactive Controls' project,
+and use the checklists below as suggestions for the checklist that has been tailored for the individual project.
 
 #### Data protection
 
@@ -45,21 +46,6 @@ for more context from the 'OWASP Top 10 Proactive Controls' project.
 * Properly free allocated memory upon the completion of functions and at all exit points
 * Overwrite any sensitive information stored in allocated memory at all exit points from the function
 * Protect shared variables and resources from inappropriate concurrent access
-
-#### Cryptographic practices
-
-* Use peer reviewed and open solution cryptographic modules
-* All cryptographic functions used to protect secrets from the application user must be implemented on a trusted system
-* Cryptographic modules must fail securely
-* Ensure all random elements such as numbers, file names, UUID and strings are generated
-    using the cryptographic module approved random number generator
-* Cryptographic modules used by the application are compliant to FIPS 140-2 or an equivalent standard
-* Establish and utilize a policy and process for how cryptographic keys will be managed
-* Ensure that any secret key is protected from unauthorized access
-* Store keys in a proper secrets vault as described below
-* Use independent keys when multiple keys are required
-* Build support for changing algorithms and keys when needed
-* Build application features to handle a key rotation
 
 #### References
 

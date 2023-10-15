@@ -17,10 +17,12 @@ Secure coding libraries and software frameworks with embedded security help soft
 security-related design and implementation flaws.
 
 Refer to proactive control '[C2: Leverage Security Frameworks and Libraries][control2]'
-for more context from the 'OWASP Top 10 Proactive Controls' project.
+for more context from the 'OWASP Top 10 Proactive Controls' project,
+and use the checklist below as suggestions for the checklist that has been tailored for the individual project.
 
-#### Best practices
+#### Security Frameworks and Libraries
 
+* Ensure servers, frameworks and system components are running the latest approved versions and patches
 * Use libraries and frameworks from trusted sources that are actively maintained and widely used
 * Review all secondary applications and third party libraries to determine business necessity
 * Validate safe functionality for all secondary applications and third party libraries

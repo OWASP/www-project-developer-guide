@@ -17,7 +17,8 @@ Logging is recording security information during the runtime operation of an app
 Monitoring is the live review of application and security logs using various forms of automation.
 
 Refer to proactive control '[C9: Implement Security Logging and Monitoring][control9]'
-for more context from the 'OWASP Top 10 Proactive Controls' project.
+for more context from the 'OWASP Top 10 Proactive Controls' project,
+and use the checklists below as suggestions for the checklist that has been tailored for the individual project.
 
 #### Security logging
 

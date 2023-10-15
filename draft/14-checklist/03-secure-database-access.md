@@ -13,9 +13,11 @@ order: 1403
 
 ### 14.3 Checklist: Secure Database Access
 
-Secure access to all data stores, including both relational databases and NoSQL databases.
+Ensure that access to all data stores is sucure, including both relational databases and NoSQL databases.
+
 Refer to proactive control '[C3: Secure Database Access][control3]'
-for more context from the 'OWASP Top 10 Proactive Controls' project.
+for more context from the 'OWASP Top 10 Proactive Controls' project,
+and use the checklists below as suggestions for the checklist that has been tailored for the individual project.
 
 #### Secure queries
 

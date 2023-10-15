@@ -17,11 +17,11 @@ A security requirement is a statement of security functionality that ensures sof
 Security requirements are derived from industry standards, applicable laws, and a history of past vulnerabilities.
 
 Refer to proactive control '[C1: Define Security Requirements][control1]'
-for more context from the 'OWASP Top 10 Proactive Controls' project.
+for more context from the 'OWASP Top 10 Proactive Controls' project,
+and use the checklists below as suggestions for the checklist that has been tailored for the individual project.
 
 #### System configuration
 
-* Ensure servers, frameworks and system components are running the latest approved versions and patches
 * Restrict applications, processes and service accounts to the least privileges possible
 * If the application must run with elevated privileges, raise privileges as late as possible, and drop as soon as possible
 * Remove all unnecessary functionality and files
@@ -29,6 +29,21 @@ for more context from the 'OWASP Top 10 Proactive Controls' project.
 * The security configuration store for the application should be available in human readable form to support auditing
 * Isolate development environments from production and provide access only to authorized development and test groups
 * Implement a software change control system to manage and record changes to the code both in development and production
+
+#### Cryptographic practices
+
+* Use peer reviewed and open solution cryptographic modules
+* All cryptographic functions used to protect secrets from the application user must be implemented on a trusted system
+* Cryptographic modules must fail securely
+* Ensure all random elements such as numbers, file names, UUID and strings are generated
+    using the cryptographic module approved random number generator
+* Cryptographic modules used by the application are compliant to FIPS 140-2 or an equivalent standard
+* Establish and utilize a policy and process for how cryptographic keys will be managed
+* Ensure that any secret key is protected from unauthorized access
+* Store keys in a proper secrets vault as described below
+* Use independent keys when multiple keys are required
+* Build support for changing algorithms and keys when needed
+* Build application features to handle a key rotation
 
 #### File management
 

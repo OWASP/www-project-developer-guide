@@ -1,6 +1,6 @@
 ---
 
-title: Table of Contents and Overview
+title: Proactive Controls Checklist overview
 layout: col-document
 tags: OWASP Developer Guide
 contributors:
@@ -17,7 +17,14 @@ Checklists are a valuable resource for development teams.
 They provide structure for establishing good practices and processes
 and are also useful during code reviews and design activities.
 
-The checklists below are based on the '[OWASP Top 10 Proactive Controls][proactive10]' project.
+The checklists that follow are general lists that are categorised to follow the controls listed in the
+'[OWASP Top 10 Proactive Controls][proactive10]' project.
+These checklists provide suggestions that certainly should be tailored to
+an individual project's requirements and environment; they are not meant to be followed in their entirety.
+
+Probably the best advice on checklists is given by the [Application Security Verification Standard (ASVS)][asvs].
+The ASVS can be used to provide a framework for an initial checklist, according to the security verification level,
+and the initial ASVS checklist can then be expanded using the following checklist sections.
 
 Sections:
 
@@ -32,4 +39,5 @@ Sections:
 14.9 [Checklist: Implement Security Logging and Monitoring](09-logging-monitoring.md)  
 14.10 [Checklist: Handle all Errors and Exceptions](10-handle-errors-exceptions.md)  
 
+[asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [proactive10]: https://owasp.org/www-project-proactive-controls/
