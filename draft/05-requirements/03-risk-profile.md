@@ -27,7 +27,7 @@ Remediation is the strategy chosen in response to a risk to the business system,
 and these risks are identified using various techniques such as threat modeling and security requirements analysis.
 
 Risk management can be split into two phases. First create a risk profile for the application
-and then provide solutions to (remediate) those risks in a way that is best for the business;
+and then provide solutions (remediate) to those risks in a way that is best for the business;
 risk management should always be business driven.
 
 #### Application risk profile
@@ -56,32 +56,33 @@ Developer Guide, so refer to the further reading listed below for guidance and e
 Risks identified during threat assessment, for example through the risk profile or through threat modeling,
 should have solutions or remedies applied.
 
-There are four common ways to handle risk:
+There are four common ways to handle risk, often given the acronym TAME:
 
-1. Acceptance: the business is aware of the risk but has decided that no action needs to be taken;
-    the risk is deemed acceptable
+1. Transfer: the risk is considered serious but can be transferred to another party
 
-2. Mitigation: the risk is considered serious enough to require implementation of security controls to remove the risk
+2. Acceptance: the business is aware of the risk but has decided that no action needs to be taken;
+    the level of risk is deemed acceptable
 
-3. Transferring: the risk is considered serious but can be transferred to another party
+3. Mitigation: the risk is considered serious enough to require implementation of security controls
+    to reduce the risk to an acceptable level
 
-4. Elimination: the risk can be avoided or removed completely,
+4. Eliminate / Avoid: the risk can be avoided or removed completely,
     often by removing the object with which the risk is associated
 
 Examples:
 
-1. Acceptance: sometimes a risk is low enough in priority or the outcome bearable that it is not worth mitigating,
-    an example might be where the version of software is revealed but this is acceptable (or even desirable)
-
-2. Mitigation: it is usual to mitigate the impact of a risk, for example
-    input sanitization or output encoding may be used for information supplied by an untrusted source,
-    or the use of encrypted communication channels for transferring high risk information
-
-3. Transferring: a common example of transferring risk is the use of third party insurance
+1. Transfer: a common example of transferring risk is the use of third party insurance
     in response to the risk of RansomWare.
     Insurance premiums are paid but losses to the business are covered by the insurance
 
-4. Elimination: an example may be that an application implements legacy functionality that is no longer used,
+2. Acceptance: sometimes a risk is low enough in priority, or the outcome bearable, that it is not worth mitigating,
+    an example might be where the version of software is revealed but this is acceptable (or even desirable)
+
+3. Mitigation: it is usual to mitigate the impact of a risk, for example
+    input sanitization or output encoding may be used for information supplied by an untrusted source,
+    or the use of encrypted communication channels for transferring high risk information
+
+4. Eliminate: an example may be that an application implements legacy functionality that is no longer used,
     if there is a risk of it being exploited then the risk can be eliminated by removing this legacy functionality
 
 #### Further reading

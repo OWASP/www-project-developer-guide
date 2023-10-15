@@ -20,7 +20,7 @@ published soon after OWASP was formed in 2001.
 Version 1.0 of the Developer Guide was released in 2002
 and since then there have been various [releases][versions] culminating in version 2.0 in 2005.
 The guide has been revised extensively to bring it up to date since then and no longer has version numbers,
-but notionally it is version 4.0 as version 3.0 was never released.
+but it can be regarded as version 4.0 since version 3.0 was never released.
 
 The purpose of this guide is to provide an introduction to security
 and a handy reference for application / system developers.

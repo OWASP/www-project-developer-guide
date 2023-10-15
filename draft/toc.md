@@ -33,10 +33,10 @@ and so the content is expected to frequently change._
 4.5 [OWASP Top Ten](04-foundations/05-top-ten.md)  
 4.6 [Security champions](04-foundations/06-security-champions.md)  
 
-5 **[Security requirements](05-security-requirements/toc.md)**  
-5.1 [Introduction](05-security-requirements/01-security-requirements.md)  
-5.2 [Threat modeling](05-security-requirements/02-threat-modeling.md)  
-5.3 [Risk profile](05-security-requirements/03-risk-profile.md)  
+5 **[Requirements](05-requirements/toc.md)**  
+5.1 [Introduction](05-requirements/01-security-requirements.md)  
+5.2 [Threat modeling](05-requirements/02-threat-modeling.md)  
+5.3 [Risk profile](05-requirements/03-risk-profile.md)  
 
 6 **[Secure design](06-secure-design/toc.md)**  
 6.1 [Introduction](06-secure-design/01-secure-design.md)  

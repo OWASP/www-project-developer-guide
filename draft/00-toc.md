@@ -33,7 +33,7 @@ and so the content is expected to frequently change._
 4.5 [OWASP Top Ten](#owasp-top-ten)  
 4.6 [Security champions](#security-champions)  
 
-5 **[Security requirements](#security-requirements)**  
+5 **[Requirements](#requirements)**  
 5.1 [Introduction](#introduction-to-security-requirements)  
 5.2 [Threat modeling](#threat-modeling)  
 5.3 [Risk profile](#risk-profile)  

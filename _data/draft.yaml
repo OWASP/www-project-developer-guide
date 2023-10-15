@@ -31,17 +31,17 @@ docs:
 - title: '4.6 Security champions'
   url: 04-foundations/06-security-champions
 
-- title: '5. Security requirements'
-  url: 05-security-requirements/toc
+- title: '5. Requirements'
+  url: 05-requirements/toc
 
 - title: '5.1 Introduction'
-  url: 05-security-requirements/01-security-requirements
+  url: 05-requirements/01-security-requirements
 
 - title: '5.2 Threat modeling'
-  url: 05-security-requirements/02-threat-modeling
+  url: 05-requirements/02-threat-modeling
 
 - title: '5.3 Risk profile'
-  url: 05-security-requirements/03-risk-profile
+  url: 05-requirements/03-risk-profile
 
 - title: '6. Secure design'
   url: 06-secure-design/toc

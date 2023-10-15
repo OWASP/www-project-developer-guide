@@ -1,6 +1,6 @@
 ---
 
-title: Security Requirements
+title: Requirements
 layout: col-document
 tags: OWASP Developer Guide
 contributors:
@@ -11,7 +11,7 @@ order:
 
 {% include breadcrumb.html %}
 
-## 5. Security requirements
+## 5. Requirements
 
 ![Developer Guide](../assets/images/dg_wip.png){ height=120px }
 
