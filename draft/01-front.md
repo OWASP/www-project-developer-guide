@@ -19,5 +19,4 @@ permalink: /draft/
 _The draft version has the latest contributions to the Developer Guide
 and so the content is expected to frequently change._
 
-
 \newpage

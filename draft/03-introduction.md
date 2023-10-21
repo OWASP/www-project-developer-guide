@@ -45,13 +45,6 @@ Much of this guide is based on various OWASP sources:
 These resources provide greater detail and wider context for the various sections in this guide,
 and are referenced throughout this developer guide.
 
-#### Audience
-
-The OWASP Developer Guide has been written by the security community to help software developers write solid,
-safe and secure applications.
-Application developers should try to be familiar with the entire guide;
-it is far harder to write solid applications than to destroy them.
-
 The content of the main sections is aimed at an introductory level,
 with more advanced detail contained in the sub-sections.
 This guide does not seek to replicate the many excellent sources on specific security topics;
@@ -59,6 +52,20 @@ it will rarely deal with a subject at an advanced level and instead provides lin
 
 All of the OWASP projects and tools are free to download and use
 and the source code is open; if you are interested in improving application security then do get involved.
+
+#### Audience
+
+The OWASP Developer Guide has been written by the security community to help software developers write solid,
+safe and secure applications.
+Application developers should try to be familiar with the entire guide;
+it is far harder to write solid applications than to destroy them.
+
+You can regard the purpose of this guide as answering the question:
+ “I am a developer and I need a reference source to navigate the numerous projects
+ and activities I am _supposed_ to be doing”
+
+Or you can regard this guide as a companion document to the OWASP [Wayfinder][wayfinder] project;
+the Wayfinder maps out many OWASP tools and documents, the Developer Guide provides context for them.
 
 ----
 
@@ -76,6 +83,7 @@ then [submit an issue][issue03] or a [pull request][pr] .
 [samm]: https://owaspsamm.org/about/
 [top10]: https://owasp.org/www-project-top-ten/
 [versions]: https://github.com/OWASP/DevGuide/wiki#old-versions
+[wayfinder]: https://owasp.org/www-project-integration-standards/
 [wstg]: https://owasp.org/www-project-web-security-testing-guide/
 
 \newpage
