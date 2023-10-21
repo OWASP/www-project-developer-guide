@@ -11,7 +11,7 @@ order: 403
 
 {% include breadcrumb.html %}
 
-### 4.3 Principles of security
+### 2.3 Principles of security
 
 This section is a very brief introduction to some concepts used within the software security domain,
 as these may not be familiar to many application developers.

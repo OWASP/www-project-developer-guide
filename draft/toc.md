@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 0
+order: 200
 permalink: /draft/
 
 ---
@@ -19,19 +19,15 @@ permalink: /draft/
 _The draft version has the latest contributions to the Developer Guide
 and so the content is expected to frequently change._
 
-1 **[Audience](01-audience.md)**
+1 **[Introduction](03-introduction.md)**
 
-2 **[Background](02-background.md)**
-
-3 **[Introduction](03-introduction.md)**
-
-4 **[Foundations](04-foundations/toc.md)**  
-4.1 [Security fundamentals](04-foundations/01-security-fundamentals.md)  
-4.2 [Secure development and integration](04-foundations/02-secure-development.md)  
-4.3 [Principles of security](04-foundations/03-security-principles.md)  
-4.4 [Principles of cryptography](04-foundations/04-crypto-principles.md)  
-4.5 [OWASP Top Ten](04-foundations/05-top-ten.md)  
-4.6 [Security champions](04-foundations/06-security-champions.md)  
+2 **[Foundations](04-foundations/toc.md)**  
+2.1 [Security fundamentals](04-foundations/01-security-fundamentals.md)  
+2.2 [Secure development and integration](04-foundations/02-secure-development.md)  
+2.3 [Principles of security](04-foundations/03-security-principles.md)  
+2.4 [Principles of cryptography](04-foundations/04-crypto-principles.md)  
+2.5 [OWASP Top Ten](04-foundations/05-top-ten.md)  
+2.6 [Security champions](04-foundations/06-security-champions.md)  
 
 5 **[Requirements](05-requirements/toc.md)**  
 5.1 [Introduction](05-requirements/01-security-requirements.md)  

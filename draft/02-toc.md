@@ -5,33 +5,24 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 0
+order: 200
 permalink: /draft/
 
 ---
 
 {% include breadcrumb.html %}
 
-## ![Developer Guide](../assets/images/dg_logo.png){ height=120px }
+## Table of contents
 
-## OWASP Developer Guide (draft)
+1 **[Introduction](#introduction)**
 
-_The draft version has the latest contributions to the Developer Guide
-and so the content is expected to frequently change._
-
-1 **[Audience](#audience)**
-
-2 **[Background](#background)**
-
-3 **[Introduction](#introduction)**
-
-4 **[Foundations](#foundations)**  
-4.1 [Security fundamentals](#security-fundamentals)  
-4.2 [Secure development and integration](#secure-development-and-integration)  
-4.3 [Principles of security](#principles-of-security)  
-4.4 [Principles of cryptography](#principles-of-cryptography)  
-4.5 [OWASP Top Ten](#owasp-top-ten)  
-4.6 [Security champions](#security-champions)  
+2 **[Foundations](#foundations)**  
+2.1 [Security fundamentals](#security-fundamentals)  
+2.2 [Secure development and integration](#secure-development-and-integration)  
+2.3 [Principles of security](#principles-of-security)  
+2.4 [Principles of cryptography](#principles-of-cryptography)  
+2.5 [OWASP Top Ten](#owasp-top-ten)  
+2.6 [Security champions](#security-champions)  
 
 5 **[Requirements](#requirements)**  
 5.1 [Introduction](#introduction-to-security-requirements)  

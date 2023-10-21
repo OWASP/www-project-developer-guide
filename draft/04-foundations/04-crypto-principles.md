@@ -11,7 +11,7 @@ order: 404
 
 {% include breadcrumb.html %}
 
-### 4.4 Principles of cryptography
+### 2.4 Principles of cryptography
 
 Cryptography is fundamental to the Confidentiality and Integrity of applications and systems.
 The OWASP [Cheat Sheet][cheat] series describes the use of cryptography and some of these are
