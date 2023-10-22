@@ -13,16 +13,6 @@ order: 901
 
 ### 6.5.1 Secure environment
 
-![Developer Guide](../assets/images/dg_wip.png "OWASP Developer Guide"){: height="220px" }
-
-The OWASP Development Guide is being rewritten by the OWASP community,
-and the content has yet to be filled in for the section on 'Introduction to secure environments'.
-
-If you would like to contribute then follow the [contributing guidelines][contribute]
-and submit your content for review.
-
-[contribute]: https://github.com/OWASP/www-project-developer-guide/blob/main/contributing.md
-
 * The WEB-INF directory tree contains web application classes, pre-compiled JSP files, server side libraries,
     session information, and files such as `web.xml` and `webapp.properties`.
     So be sure the code base is identical to production.

@@ -59,28 +59,28 @@ docs:
   url: 07-implementation/04-dos-donts/toc
   
 - title: '5.4.1 Container security'
-  url: 07-implementation/04-dos-donts/container-security
+  url: 07-implementation/04-dos-donts/01-container-security
   
 - title: '5.4.2 Secure coding'
-  url: 07-implementation/04-dos-donts/secure-coding
+  url: 07-implementation/04-dos-donts/02-secure-coding
   
 - title: '5.4.3 Cryptographic practices'
-  url: 07-implementation/04-dos-donts/cryptographic-practices
+  url: 07-implementation/04-dos-donts/03-cryptographic-practices
   
 - title: '5.4.4 Application spoofing'
-  url: 07-implementation/04-dos-donts/application-spoofing
+  url: 07-implementation/04-dos-donts/04-application-spoofing
   
 - title: '5.4.5 Content Security Policy (CSP)'
-  url: 07-implementation/04-dos-donts/content-security-policy
+  url: 07-implementation/04-dos-donts/05-content-security-policy
   
 - title: '5.4.6 Exception and error handling'
-  url: 07-implementation/04-dos-donts/exception-error-handling
+  url: 07-implementation/04-dos-donts/06-exception-error-handling
   
 - title: '5.4.7 File management'
-  url: 07-implementation/04-dos-donts/file-management
+  url: 07-implementation/04-dos-donts/07-file-management
   
 - title: '5.4.8 Memory management'
-  url: 07-implementation/04-dos-donts/memory-management  
+  url: 07-implementation/04-dos-donts/08-memory-management  
 
 - title: '6. Verification'
   url: 08-verification/toc
@@ -101,13 +101,13 @@ docs:
   url: 08-verification/05-dos-donts/toc
  
 - title: '6.5.1 Secure environment'
-  url: 08-verification/05-dos-donts/secure-environment
+  url: 08-verification/05-dos-donts/01-secure-environment
  
 - title: '6.5.2 System hardening'
-  url: 08-verification/05-dos-donts/system-hardening
+  url: 08-verification/05-dos-donts/02-system-hardening
  
 - title: '6.5.3 Open Source software'
-  url: 08-verification/05-dos-donts/open-source-software  
+  url: 08-verification/05-dos-donts/03-open-source-software  
 
 - title: '7. Training and Education'
   url: 09-training-education/toc

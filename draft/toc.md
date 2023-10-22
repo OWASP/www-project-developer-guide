@@ -38,18 +38,18 @@ and so the content is expected to frequently change._
 4.1.1 [Threat modeling in practice](06-design/01-threat-modeling/01-threat-modeling.md)  
 
 5 **[Implementation](07-implementation/toc.md)**  
-5.1 [Documentation](07-implementation/02-documentation/toc.md)  
+5.1 [Documentation](07-implementation/01-documentation/toc.md)  
 5.2 [Dependencies](07-implementation/02-dependencies/toc.md)  
 5.3 [Secure Libraries](07-implementation/03-secure-libraries/toc.md)  
 5.4 [Implementation Do's and Dont's](07-implementation/04-dos-donts/toc.md)  
-5.4.1 [Container security](07-implementation/04-dos-donts/container-security.md)  
-5.4.2 [Secure coding](07-implementation/04-dos-donts/secure-coding.md)  
-5.4.3 [Cryptographic practices](07-implementation/04-dos-donts/cryptographic-practices.md)  
-5.4.4 [Application spoofing](07-implementation/04-dos-donts/application-spoofing.md)  
-5.4.5 [Content Security Policy (CSP)](07-implementation/04-dos-donts/content-security-policy.md)  
-5.4.6 [Exception and error handling](07-implementation/04-dos-donts/exception-error-handling.md)  
-5.4.7 [File management](07-implementation/04-dos-donts/file-management.md)  
-5.4.8 [Memory management](07-implementation/04-dos-donts/memory-management.md)  
+5.4.1 [Container security](07-implementation/04-dos-donts/01-container-security.md)  
+5.4.2 [Secure coding](07-implementation/04-dos-donts/02-secure-coding.md)  
+5.4.3 [Cryptographic practices](07-implementation/04-dos-donts/03-cryptographic-practices.md)  
+5.4.4 [Application spoofing](07-implementation/04-dos-donts/04-application-spoofing.md)  
+5.4.5 [Content Security Policy (CSP)](07-implementation/04-dos-donts/05-content-security-policy.md)  
+5.4.6 [Exception and error handling](07-implementation/04-dos-donts/06-exception-error-handling.md)  
+5.4.7 [File management](07-implementation/04-dos-donts/07-file-management.md)  
+5.4.8 [Memory management](07-implementation/04-dos-donts/08-memory-management.md)  
 
 6 **[Verification](08-verification/toc.md)**  
 6.1 [Guides](08-verification/01-guides/toc.md)  
@@ -57,9 +57,9 @@ and so the content is expected to frequently change._
 6.3 [Frameworks](08-verification/03-frameworks/toc.md)  
 6.4 [Vulnerability management](08-verification/04-vulnerability-management/toc.md)  
 6.5 [Do's and Dont's](08-verification/05-dos-donts/toc.md)  
-6.5.1 [Secure environment](08-verification/05-dos-donts/secure-environment.md)  
-6.5.2 [System hardening](08-verification/05-dos-donts/system-hardening.md)  
-6.5.3 [Open Source software](08-verification/05-dos-donts/open-source-software.md)  
+6.5.1 [Secure environment](08-verification/05-dos-donts/01-secure-environment.md)  
+6.5.2 [System hardening](08-verification/05-dos-donts/02-system-hardening.md)  
+6.5.3 [Open Source software](08-verification/05-dos-donts/03-open-source-software.md)  
 
 7 **[Training and Education](09-training-education/toc.md)**  
 

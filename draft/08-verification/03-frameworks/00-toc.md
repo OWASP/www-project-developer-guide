@@ -13,7 +13,7 @@ order:
 
 ## 6.3 Verification frameworks
 
-![Developer Guide](../assets/images/dg_wip.png){ height=120px }
+![Developer Guide](../../assets/images/dg_wip.png){ height=120px }
 
 **To do**: this should be a brief overview / abstract of the section on 'Verification frameworks'.
 The Introduction contains more detail and the further sections expand on that

@@ -13,7 +13,7 @@ order: 740
 
 ## 5.4 Do's and Dont's
 
-![Developer Guide](../assets/images/dg_wip.png "OWASP Developer Guide"){: height="220px" }
+![Developer Guide](../../assets/images/dg_wip.png "OWASP Developer Guide"){: height="220px" }
 
 **To do**: This should be a brief overview / abstract of the section on 'Implementation Do's and Dont's'.
 The Introduction will contain more detail and the further sections will expand on that.
