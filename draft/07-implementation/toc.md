@@ -20,7 +20,7 @@ The Introduction will contain more detail and the further sections will expand o
 
 Sections:
 
-5.1 [Documentation](02-documentation/toc.md)  
+5.1 [Documentation](01-documentation/toc.md)  
 5.2 [Dependencies](02-dependencies/toc.md)  
 5.3 [Secure Libraries](03-secure-libraries/toc.md)  
 5.4 [Implementation Do's and Dont's](04-dos-donts/toc.md)  

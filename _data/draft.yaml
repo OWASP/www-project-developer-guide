@@ -47,7 +47,7 @@ docs:
   url: 07-implementation/toc
 
 - title: '5.1 Documentation'
-  url: 07-implementation/02-documentation/toc
+  url: 07-implementation/01-documentation/toc
   
 - title: '5.2 Dependencies'
   url: 07-implementation/02-dependencies/toc
