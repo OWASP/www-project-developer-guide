@@ -11,7 +11,7 @@ order: 1407
 
 {% include breadcrumb.html %}
 
-### 14.7 Checklist: Enforce Access Controls
+### 12.7 Checklist: Enforce Access Controls
 
 Access Control (or Authorization) is the process of granting or denying specific requests
 from a user, program, or process.

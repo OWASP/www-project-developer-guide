@@ -11,7 +11,7 @@ order:
 
 {% include breadcrumb.html %}
 
-## 5. Requirements
+## 3. Requirements
 
 ![Developer Guide](../assets/images/dg_wip.png){ height=120px }
 
@@ -20,8 +20,7 @@ The Introduction will contain more detail and the further sections will expand o
 
 Sections:
 
-5.1 [Introduction](#introduction-to-security-requirements)  
-5.2 [Threat modeling](#threat-modeling)  
-5.3 [Risk profile](#risk-profile)  
+3.1 [Requirements in practice](#requirements-in-practice)  
+3.2 [Risk profile](#risk-profile)  
 
 \newpage

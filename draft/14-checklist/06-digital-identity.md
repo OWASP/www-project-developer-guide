@@ -11,7 +11,7 @@ order: 1406
 
 {% include breadcrumb.html %}
 
-### 14.6 Checklist: Implement Digital Identity
+### 12.6 Checklist: Implement Digital Identity
 
 Authentication is the process of verifying that an individual or entity is who they claim to be.
 Session management is a process by which a server maintains the state of the users authentication

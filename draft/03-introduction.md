@@ -11,7 +11,7 @@ order: 300
 
 {% include breadcrumb.html %}
 
-### 3. Introduction
+### 1. Introduction
 
 Welcome to the OWASP Development Guide.
 

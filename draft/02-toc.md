@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 200
+order:
 permalink: /draft/
 
 ---
@@ -24,51 +24,59 @@ permalink: /draft/
 2.5 [OWASP Top Ten](#owasp-top-ten)  
 2.6 [Security champions](#security-champions)  
 
-5 **[Requirements](#requirements)**  
-5.1 [Introduction](#introduction-to-security-requirements)  
-5.2 [Threat modeling](#threat-modeling)  
-5.3 [Risk profile](#risk-profile)  
+3 **[Requirements](#requirements)**  
+3.1 [Requirements in practice](#requirements-in-practice)  
+3.2 [Risk profile](#risk-profile)  
 
-6 **[Secure design](#secure-design)**  
-6.1 [Introduction](#introduction-to-secure-design)  
-6.2 [Secure coding](#secure-coding)  
-6.3 [Cryptographic practices](#cryptographic-practices)  
-6.4 [Application spoofing](#application-spoofing)  
-6.5 [Content Security Policy (CSP)](#content-security-policy)  
-6.6 [Exception and error handling](#exception-and-error-handling)  
-6.7 [File management](#file-management)  
-6.8 [Memory management](#memory-management)  
+4 **[Design](#design)**
+4.1 [Threat modeling](#threat-modeling)  
+4.1.1 [Threat modeling in practice](#threat-modeling-in-practice)  
 
-7 **[Container security](#container-security)**  
-7.1 [Introduction](#introduction-to-container-security)  
-7.2 [Image security](#image-security)  
-7.3 [Container scanning](#container-scanning)  
+5 **[Implementation](#implementation)**
+5.1 [Documentation](#documentation)  
+5.2 [Dependencies](#dependencies)
+5.3 [Secure Libraries](#secure-libraries)  
+5.4 [Implementation Do's and Dont's](#implementation-dos-and-donts)  
+5.4.1 [Container security](#container-security)  
+5.4.2 [Secure coding](#secure-coding)  
+5.4.3 [Cryptographic practices](#cryptographic-practices)  
+5.4.4 [Application spoofing](#application-spoofing)  
+5.4.5 [Content Security Policy (CSP)](#content-security-policy)  
+5.4.6 [Exception and error handling](#exception-and-error-handling)  
+5.4.7 [File management](#file-management)  
+5.4.8 [Memory management](#memory-management)  
 
-8 **[Open-Source software](#open-source-software)**  
-8.1 [Introduction](#introduction-to-open-source-software)  
-8.2 [Static code analysis](#static-code-analysis)  
-8.3 [Third Party Software (TPS) and libraries](#third-party-software-and-libraries)  
+6 **[Verification](#verification)**
+6.1 [Guides](#verification-guides)  
+6.2 [Tools](#verification-tools)  
+6.3 [Frameworks](#verification-frameworks)  
+6.4 [Vulnerability management](#verification-vulnerability-management)  
+6.5 [Do's and Dont's](#verification-dos-and-donts)
+6.5.1 [Secure environment](#secure-environment)  
+6.5.2 [System hardening](#system-hardening)  
+6.5.3 [Open Source software](#open-source-software)  
 
-9 **[Secure environment](#secure-environment)**  
-9.1 [Introduction](#introduction-to-secure-environment)  
-9.2 [System hardening](#system-hardening)  
-9.3 [File systems and downloads](#file-systems-and-downloads)  
+7 **[Training and Education](#training-and-education)**  
 
-10 **[Security testing and validation](#security-testing-and-validation)**  
-10.1 [Introduction](#introduction-to-security-testing-and-validation)  
-10.2 [Static Application Security Testing (SAST)](#static-application-security-testing)  
-10.3 [Dynamic Application Security Testing (DAST)](#dynamic-application-security-testing)  
+8 **[Culture building and Process maturing](#culture-building-and-process-maturing)**  
 
-14 **[Checklist](#checklist)**  
-14.1 [Checklist: Define Security Requirements](#checklist-define-security-requirements)  
-14.2 [Checklist: Leverage Security Frameworks and Libraries](#checklist-leverage-security-frameworks-and-libraries)  
-14.3 [Checklist: Secure Database Access](#checklist-secure-database-access)  
-14.4 [Checklist: Encode and Escape Data](#checklist-encode-and-escape-data)  
-14.5 [Checklist: Validate All Inputs](#checklist-validate-all-inputs)  
-14.6 [Checklist: Implement Digital Identity](#checklist-implement-digital-identity)  
-14.7 [Checklist: Enforce Access Controls](#checklist-enforce-access-controls)  
-14.8 [Checklist: Protect Data Everywhere](#checklist-protect-data-everywhere)  
-14.9 [Checklist: Implement Security Logging and Monitoring](#checklist-implement-security-logging-and-monitoring)  
-14.10 [Checklist: Handle all Errors and Exceptions](#checklist-handle-all-errors-and-exceptions)  
+9 **[Operation](#operation)**  
+
+10 **[Metrics](#metrics)**  
+
+11 **[Policy gap evaluation](#policy-gap-evaluation)**  
+11.1 [Guides](#policy-gap-evaluation-guides)  
+
+12 **[Checklist](#checklist)**  
+12.1 [Checklist: Define Security Requirements](#checklist-define-security-requirements)  
+12.2 [Checklist: Leverage Security Frameworks and Libraries](#checklist-leverage-security-frameworks-and-libraries)  
+12.3 [Checklist: Secure Database Access](#checklist-secure-database-access)  
+12.4 [Checklist: Encode and Escape Data](#checklist-encode-and-escape-data)  
+12.5 [Checklist: Validate All Inputs](#checklist-validate-all-inputs)  
+12.6 [Checklist: Implement Digital Identity](#checklist-implement-digital-identity)  
+12.7 [Checklist: Enforce Access Controls](#checklist-enforce-access-controls)  
+12.8 [Checklist: Protect Data Everywhere](#checklist-protect-data-everywhere)  
+12.9 [Checklist: Implement Security Logging and Monitoring](#checklist-implement-security-logging-and-monitoring)  
+12.10 [Checklist: Handle all Errors and Exceptions](#checklist-handle-all-errors-and-exceptions)  
 
 \newpage

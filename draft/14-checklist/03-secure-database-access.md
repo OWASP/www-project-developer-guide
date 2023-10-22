@@ -11,7 +11,7 @@ order: 1403
 
 {% include breadcrumb.html %}
 
-### 14.3 Checklist: Secure Database Access
+### 12.3 Checklist: Secure Database Access
 
 Ensure that access to all data stores is secure, including both relational databases and NoSQL databases.
 

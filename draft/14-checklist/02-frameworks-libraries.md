@@ -11,7 +11,7 @@ order: 1402
 
 {% include breadcrumb.html %}
 
-### 14.2 Checklist: Leverage Security Frameworks and Libraries
+### 12.2 Checklist: Leverage Security Frameworks and Libraries
 
 Secure coding libraries and software frameworks with embedded security help software developers guard against
 security-related design and implementation flaws.

@@ -11,7 +11,7 @@ order: 1404
 
 {% include breadcrumb.html %}
 
-### 14.4 Checklist: Encode and Escape Data
+### 12.4 Checklist: Encode and Escape Data
 
 Encoding and escaping of output data are defensive techniques meant to stop injection attacks
 on a target system or application which is receiving the output data.

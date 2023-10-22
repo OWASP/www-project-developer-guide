@@ -11,7 +11,7 @@ order: 1405
 
 {% include breadcrumb.html %}
 
-### 14.5 Checklist: Validate All Inputs
+### 12.5 Checklist: Validate All Inputs
 
 Input validation is a collection of techniques that ensure only properly formatted data
 may enter a software application or system component.

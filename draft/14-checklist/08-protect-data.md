@@ -11,7 +11,7 @@ order: 1408
 
 {% include breadcrumb.html %}
 
-### 14.8 Checklist: Protect Data Everywhere
+### 12.8 Checklist: Protect Data Everywhere
 
 Sensitive data such as passwords, credit card numbers, health records, personal information and business secrets
 require extra protection, particularly if that data falls under privacy laws (EU General Data Protection Regulation GDPR),

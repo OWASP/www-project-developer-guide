@@ -11,7 +11,7 @@ order: 1409
 
 {% include breadcrumb.html %}
 
-### 14.9 Checklist: Implement Security Logging and Monitoring
+### 12.9 Checklist: Implement Security Logging and Monitoring
 
 Logging is recording security information during the runtime operation of an application.
 Monitoring is the live review of application and security logs using various forms of automation.

@@ -11,7 +11,7 @@ order: 1410
 
 {% include breadcrumb.html %}
 
-### 14.10 Checklist: Handle all Errors and Exceptions
+### 12.10 Checklist: Handle all Errors and Exceptions
 
 Handling exceptions and errors correctly is critical to making your code reliable and secure.
 Error and exception handling occurs in all areas of an application including critical business logic

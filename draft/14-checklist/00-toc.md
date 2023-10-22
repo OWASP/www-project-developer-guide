@@ -1,6 +1,6 @@
 ---
 
-title: Proactive Controls Checklist overview
+title: Checklist and Proactive Controls
 layout: col-document
 tags: OWASP Developer Guide
 contributors:
@@ -11,7 +11,7 @@ order:
 
 {% include breadcrumb.html %}
 
-## 14. Checklist
+## 12. Checklist
 
 Checklists are a valuable resource for development teams.
 They provide structure for establishing good practices and processes
@@ -28,16 +28,16 @@ and the initial ASVS checklist can then be expanded using the following checklis
 
 Sections:
 
-14.1 [Checklist: Define Security Requirements](#checklist-define-security-requirements)  
-14.2 [Checklist: Leverage Security Frameworks and Libraries](#checklist-leverage-security-frameworks-and-libraries)  
-14.3 [Checklist: Secure Database Access](#checklist-secure-database-access)  
-14.4 [Checklist: Encode and Escape Data](#checklist-encode-and-escape-data)  
-14.5 [Checklist: Validate All Inputs](#checklist-validate-all-inputs)  
-14.6 [Checklist: Implement Digital Identity](#checklist-implement-digital-identity)  
-14.7 [Checklist: Enforce Access Controls](#checklist-enforce-access-controls)  
-14.8 [Checklist: Protect Data Everywhere](#checklist-protect-data-everywhere)  
-14.9 [Checklist: Implement Security Logging and Monitoring](#checklist-implement-security-logging-and-monitoring)  
-14.10 [Checklist: Handle all Errors and Exceptions](#checklist-handle-all-errors-and-exceptions)  
+12.1 [Checklist: Define Security Requirements](#checklist-define-security-requirements)  
+12.2 [Checklist: Leverage Security Frameworks and Libraries](#checklist-leverage-security-frameworks-and-libraries)  
+12.3 [Checklist: Secure Database Access](#checklist-secure-database-access)  
+12.4 [Checklist: Encode and Escape Data](#checklist-encode-and-escape-data)  
+12.5 [Checklist: Validate All Inputs](#checklist-validate-all-inputs)  
+12.6 [Checklist: Implement Digital Identity](#checklist-implement-digital-identity)  
+12.7 [Checklist: Enforce Access Controls](#checklist-enforce-access-controls)  
+12.8 [Checklist: Protect Data Everywhere](#checklist-protect-data-everywhere)  
+12.9 [Checklist: Implement Security Logging and Monitoring](#checklist-implement-security-logging-and-monitoring)  
+12.10 [Checklist: Handle all Errors and Exceptions](#checklist-handle-all-errors-and-exceptions)  
 
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [proactive10]: https://owasp.org/www-project-proactive-controls/

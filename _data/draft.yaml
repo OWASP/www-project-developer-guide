@@ -1,153 +1,162 @@
 docs_list_title: Developer Guide (draft)
 docs:
 
-- title: '1. Audience'
-  url: 01-audience
-
-- title: '2. Background'
-  url: 02-background
-
-- title: '3. Introduction'
+- title: '1. Introduction'
   url: 03-introduction
 
-- title: '4. Foundations'
+- title: '2. Foundations'
   url: 04-foundations/toc
 
-- title: '4.1 Security fundamentals'
+- title: '2.1 Security fundamentals'
   url: 04-foundations/01-security-fundamentals
 
-- title: '4.2 Secure development and integration'
+- title: '2.2 Secure development and integration'
   url: 04-foundations/02-secure-development
 
-- title: '4.3 Principles of security'
+- title: '2.3 Principles of security'
   url: 04-foundations/03-security-principles
 
-- title: '4.4 Principles of cryptography'
+- title: '2.4 Principles of cryptography'
   url: 04-foundations/04-crypto-principles
 
-- title: '4.5 OWASP Top Ten'
+- title: '2.5 OWASP Top Ten'
   url: 04-foundations/05-top-ten
 
-- title: '4.6 Security champions'
+- title: '2.6 Security champions'
   url: 04-foundations/06-security-champions
 
-- title: '5. Requirements'
+- title: '3. Requirements'
   url: 05-requirements/toc
 
-- title: '5.1 Introduction'
-  url: 05-requirements/01-security-requirements
+- title: '3.1 Requirements in practice'
+  url: 05-requirements/01-requirements
 
-- title: '5.2 Threat modeling'
-  url: 05-requirements/02-threat-modeling
+- title: '3.2 Risk profile'
+  url: 05-requirements/02-risk
 
-- title: '5.3 Risk profile'
-  url: 05-requirements/03-risk-profile
+- title: '4. Design'
+  url: 06-design/toc
 
-- title: '6. Secure design'
-  url: 06-secure-design/toc
+- title: '4.1 Threat modeling'
+  url: 06-design/01-threat-modeling/toc
 
-- title: '6.1 Introduction'
-  url: 06-secure-design/01-secure-design
+- title: '4.1.1 Threat modeling in practice'
+  url: 06-design/01-threat-modeling/01-threat-modeling
 
-- title: '6.2 Secure coding'
-  url: 06-secure-design/02-secure-coding
+- title: '5. Implementation'
+  url: 07-implementation/toc
 
-- title: '6.3 Cryptographic practices'
-  url: 06-secure-design/03-cryptographic-practices
-
-- title: '6.4 Application spoofing'
-  url: 06-secure-design/04-application-spoofing
-
-- title: '6.5 Content Security Policy (CSP)'
-  url: 06-secure-design/05-content-security-policy
-
-- title: '6.6 Exception and error handling'
-  url: 06-secure-design/06-exception-error-handling
-
-- title: '6.7 File management'
-  url: 06-secure-design/07-file-management
-
-- title: '6.8 Memory management'
-  url: 06-secure-design/08-memory-management
-
-- title: '7. Container security'
-  url: 07-container-security/toc
-
-- title: '7.1 Introduction'
-  url: 07-container-security/01-container-security
-
-- title: '7.2 Image security'
-  url: 07-container-security/02-image-security
-
-- title: '7.3 Container scanning'
-  url: 07-container-security/03-container-scanning
-
-- title: '8. Open-Source software'
-  url: 08-open-source-software/toc
-
-- title: '8.1 Introduction'
-  url: 08-open-source-software/01-open-source-software
-
-- title: '8.2 Static code analysis'
-  url: 08-open-source-software/02-sca
-
-- title: '8.3 Third Party Software (TPS) and libraries'
-  url: 08-open-source-software/03-tps
-
-- title: '9. Secure environment'
-  url: 09-secure-environment/toc
-
-- title: '9.1 Introduction'
-  url: 09-secure-environment/01-secure-environment
-
-- title: '9.2 System hardening'
-  url: 09-secure-environment/02-system-hardening
-
-- title: '9.3 File systems and downloads'
-  url: 09-secure-environment/03-files
-
-- title: '10. Security testing and validation'
-  url: 10-security-testing-validation/toc
+- title: '5.1 Documentation'
+  url: 07-implementation/02-documentation/toc
   
-- title: '10.1 Introduction'
-  url: 10-security-testing-validation/01-security-testing-validation
+- title: '5.2 Dependencies'
+  url: 07-implementation/02-dependencies/toc
   
-- title: '10.2 Static Application Security Testing (SAST)'
-  url: 10-security-testing-validation/02-sast
+- title: '5.3 Secure Libraries'
+  url: 07-implementation/03-secure-libraries/toc
+  
+- title: '5.4 Implementation Do's and Dont's'
+  url: 07-implementation/04-dos-donts/toc
+  
+- title: '5.4.1 Container security'
+  url: 07-implementation/04-dos-donts/container-security
+  
+- title: '5.4.2 Secure coding'
+  url: 07-implementation/04-dos-donts/secure-coding
+  
+- title: '5.4.3 Cryptographic practices'
+  url: 07-implementation/04-dos-donts/cryptographic-practices
+  
+- title: '5.4.4 Application spoofing'
+  url: 07-implementation/04-dos-donts/application-spoofing
+  
+- title: '5.4.5 Content Security Policy (CSP)'
+  url: 07-implementation/04-dos-donts/content-security-policy
+  
+- title: '5.4.6 Exception and error handling'
+  url: 07-implementation/04-dos-donts/exception-error-handling
+  
+- title: '5.4.7 File management'
+  url: 07-implementation/04-dos-donts/file-management
+  
+- title: '5.4.8 Memory management'
+  url: 07-implementation/04-dos-donts/memory-management  
 
-- title: '10.3 Dynamic Application Security Testing (DAST)'
-  url: 10-security-testing-validation/03-dast
+- title: '6. Verification'
+  url: 08-verification/toc
 
-- title: '14. Checklist'
+- title: '6.1 Guides'
+  url: 08-verification/01-guides/toc
+ 
+- title: '6.2 Tools'
+  url: 08-verification/02-tools/toc
+ 
+- title: '6.3 Frameworks'
+  url: 08-verification/03-frameworks/toc
+  
+- title: '6.4 Vulnerability management'
+  url: 08-verification/04-vulnerability-management/toc
+ 
+- title: '6.5 Do's and Dont's'
+  url: 08-verification/05-dos-donts/toc
+ 
+- title: '6.5.1 Secure environment'
+  url: 08-verification/05-dos-donts/secure-environment
+ 
+- title: '6.5.2 System hardening'
+  url: 08-verification/05-dos-donts/system-hardening
+ 
+- title: '6.5.3 Open Source software'
+  url: 08-verification/05-dos-donts/open-source-software  
+
+- title: '7. Training and Education'
+  url: 09-training-education/toc
+
+- title: '8. Culture building and Process maturing'
+  url: 10-culture-building-process-maturing/toc
+
+- title: '9. Operation'
+  url: 11-operation/toc
+
+- title: '10. Metrics'
+  url: 12-metrics/toc
+
+- title: '11. Policy gap evaluation'
+  url: 13-policy-gap-evaluation/01-guides/toc
+  
+- title: '11.1 Guides'
+  url: 13-policy-gap-evaluation/01-guides/toc
+
+- title: '12. Checklist'
   url: 14-checklist/toc
 
-- title: '14.1 Checklist: Define Security Requirements'
+- title: '12.1 Checklist: Define Security Requirements'
   url: 14-checklist/01-define-security-requirements
   
-- title: '14.2 Checklist: Leverage Security Frameworks and Libraries'
+- title: '12.2 Checklist: Leverage Security Frameworks and Libraries'
   url: 14-checklist/02-frameworks-libraries
   
-- title: '14.3 Checklist: Secure Database Access'
+- title: '12.3 Checklist: Secure Database Access'
   url: 14-checklist/03-secure-database-access
   
-- title: '14.4 Checklist: Encode and Escape Data'
+- title: '12.4 Checklist: Encode and Escape Data'
   url: 14-checklist/04-encode-escape-data
   
-- title: '14.5 Checklist: Validate All Inputs'
+- title: '12.5 Checklist: Validate All Inputs'
   url: 14-checklist/05-validate-inputs
   
-- title: '14.6 Checklist: Implement Digital Identity'
+- title: '12.6 Checklist: Implement Digital Identity'
   url: 14-checklist/06-digital-identity
   
-- title: '14.7 Checklist: Enforce Access Controls'
+- title: '12.7 Checklist: Enforce Access Controls'
   url: 14-checklist/07-access-controls
   
-- title: '14.8 Checklist: Protect Data Everywhere'
+- title: '12.8 Checklist: Protect Data Everywhere'
   url: 14-checklist/08-protect-data
   
-- title: '14.9 Checklist: Implement Security Logging and Monitoring'
+- title: '12.9 Checklist: Implement Security Logging and Monitoring'
   url: 14-checklist/09-security-logging-monitoring
   
-- title: '14.10 Checklist: Handle all Errors and Exceptions'
+- title: '12.10 Checklist: Handle all Errors and Exceptions'
   url: 14-checklist/10-handle-errors-exceptions
   

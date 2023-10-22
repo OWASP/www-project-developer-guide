@@ -1,6 +1,6 @@
 ---
 
-title: Proactive Controls Checklist overview
+title: Checklist and Proactive Controls
 layout: col-document
 tags: OWASP Developer Guide
 contributors:
@@ -11,7 +11,7 @@ order: 1400
 
 {% include breadcrumb.html %}
 
-## 14. Checklist
+## 12. Checklist
 
 Checklists are a valuable resource for development teams.
 They provide structure for establishing good practices and processes
@@ -28,16 +28,16 @@ and the initial ASVS checklist can then be expanded using the following checklis
 
 Sections:
 
-14.1 [Checklist: Define Security Requirements](01-define-security-requirements.md)  
-14.2 [Checklist: Leverage Security Frameworks and Libraries](02-frameworks-libraries.md)  
-14.3 [Checklist: Secure Database Access](03-secure-database-access.md)  
-14.4 [Checklist: Encode and Escape Data](04-encode-escape-data.md)  
-14.5 [Checklist: Validate All Inputs](05-validate-inputs.md)  
-14.6 [Checklist: Implement Digital Identity](06-digital-identity.md)  
-14.7 [Checklist: Enforce Access Controls](07-access-controls.md)  
-14.8 [Checklist: Protect Data Everywhere](08-protect-data.md)  
-14.9 [Checklist: Implement Security Logging and Monitoring](09-logging-monitoring.md)  
-14.10 [Checklist: Handle all Errors and Exceptions](10-handle-errors-exceptions.md)  
+12.1 [Checklist: Define Security Requirements](01-define-security-requirements.md)  
+12.2 [Checklist: Leverage Security Frameworks and Libraries](02-frameworks-libraries.md)  
+12.3 [Checklist: Secure Database Access](03-secure-database-access.md)  
+12.4 [Checklist: Encode and Escape Data](04-encode-escape-data.md)  
+12.5 [Checklist: Validate All Inputs](05-validate-inputs.md)  
+12.6 [Checklist: Implement Digital Identity](06-digital-identity.md)  
+12.7 [Checklist: Enforce Access Controls](07-access-controls.md)  
+12.8 [Checklist: Protect Data Everywhere](08-protect-data.md)  
+12.9 [Checklist: Implement Security Logging and Monitoring](09-logging-monitoring.md)  
+12.10 [Checklist: Handle all Errors and Exceptions](10-handle-errors-exceptions.md)  
 
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [proactive10]: https://owasp.org/www-project-proactive-controls/

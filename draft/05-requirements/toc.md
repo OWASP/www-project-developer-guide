@@ -11,7 +11,7 @@ order: 500
 
 {% include breadcrumb.html %}
 
-## 5. Requirements
+## 3. Requirements
 
 ![Developer Guide](../assets/images/dg_wip.png "OWASP Developer Guide"){: height="220px" }
 
@@ -20,6 +20,5 @@ The Introduction will contain more detail and the further sections will expand o
 
 Sections:
 
-5.1 [Introduction](01-security-requirements.md)  
-5.2 [Threat modeling](02-threat-modeling.md)  
-5.3 [Risk profile](03-risk-profile.md)  
+3.1 [Requirements in practice](01-requirements.md)  
+3.2 [Risk profile](02-risk.md)  
