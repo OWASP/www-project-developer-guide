@@ -96,10 +96,10 @@ Examples:
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0503] or a [pull request][pr] .
+then [submit an issue][issue0502] or a [pull request][pr] .
 
 [cvss]: https://www.first.org/cvss/
-[issue0503]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-security-requirements/03-risk-profile
+[issue0502]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-requirements/02-risk
 [nist]: https://csrc.nist.gov/publications/detail/sp/800-30/rev-1/final
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 [rra]: https://infosec.mozilla.org/guidelines/risk/rapid_risk_assessment.html

@@ -32,10 +32,14 @@ and so the content is expected to frequently change._
 3 **[Requirements](05-requirements/toc.md)**  
 3.1 [Requirements in practice](05-requirements/01-requirements.md)  
 3.2 [Risk profile](05-requirements/02-risk.md)  
+3.3 [Security Knowledge Framework](05-requirements/03-skf.md)  
+3.4 [Security RAT](05-requirements/04-security-rat.md)  
+3.5 [Application Security Verification Standard](05-requirements/05-asvs.md)  
+3.6 [Mobile Application Security](05-requirements/06-mas.md)  
 
 4 **[Design](06-design/toc.md)**  
 4.1 [Threat modeling](06-design/01-threat-modeling/toc.md)  
-4.1.1 [Threat modeling in practice](06-design/01-threat-modeling/01-threat-modeling.md)    
+4.1.1 [Threat modeling in practice](06-design/01-threat-modeling/01-threat-modeling.md)  
 4.1.2 [Pythonic Threat Modeling](06-design/01-threat-modeling/02-pytm.md)  
 4.1.3 [Threat Dragon](06-design/01-threat-modeling/03-threat-dragon.md)  
 4.1.4 [Threat Modeling and Cornucopia](06-design/01-threat-modeling/04-cornucopia.md)  

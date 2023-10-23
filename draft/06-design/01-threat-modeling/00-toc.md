@@ -17,7 +17,7 @@ order:
 
 Sections:
 
-4.1.1 [Threat modeling in practice](#threat-modeling-in-practice)    
+4.1.1 [Threat modeling in practice](#threat-modeling-in-practice)  
 4.1.2 [Pythonic Threat Modeling](#pythonic-threat-modeling)  
 4.1.3 [Threat Dragon](#threat-dragon)  
 4.1.4 [Threat Modeling and Cornucopia](#cornucopia)  
