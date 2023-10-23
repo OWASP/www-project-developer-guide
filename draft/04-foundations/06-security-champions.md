@@ -5,13 +5,13 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 405
+order: 406
 
 ---
 
 {% include breadcrumb.html %}
 
-### 4.6 Security champions
+### 2.6 Security champions
 
 A Security Champion program is a commonly used way of helping development teams successfully run a development lifecycle
 that is secure, and this is achieved by selecting members of teams to become Security Champions.

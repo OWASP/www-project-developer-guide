@@ -11,7 +11,7 @@ order: 405
 
 {% include breadcrumb.html %}
 
-### 4.5 OWASP Top Ten
+### 2.5 OWASP Top Ten
 
 The OWASP Top Ten is a very well known list of web application security risks,
 and is included by the OWASP Software Assurance Maturity Model [(SAMM)][samm]

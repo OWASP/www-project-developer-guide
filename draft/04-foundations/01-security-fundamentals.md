@@ -11,7 +11,7 @@ order: 401
 
 {% include breadcrumb.html %}
 
-### 4.1 Security fundamentals
+### 2.1 Security fundamentals
 
 The OWASP Software Assurance Maturity Model [(SAMM)][samm] is used throughout this Developer Guide
 to provide context for each section. Refer to the section below for a brief introduction to SAMM.
