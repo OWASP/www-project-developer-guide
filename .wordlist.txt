@@ -293,5 +293,8 @@ NoSQL
 misconfiguration
 SSRF
 Dont's
-
+MASTG
+MASVS
+SKF
 IAM
+Playbook

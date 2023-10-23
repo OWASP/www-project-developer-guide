@@ -67,6 +67,10 @@ permalink: /draft/
 7 **[Training and Education](#training-and-education)**  
 
 8 **[Culture building and Process maturing](#culture-building-and-process-maturing)**  
+8.1 [Security Champions Playbook](#security-champions-playbook)  
+8.2 [Software Assurance Maturity Model](#software-assurance-maturity-model)  
+8.3 [Application Security Verification Standard](#application-security-verification-standard)  
+8.4 [Mobile Application Security](#mobile-application-security)  
 
 9 **[Operation](#operation)**  
 

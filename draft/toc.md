@@ -72,6 +72,10 @@ and so the content is expected to frequently change._
 7 **[Training and Education](09-training-education/toc.md)**  
 
 8 **[Culture building and Process maturing](10-culture-building-process-maturing/toc.md)**  
+8.1 [Security Champions Playbook](10-culture-building-process-maturing/01-security-champions-playbook.md)  
+8.2 [Software Assurance Maturity Model](10-culture-building-process-maturing/02-samm.md)  
+8.3 [Application Security Verification Standard](10-culture-building-process-maturing/03-asvs.md)  
+8.4 [Mobile Application Security](10-culture-building-process-maturing/04-mas.md)  
 
 9 **[Operation](11-operation/toc.md)**  
 
