@@ -31,6 +31,10 @@ permalink: /draft/
 4 **[Design](#design)**  
 4.1 [Threat modeling](#threat-modeling)  
 4.1.1 [Threat modeling in practice](#threat-modeling-in-practice)  
+4.1.2 [Pythonic Threat Modeling](#pythonic-threat-modeling)  
+4.1.3 [Threat Dragon](#threat-dragon)  
+4.1.4 [Threat Modeling and Cornucopia](#cornucopia)  
+4.1.5 [Threat Modeling toolkit](#threat-modeling-toolkit)  
 
 5 **[Implementation](#implementation)**  
 5.1 [Documentation](#documentation)  

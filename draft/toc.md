@@ -35,7 +35,11 @@ and so the content is expected to frequently change._
 
 4 **[Design](06-design/toc.md)**  
 4.1 [Threat modeling](06-design/01-threat-modeling/toc.md)  
-4.1.1 [Threat modeling in practice](06-design/01-threat-modeling/01-threat-modeling.md)  
+4.1.1 [Threat modeling in practice](06-design/01-threat-modeling/01-threat-modeling.md)    
+4.1.2 [Pythonic Threat Modeling](06-design/01-threat-modeling/02-pytm.md)  
+4.1.3 [Threat Dragon](06-design/01-threat-modeling/03-threat-dragon.md)  
+4.1.4 [Threat Modeling and Cornucopia](06-design/01-threat-modeling/04-cornucopia.md)  
+4.1.5 [Threat Modeling toolkit](06-design/01-threat-modeling/05-toolkit.md)  
 
 5 **[Implementation](07-implementation/toc.md)**  
 5.1 [Documentation](07-implementation/01-documentation/toc.md)  
