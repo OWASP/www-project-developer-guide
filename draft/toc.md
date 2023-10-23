@@ -83,6 +83,9 @@ and so the content is expected to frequently change._
 
 11 **[Policy gap evaluation](13-policy-gap-evaluation/01-guides/toc.md)**  
 11.1 [Guides](13-policy-gap-evaluation/01-guides/toc.md)  
+11.1.1 [Software Assurance Maturity Model](13-policy-gap-evaluation/01-guides/01-samm.md)  
+11.1.2 [Application Security Verification Standard](13-policy-gap-evaluation/01-guides/02-asvs.md)  
+11.1.3 [Mobile Application Security](13-policy-gap-evaluation/01-guides/03-mas.md)  
 
 14 **[Checklist](14-checklist/toc.md)**  
 14.1 [Checklist: Define Security Requirements](14-checklist/01-define-security-requirements.md)  

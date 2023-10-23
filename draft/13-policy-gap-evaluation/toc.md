@@ -13,11 +13,22 @@ order: 1300
 
 ## 11. Policy gap evaluation
 
-![Developer Guide](../assets/images/dg_wip.png "OWASP Developer Guide"){: height="220px" }
-
-**To do**: This should be a brief overview / abstract of the section on 'Policy gap evaluation'.
-The Introduction will contain more detail and the further sections will expand on that.
+**To do**: This should be a brief overview / abstract of the section on 'Policy gap evaluation'
 
 Sections:
 
 11.1 [Guides](01-guides/toc.md)  
+11.1.1 [Software Assurance Maturity Model](01-guides/01-samm.md)  
+11.1.2 [Application Security Verification Standard]01-guides/(02-asvs.md)  
+11.1.3 [Mobile Application Security](01-guides/03-mas.md)  
+
+----
+
+![Developer Guide](../assets/images/dg_wip.png "OWASP Developer Guide"){: height="220px" }
+
+The OWASP Developer Guide is a community effort and this page needs some content to be added.
+If you have suggestions then [submit an issue][issue1300] and the project team can assign it to you,
+or submit a [pull request][pr] with some content.
+
+[issue1300]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2013-policy-gap-evaluation
+[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
