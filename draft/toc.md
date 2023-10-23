@@ -56,7 +56,7 @@ and so the content is expected to frequently change._
 6.2 [Tools](08-verification/02-tools/toc.md)  
 6.3 [Frameworks](08-verification/03-frameworks/toc.md)  
 6.4 [Vulnerability management](08-verification/04-vulnerability-management/toc.md)  
-6.5 [Do's and Dont's](08-verification/05-dos-donts/toc.md)  
+6.5 [Verification Do's and Dont's](08-verification/05-dos-donts/toc.md)  
 6.5.1 [Secure environment](08-verification/05-dos-donts/01-secure-environment.md)  
 6.5.2 [System hardening](08-verification/05-dos-donts/02-system-hardening.md)  
 6.5.3 [Open Source software](08-verification/05-dos-donts/03-open-source-software.md)  

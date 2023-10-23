@@ -14,7 +14,7 @@ permalink: /draft/
 
 ## Table of contents
 
-1 **[Introduction](#introduction)**
+1 **[Introduction](#introduction)**  
 
 2 **[Foundations](#foundations)**  
 2.1 [Security fundamentals](#security-fundamentals)  
@@ -28,11 +28,11 @@ permalink: /draft/
 3.1 [Requirements in practice](#requirements-in-practice)  
 3.2 [Risk profile](#risk-profile)  
 
-4 **[Design](#design)**
+4 **[Design](#design)**  
 4.1 [Threat modeling](#threat-modeling)  
 4.1.1 [Threat modeling in practice](#threat-modeling-in-practice)  
 
-5 **[Implementation](#implementation)**
+5 **[Implementation](#implementation)**  
 5.1 [Documentation](#documentation)  
 5.2 [Dependencies](#dependencies)
 5.3 [Secure Libraries](#secure-libraries)  
@@ -46,12 +46,12 @@ permalink: /draft/
 5.4.7 [File management](#file-management)  
 5.4.8 [Memory management](#memory-management)  
 
-6 **[Verification](#verification)**
+6 **[Verification](#verification)**  
 6.1 [Guides](#verification-guides)  
 6.2 [Tools](#verification-tools)  
 6.3 [Frameworks](#verification-frameworks)  
 6.4 [Vulnerability management](#verification-vulnerability-management)  
-6.5 [Do's and Dont's](#verification-dos-and-donts)
+6.5 [Verification Do's and Dont's](#verification-dos-and-donts)  
 6.5.1 [Secure environment](#secure-environment)  
 6.5.2 [System hardening](#system-hardening)  
 6.5.3 [Open Source software](#open-source-software)  
