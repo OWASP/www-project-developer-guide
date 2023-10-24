@@ -65,6 +65,14 @@ permalink: /draft/
 6.5.3 [Open Source software](#open-source-software)  
 
 7 **[Training and Education](#training-and-education)**  
+7.1 [Juice Shop](#juice-shop)  
+7.2 [WebGoat](#webgoat)  
+7.3 [PyGoat](#pygoat)  
+7.4 [OWASP Top 10](#owasp-top-10)  
+7.5 [Mobile Top 10](#mobile-top-10)  
+7.6 [API Top 10](#api-top-10)  
+7.7 [Security Shepherd](#security-shepherd)  
+7.8 [OWASP Snakes and Ladders](#owasp-snakes-and-ladders)  
 
 8 **[Culture building and Process maturing](#culture-building-and-process-maturing)**  
 8.1 [Security Champions Playbook](#security-champions-playbook)  

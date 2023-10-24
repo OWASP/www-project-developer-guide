@@ -26,7 +26,7 @@ Sections:
 
 ----
 
-![Developer Guide](../assets/images/dg_wip.png "OWASP Developer Guide"){: height="220px" }
+![Developer Guide](../assets/images/dg_wip.png "OWASP Developer Guide"){: height="150px" }
 
 The OWASP Developer Guide is a community effort and this page needs some content to be added.
 If you have suggestions then [submit an issue][issue0500] and the project team can assign it to you,

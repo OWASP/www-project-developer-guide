@@ -136,6 +136,30 @@ docs:
 - title: '7. Training and Education'
   url: 09-training-education/toc
 
+- title: '7.1 Juice Shop'
+  url: 09-training-education/01-juice-shop
+
+- title: '7.2 WebGoat'
+  url: 09-training-education/02-webgoat
+
+- title: '7.3 PyGoat'
+  url: 09-training-education/03-pygoat
+
+- title: '7.4 OWASP Top 10'
+  url: 09-training-education/04-top10
+
+- title: '7.5 Mobile Top 10'
+  url: 09-training-education/05-mobile-top10
+
+- title: '7.6 API Top 10'
+  url: 09-training-education/06-api-top10
+
+- title: '7.7 Security Shepherd'
+  url: 09-training-education/07-security-shepherd
+
+- title: '7.8 OWASP Snakes and Ladders'
+  url: 09-training-education/08-snakes-ladders
+
 - title: '8. Culture building and Process maturing'
   url: 10-culture-building-process-maturing/toc
 

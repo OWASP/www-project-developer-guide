@@ -298,3 +298,7 @@ MASVS
 SKF
 IAM
 Playbook
+PyGoat
+WebGoat
+CRS
+ModSecurity

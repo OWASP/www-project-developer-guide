@@ -13,7 +13,7 @@ order:
 
 ## 10. Metrics
 
-At present the OWASP [Integration Standards project Application Wayfinder][wayfinder] project 
+At present the OWASP [Integration Standards project Application Wayfinder][wayfinder] project
 does not identify any OWASP projects that gather or process metrics, but this may change in the future.
 
 ----

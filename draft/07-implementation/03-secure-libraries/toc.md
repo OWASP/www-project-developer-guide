@@ -13,7 +13,7 @@ order: 730
 
 ## 5.3 Secure libraries
 
-![Developer Guide](../../assets/images/dg_wip.png "OWASP Developer Guide"){: height="220px" }
+![Developer Guide](../../assets/images/dg_wip.png "OWASP Developer Guide"){: height="150px" }
 
 **To do**: This should be a brief overview / abstract of the section on 'Implementation secure libraries''.
 The Introduction will contain more detail and the further sections will expand on that.

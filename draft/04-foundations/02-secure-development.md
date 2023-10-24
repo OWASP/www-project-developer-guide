@@ -15,7 +15,7 @@ order: 402
 
 Secure development is described in the OWASP Software Assurance Maturity Model [(SAMM)][samm]
 by the Design, Implementation and Verification business functions.
-Much of the material in this section is drawn from the OWASP [Integration Standards project][ois].
+Much of the material in this section is drawn from the OWASP [Integration Standards project][wayfinder].
 
 #### Overview
 
@@ -195,7 +195,6 @@ then [submit an issue][issue0402] or a [pull request][pr] .
 [mas]: https://mas.owasp.org/
 [mobile10]: https://owasp.org/www-project-mobile-top-10/
 [net]: https://owasp.org/www-project-nettacker/
-[wayfinder]: https://owasp.org/www-project-integration-standards/
 [owtf]: https://owasp.org/www-project-owtf/
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 [proactive10]: https://owasp.org/www-project-proactive-controls/
@@ -207,6 +206,7 @@ then [submit an issue][issue0402] or a [pull request][pr] .
 [srat]: https://owasp.org/www-project-securityrat/
 [td]: https://owasp.org/www-project-threat-dragon/
 [top10]: https://owasp.org/www-project-top-ten/
+[wayfinder]: https://owasp.org/www-project-integration-standards/
 [wstg]: https://owasp.org/www-project-web-security-testing-guide/
 [zap]: https://www.zaproxy.org/
 

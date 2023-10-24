@@ -18,7 +18,8 @@ and where to download or buy it.
 
 #### What is pytm?
 
-To Do: go into more detail about Cornucopia so that a developer can gain an overview of what it is.
+To Do: go into more detail about Cornucopia so that a developer can gain an overview of what it is,
+and its use during threat modeling.
 
 #### Why use it?
 
