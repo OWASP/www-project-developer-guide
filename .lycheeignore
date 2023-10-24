@@ -6,3 +6,6 @@ myfriend.site.com/
 # Lockheed Martin has trouble with SSL certificates, temporarily ignore
 https://www.lockheedmartin.com
 
+# github gets upset if too many requests are made to creat new issues
+https://github.com/OWASP/www-project-developer-guide/issues/new
+
