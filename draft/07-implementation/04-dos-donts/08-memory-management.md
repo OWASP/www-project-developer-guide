@@ -1,6 +1,6 @@
 ---
 
-title: Do's and Dont's Memory Management
+title: Do's and Don'ts Memory Management
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Shruti Kulkarni

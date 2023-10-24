@@ -79,7 +79,7 @@ docs:
 - title: '5.3 Secure Libraries'
   url: 07-implementation/03-secure-libraries/toc
 
-- title: '5.4 Implementation Do''s and Dont''s'
+- title: '5.4 Implementation Do''s and Don''ts'
   url: 07-implementation/04-dos-donts/toc
 
 - title: '5.4.1 Container security'
@@ -121,7 +121,7 @@ docs:
 - title: '6.4 Vulnerability management'
   url: 08-verification/04-vulnerability-management/toc
 
-- title: '6.5 Verification Do''s and Dont''s'
+- title: '6.5 Verification Do''s and Don''ts'
   url: 08-verification/05-dos-donts/toc
 
 - title: '6.5.1 Secure environment'

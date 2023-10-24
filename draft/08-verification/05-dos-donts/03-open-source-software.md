@@ -1,6 +1,6 @@
 ---
 
-title: Do's and Dont's Open Source Software
+title: Do's and Don'ts Open Source Software
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
@@ -14,7 +14,7 @@ order: 853
 ### 6.5.3 Open Source software
 
 Here is a collection of Do's and Don'ts when it comes to Open Source software, gathered from practical experiences.
-Some of these are language specific and others have more general applicability. 
+Some of these are language specific and others have more general applicability.
 
 * Static Code Analysis (for licensing and dependencies)
   * Consuming open source software has a heavy dependency on the license

@@ -1,6 +1,6 @@
 ---
 
-title: Do's and Dont's Secure Environment
+title: Do's and Don'ts Secure Environment
 layout: col-document
 tags: OWASP Developer Guide
 contributors:Shruti Kulkarni

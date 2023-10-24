@@ -1,6 +1,6 @@
 ---
 
-title: Implementation Do's and Dont's
+title: Implementation Do's and Don'ts
 layout: col-document
 tags: OWASP Developer Guide
 contributors:
@@ -11,11 +11,11 @@ order:
 
 {% include breadcrumb.html %}
 
-## 5.4 Implementation Do's and Dont's
+## 5.4 Implementation Do's and Don'ts
 
 ![Developer Guide](../../assets/images/dg_wip.png){ height=120px }
 
-**To do**: this should be a brief overview / abstract of the section on 'Implementation Do's and Dont's'.
+**To do**: this should be a brief overview / abstract of the section on 'Implementation Do's and Don'ts'.
 The Introduction contains more detail and the further sections expand on that
 
 Sections:

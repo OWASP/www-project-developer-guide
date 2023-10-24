@@ -24,7 +24,7 @@ Sections:
 6.2 [Tools](#verification-tools)  
 6.3 [Frameworks](#verification-frameworks)  
 6.4 [Vulnerability management](#verification-vulnerability-management)  
-6.5 [Do's and Dont's](#verification-dos-and-donts)
+6.5 [Do's and Don'ts](#verification-dos-and-donts)
 6.5.1 [Secure environment](#secure-environment)  
 6.5.2 [System hardening](#system-hardening)  
 6.5.3 [Open Source software](#open-source-software)  

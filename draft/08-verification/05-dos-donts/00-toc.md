@@ -1,6 +1,6 @@
 ---
 
-title: Verification Do's and Dont's
+title: Verification Do's and Don'ts
 layout: col-document
 tags: OWASP Developer Guide
 contributors:
@@ -11,11 +11,11 @@ order:
 
 {% include breadcrumb.html %}
 
-## 6.5 Verification Do's and Dont's
+## 6.5 Verification Do's and Don'ts
 
 ![Developer Guide](../../assets/images/dg_wip.png){ height=120px }
 
-**To do**: this should be a brief overview / abstract of the section on "Verification Do's and Dont's".
+**To do**: this should be a brief overview / abstract of the section on "Verification Do's and Don'ts".
 The Introduction will contain more detail and the further sections will expand on that.
 
 Sections:

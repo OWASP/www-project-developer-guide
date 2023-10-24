@@ -23,7 +23,7 @@ Sections:
 5.1 [Documentation](#documentation)  
 5.2 [Dependencies](#dependencies)
 5.3 [Secure Libraries](#secure-libraries)  
-5.4 [Implementation Do's and Dont's](#implementation-dos-and-donts)  
+5.4 [Implementation Do's and Don'ts](#implementation-dos-and-donts)  
 5.4.1 [Container security](#container-security)  
 5.4.2 [Secure coding](#secure-coding)  
 5.4.3 [Cryptographic practices](#cryptographic-practices)  

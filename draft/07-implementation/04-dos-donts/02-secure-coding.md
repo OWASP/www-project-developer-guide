@@ -1,6 +1,6 @@
 ---
 
-title: Do's and Dont's Secure Coding
+title: Do's and Don'ts Secure Coding
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Shruti Kulkarni

@@ -23,7 +23,7 @@ Sections:
 5.1 [Documentation](01-documentation/toc.md)  
 5.2 [Dependencies](02-dependencies/toc.md)  
 5.3 [Secure Libraries](03-secure-libraries/toc.md)  
-5.4 [Implementation Do's and Dont's](04-dos-donts/toc.md)  
+5.4 [Implementation Do's and Don'ts](04-dos-donts/toc.md)  
 5.4.1 [Container security](04-dos-donts/01-container-security.md)  
 5.4.2 [Secure coding](04-dos-donts/02-secure-coding.md)  
 5.4.3 [Cryptographic practices](04-dos-donts/03-cryptographic-practices.md)  

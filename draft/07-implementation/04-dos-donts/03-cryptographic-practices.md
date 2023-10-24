@@ -1,6 +1,6 @@
 ---
 
-title: Do's and Dont's Cryptographic Practices
+title: Do's and Don'ts Cryptographic Practices
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
