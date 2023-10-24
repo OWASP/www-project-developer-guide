@@ -1,17 +1,20 @@
 ---
 
-title: Open Source Software
+title: Do's and Dont's Open Source Software
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
 document: OWASP Developer Guide
-order: 801
+order: 853
 
 ---
 
 {% include breadcrumb.html %}
 
 ### 6.5.3 Open Source software
+
+Here is a collection of Do's and Don'ts when it comes to Open Source software, gathered from practical experiences.
+Some of these are language specific and others have more general applicability. 
 
 * Static Code Analysis (for licensing and dependencies)
   * Consuming open source software has a heavy dependency on the license
@@ -107,9 +110,9 @@ We realise it could be challenging, but if feasible, maintain a list of approved
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0801] or a [pull request][pr] .
+then [submit an issue][issue080503] or a [pull request][pr] .
 
-[issue0801]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2008-open-source-software/01-open-source-software
+[issue080503]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2008-verification/05-dos-donts/03-open-source-software
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 
 \newpage

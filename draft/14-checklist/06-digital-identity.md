@@ -17,8 +17,8 @@ Authentication is the process of verifying that an individual or entity is who t
 Session management is a process by which a server maintains the state of the users authentication
 so that the user may continue to use the system without re-authenticating.
 
-Refer to proactive control '[C6: Implement Digital Identity][control6]'
-for more context from the 'OWASP Top 10 Proactive Controls' project,
+Refer to proactive control [C6: Implement Digital Identity][control6]
+for more context from the OWASP Top 10 Proactive Controls project,
 and use the checklists below as suggestions for the checklist that has been tailored for the individual project.
 
 #### Authentication

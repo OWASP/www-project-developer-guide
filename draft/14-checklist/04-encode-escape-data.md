@@ -20,8 +20,8 @@ The target system may be another software component or it may be reflected back 
 such as operating system commands,
 so encoding and escaping output data helps to provide defense in depth for the system as a whole.
 
-Refer to proactive control '[C4: Encode and Escape Data][control4]'
-for more context from the 'OWASP Top 10 Proactive Controls' project,
+Refer to proactive control [C4: Encode and Escape Data][control4]
+for more context from the OWASP Top 10 Proactive Controls project,
 and use the checklists below as suggestions for the checklist that has been tailored for the individual project.
 
 #### Character encoding and canonicalization

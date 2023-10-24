@@ -17,8 +17,8 @@ Sensitive data such as passwords, credit card numbers, health records, personal 
 require extra protection, particularly if that data falls under privacy laws (EU General Data Protection Regulation GDPR),
 financial data protection rules such as PCI Data Security Standard (PCI DSS) or other regulations.
 
-Refer to proactive control '[C8: Protect Data Everywhere][control8]'
-for more context from the 'OWASP Top 10 Proactive Controls' project,
+Refer to proactive control [C8: Protect Data Everywhere][control8]
+for more context from the OWASP Top 10 Proactive Controls project,
 and use the checklists below as suggestions for the checklist that has been tailored for the individual project.
 
 #### Data protection

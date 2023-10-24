@@ -1,11 +1,11 @@
 ---
 
-title: Implementation Do's and Dont's Application Spoofing
+title: Do's and Dont's Application Spoofing
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
 document: OWASP Developer Guide
-order: 604
+order: 744
 
 ---
 
@@ -13,7 +13,8 @@ order: 604
 
 ### 5.4.4 Application Spoofing
 
-#### Application spoofing
+Here is a collection of Do's and Don'ts when it comes to application spoofing, gathered from practical experiences.
+Some of these are language specific and others have more general applicability.
 
 What is application spoofing:
 
@@ -75,9 +76,9 @@ How can it be addressed:
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0604] or a [pull request][pr] .
+then [submit an issue][issue070404] or a [pull request][pr] .
 
-[issue0604]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-secure-design/04-application-spoofing
+[issue070404]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/04-dos-donts/04-application-spoofing
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 [urdp]: https://www.icann.org/resources/pages/help/dndr/udrp-en
 

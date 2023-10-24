@@ -19,8 +19,8 @@ may enter a software application or system component.
 It is vital that input validation is performed to provide the starting point for a secure application or system.
 Without input validation the software application/system will continue to be vulnerable to new and varied attacks.
 
-Refer to proactive control '[C5: Validate All Inputs][control5]'
-for more context from the 'OWASP Top 10 Proactive Controls' project,
+Refer to proactive control [C5: Validate All Inputs][control5]
+for more context from the OWASP Top 10 Proactive Controls project,
 and use the checklists below as suggestions for the checklist that has been tailored for the individual project.
 
 #### Syntax and semantic validity

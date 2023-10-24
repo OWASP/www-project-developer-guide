@@ -1,17 +1,20 @@
 ---
 
-title: Implementation Do's and Dont's Content Security Policy
+title: Do's and Dont's Content Security Policy
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
 document: OWASP Developer Guide
-order: 605
+order: 745
 
 ---
 
 {% include breadcrumb.html %}
 
 ### 5.4.5 Content Security Policy
+
+Here is a collection of Do's and Don'ts when it comes to Content Security Policy, gathered from practical experiences.
+Some of these are language specific and others have more general applicability.
 
 Content Security Policy (CSP) helps in allow-listing the sources that are allowed to be executed by clients.
 
@@ -151,9 +154,9 @@ Setting rules for Android application:
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0605] or a [pull request][pr] .
+then [submit an issue][issue070405] or a [pull request][pr] .
 
-[issue0605]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-secure-design/05-content-security-policy
+[issue070405]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/04-dos-donts/05-content-security-policy
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 
 \newpage

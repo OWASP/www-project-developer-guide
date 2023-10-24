@@ -1,17 +1,19 @@
 ---
 
-title: Implementation Do's and Dont's Cryptographic Practices
+title: Do's and Dont's Cryptographic Practices
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
 document: OWASP Developer Guide
-order: 603
+order: 743
 
 ---
 
 {% include breadcrumb.html %}
 
 ### 5.4.3 Cryptographic practices
+
+Here is a collection of Do's and Don'ts when it comes to cryptographic practices, gathered from practical experiences.
 
 * The basis for usage of PKI is to address (using encryption and hashing)
 * Confidentiality
@@ -65,9 +67,9 @@ order: 603
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0603] or a [pull request][pr] .
+then [submit an issue][issue070403] or a [pull request][pr] .
 
-[issue0603]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-secure-design/03-cryptographic-practices
+[issue070403]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/04-dos-donts/03-cryptographic-practices
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 
 \newpage

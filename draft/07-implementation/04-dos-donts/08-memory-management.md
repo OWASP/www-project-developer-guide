@@ -1,17 +1,19 @@
 ---
 
-title: Implementation Do's and Dont's Memory Management
+title: Do's and Dont's Memory Management
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
 document: OWASP Developer Guide
-order: 608
+order: 748
 
 ---
 
 {% include breadcrumb.html %}
 
 ### 5.4.8 Memory Management
+
+Here is a collection of Do's and Don'ts when it comes to memory management, gathered from practical experiences.
 
 * Check that the buffer is as large as specified
 
@@ -31,9 +33,9 @@ order: 608
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0608] or a [pull request][pr] .
+then [submit an issue][issue070408] or a [pull request][pr] .
 
-[issue0608]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-secure-design/08-memory-management
+[issue070408]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/04-dos-donts/08-memory-management
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 
 \newpage

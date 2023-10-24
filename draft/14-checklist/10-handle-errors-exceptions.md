@@ -17,8 +17,8 @@ Handling exceptions and errors correctly is critical to making your code reliabl
 Error and exception handling occurs in all areas of an application including critical business logic
 as well as security features and framework code.
 
-Refer to proactive control '[C10: Handle all Errors and Exceptions][control10]'
-for more context from the 'OWASP Top 10 Proactive Controls' project,
+Refer to proactive control [C10: Handle all Errors and Exceptions][control10]
+for more context from the OWASP Top 10 Proactive Controls project,
 and use the checklist below as suggestions for the checklist that has been tailored for the individual project.
 
 #### Errors and exceptions

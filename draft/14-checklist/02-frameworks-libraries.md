@@ -16,8 +16,8 @@ order: 1402
 Secure coding libraries and software frameworks with embedded security help software developers guard against
 security-related design and implementation flaws.
 
-Refer to proactive control '[C2: Leverage Security Frameworks and Libraries][control2]'
-for more context from the 'OWASP Top 10 Proactive Controls' project,
+Refer to proactive control [C2: Leverage Security Frameworks and Libraries][control2]
+for more context from the OWASP Top 10 Proactive Controls project,
 and use the checklist below as suggestions for the checklist that has been tailored for the individual project.
 
 #### Security Frameworks and Libraries
