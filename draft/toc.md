@@ -78,6 +78,7 @@ and so the content is expected to frequently change._
 8.4 [Mobile Application Security](10-culture-building-process-maturing/04-mas.md)  
 
 9 **[Operation](11-operation/toc.md)**  
+9.1 [ModSecurity Core Rule Set](11-operation/01-modsecurity-crs.md)  
 
 10 **[Metrics](12-metrics/toc.md)**  
 

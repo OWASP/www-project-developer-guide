@@ -13,13 +13,13 @@ order: 1300
 
 ## 11. Policy gap evaluation
 
-**To do**: This should be a brief overview / abstract of the section on 'Policy gap evaluation'
+**To do**: This should be a brief overview / abstract of the section on policy gap evaluation
 
 Sections:
 
 11.1 [Guides](01-guides/toc.md)  
 11.1.1 [Software Assurance Maturity Model](01-guides/01-samm.md)  
-11.1.2 [Application Security Verification Standard]01-guides/(02-asvs.md)  
+11.1.2 [Application Security Verification Standard](01-guides/02-asvs.md)  
 11.1.3 [Mobile Application Security](01-guides/03-mas.md)  
 
 ----

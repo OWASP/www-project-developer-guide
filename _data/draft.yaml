@@ -154,6 +154,9 @@ docs:
 - title: '9. Operation'
   url: 11-operation/toc
 
+- title: '9.1 ModSecurity Core Rule Set'
+  url: 11-operation/01-modsecurity-crs
+
 - title: '10. Metrics'
   url: 12-metrics/toc
 

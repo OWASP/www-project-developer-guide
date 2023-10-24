@@ -46,7 +46,7 @@ and implementing supply chain security, and there are many other security activi
 
 #### Secure development lifecycle
 
-Referring to the OWASP [Application Wayfinder][ois] development cycle
+Referring to the OWASP [Application Wayfinder][wayfinder] development cycle
 there are four phases during application development: Requirements, Design, Implementation and Verification.
 There are other phases that are done less often in the development cycle and these form an equally important
 part of the SDLC: Gap Analysis, Metrics, Operation and Training & Culture Building.
@@ -160,11 +160,11 @@ There are many OWASP tools and resources to help build security into the SDLC.
 * [Dependency-Check Software Composition Analysis (SCA)][depcheck]
 * [Dependency-Track Continuous SBOM Analysis Platform][deptrack]
 * [Enterprise Security API (ESAPI)][esapi]
-* [Integration Standards project Application Wayfinder][ois]
+* [Integration Standards project Application Wayfinder][wayfinder]
 * [Mobile Application Security (MAS)][mas]
 * [Pythonic Threat Modeling][pytm]
 * [Threat Dragon][td]
-* [SecurityRAT (Security Requirement Automation Tool)][srat]
+* [Security RAT (Security Requirement Automation Tool)][srat]
 
 <script type="text/javascript" src="https://app.diagrams.net/js/viewer-static.min.js"></script>
 
@@ -195,7 +195,7 @@ then [submit an issue][issue0402] or a [pull request][pr] .
 [mas]: https://mas.owasp.org/
 [mobile10]: https://owasp.org/www-project-mobile-top-10/
 [net]: https://owasp.org/www-project-nettacker/
-[ois]: https://owasp.org/www-project-integration-standards/
+[wayfinder]: https://owasp.org/www-project-integration-standards/
 [owtf]: https://owasp.org/www-project-owtf/
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 [proactive10]: https://owasp.org/www-project-proactive-controls/

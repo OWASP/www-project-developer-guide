@@ -13,9 +13,19 @@ order: 1100
 
 ## 9. Operation
 
-![Developer Guide](../assets/images/dg_wip.png "OWASP Developer Guide"){: height="220px" }
-
-**To do**: This should be a brief overview / abstract of the section on 'Operation'.
-The Introduction will contain more detail and the further sections will expand on that.
+**To do**: This should be a brief overview / abstract of the section on security for operations technology
 
 Sections:
+
+9.1 [ModSecurity Core Rule Set](01-modsecurity-crs.md)  
+
+----
+
+![Developer Guide](../assets/images/dg_wip.png "OWASP Developer Guide"){: height="220px" }
+
+The OWASP Developer Guide is a community effort and this page needs some content to be added.
+If you have suggestions then [submit an issue][issue1100] and the project team can assign it to you,
+or submit a [pull request][pr] with some content.
+
+[issue1100]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2011-operation
+[pr]: https://github.com/OWASP/www-project-developer-guide/pulls

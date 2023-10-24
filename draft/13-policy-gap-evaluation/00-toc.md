@@ -13,7 +13,7 @@ order:
 
 ## 11. Policy gap evaluation
 
-**To do**: this should be a brief overview / abstract of the section on 'Policy gap evaluation'
+**To do**: this should be a brief overview / abstract of the section on policy gap evaluation
 
 Sections:
 
