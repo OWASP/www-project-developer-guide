@@ -56,7 +56,7 @@ and use the checklists below as suggestions for the checklist that has been tail
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue1403] or a [pull request][pr].
 
-[control3]: https://owasp.org/www-project-proactive-controls/v3/en/c3-secure-database.html
+[control3]: https://owasp.org/www-project-proactive-controls/v3/en/c3-secure-database
 [dbsec]: https://cheatsheetseries.owasp.org/cheatsheets/Database_Security_Cheat_Sheet.html
 [issue1403]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2014-checklist/03-secure-database-access
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls

@@ -53,7 +53,7 @@ The specific methods vary depending on the way the output data is used, such as 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue1404] or a [pull request][pr].
 
-[control4]: https://owasp.org/www-project-proactive-controls/v3/en/c4-encode-escape-data.html
+[control4]: https://owasp.org/www-project-proactive-controls/v3/en/c4-encode-escape-data
 [encoder]: https://www.owasp.org/index.php/OWASP_Java_Encoder_Project
 [ipcs]: https://cheatsheetseries.owasp.org/cheatsheets/Injection_Prevention_Cheat_Sheet.html
 [issue1404]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2014-checklist/04-encode-escape-data

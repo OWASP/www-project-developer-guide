@@ -48,7 +48,7 @@ and use the checklist below as suggestions for the checklist that has been tailo
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue1410] or a [pull request][pr].
 
-[control10]: https://owasp.org/www-project-proactive-controls/v3/en/c10-errors-exceptions.html
+[control10]: https://owasp.org/www-project-proactive-controls/v3/en/c10-errors-exceptions
 [handle]: https://owasp.org/www-community/Improper_Error_Handling
 [issue1410]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2014-checklist/10-handle-errors-exceptions
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls

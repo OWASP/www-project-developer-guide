@@ -46,7 +46,7 @@ and use the checklist below as suggestions for the checklist that has been tailo
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue1402] or a [pull request][pr].
 
-[control2]: https://owasp.org/www-project-proactive-controls/v3/en/c2-leverage-security-frameworks-libraries.html
+[control2]: https://owasp.org/www-project-proactive-controls/v3/en/c2-leverage-security-frameworks-libraries
 [dependency]: https://owasp.org/www-project-dependency-check/
 [issue1402]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2014-checklist/02-frameworks-libraries
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls

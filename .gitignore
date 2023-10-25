@@ -44,6 +44,8 @@
 
 # pages markdown
 !*.md
+!assets/
+!assets/images/
 !assets/images/*.png
 !license.txt
 

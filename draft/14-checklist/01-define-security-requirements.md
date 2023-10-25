@@ -73,7 +73,7 @@ The OWASP Developer Guide is a community effort; if there is something that need
 then [submit an issue][issue1401] or a [pull request][pr].
 
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
-[control1]: https://owasp.org/www-project-proactive-controls/v3/en/c1-security-requirements.html
+[control1]: https://owasp.org/www-project-proactive-controls/v3/en/c1-security-requirements
 [issue1401]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2014-checklist/01-define-security-requirements
 [mas]: https://mas.owasp.org/
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls

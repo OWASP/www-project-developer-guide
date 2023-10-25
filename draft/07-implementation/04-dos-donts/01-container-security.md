@@ -134,9 +134,9 @@ Container image security, host security, client security, daemon security, runti
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue070402] or a [pull request][pr] .
+then [submit an issue][issue070401] or a [pull request][pr] .
 
-[issue070402]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/04-dos-donts/01-container-security
+[issue070401]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/04-dos-donts/01-container-security
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 [docker]: https://docs.docker.com/get-started/09_image_best/
 
