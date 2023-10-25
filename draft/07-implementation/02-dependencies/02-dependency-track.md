@@ -20,7 +20,7 @@ including its status as an OWASP project and where to find it.
 #### What is Dependency-Track?
 
 To Do: go into more detail about the Dependency-Track tool so that a developer
-can gain an overview of what this documentation project can provide for them.
+can gain an overview of what this tool can provide for them.
 
 #### Why use it?
 

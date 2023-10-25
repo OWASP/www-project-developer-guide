@@ -19,7 +19,7 @@ including its status as an OWASP project and where to find it.
 #### What is ESAPI?
 
 To Do: go into more detail about the ESAPI library so that a developer
-can gain an overview of what this documentation project can provide for them.
+can gain an overview of what this library can provide for them.
 
 #### Why use it?
 

@@ -18,7 +18,8 @@ order:
 Sections:
 
 5.2.1 [Dependency-Check](#dependency-check)  
-5.2.2 [Dependency-Track](dependency-track)  
+5.2.2 [Dependency-Track](#dependency-track)  
+5.2.3 [CycloneDX](#cyclonedx)  
 
 ----
 

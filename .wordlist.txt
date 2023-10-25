@@ -247,6 +247,7 @@ LifeCycle
 DevOps
 SecurityRAT
 SBOM
+SBOMs
 BOM
 nightlies
 gamification
@@ -308,3 +309,5 @@ Dracon
 secureCodeBox
 SCP
 Cheatsheets
+Cheatsheet
+Coraza

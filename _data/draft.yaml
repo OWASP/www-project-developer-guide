@@ -91,6 +91,9 @@ docs:
 - title: '5.2.2 Dependency-Track'
   url: 07-implementation/02-dependencies/02-dependency-track
 
+- title: '5.2.3 CycloneDX'
+  url: 07-implementation/02-dependencies/03-cyclonedx
+
 - title: '5.3 Secure Libraries'
   url: 07-implementation/03-secure-libraries/toc
 

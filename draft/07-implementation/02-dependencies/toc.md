@@ -19,6 +19,7 @@ Sections:
 
 5.2.1 [Dependency-Check](01-dependency-check.md)  
 5.2.2 [Dependency-Track](02-dependency-track.md)  
+5.2.3 [CycloneDX](03-cyclonedx.md)  
 
 ----
 

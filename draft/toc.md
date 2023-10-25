@@ -53,6 +53,7 @@ and so the content is expected to frequently change._
 5.2 [Dependencies](07-implementation/02-dependencies/toc.md)  
 5.2.1 [Dependency-Check](07-implementation/02-dependencies/01-dependency-check.md)  
 5.2.2 [Dependency-Track](07-implementation/02-dependencies/02-dependency-track.md)  
+5.2.3 [CycloneDX](07-implementation/02-dependencies/03-cyclonedx.md)  
 5.3 [Secure Libraries](07-implementation/03-secure-libraries/toc.md)  
 5.3.1 [Enterprise Security API library](07-implementation/03-secure-libraries/01-esapi.md)  
 5.3.2 [CSRFGuard library](07-implementation/03-secure-libraries/02-csrf-guard.md)  
