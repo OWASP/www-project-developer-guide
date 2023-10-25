@@ -13,8 +13,9 @@ order: 1004
 
 ### 8.4 Mobile Application Security
 
-To Do: supply a couple of sentences on the Mobile Application Security (MAS) project, such as its status as an OWASP project,
-where to find it along with the two components Mobile Application Security Verification Standard (MASVS)
+To Do: supply a couple of sentences on the Mobile Application Security (MAS) project,
+including its status as an OWASP project, where to find it,
+along with the two components Mobile Application Security Verification Standard (MASVS)
 and Mobile Application Security Testing Guide (MASTG).
 
 #### What is MAS?

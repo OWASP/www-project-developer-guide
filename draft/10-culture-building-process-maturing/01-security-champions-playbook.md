@@ -14,7 +14,7 @@ order: 1001
 ### 8.1 Security Champions Playbook
 
 To Do: supply a couple of sentences on the Security Champions Playbook project,
-such as its status as an OWASP project and where to find it.
+including its status as an OWASP project and where to find it.
 
 #### What is the Security Champions Playbook?
 

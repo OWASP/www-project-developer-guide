@@ -14,7 +14,7 @@ order: 902
 ### 7.2 WebGoat
 
 To Do: supply a couple of sentences on the OWASP WebGoat project,
-such as its status as an OWASP project and where to find it.
+including its status as an OWASP project and where to find it.
 
 #### What is WebGoat?
 

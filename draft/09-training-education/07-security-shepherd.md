@@ -14,7 +14,7 @@ order: 907
 ### 7.7 Security Shepherd
 
 To Do: supply a couple of sentences on the Security Shepherd project,
-such as its status as an OWASP project and where to find it.
+including its status as an OWASP project and where to find it.
 
 #### What is Security Shepherd?
 

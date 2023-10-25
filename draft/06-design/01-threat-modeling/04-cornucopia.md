@@ -13,7 +13,7 @@ order: 614
 
 ### 4.1.4 Threat Modeling and Cornucopia
 
-To Do: supply a couple of sentences on the Cornucopia card game, such as its status as an OWASP project
+To Do: supply a couple of sentences on the Cornucopia card game, including its status as an OWASP project
 and where to download or buy it.
 
 #### What is pytm?

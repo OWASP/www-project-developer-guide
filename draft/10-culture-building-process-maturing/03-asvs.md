@@ -14,7 +14,7 @@ order: 1003
 ### 8.3 Application Security Verification Standard
 
 To Do: supply a couple of sentences on the Application Security Verification Standard (ASVS) project,
-such as its status as an OWASP project and where to find it.
+including its status as an OWASP project and where to find it.
 
 #### What is ASVS?
 

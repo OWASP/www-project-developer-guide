@@ -14,7 +14,7 @@ order: 908
 ### 7.8 OWASP Snakes and Ladders
 
 To Do: supply an introduction on the OWASP Snakes & Ladders project,
-such as its status as an OWASP project and where to find it, where to purchase it.
+including its status as an OWASP project and where to find it, where to purchase it.
 
 #### Why use it?
 

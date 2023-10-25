@@ -29,5 +29,5 @@ The OWASP Developer Guide is a community effort and this page needs some content
 If you have suggestions then [submit an issue][issue1301] and the project team can assign it to you,
 or submit a [pull request][pr] with some content.
 
-[issue1301]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2013-policy-gap-evaluation/01-guides
+[issue1301]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2013-policy-gap-evaluation/01-guides/00-toc
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls

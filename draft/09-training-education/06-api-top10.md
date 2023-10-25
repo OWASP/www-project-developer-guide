@@ -14,7 +14,7 @@ order: 906
 ### 7.6 API Top 10
 
 To Do: supply a couple of sentences on the API Top 10 project,
-such as its status as an OWASP project and where to find it.
+including its status as an OWASP project and where to find it.
 
 #### What is the API Top 10?
 

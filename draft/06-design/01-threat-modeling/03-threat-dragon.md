@@ -13,7 +13,7 @@ order: 613
 
 ### 4.1.3 Threat Dragon
 
-To Do: supply a couple of sentences on Threat Dragon, such as its status as an OWASP project and where to find it.
+To Do: supply a couple of sentences on Threat Dragon, including its status as an OWASP project and where to find it.
 
 #### What is Threat Dragon?
 

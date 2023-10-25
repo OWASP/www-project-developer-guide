@@ -14,7 +14,7 @@ order: 612
 ### 4.1.2 Pythonic Threat Modeling
 
 To Do: supply a couple of sentences on Pythonic Threat Modeling (pytm),
-such as its status as an OWASP project and where to find it.
+including its status as an OWASP project and where to find it.
 
 #### What is pytm?
 

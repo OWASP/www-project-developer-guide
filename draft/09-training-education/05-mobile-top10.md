@@ -14,7 +14,7 @@ order: 905
 ### 7.5 Mobile Top 10
 
 To Do: supply a couple of sentences on the OWASP Mobile Top 10 project,
-such as its status as an OWASP project and where to find it.
+including its status as an OWASP project and where to find it.
 
 #### What is the Mobile Top 10?
 

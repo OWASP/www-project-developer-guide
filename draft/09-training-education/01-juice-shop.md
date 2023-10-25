@@ -14,7 +14,7 @@ order: 901
 ### 7.1 Juice Shop
 
 To Do: supply a couple of sentences on the OWASP Juice Shop project,
-such as its status as an OWASP project and where to find it.
+including its status as an OWASP project and where to find it.
 
 #### What is Juice Shop?
 

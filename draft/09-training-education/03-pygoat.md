@@ -14,7 +14,7 @@ order: 903
 ### 7.3 PyGoat
 
 To Do: supply a couple of sentences on the OWASP PyGoat project,
-such as its status as an OWASP project and where to find it.
+including its status as an OWASP project and where to find it.
 
 #### What is PyGoat?
 

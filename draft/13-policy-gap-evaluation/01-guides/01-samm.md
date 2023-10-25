@@ -14,7 +14,7 @@ order: 1301
 ### 11.1.1 Software Assurance Maturity Model
 
 To Do: supply a couple of sentences on the Software Assurance Maturity Model (SAMM) project,
-such as its status as an OWASP project and where to find it.
+including its status as an OWASP project and where to find it.
 
 #### What is SAMM?
 

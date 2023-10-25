@@ -14,7 +14,7 @@ order: 1101
 ### 9.1 ModSecurity Core Rule Set
 
 To Do: supply a couple of sentences on the OWASP ModSecurity Core Rule Set (CRS) project,
-such as its status as an OWASP project and where to find it.
+including its status as an OWASP project and where to find it.
 
 #### What is ModSecurity?
 
