@@ -42,8 +42,15 @@ permalink: /draft/
 
 5 **[Implementation](#implementation)**  
 5.1 [Documentation](#documentation)  
+5.1.1 [Top 10 Proactive Controls](#top-proactive-controls)  
+5.1.2 [Go Secure Coding Practices](#go-secure-coding-practices)  
+5.1.3 [Cheatsheet Series](#cheatsheet-series)  
 5.2 [Dependencies](#dependencies)
+5.2.1 [Dependency-Check](#dependency-check)  
+5.2.2 [Dependency-Track](dependency-track)  
 5.3 [Secure Libraries](#secure-libraries)  
+5.3.1 [Enterprise Security API library](#enterprise-security-api-library)  
+5.3.2 [CSRFGuard library](#csrfguard-library)  
 5.4 [Implementation Do's and Don'ts](#implementation-dos-and-donts)  
 5.4.1 [Container security](#container-security)  
 5.4.2 [Secure coding](#secure-coding)  

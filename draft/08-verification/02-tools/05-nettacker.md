@@ -14,7 +14,7 @@ order: 825
 ### 6.2.5 Nettacker
 
 To Do: supply a couple of sentences on the OWASP Nettacker automated information & vulnerability scanner,
-including its status as a previous OWASP project and where to find it.
+including its status as an OWASP project and where to find it.
 
 #### What is Nettacker?
 

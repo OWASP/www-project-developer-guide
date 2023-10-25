@@ -47,8 +47,15 @@ and so the content is expected to frequently change._
 
 5 **[Implementation](07-implementation/toc.md)**  
 5.1 [Documentation](07-implementation/01-documentation/toc.md)  
+5.1.1 [Top 10 Proactive Controls](07-implementation/01-documentation/01-proactive-controls.md)  
+5.1.2 [Go Secure Coding Practices](07-implementation/01-documentation/02-go-scp.md)  
+5.1.3 [Cheatsheet Series](07-implementation/01-documentation/03-cheatsheets.md)  
 5.2 [Dependencies](07-implementation/02-dependencies/toc.md)  
+5.2.1 [Dependency-Check](07-implementation/02-dependencies/01-dependency-check.md)  
+5.2.2 [Dependency-Track](07-implementation/02-dependencies/02-dependency-track.md)  
 5.3 [Secure Libraries](07-implementation/03-secure-libraries/toc.md)  
+5.3.1 [Enterprise Security API library](07-implementation/03-secure-libraries/01-esapi.md)  
+5.3.2 [CSRFGuard library](07-implementation/03-secure-libraries/02-csrf-guard.md)  
 5.4 [Implementation Do's and Don'ts](07-implementation/04-dos-donts/toc.md)  
 5.4.1 [Container security](07-implementation/04-dos-donts/01-container-security.md)  
 5.4.2 [Secure coding](07-implementation/04-dos-donts/02-secure-coding.md)  

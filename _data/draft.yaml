@@ -73,11 +73,32 @@ docs:
 - title: '5.1 Documentation'
   url: 07-implementation/01-documentation/toc
 
+- title: '5.1.1 Top 10 Proactive Controls'
+  url: 07-implementation/01-documentation/01-proactive-controls
+
+- title: '5.1.2 Go Secure Coding Practices'
+  url: 07-implementation/01-documentation/02-go-scp
+
+- title: '5.1.3 Cheatsheet Series'
+  url: 07-implementation/01-documentation/03-cheatsheets
+
 - title: '5.2 Dependencies'
   url: 07-implementation/02-dependencies/toc
 
+- title: '5.2.1 Dependency-Check'
+  url: 07-implementation/02-dependencies/01-dependency-check
+
+- title: '5.2.2 Dependency-Track'
+  url: 07-implementation/02-dependencies/02-dependency-track
+
 - title: '5.3 Secure Libraries'
   url: 07-implementation/03-secure-libraries/toc
+
+- title: '5.3.1 Enterprise Security API library'
+  url: 07-implementation/03-secure-libraries/01-esapi
+
+- title: '5.3.2 CSRFGuard library'
+  url: 07-implementation/03-secure-libraries/02-csrf-guard
 
 - title: '5.4 Implementation Do''s and Don''ts'
   url: 07-implementation/04-dos-donts/toc

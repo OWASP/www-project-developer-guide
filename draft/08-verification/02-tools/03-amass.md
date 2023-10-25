@@ -14,7 +14,7 @@ order: 823
 ### 6.2.3 Amass
 
 To Do: supply a couple of sentences on the OWASP Amass attack surface management project,
-including its status as a previous OWASP project and where to find it.
+including its status as an OWASP project and where to find it.
 
 #### What is Amass?
 

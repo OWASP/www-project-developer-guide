@@ -14,7 +14,7 @@ order: 832
 ### 6.3.2 secureCodeBox
 
 To Do: supply a couple of sentences on the OWASP secureCodeBox automated security testing tool,
-including its status as a previous OWASP project and where to find it.
+including its status as an OWASP project and where to find it.
 
 #### What is secureCodeBox?
 

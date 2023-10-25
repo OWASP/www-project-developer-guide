@@ -31,4 +31,3 @@ or submit a [pull request][pr] with some content.
 
 [issue080300]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2008-verification/03-frameworks/00-toc
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
-

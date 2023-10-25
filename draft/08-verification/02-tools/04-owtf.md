@@ -14,7 +14,7 @@ order: 824
 ### 6.2.4 Offensive Web Testing Framework
 
 To Do: supply a couple of sentences on the OWASP Offensive Web Testing Framework (OWTF),
-including its status as a previous OWASP project and where to find it.
+including its status as an OWASP project and where to find it.
 
 #### What is OWTF?
 

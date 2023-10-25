@@ -14,7 +14,7 @@ order: 822
 ### 6.2.2 Code Pulse
 
 To Do: supply a couple of sentences on the OWASP Code Pulse verification and reporting project,
-including its status as a previous OWASP project and where to find it.
+including its status as an OWASP project and where to find it.
 
 #### What is Code Pulse?
 
