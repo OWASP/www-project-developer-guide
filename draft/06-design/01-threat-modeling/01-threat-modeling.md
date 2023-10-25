@@ -139,7 +139,7 @@ Techniques that can help include [CIA][cia], [STRIDE][stride], [LINDDUN][linddun
 **3 What are we going to do about that**?
 
 In this phase turn the threat model findings into specific actions.
-Consider the appropriate [remediation](#remediation) for each threat identified.
+Consider the appropriate remediation for each threat identified: Transfer, Avoid, Mitigate or Eliminate.
 
 **4 Did we do a good enough job**?
 
@@ -216,7 +216,7 @@ then that is a perfectly good choice.
 #### Further reading
 
 * [Threat Modeling Manifesto](https://www.threatmodelingmanifesto.org/)
-* OWASP [Threat Model project](https://owasp.org/www-project-threat-model/)
+* OWASP [Threat Model project][tmproject]
 * OWASP [Threat Modeling Cheat Sheet][tmcs]
 * OWASP [Threat Modeling Playbook (OTMP)][tmpb]
 * OWASP [Attack Surface Analysis Cheat Sheet][asacs]
@@ -239,14 +239,14 @@ then that is a perfectly good choice.
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0502] or a [pull request][pr] .
+then [submit an issue][issue060101] or a [pull request][pr] .
 
 [4QFW]: https://github.com/adamshostack/4QuestionFrame
 [asacs]: https://cheatsheetseries.owasp.org/cheatsheets/Attack_Surface_Analysis_Cheat_Sheet.html
 [capec]: https://capec.mitre.org/
 [chains]: https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html
 [cia]: https://www.nccoe.nist.gov/publication/1800-25/VolA/index.html
-[issue0502]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-security-requirements/02-threat-modeling
+[issue060101]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/01-threat-modeling/01-threat-modeling
 [linddun]: https://www.linddun.org/
 [nist-cvss]: https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator
 [otm]: https://owasp.org/www-project-threat-model/
@@ -257,6 +257,7 @@ then [submit an issue][issue0502] or a [pull request][pr] .
 [PYTM]: https://owasp.org/www-project-pytm/
 [samm]: https://owaspsamm.org/about/
 [stride]: https://en.wikipedia.org/wiki/STRIDE_%28security%29
+[tmproject]: https://owasp.org/www-project-threat-model/
 [TD]: https://owasp.org/www-project-threat-dragon/
 [TM]: https://owasp.org/www-community/Threat_Modeling
 [TMP]: https://owasp.org/www-community/Threat_Modeling_Process

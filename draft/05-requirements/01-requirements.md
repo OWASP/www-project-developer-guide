@@ -74,7 +74,7 @@ so a set of security requirements will have to be negotiated with them.
 that will clarify the strengths and weaknesses of your suppliers.
 Note that supplier security is distinct from security of third-party software and libraries,
 and the use of third-party and open source software is discussed
-in its own [section](#introduction-to-open-source-software).
+in its own section on dependency checking and tracking.
 
 The supplier security requirements maturity levels are:
 
@@ -116,7 +116,7 @@ then [submit an issue][issue0501] or a [pull request][pr].
 
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [control1]: https://owasp.org/www-project-proactive-controls/v3/en/c1-security-requirements
-[issue0501]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-security-requirements
+[issue0501]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-requirements/01-requirements
 [mas]: https://mas.owasp.org/
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 [proactive10]: https://owasp.org/www-project-proactive-controls/

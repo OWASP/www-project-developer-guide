@@ -1,17 +1,20 @@
 ---
 
-title: Implementation Do's and Dont's Exception and Error Handling
+title: Do's and Don'ts Exception and Error Handling
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
 document: OWASP Developer Guide
-order: 606
+order: 746
 
 ---
 
 {% include breadcrumb.html %}
 
 ### 5.4.6 Exception and Error Handling
+
+Here is a collection of Do's and Don'ts when it comes to exception and error handling, gathered from practical experiences.
+Some of these are language specific and others have more general applicability.
 
 * Ensure that all method/function calls that return a value have proper error handling and return value checking.
 * Ensure that exceptions and error conditions are properly handled.
@@ -133,9 +136,9 @@ which can be used later on by the developer to get into the system without havin
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0606] or a [pull request][pr] .
+then [submit an issue][issue070406] or a [pull request][pr] .
 
-[issue0606]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-secure-design/06-exception-error-handling
+[issue070406]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/04-dos-donts/06-exception-error-handling
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 
 \newpage

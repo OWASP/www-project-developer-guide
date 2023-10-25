@@ -1,17 +1,20 @@
 ---
 
-title: Implementation Do's and Dont's Secure Coding
+title: Do's and Don'ts Secure Coding
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
 document: OWASP Developer Guide
-order: 602
+order: 742
 
 ---
 
 {% include breadcrumb.html %}
 
 ### 5.4.2 Secure coding
+
+Here is a collection of Do's and Don'ts when it comes to secure coding, gathered from practical experiences.
+Some of these are language specific and others have more general applicability.
 
 * Authentication
   * User
@@ -330,9 +333,9 @@ Also not exploitable: `{""result"": [{""object"": ""inside an array""}]}"`
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0602] or a [pull request][pr] .
+then [submit an issue][issue070402] or a [pull request][pr] .
 
-[issue0602]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-secure-design/02-secure-coding
+[issue070402]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/04-dos-donts/02-secure-coding
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 [rfc7518]: https://www.rfc-editor.org/rfc/rfc7518
 [trace]: https://www.blackhillsinfosec.com/three-minutes-with-the-http-trace-method/

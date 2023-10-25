@@ -13,17 +13,22 @@ order: 700
 
 ## 5. Implementation
 
-![Developer Guide](../assets/images/dg_wip.png "OWASP Developer Guide"){: height="220px" }
-
-**To do**: This should be a brief overview / abstract of the section on 'Implementation'.
-The Introduction will contain more detail and the further sections will expand on that.
+**To do**: this should be a brief overview / abstract of the section on project implementation
 
 Sections:
 
 5.1 [Documentation](01-documentation/toc.md)  
+5.1.1 [Top 10 Proactive Controls](01-documentation/01-proactive-controls.md)  
+5.1.2 [Go Secure Coding Practices](01-documentation/02-go-scp.md)  
+5.1.3 [Cheatsheet Series](01-documentation/03-cheatsheets.md)  
 5.2 [Dependencies](02-dependencies/toc.md)  
+5.2.1 [Dependency-Check](02-dependencies/01-dependency-check.md)  
+5.2.2 [Dependency-Track](02-dependencies/02-dependency-track.md)  
+5.2.3 [CycloneDX](02-dependencies/03-cyclonedx.md)  
 5.3 [Secure Libraries](03-secure-libraries/toc.md)  
-5.4 [Implementation Do's and Dont's](04-dos-donts/toc.md)  
+5.3.1 [Enterprise Security API library](03-secure-libraries/01-esapi.md)  
+5.3.2 [CSRFGuard library](03-secure-libraries/02-csrf-guard.md)  
+5.4 [Implementation Do's and Don'ts](04-dos-donts/toc.md)  
 5.4.1 [Container security](04-dos-donts/01-container-security.md)  
 5.4.2 [Secure coding](04-dos-donts/02-secure-coding.md)  
 5.4.3 [Cryptographic practices](04-dos-donts/03-cryptographic-practices.md)  
@@ -32,3 +37,14 @@ Sections:
 5.4.6 [Exception and error handling](04-dos-donts/06-exception-error-handling.md)  
 5.4.7 [File management](04-dos-donts/07-file-management.md)  
 5.4.8 [Memory management](04-dos-donts/08-memory-management.md)  
+
+----
+
+![Developer Guide](../assets/images/dg_wip.png "OWASP Developer Guide"){: height="150px" }
+
+The OWASP Developer Guide is a community effort and this page needs some content to be added.
+If you have suggestions then [submit an issue][issue0700] and the project team can assign it to you,
+or submit a [pull request][pr] with some content.
+
+[issue0700]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/00-toc
+[pr]: https://github.com/OWASP/www-project-developer-guide/pulls

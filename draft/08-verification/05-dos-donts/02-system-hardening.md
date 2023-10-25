@@ -1,17 +1,20 @@
 ---
 
-title: System Hardening
+title: Do's and Don'ts System Hardening
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
 document: OWASP Developer Guide
-order: 902
+order: 852
 
 ---
 
 {% include breadcrumb.html %}
 
 ### 6.5.2 System hardening
+
+Here is a collection of Do's and Don'ts when it comes to system hardening, gathered from practical experiences.
+Some of these are language specific and others have more general applicability.
 
 * System hardening
   * The WEB-INF directory tree contains web application classes, pre-compiled files, server side libraries,
@@ -56,9 +59,9 @@ order: 902
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0902] or a [pull request][pr] .
+then [submit an issue][issue080502] or a [pull request][pr] .
 
-[issue0902]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2009-secure-environment/02-system-hardening
+[issue080502]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2008-verification/05-dos-donts/02-system-hardening
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 
 \newpage

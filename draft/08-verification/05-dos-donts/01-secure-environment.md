@@ -1,17 +1,20 @@
 ---
 
-title: Secure Environment
+title: Do's and Don'ts Secure Environment
 layout: col-document
 tags: OWASP Developer Guide
 contributors:Shruti Kulkarni
 document: OWASP Developer Guide
-order: 901
+order: 851
 
 ---
 
 {% include breadcrumb.html %}
 
 ### 6.5.1 Secure environment
+
+Here is a collection of Do's and Don'ts when it comes to creating a secure environment, gathered from practical experiences.
+Some of these are language specific and others have more general applicability.
 
 * The WEB-INF directory tree contains web application classes, pre-compiled JSP files, server side libraries,
     session information, and files such as `web.xml` and `webapp.properties`.
@@ -61,5 +64,13 @@ order: 901
 * Monitor for libraries and components that are unmaintained or do not create security patches for older versions.
     If patching is not possible, consider deploying a virtual patch to monitor, detect,
     or protect against the discovered issue.
+
+----
+
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue080501] or a [pull request][pr] .
+
+[issue080501]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2008-verification/05-dos-donts/01-secure-environment
+[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 
 \newpage

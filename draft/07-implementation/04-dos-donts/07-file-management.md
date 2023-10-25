@@ -1,17 +1,19 @@
 ---
 
-title: Implementation Do's and Dont's File Management
+title: Do's and Don'ts File Management
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
 document: OWASP Developer Guide
-order: 607
+order: 747
 
 ---
 
 {% include breadcrumb.html %}
 
 ### 5.4.7 File Management
+
+Here is a collection of Do's and Don'ts when it comes to file management, gathered from practical experiences.
 
 * Validate all filenames and directories before use, ensuring that there are no special characters
     that might lead to accessing an unintended file.
@@ -57,9 +59,9 @@ order: 607
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0607] or a [pull request][pr] .
+then [submit an issue][issue070407] or a [pull request][pr] .
 
-[issue0607]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-secure-design/07-file-management
+[issue070407]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/04-dos-donts/07-file-management
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 
 \newpage

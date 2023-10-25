@@ -27,16 +27,32 @@ permalink: /draft/
 3 **[Requirements](#requirements)**  
 3.1 [Requirements in practice](#requirements-in-practice)  
 3.2 [Risk profile](#risk-profile)  
+3.3 [Security Knowledge Framework](#security-knowledge-framework)  
+3.4 [Security RAT][#security-rat)  
+3.5 [Application Security Verification Standard](#application-security-verification-standard)  
+3.6 [Mobile Application Security](#mobile-application-security)  
 
 4 **[Design](#design)**  
 4.1 [Threat modeling](#threat-modeling)  
 4.1.1 [Threat modeling in practice](#threat-modeling-in-practice)  
+4.1.2 [Pythonic Threat Modeling](#pythonic-threat-modeling)  
+4.1.3 [Threat Dragon](#threat-dragon)  
+4.1.4 [Threat Modeling and Cornucopia](#cornucopia)  
+4.1.5 [Threat Modeling toolkit](#threat-modeling-toolkit)  
 
 5 **[Implementation](#implementation)**  
 5.1 [Documentation](#documentation)  
+5.1.1 [Top 10 Proactive Controls](#top-proactive-controls)  
+5.1.2 [Go Secure Coding Practices](#go-secure-coding-practices)  
+5.1.3 [Cheatsheet Series](#cheatsheet-series)  
 5.2 [Dependencies](#dependencies)
+5.2.1 [Dependency-Check](#dependency-check)  
+5.2.2 [Dependency-Track](#dependency-track)  
+5.2.3 [CycloneDX](#cyclonedx)  
 5.3 [Secure Libraries](#secure-libraries)  
-5.4 [Implementation Do's and Dont's](#implementation-dos-and-donts)  
+5.3.1 [Enterprise Security API library](#enterprise-security-api-library)  
+5.3.2 [CSRFGuard library](#csrfguard-library)  
+5.4 [Implementation Do's and Don'ts](#implementation-dos-and-donts)  
 5.4.1 [Container security](#container-security)  
 5.4.2 [Secure coding](#secure-coding)  
 5.4.3 [Cryptographic practices](#cryptographic-practices)  
@@ -48,24 +64,51 @@ permalink: /draft/
 
 6 **[Verification](#verification)**  
 6.1 [Guides](#verification-guides)  
+6.1.1 [Web Security Testing Guide](#web-security-testing Guide)  
+6.1.2 [Mobile Application Security](#mobile-application-security)  
 6.2 [Tools](#verification-tools)  
+6.2.1 [Zed Attack Proxy](#zed-attack-proxy)  
+6.2.2 [Code Pulse](#code-pulse)  
+6.2.3 [Amass](#amass)  
+6.2.4 [Offensive Web Testing Framework](#offensive-web-testing-framework)  
+6.2.5 [Nettacker](#nettacker)  
 6.3 [Frameworks](#verification-frameworks)  
+6.3.1 [Glue](#glue)  
+6.3.2 [secureCodeBox](#securecodebox)  
+6.3.3 [Dracon](#dracon)  
 6.4 [Vulnerability management](#verification-vulnerability-management)  
-6.5 [Verification Do's and Dont's](#verification-dos-and-donts)  
+6.4.1 [DefectDojo](#defectdojo)  
+6.5 [Verification Do's and Don'ts](#verification-dos-and-donts)  
 6.5.1 [Secure environment](#secure-environment)  
 6.5.2 [System hardening](#system-hardening)  
 6.5.3 [Open Source software](#open-source-software)  
 
 7 **[Training and Education](#training-and-education)**  
+7.1 [Juice Shop](#juice-shop)  
+7.2 [WebGoat](#webgoat)  
+7.3 [PyGoat](#pygoat)  
+7.4 [OWASP Top 10](#owasp-top-10)  
+7.5 [Mobile Top 10](#mobile-top-10)  
+7.6 [API Top 10](#api-top-10)  
+7.7 [Security Shepherd](#security-shepherd)  
+7.8 [OWASP Snakes and Ladders](#owasp-snakes-and-ladders)  
 
 8 **[Culture building and Process maturing](#culture-building-and-process-maturing)**  
+8.1 [Security Champions Playbook](#security-champions-playbook)  
+8.2 [Software Assurance Maturity Model](#software-assurance-maturity-model)  
+8.3 [Application Security Verification Standard](#application-security-verification-standard)  
+8.4 [Mobile Application Security](#mobile-application-security)  
 
 9 **[Operation](#operation)**  
+9.1 [ModSecurity Core Rule Set](#modSecurity-core-rule-set)  
 
 10 **[Metrics](#metrics)**  
 
 11 **[Policy gap evaluation](#policy-gap-evaluation)**  
 11.1 [Guides](#policy-gap-evaluation-guides)  
+11.1.1 [Software Assurance Maturity Model](#software-assurance-maturity-model)  
+11.1.2 [Application Security Verification Standard](#application-security-verification-standard)  
+11.1.3 [Mobile Application Security](#mobile-application-security)  
 
 12 **[Checklist](#checklist)**  
 12.1 [Checklist: Define Security Requirements](#checklist-define-security-requirements)  

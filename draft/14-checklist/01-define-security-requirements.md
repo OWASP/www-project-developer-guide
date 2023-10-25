@@ -16,8 +16,8 @@ order: 1401
 A security requirement is a statement of security functionality that ensures software security is being satisfied.
 Security requirements are derived from industry standards, applicable laws, and a history of past vulnerabilities.
 
-Refer to proactive control '[C1: Define Security Requirements][control1]'
-for more context from the 'OWASP Top 10 Proactive Controls' project,
+Refer to proactive control [C1: Define Security Requirements][control1]
+for more context from the OWASP Top 10 Proactive Controls project,
 and use the checklists below as suggestions for the checklist that has been tailored for the individual project.
 
 #### System configuration
@@ -73,7 +73,7 @@ The OWASP Developer Guide is a community effort; if there is something that need
 then [submit an issue][issue1401] or a [pull request][pr].
 
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
-[control1]: https://owasp.org/www-project-proactive-controls/v3/en/c1-security-requirements.html
+[control1]: https://owasp.org/www-project-proactive-controls/v3/en/c1-security-requirements
 [issue1401]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2014-checklist/01-define-security-requirements
 [mas]: https://mas.owasp.org/
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls

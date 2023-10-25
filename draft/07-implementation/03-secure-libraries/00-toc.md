@@ -1,6 +1,6 @@
 ---
 
-title: Implementation Secure Libraries
+title: Implementation with Secure Libraries
 layout: col-document
 tags: OWASP Developer Guide
 contributors:
@@ -13,11 +13,22 @@ order:
 
 ## 5.3 Secure libraries
 
-![Developer Guide](../../assets/images/dg_wip.png){ height=120px }
-
-**To do**: this should be a brief overview / abstract of the section on 'Implementation secure libraries'.
-The Introduction will contain more detail and the further sections will expand on that.
+**To do**: this should be a brief overview / abstract of the section on implementation with secure libraries
 
 Sections:
+
+5.3.1 [Enterprise Security API library](#enterprise-security-api-library)  
+5.3.2 [CSRFGuard library](#csrfguard-library)  
+
+----
+
+![Developer Guide](../../assets/images/dg_wip.png){ height=120px }
+
+The OWASP Developer Guide is a community effort and this page needs some content to be added.
+If you have suggestions then [submit an issue][issue0703] and the project team can assign it to you,
+or submit a [pull request][pr] with some content.
+
+[issue0703]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/03-secure-libraries/00-toc
+[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 
 \newpage

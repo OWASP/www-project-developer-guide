@@ -15,8 +15,8 @@ order: 1403
 
 Ensure that access to all data stores is secure, including both relational databases and NoSQL databases.
 
-Refer to proactive control '[C3: Secure Database Access][control3]'
-for more context from the 'OWASP Top 10 Proactive Controls' project,
+Refer to proactive control [C3: Secure Database Access][control3]
+for more context from the OWASP Top 10 Proactive Controls project,
 and use the checklists below as suggestions for the checklist that has been tailored for the individual project.
 
 #### Secure queries
@@ -56,7 +56,7 @@ and use the checklists below as suggestions for the checklist that has been tail
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue1403] or a [pull request][pr].
 
-[control3]: https://owasp.org/www-project-proactive-controls/v3/en/c3-secure-database.html
+[control3]: https://owasp.org/www-project-proactive-controls/v3/en/c3-secure-database
 [dbsec]: https://cheatsheetseries.owasp.org/cheatsheets/Database_Security_Cheat_Sheet.html
 [issue1403]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2014-checklist/03-secure-database-access
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
