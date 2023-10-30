@@ -66,9 +66,9 @@ Container image security, host security, client security, daemon security, runti
 * Set file permissions on the docker.socket file to 644 or more restrictively.
 * Set /etc/docker directory ownership and group ownership to root.
 * Set /etc/docker directory permissions to 755 or more restrictively.
-* Set ownership of registry certificate files (usually found under /etc/docker/certs.d/<registry-name> directory)
+* Set ownership of registry certificate files (usually found under `/etc/docker/certs.d/<registry-name>` directory)
     to individual ownership and is group owned by root.
-* Set registry certificate files (usually found under /etc/docker/certs.d/<registry-name> directory)
+* Set registry certificate files (usually found under `/etc/docker/certs.d/<registry-name>` directory)
     permissions to 444 or more restrictively.
 * Acquire and ship daemon logs to SIEM for monitoring
 * Inter-container network connections are restricted and enabled on a requirement basis.
