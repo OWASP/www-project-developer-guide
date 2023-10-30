@@ -46,7 +46,7 @@ Some of these are language specific and others have more general applicability.
     Any verb not explicitly listed is allowed for execution. Hence use “Deny All”
     and then allow the methods for the required roles.
     This setting carries weightage while using “Anonymous User” role.
-    For example, in Java, remove all <http-method> elements from `web.xml` files.
+    For example, in Java, remove all `<http-method>` elements from `web.xml` files.
   
 * Configure web and application server to disallow HEAD requests entirely.
   
