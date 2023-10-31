@@ -13,7 +13,7 @@ order: 908
 
 ### 7.9 Wrong Secrets
 
-To Do: supply a couple of sentences on the Wrong Secretsproject,
+To Do: supply a couple of sentences on the OWASP Wrong Secrets project,
 including its status as an OWASP project and where to find it.
 
 #### What is Wrong Secrets?
