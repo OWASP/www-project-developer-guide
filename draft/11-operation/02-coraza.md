@@ -14,7 +14,7 @@ order: 1102
 ### 9.2 Coraza Web Application Firewall
 
 OWASP Coraza is a golang enterprise-grade Web Application Firewall framework
-that supports Modsecurity’s seclang language and is 100% compatible with the OWASP Core Ruleset.
+that supports the seclang language by ModSecurity and is 100% compatible with the OWASP Core Ruleset.
 Coraza is an OWASP Production project and is in active development.
 
 #### What is Coraza?

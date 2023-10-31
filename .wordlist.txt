@@ -313,7 +313,6 @@ Cheatsheet
 Coraza
 coraza
 seclang
-Modsecurity’s
 Ruleset
 golang
 GRPC
