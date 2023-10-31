@@ -3,7 +3,7 @@
 title: Do's and Don'ts Secure Environment
 layout: col-document
 tags: OWASP Developer Guide
-contributors:Shruti Kulkarni
+contributors: Shruti Kulkarni
 document: OWASP Developer Guide
 order: 851
 
