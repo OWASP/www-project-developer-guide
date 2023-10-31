@@ -34,7 +34,7 @@ There are many reasons for doing threat modeling but the most important one is t
 it is probably the only stage in a development lifecycle where a team sits back and asks:
 'If I was a very clever malicious actor with plenty of time, how would I subvert the application for my own purposes?'.
 There are other reasons for threat modeling, for example standards compliance or analysis for disaster recovery,
-but the main aim of threat modeling is to remedy potential vulnerabilities before the malicious actors do.
+but the main aim of threat modeling is to remedy (possible) vulnerabilities before the malicious actors can exploit them.
 
 #### What is threat modeling
 

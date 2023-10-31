@@ -97,6 +97,7 @@ and so the content is expected to frequently change._
 7.6 [API Top 10](09-training-education/06-api-top10.md)  
 7.7 [Security Shepherd](09-training-education/07-security-shepherd.md)  
 7.8 [OWASP Snakes and Ladders](09-training-education/08-snakes-ladders.md)  
+7.9 [Wrong Secrets](09-training-education/09-wrong-secrets.md)  
 
 8 **[Culture building and Process maturing](10-culture-building-process-maturing/toc.md)**  
 8.1 [Security Champions Playbook](10-culture-building-process-maturing/01-security-champions-playbook.md)  
@@ -106,6 +107,7 @@ and so the content is expected to frequently change._
 
 9 **[Operation](11-operation/toc.md)**  
 9.1 [ModSecurity Core Rule Set](11-operation/01-modsecurity-crs.md)  
+9.2 [Coraza Web Application Firewall](11-operation/02-coraza.md)  
 
 10 **[Metrics](12-metrics/toc.md)**  
 

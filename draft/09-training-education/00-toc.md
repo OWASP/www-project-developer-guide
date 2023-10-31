@@ -25,10 +25,11 @@ Sections:
 7.6 [API Top 10](#api-top-10)  
 7.7 [Security Shepherd](#security-shepherd)  
 7.8 [OWASP Snakes and Ladders](#owasp-snakes-and-ladders)  
+7.9 [Wrong Secrets](#wrong-secrets)  
 
 ----
 
-![Developer Guide](../assets/images/dg_wip.png){ height=120px }
+![Developer Guide](../assets/images/dg_wip.png)
 
 The OWASP Developer Guide is a community effort and this page needs some content to be added.
 If you have suggestions then [submit an issue][issue0900] and the project team can assign it to you,

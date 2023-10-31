@@ -18,10 +18,11 @@ order: 1100
 Sections:
 
 9.1 [ModSecurity Core Rule Set](01-modsecurity-crs.md)  
+9.2 [Coraza Web Application Firewall](02-coraza.md)  
 
 ----
 
-![Developer Guide](../assets/images/dg_wip.png "OWASP Developer Guide"){: height="150px" }
+![Developer Guide](../assets/images/dg_wip.png "OWASP Developer Guide")
 
 The OWASP Developer Guide is a community effort and this page needs some content to be added.
 If you have suggestions then [submit an issue][issue1100] and the project team can assign it to you,

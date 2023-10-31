@@ -311,3 +311,10 @@ SCP
 Cheatsheets
 Cheatsheet
 Coraza
+coraza
+seclang
+Ruleset
+golang
+GRPC
+SPOA
+caddy
