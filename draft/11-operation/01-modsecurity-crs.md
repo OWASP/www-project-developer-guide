@@ -16,14 +16,14 @@ order: 1101
 To Do: supply a couple of sentences on the OWASP ModSecurity Core Rule Set (CRS) project,
 including its status as an OWASP project and where to find it.
 
-#### What is ModSecurity?
+#### What is Coraza and ModSecurity?
 
-To Do: go into more detail about the ModSecurity module and the Apache web server,
+To Do: go into more detail about the Coraza / ModSecurity module and the Apache web server,
 so that a development team can gain an overview of how this works as a WAF.
 
 #### What is the Core Rule Set?
 
-To Do: go into more detail about the ModSecurity Core Rule Set
+To Do: go into more detail about the Coraza / ModSecurity Core Rule Set
 so that a development team can determine understand its use with ModSecurity.
 
 #### Why use it?

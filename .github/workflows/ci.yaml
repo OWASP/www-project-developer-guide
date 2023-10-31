@@ -59,9 +59,8 @@ jobs:
 
       - name: Combine markdown
         run: |
-          tail --lines=+14 -q < `ls draft/*0*.md draft/*[0-9]**/*[0-9]*.md draft/*[0-9]**/*[0-9]**/*[0-9]*.md` > draft.markdown
+          tail --lines=+14 -q $(ls draft/*0*.md draft/*[0-9]**/*[0-9]*.md draft/*[0-9]**/*[0-9]**/*[0-9]*.md) > draft.markdown
           mkdir -p publish
-        shell: zsh {0}
 
       - name: Export to pdf
         uses: docker://pandoc/latex:3.1

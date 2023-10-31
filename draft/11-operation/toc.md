@@ -18,6 +18,7 @@ order: 1100
 Sections:
 
 9.1 [ModSecurity Core Rule Set](01-modsecurity-crs.md)  
+9.2 [Coraza Web Application Firewall](02-coraza.md)  
 
 ----
 

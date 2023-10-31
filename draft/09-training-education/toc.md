@@ -25,6 +25,7 @@ Sections:
 7.6 [API Top 10](06-api-top10.md)  
 7.7 [Security Shepherd](07-security-shepherd.md)  
 7.8 [OWASP Snakes and Ladders](08-snakes-ladders.md)  
+7.9 [Wrong Secrets](09-wrong-secrets.md)  
 
 ----
 

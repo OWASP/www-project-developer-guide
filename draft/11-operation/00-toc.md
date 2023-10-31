@@ -18,6 +18,7 @@ order:
 Sections:
 
 9.1 [ModSecurity Core Rule Set](#modSecurity-core-rule-set)  
+9.2 [Coraza Web Application Firewall](#coraza-web-application-firewall)  
 
 ----
 
