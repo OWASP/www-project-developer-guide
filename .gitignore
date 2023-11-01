@@ -39,12 +39,18 @@
 !draft/1*/1*/
 !draft/1*/1*/*.md
 !draft/assets/
+!draft/assets/exports/
+!draft/assets/exports/*.epub
+!draft/assets/exports/*.pdf
 !draft/assets/images/
 !draft/assets/images/*.png
 
 # pages markdown
 !*.md
 !assets/
+!assets/exports/
+!assets/exports/*.epub
+!assets/exports/*.pdf
 !assets/images/
 !assets/images/*.png
 !license.txt

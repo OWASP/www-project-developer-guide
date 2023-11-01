@@ -11,12 +11,12 @@ and also the [developer guide][draftGuide] itself
 ## Developer Guide
 
 This guide is one of the original documents from OWASP and so has a long history.
-The [DevGuide repository][devGuide] has many of the [previous versions][versions]
+The [original DevGuide repository][devGuide] has many of the [previous versions][versions]
 going back to the [original version 1.0][original] from 2002.
-Note that the original DevGuide [repository][DevGuide] has been deprecated in favour of this one.
+Note that the original DevGuide repository has been deprecated in favour of this one.
 
 The source code for the latest draft developer guide can be found under the ['draft'][draft] directory.
-The source is in markdown and is used to create the [developer guide][draft] HTML, PDF and ePub outputs.
+The source is in markdown and is used to create the developer guide HTML, PDF and ePub outputs.
 The content is subject to large scale changes with no notice,
 as it is being actively worked on for the next release of the Developer Guide.
 

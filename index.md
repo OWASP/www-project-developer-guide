@@ -27,10 +27,12 @@ Version 1.0 of the Developer Guide was released in 2002
 and since then there have been various [releases][versions], the latest being version 2.0 in 2005.
 
 The Developer Guide needs to be updated for the modern security landscape,
-and OWASP is reviving this project to do just that.
-The project has a team of leaders that will oversee the project
-and now we need as many members of the security community as possible to contribute.
-There is a [draft version](draft) which is a work in progress and is subject to large scale and frequent changes.
+and OWASP has revived this project to do just that.
+The project has a team of leaders in place,
+and OWASP now needs as many members of the security community as possible to contribute to the guide.
+
+The [draft version](draft) is a work in progress and is subject to large scale and frequent changes.
+Once enough content has been added, the Developer Guide can move from draft status.
 
 ### Contributing
 
