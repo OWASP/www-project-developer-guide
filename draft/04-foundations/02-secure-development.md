@@ -21,7 +21,7 @@ Much of the material in this section is drawn from the OWASP [Integration Standa
 
 Almost all modern software is developed in an iterative manner passing through phase to phase,
 such as identifying customer requirements, implementation and test.
-Theses phases are revisited in a cyclic manner throughout the lifetime of the application.
+These phases are revisited in a cyclic manner throughout the lifetime of the application.
 A generic Software Development LifeCycle (SDLC) is shown below, and in practice there may be more or less phases
 according to the processes adopted by the business.
 
