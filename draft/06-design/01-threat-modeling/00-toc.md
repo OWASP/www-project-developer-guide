@@ -13,7 +13,18 @@ order:
 
 ## 4.1 Threat modeling
 
-**To do**: this should be a very brief overview / abstract of the section on threat modeling
+Referring to the [Threat Modeling Cheat Sheet][tmcs],
+threat modeling is a structured approach of identifying and prioritizing potential threats to a system.
+The threat modeling process includes determining the value that potential mitigations would have
+in reducing or neutralizing these threats.
+
+Assessing potential threats during the design phase of your project can save significant resources
+that might be needed to refactor the project to include risk mitigations during a later phase of the project.
+The outputs from the threat modeling activities generally include:
+
+* Documenting how data flows through a system to identify where the system might be attacked
+* Identifying as many potential threats to the system as possible
+* Suggesting security controls that may be put in place to reduce the likelihood or impact of a potential threat
 
 Sections:
 
@@ -25,13 +36,11 @@ Sections:
 
 ----
 
-![Developer Guide](../../assets/images/dg_wip.png)
-
-The OWASP Developer Guide is a community effort and this page needs some content to be added.
-If you have suggestions then [submit an issue][issue0601] and the project team can assign it to you,
-or submit a [pull request][pr] with some content.
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue0601] or a [pull request][pr].
 
 [issue0601]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/01-threat-modeling/00-toc
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+[tmcs]: https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html
 
 \newpage
