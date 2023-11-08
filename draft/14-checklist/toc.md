@@ -24,7 +24,7 @@ an individual project's requirements and environment; they are not meant to be f
 
 Probably the best advice on checklists is given by the [Application Security Verification Standard (ASVS)][asvs].
 The ASVS can be used to provide a framework for an initial checklist, according to the security verification level,
-and the initial ASVS checklist can then be expanded using the following checklist sections.
+and this initial ASVS checklist can then be expanded using the following checklist sections.
 
 Sections:
 
@@ -39,5 +39,12 @@ Sections:
 12.9 [Checklist: Implement Security Logging and Monitoring](09-logging-monitoring.md)  
 12.10 [Checklist: Handle all Errors and Exceptions](10-handle-errors-exceptions.md)  
 
+----
+
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue1400] or a [pull request][pr].
+
+[issue1400]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2014-checklist/00-toc
+[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [proactive10]: https://owasp.org/www-project-proactive-controls/

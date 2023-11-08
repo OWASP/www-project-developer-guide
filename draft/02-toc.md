@@ -106,8 +106,8 @@ permalink: /draft/
 
 10 **[Metrics](#metrics)**  
 
-11 **[Policy gap evaluation](#policy-gap-evaluation)**  
-11.1 [Guides](#policy-gap-evaluation-guides)  
+11 **[Security gap analysis](#security-gap-analysis)**  
+11.1 [Guides](#security-gap-analysis-guides)  
 11.1.1 [Software Assurance Maturity Model](#software-assurance-maturity-model)  
 11.1.2 [Application Security Verification Standard](#application-security-verification-standard)  
 11.1.3 [Mobile Application Security](#mobile-application-security)  

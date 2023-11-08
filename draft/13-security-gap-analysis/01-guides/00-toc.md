@@ -1,6 +1,6 @@
 ---
 
-title: Policy Gap Evaluation Guides
+title: Security Gap Analysis Guides
 layout: col-document
 tags: OWASP Developer Guide
 contributors:
@@ -11,9 +11,9 @@ order:
 
 {% include breadcrumb.html %}
 
-## 11.1 Policy Gap Evaluation guides
+## 11.1 Security gap analysis guides
 
-**To do**: this should be a brief overview / abstract of the section on the 'Policy Gap Evaluation guides'
+**To do**: this should be a brief overview / abstract of the section on the security gap analysis guides
 
 Sections:
 
@@ -29,7 +29,7 @@ The OWASP Developer Guide is a community effort and this page needs some content
 If you have suggestions then [submit an issue][issue1301] and the project team can assign it to you,
 or submit a [pull request][pr] with some content.
 
-[issue1301]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2013-policy-gap-evaluation/01-guides/00-toc
+[issue1301]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2013-security-gap-analysis/01-guides/00-toc
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 
 \newpage
