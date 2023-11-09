@@ -44,7 +44,7 @@ and so the content is expected to frequently change._
 4.1.3 [Threat Dragon](06-design/01-threat-modeling/03-threat-dragon.md)  
 4.1.4 [Threat Modeling and Cornucopia](06-design/01-threat-modeling/04-cornucopia.md)  
 4.1.5 [Threat Modeling toolkit](06-design/01-threat-modeling/05-toolkit.md)  
-4.2. [Web application checklist](06-design/02-web-app-checklist/toc.md)  
+4.2 [Web application checklist](06-design/02-web-app-checklist/toc.md)  
 4.2.1 [Checklist: Define Security Requirements](06-design/02-web-app-checklist/01-define-security-requirements.md)  
 4.2.2 [Checklist: Leverage Security Frameworks and Libraries](06-design/02-web-app-checklist/02-frameworks-libraries.md)  
 4.2.3 [Checklist: Secure Database Access](06-design/02-web-app-checklist/03-secure-database-access.md)  
@@ -55,6 +55,7 @@ and so the content is expected to frequently change._
 4.2.8 [Checklist: Protect Data Everywhere](06-design/02-web-app-checklist/08-protect-data.md)  
 4.2.9 [Checklist: Implement Security Logging and Monitoring](06-design/02-web-app-checklist/09-logging-monitoring.md)  
 4.2.10 [Checklist: Handle all Errors and Exceptions](06-design/02-web-app-checklist/10-handle-errors-exceptions.md)  
+4.3 [Mobile application checklist](06-design/03-mas-checklist.md)  
 
 5 **[Implementation](07-implementation/toc.md)**  
 5.1 [Documentation](07-implementation/01-documentation/toc.md)  

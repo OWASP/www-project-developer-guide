@@ -100,6 +100,9 @@ docs:
 - title: '4.2.10 Checklist: Handle all Errors and Exceptions'
   url: 06-design/02-web-app-checklist/10-handle-errors-exceptions
 
+- title: '4.3 Mobile application checklist'
+  url: 06-design/03-mas-checklist
+
 - title: '5. Implementation'
   url: 07-implementation/toc
 
