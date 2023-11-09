@@ -11,7 +11,7 @@ order: 1407
 
 {% include breadcrumb.html %}
 
-### 12.7 Checklist: Enforce Access Controls
+### 4.2.7 Checklist: Enforce Access Controls
 
 Access Control (or Authorization) is the process of granting or denying specific requests
 from a user, program, or process.
@@ -50,11 +50,11 @@ and use the checklists below as suggestions for the checklist that has been tail
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue1407] or a [pull request][pr].
+then [submit an issue][issue060207] or a [pull request][pr].
 
 [control7]: https://owasp.org/www-project-proactive-controls/v3/en/c7-enforce-access-controls
 [csaz]: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html
-[issue1407]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2014-checklist/07-access-controls
+[issue060207]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/02-web-app-checklist/07-access-controls
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 [proactive10]: https://owasp.org/www-project-proactive-controls/
 

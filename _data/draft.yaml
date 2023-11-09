@@ -67,6 +67,39 @@ docs:
 - title: '4.1.5 Threat Modeling toolkit'
   url: 06-design/01-threat-modeling/05-toolkit
 
+- title: '4.2 Web application checklist'
+  url: 06-design/02-web-app-checklist/toc
+
+- title: '4.2.1 Checklist: Define Security Requirements'
+  url: 06-design/02-web-app-checklist/01-define-security-requirements
+
+- title: '4.2.2 Checklist: Leverage Security Frameworks and Libraries'
+  url: 06-design/02-web-app-checklist/02-frameworks-libraries
+
+- title: '4.2.3 Checklist: Secure Database Access'
+  url: 06-design/02-web-app-checklist/03-secure-database-access
+
+- title: '4.2.4 Checklist: Encode and Escape Data'
+  url: 06-design/02-web-app-checklist/04-encode-escape-data
+
+- title: '4.2.5 Checklist: Validate All Inputs'
+  url: 06-design/02-web-app-checklist/05-validate-inputs
+
+- title: '4.2.6 Checklist: Implement Digital Identity'
+  url: 06-design/02-web-app-checklist/06-digital-identity
+
+- title: '4.2.7 Checklist: Enforce Access Controls'
+  url: 06-design/02-web-app-checklist/07-access-controls
+
+- title: '4.2.8 Checklist: Protect Data Everywhere'
+  url: 06-design/02-web-app-checklist/08-protect-data
+
+- title: '4.2.9 Checklist: Implement Security Logging and Monitoring'
+  url: 06-design/02-web-app-checklist/09-security-logging-monitoring
+
+- title: '4.2.10 Checklist: Handle all Errors and Exceptions'
+  url: 06-design/02-web-app-checklist/10-handle-errors-exceptions
+
 - title: '5. Implementation'
   url: 07-implementation/toc
 
@@ -255,36 +288,3 @@ docs:
 
 - title: '11.1.3 Mobile Application Security'
   url: 13-security-gap-analysis/01-guides/03-mas
-
-- title: '12. Checklist'
-  url: 14-checklist/toc
-
-- title: '12.1 Checklist: Define Security Requirements'
-  url: 14-checklist/01-define-security-requirements
-
-- title: '12.2 Checklist: Leverage Security Frameworks and Libraries'
-  url: 14-checklist/02-frameworks-libraries
-
-- title: '12.3 Checklist: Secure Database Access'
-  url: 14-checklist/03-secure-database-access
-
-- title: '12.4 Checklist: Encode and Escape Data'
-  url: 14-checklist/04-encode-escape-data
-
-- title: '12.5 Checklist: Validate All Inputs'
-  url: 14-checklist/05-validate-inputs
-
-- title: '12.6 Checklist: Implement Digital Identity'
-  url: 14-checklist/06-digital-identity
-
-- title: '12.7 Checklist: Enforce Access Controls'
-  url: 14-checklist/07-access-controls
-
-- title: '12.8 Checklist: Protect Data Everywhere'
-  url: 14-checklist/08-protect-data
-
-- title: '12.9 Checklist: Implement Security Logging and Monitoring'
-  url: 14-checklist/09-security-logging-monitoring
-
-- title: '12.10 Checklist: Handle all Errors and Exceptions'
-  url: 14-checklist/10-handle-errors-exceptions

@@ -11,7 +11,7 @@ order: 1403
 
 {% include breadcrumb.html %}
 
-### 12.3 Checklist: Secure Database Access
+### 4.2.3 Checklist: Secure Database Access
 
 Ensure that access to all data stores is secure, including both relational databases and NoSQL databases.
 
@@ -54,11 +54,11 @@ and use the checklists below as suggestions for the checklist that has been tail
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue1403] or a [pull request][pr].
+then [submit an issue][issue060203] or a [pull request][pr].
 
 [control3]: https://owasp.org/www-project-proactive-controls/v3/en/c3-secure-database
 [dbsec]: https://cheatsheetseries.owasp.org/cheatsheets/Database_Security_Cheat_Sheet.html
-[issue1403]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2014-checklist/03-secure-database-access
+[issue060203]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/02-web-app-checklist/03-secure-database-access
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 [proactive10]: https://owasp.org/www-project-proactive-controls/
 [query]: https://cheatsheetseries.owasp.org/cheatsheets/Query_Parameterization_Cheat_Sheet.html

@@ -29,6 +29,9 @@ A Secure Development Lifecycle (SDLC) helps to ensure that all security decision
 are explicit choices and result in the correct level of security for the product design.
 Various secure development lifecycles can be used and they generally include threat modeling in the design process.
 
+Checklists are an important tool during the design process;
+they provide an easy reference of knowledge and help avoid repeating design errors and mistakes.
+
 Sections:
 
 4.1 [Threat modeling](01-threat-modeling/toc.md)  
@@ -37,6 +40,17 @@ Sections:
 4.1.3 [Threat Dragon](01-threat-modeling/03-threat-dragon.md)  
 4.1.4 [Threat Modeling and Cornucopia](01-threat-modeling/04-cornucopia.md)  
 4.1.5 [Threat Modeling toolkit](01-threat-modeling/05-toolkit.md)  
+4.2. [Web application checklist](02-web-app-checklist/toc.md)  
+4.2.1 [Checklist: Define Security Requirements](02-web-app-checklist/01-define-security-requirements.md)  
+4.2.2 [Checklist: Leverage Security Frameworks and Libraries](02-web-app-checklist/02-frameworks-libraries.md)  
+4.2.3 [Checklist: Secure Database Access](02-web-app-checklist/03-secure-database-access.md)  
+4.2.4 [Checklist: Encode and Escape Data](02-web-app-checklist/04-encode-escape-data.md)  
+4.2.5 [Checklist: Validate All Inputs](02-web-app-checklist/05-validate-inputs.md)  
+4.2.6 [Checklist: Implement Digital Identity](02-web-app-checklist/06-digital-identity.md)  
+4.2.7 [Checklist: Enforce Access Controls](02-web-app-checklist/07-access-controls.md)  
+4.2.8 [Checklist: Protect Data Everywhere](02-web-app-checklist/08-protect-data.md)  
+4.2.9 [Checklist: Implement Security Logging and Monitoring](02-web-app-checklist/09-logging-monitoring.md)  
+4.2.10 [Checklist: Handle all Errors and Exceptions](02-web-app-checklist/10-handle-errors-exceptions.md)  
 
 ----
 

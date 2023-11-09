@@ -5,13 +5,13 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 1400
+order:
 
 ---
 
 {% include breadcrumb.html %}
 
-## 12. Checklist
+## 4.2. Web application checklist
 
 Checklists are a valuable resource for development teams.
 They provide structure for establishing good practices and processes
@@ -28,23 +28,25 @@ and this initial ASVS checklist can then be expanded using the following checkli
 
 Sections:
 
-12.1 [Checklist: Define Security Requirements](01-define-security-requirements.md)  
-12.2 [Checklist: Leverage Security Frameworks and Libraries](02-frameworks-libraries.md)  
-12.3 [Checklist: Secure Database Access](03-secure-database-access.md)  
-12.4 [Checklist: Encode and Escape Data](04-encode-escape-data.md)  
-12.5 [Checklist: Validate All Inputs](05-validate-inputs.md)  
-12.6 [Checklist: Implement Digital Identity](06-digital-identity.md)  
-12.7 [Checklist: Enforce Access Controls](07-access-controls.md)  
-12.8 [Checklist: Protect Data Everywhere](08-protect-data.md)  
-12.9 [Checklist: Implement Security Logging and Monitoring](09-logging-monitoring.md)  
-12.10 [Checklist: Handle all Errors and Exceptions](10-handle-errors-exceptions.md)  
+4.2.1 [Checklist: Define Security Requirements](#checklist-define-security-requirements)  
+4.2.2 [Checklist: Leverage Security Frameworks and Libraries](#checklist-leverage-security-frameworks-and-libraries)  
+4.2.3 [Checklist: Secure Database Access](#checklist-secure-database-access)  
+4.2.4 [Checklist: Encode and Escape Data](#checklist-encode-and-escape-data)  
+4.2.5 [Checklist: Validate All Inputs](#checklist-validate-all-inputs)  
+4.2.6 [Checklist: Implement Digital Identity](#checklist-implement-digital-identity)  
+4.2.7 [Checklist: Enforce Access Controls](#checklist-enforce-access-controls)  
+4.2.8 [Checklist: Protect Data Everywhere](#checklist-protect-data-everywhere)  
+4.2.9 [Checklist: Implement Security Logging and Monitoring](#checklist-implement-security-logging-and-monitoring)  
+4.2.10 [Checklist: Handle all Errors and Exceptions](#checklist-handle-all-errors-and-exceptions)  
 
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue1400] or a [pull request][pr].
+then [submit an issue][issue0602] or a [pull request][pr].
 
-[issue1400]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2014-checklist/00-toc
+[issue0602]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/02-web-app-checklist/00-toc
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [proactive10]: https://owasp.org/www-project-proactive-controls/
+
+\newpage
