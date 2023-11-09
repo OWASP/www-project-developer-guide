@@ -26,6 +26,7 @@ Sections:
 6.2.3 [Amass](#amass)  
 6.2.4 [Offensive Web Testing Framework](#offensive-web-testing-framework)  
 6.2.5 [Nettacker](#nettacker)  
+6.2.6 [OWASP Secure Headers Project](#secure-headers-project)  
 6.3 [Frameworks](#verification-frameworks)  
 6.3.1 [Glue](#glue)  
 6.3.2 [secureCodeBox](#securecodebox)  

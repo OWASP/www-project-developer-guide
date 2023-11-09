@@ -28,6 +28,7 @@ Sections:
 5.3 [Secure Libraries](#secure-libraries)  
 5.3.1 [Enterprise Security API library](#enterprise-security-api-library)  
 5.3.2 [CSRFGuard library](#csrfguard-library)  
+5.3.3 [OWASP Secure Headers Project](#owasp-secure-headers-project)  
 5.4 [Implementation Do's and Don'ts](#implementation-dos-and-donts)  
 5.4.1 [Container security](#container-security)  
 5.4.2 [Secure coding](#secure-coding)  

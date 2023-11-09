@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 506
+order: 630
 
 ---
 
@@ -19,12 +19,12 @@ and the checklist component MAS Checklist, including its status as an OWASP proj
 #### What is MAS Checklist?
 
 To Do: go into more detail about MAS Checklist so that the developer gains an overview
-of what it provides for them specifically from a requirements point of view.
+of what it provides for them during the design process.
 
 #### Why use it?
 
 To Do: provide more context for around the MAS project and the MAS Checklist to allow developers
-to determine whether to use it in their requirements process.
+to determine whether to use it in their design process.
 
 #### How to use it
 
