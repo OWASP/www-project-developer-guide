@@ -13,8 +13,18 @@ order: 733
 
 ### 5.3.3 OWASP Secure Headers Project
 
-To Do: supply a couple of sentences on the OWASP Secure Headers Project (OSHP)
-including its status as an OWASP project and where to find it.
+The [OWASP Secure Headers Project][oshp] (also called OSHP) describes HTTP response headers
+that your application can use to increase the security of your application.
+Once set, these HTTP response headers can restrict modern browsers from running into easily preventable vulnerabilities.
+The OWASP Secure Headers Project intends to raise awareness and use of these headers.
+
+OSHP is an OWASP Lab Project site contains guidance and downloads on:
+
+* Response Headers
+* Browser Support
+* Best Practices
+* Technical Resources
+* Code Snippets
 
 #### What is OSHP?
 
@@ -39,6 +49,7 @@ If you have suggestions then [submit an issue][issue070303] and the project team
 or submit a [pull request][pr] with some content.
 
 [issue070303]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/03-secure-libraries/03-secure-headers
+[oshp]: https://owasp.org/www-project-secure-headers/
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 
 \newpage

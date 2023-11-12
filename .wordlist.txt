@@ -320,3 +320,5 @@ GRPC
 SPOA
 caddy
 OSHP
+synchronizer
+JavaEE

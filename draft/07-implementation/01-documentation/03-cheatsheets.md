@@ -1,6 +1,6 @@
 ---
 
-title: Cheatsheet Series
+title: Cheat Sheet Series
 layout: col-document
 tags: OWASP Developer Guide
 contributors:
@@ -11,24 +11,27 @@ order: 713
 
 {% include breadcrumb.html %}
 
-### 5.1.3 Cheatsheet Series
+### 5.1.3 Cheat Sheet Series
 
-To Do: supply a couple of sentences on the OWASP Cheatsheet Series documentation project,
-including its status as an OWASP project and where to find it.
+The [OWASP Cheat Sheet Series][cheatsheets] was created to provide a concise collection of high value information
+on a wide range of specific application security topics.
+The cheat sheets are created by various application security professionals who have expertise in specific topics.
 
-#### What is the Cheatsheet Series?
+The Cheat Sheet Series [documentation project][cheat] is an OWASP Flagship Project in active development.
 
-To Do: go into more detail about the Cheatsheet Series so that a developer
+#### What is the Cheat Sheet Series?
+
+To Do: go into more detail about the Cheat Sheet Series so that a developer
 can gain an overview of what this documentation project can provide for them.
 
 #### Why use them?
 
-To Do: provide more context for the Cheatsheet Series that allows developers to determine
+To Do: provide more context for the Cheat Sheet Series that allows developers to determine
 whether to use them in their project.
 
 #### How to apply them
 
-To Do: give a brief outline of how applying the Cheatsheet Series documentation provides value for a web development team.
+To Do: give a brief outline of how applying the Cheat Sheet Series documentation provides value for a web development team.
 Do not repeat the project documentation itself; ideally provide a primer and a pointer to the documentation.
 
 ----
@@ -39,6 +42,8 @@ The OWASP Developer Guide is a community effort and this page needs some content
 If you have suggestions then [submit an issue][issue070103] and the project team can assign it to you,
 or submit a [pull request][pr] with some content.
 
+[cheat]: https://owasp.org/www-project-cheat-sheets/
+[cheatsheets]: https://cheatsheetseries.owasp.org/
 [issue070103]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/01-documentation/03-cheatsheets
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 
