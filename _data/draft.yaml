@@ -67,6 +67,42 @@ docs:
 - title: '4.1.5 Threat Modeling toolkit'
   url: 06-design/01-threat-modeling/05-toolkit
 
+- title: '4.2 Web application checklist'
+  url: 06-design/02-web-app-checklist/toc
+
+- title: '4.2.1 Checklist: Define Security Requirements'
+  url: 06-design/02-web-app-checklist/01-define-security-requirements
+
+- title: '4.2.2 Checklist: Leverage Security Frameworks and Libraries'
+  url: 06-design/02-web-app-checklist/02-frameworks-libraries
+
+- title: '4.2.3 Checklist: Secure Database Access'
+  url: 06-design/02-web-app-checklist/03-secure-database-access
+
+- title: '4.2.4 Checklist: Encode and Escape Data'
+  url: 06-design/02-web-app-checklist/04-encode-escape-data
+
+- title: '4.2.5 Checklist: Validate All Inputs'
+  url: 06-design/02-web-app-checklist/05-validate-inputs
+
+- title: '4.2.6 Checklist: Implement Digital Identity'
+  url: 06-design/02-web-app-checklist/06-digital-identity
+
+- title: '4.2.7 Checklist: Enforce Access Controls'
+  url: 06-design/02-web-app-checklist/07-access-controls
+
+- title: '4.2.8 Checklist: Protect Data Everywhere'
+  url: 06-design/02-web-app-checklist/08-protect-data
+
+- title: '4.2.9 Checklist: Implement Security Logging and Monitoring'
+  url: 06-design/02-web-app-checklist/09-security-logging-monitoring
+
+- title: '4.2.10 Checklist: Handle all Errors and Exceptions'
+  url: 06-design/02-web-app-checklist/10-handle-errors-exceptions
+
+- title: '4.3 Mobile application checklist'
+  url: 06-design/03-mas-checklist
+
 - title: '5. Implementation'
   url: 07-implementation/toc
 
@@ -102,6 +138,9 @@ docs:
 
 - title: '5.3.2 CSRFGuard library'
   url: 07-implementation/03-secure-libraries/02-csrf-guard
+
+- title: '5.3.3 OWASP Secure Headers Project'
+  url: 07-implementation/03-secure-libraries/03-secure-headers  
 
 - title: '5.4 Implementation Do''s and Don''ts'
   url: 07-implementation/04-dos-donts/toc
@@ -159,6 +198,9 @@ docs:
 
 - title: '6.2.5 Nettacker'
   url: 08-verification/02-tools/05-nettacker
+
+- title: '6.2.6 OWASP Secure Headers Project'
+  url: 08-verification/02-tools/06-secure-headers  
 
 - title: '6.3 Frameworks'
   url: 08-verification/03-frameworks/toc
@@ -241,50 +283,17 @@ docs:
 - title: '10. Metrics'
   url: 12-metrics/toc
 
-- title: '11. Policy gap evaluation'
-  url: 13-policy-gap-evaluation/01-guides/toc
+- title: '11. Security gap analysis'
+  url: 13-security-gap-analysis/01-guides/toc
 
 - title: '11.1 Guides'
-  url: 13-policy-gap-evaluation/01-guides/toc
+  url: 13-security-gap-analysis/01-guides/toc
 
 - title: '11.1.1 Software Assurance Maturity Model'
-  url: 13-policy-gap-evaluation/01-guides/01-samm
+  url: 13-security-gap-analysis/01-guides/01-samm
 
 - title: '11.1.2 Application Security Verification Standard'
-  url: 13-policy-gap-evaluation/01-guides/02-asvs
+  url: 13-security-gap-analysis/01-guides/02-asvs
 
 - title: '11.1.3 Mobile Application Security'
-  url: 13-policy-gap-evaluation/01-guides/03-mas
-
-- title: '12. Checklist'
-  url: 14-checklist/toc
-
-- title: '12.1 Checklist: Define Security Requirements'
-  url: 14-checklist/01-define-security-requirements
-
-- title: '12.2 Checklist: Leverage Security Frameworks and Libraries'
-  url: 14-checklist/02-frameworks-libraries
-
-- title: '12.3 Checklist: Secure Database Access'
-  url: 14-checklist/03-secure-database-access
-
-- title: '12.4 Checklist: Encode and Escape Data'
-  url: 14-checklist/04-encode-escape-data
-
-- title: '12.5 Checklist: Validate All Inputs'
-  url: 14-checklist/05-validate-inputs
-
-- title: '12.6 Checklist: Implement Digital Identity'
-  url: 14-checklist/06-digital-identity
-
-- title: '12.7 Checklist: Enforce Access Controls'
-  url: 14-checklist/07-access-controls
-
-- title: '12.8 Checklist: Protect Data Everywhere'
-  url: 14-checklist/08-protect-data
-
-- title: '12.9 Checklist: Implement Security Logging and Monitoring'
-  url: 14-checklist/09-security-logging-monitoring
-
-- title: '12.10 Checklist: Handle all Errors and Exceptions'
-  url: 14-checklist/10-handle-errors-exceptions
+  url: 13-security-gap-analysis/01-guides/03-mas

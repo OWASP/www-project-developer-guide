@@ -76,7 +76,7 @@ There are many OWASP tools and resources to help build security into the SDLC.
     a high degree of confidence that the application or system will be reasonably secure.
     OWASP provides two libraries that can be incorporated in web applications,
     the [Enterprise Security API (ESAPI)][esapi] security control library
-    and [CSRFGuard][csrf] to mitigate the risk of Cross-Site Request Forgery (CSRF) attacks,
+    and [CSRFGuard][csrfguard] to mitigate the risk of Cross-Site Request Forgery (CSRF) attacks,
     that help implement these proactive controls. In addition the OWASP [Cheat Sheet Series][cheat] is a valuable source
     of information and advice on all aspects of applications security.
 
@@ -156,7 +156,7 @@ There are many OWASP tools and resources to help build security into the SDLC.
 #### OWASP resources
 
 * [Application Security Verification Standard (ASVS)][asvs]
-* [CSRFGuard library][csrf]
+* [CSRFGuard library][csrfguard]
 * [Dependency-Check Software Composition Analysis (SCA)][depcheck]
 * [Dependency-Track Continuous SBOM Analysis Platform][deptrack]
 * [Enterprise Security API (ESAPI)][esapi]
@@ -178,7 +178,7 @@ then [submit an issue][issue0402] or a [pull request][pr] .
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [cheat]: https://owasp.org/www-project-cheat-sheets/
 [cornucopia]: https://owasp.org/www-project-cornucopia/
-[csrf]: https://owasp.org/www-project-csrfguard/
+[csrfguard]: https://owasp.org/www-project-csrfguard/
 [champions]: https://owasp.org/www-project-security-champions-guidebook/
 [culture]: https://owasp.org/www-project-security-culture/
 [cyclone]: https://owasp.org/www-project-cyclonedx/

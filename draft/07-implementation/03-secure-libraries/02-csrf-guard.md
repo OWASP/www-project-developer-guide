@@ -13,8 +13,15 @@ order: 732
 
 ### 5.3.2 CSRFGuard library
 
-To Do: supply a couple of sentences on the OWASP CSRFGuard library,
-including its status as an OWASP project and where to find it.
+OWASP [CSRFGuard][csrfguard] is a library that implements a variant of the synchronizer token pattern to mitigate
+the risk of Cross-Site Request Forgery (CSRF) attacks for Java applications.
+
+The OWASP CSRFGuard library is integrated through the use of a JavaEE Filter and exposes various automated
+and manual ways to integrate per-session or pseudo-per-request tokens into HTML.
+When a user interacts with this HTML, CSRF prevention tokens (i.e. cryptographically random synchronizer tokens)
+are submitted with the corresponding HTTP request.
+
+CSRFGuard is an OWASP Flagship Project and is being actively maintained by a pool of international volunteers.
 
 #### What is CSRFGuard?
 
@@ -39,6 +46,7 @@ The OWASP Developer Guide is a community effort and this page needs some content
 If you have suggestions then [submit an issue][issue070302] and the project team can assign it to you,
 or submit a [pull request][pr] with some content.
 
+[csrfguard]: https://owasp.org/www-project-csrfguard/
 [issue070302]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/03-secure-libraries/02-csrf-guard
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 

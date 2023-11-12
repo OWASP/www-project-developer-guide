@@ -13,7 +13,11 @@ order: 740
 
 ## 5.4 Do's and Don'ts
 
-**To do**: this should be a brief overview / abstract of the section on 'Implementation Do's and Don'ts'
+Implementation demands technical knowledge, skill and experience.
+There is no substitute for experience, but learning from past mistakes and the experience of others can go a long way.
+This section of the Developer Guide is a collection of Do's and Don'ts,
+some of which may be directly relevant to any given project and some of which will be less so.
+It is worth considering all of these Do's and Don'ts and picking out the ones that will be of most use.
 
 Sections:
 
@@ -28,11 +32,8 @@ Sections:
 
 ----
 
-![Developer Guide](../../assets/images/dg_wip.png "OWASP Developer Guide")
-
-The OWASP Developer Guide is a community effort and this page needs some content to be added.
-If you have suggestions then [submit an issue][issue0740] and the project team can assign it to you,
-or submit a [pull request][pr] with some content.
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue0740] or a [pull request][pr].
 
 [issue0740]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/04-dos-donts/00-toc
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls

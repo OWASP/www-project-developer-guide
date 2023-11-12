@@ -10,3 +10,8 @@ https://www.lockheedmartin.com
 https://github.com/OWASP/www-project-developer-guide/issues/new
 https://github.com/OWASP/www-project-developer-guide/pulls
 
+# ignore LINDDUN site because it occasionally times out
+https://www.linddun.org/
+
+# automated access to esapi is forbidden
+https://mvnrepository.com/artifact/org.owasp.esapi/esapi

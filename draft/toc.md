@@ -44,6 +44,18 @@ and so the content is expected to frequently change._
 4.1.3 [Threat Dragon](06-design/01-threat-modeling/03-threat-dragon.md)  
 4.1.4 [Threat Modeling and Cornucopia](06-design/01-threat-modeling/04-cornucopia.md)  
 4.1.5 [Threat Modeling toolkit](06-design/01-threat-modeling/05-toolkit.md)  
+4.2 [Web application checklist](06-design/02-web-app-checklist/toc.md)  
+4.2.1 [Checklist: Define Security Requirements](06-design/02-web-app-checklist/01-define-security-requirements.md)  
+4.2.2 [Checklist: Leverage Security Frameworks and Libraries](06-design/02-web-app-checklist/02-frameworks-libraries.md)  
+4.2.3 [Checklist: Secure Database Access](06-design/02-web-app-checklist/03-secure-database-access.md)  
+4.2.4 [Checklist: Encode and Escape Data](06-design/02-web-app-checklist/04-encode-escape-data.md)  
+4.2.5 [Checklist: Validate All Inputs](06-design/02-web-app-checklist/05-validate-inputs.md)  
+4.2.6 [Checklist: Implement Digital Identity](06-design/02-web-app-checklist/06-digital-identity.md)  
+4.2.7 [Checklist: Enforce Access Controls](06-design/02-web-app-checklist/07-access-controls.md)  
+4.2.8 [Checklist: Protect Data Everywhere](06-design/02-web-app-checklist/08-protect-data.md)  
+4.2.9 [Checklist: Implement Security Logging and Monitoring](06-design/02-web-app-checklist/09-logging-monitoring.md)  
+4.2.10 [Checklist: Handle all Errors and Exceptions](06-design/02-web-app-checklist/10-handle-errors-exceptions.md)  
+4.3 [Mobile application checklist](06-design/03-mas-checklist.md)  
 
 5 **[Implementation](07-implementation/toc.md)**  
 5.1 [Documentation](07-implementation/01-documentation/toc.md)  
@@ -57,6 +69,7 @@ and so the content is expected to frequently change._
 5.3 [Secure Libraries](07-implementation/03-secure-libraries/toc.md)  
 5.3.1 [Enterprise Security API library](07-implementation/03-secure-libraries/01-esapi.md)  
 5.3.2 [CSRFGuard library](07-implementation/03-secure-libraries/02-csrf-guard.md)  
+5.3.3 [OWASP Secure Headers Project](07-implementation/03-secure-libraries/03-secure-headers.md)  
 5.4 [Implementation Do's and Don'ts](07-implementation/04-dos-donts/toc.md)  
 5.4.1 [Container security](07-implementation/04-dos-donts/01-container-security.md)  
 5.4.2 [Secure coding](07-implementation/04-dos-donts/02-secure-coding.md)  
@@ -77,6 +90,7 @@ and so the content is expected to frequently change._
 6.2.3 [Amass](08-verification/02-tools/03-amass.md)  
 6.2.4 [Offensive Web Testing Framework](08-verification/02-tools/04-owtf.md)  
 6.2.5 [Nettacker](08-verification/02-tools/05-nettacker.md)  
+6.2.6 [OWASP Secure Headers Project](08-verification/02-tools/06-secure-headers.md)  
 6.3 [Frameworks](08-verification/03-frameworks/toc.md)  
 6.3.1 [Glue](08-verification/03-frameworks/01-glue.md)  
 6.3.2 [secureCodeBox](08-verification/03-frameworks/02-secure-codebox.md)  
@@ -111,20 +125,8 @@ and so the content is expected to frequently change._
 
 10 **[Metrics](12-metrics/toc.md)**  
 
-11 **[Policy gap evaluation](13-policy-gap-evaluation/01-guides/toc.md)**  
-11.1 [Guides](13-policy-gap-evaluation/01-guides/toc.md)  
-11.1.1 [Software Assurance Maturity Model](13-policy-gap-evaluation/01-guides/01-samm.md)  
-11.1.2 [Application Security Verification Standard](13-policy-gap-evaluation/01-guides/02-asvs.md)  
-11.1.3 [Mobile Application Security](13-policy-gap-evaluation/01-guides/03-mas.md)  
-
-14 **[Checklist](14-checklist/toc.md)**  
-14.1 [Checklist: Define Security Requirements](14-checklist/01-define-security-requirements.md)  
-14.2 [Checklist: Leverage Security Frameworks and Libraries](14-checklist/02-frameworks-libraries.md)  
-14.3 [Checklist: Secure Database Access](14-checklist/03-secure-database-access.md)  
-14.4 [Checklist: Encode and Escape Data](14-checklist/04-encode-escape-data.md)  
-14.5 [Checklist: Validate All Inputs](14-checklist/05-validate-inputs.md)  
-14.6 [Checklist: Implement Digital Identity](14-checklist/06-digital-identity.md)  
-14.7 [Checklist: Enforce Access Controls](14-checklist/07-access-controls.md)  
-14.8 [Checklist: Protect Data Everywhere](14-checklist/08-protect-data.md)  
-14.9 [Checklist: Implement Security Logging and Monitoring](14-checklist/09-logging-monitoring.md)  
-14.10 [Checklist: Handle all Errors and Exceptions](14-checklist/10-handle-errors-exceptions.md)  
+11 **[Security gap analysis](13-security-gap-analysis/01-guides/toc.md)**  
+11.1 [Guides](13-security-gap-analysis/01-guides/toc.md)  
+11.1.1 [Software Assurance Maturity Model](13-security-gap-analysis/01-guides/01-samm.md)  
+11.1.2 [Application Security Verification Standard](13-security-gap-analysis/01-guides/02-asvs.md)  
+11.1.3 [Mobile Application Security](13-security-gap-analysis/01-guides/03-mas.md)  

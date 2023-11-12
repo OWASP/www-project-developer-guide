@@ -22,6 +22,7 @@ Sections:
 6.2.3 [Amass](03-amass.md)  
 6.2.4 [Offensive Web Testing Framework](04-owtf.md)  
 6.2.5 [Nettacker](05-nettacker.md)  
+6.2.6 [OWASP Secure Headers Project](06-secure-headers.md)  
 
 ----
 

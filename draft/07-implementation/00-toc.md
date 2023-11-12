@@ -13,7 +13,16 @@ order:
 
 ## 5. Implementation
 
-**To do**: this should be a brief overview / abstract of the section on project implementation
+Implementation is where the application / system begins to take shape; source code is written and tests are created.
+The implementation of the application follows a secure development lifecycle, with security built in from the start.
+
+The implementation will fulfil the security requirements according to the design,
+and be under a secure method of source code control and storage.
+The development team will be referring to documentation advising them of best practices,
+they will be using secure libraries wherever possible in addition to checking and tracking external dependencies.
+
+Much of the skill of implementation comes from experience, and taking into account the Do's and Don'ts
+of secure development is an important knowledge activity in itself.
 
 Sections:
 
@@ -28,6 +37,7 @@ Sections:
 5.3 [Secure Libraries](#secure-libraries)  
 5.3.1 [Enterprise Security API library](#enterprise-security-api-library)  
 5.3.2 [CSRFGuard library](#csrfguard-library)  
+5.3.3 [OWASP Secure Headers Project](#owasp-secure-headers-project)  
 5.4 [Implementation Do's and Don'ts](#implementation-dos-and-donts)  
 5.4.1 [Container security](#container-security)  
 5.4.2 [Secure coding](#secure-coding)  
@@ -40,11 +50,8 @@ Sections:
 
 ----
 
-![Developer Guide](../assets/images/dg_wip.png)
-
-The OWASP Developer Guide is a community effort and this page needs some content to be added.
-If you have suggestions then [submit an issue][issue0700] and the project team can assign it to you,
-or submit a [pull request][pr] with some content.
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue0700] or a [pull request][pr].
 
 [issue0700]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/00-toc
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls

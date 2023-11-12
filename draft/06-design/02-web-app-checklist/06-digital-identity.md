@@ -11,7 +11,7 @@ order: 1406
 
 {% include breadcrumb.html %}
 
-### 12.6 Checklist: Implement Digital Identity
+### 4.2.6 Checklist: Implement Digital Identity
 
 Authentication is the process of verifying that an individual or entity is who they claim to be.
 Session management is a process by which a server maintains the state of the users authentication
@@ -99,14 +99,14 @@ and use the checklists below as suggestions for the checklist that has been tail
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue1406] or a [pull request][pr].
+then [submit an issue][issue060206] or a [pull request][pr].
 
 [control6]: https://owasp.org/www-project-proactive-controls/v3/en/c6-digital-identity
 [csauth]: https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html
 [cspass]: https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html
 [csforgot]: https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html
 [cssession]: https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html
-[issue1406]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2014-checklist/06-digital-identity
+[issue060206]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/02-web-app-checklist/06-digital-identity
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 [proactive10]: https://owasp.org/www-project-proactive-controls/
 

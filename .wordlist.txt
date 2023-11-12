@@ -194,6 +194,7 @@ dataflow
 CAPEC
 LINDDUN
 cyber
+cybersecurity
 OTMP
 VerSprite
 VerSprite's
@@ -318,3 +319,6 @@ golang
 GRPC
 SPOA
 caddy
+OSHP
+synchronizer
+JavaEE

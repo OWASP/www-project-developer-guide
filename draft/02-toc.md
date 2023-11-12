@@ -39,6 +39,18 @@ permalink: /draft/
 4.1.3 [Threat Dragon](#threat-dragon)  
 4.1.4 [Threat Modeling and Cornucopia](#cornucopia)  
 4.1.5 [Threat Modeling toolkit](#threat-modeling-toolkit)  
+4.2 [Web application checklist](#web-application-checklist)  
+4.2.1 [Checklist: Define Security Requirements](#checklist-define-security-requirements)  
+4.2.2 [Checklist: Leverage Security Frameworks and Libraries](#checklist-leverage-security-frameworks-and-libraries)  
+4.2.3 [Checklist: Secure Database Access](#checklist-secure-database-access)  
+4.2.4 [Checklist: Encode and Escape Data](#checklist-encode-and-escape-data)  
+4.2.5 [Checklist: Validate All Inputs](#checklist-validate-all-inputs)  
+4.2.6 [Checklist: Implement Digital Identity](#checklist-implement-digital-identity)  
+4.2.7 [Checklist: Enforce Access Controls](#checklist-enforce-access-controls)  
+4.2.8 [Checklist: Protect Data Everywhere](#checklist-protect-data-everywhere)  
+4.2.9 [Checklist: Implement Security Logging and Monitoring](#checklist-implement-security-logging-and-monitoring)  
+4.2.10 [Checklist: Handle all Errors and Exceptions](#checklist-handle-all-errors-and-exceptions)  
+4.3 [Mobile application checklist](#mobile-application-checklist)  
 
 5 **[Implementation](#implementation)**  
 5.1 [Documentation](#documentation)  
@@ -52,6 +64,7 @@ permalink: /draft/
 5.3 [Secure Libraries](#secure-libraries)  
 5.3.1 [Enterprise Security API library](#enterprise-security-api-library)  
 5.3.2 [CSRFGuard library](#csrfguard-library)  
+5.3.3 [OWASP Secure Headers Project](#owasp-secure-headers-project)  
 5.4 [Implementation Do's and Don'ts](#implementation-dos-and-donts)  
 5.4.1 [Container security](#container-security)  
 5.4.2 [Secure coding](#secure-coding)  
@@ -72,6 +85,7 @@ permalink: /draft/
 6.2.3 [Amass](#amass)  
 6.2.4 [Offensive Web Testing Framework](#offensive-web-testing-framework)  
 6.2.5 [Nettacker](#nettacker)  
+6.2.6 [OWASP Secure Headers Project](#secure-headers-project)  
 6.3 [Frameworks](#verification-frameworks)  
 6.3.1 [Glue](#glue)  
 6.3.2 [secureCodeBox](#securecodebox)  
@@ -106,22 +120,10 @@ permalink: /draft/
 
 10 **[Metrics](#metrics)**  
 
-11 **[Policy gap evaluation](#policy-gap-evaluation)**  
-11.1 [Guides](#policy-gap-evaluation-guides)  
+11 **[Security gap analysis](#security-gap-analysis)**  
+11.1 [Guides](#security-gap-analysis-guides)  
 11.1.1 [Software Assurance Maturity Model](#software-assurance-maturity-model)  
 11.1.2 [Application Security Verification Standard](#application-security-verification-standard)  
 11.1.3 [Mobile Application Security](#mobile-application-security)  
-
-12 **[Checklist](#checklist)**  
-12.1 [Checklist: Define Security Requirements](#checklist-define-security-requirements)  
-12.2 [Checklist: Leverage Security Frameworks and Libraries](#checklist-leverage-security-frameworks-and-libraries)  
-12.3 [Checklist: Secure Database Access](#checklist-secure-database-access)  
-12.4 [Checklist: Encode and Escape Data](#checklist-encode-and-escape-data)  
-12.5 [Checklist: Validate All Inputs](#checklist-validate-all-inputs)  
-12.6 [Checklist: Implement Digital Identity](#checklist-implement-digital-identity)  
-12.7 [Checklist: Enforce Access Controls](#checklist-enforce-access-controls)  
-12.8 [Checklist: Protect Data Everywhere](#checklist-protect-data-everywhere)  
-12.9 [Checklist: Implement Security Logging and Monitoring](#checklist-implement-security-logging-and-monitoring)  
-12.10 [Checklist: Handle all Errors and Exceptions](#checklist-handle-all-errors-and-exceptions)  
 
 \newpage
