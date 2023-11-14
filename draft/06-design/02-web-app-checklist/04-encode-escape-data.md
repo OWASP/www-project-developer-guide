@@ -3,7 +3,7 @@
 title: Encode and Escape Data Checklist
 layout: col-document
 tags: OWASP Developer Guide
-contributors:
+contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 1404
 
