@@ -3,7 +3,7 @@
 title: OWASP Top Ten
 layout: col-document
 tags: OWASP Developer Guide
-contributors:
+contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 405
 
