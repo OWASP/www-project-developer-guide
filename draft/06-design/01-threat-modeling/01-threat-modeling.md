@@ -229,7 +229,7 @@ then that is a perfectly good choice.
 
 * Shostack's [Four Question Framework][4QFW]
 * OWASP [pytm][PYTM] Pythonic Threat Modeling tool
-* OWASP [Threat Dragon][TD] threat modeling tool using dataflow diagrams
+* OWASP [Threat Dragon][tdtm] threat modeling tool using dataflow diagrams
 * [Threagile](https://threagile.io), an open source project that provides for Agile threat modeling
 * Microsoft [Threat Modeling Tool][TMT], a widely used tool throughout the security community and free to download
 * [threatspec](https://github.com/threatspec/threatspec), an open source tool based on comments inline with code
@@ -250,15 +250,15 @@ then [submit an issue][issue060101] or a [pull request][pr] .
 [linddun]: https://www.linddun.org/
 [nist-cvss]: https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator
 [otm]: https://owasp.org/www-project-threat-model/
-[tmcs]: https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html
-[tmpb]: https://owasp.org/www-project-threat-modeling-playbook/
 [pasta]: https://versprite.com/blog/what-is-pasta-threat-modeling/
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 [PYTM]: https://owasp.org/www-project-pytm/
 [samm]: https://owaspsamm.org/about/
 [stride]: https://en.wikipedia.org/wiki/STRIDE_%28security%29
+[tmcs]: https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html
+[tmpb]: https://owasp.org/www-project-threat-modeling-playbook/
 [tmproject]: https://owasp.org/www-project-threat-model/
-[TD]: https://owasp.org/www-project-threat-dragon/
+[tdtm]: https://owasp.org/www-project-threat-dragon/
 [TM]: https://owasp.org/www-community/Threat_Modeling
 [TMP]: https://owasp.org/www-community/Threat_Modeling_Process
 [TMT]: https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool
