@@ -68,7 +68,7 @@ There are many OWASP tools and resources to help build security into the SDLC.
 
 * Design: it is important to design security into the development - it is never too late to do this
     but the earlier the better (and easier). OWASP provides two tools, [Pythonic Threat Modeling][pytm]
-    and [Threat Dragon][td], for threat modeling along with security gamification using [Cornucopia][cornucopia].
+    and [Threat Dragon][tdtm], for threat modeling along with security gamification using [Cornucopia][cornucopia].
 
 * Implementation: the OWASP [Top 10 Proactive Controls][proactive10] project states that they are
     "the most important control and control categories that every architect and developer should absolutely,
@@ -163,7 +163,7 @@ There are many OWASP tools and resources to help build security into the SDLC.
 * [Integration Standards project Application Wayfinder][wayfinder]
 * [Mobile Application Security (MAS)][mas]
 * [Pythonic Threat Modeling][pytm]
-* [Threat Dragon][td]
+* [Threat Dragon][tdtm]
 * [Security RAT (Security Requirement Automation Tool)][srat]
 
 <script type="text/javascript" src="https://app.diagrams.net/js/viewer-static.min.js"></script>
@@ -204,7 +204,7 @@ then [submit an issue][issue0402] or a [pull request][pr] .
 [shepherd]: https://owasp.org/www-project-security-shepherd/
 [snakes]: https://owasp.org/www-project-snakes-and-ladders/
 [srat]: https://owasp.org/www-project-securityrat/
-[td]: https://owasp.org/www-project-threat-dragon/
+[tdtm]: https://owasp.org/www-project-threat-dragon/
 [top10]: https://owasp.org/www-project-top-ten/
 [wayfinder]: https://owasp.org/www-project-integration-standards/
 [wstg]: https://owasp.org/www-project-web-security-testing-guide/

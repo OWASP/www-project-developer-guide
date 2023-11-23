@@ -13,8 +13,14 @@ order:
 
 ## 4. Design
 
-Referring to the [Secure Product Design Cheat Sheet][spdcs], the purpose of secure product design is to ensure
-that all products meet or exceed the security requirements laid down by the organization.
+Security Architecture is one of the practices that is described in the [Software Assurance Maturity Model (SAMM)][sammsa].
+Referring to the [Secure Product Design Cheat Sheet][spdcs], the purpose of secure architecture and design is to ensure
+that all products meet or exceed the security requirements laid down by the organization,
+focusing on the security linked to components and technologies used during the development of the application.
+
+Secure Architecture Design looks at the selection and composition of components that form the foundation of the solution.
+Technology Management looks at the security of supporting technologies used during development, deployment and operations,
+such as development stacks and tooling, deployment tooling, and operating systems and tooling.
 
 A secure design will help establish secure defaults, minimise the attack surface area
 and fail securely to well-defined and understood defaults.
@@ -29,7 +35,7 @@ A Secure Development Lifecycle (SDLC) helps to ensure that all security decision
 are explicit choices and result in the correct level of security for the product design.
 Various secure development lifecycles can be used and they generally include threat modeling in the design process.
 
-Checklists are an important tool during the design process;
+Checklists and Cheat Sheets are an important tool during the design process;
 they provide an easy reference of knowledge and help avoid repeating design errors and mistakes.
 
 Sections:
@@ -60,6 +66,7 @@ then [submit an issue][issue0600] or a [pull request][pr].
 
 [issue0600]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/00-toc
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+[sammsa]: https://owaspsamm.org/model/design/security-architecture/
 [spdcs]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet.html
 
 \newpage
