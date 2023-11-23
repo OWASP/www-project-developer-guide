@@ -324,3 +324,9 @@ synchronizer
 JavaEE
 MacOS
 GRC
+centric
+Graphviz
+VM
+PlantUML
+OpenJDK
+remediations

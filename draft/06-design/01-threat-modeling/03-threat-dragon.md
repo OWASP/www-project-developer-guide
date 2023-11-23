@@ -13,7 +13,7 @@ order: 613
 
 ### 4.1.3 Threat Dragon
 
-The OWASP [Threat Dragon][tdtm] project provides a practical tool for threat modeling
+The OWASP [Threat Dragon][tdtm] project provides a diagrammatic tool for threat modeling
 applications, APIs and software systems.
 It is an OWASP Lab Project with [several releases][tddownload] and is in active development.
 
