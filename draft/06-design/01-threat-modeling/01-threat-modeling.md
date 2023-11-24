@@ -116,7 +116,7 @@ Often threat modeling is a conceptual activity rather than a rigorous process,
 where development teams are brought together and asked to think up ways of subverting their system.
 To provide some structure it is useful to start with Shostack's [Four Question Framework][4QFW]:
 
-**1 What are we building**?
+**1 What are we working on**?
 
 As a starting point the scope of the Threat Model should be defined.
 This will require an understanding of the application that is being built,
@@ -126,8 +126,10 @@ and some examples of inputs for the threat model could be:
 * Dataflow transitions
 * Data classifications
 
+It is common to represent the answers to this question with one or more data flow diagrams and often supplemental diagrams like message sequence diagrams.
+
 It is best to gather people from different roles with sufficient technical and risk awareness
-so that they can agree on the framework to be used during the threat modeling exercise.
+so that they can agree on the framework to be used during the threat modeling exercise. 
 
 **2 What can go wrong**?
 
