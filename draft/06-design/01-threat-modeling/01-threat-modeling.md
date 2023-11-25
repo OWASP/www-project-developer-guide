@@ -140,7 +140,7 @@ so that they can agree on the framework to be used during the threat modeling ex
 
 This is a research activity to find the main threats that apply to your application.
 There are many ways to approach the question, including open discussion or using a structure to help think it through.
-Techniques and methodoligies to consider include [CIA][cia], [STRIDE][stride], [LINDDUN][linddun],
+Techniques and methodologies to consider include [CIA][cia], [STRIDE][stride], [LINDDUN][linddun],
 [cyber kill chains][chains], [PASTA][pasta], common attack patterns ([CAPEC][capec]) and others.
 
 There are resources available that will help with identifying threats and vulnerabilities.
