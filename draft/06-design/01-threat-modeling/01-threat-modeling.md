@@ -19,7 +19,11 @@ Much of the material in this section is drawn from the OWASP [Threat Model proje
 
 #### Overview
 
-Threat modeling work to discover what can go wrong with a system and to determine what to do about it often results in threat model deliverables. Those take many forms, including system models and diagrams, lists of threats, mitigations or assumptions, meeting notes, and more. Sometimes those are assembled into a single " threat model" document, a structured representation of all the information
+Threat modeling work to discover what can go wrong with a system and to determine what to do about it
+often results in threat model deliverables.
+Those take many forms including system models and diagrams, lists of threats, mitigations or assumptions,
+meeting notes, and more.
+Sometimes those are assembled into a single "threat model" document, a structured representation of all the information
 that affects the security of an application.
 In essence, it is a view of the application and its environment through security glasses.
 
@@ -126,10 +130,11 @@ and some examples of inputs for the threat model could be:
 * Dataflow transitions
 * Data classifications
 
-It is common to represent the answers to this question with one or more data flow diagrams and often supplemental diagrams like message sequence diagrams.
+It is common to represent the answers to this question with one or more data flow diagrams
+and often supplemental diagrams like message sequence diagrams.
 
 It is best to gather people from different roles with sufficient technical and risk awareness
-so that they can agree on the framework to be used during the threat modeling exercise. 
+so that they can agree on the framework to be used during the threat modeling exercise.
 
 **2 What can go wrong**?
 
