@@ -19,7 +19,11 @@ Much of the material in this section is drawn from the OWASP [Threat Model proje
 
 #### Overview
 
-A threat model is essentially a structured representation of all the information
+Threat modeling work to discover what can go wrong with a system and to determine what to do about it
+often results in threat model deliverables.
+Those take many forms including system models and diagrams, lists of threats, mitigations or assumptions,
+meeting notes, and more.
+Sometimes those are assembled into a single "threat model" document, a structured representation of all the information
 that affects the security of an application.
 In essence, it is a view of the application and its environment through security glasses.
 
@@ -32,7 +36,7 @@ using one of the common strategies: mitigate, eliminate, transfer or accept the 
 
 There are many reasons for doing threat modeling but the most important one is that this activity is _useful_ ,
 it is probably the only stage in a development lifecycle where a team sits back and asks:
-'If I was a very clever malicious actor with plenty of time, how would I subvert the application for my own purposes?'.
+'What can go wrong?'
 There are other reasons for threat modeling, for example standards compliance or analysis for disaster recovery,
 but the main aim of threat modeling is to remedy (possible) vulnerabilities before the malicious actors can exploit them.
 
@@ -46,9 +50,9 @@ distributed systems, things in the Internet of things, business processes, etc.
 There are very few technical products which cannot be threat modeled;
 more or less rewarding, depending on how much it communicates, or interacts, with the world.
 
-The threat model is a record of the threat modeling process, and often includes:
+A threat model document is a record of the threat modeling process, and often includes:
 
-* the description / design / model of what you’re worried about
+* a description / design / model of what you’re worried about
 * a list of assumptions that can be checked or challenged in the future as the threat landscape changes
 * potential threats to the system
 * remediation / actions to be taken for each threat
@@ -116,7 +120,7 @@ Often threat modeling is a conceptual activity rather than a rigorous process,
 where development teams are brought together and asked to think up ways of subverting their system.
 To provide some structure it is useful to start with Shostack's [Four Question Framework][4QFW]:
 
-**1 What are we building**?
+**1 What are we working on**?
 
 As a starting point the scope of the Threat Model should be defined.
 This will require an understanding of the application that is being built,
@@ -125,6 +129,9 @@ and some examples of inputs for the threat model could be:
 * Architecture diagrams
 * Dataflow transitions
 * Data classifications
+
+It is common to represent the answers to this question with one or more data flow diagrams
+and often supplemental diagrams like message sequence diagrams.
 
 It is best to gather people from different roles with sufficient technical and risk awareness
 so that they can agree on the framework to be used during the threat modeling exercise.
