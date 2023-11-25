@@ -3,7 +3,7 @@
 title: Threat Modeling in Practice
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors: Adam Shostack, Jon Gadsden
 document: OWASP Developer Guide
 order: 611
 
@@ -140,8 +140,13 @@ so that they can agree on the framework to be used during the threat modeling ex
 
 This is a research activity to find the main threats that apply to your application.
 There are many ways to approach the question, including open discussion or using a structure to help think it through.
-Techniques that can help include [CIA][cia], [STRIDE][stride], [LINDDUN][linddun],
+Techniques and methodoligies to consider include [CIA][cia], [STRIDE][stride], [LINDDUN][linddun],
 [cyber kill chains][chains], [PASTA][pasta], common attack patterns ([CAPEC][capec]) and others.
+
+There are resources available that will help with identifying threats and vulnerabilities.
+OWASP provide a set of cards, [Cornucopia][corncards], that provide suggestions and explanations for general vulnerabilities.
+The game [Elevation of Privileges][eop] threat modeling card game is an easy way to get started with threat modeling,
+and there is the OWASP version of [Snakes and Ladders][snakes] that truly gamifies these activities.
 
 **3 What are we going to do about that**?
 
@@ -207,9 +212,9 @@ although you might ask the team using the drawing board how they implement their
 **Brevity is paramount**:
 
 It is very easy to create a threat model that looks a lot like a system diagram, with many components and data flows.
-This makes for a convincing diagram, but it is not a model specific to the threat of exploits,
-instead concentrate on the attack / threat surfaces
-and be robust in consolidating multiple system components into one threat model component.
+This makes for a convincing diagram, but it is not a model specific to the threat of exploits.
+Instead concentrate on the attack / threat surfaces and be robust in consolidating multiple system components
+into one threat model component.
 This will keep the number of components and dataflows manageable, and focuses the discussion on what matters most:
 malicious actors (external or internal) trying to subvert your system.
 
@@ -231,6 +236,8 @@ then that is a perfectly good choice.
 * [The Four Question Framework For Threat Modeling](https://youtu.be/Yt0PhyEdZXU) 60 second video
 * Lockheed's [Cyber Kill Chain][chains]
 * VerSprite's Process for Attack Simulation and Threat Analysis ([PASTA][pasta])
+* [Threat Modeling: Designing for Security][TMdesigning]
+* [Threat Modeling: A Practical Guide for Development Teams][TMpractical]
 
 #### Resources
 
@@ -253,6 +260,8 @@ then [submit an issue][issue060101] or a [pull request][pr] .
 [capec]: https://capec.mitre.org/
 [chains]: https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html
 [cia]: https://www.nccoe.nist.gov/publication/1800-25/VolA/index.html
+[corncards]: https://owasp.org/www-project-cornucopia/
+[eop]: https://shostack.org/games/elevation-of-privilege
 [issue060101]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/01-threat-modeling/01-threat-modeling
 [linddun]: https://www.linddun.org/
 [nist-cvss]: https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator
@@ -261,6 +270,7 @@ then [submit an issue][issue060101] or a [pull request][pr] .
 [pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 [PYTM]: https://owasp.org/www-project-pytm/
 [samm]: https://owaspsamm.org/about/
+[snakes]: https://owasp.org/www-project-snakes-and-ladders/
 [stride]: https://en.wikipedia.org/wiki/STRIDE_%28security%29
 [tmcs]: https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html
 [tmpb]: https://owasp.org/www-project-threat-modeling-playbook/
@@ -268,6 +278,8 @@ then [submit an issue][issue060101] or a [pull request][pr] .
 [tdtm]: https://owasp.org/www-project-threat-dragon/
 [TM]: https://owasp.org/www-community/Threat_Modeling
 [TMP]: https://owasp.org/www-community/Threat_Modeling_Process
+[TMdesigning]: https://shostack.org/books/threat-modeling-book
+[TMpractical]: https://threatmodeling.dev/
 [TMT]: https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool
 
 \newpage
