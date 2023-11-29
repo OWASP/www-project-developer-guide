@@ -6,12 +6,12 @@
 ## OWASP Foundation Developer Guide project
 
 This repo is the source for the OWASP Developer Guide project [web pages][pages]
-and also the [developer guide][draftGuide] itself
+and also the [developer guide][draftguide] itself.
 
 ## Developer Guide
 
 This guide is one of the original documents from OWASP and so has a long history.
-The [original DevGuide repository][devGuide] has many of the [previous versions][versions]
+The [original DevGuide repository][devguide] has many of the [previous versions][versions]
 going back to the [original version 1.0][original] from 2002.
 Note that the original DevGuide repository has been deprecated in favour of this one.
 
@@ -33,17 +33,17 @@ is via the OWASP Slack [#project-developer-guide][project] project channel
 
 ### Project leaders / editors
 
-* [Andra Lezza](mailto:andra.lezza@owasp.org)
-* [Shruti Kulkarni](mailto:shruti.kulkarni@owasp.org)
-* [Vandana Verma](vandana.verma@owasp.org)
-* [Harold Blankenship](mailto:harold.blankenship@owasp.org)
-* [Jon Gadsden](mailto:jon.gadsden@owasp.org)
+- [Andra Lezza](mailto:andra.lezza@owasp.org)
+- [Shruti Kulkarni](mailto:shruti.kulkarni@owasp.org)
+- [Vandana Verma](vandana.verma@owasp.org)
+- [Harold Blankenship](mailto:harold.blankenship@owasp.org)
+- [Jon Gadsden](mailto:jon.gadsden@owasp.org)
 
 [conduct]: code_of_conduct.md
 [guide]: contributing.md
-[devGuide]: https://github.com/OWASP/DevGuide
+[devguide]: https://github.com/OWASP/DevGuide
 [draft]: draft
-[draftGuide]: https://owasp.org/www-project-developer-guide/draft/
+[draftguide]: https://owasp.org/www-project-developer-guide/draft/
 [issues]: https://github.com/OWASP/www-project-developer-guide/issues/new/choose
 [original]: https://github.com/OWASP/DevGuide/blob/1d24d140de3724b6f95655e53b8d0cc6689fbfd8/DevGuide1.0/OWASPBuildingSecureWebApplicationsAndWebServices-V1.0.pdf
 [pages]: https://owasp.org/www-project-developer-guide/
