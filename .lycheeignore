@@ -15,3 +15,6 @@ https://www.linddun.org/
 
 # automated access to esapi is forbidden
 https://mvnrepository.com/artifact/org.owasp.esapi/esapi
+
+# do not harass dockerhub
+https://hub.docker.com/r/owasp/threat-dragon/tags
