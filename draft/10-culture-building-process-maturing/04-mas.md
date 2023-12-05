@@ -40,9 +40,9 @@ Do not repeat the MAS project documentation itself; ideally provide a primer and
 
 The OWASP Developer Guide is a community effort and this page needs some content to be added.
 If you have suggestions then [submit an issue][issue1004] and the project team can assign it to you,
-or submit a [pull request][pr] with some content.
+or provide new content [direct on GitHub][edit1004].
 
 [issue1004]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2010-culture-building-process-maturing/04-mas
-[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+[edit1004]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/10-culture-building-process-maturing/04-mas.md
 
 \newpage

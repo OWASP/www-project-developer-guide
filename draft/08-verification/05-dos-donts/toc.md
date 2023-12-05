@@ -27,7 +27,7 @@ Sections:
 
 The OWASP Developer Guide is a community effort and this page needs some content to be added.
 If you have suggestions then [submit an issue][issue0850] and the project team can assign it to you,
-or submit a [pull request][pr] with some content.
+or provide new content [direct on GitHub][edit0850].
 
 [issue0850]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2008-verification/05-dos-donts/00-toc
-[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+[edit0850]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/05-dos-donts/00-toc.md

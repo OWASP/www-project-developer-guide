@@ -27,7 +27,7 @@ Sections:
 
 The OWASP Developer Guide is a community effort and this page needs some content to be added.
 If you have suggestions then [submit an issue][issue0710] and the project team can assign it to you,
-or submit a [pull request][pr] with some content.
+or provide new content [direct on GitHub][edit0710].
 
 [issue0710]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/01-documentation/00-toc
-[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+[edit0710]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/01-documentation/toc.md

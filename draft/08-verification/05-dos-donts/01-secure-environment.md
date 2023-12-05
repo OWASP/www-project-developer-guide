@@ -68,9 +68,9 @@ Some of these are language specific and others have more general applicability.
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue080501] or a [pull request][pr] .
+then [submit an issue][issue080501] or [edit on GitHub][edit080501].
 
 [issue080501]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2008-verification/05-dos-donts/01-secure-environment
-[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+[edit080501]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/05-dos-donts/01-secure-environment.md
 
 \newpage

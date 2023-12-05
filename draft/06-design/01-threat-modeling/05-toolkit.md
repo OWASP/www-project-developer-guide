@@ -31,11 +31,11 @@ but this is open to discussion
 
 The OWASP Developer Guide is a community effort and this page needs some content to be added.
 If you have suggestions then [submit an issue][issue060105] and the project team can assign it to you,
-or submit a [pull request][pr] with some content.
+or provide new content [direct on GitHub][edit060105].
 
 [asacs]: https://cheatsheetseries.owasp.org/cheatsheets/Attack_Surface_Analysis_Cheat_Sheet.html
 [issue060105]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/01-threat-modeling/05-toolkit
-[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+[edit060105]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/01-threat-modeling/05-toolkit.md
 [toolkit]: https://www.youtube.com/watch?v=KGy_KCRUGd4
 [tmcs]: https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html
 [tmpb]: https://owasp.org/www-project-threat-modeling-playbook/

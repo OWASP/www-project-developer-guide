@@ -39,9 +39,9 @@ Do not repeat the MAS project documentation itself; ideally provide a primer and
 
 The OWASP Developer Guide is a community effort and this page needs some content to be added.
 If you have suggestions then [submit an issue][issue0506] and the project team can assign it to you,
-or submit a [pull request][pr] with some content.
+or provide new content [direct on GitHub][edit0506].
 
 [issue0506]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-requirements/06-mas
-[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+[edit0506]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/05-requirements/06-mas.md
 
 \newpage

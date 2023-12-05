@@ -42,9 +42,9 @@ Sections:
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0602] or a [pull request][pr].
+then [submit an issue][issue0602] or [edit on GitHub][edit0602].
 
 [issue0602]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/02-web-app-checklist/00-toc
-[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+[edit0602]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/02-web-app-checklist/toc.md
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [proactive10]: https://owasp.org/www-project-proactive-controls/

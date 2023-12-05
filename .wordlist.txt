@@ -302,6 +302,7 @@ IAM
 Playbook
 PyGoat
 WebGoat
+WebWolf
 CRS
 ModSecurity
 Don'ts
@@ -330,5 +331,6 @@ VM
 PlantUML
 OpenJDK
 remediations
+localhost
 deliverables
 gamifies

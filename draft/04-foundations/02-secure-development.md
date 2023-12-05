@@ -151,7 +151,7 @@ There are many OWASP tools and resources to help build security into the SDLC.
 * [Security Shepherd][shepherd]
 * [Snakes And Ladders][snakes]
 * [Top Ten Web Application security risks][top10]
-* [WebGoat][goat]
+* [WebGoat][webgoat]
 
 #### OWASP resources
 
@@ -171,7 +171,7 @@ There are many OWASP tools and resources to help build security into the SDLC.
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0402] or a [pull request][pr] .
+then [submit an issue][issue0402] or [edit on GitHub][edit0402].
 
 [amass]: https://owasp.org/www-project-amass/
 [api]: https://owasp.org/www-project-api-security/
@@ -189,14 +189,13 @@ then [submit an issue][issue0402] or a [pull request][pr] .
 [esapi]: https://owasp.org/www-project-enterprise-security-api/
 [github]: https://github.com/
 [gitlab]: https://about.gitlab.com/
-[goat]: https://owasp.org/www-project-webgoat/
 [issue0402]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/02-secure-development
 [juice]: https://owasp.org/www-project-juice-shop/
 [mas]: https://mas.owasp.org/
 [mobile10]: https://owasp.org/www-project-mobile-top-10/
 [net]: https://owasp.org/www-project-nettacker/
 [owtf]: https://owasp.org/www-project-owtf/
-[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+[edit0402]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/04-foundations/02-secure-development.md
 [proactive10]: https://owasp.org/www-project-proactive-controls/
 [pulse]: https://owasp.org/www-project-code-pulse/
 [pytm]: https://owasp.org/www-project-pytm/
@@ -207,6 +206,7 @@ then [submit an issue][issue0402] or a [pull request][pr] .
 [tdtm]: https://owasp.org/www-project-threat-dragon/
 [top10]: https://owasp.org/www-project-top-ten/
 [wayfinder]: https://owasp.org/www-project-integration-standards/
+[webgoat]: https://owasp.org/www-project-webgoat/
 [wstg]: https://owasp.org/www-project-web-security-testing-guide/
 [zap]: https://www.zaproxy.org/
 

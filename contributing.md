@@ -1,4 +1,4 @@
-<img src="assets/images/dg_logo_bbd.png" height="220px"/>
+<img src="assets/images/dg_logo_bbd.png" alt="DevGuide logo" height="220px"/>
 
 ### Contributing
 

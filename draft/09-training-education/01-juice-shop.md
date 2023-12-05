@@ -36,9 +36,9 @@ Do not repeat the project documentation itself; ideally provide a primer and a p
 
 The OWASP Developer Guide is a community effort and this page needs some content to be added.
 If you have suggestions then [submit an issue][issue0901] and the project team can assign it to you,
-or submit a [pull request][pr] with some content.
+or provide new content [direct on GitHub][edit0901].
 
 [issue0901]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2009-training-education/01-juice-shop
-[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+[edit0901]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/01-juice-shop.md
 
 \newpage

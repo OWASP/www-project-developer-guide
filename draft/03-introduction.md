@@ -69,14 +69,14 @@ the Wayfinder maps out many OWASP tools and documents, the Developer Guide provi
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue03] or a [pull request][pr] .
+then [submit an issue][issue03] or [edit on GitHub][edit03].
 
 [about]: https://owasp.org/about/
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [cheat]: https://owasp.org/www-project-cheat-sheets/
+[edit03]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/03-introduction.md
 [issue03]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2003-introduction
 [mas]: https://mas.owasp.org/
-[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 [proactive10]: https://owasp.org/www-project-proactive-controls/
 [samm]: https://owaspsamm.org/about/
 [top10]: https://owasp.org/www-project-top-ten/

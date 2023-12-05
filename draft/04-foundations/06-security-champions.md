@@ -85,10 +85,10 @@ increase the effectiveness of the application security team and improve the secu
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0406] or a [pull request][pr] .
+then [submit an issue][issue0406] or [edit on GitHub][edit0406].
 
 [issue0406]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/06-security-champions
-[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+[edit0406]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/04-foundations/06-security-champions.md
 [sammoc]: https://owaspsamm.org/model/governance/education-and-guidance/stream-b/
 [scguide]: https://owasp.org/www-project-security-champions-guidebook/
 [scplaybook]: https://github.com/c0rdis/security-champions-playbook
