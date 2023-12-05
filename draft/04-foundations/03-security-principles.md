@@ -150,7 +150,7 @@ In addition open source components have the benefit of 'many eyes' and are likel
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0403] or a [pull request][pr] .
+then [submit an issue][issue0403] or [edit on GitHub][edit0403].
 
 [ancs]: https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html
 [azcs]: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html
@@ -158,7 +158,7 @@ then [submit an issue][issue0403] or a [pull request][pr] .
 [did]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet.html#2-the-principle-of-defense-in-depth
 [issue0403]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/03-security-principles
 [elp]: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html#enforce-least-privileges
-[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+[edit0403]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/04-foundations/03-security-principles.md
 [sop]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet.html#1-the-principle-of-least-privilege-and-separation-of-duties
 [spdcs]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet.html
 

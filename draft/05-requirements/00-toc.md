@@ -37,11 +37,9 @@ Sections:
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0500] or a [pull request][pr].
+The OWASP Developer Guide is a community effort; if there is something that needs changing then [submit an issue][issue0500].
 
 [control1]: https://owasp.org/www-project-proactive-controls/v3/en/c1-security-requirements
 [issue0500]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-requirements/00-toc
-[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
 
 \newpage

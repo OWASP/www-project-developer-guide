@@ -76,10 +76,10 @@ How can it be addressed:
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue070404] or a [pull request][pr] .
+then [submit an issue][issue070404] or [edit on GitHub][edit070404].
 
 [issue070404]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/04-dos-donts/04-application-spoofing
-[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+[edit070404]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/04-dos-donts/04-application-spoofing.md
 [urdp]: https://www.icann.org/resources/pages/help/dndr/udrp-en
 
 \newpage

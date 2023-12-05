@@ -39,9 +39,9 @@ Do not repeat the MAS project documentation itself; ideally provide a primer and
 
 The OWASP Developer Guide is a community effort and this page needs some content to be added.
 If you have suggestions then [submit an issue][issue130103] and the project team can assign it to you,
-or submit a [pull request][pr] with some content.
+or provide new content [direct on GitHub][edit130103].
 
 [issue130103]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2013-security-gap-analysis/01-guides/03-mas
-[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+[edit130103]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/13-security-gap-analysis/01-guides/03-mas.md
 
 \newpage

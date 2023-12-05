@@ -41,9 +41,9 @@ Do not repeat the project documentation itself; ideally provide a primer and a p
 
 The OWASP Developer Guide is a community effort and this page needs some content to be added.
 If you have suggestions then [submit an issue][issue1101] and the project team can assign it to you,
-or submit a [pull request][pr] with some content.
+or provide new content [direct on GitHub][edit1101].
 
 [issue1101]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2011-operation/01-modsecurity-crs
-[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+[edit1101]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/11-operation/01-modsecurity-crs.md
 
 \newpage

@@ -27,9 +27,9 @@ to determine whether to use it in their training and education programs, and its
 
 The OWASP Developer Guide is a community effort and this page needs some content to be added.
 If you have suggestions then [submit an issue][issue0908] and the project team can assign it to you,
-or submit a [pull request][pr] with some content.
+or provide new content [direct on GitHub][edit0908].
 
 [issue0908]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2009-training-education/08-snakes-ladders
-[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+[edit0908]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/08-snakes-ladders.md
 
 \newpage

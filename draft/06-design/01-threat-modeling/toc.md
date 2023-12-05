@@ -37,8 +37,8 @@ Sections:
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0601] or a [pull request][pr].
+then [submit an issue][issue0601] or [edit on GitHub][edit0601].
 
 [issue0601]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/01-threat-modeling/00-toc
-[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+[edit0601]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/01-threat-modeling/toc.md
 [tmcs]: https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html

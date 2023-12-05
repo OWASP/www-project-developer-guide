@@ -36,9 +36,9 @@ Do not repeat the project documentation itself; ideally provide a primer and a p
 
 The OWASP Developer Guide is a community effort and this page needs some content to be added.
 If you have suggestions then [submit an issue][issue0504] and the project team can assign it to you,
-or submit a [pull request][pr] with some content.
+or provide new content [direct on GitHub][edit0504].
 
 [issue0504]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-requirements/04-security-rat
-[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+[edit0504]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/05-requirements/04-security-rat.md
 
 \newpage

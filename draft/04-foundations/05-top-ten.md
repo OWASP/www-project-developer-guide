@@ -192,7 +192,7 @@ Listed below are the versions up to the latest in 2021, which was released to ma
 ----
 
 The OWASP Developer Guide is a community effort; if you see something that needs changing
-then [submit an issue][issue0405] or a [pull request][pr] .
+then [submit an issue][issue0405] or [edit on GitHub][edit0405].
 
 [a01]: https://owasp.org/Top10/A01_2021-Broken_Access_Control/
 [a01cs]: https://cheatsheetseries.owasp.org/IndexTopTen.html#a012021-broken-access-control
@@ -221,7 +221,7 @@ then [submit an issue][issue0405] or a [pull request][pr] .
 [issue0405]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/05-top-ten
 [lcnc10]: https://owasp.org/www-project-top-10-low-code-no-code-security-risks/
 [mobile10]: https://owasp.org/www-project-mobile-top-10/
-[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+[edit0405]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/04-foundations/05-top-ten.md
 [privacy10]: https://owasp.org/www-project-top-10-privacy-risks/
 [proactive10]: https://owasp.org/www-project-proactive-controls/
 [samm]: https://owaspsamm.org/about/

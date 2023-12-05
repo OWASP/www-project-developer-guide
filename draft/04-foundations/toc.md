@@ -31,7 +31,7 @@ Sections:
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0400] or a [pull request][pr].
+then [submit an issue][issue0400] or [edit on GitHub][edit0400].
 
 [issue0400]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/00-toc
-[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+[edit0400]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/04-foundations/toc.md

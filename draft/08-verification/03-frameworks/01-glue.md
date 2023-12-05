@@ -36,9 +36,9 @@ Do not repeat the project documentation itself; ideally provide a primer and a p
 
 The OWASP Developer Guide is a community effort and this page needs some content to be added.
 If you have suggestions then [submit an issue][issue080301] and the project team can assign it to you,
-or submit a [pull request][pr] with some content.
+or provide new content [direct on GitHub][edit080301].
 
 [issue080301]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2008-verification/03-frameworks/01-glue
-[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+[edit080301]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/03-frameworks/01-glue.md
 
 \newpage

@@ -32,9 +32,9 @@ whether to use it in their training and education program.
 
 The OWASP Developer Guide is a community effort and this page needs some content to be added.
 If you have suggestions then [submit an issue][issue0905] and the project team can assign it to you,
-or submit a [pull request][pr] with some content.
+or provide new content [direct on GitHub][edit0905].
 
 [issue0905]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2009-training-education/05-mobile-top10
-[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+[edit0905]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/05-mobile-top10.md
 
 \newpage

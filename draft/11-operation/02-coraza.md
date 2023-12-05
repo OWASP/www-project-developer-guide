@@ -41,12 +41,12 @@ For example, Coraza can be imported as a library or used with one of the Coraza 
 
 The OWASP Developer Guide is a community effort and this page needs some content to be added.
 If you have suggestions then [submit an issue][issue1102] and the project team can assign it to you,
-or submit a [pull request][pr] with some content.
+or provide new content [direct on GitHub][edit1102].
 
 [caddy]: https://github.com/corazawaf/coraza-caddy
 [coraza-docker]: https://owasp.org/www-project-coraza-web-application-firewall/#
 [coraza-server]: https://github.com/corazawaf/coraza-server
 [issue1102]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2011-operation/02-coraza
-[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+[edit1102]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/11-operation/02-coraza.md
 
 \newpage

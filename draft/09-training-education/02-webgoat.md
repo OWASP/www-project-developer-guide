@@ -1,9 +1,9 @@
 ---
 
-title: WebGoat
+title: WebGoat and WebWolf
 layout: col-document
 tags: OWASP Developer Guide
-contributors:
+contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 902
 
@@ -13,32 +13,50 @@ order: 902
 
 ### 7.2 WebGoat
 
-To Do: supply a couple of sentences on the OWASP WebGoat project,
-including its status as an OWASP project and where to find it.
+The OWASP [WebGoat][webgoat] project is a deliberately insecure web application that can be
+used to attack common application vulnerabilities in a safe environment.
+It can also be used to exercise application security tools, such as OWASP ZAP, to practice
+scanning and identifying the various vulnerabilities built into WebGoat.
+
+WebGoat is a well established OWASP project and achieved Lab Project status many years ago.
 
 #### What is WebGoat?
 
-To Do: go into more detail about WebGoat so that a developer
+To Do: go into more detail about WebGoat and WebWolf so that a developer
 can gain an overview of what this training tool can provide for them.
 
-#### Why use it?
+#### Why use WebGoat?
 
-To Do: provide more context for WebGoat that allows developers to determine whether to use it.
+WebGoat is one of those tools that has many uses; certainly during training but also when presenting demonstrations,
+testing out security tools and so on.
+Where ever you need a deliberately vulnerable web application running in a self contained and safe environment then
+WebGoat should be one of the first to consider.
 
-#### How to use it
+Reasons to use WebGoat, and there will be more:
+
+* Practical learning how to exploit web applications
+* Ready made target during talks and demonstration on penetration testing
+* Evaluating dynamic application security testing (DAST) tools; they should identify the known vulnerabilities
+* Practising penetration testing skills
+
+#### How to use WebGoat
 
 To Do: give a brief outline of how to run WebGoat.
 Do not repeat the project documentation itself; ideally provide a primer and a pointer to the documentation.
 
+#### How to use WebWolf
+
+To Do: give a brief outline of how to run WebWolf.
+
 ----
 
-![Developer Guide](../assets/images/dg_wip.png "OWASP Developer Guide")
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue0902] or [edit on GitHub][edit0902].
 
-The OWASP Developer Guide is a community effort and this page needs some content to be added.
-If you have suggestions then [submit an issue][issue0902] and the project team can assign it to you,
-or submit a [pull request][pr] with some content.
-
+[goatdocker]: https://hub.docker.com/r/webgoat/webgoat
+[goatreleases]: https://github.com/WebGoat/WebGoat/releases
 [issue0902]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2009-training-education/02-webgoat
-[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+[edit0902]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/02-webgoat.md
+[webgoat]: https://owasp.org/www-project-webgoat/
 
 \newpage

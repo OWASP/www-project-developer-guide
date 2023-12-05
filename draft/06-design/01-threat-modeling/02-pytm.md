@@ -34,7 +34,7 @@ If a report document is required then a pytm script can output the model, threat
 Programs such as [pandoc][pandoc] can then take this markdown file
 and provide the document in various formats such as PDF, ePub or html.
 
-#### Why use it?
+#### Why use pytm?
 
 The pytm development team state that traditional threat modeling often comes too late in the development process,
 and sometimes may not happen at all.
@@ -54,7 +54,7 @@ This focus on the model as code and programmatic outputs makes Pytm particularly
 helping the threat model to be built in to the design process from the start,
 as well as in the more traditional threat modeling sessions.
 
-#### How to use it
+#### How to use pytm
 
 The best description of how to use pytm is given in chapter 4 of the book
 [Threat Modeling: a practical guide for development teams][TMchap4]
@@ -73,7 +73,8 @@ The following tools and libraries need to be installed:
 * the [PlantUML][plantumljar] executable JAR file
 * and of course pytm itself: clone the [pytm project repo][pytmrepo]
 
-Once the environment is installed then navigate to the top directory of your local copy of the project
+Once the environment is installed then navigate to the top directory of your local copy of the project.
+
 Follow [the example][pytmexample] given by the pytm project repo and run the suggested scripts
 to output the data flow diagram, sequence diagram and report:
 
@@ -87,7 +88,7 @@ mkdir -p tm
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue060102] or a [pull request][pr] .
+then [submit an issue][issue060102] or [edit on GitHub][edit060102].
 
 [graphviz]: https://graphviz.org/
 [graphvizdot]: https://graphviz.org/download/
@@ -95,7 +96,7 @@ then [submit an issue][issue060102] or a [pull request][pr] .
 [pandoc]: https://pandoc.org/installing.html
 [plantuml]: https://plantuml.com/
 [plantumljar]: https://plantuml.com/download
-[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+[edit060102]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/01-threat-modeling/02-pytm.md
 [pytmrepo]: https://github.com/izar/pytm/
 [pytmproject]: https://owasp.org/www-project-pytm/
 [pytmexample]: https://github.com/izar/pytm/blob/master/tm.py

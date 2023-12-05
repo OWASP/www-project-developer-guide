@@ -36,9 +36,9 @@ Do not repeat the project documentation itself; ideally provide a primer and a p
 
 The OWASP Developer Guide is a community effort and this page needs some content to be added.
 If you have suggestions then [submit an issue][issue080302] and the project team can assign it to you,
-or submit a [pull request][pr] with some content.
+or provide new content [direct on GitHub][edit080302].
 
 [issue080302]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2008-verification/03-frameworks/02-secure-codebox
-[pr]: https://github.com/OWASP/www-project-developer-guide/pulls
+[edit080302]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/03-frameworks/02-secure-codebox.md
 
 \newpage
