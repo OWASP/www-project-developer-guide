@@ -332,3 +332,5 @@ PlantUML
 OpenJDK
 remediations
 localhost
+deliverables
+gamifies

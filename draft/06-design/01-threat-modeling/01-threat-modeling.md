@@ -3,7 +3,7 @@
 title: Threat Modeling in Practice
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors: Adam Shostack, Jon Gadsden
 document: OWASP Developer Guide
 order: 611
 
@@ -19,7 +19,11 @@ Much of the material in this section is drawn from the OWASP [Threat Model proje
 
 #### Overview
 
-A threat model is essentially a structured representation of all the information
+Threat modeling work to discover what can go wrong with a system and to determine what to do about it
+often results in threat model deliverables.
+Those take many forms including system models and diagrams, lists of threats, mitigations or assumptions,
+meeting notes, and more.
+Sometimes those are assembled into a single "threat model" document, a structured representation of all the information
 that affects the security of an application.
 In essence, it is a view of the application and its environment through security glasses.
 
@@ -32,7 +36,7 @@ using one of the common strategies: mitigate, eliminate, transfer or accept the 
 
 There are many reasons for doing threat modeling but the most important one is that this activity is _useful_ ,
 it is probably the only stage in a development lifecycle where a team sits back and asks:
-'If I was a very clever malicious actor with plenty of time, how would I subvert the application for my own purposes?'.
+'What can go wrong?'
 There are other reasons for threat modeling, for example standards compliance or analysis for disaster recovery,
 but the main aim of threat modeling is to remedy (possible) vulnerabilities before the malicious actors can exploit them.
 
@@ -46,9 +50,9 @@ distributed systems, things in the Internet of things, business processes, etc.
 There are very few technical products which cannot be threat modeled;
 more or less rewarding, depending on how much it communicates, or interacts, with the world.
 
-The threat model is a record of the threat modeling process, and often includes:
+A threat model document is a record of the threat modeling process, and often includes:
 
-* the description / design / model of what you’re worried about
+* a description / design / model of what you’re worried about
 * a list of assumptions that can be checked or challenged in the future as the threat landscape changes
 * potential threats to the system
 * remediation / actions to be taken for each threat
@@ -116,7 +120,7 @@ Often threat modeling is a conceptual activity rather than a rigorous process,
 where development teams are brought together and asked to think up ways of subverting their system.
 To provide some structure it is useful to start with Shostack's [Four Question Framework][4QFW]:
 
-**1 What are we building**?
+**1 What are we working on**?
 
 As a starting point the scope of the Threat Model should be defined.
 This will require an understanding of the application that is being built,
@@ -126,6 +130,9 @@ and some examples of inputs for the threat model could be:
 * Dataflow transitions
 * Data classifications
 
+It is common to represent the answers to this question with one or more data flow diagrams
+and often supplemental diagrams like message sequence diagrams.
+
 It is best to gather people from different roles with sufficient technical and risk awareness
 so that they can agree on the framework to be used during the threat modeling exercise.
 
@@ -133,8 +140,13 @@ so that they can agree on the framework to be used during the threat modeling ex
 
 This is a research activity to find the main threats that apply to your application.
 There are many ways to approach the question, including open discussion or using a structure to help think it through.
-Techniques that can help include [CIA][cia], [STRIDE][stride], [LINDDUN][linddun],
+Techniques and methodologies to consider include [CIA][cia], [STRIDE][stride], [LINDDUN][linddun],
 [cyber kill chains][chains], [PASTA][pasta], common attack patterns ([CAPEC][capec]) and others.
+
+There are resources available that will help with identifying threats and vulnerabilities.
+OWASP provide a set of cards, [Cornucopia][corncards], that provide suggestions and explanations for general vulnerabilities.
+The game [Elevation of Privileges][eop] threat modeling card game is an easy way to get started with threat modeling,
+and there is the OWASP version of [Snakes and Ladders][snakes] that truly gamifies these activities.
 
 **3 What are we going to do about that**?
 
@@ -200,9 +212,9 @@ although you might ask the team using the drawing board how they implement their
 **Brevity is paramount**:
 
 It is very easy to create a threat model that looks a lot like a system diagram, with many components and data flows.
-This makes for a convincing diagram, but it is not a model specific to the threat of exploits,
-instead concentrate on the attack / threat surfaces
-and be robust in consolidating multiple system components into one threat model component.
+This makes for a convincing diagram, but it is not a model specific to the threat of exploits.
+Instead concentrate on the attack / threat surfaces and be robust in consolidating multiple system components
+into one threat model component.
 This will keep the number of components and dataflows manageable, and focuses the discussion on what matters most:
 malicious actors (external or internal) trying to subvert your system.
 
@@ -224,6 +236,8 @@ then that is a perfectly good choice.
 * [The Four Question Framework For Threat Modeling](https://youtu.be/Yt0PhyEdZXU) 60 second video
 * Lockheed's [Cyber Kill Chain][chains]
 * VerSprite's Process for Attack Simulation and Threat Analysis ([PASTA][pasta])
+* [Threat Modeling: Designing for Security][TMdesigning]
+* [Threat Modeling: A Practical Guide for Development Teams][TMpractical]
 
 #### Resources
 
@@ -246,6 +260,8 @@ then [submit an issue][issue060101] or [edit on GitHub][edit060101].
 [capec]: https://capec.mitre.org/
 [chains]: https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html
 [cia]: https://www.nccoe.nist.gov/publication/1800-25/VolA/index.html
+[corncards]: https://owasp.org/www-project-cornucopia/
+[eop]: https://shostack.org/games/elevation-of-privilege
 [issue060101]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/01-threat-modeling/01-threat-modeling
 [linddun]: https://www.linddun.org/
 [nist-cvss]: https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator
@@ -254,6 +270,7 @@ then [submit an issue][issue060101] or [edit on GitHub][edit060101].
 [edit060101]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/01-threat-modeling/01-threat-modeling.md
 [PYTM]: https://owasp.org/www-project-pytm/
 [samm]: https://owaspsamm.org/about/
+[snakes]: https://owasp.org/www-project-snakes-and-ladders/
 [stride]: https://en.wikipedia.org/wiki/STRIDE_%28security%29
 [tmcs]: https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html
 [tmpb]: https://owasp.org/www-project-threat-modeling-playbook/
@@ -261,6 +278,8 @@ then [submit an issue][issue060101] or [edit on GitHub][edit060101].
 [tdtm]: https://owasp.org/www-project-threat-dragon/
 [TM]: https://owasp.org/www-community/Threat_Modeling
 [TMP]: https://owasp.org/www-community/Threat_Modeling_Process
+[TMdesigning]: https://shostack.org/books/threat-modeling-book
+[TMpractical]: https://threatmodeling.dev/
 [TMT]: https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool
 
 \newpage

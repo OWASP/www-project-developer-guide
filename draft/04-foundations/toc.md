@@ -14,7 +14,7 @@ order: 400
 ## 2. Foundations
 
 There are various foundational concepts and terminology that are commonly used in software security.
-Although many of these concepts are complex to implement and are based on heavy-duty theory,
+Although some of these concepts are based on heavy-duty theory and can be complex to implement,
 the principles are often fairly straight forward and are accessible for every software engineer.
 A reasonable grasp of these foundational concepts allows development teams to understand and implement
 software security for the application or system under development.

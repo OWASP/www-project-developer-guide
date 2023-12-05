@@ -3,7 +3,7 @@
 title: Handle all Errors and Exceptions Checklist
 layout: col-document
 tags: OWASP Developer Guide
-contributors:
+contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 1410
 

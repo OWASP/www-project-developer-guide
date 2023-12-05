@@ -3,7 +3,7 @@
 title: Front Page
 layout: col-document
 tags: OWASP Developer Guide
-contributors:
+contributors: Shruti Kulkarni, Jon Gadsden
 document: OWASP Developer Guide
 order: 100
 permalink: /draft/
