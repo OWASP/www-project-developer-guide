@@ -16,7 +16,6 @@
 
 * [![Creative Commons License][image]](https://creativecommons.org/licenses/by-sa/4.0/ "CC BY-SA 4.0")
 
-
 ### Code Repository
 
 * [Source code][repo]
