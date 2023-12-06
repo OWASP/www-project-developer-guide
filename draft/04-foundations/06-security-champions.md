@@ -15,8 +15,8 @@ order: 406
 
 A Security Champion program is a commonly used way of helping development teams successfully run a development lifecycle
 that is secure, and this is achieved by selecting members of teams to become Security Champions.
-The role of Security Champion is described by the OWASP Software Assurance Maturity Model [(SAMM)][sammoc]
-Organization and Culture stream within the Governance business function of the Education & Guidance practice.
+The role of Security Champion is described by the OWASP Software Assurance Maturity Model [(SAMM)][sammgegoc]
+Organization and Culture activities within the Governance business function of the Education & Guidance practice.
 
 #### Overview
 
@@ -89,7 +89,7 @@ then [submit an issue][issue0406] or [edit on GitHub][edit0406].
 
 [issue0406]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/06-security-champions
 [edit0406]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/04-foundations/06-security-champions.md
-[sammoc]: https://owaspsamm.org/model/governance/education-and-guidance/stream-b/
+[sammgegoc]: https://owaspsamm.org/model/governance/education-and-guidance/stream-b/
 [scguide]: https://owasp.org/www-project-security-champions-guidebook/
 [scplaybook]: https://github.com/c0rdis/security-champions-playbook
 [scculture]: https://owasp.org/www-project-security-culture/stable/4-Security_Champions/
