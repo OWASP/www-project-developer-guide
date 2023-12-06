@@ -3,7 +3,7 @@
 title: Implementation Documentation
 layout: col-document
 tags: OWASP Developer Guide
-contributors:
+contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 710
 
@@ -13,7 +13,13 @@ order: 710
 
 ## 5.1 Documentation
 
-**To do**:  this should be a brief overview / abstract of the section on implementation documentation
+Documentation is used here as part of the SAMM [Training and Awareness][sammgegta] activity,
+which in turn is part of the SAMM [Education & Guidance][sammgeg] security practice
+within the [Governance][sammg] business function.
+
+It is important that development teams have good documentation on security techniques, frameworks, tools and threats.
+Documentation helps to promote security awareness for all teams involved in software development,
+and provides guidance on building security into applications and systems.
 
 Sections:
 
@@ -23,11 +29,11 @@ Sections:
 
 ----
 
-![Developer Guide](../../assets/images/dg_wip.png "OWASP Developer Guide")
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue0710] or [edit on GitHub][edit0710].
 
-The OWASP Developer Guide is a community effort and this page needs some content to be added.
-If you have suggestions then [submit an issue][issue0710] and the project team can assign it to you,
-or provide new content [direct on GitHub][edit0710].
-
-[issue0710]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/01-documentation/00-toc
 [edit0710]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/01-documentation/toc.md
+[issue0710]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/01-documentation/00-toc
+[sammg]: https://owaspsamm.org/model/governance/
+[sammgeg]: https://owaspsamm.org/model/governance/education-and-guidance/
+[sammgegta]: https://owaspsamm.org/model/governance/education-and-guidance/stream-a/
