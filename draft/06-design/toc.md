@@ -13,7 +13,7 @@ order: 600
 
 ## 4. Design
 
-Security Architecture is one of the practices that is described in the [Software Assurance Maturity Model (SAMM)][sammsa].
+Security Architecture is one of the practices that is described in the [Software Assurance Maturity Model (SAMM)][sammdsa].
 Referring to the [Secure Product Design Cheat Sheet][spdcs], the purpose of secure architecture and design is to ensure
 that all products meet or exceed the security requirements laid down by the organization,
 focusing on the security linked to components and technologies used during the development of the application.
@@ -64,7 +64,7 @@ Sections:
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue0600] or [edit on GitHub][edit0600].
 
-[issue0600]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/00-toc
 [edit0600]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/toc.md
-[sammsa]: https://owaspsamm.org/model/design/security-architecture/
+[issue0600]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/00-toc
+[sammdsa]: https://owaspsamm.org/model/design/security-architecture/
 [spdcs]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet.html

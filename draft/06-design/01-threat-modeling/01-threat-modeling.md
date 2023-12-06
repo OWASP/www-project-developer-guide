@@ -187,7 +187,7 @@ Finally some advice on threat modeling.
 
 **Make it incremental**:
 
-Use [incremental threat modeling](https://owaspsamm.org/guidance/agile/#TA).
+Strongly consider using [incremental threat modeling][sammdgata].
 It is almost certainly a bad idea trying to fully model an existing application or system;
 it can be very time consuming modeling a whole system,
 and by the time such a model was completed then it would probably be out of date.
@@ -262,14 +262,15 @@ then [submit an issue][issue060101] or [edit on GitHub][edit060101].
 [cia]: https://www.nccoe.nist.gov/publication/1800-25/VolA/index.html
 [corncards]: https://owasp.org/www-project-cornucopia/
 [eop]: https://shostack.org/games/elevation-of-privilege
+[edit060101]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/01-threat-modeling/01-threat-modeling.md
 [issue060101]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/01-threat-modeling/01-threat-modeling
 [linddun]: https://www.linddun.org/
 [nist-cvss]: https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator
 [otm]: https://owasp.org/www-project-threat-model/
 [pasta]: https://versprite.com/blog/what-is-pasta-threat-modeling/
-[edit060101]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/01-threat-modeling/01-threat-modeling.md
 [PYTM]: https://owasp.org/www-project-pytm/
 [samm]: https://owaspsamm.org/about/
+[sammdgata]: https://owaspsamm.org/guidance/agile/#TA
 [snakes]: https://owasp.org/www-project-snakes-and-ladders/
 [stride]: https://en.wikipedia.org/wiki/STRIDE_%28security%29
 [tmcs]: https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html
