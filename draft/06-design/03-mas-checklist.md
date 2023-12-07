@@ -13,7 +13,7 @@ order: 630
 
 ### 4.3 Mobile application checklist
 
-To Do: supply a couple of sentences on the Mobile Application Security (MAS) project
+To Do: supply a couple of sentences on the OWASP [Mobile Application Security][owaspmas] (MAS) project
 and the checklist component MAS Checklist, including its status as an OWASP project and where to find it.
 
 #### What is MAS Checklist?
@@ -39,7 +39,8 @@ The OWASP Developer Guide is a community effort and this page needs some content
 If you have suggestions then [submit an issue][issue0603] and the project team can assign it to you,
 or provide new content [direct on GitHub][edit0603].
 
-[issue0603]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/03-mas-checklist
 [edit0603]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/03-mas-checklist.md
+[issue0603]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/03-mas-checklist
+[owaspmas]: https://owasp.org/www-project-mobile-app-security/
 
 \newpage
