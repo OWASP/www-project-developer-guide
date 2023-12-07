@@ -125,5 +125,6 @@ permalink: /draft/
 11.1.1 [Software Assurance Maturity Model](#software-assurance-maturity-model)  
 11.1.2 [Application Security Verification Standard](#application-security-verification-standard)  
 11.1.3 [Mobile Application Security](#mobile-application-security)  
+11.2 [Bug Logging Tool](#bug-logging-tool)  
 
 \newpage

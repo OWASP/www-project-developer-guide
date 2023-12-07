@@ -297,3 +297,6 @@ docs:
 
 - title: '11.1.3 Mobile Application Security'
   url: 13-security-gap-analysis/01-guides/03-mas
+
+- title: '11.2 Bug Logging Tool'
+  url: 13-security-gap-analysis/02-blt
