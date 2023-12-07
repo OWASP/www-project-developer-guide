@@ -13,7 +13,7 @@ order: 832
 
 ### 6.3.2 secureCodeBox
 
-To Do: supply a couple of sentences on the OWASP secureCodeBox automated security testing tool,
+To Do: supply a couple of sentences on the [OWASP secureCodeBox][codebox] automated security testing tool,
 including its status as an OWASP project and where to find it.
 
 #### What is secureCodeBox?
@@ -38,7 +38,8 @@ The OWASP Developer Guide is a community effort and this page needs some content
 If you have suggestions then [submit an issue][issue080302] and the project team can assign it to you,
 or provide new content [direct on GitHub][edit080302].
 
-[issue080302]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2008-verification/03-frameworks/02-secure-codebox
+[codebox]: https://www.securecodebox.io/
 [edit080302]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/03-frameworks/02-secure-codebox.md
+[issue080302]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2008-verification/03-frameworks/02-secure-codebox
 
 \newpage

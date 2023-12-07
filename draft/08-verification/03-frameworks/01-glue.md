@@ -13,7 +13,7 @@ order: 831
 
 ### 6.3.1 Glue
 
-To Do: supply a couple of sentences on the OWASP Glue security analysis tool,
+To Do: supply a couple of sentences on the [OWASP Glue][glue] security analysis tool,
 including its status as an OWASP project and where to find it.
 
 #### What is Glue?
@@ -38,7 +38,8 @@ The OWASP Developer Guide is a community effort and this page needs some content
 If you have suggestions then [submit an issue][issue080301] and the project team can assign it to you,
 or provide new content [direct on GitHub][edit080301].
 
-[issue080301]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2008-verification/03-frameworks/01-glue
 [edit080301]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/03-frameworks/01-glue.md
+[glue]: https://github.com/owasp/glue
+[issue080301]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2008-verification/03-frameworks/01-glue
 
 \newpage

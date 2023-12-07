@@ -13,7 +13,7 @@ order: 833
 
 ### 6.3.3 Dracon
 
-To Do: supply a couple of sentences on the OWASP Dracon security pipelines tool,
+To Do: supply a couple of sentences on the [OWASP Dracon][dracon] security pipelines tool,
 including its status as an OWASP project and where to find it.
 
 #### What is Dracon?
@@ -38,7 +38,8 @@ The OWASP Developer Guide is a community effort and this page needs some content
 If you have suggestions then [submit an issue][issue080303] and the project team can assign it to you,
 or provide new content [direct on GitHub][edit080303].
 
-[issue080303]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2008-verification/03-frameworks/03-dracon
+[dracon]: https://github.com/thought-machine/dracon/
 [edit080303]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/03-frameworks/03-dracon.md
+[issue080303]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2008-verification/03-frameworks/03-dracon
 
 \newpage
