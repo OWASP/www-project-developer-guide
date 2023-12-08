@@ -3,7 +3,7 @@
 title: Mobile Application Security
 layout: col-document
 tags: OWASP Developer Guide
-contributors:
+contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 506
 
@@ -13,35 +13,52 @@ order: 506
 
 ### 3.6 Mobile Application Security
 
-To Do: supply a couple of sentences on the Mobile Application Security (MAS) project,
-including its status as an OWASP project, where to find it,
-along with the two components Mobile Application Security Verification Standard (MASVS)
-and Mobile Application Security Testing Guide (MASTG).
+The OWASP [Mobile Application Security][mas] (MAS) flagship project has the mission statement:
+"Define the industry standard for mobile application security".
 
-#### What is MAS?
+The MAS project covers the processes, techniques, and tools used for security testing a mobile application,
+as well as an exhaustive set of test cases that enables testers to deliver consistent and complete results.
+The OWASP MAS project provides the [Mobile Application Security Verification Standard][masvs] (MASVS)
+for mobile applications and a comprehensive [Mobile Application Security Testing Guide][mastg] (MASTG).
 
-To Do: go into more detail about MASVS (but not necessarily MASTG) so that the developer gains an overview
-of what it provides for them specifically from a requirements point of view.
+#### What is MASVS?
 
-#### Why use it?
+The OWASP MASVS is used by mobile software architects and developers seeking to develop secure mobile applications,
+as well as security testers to ensure completeness and consistency of test results.
+The MAS project has several uses; when it comes to defining requirements then
+the MASVS contains a list of security controls for mobile applications.
 
-To Do: provide more context for around the MAS project to allow developers
-to determine whether to use it in their requirements process.
+The security controls are split into several categories:
 
-#### How to use it
+* [MASVS-STORAGE](https://mas.owasp.org/MASVS/05-MASVS-STORAGE/)
+* [MASVS-CRYPTO](https://mas.owasp.org/MASVS/06-MASVS-CRYPTO/)
+* [MASVS-AUTH](https://mas.owasp.org/MASVS/07-MASVS-AUTH/)
+* [MASVS-NETWORK](https://mas.owasp.org/MASVS/08-MASVS-NETWORK/)
+* [MASVS-PLATFORM](https://mas.owasp.org/MASVS/09-MASVS-PLATFORM/)
+* [MASVS-CODE](https://mas.owasp.org/MASVS/10-MASVS-CODE/)
+* [MASVS-RESILIENCE](https://mas.owasp.org/MASVS/11-MASVS-RESILIENCE/)
 
-To Do: give a brief outline of how MASVS (and maybe MASTG) can be used by the development teams and their requirements.
-Do not repeat the MAS project documentation itself; ideally provide a primer and a pointer to the documentation.
+#### Why use MASVS?
+
+The OWASP MASVS is the industry standard for mobile application security
+and it is expected that any given set of security requirements will satisfy the MASVS.
+When defining security requirements for mobile applications then each security control in the MASVS should be considered.
+
+#### How to use MASVS
+
+MASVS can be [accessed online][masvs] and the links followed for each security control.
+In addition MASVS can be downloaded as a PDF which can, for example, be used for evidence or compliance purposes.
+Inspect each control within MASVS and regard it as a potential security requirement.
 
 ----
 
-![Developer Guide](../assets/images/dg_wip.png "OWASP Developer Guide")
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue0506] or [edit on GitHub][edit0506].
 
-The OWASP Developer Guide is a community effort and this page needs some content to be added.
-If you have suggestions then [submit an issue][issue0506] and the project team can assign it to you,
-or provide new content [direct on GitHub][edit0506].
-
-[issue0506]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-requirements/06-mas
 [edit0506]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/05-requirements/06-mas.md
+[issue0506]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-requirements/06-mas
+[mas]: https://owasp.org/www-project-mobile-app-security/
+[mastg]: https://mas.owasp.org/MASTG/
+[masvs]: https://mas.owasp.org/MASVS/
 
 \newpage
