@@ -336,3 +336,6 @@ deliverables
 gamifies
 baselining
 scalability
+AUTH
+Crackmes
+UnCrackable
