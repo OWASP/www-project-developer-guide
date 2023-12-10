@@ -63,7 +63,7 @@ There are many OWASP tools and resources to help build security into the SDLC.
     and it is worth considering various OWASP tools;
     the [Application Security Verification Standard (ASVS)][asvs] provides developers
     with a list of requirements for secure development,
-    the [Mobile Application Security][mas] project provides a security standard for mobile applications
+    the [Mobile Application Security project][masproject] provides a security standard for mobile applications
     and [SecurityRAT][srat] helps identify an initial set of security requirements.
 
 * Design: it is important to design security into the development - it is never too late to do this
@@ -137,7 +137,7 @@ There are many OWASP tools and resources to help build security into the SDLC.
 * [Amass project][amass]
 * [Code Pulse][pulse]
 * [Defect Dojo][dojo]
-* [Mobile Application Security (MAS)][mas]
+* [Mobile Application Security (MAS)][masproject]
 * [Nettacker][net]
 * [OWTF][owtf]
 * [Web Security Testing Guide (WSTG)][wstg]
@@ -192,6 +192,7 @@ then [submit an issue][issue0402] or [edit on GitHub][edit0402].
 [issue0402]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/02-secure-development
 [juice]: https://owasp.org/www-project-juice-shop/
 [mas]: https://mas.owasp.org/
+[masproject]: https://owasp.org/www-project-mobile-app-security/
 [mobile10]: https://owasp.org/www-project-mobile-top-10/
 [net]: https://owasp.org/www-project-nettacker/
 [owtf]: https://owasp.org/www-project-owtf/

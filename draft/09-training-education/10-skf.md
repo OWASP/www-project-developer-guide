@@ -1,18 +1,18 @@
 ---
 
-title: Security Knowledge Framework
+title: Security Knowledge Framework training
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 503
-permalink: /draft/requirements/security_knowledge_framework
+order: 910
+permalink: /draft/training_education/security_knowledge_framework
 
 ---
 
 {% include breadcrumb.html %}
 
-### 3.3 Security Knowledge Framework
+### 7.10 Security Knowledge Framework training
 
 The [Security Knowledge Framework][skf] (SKF) is an expert system application that uses various open source projects
 to support development teams and security architects in building secure applications.
@@ -32,45 +32,39 @@ Note that SKF is in a process of migrating to a [new repository][skfrepo] so the
 The SKF provides training and guidance for application security:
 
 * Requirements [organizer][skfreqs]
-* Learning [courses][skfdemo]:
-  * Developing Secure Software (LFD121)
-  * Understanding the OWASP Top 10 Security Threats (SKF100)
-  * Secure Software Development: Implementation (LFD105x)
+* Learning [courses][skfdemo]
 * Practice [labs][skflabs]
 * Documentation on [installing and using][skfdocs] the SKF
 
-#### Why use the SKF for requirements?
+#### Why use the SKF?
 
-The SKF organizes security requirements into various categories that provides a good starting point for application security.
+The SKF provides both [learning courses][skfdemo] and [practice labs][skflabs]
+that are useful for development teams to practice secure coding skills.
 
-* API and Web Service
-* Access Control
-* Architecture Design and Threat Modeling
-* Authentication
-* Business Logic
-* Communication
-* Configuration
-* Data Protection
-* Error Handling and Logging
-* Files and Resources
-* Malicious Code
-* Session Management
-* Stored Cryptography
-* Validation Sanitization and Encoding
+The following learning courses are available (as of December 2023):
 
-#### How to use the SKF for requirements
+* Developing Secure Software (LFD121)
+* Understanding the OWASP Top 10 Security Threats (SKF100)
+* Secure Software Development: Implementation (LFD105x)
 
-Visit the [requirements tool website][skfreqs] and select the relevant requirements from the various categories.
-Export the selection to the format of your choice (Markdown, spreadsheet CSV or plain text)
-and use this as a starting point for the application security requirements.
+and there are plans for more training courses.
+All of these courses (LFD121, SKF100 and LFD105x) are provided by the [Linux Foundation][linuxtraining].
+
+In addition to the training courses there are a wide range of practice labs (64 as of December 2023).
+
+#### How to use the SKF
+
+The easiest way to get started with the SKF training is to [try the online demo][skfdemo].
+This will provide access to the practice labs, the training courses and also to the requirements tool.
 
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0503] or [edit on GitHub][edit0503].
+then [submit an issue][issue0910] or [edit on GitHub][edit0910].
 
-[edit0503]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/05-requirements/03-skf.md
-[issue0503]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-requirements/03-skf
+[edit0910]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/09-wrong-secrets.md
+[issue0910]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2009-training-education/10-security-knowledge-framework
+[linuxtraining]: https://training.linuxfoundation.org/full-catalog/
 [skf]: https://www.securityknowledgeframework.org/
 [skfdemo]: https://secureby.design/
 [skfdocs]: https://skf.readme.io/docs/introduction

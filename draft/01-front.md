@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Shruti Kulkarni, Jon Gadsden
 document: OWASP Developer Guide
 order: 100
-permalink: /draft/
+permalink: /draft/front_page
 
 ---
 

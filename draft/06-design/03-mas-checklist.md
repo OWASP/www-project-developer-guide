@@ -13,7 +13,7 @@ order: 630
 
 ### 4.3 Mobile application checklist
 
-The OWASP [Mobile Application Security][mas] (MAS) flagship project has the mission statement:
+The OWASP [Mobile Application Security][masproject] (MAS) flagship project has the mission statement:
 "Define the industry standard for mobile application security".
 
 The MAS project covers the processes, techniques, and tools used for security testing a mobile application,
@@ -59,7 +59,7 @@ then [submit an issue][issue0603] or [edit on GitHub][edit0603].
 
 [edit0603]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/03-mas-checklist.md
 [issue0603]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/03-mas-checklist
-[mas]: https://owasp.org/www-project-mobile-app-security/
+[masproject]: https://owasp.org/www-project-mobile-app-security/
 [masxls]: https://github.com/OWASP/owasp-mastg/releases/latest/download/OWASP_MAS_Checklist.xlsx
 [masc]: https://mas.owasp.org/checklists/
 [mastg]: https://mas.owasp.org/MASTG/

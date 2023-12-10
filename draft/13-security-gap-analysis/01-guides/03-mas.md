@@ -13,7 +13,7 @@ order: 1311
 
 ### 11.1.3 Mobile Application Security
 
-The OWASP [Mobile Application Security][mas] (MAS) flagship project has the mission statement:
+The OWASP [Mobile Application Security][masproject] (MAS) flagship project has the mission statement:
 "Define the industry standard for mobile application security".
 
 The MAS project covers the processes, techniques, and tools used for security testing a mobile application,
@@ -59,7 +59,7 @@ then [submit an issue][issue130103] or [edit on GitHub][edit130103].
 
 [edit130103]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/13-security-gap-analysis/01-guides/03-mas.md
 [issue130103]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2013-security-gap-analysis/01-guides/03-mas
-[mas]: https://owasp.org/www-project-mobile-app-security/
+[masproject]: https://owasp.org/www-project-mobile-app-security/
 [mastg]: https://mas.owasp.org/MASTG/
 [masvs]: https://mas.owasp.org/MASVS/
 
