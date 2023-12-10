@@ -81,7 +81,7 @@ To run these checks locally before pushing a commit, run these commands from the
 2. Markdown linter: `markdownlint-cli2  **/*.md`
 3. Spell checker: `pyspelling --config .spellcheck.yaml`
 4. PDF and ePub:
-    1. `tail -n +14 -q $(ls draft/*0*.md draft/*[0-9]**/*[0-9]*.md draft/*[0-9]**/*[0-9]**/*[0-9]*.md) > draft.markdown`
+    1. `tail -n +14 -q $(find draft -name "*[0-9]*.md") > draft.markdown`
     2. `pandoc -f markdown -o draft.pdf --resource-path="draft/assets:draft" draft/title.pdf.yaml draft.markdown`
     3. `pandoc -f markdown -o draft.epub --resource-path="draft/assets:draft" draft/title.yaml draft.markdown`
 
