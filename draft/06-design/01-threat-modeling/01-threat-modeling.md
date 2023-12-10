@@ -6,6 +6,7 @@ tags: OWASP Developer Guide
 contributors: Adam Shostack, Jon Gadsden
 document: OWASP Developer Guide
 order: 611
+permalink: /draft/design//threat-modeling/practical-threat-modeling/
 
 ---
 

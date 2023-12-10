@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 406
-permalink: /draft/foundations/security_champions
+permalink: /draft/foundations/security_champions/
 
 ---
 

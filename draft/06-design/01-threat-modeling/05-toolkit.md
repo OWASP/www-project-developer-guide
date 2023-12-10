@@ -6,6 +6,7 @@ tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
 order: 615
+permalink: /draft/design/threat-modeling/toolkit/
 
 ---
 

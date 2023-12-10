@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 402
-permalink: /draft/foundations/secure_development
+permalink: /draft/foundations/secure_development/
 
 ---
 

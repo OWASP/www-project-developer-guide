@@ -6,6 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 1405
+permalink: /draft/design/web-app-checklist/validate-inputs/
 
 ---
 

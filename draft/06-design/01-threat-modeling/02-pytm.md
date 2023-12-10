@@ -6,6 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 612
+permalink: /draft/design/threat-modeling/pytm/
 
 ---
 

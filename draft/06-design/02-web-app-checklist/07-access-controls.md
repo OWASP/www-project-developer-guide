@@ -6,6 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 1407
+permalink: /draft/design/web-app-checklist/access-controls/
 
 ---
 

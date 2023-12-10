@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 506
-permalink: /draft/requirements/mas
+permalink: /draft/requirements/mas/
 
 ---
 

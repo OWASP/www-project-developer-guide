@@ -47,61 +47,61 @@ docs:
   url: requirements/mas
 
 - title: '4. Design'
-  url: 06-design/toc
+  url: /design
 
 - title: '4.1 Threat modeling'
-  url: 06-design/01-threat-modeling/toc
+  url: design/threat-modeling
 
 - title: '4.1.1 Threat modeling in practice'
-  url: 06-design/01-threat-modeling/01-threat-modeling
+  url: design/threat-modeling/practical-threat-modeling
 
 - title: '4.1.2 Pythonic Threat Modeling'
-  url: 06-design/01-threat-modeling/02-pytm
+  url: design/threat-modeling/pytm
 
 - title: '4.1.3 Threat Dragon'
-  url: 06-design/01-threat-modeling/03-threat-dragon
+  url: design/threat-modeling/threat-dragon
 
 - title: '4.1.4 Threat Modeling and Cornucopia'
-  url: 06-design/01-threat-modeling/04-cornucopia
+  url: design/threat-modeling/cornucopia
 
 - title: '4.1.5 Threat Modeling toolkit'
-  url: 06-design/01-threat-modeling/05-toolkit
+  url: design/threat-modeling/toolkit
 
 - title: '4.2 Web application checklist'
-  url: 06-design/02-web-app-checklist/toc
+  url: design/web-app-checklist
 
 - title: '4.2.1 Checklist: Define Security Requirements'
-  url: 06-design/02-web-app-checklist/01-define-security-requirements
+  url: design/web-app-checklist/define-security-requirements
 
 - title: '4.2.2 Checklist: Leverage Security Frameworks and Libraries'
-  url: 06-design/02-web-app-checklist/02-frameworks-libraries
+  url: design/web-app-checklist/frameworks-libraries
 
 - title: '4.2.3 Checklist: Secure Database Access'
-  url: 06-design/02-web-app-checklist/03-secure-database-access
+  url: design/web-app-checklist/secure-database-access
 
 - title: '4.2.4 Checklist: Encode and Escape Data'
-  url: 06-design/02-web-app-checklist/04-encode-escape-data
+  url: design/web-app-checklist/encode-escape-data
 
 - title: '4.2.5 Checklist: Validate All Inputs'
-  url: 06-design/02-web-app-checklist/05-validate-inputs
+  url: design/web-app-checklist/validate-inputs
 
 - title: '4.2.6 Checklist: Implement Digital Identity'
-  url: 06-design/02-web-app-checklist/06-digital-identity
+  url: design/web-app-checklist/digital-identity
 
 - title: '4.2.7 Checklist: Enforce Access Controls'
-  url: 06-design/02-web-app-checklist/07-access-controls
+  url: design/web-app-checklist/access-controls
 
 - title: '4.2.8 Checklist: Protect Data Everywhere'
-  url: 06-design/02-web-app-checklist/08-protect-data
+  url: design/web-app-checklist/protect-data
 
 - title: '4.2.9 Checklist: Implement Security Logging and Monitoring'
-  url: 06-design/02-web-app-checklist/09-security-logging-monitoring
+  url: design/web-app-checklist/security-logging-monitoring
 
 - title: '4.2.10 Checklist: Handle all Errors and Exceptions'
-  url: 06-design/02-web-app-checklist/10-handle-errors-exceptions
+  url: design/web-app-checklist/handle-errors-exceptions
 
 - title: '4.3 Mobile application checklist'
-  url: 06-design/03-mas-checklist
+  url: design/mas-checklist
 
 - title: '5. Implementation'
   url: 07-implementation/toc

@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 502
-permalink: /draft/requirements/risk_profile
+permalink: /draft/requirements/risk_profile/
 
 ---
 
