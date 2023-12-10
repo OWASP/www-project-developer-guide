@@ -13,7 +13,7 @@ order: 506
 
 ### 3.6 Mobile Application Security
 
-The OWASP [Mobile Application Security][mas] (MAS) flagship project has the mission statement:
+The OWASP [Mobile Application Security][masproject] (MAS) flagship project has the mission statement:
 "Define the industry standard for mobile application security".
 
 The MAS project covers the processes, techniques, and tools used for security testing a mobile application,
@@ -23,7 +23,7 @@ for mobile applications and a comprehensive [Mobile Application Security Testing
 
 #### What is MASVS?
 
-The OWASP MASVS is used by mobile software architects and developers seeking to develop secure mobile applications,
+The [OWASP MASVS][mas] is used by mobile software architects and developers seeking to develop secure mobile applications,
 as well as security testers to ensure completeness and consistency of test results.
 The MAS project has several uses; when it comes to defining requirements then
 the MASVS contains a list of security controls for mobile applications.
@@ -57,7 +57,8 @@ then [submit an issue][issue0506] or [edit on GitHub][edit0506].
 
 [edit0506]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/05-requirements/06-mas.md
 [issue0506]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-requirements/06-mas
-[mas]: https://owasp.org/www-project-mobile-app-security/
+[mas]: https://mas.owasp.org/
+[masproject]: https://owasp.org/www-project-mobile-app-security/
 [mastg]: https://mas.owasp.org/MASTG/
 [masvs]: https://mas.owasp.org/MASVS/
 

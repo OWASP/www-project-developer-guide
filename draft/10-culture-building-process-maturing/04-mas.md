@@ -13,7 +13,7 @@ order: 1004
 
 ### 8.4 Mobile Application Security
 
-The OWASP [Mobile Application Security][mas] (MAS) flagship project has the mission statement:
+The OWASP [Mobile Application Security][masproject] (MAS) flagship project has the mission statement:
 "Define the industry standard for mobile application security".
 
 OWASP [MAS Crackmes][mascrack], also known as UnCrackable Apps,
@@ -52,7 +52,7 @@ then [submit an issue][issue1004] or [edit on GitHub][edit1004].
 
 [edit1004]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/10-culture-building-process-maturing/04-mas.md
 [issue1004]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2010-culture-building-process-maturing/04-mas
-[mas]: https://owasp.org/www-project-mobile-app-security/
+[masproject]: https://owasp.org/www-project-mobile-app-security/
 [masandroid]: https://mas.owasp.org/crackmes/Android/
 [mascrack]: https://mas.owasp.org/crackmes/
 [masios]: https://mas.owasp.org/crackmes/iOS/

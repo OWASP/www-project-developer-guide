@@ -58,9 +58,9 @@ Some of these are language specific and others have more general applicability.
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue080502] or [edit on GitHub][edit080501].
+then [submit an issue][issue080502] or [edit on GitHub][edit080502].
 
+[edit080502]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/05-dos-donts/02-system-hardening.md
 [issue080502]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2008-verification/05-dos-donts/02-system-hardening
-[edit080501]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/05-dos-donts/02-system-hardening.md
 
 \newpage
