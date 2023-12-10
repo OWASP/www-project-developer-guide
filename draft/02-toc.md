@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
 order:
-permalink: /draft/
+permalink:
 
 ---
 
@@ -107,6 +107,7 @@ permalink: /draft/
 7.7 [Security Shepherd](#security-shepherd)  
 7.8 [OWASP Snakes and Ladders](#owasp-snakes-and-ladders)  
 7.9 [Wrong Secrets](#wrong-secrets)  
+7.10 [Security Knowledge Framework](#security-knowledge-framework-training)  
 
 8 **[Culture building and Process maturing](#culture-building-and-process-maturing)**  
 8.1 [Security Champions Playbook](#security-champions-playbook)  

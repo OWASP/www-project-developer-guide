@@ -259,6 +259,12 @@ docs:
 - title: '7.8 OWASP Snakes and Ladders'
   url: 09-training-education/08-snakes-ladders
 
+- title: '7.9 Wrong Secrets'
+  url: 09-training-education/09-wrong-secrets
+
+- title: '7.10 Security Knowledge Framework'
+  url: 09-training-education/10-skf
+
 - title: '8. Culture building and Process maturing'
   url: 10-culture-building-process-maturing/toc
 

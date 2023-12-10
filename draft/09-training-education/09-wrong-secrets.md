@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 908
+order: 909
 
 ---
 
@@ -38,7 +38,7 @@ The OWASP Developer Guide is a community effort and this page needs some content
 If you have suggestions then [submit an issue][issue0909] and the project team can assign it to you,
 or provide new content [direct on GitHub][edit0909].
 
-[issue0909]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2009-training-education/09-wrong-secrets
 [edit0909]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/09-wrong-secrets.md
+[issue0909]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2009-training-education/09-wrong-secrets
 
 \newpage
