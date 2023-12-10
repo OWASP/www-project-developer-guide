@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
 order: 200
-permalink: /draft/table_of_contents
+permalink: /draft/
 
 ---
 
