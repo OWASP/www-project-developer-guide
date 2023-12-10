@@ -3,9 +3,10 @@
 title: Security Knowledge Framework
 layout: col-document
 tags: OWASP Developer Guide
-contributors:
+contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 503
+permalink: /draft/requirements/security_knowledge_framework
 
 ---
 
@@ -13,33 +14,69 @@ order: 503
 
 ### 3.3 Security Knowledge Framework
 
-To Do: supply a couple of sentences on the [Security Knowledge Framework][skf] (SKF),
-such as its status and where to find it. Although it is no longer an OWASP project,
-it was an important project for OWASP and is still referenced in the Wayfinder.
+The [Security Knowledge Framework][skf] (SKF) is an expert system application that uses various open source projects
+to support development teams and security architects in building secure applications.
+The Security Knowledge Framework uses the OWASP [Application Security Verification Standard] (ASVS) with code examples
+to help developers in pre-development and post-development phases and create applications that are secure by design.
+
+Having been an OWASP flagship project for many years the SKF is now no longer within the OWASP organization;
+and it will continue to be referenced in the OWASP Wayfinder and other OWASP projects
+because it is a flagship project for any organization.
 
 #### What is the Security Knowledge Framework?
 
-To Do: go into more detail about SKF so that a developer can gain an overview of what it can provide for them.
+The [SKF][skf] is a web application that is available from the [github repo][skfinstall].
+There is [a demo version][skfdemo] of SKF that is useful for exploring the multiple benefits of the SKF.
+Note that SKF is in a process of migrating to a [new repository][skfrepo] so the download link may change.
 
-#### Why use it?
+The SKF provides training and guidance for application security:
 
-To Do: provide more context for SKF that allows developers to determine whether to use it in their project.
+* Requirements [organizer][skfreqs]
+* Learning [courses][skfdemo]:
+  * Developing Secure Software (LFD121)
+  * Understanding the OWASP Top 10 Security Threats (SKF100)
+  * Secure Software Development: Implementation (LFD105x)
+* Practice [labs][skflabs]
+* Documentation on [installing and using][skfdocs] the SKF
 
-#### How to use it
+#### Why use the SKF for requirements?
 
-To Do: give a brief outline of how the SKF can provide value for development teams.
-Do not repeat the project documentation itself; ideally provide a primer and a pointer to the documentation.
+The SKF organizes security requirements into various categories that provides a good starting point for application security.
+
+* API and Web Service
+* Access Control
+* Architecture Design and Threat Modeling
+* Authentication
+* Business Logic
+* Communication
+* Configuration
+* Data Protection
+* Error Handling and Logging
+* Files and Resources
+* Malicious Code
+* Session Management
+* Stored Cryptography
+* Validation Sanitization and Encoding
+
+#### How to use the SKF for requirements
+
+Visit the [requirements tool website][skfreqs] and select the relevant requirements from the various categories.
+Export the selection to the format of your choice (Markdown, spreadsheet CSV or plain text)
+and use this as a starting point for the application security requirements.
 
 ----
 
-![Developer Guide](../assets/images/dg_wip.png "OWASP Developer Guide")
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue0503] or [edit on GitHub][edit0503].
 
-The OWASP Developer Guide is a community effort and this page needs some content to be added.
-If you have suggestions then [submit an issue][issue0503] and the project team can assign it to you,
-or provide new content [direct on GitHub][edit0503].
-
-[issue0503]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-requirements/03-skf
 [edit0503]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/05-requirements/03-skf.md
-[skf]: https://github.com/Security-Knowledge-Framework
+[issue0503]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-requirements/03-skf
+[skf]: https://www.securityknowledgeframework.org/
+[skfdemo]: https://secureby.design/
+[skfdocs]: https://skf.readme.io/docs/introduction
+[skfinstall]: https://github.com/blabla1337/skf-flask/releases
+[skflabs]: https://secureby.design/labs
+[skfrepo]: https://github.com/Security-Knowledge-Framework
+[skfreqs]: https://starfish-app-kd3eo.ondigitalocean.app/
 
 \newpage

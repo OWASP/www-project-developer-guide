@@ -47,7 +47,7 @@ but it is perfectly acceptable to state these requirements in everyday language.
 For example a security requirement could be written as “Identify the user of the application at all times”
 and this is certainly sufficient to require that authentication is included in the design.
 
-The SAMM [Security Requirements practice][samm-reqs] lists maturity levels of software security requirements
+The SAMM [Security Requirements practice][sammreqs] lists maturity levels of software security requirements
 that specify objectives and expectations.
 Choose the level that is appropriate for the organization and the development team,
 with the understanding that any of these levels are perfectly acceptable.
@@ -70,7 +70,7 @@ External suppliers involved in the development process need to be assessed for t
 Depending on their level of involvement these suppliers can have a significant impact on the security of the application
 so a set of security requirements will have to be negotiated with them.
 
-[SAMM][samm-reqs] lists maturity levels for the security requirements
+[SAMM][sammreqs] lists maturity levels for the security requirements
 that will clarify the strengths and weaknesses of your suppliers.
 Note that supplier security is distinct from security of third-party software and libraries,
 and the use of third-party and open source software is discussed
@@ -121,6 +121,6 @@ then [submit an issue][issue0501] or [edit on GitHub][edit0501].
 [edit0501]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/05-requirements/01-requirements.md
 [proactive10]: https://owasp.org/www-project-proactive-controls/
 [samm]: https://owaspsamm.org/about/
-[samm-reqs]: https://owaspsamm.org/model/design/security-requirements/
+[sammreqs]: https://owaspsamm.org/model/design/security-requirements/
 
 \newpage
