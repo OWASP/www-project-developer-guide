@@ -6,6 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 405
+permalink: /draft/foundations/owasp_top_ten
 
 ---
 

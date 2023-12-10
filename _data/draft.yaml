@@ -8,22 +8,22 @@ docs:
   url: foundations
 
 - title: '2.1 Security fundamentals'
-  url: 04-foundations/01-security-fundamentals
+  url: foundations/security_fundamentals
 
 - title: '2.2 Secure development and integration'
-  url: 04-foundations/02-secure-development
+  url: foundations/secure_development
 
 - title: '2.3 Principles of security'
-  url: 04-foundations/03-security-principles
+  url: foundations/security_principles
 
 - title: '2.4 Principles of cryptography'
-  url: 04-foundations/04-crypto-principles
+  url: foundations/crypto_principles
 
 - title: '2.5 OWASP Top Ten'
-  url: 04-foundations/05-top-ten
+  url: foundations/owasp_top_ten
 
 - title: '2.6 Security champions'
-  url: 04-foundations/06-security-champions
+  url: foundations/security_champions
 
 - title: '3. Requirements'
   url: requirements
