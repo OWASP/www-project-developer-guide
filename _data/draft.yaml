@@ -2,10 +2,10 @@ docs_list_title: Developer Guide (draft)
 docs:
 
 - title: '1. Introduction'
-  url: 03-introduction
+  url: introduction
 
 - title: '2. Foundations'
-  url: 04-foundations/toc
+  url: foundations
 
 - title: '2.1 Security fundamentals'
   url: 04-foundations/01-security-fundamentals
@@ -26,25 +26,25 @@ docs:
   url: 04-foundations/06-security-champions
 
 - title: '3. Requirements'
-  url: 05-requirements/toc
+  url: requirements
 
 - title: '3.1 Requirements in practice'
-  url: 05-requirements/01-requirements
+  url: requirements/requirements_in_practice
 
 - title: '3.2 Risk profile'
-  url: 05-requirements/02-risk
+  url: requirements/risk_profile
 
 - title: '3.3 Security Knowledge Framework'
-  url: 05-requirements/03-skf
+  url: requirements/security_knowledge_framework
 
 - title: '3.4 Security RAT'
-  url: 05-requirements/04-security-rat
+  url: requirements/security_rat
 
 - title: '3.5 Application Security Verification Standard'
-  url: 05-requirements/05-asvs
+  url: requirements/asvs
 
 - title: '3.6 Mobile Application Security'
-  url: 05-requirements/06-mas
+  url: requirements/mas
 
 - title: '4. Design'
   url: 06-design/toc

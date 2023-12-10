@@ -6,6 +6,7 @@ tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
 order: 504
+permalink: /draft/requirements/security_rat
 
 ---
 

@@ -6,6 +6,7 @@ tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
 order: 505
+permalink: /draft/requirements/asvs
 
 ---
 
