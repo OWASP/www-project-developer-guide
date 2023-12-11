@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 1410
+order: 630
 permalink: /draft/design/web_app_checklist/handle_errors_and_exceptions/
 
 ---

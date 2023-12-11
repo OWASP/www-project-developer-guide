@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 1408
+order: 628
 permalink: /draft/design/web_app_checklist/protect_data/
 
 ---
