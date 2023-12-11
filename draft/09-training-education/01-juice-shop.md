@@ -14,32 +14,72 @@ permalink: /draft/training_education/juice_shop/
 
 ### 7.1 Juice Shop
 
-To Do: supply a couple of sentences on the OWASP Juice Shop project,
-including its status as an OWASP project and where to find it.
+The OWASP flagship project [Juice Shop][juice] is a deliberately insecure web application.
+Juice Shop encompasses vulnerabilities from the entire OWASP Top Ten
+along with many other security flaws found in real-world applications.
 
 #### What is Juice Shop?
 
-To Do: go into more detail about Juice Shop so that a developer
-can gain an overview of what this training tool can provide for them.
+Juice Shop is an Open Source (intentionally) insecure web application that is free to download and use.
+It is easy to get started with Juice Shop; it includes [Hacking Instructor scripts][juicetutorial]
+with optional tutorial mode to guide newcomers through several challenges while explaining the underlying vulnerabilities
+
+Juice Shop is easily installed using a [Docker image][juicedocker]
+and runs on Windows/Mac/Linux as well as all major cloud providers.
+There are various ways to run Juice Shop:
+
+* [From source](https://hub.docker.com/r/bkimminich/juice-shop#from-sources)
+* [Packaged Distributions](https://hub.docker.com/r/bkimminich/juice-shop#packaged-distributions)
+* [Docker Container](https://hub.docker.com/r/bkimminich/juice-shop#docker-container)
+* [Vagrant](https://hub.docker.com/r/bkimminich/juice-shop#vagrant)
+* [Amazon EC2 Instance](https://hub.docker.com/r/bkimminich/juice-shop#amazon-ec2-instance)
+* [Azure Container Instance](https://hub.docker.com/r/bkimminich/juice-shop#azure-container-instance)
+* [Google Compute Engine Instance](https://hub.docker.com/r/bkimminich/juice-shop#google-compute-engine-instance)
 
 #### Why use it?
 
-To Do: provide more context for Juice Shop that allows developers to determine whether to use it.
+Juice Shop has several uses:
+
+* As the basis for security training programs, with integration for other training systems via a [WebHook][webhook]
+* As practice for pentesters and hackers, including many built in coding challenges
+* To provide awareness demos, with customizable rebranding for specific corporations or customers
+* Support for [Capture the Flag][juicectf] (CTF) events using flag codes
+* As a guinea pig for security tools
+
+For example pentesting proxies or security scanners can use Juice Shop as a 'guinea pig' application
+to check how well their tools cope with JavaScript-heavy application frontends and REST APIs.
 
 #### How to use it
 
-To Do: give a brief outline of how to run Juice Shop.
-Do not repeat the project documentation itself; ideally provide a primer and a pointer to the documentation.
+There is no 'one way' to use Juice Shop, so start by [downloading][juicedocker] and installing the Docker image.
+The Docker daemon will have to be running to do this, so get the Docker Engine from the [download site][dockerinstall].
+
+```text
+docker pull bkimminich/juice-shop
+docker run --rm -p 3000:3000 bkimminich/juice-shop
+```
+
+Using a browser access `http://localhost:3000/#/` and note that you are now interacting with a deliberately insecure
+'online' shopping web application, so be suspicious of everything you see :)
+
+Once Juice Shop is running then the next step is to follow the [Official Companion Guide][juiceguide]
+that can be freely downloaded from the Juice Shop shop.
+This guide provides overviews of each Juice Shop application vulnerability and includes hints how to spot and exploit them.
+In the appendix you will even find complete step-by-step solutions to every challenge.
 
 ----
 
-![Developer Guide](../assets/images/dg_wip.png "OWASP Developer Guide")
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue0901] or [edit on GitHub][edit0901].
 
-The OWASP Developer Guide is a community effort and this page needs some content to be added.
-If you have suggestions then [submit an issue][issue0901] and the project team can assign it to you,
-or provide new content [direct on GitHub][edit0901].
-
-[issue0901]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2009-training-education/01-juice-shop
+[dockerinstall]: https://docs.docker.com/engine/install/
 [edit0901]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/01-juice-shop.md
+[issue0901]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2009-training-education/01-juice-shop
+[juice]: https://owasp.org/www-project-juice-shop/
+[juicectf]: https://owasp.org/www-project-juice-shop/#div-ctf
+[juicedocker]: https://hub.docker.com/r/bkimminich/juice-shop
+[juiceguide]: https://owasp.org/www-project-juice-shop/#div-ecosystem
+[juicetutorial]: https://owasp.org/www-project-juice-shop/#div-learning
+[webhook]: https://pwning.owasp-juice.shop/companion-guide/latest/part4/integration.html#_challenge_solution_webhook
 
 \newpage
