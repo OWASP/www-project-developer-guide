@@ -6,6 +6,7 @@ tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
 document: OWASP Developer Guide
 order: 744
+permalink: /draft/implementation/dos_donts/application_spoofing/
 
 ---
 

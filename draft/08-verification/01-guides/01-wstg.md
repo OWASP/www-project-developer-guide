@@ -6,6 +6,7 @@ tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
 order: 811
+permalink: /draft/verification/guides/web_security_testing_guide/
 
 ---
 

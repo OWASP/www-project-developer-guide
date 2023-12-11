@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 630
-permalink: /draft/design/mas-checklist/
+permalink: /draft/design/mas_checklist/
 
 ---
 

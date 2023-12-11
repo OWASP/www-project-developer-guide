@@ -6,6 +6,7 @@ tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
 order: 906
+permalink: /draft/training_education/api_top_ten/
 
 ---
 

@@ -6,6 +6,7 @@ tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
 order: 1102
+permalink: /draft/operation/coraza_waf/
 
 ---
 

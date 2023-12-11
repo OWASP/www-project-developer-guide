@@ -6,6 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 1300
+permalink: /draft/security_gap_analysis/
 
 ---
 

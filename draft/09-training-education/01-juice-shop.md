@@ -6,6 +6,7 @@ tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
 order: 901
+permalink: /draft/training_education/juice_shop/
 
 ---
 

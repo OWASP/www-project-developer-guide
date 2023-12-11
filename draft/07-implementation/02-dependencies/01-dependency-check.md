@@ -6,6 +6,7 @@ tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
 order: 721
+permalink: /draft/implementation/dependencies/dependency_check/
 
 ---
 

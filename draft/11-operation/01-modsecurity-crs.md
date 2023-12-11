@@ -6,6 +6,7 @@ tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
 order: 1101
+permalink: /draft/operation/modsecurity_core_rule_set/
 
 ---
 

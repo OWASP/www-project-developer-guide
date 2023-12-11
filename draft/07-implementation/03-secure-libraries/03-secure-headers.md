@@ -6,6 +6,7 @@ tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
 order: 733
+permalink: /draft/implementation/secure_libraries/secure_headers/
 
 ---
 

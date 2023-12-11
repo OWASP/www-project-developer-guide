@@ -6,6 +6,7 @@ tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
 order: 824
+permalink: /draft/verification/tools/offensive_web_testing_framework/
 
 ---
 

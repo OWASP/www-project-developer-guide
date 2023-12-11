@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 1404
-permalink: /draft/design/web-app-checklist/encode-escape-data/
+permalink: /draft/design/web_app_checklist/encode_escape_data/
 
 ---
 

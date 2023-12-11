@@ -6,6 +6,7 @@ tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
 order: 1001
+permalink: /draft/culture_building_and_process_maturing/security_champions_playbook/
 
 ---
 

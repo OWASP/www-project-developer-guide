@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 1408
-permalink: /draft/design/web-app-checklist/protect-data/
+permalink: /draft/design/web_app_checklist/protect_data/
 
 ---
 

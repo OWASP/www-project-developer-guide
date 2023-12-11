@@ -6,6 +6,7 @@ tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
 order: 907
+permalink: /draft/training_education/security_shepherd/
 
 ---
 

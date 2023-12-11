@@ -6,6 +6,7 @@ tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
 order: 905
+permalink: /draft/training_education/mobile_top_ten/
 
 ---
 

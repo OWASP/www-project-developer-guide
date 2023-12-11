@@ -6,6 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 730
+permalink: /draft/implementation/secure_libraries/
 
 ---
 

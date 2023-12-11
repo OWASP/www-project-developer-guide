@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
 order: 614
-permalink: /draft/design/threat-modeling/cornucopia/
+permalink: /draft/design/threat_modeling/cornucopia/
 
 ---
 

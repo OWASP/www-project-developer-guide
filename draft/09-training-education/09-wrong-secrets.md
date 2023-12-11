@@ -6,6 +6,7 @@ tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
 order: 909
+permalink: /draft/training_education/wrong_secrets/
 
 ---
 
