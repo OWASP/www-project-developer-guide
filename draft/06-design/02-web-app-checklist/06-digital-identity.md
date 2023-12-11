@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 1406
-permalink: /draft/design/web-app-checklist/digital-identity/
+permalink: /draft/design/web_app_checklist/digital_identity/
 
 ---
 

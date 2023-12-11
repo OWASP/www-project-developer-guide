@@ -6,6 +6,7 @@ tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
 order: 832
+permalink: /draft/verification/frameworks/secure_codebox/
 
 ---
 

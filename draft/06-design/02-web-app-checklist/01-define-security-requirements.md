@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 1401
-permalink: /draft/design/web-app-checklist/define-security-requirements/
+permalink: /draft/design/web_app_checklist/define_security_requirements/
 
 ---
 

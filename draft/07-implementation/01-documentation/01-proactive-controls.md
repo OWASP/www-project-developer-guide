@@ -6,6 +6,7 @@ tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
 order: 711
+permalink: /draft/implementation/documentation/proactive_controls/
 
 ---
 

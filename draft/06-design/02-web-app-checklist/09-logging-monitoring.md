@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 1409
-permalink: /draft/design/web-app-checklist/security-logging-monitoring/
+permalink: /draft/design/web_app_checklist/security_logging_and_monitoring/
 
 ---
 

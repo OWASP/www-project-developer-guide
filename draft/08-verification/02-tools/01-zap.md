@@ -6,6 +6,7 @@ tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
 order: 821
+permalink: /draft/verification/tools/zed_attack_proxy/
 
 ---
 

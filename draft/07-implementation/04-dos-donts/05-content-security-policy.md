@@ -6,6 +6,7 @@ tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
 document: OWASP Developer Guide
 order: 745
+permalink: /draft/implementation/dos_donts/content_security_policy/
 
 ---
 

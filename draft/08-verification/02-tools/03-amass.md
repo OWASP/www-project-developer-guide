@@ -6,6 +6,7 @@ tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
 order: 823
+permalink: /draft/verification/tools/amass/
 
 ---
 

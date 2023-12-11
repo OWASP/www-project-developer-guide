@@ -6,6 +6,7 @@ tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
 order: 826
+permalink: /draft/verification/tools/secure_headers/
 
 ---
 

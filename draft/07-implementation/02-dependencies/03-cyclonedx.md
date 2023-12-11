@@ -6,6 +6,7 @@ tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
 order: 723
+permalink: /draft/implementation/dependencies/cyclonedx/
 
 ---
 

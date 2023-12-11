@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 610
-permalink: /draft/design/threat-modeling/
+permalink: /draft/design/threat_modeling/
 
 ---
 

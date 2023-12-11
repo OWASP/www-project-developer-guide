@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 1403
-permalink: /draft/design/web-app-checklist/secure-database-access/
+permalink: /draft/design/web_app_checklist/secure_database_access/
 
 ---
 

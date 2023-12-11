@@ -6,6 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 812
+permalink: /draft/verification/guides/mobile_application_security/
 
 ---
 

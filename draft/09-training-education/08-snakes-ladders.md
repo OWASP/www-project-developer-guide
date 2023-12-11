@@ -6,6 +6,7 @@ tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
 order: 908
+permalink: /draft/training_education/snakes_and_ladders/
 
 ---
 
