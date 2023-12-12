@@ -24,8 +24,8 @@ WebGoat is a well established OWASP project and achieved Lab Project status many
 #### What is WebGoat?
 
 WebGoat is primarily a training aid to help development teams put into practice common attack patterns.
-It provides an environment where a web application can be safely attacked without traversing a network
-or upsetting a website owner.
+It provides an environment where a Java-based web application can be safely attacked
+without traversing a network or upsetting a website owner.
 
 The environment is self contained using a container and this ensures attack traffic does not leak to other systems;
 this traffic should look like a malicious attack to a corporate intrusion detection system and will certainly light it up.
@@ -66,7 +66,7 @@ Note that mapping to port 80 can be blocked on corporate laptops so it is sugges
 4. Use a browser to navigate to `localhost:8080/WebGoat` - note that there is no page served on `localhost:8080/`
 5. You are then prompted to login, so first thing to do is create a test account from this login page
 6. The accounts are retained when the container is stopped, but removed if the container is deleted
-7. Creating insecure username/password combinations, such as `kalikali` with `kalikali`, is allowed
+7. Creating insecure username/password combinations, such as 'kalikali' with 'Kali1234', is allowed
 
 The browser should now be displaying the WebGoat lessons, such as 'Hijack a session' under 'Broken Access Control'.
 
@@ -78,7 +78,7 @@ and this can usually be mapped to localhost port 9090 as in the example given ab
 
 Use a browser to navigate to `http://localhost:9090/WebWolf`, there is no page served on URL `localhost:9090`.
 Login to WebWolf using one of the accounts created when accessing the WebGoat account management pages,
-such as username `kalikali` and password `kalikali`. All going well you will now have the WebWolf home page displayed.
+such as username 'kalikali' and password 'Kali1234'. All going well you will now have the WebWolf home page displayed.
 
 WebWolf provides:
 
