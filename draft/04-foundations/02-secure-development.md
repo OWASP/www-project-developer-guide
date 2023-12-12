@@ -28,6 +28,14 @@ according to the processes adopted by the business.
 
 ![SDLC Diagram](assets/images/sdlc_diag.png "typical SDLC diagram")
 
+![SDLC Diagram](/assets/images/sdlc_diag.png "typical SDLC diagram")
+
+![SDLC Diagram](../assets/images/sdlc_diag.png "typical SDLC diagram")
+
+![SDLC Diagram](../../assets/images/sdlc_diag.png "typical SDLC diagram")
+
+![SDLC Diagram](../../../assets/images/sdlc_diag.png "typical SDLC diagram")
+
 With the increasing number and sophistication of exploits against almost every application or business system,
 most companies have adopted a secure Software Development LifeCycle (SDLC).
 The secure SDLC should never be a separate lifecycle,
