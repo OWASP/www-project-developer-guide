@@ -24,7 +24,7 @@ to determine whether to use it in their training and education programs, and its
 
 ----
 
-![Developer Guide](../assets/images/dg_wip.png "OWASP Developer Guide")
+![Developer Guide](../../assets/images/dg_wip.png "OWASP Developer Guide")
 
 The OWASP Developer Guide is a community effort and this page needs some content to be added.
 If you have suggestions then [submit an issue][issue0908] and the project team can assign it to you,

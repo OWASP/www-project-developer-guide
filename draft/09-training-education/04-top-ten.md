@@ -43,7 +43,7 @@ Listed below are the versions up to the latest in 2021, which was released to ma
 
 ----
 
-![Developer Guide](../assets/images/dg_wip.png "OWASP Developer Guide")
+![Developer Guide](../../assets/images/dg_wip.png "OWASP Developer Guide")
 
 The OWASP Developer Guide is a community effort and this page needs some content to be added.
 If you have suggestions then [submit an issue][issue0904] and the project team can assign it to you,

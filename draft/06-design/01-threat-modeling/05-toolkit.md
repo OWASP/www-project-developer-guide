@@ -28,7 +28,7 @@ but this is open to discussion
 
 ----
 
-![Developer Guide](../../assets/images/dg_wip.png "OWASP Developer Guide")
+![Developer Guide](../../../assets/images/dg_wip.png "OWASP Developer Guide")
 
 The OWASP Developer Guide is a community effort and this page needs some content to be added.
 If you have suggestions then [submit an issue][issue060105] and the project team can assign it to you,
