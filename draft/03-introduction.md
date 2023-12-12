@@ -67,7 +67,7 @@ You can regard the purpose of this guide as answering the question:
 Or you can regard this guide as a companion document to the OWASP [Wayfinder][wayfinder] project:
 the Wayfinder maps out the many OWASP tools, projects and documents - the Developer Guide provides some context for them.
 
-![Application Wayfinder Diagram](assets/images/owasp-wayfinder.png "OWASP Application Wayfinder")
+![Application Wayfinder Diagram](../assets/images/owasp-wayfinder.png "OWASP Application Wayfinder")
 
 ----
 

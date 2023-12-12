@@ -68,7 +68,7 @@ jobs:
           args: >-
             --from=markdown
             --output=publish/OWASP_Developer_Guide.draft.pdf
-            --resource-path="draft/assets/images:draft:assets"
+            --resource-path="draft/assets/images:draft"
             draft/title.pdf.yaml
             draft.markdown
 
@@ -78,7 +78,7 @@ jobs:
           args: >-
             --from=markdown
             --output=publish/OWASP_Developer_Guide.draft.epub
-            --resource-path="draft/assets/images:draft:assets"
+            --resource-path="draft/assets/images:draft"
             draft/title.yaml
             draft.markdown
 
