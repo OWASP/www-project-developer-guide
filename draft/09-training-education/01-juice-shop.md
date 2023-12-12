@@ -20,9 +20,10 @@ along with many other security flaws found in real-world applications.
 
 #### What is Juice Shop?
 
-Juice Shop is an Open Source (intentionally) insecure web application that is free to download and use.
+Juice Shop is an Open Source web application that is free to download and use, and is intentionally insecure.
 It is easy to get started with Juice Shop; it includes [Hacking Instructor scripts][juicetutorial]
-with optional tutorial mode to guide newcomers through several challenges while explaining the underlying vulnerabilities
+with an optional tutorial mode to guide newcomers through several challenges
+while explaining the underlying vulnerabilities.
 
 Juice Shop is easily installed using a [Docker image][juicedocker]
 and runs on Windows/Mac/Linux as well as all major cloud providers.
@@ -35,6 +36,8 @@ There are various ways to run Juice Shop:
 * [Amazon EC2 Instance](https://hub.docker.com/r/bkimminich/juice-shop#amazon-ec2-instance)
 * [Azure Container Instance](https://hub.docker.com/r/bkimminich/juice-shop#azure-container-instance)
 * [Google Compute Engine Instance](https://hub.docker.com/r/bkimminich/juice-shop#google-compute-engine-instance)
+
+Juice Shop is written in JavaScript using Node.js, Express and Angular.
 
 #### Why use it?
 
@@ -64,8 +67,9 @@ Using a browser access `http://localhost:3000/#/` and note that you are now inte
 
 Once Juice Shop is running then the next step is to follow the [Official Companion Guide][juiceguide]
 that can be freely downloaded from the Juice Shop shop.
-This guide provides overviews of each Juice Shop application vulnerability and includes hints how to spot and exploit them.
-In the appendix you will even find complete step-by-step solutions to every challenge.
+This guide provides overviews of each Juice Shop application vulnerability
+and includes hints on how to spot and exploit them.
+In the appendix you will there is a complete step-by-step solutions to every challenge for when you are stuck or curious.
 
 ----
 
