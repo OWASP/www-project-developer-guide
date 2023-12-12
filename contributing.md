@@ -80,10 +80,13 @@ To run these checks locally before pushing a commit, run these commands from the
 1. Link checker: `lychee --max-retries 5 --exclude-path './_includes/*.html' './**/*.md'`
 2. Markdown linter: `markdownlint-cli2  **/*.md`
 3. Spell checker: `pyspelling --config .spellcheck.yaml`
-4. PDF and ePub:
-    1. `tail -n +14 -q $(find draft -name "*[0-9]*.md") > draft.markdown`
-    2. `pandoc -f markdown -o draft.pdf --resource-path="draft/assets/images:draft" draft/title.pdf.yaml draft.markdown`
-    3. `pandoc -f markdown -o draft.epub --resource-path="draft/assets/images:draft" draft/title.yaml draft.markdown`
+4. commands to create PDF and ePub outputs:
+
+```text
+tail -n +14 -q $(find draft -name "*[0-9]*.md") > draft.markdown
+pandoc -f markdown -o draft.pdf --resource-path="draft/assets/images:draft/assets:draft" draft/title.pdf.yaml draft.markdown
+pandoc -f markdown -o draft.epub --resource-path="draft/assets/images:draft/assets:draft" draft/title.yaml draft.markdown
+```
 
 Follow instructions to install the command line [lychee][lychee-install] and [pandoc][pandoc-install].
 
