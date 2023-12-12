@@ -83,7 +83,7 @@ To run these checks locally before pushing a commit, run these commands from the
 4. commands to create PDF and ePub outputs:
 
 ```text
-tail -n +14 -q $(find draft -name "*[0-9]*.md") > draft.markdown
+tail -n +14 -q $(find draft -name "*[0-9]*.md" | sort) > draft.markdown
 pandoc -f markdown -o draft.pdf --resource-path="draft/assets/images:draft/assets:draft" draft/title.pdf.yaml draft.markdown
 pandoc -f markdown -o draft.epub --resource-path="draft/assets/images:draft/assets:draft" draft/title.yaml draft.markdown
 ```

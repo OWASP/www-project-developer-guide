@@ -59,7 +59,7 @@ jobs:
 
       - name: Combine markdown
         run: |
-          tail --lines=+14 -q $(find draft -name "*[0-9]*.md") > draft.markdown
+          tail --lines=+14 -q $(find draft -name "*[0-9]*.md" | sort) > draft.markdown
           mkdir -p publish
 
       - name: Export to pdf
