@@ -62,10 +62,12 @@ it is far harder to write solid applications than to destroy them.
 
 You can regard the purpose of this guide as answering the question:
  “I am a developer and I need a reference source to navigate the numerous projects
- and describe the security activities I am _supposed_ to be doing”
+ and describe the security activities I really should be doing”
 
-Or you can regard this guide as a companion document to the OWASP [Wayfinder][wayfinder] project;
-the Wayfinder maps out many OWASP tools and documents, the Developer Guide provides context for them.
+Or you can regard this guide as a companion document to the OWASP [Wayfinder][wayfinder] project:
+the Wayfinder maps out the many OWASP tools, projects and documents - the Developer Guide provides some context for them.
+
+![Application Wayfinder Diagram](assets/images/owasp-wayfinder.png "OWASP Application Wayfinder")
 
 ----
 

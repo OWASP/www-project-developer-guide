@@ -26,7 +26,7 @@ These phases are revisited in a cyclic manner throughout the lifetime of the app
 A generic Software Development LifeCycle (SDLC) is shown below, and in practice there may be more or less phases
 according to the processes adopted by the business.
 
-![SDLC Diagram](../assets/images/sdlc_diag.png "typical SDLC diagram"){: height="220px" }
+![SDLC Diagram](assets/images/sdlc_diag.png "typical SDLC diagram")
 
 With the increasing number and sophistication of exploits against almost every application or business system,
 most companies have adopted a secure Software Development LifeCycle (SDLC).
@@ -166,8 +166,6 @@ There are many OWASP tools and resources to help build security into the SDLC.
 * [Pythonic Threat Modeling][pytm]
 * [Threat Dragon][tdtm]
 * [Security RAT (Security Requirement Automation Tool)][srat]
-
-<script type="text/javascript" src="https://app.diagrams.net/js/viewer-static.min.js"></script>
 
 ----
 

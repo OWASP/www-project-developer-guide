@@ -244,7 +244,7 @@ docs:
 - title: '7.3 PyGoat'
   url: training_education/pygoat
 
-- title: '7.4 OWASP Top 10'
+- title: '7.4 OWASP Top Ten project'
   url: training_education/owasp_top_ten
 
 - title: '7.5 Mobile Top 10'

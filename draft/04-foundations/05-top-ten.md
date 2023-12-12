@@ -176,20 +176,6 @@ may also be referred to as 'OWASP Top 10'. Here is a list of the stable 'OWASP T
 
 There are other OWASP Top 10s that are still being worked on as 'incubator' projects so this list may change.
 
-### OWASP Top 10 versions
-
-The OWASP Top 10 Web Application Security Risks document was originally published in 2003,
-making it one of the longest lived OWASP projects.
-Listed below are the versions up to the latest in 2021, which was released to mark 20 years of OWASP.
-
-* Original [2003](https://github.com/OWASP/Top10/blob/master/archives/OWASPWebApplicationSecurityTopTen-Version1.pdf)
-* [2004](https://github.com/OWASP/Top10/blob/master/archives/OWASP_Top_Ten_2004.pdf)
-* [2007](https://owasp.org/www-pdf-archive//OWASP_Top_10_2007.pdf)
-* [2010](https://github.com/OWASP/OWASP-Top-10/tree/master/2010)
-* [2013](https://github.com/OWASP/Top10/tree/master/2013)
-* [2017](https://github.com/OWASP/Top10/tree/master/2017)
-* Latest [2021](https://github.com/OWASP/Top10/tree/master/2021)
-
 ----
 
 The OWASP Developer Guide is a community effort; if you see something that needs changing

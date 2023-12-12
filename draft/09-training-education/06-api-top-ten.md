@@ -35,7 +35,7 @@ The OWASP Developer Guide is a community effort and this page needs some content
 If you have suggestions then [submit an issue][issue0906] and the project team can assign it to you,
 or provide new content [direct on GitHub][edit0906].
 
-[issue0906]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2009-training-education/06-api-top10
-[edit0906]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/06-api-top10.md
+[issue0906]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2009-training-education/06-api-top-ten
+[edit0906]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/06-api-top-ten.md
 
 \newpage
