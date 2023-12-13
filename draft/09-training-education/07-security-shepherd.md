@@ -39,7 +39,7 @@ The OWASP Developer Guide is a community effort and this page needs some content
 If you have suggestions then [submit an issue][issue0907] and the project team can assign it to you,
 or provide new content [direct on GitHub][edit0907].
 
-[issue0907]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2009-training-education/07-security-shepherd
+[issue0907]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2009-training-education/07-security-shepherd
 [edit0907]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/07-security-shepherd.md
 
 \newpage

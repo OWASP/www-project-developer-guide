@@ -39,7 +39,7 @@ The OWASP Developer Guide is a community effort and this page needs some content
 If you have suggestions then [submit an issue][issue080206] and the project team can assign it to you,
 or provide new content [direct on GitHub][edit080206].
 
-[issue080206]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2008-verification/02-tools/06-secure-headers
+[issue080206]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2008-verification/02-tools/06-secure-headers
 [edit080206]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/02-tools/06-secure-headers.md
 
 \newpage

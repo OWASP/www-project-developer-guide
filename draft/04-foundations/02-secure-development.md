@@ -127,7 +127,7 @@ There are many OWASP tools and resources to help build security into the SDLC.
 
 * [Cheat Sheet Series][cheat]
 * [Cornucopia][cornucopia]
-* [CycloneDX Bill of Materials (BOM) standard][cyclone]
+* [CycloneDX][cyclone] Bill of Materials (BOM) standard
 * [DevSecOps Guideline][devsecops]
 * [Security Champions Guide][champions]
 * [Security Culture project][culture]
@@ -135,14 +135,15 @@ There are many OWASP tools and resources to help build security into the SDLC.
 
 #### OWASP verification projects
 
+* [Application Security Verification Standard][asvs] (ASVS)
 * [Amass project][amass]
 * [Code Pulse][pulse]
 * [Defect Dojo][dojo]
-* [Mobile Application Security (MAS)][masproject]
+* [Mobile Application Security][masproject] (MAS)
 * [Nettacker][net]
 * [OWTF][owtf]
-* [Web Security Testing Guide (WSTG)][wstg]
-* [Zed Attack Proxy (ZAP)][zap]
+* [Web Security Testing Guide][wstg] (WSTG)
+* [Zed Attack Proxy][zap] (ZAP)
 
 #### OWASP training projects
 
@@ -156,16 +157,15 @@ There are many OWASP tools and resources to help build security into the SDLC.
 
 #### OWASP resources
 
-* [Application Security Verification Standard (ASVS)][asvs]
 * [CSRFGuard library][csrfguard]
 * [Dependency-Check Software Composition Analysis (SCA)][depcheck]
 * [Dependency-Track Continuous SBOM Analysis Platform][deptrack]
-* [Enterprise Security API (ESAPI)][esapi]
+* [Enterprise Security API][esapi] (ESAPI)
 * [Integration Standards project Application Wayfinder][wayfinder]
-* [Mobile Application Security (MAS)][mas]
+* [Mobile Application Security][mas] (MAS)
 * [Pythonic Threat Modeling][pytm]
 * [Threat Dragon][tdtm]
-* [Security RAT (Security Requirement Automation Tool)][srat]
+* [Security RAT][srat] (Requirement Automation Tool)
 
 ----
 
@@ -185,6 +185,7 @@ then [submit an issue][issue0402] or [edit on GitHub][edit0402].
 [deptrack]: https://dependencytrack.org/
 [devsecops]: https://owasp.org/www-project-devsecops-guideline/
 [dojo]: https://www.defectdojo.org/
+[edit0402]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/04-foundations/02-secure-development.md
 [esapi]: https://owasp.org/www-project-enterprise-security-api/
 [github]: https://github.com/
 [gitlab]: https://about.gitlab.com/
@@ -195,7 +196,6 @@ then [submit an issue][issue0402] or [edit on GitHub][edit0402].
 [mobile10]: https://owasp.org/www-project-mobile-top-10/
 [net]: https://owasp.org/www-project-nettacker/
 [owtf]: https://owasp.org/www-project-owtf/
-[edit0402]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/04-foundations/02-secure-development.md
 [proactive10]: https://owasp.org/www-project-proactive-controls/
 [pulse]: https://owasp.org/www-project-code-pulse/
 [pytm]: https://owasp.org/www-project-pytm/

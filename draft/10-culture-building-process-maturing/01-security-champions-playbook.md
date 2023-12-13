@@ -42,7 +42,7 @@ The OWASP Developer Guide is a community effort and this page needs some content
 If you have suggestions then [submit an issue][issue1001] and the project team can assign it to you,
 or provide new content [direct on GitHub][edit1001].
 
-[issue1001]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2010-culture-building-process-maturing/01-security-champions-playbook
+[issue1001]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2010-culture-building-process-maturing/01-security-champions-playbook
 [edit1001]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/10-culture-building-process-maturing/01-security-champions-playbook.md
 
 \newpage

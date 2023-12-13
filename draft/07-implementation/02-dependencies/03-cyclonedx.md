@@ -40,7 +40,7 @@ The OWASP Developer Guide is a community effort and this page needs some content
 If you have suggestions then [submit an issue][issue070203] and the project team can assign it to you,
 or provide new content [direct on GitHub][edit070203].
 
-[issue070203]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/02-dependencies/03-cyclonedx
+[issue070203]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2007-implementation/02-dependencies/03-cyclonedx
 [edit070203]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/02-dependencies/03-cyclonedx.md
 
 \newpage

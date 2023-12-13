@@ -41,6 +41,6 @@ or provide new content [direct on GitHub][edit080302].
 
 [codebox]: https://www.securecodebox.io/
 [edit080302]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/03-frameworks/02-secure-codebox.md
-[issue080302]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2008-verification/03-frameworks/02-secure-codebox
+[issue080302]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2008-verification/03-frameworks/02-secure-codebox
 
 \newpage

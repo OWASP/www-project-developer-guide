@@ -41,7 +41,7 @@ The OWASP Developer Guide is a community effort and this page needs some content
 If you have suggestions then [submit an issue][issue070202] and the project team can assign it to you,
 or provide new content [direct on GitHub][edit070202].
 
-[issue070202]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/02-dependencies/02-dependency-track
+[issue070202]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2007-implementation/02-dependencies/02-dependency-track
 [edit070202]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/02-dependencies/02-dependency-track.md
 
 \newpage
