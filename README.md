@@ -1,6 +1,6 @@
 <img src="assets/images/dg_logo_di.png" alt="DevGuide logo" height="220px"/>
 
-[![Build](https://github.com/OWASP/www-project-developer-guide/actions/workflows/ci.yaml/badge.svg)](https://github.com/OWASP/www-project-developer-guide/actions/workflows/ci.yaml)
+![Build](https://github.com/OWASP/www-project-developer-guide/actions/workflows/ci.yaml/badge.svg?event=push)
 [![GitHub license](https://img.shields.io/github/license/owasp/www-project-developer-guide.svg)](license.txt)
 
 ## OWASP Foundation Developer Guide project
