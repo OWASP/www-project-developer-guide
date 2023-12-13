@@ -39,7 +39,7 @@ The OWASP Developer Guide is a community effort and this page needs some content
 If you have suggestions then [submit an issue][issue0504] and the project team can assign it to you,
 or provide new content [direct on GitHub][edit0504].
 
-[issue0504]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-requirements/04-security-rat
+[issue0504]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2005-requirements/04-security-rat
 [edit0504]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/05-requirements/04-security-rat.md
 
 \newpage

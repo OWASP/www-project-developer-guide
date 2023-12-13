@@ -46,7 +46,7 @@ or provide new content [direct on GitHub][edit070301].
 
 [esapi]: https://owasp.org/www-project-enterprise-security-api/
 [esapi-java]: https://mvnrepository.com/artifact/org.owasp.esapi/esapi
-[issue070301]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/03-secure-libraries/01-esapi
+[issue070301]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2007-implementation/03-secure-libraries/01-esapi
 [edit070301]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/03-secure-libraries/01-esapi.md
 
 \newpage

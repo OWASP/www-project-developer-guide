@@ -40,6 +40,6 @@ If you have suggestions then [submit an issue][issue0909] and the project team c
 or provide new content [direct on GitHub][edit0909].
 
 [edit0909]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/09-wrong-secrets.md
-[issue0909]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2009-training-education/09-wrong-secrets
+[issue0909]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2009-training-education/09-wrong-secrets
 
 \newpage

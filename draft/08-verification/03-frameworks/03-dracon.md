@@ -41,6 +41,6 @@ or provide new content [direct on GitHub][edit080303].
 
 [dracon]: https://github.com/thought-machine/dracon/
 [edit080303]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/03-frameworks/03-dracon.md
-[issue080303]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2008-verification/03-frameworks/03-dracon
+[issue080303]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2008-verification/03-frameworks/03-dracon
 
 \newpage

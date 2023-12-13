@@ -48,7 +48,7 @@ If you have suggestions then [submit an issue][issue070302] and the project team
 or provide new content [direct on GitHub][edit070302].
 
 [csrfguard]: https://owasp.org/www-project-csrfguard/
-[issue070302]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/03-secure-libraries/02-csrf-guard
+[issue070302]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2007-implementation/03-secure-libraries/02-csrf-guard
 [edit070302]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/03-secure-libraries/02-csrf-guard.md
 
 \newpage

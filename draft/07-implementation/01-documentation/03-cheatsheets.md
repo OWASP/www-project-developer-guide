@@ -45,7 +45,7 @@ or provide new content [direct on GitHub][edit070103].
 
 [cheat]: https://owasp.org/www-project-cheat-sheets/
 [cheatsheets]: https://cheatsheetseries.owasp.org/
-[issue070103]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/01-documentation/03-cheatsheets
+[issue070103]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2007-implementation/01-documentation/03-cheatsheets
 [edit070103]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/01-documentation/03-cheatsheets.md
 
 \newpage

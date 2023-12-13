@@ -40,7 +40,7 @@ The OWASP Developer Guide is a community effort and this page needs some content
 If you have suggestions then [submit an issue][issue070201] and the project team can assign it to you,
 or provide new content [direct on GitHub][edit070201].
 
-[issue070201]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/02-dependencies/01-dependency-check
+[issue070201]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2007-implementation/02-dependencies/01-dependency-check
 [edit070201]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/02-dependencies/01-dependency-check.md
 
 \newpage

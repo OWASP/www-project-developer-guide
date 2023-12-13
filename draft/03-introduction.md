@@ -30,28 +30,16 @@ notionally it is version 4.x as version 3.0 was never released.
 
 The purpose of this guide is to provide an introduction to security concepts
 and a handy reference for application / system developers.
-Generally it describes the security practices within the Design and Implementation business functions
-of the OWASP Software Assurance Maturity Model ([SAMM][samm]).
-Much of this guide is based on various OWASP sources:
+Generally it describes security practices using the advice given in the
+OWASP Software Assurance Maturity Model ([SAMM][samm]) and describes the OWASP projects
+referenced in the OWASP [Application Wayfinder][wayfinder] project.
 
-* [OWASP Top 10][top10]
-* [Top 10 Proactive Controls][proactive10]
-* [Application Security Verification Standard ((ASVS)][asvs]
-* [Cheat Sheet Series][cheat]
-* [Integration Standards project][wayfinder]
-* [Mobile Application Security][mas]
-* [Software Assurance Maturity Model (SAMM)][samm]
-* [Web Security Testing Guide][wstg]
-
-These resources provide greater detail and wider context for the various sections in this guide,
-and are referenced throughout this developer guide.
-
-The content of the main sections is aimed at an introductory level, with more detail provided in the following sections.
+The content of the Developer Guide is aimed at an introductory level, with more detail provided by each OWASP project.
 This guide does not seek to replicate the many excellent sources on specific security topics;
-it will rarely deal with a subject at an advanced level and instead provides links for specialist security topics.
+it will rarely deal with a subject in depth and instead provides links for greater depth in these security topics.
 
-All of the OWASP projects and tools are free to download and use and the source code is open;
-if you are interested in improving application security then do get involved.
+All of the OWASP projects and tools described in this guide are free to download and use.
+All OWASP projects are open source, so if you are interested in improving application security then do get involved.
 
 #### Audience
 
@@ -64,8 +52,8 @@ You can regard the purpose of this guide as answering the question:
  “I am a developer and I need a reference source to navigate the numerous projects
  and describe the security activities I really should be doing”
 
-Or you can regard this guide as a companion document to the OWASP [Wayfinder][wayfinder] project:
-the Wayfinder maps out the many OWASP tools, projects and documents - the Developer Guide provides some context for them.
+Or you can regard this guide as a companion document to the OWASP [Application Wayfinder][wayfinder] project:
+the Wayfinder maps out the many OWASP tools, projects and documents with the Developer Guide providing some context.
 
 ![Application Wayfinder Diagram](../assets/images/owasp-wayfinder.png "OWASP Application Wayfinder")
 
@@ -75,16 +63,10 @@ The OWASP Developer Guide is a community effort; if there is something that need
 then [submit an issue][issue03] or [edit on GitHub][edit03].
 
 [about]: https://owasp.org/about/
-[asvs]: https://owasp.org/www-project-application-security-verification-standard/
-[cheat]: https://owasp.org/www-project-cheat-sheets/
 [edit03]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/03-introduction.md
 [issue03]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2003-introduction
-[mas]: https://mas.owasp.org/
-[proactive10]: https://owasp.org/www-project-proactive-controls/
 [samm]: https://owaspsamm.org/about/
-[top10]: https://owasp.org/www-project-top-ten/
 [versions]: https://github.com/OWASP/DevGuide/wiki#old-versions
 [wayfinder]: https://owasp.org/www-project-integration-standards/
-[wstg]: https://owasp.org/www-project-web-security-testing-guide/
 
 \newpage

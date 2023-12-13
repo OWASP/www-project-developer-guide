@@ -41,6 +41,6 @@ or provide new content [direct on GitHub][edit080301].
 
 [edit080301]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/03-frameworks/01-glue.md
 [glue]: https://github.com/owasp/glue
-[issue080301]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2008-verification/03-frameworks/01-glue
+[issue080301]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2008-verification/03-frameworks/01-glue
 
 \newpage

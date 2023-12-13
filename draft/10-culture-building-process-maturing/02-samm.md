@@ -40,7 +40,7 @@ The OWASP Developer Guide is a community effort and this page needs some content
 If you have suggestions then [submit an issue][issue1002] and the project team can assign it to you,
 or provide new content [direct on GitHub][edit1002].
 
-[issue1002]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2010-culture-building-process-maturing/02-samm
+[issue1002]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2010-culture-building-process-maturing/02-samm
 [edit1002]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/10-culture-building-process-maturing/02-samm.md
 
 \newpage

@@ -41,6 +41,6 @@ or provide new content [direct on GitHub][edit1102].
 
 [blt]: https://owasp.org/www-project-bug-logging-tool/
 [edit1102]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/11-operation/02-coraza.md
-[issue1102]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2011-operation/02-coraza
+[issue1102]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2011-operation/02-coraza
 
 \newpage

@@ -49,7 +49,7 @@ The OWASP Developer Guide is a community effort and this page needs some content
 If you have suggestions then [submit an issue][issue070303] and the project team can assign it to you,
 or provide new content [direct on GitHub][edit070303].
 
-[issue070303]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/03-secure-libraries/03-secure-headers
+[issue070303]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2007-implementation/03-secure-libraries/03-secure-headers
 [oshp]: https://owasp.org/www-project-secure-headers/
 [edit070303]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/03-secure-libraries/03-secure-headers.md
 
