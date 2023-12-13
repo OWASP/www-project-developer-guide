@@ -367,3 +367,5 @@ customizable
 WebGoat's
 kali
 kalikali
+JA
+ZH

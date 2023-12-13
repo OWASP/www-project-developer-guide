@@ -27,7 +27,7 @@ In the board game for web applications, the virtuous behaviours (ladders) are se
 (using the OWASP [Proactive Controls][proactive10]) and the vices (snakes)
 are application security risks from the [OWASP Top Ten][top10] 2017 version.
 
-The weba ppliaction version can be downloaded for various languages:
+The web appliaction version can be downloaded for various languages:
 
 * [German](https://github.com/OWASP/www-project-snakes-and-ladders/tree/master/assets/files/web/DE) (DE)
 * [English](https://github.com/OWASP/www-project-snakes-and-ladders/tree/master/assets/files/web/EN) (EN)
