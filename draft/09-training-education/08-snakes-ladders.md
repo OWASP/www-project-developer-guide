@@ -14,9 +14,11 @@ permalink: /draft/training_education/snakes_and_ladders/
 
 ### 7.8 OWASP Snakes and Ladders
 
-OWASP [Snakes & Ladders][snakes] is an educational project based on the  popular board game.
+OWASP [Snakes & Ladders][snakes] is an educational project based on the popular board game.
 It uses gamification to promote awareness of application security controls and risks,
 and in particular knowledge of other OWASP documents and tools.
+
+This documentation project is an OWASP Lab project, aimed at security builders and defenders.
 
 #### What is it?
 
@@ -37,9 +39,9 @@ The web application version can be downloaded for various languages:
 * [Turkish](https://github.com/OWASP/www-project-snakes-and-ladders/tree/master/assets/files/web/TR) (TR)
 * [Chinese](https://github.com/OWASP/www-project-snakes-and-ladders/tree/master/assets/files/web/ZH) (ZH)
 
-The board game for mobile applications uses mobile controls
-from the [Mobile Application Security][masproject] controls (version 2013) as the virtuous behaviours.
-The vices are the mobile risks from the same [Mobile Application Security][masproject] project (version 2014).
+The board game for mobile applications uses the mobile controls
+detailed in the [OWASP Mobile Top 10][mobile10controls] as the virtuous behaviours.
+The vices are the [Mobile Top 10 risks][mobile10-2014] from the 2014 version of the project.
 
 The mobile application version is available as a download in
 [English](https://github.com/OWASP/www-project-snakes-and-ladders/tree/master/assets/files/mob/EN)
@@ -69,7 +71,8 @@ then [submit an issue][issue0908] or [edit on GitHub][edit0908].
 [cornucopia]: https://owasp.org/www-project-cornucopia/
 [edit0908]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/08-snakes-ladders.md
 [issue0908]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2009-training-education/08-snakes-ladders
-[masproject]: https://owasp.org/www-project-mobile-app-security/
+[mobile10-2014]: https://owasp.org/www-project-mobile-top-10/2014-risks/
+[mobile10controls]: https://owasp.org/www-project-mobile-top-10/#div-controls
 [proactive10]: https://owasp.org/www-project-proactive-controls/
 [snakes]: https://owasp.org/www-project-snakes-and-ladders/
 [snakeshowto]: https://owasp.org/www-project-snakes-and-ladders/#div-play
