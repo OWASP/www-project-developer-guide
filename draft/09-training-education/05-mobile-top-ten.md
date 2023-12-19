@@ -3,7 +3,7 @@
 title: Mobile Top 10
 layout: col-document
 tags: OWASP Developer Guide
-contributors:
+contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 905
 permalink: /draft/training_education/mobile_top_ten/
@@ -29,13 +29,10 @@ whether to use it in their training and education program.
 
 ----
 
-![Developer Guide](../../assets/images/dg_wip.png "OWASP Developer Guide")
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue0905] or [edit on GitHub][edit0905].
 
-The OWASP Developer Guide is a community effort and this page needs some content to be added.
-If you have suggestions then [submit an issue][issue0905] and the project team can assign it to you,
-or provide new content [direct on GitHub][edit0905].
-
-[issue0905]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2009-training-education/05-mobile-top-ten
 [edit0905]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/05-mobile-top-ten.md
+[issue0905]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2009-training-education/05-mobile-top-ten
 
 \newpage

@@ -26,7 +26,7 @@ Sections:
 2.2 [Secure development and integration](02-secure-development.md)  
 2.3 [Principles of security](03-security-principles.md)  
 2.4 [Principles of cryptography](04-crypto-principles.md)  
-2.5 [OWASP Top Ten](05-top-ten.md)  
+2.5 [OWASP Top 10](05-top-ten.md)  
 2.6 [Security champions](06-security-champions.md)  
 
 ----

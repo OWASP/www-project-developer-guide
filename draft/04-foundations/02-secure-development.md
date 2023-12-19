@@ -141,7 +141,7 @@ There are many OWASP tools and resources to help build security into the SDLC.
 * [Defect Dojo][dojo]
 * [Mobile Application Security][masproject] (MAS)
 * [Nettacker][net]
-* [OWTF][owtf]
+* [Offensive Web Testing Framework][owtf] (OWTF)
 * [Web Security Testing Guide][wstg] (WSTG)
 * [Zed Attack Proxy][zap] (ZAP)
 

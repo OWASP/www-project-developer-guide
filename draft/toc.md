@@ -26,7 +26,7 @@ and so the content is expected to frequently change._
 2.2 [Secure development and integration](04-foundations/02-secure-development.md)  
 2.3 [Principles of security](04-foundations/03-security-principles.md)  
 2.4 [Principles of cryptography](04-foundations/04-crypto-principles.md)  
-2.5 [OWASP Top Ten](04-foundations/05-top-ten.md)  
+2.5 [OWASP Top 10](04-foundations/05-top-ten.md)  
 2.6 [Security champions](04-foundations/06-security-champions.md)  
 
 3 **[Requirements](05-requirements/toc.md)**  
@@ -106,9 +106,9 @@ and so the content is expected to frequently change._
 7.1 [Juice Shop](09-training-education/01-juice-shop.md)  
 7.2 [WebGoat](09-training-education/02-webgoat.md)  
 7.3 [PyGoat](09-training-education/03-pygoat.md)  
-7.4 [OWASP Top Ten project](09-training-education/04-top-ten.md)  
-7.5 [Mobile Top Ten](09-training-education/05-mobile-top-ten.md)  
-7.6 [API Top Ten](09-training-education/06-api-top-ten.md)  
+7.4 [OWASP Top 10 project](09-training-education/04-top-ten.md)  
+7.5 [Mobile Top 10](09-training-education/05-mobile-top-ten.md)  
+7.6 [API Top 10](09-training-education/06-api-top-ten.md)  
 7.7 [Security Shepherd](09-training-education/07-security-shepherd.md)  
 7.8 [OWASP Snakes and Ladders](09-training-education/08-snakes-ladders.md)  
 7.9 [Wrong Secrets](09-training-education/09-wrong-secrets.md)  

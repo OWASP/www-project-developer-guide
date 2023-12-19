@@ -21,7 +21,7 @@ permalink:
 2.2 [Secure development and integration](#secure-development-and-integration)  
 2.3 [Principles of security](#principles-of-security)  
 2.4 [Principles of cryptography](#principles-of-cryptography)  
-2.5 [OWASP Top Ten](#owasp-top-ten)  
+2.5 [OWASP Top 10](#owasp-top-ten)  
 2.6 [Security champions](#security-champions)  
 
 3 **[Requirements](#requirements)**  
@@ -101,9 +101,9 @@ permalink:
 7.1 [Juice Shop](#juice-shop)  
 7.2 [WebGoat](#webgoat)  
 7.3 [PyGoat](#pygoat)  
-7.4 [OWASP Top Ten project](#owasp-top-ten_project)  
-7.5 [Mobile Top Ten](#mobile-top-ten)  
-7.6 [API Top Ten](#api-top-ten)  
+7.4 [OWASP Top 10 project](#owasp-top-ten_project)  
+7.5 [Mobile Top 10](#mobile-top-ten)  
+7.6 [API Top 10](#api-top-ten)  
 7.7 [Security Shepherd](#security-shepherd)  
 7.8 [OWASP Snakes and Ladders](#owasp-snakes-and-ladders)  
 7.9 [Wrong Secrets](#wrong-secrets)  
