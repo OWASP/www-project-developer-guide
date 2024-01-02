@@ -64,6 +64,8 @@ Visit the [requirements tool website][skfreqs] and select the relevant requireme
 Export the selection to the format of your choice (Markdown, spreadsheet CSV or plain text)
 and use this as a starting point for the application security requirements.
 
+The OWASP Spotlight series provides an overview of the SKF: 'Project 7 - [Security Knowledge Framework (SKF)][spotlight07]'.
+
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
@@ -78,5 +80,6 @@ then [submit an issue][issue0503] or [edit on GitHub][edit0503].
 [skflabs]: https://secureby.design/labs
 [skfrepo]: https://github.com/Security-Knowledge-Framework
 [skfreqs]: https://starfish-app-kd3eo.ondigitalocean.app/
+[spotlight07]: https://youtu.be/TFX_ZBy6lNY
 
 \newpage

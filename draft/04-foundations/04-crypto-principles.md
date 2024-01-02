@@ -15,7 +15,7 @@ permalink: /draft/foundations/crypto_principles/
 ### 2.4 Principles of cryptography
 
 Cryptography is fundamental to the Confidentiality and Integrity of applications and systems.
-The OWASP [Cheat Sheet][cheat] series describes the use of cryptography and some of these are
+The OWASP [Cheat Sheet][cheatproject] series describes the use of cryptography and some of these are
 listed in the further reading at the end of this section.
 
 #### Overview
@@ -253,7 +253,7 @@ then [submit an issue][issue0404] or [edit on GitHub][edit0404].
 
 [ancs]: https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html
 [csaz]: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html
-[cheat]: https://owasp.org/www-project-cheat-sheets/
+[cheatproject]: https://owasp.org/www-project-cheat-sheets/
 [cscs]: https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html
 [issue0404]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/04-crypto-principles
 [kmcs]: https://cheatsheetseries.owasp.org/cheatsheets/Key_Management_Cheat_Sheet.html

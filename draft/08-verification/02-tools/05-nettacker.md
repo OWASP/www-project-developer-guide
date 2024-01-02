@@ -28,6 +28,9 @@ To Do: provide more context for Nettacker that allows developers or penetration 
 
 #### How to use it
 
+The OWASP Spotlight series provides an overview of attack surface management using Nettacker:
+'Project 11 - [Nettacker][spotlight11]'.
+
 To Do: give a brief outline of how Nettacker provides value for a penetration tester.
 Do not repeat the project documentation itself; ideally provide a primer and a pointer to the documentation.
 
@@ -39,7 +42,8 @@ The OWASP Developer Guide is a community effort and this page needs some content
 If you have suggestions then [submit an issue][issue080205] and the project team can assign it to you,
 or provide new content [direct on GitHub][edit080205].
 
-[issue080205]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2008-verification/02-tools/05-nettacker
 [edit080205]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/02-tools/05-nettacker.md
+[issue080205]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2008-verification/02-tools/05-nettacker
+[spotlight11]: https://youtu.be/OGv7OtG127A
 
 \newpage

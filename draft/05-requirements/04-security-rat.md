@@ -28,6 +28,8 @@ To Do: provide more context for Security RAT that allows developers to determine
 
 #### How to use it
 
+The OWASP Spotlight series provides an overview of how to use this tool: 'Project 5 - [OWASP SecurityRAT][spotlight05]'.
+
 To Do: give a brief outline of how Security RAT can provide value for the development teams.
 Do not repeat the project documentation itself; ideally provide a primer and a pointer to the documentation.
 
@@ -39,7 +41,8 @@ The OWASP Developer Guide is a community effort and this page needs some content
 If you have suggestions then [submit an issue][issue0504] and the project team can assign it to you,
 or provide new content [direct on GitHub][edit0504].
 
-[issue0504]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2005-requirements/04-security-rat
 [edit0504]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/05-requirements/04-security-rat.md
+[issue0504]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2005-requirements/04-security-rat
+[spotlight05]: https://youtu.be/HiaHXtzJ3DE
 
 \newpage

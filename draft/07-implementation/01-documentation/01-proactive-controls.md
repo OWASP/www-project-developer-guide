@@ -29,6 +29,9 @@ whether to use them in their project.
 
 #### How to apply them
 
+The OWASP Spotlight series provides an overview of how to use this documentation project:
+'Project 8 - [Proactive Controls][spotlight08]'.
+
 To Do: give a brief outline of how applying the Top 10 Proactive Controls documentation
 provides value for a development team.
 Do not repeat the project documentation itself; ideally provide a primer and a pointer to the documentation.
@@ -41,7 +44,8 @@ The OWASP Developer Guide is a community effort and this page needs some content
 If you have suggestions then [submit an issue][issue070101] and the project team can assign it to you,
 or provide new content [direct on GitHub][edit070101].
 
-[issue070101]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2007-implementation/01-documentation/01-proactive-controls
 [edit070101]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/01-documentation/01-proactive-controls.md
+[issue070101]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2007-implementation/01-documentation/01-proactive-controls
+[spotlight08]: https://youtu.be/HRtYDCWOSc0
 
 \newpage

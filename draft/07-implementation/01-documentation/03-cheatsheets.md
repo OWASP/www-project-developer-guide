@@ -18,7 +18,7 @@ The [OWASP Cheat Sheet Series][cheatsheets] was created to provide a concise col
 on a wide range of specific application security topics.
 The cheat sheets are created by various application security professionals who have expertise in specific topics.
 
-The Cheat Sheet Series [documentation project][cheat] is an OWASP Flagship Project in active development.
+The Cheat Sheet Series [documentation project][cheatproject] is an OWASP Flagship Project in active development.
 
 #### What is the Cheat Sheet Series?
 
@@ -32,6 +32,9 @@ whether to use them in their project.
 
 #### How to apply them
 
+The OWASP Spotlight series provides a good overview of using this documentation:
+'Project 4 - [Cheat Sheet Series][spotlight04]'.
+
 To Do: give a brief outline of how applying the Cheat Sheet Series documentation provides value for a web development team.
 Do not repeat the project documentation itself; ideally provide a primer and a pointer to the documentation.
 
@@ -43,9 +46,10 @@ The OWASP Developer Guide is a community effort and this page needs some content
 If you have suggestions then [submit an issue][issue070103] and the project team can assign it to you,
 or provide new content [direct on GitHub][edit070103].
 
-[cheat]: https://owasp.org/www-project-cheat-sheets/
+[cheatproject]: https://owasp.org/www-project-cheat-sheets/
 [cheatsheets]: https://cheatsheetseries.owasp.org/
-[issue070103]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2007-implementation/01-documentation/03-cheatsheets
 [edit070103]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/01-documentation/03-cheatsheets.md
+[issue070103]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2007-implementation/01-documentation/03-cheatsheets
+[spotlight04]: https://youtu.be/S1cVYRDeiPQ
 
 \newpage

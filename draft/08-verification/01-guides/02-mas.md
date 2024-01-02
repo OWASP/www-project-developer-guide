@@ -38,15 +38,18 @@ The MASTG provides several resources for testing the controls:
 
 #### Why use MASTG?
 
-The OWASP MASVS is the industry standard for mobile app security,
+The OWASP MASVS is the industry standard for mobile application security,
 and provides a list of security controls that are expected in a mobile application.
 If the application does not implement these controls correctly then it could be vulnerable;
 the MASTG tests that the application has the controls listed in the MASVS.
 
 #### How to use MASTG
 
+The OWASP Spotlight series provides an overview of using the MASTG:
+'Project 13 - [OWASP Mobile Security Testing Guide (MSTG)][spotlight13]'.
+
 The MASTG project contains a large number of resources that can be used during verification
-and testing of mobile applications, so pick and choose the resources that are applicable to your application.
+and testing of mobile applications; pick and choose the resources that are applicable to specific application.
 
 * Refer to the MASTG section on the concepts and theory to ensure good understanding of the testing process
 * Select the [MASTG tests][mastgtests] that are applicable to the application and its platform OS
@@ -69,5 +72,6 @@ then [submit an issue][issue080102] or [edit on GitHub][edit080102].
 [mastgtechs]: https://mas.owasp.org/MASTG/techniques/
 [mastgtools]: https://mas.owasp.org/MASTG/tools/
 [masvs]: https://mas.owasp.org/MASVS/
+[spotlight13]: https://youtu.be/b07OQd5KSrs
 
 \newpage

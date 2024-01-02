@@ -29,6 +29,9 @@ to determine whether to use it for their security gap analysis.
 
 #### How to use it
 
+The OWASP Spotlight series provides an overview of using the SAMM to guide development:
+'Project 9 - [Software Assurance Maturity Model (SAMM)][spotlight09]'.
+
 To Do: give a brief outline of how SAMM can be used by the development teams for their security gap analysis.
 Do not repeat the project documentation itself; ideally provide a primer and a pointer to the documentation.
 
@@ -40,7 +43,8 @@ The OWASP Developer Guide is a community effort and this page needs some content
 If you have suggestions then [submit an issue][issue130101] and the project team can assign it to you,
 or provide new content [direct on GitHub][edit130101].
 
-[issue130101]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2013-security-gap-analysis/01-guides/01-samm
 [edit130101]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/13-security-gap-analysis/01-guides/01-samm.md
+[issue130101]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2013-security-gap-analysis/01-guides/01-samm
+[spotlight09]: https://youtu.be/N0zcZnkH5Wg
 
 \newpage

@@ -54,8 +54,8 @@ The OWASP Top 10 has various uses that are foundational to application security:
 * to raise awareness of vulnerabilities in applications in general
 * as a set of demonstration topics
 
-For this reason there is no one way to use this documentation project,
-and so use it in any way that promotes application security.
+There is no one way to use this documentation project; use it in any way that promotes application security.
+The OWASP Spotlight series provides an overview of the Top Ten: 'Project 10 - [Top10][spotlight10]'.
 
 ### OWASP Top 10 versions
 
@@ -88,6 +88,7 @@ then [submit an issue][issue0904] or [edit on GitHub][edit0904].
 [a10]: https://owasp.org/Top10/A10_2021-Server-Side_Request_Forgery_%28SSRF%29/
 [edit0904]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/04-top-ten.md
 [issue0904]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2009-training-education/04-top-ten
+[spotlight10]: https://youtu.be/RMkoIrpz8ug
 [top10]: https://owasp.org/www-project-top-ten/
 [top10data]: https://owasp.org/www-project-top-ten/#div-data_2020
 
