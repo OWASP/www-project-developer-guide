@@ -5,14 +5,14 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 904
+order: 907
 permalink: /draft/training_education/owasp_top_ten/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 7.4 OWASP Top Ten project
+### 7.7 OWASP Top Ten project
 
 The OWASP Top 10 is a standard awareness document for developers and web application security.
 It represents a broad consensus about the most critical security risks to web applications.
@@ -74,7 +74,7 @@ Listed below are the versions up to the latest in 2021, which was released to ma
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0904] or [edit on GitHub][edit0904].
+then [submit an issue][issue0907] or [edit on GitHub][edit0907].
 
 [a01]: https://owasp.org/Top10/A01_2021-Broken_Access_Control/
 [a02]: https://owasp.org/Top10/A02_2021-Cryptographic_Failures/
@@ -86,8 +86,8 @@ then [submit an issue][issue0904] or [edit on GitHub][edit0904].
 [a08]: https://owasp.org/Top10/A08_2021-Software_and_Data_Integrity_Failures/
 [a09]: https://owasp.org/Top10/A09_2021-Security_Logging_and_Monitoring_Failures/
 [a10]: https://owasp.org/Top10/A10_2021-Server-Side_Request_Forgery_%28SSRF%29/
-[edit0904]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/04-top-ten.md
-[issue0904]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2009-training-education/04-top-ten
+[edit0907]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/07-top-ten.md
+[issue0907]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2009-training-education/07-top-ten
 [spotlight10]: https://youtu.be/RMkoIrpz8ug
 [top10]: https://owasp.org/www-project-top-ten/
 [top10data]: https://owasp.org/www-project-top-ten/#div-data_2020

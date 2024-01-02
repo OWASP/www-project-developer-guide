@@ -5,14 +5,14 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 907
+order: 906
 permalink: /draft/training_education/security_shepherd/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 7.7 Security Shepherd
+### 7.6 Security Shepherd
 
 To Do: supply a couple of sentences on the Security Shepherd project,
 including its status as an OWASP project and where to find it.
@@ -36,10 +36,10 @@ Do not repeat the project documentation itself; ideally provide a primer and a p
 ![Developer Guide](../../assets/images/dg_wip.png "OWASP Developer Guide")
 
 The OWASP Developer Guide is a community effort and this page needs some content to be added.
-If you have suggestions then [submit an issue][issue0907] and the project team can assign it to you,
-or provide new content [direct on GitHub][edit0907].
+If you have suggestions then [submit an issue][issue0906] and the project team can assign it to you,
+or provide new content [direct on GitHub][edit0906].
 
-[issue0907]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2009-training-education/07-security-shepherd
-[edit0907]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/07-security-shepherd.md
+[edit0906]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/06-security-shepherd.md
+[issue0906]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2009-training-education/06-security-shepherd
 
 \newpage

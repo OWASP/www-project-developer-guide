@@ -258,6 +258,7 @@ CSRF
 CSRFGuard
 gitlab
 Dojo
+dojo
 Nettacker
 OWTF
 WebGoat

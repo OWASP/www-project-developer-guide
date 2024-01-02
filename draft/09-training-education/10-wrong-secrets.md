@@ -5,14 +5,14 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 909
+order: 910
 permalink: /draft/training_education/wrong_secrets/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 7.9 Wrong Secrets
+### 7.10 Wrong Secrets
 
 To Do: supply a couple of sentences on the OWASP Wrong Secrets project,
 including its status as an OWASP project and where to find it.
@@ -36,10 +36,10 @@ Do not repeat the project documentation itself; ideally provide a primer and a p
 ![Developer Guide](../assets/images/dg_wip.png "OWASP Developer Guide")
 
 The OWASP Developer Guide is a community effort and this page needs some content to be added.
-If you have suggestions then [submit an issue][issue0909] and the project team can assign it to you,
-or provide new content [direct on GitHub][edit0909].
+If you have suggestions then [submit an issue][issue0910] and the project team can assign it to you,
+or provide new content [direct on GitHub][edit0910].
 
-[edit0909]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/09-wrong-secrets.md
-[issue0909]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2009-training-education/09-wrong-secrets
+[edit0910]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/10-wrong-secrets.md
+[issue0910]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2009-training-education/10-wrong-secrets
 
 \newpage
