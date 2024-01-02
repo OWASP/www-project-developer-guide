@@ -103,16 +103,18 @@ and so the content is expected to frequently change._
 6.5.3 [Open Source software](08-verification/05-dos-donts/03-open-source-software.md)  
 
 7 **[Training and Education](09-training-education/toc.md)**  
-7.1 [Juice Shop](09-training-education/01-juice-shop.md)  
-7.2 [WebGoat](09-training-education/02-webgoat.md)  
-7.3 [PyGoat](09-training-education/03-pygoat.md)  
-7.4 [OWASP Top 10 project](09-training-education/04-top-ten.md)  
-7.5 [Mobile Top 10](09-training-education/05-mobile-top-ten.md)  
-7.6 [API Top 10](09-training-education/06-api-top-ten.md)  
-7.7 [Security Shepherd](09-training-education/07-security-shepherd.md)  
-7.8 [OWASP Snakes and Ladders](09-training-education/08-snakes-ladders.md)  
-7.9 [Wrong Secrets](09-training-education/09-wrong-secrets.md)  
-7.10 [Security Knowledge Framework](09-training-education/10-skf.md)  
+7.1 [Secure Coding Dojo](09-training-education/01-secure-coding-dojo.md)  
+7.2 [Security Knowledge Framework](09-training-education/02-skf.md)  
+7.3 [Juice Shop](09-training-education/03-juice-shop.md)  
+7.4 [WebGoat](09-training-education/04-webgoat.md)  
+7.5 [PyGoat](09-training-education/05-pygoat.md)  
+7.6 [Security Shepherd](09-training-education/06-security-shepherd.md)  
+7.7 [SamuraiWTF](09-training-education/07-samurai-wtf.md)  
+7.8 [OWASP Top 10 project](09-training-education/08-top-ten.md)  
+7.9 [Mobile Top 10](09-training-education/09-mobile-top-ten.md)  
+7.10 [API Top 10](09-training-education/10-api-top-ten.md)  
+7.11 [Wrong Secrets](09-training-education/11-wrong-secrets.md)  
+7.12 [OWASP Snakes and Ladders](09-training-education/12-snakes-ladders.md)  
 
 8 **[Culture building and Process maturing](10-culture-building-process-maturing/toc.md)**  
 8.1 [Security Champions Playbook](10-culture-building-process-maturing/01-security-champions-playbook.md)  

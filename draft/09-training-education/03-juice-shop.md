@@ -5,14 +5,14 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 901
+order: 903
 permalink: /draft/training_education/juice_shop/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 7.1 Juice Shop
+### 7.3 Juice Shop
 
 The OWASP flagship project [Juice Shop][juice] is a deliberately insecure web application.
 Juice Shop encompasses vulnerabilities from the entire OWASP Top Ten
@@ -54,8 +54,11 @@ to check how well their tools cope with JavaScript-heavy application frontends a
 
 #### How to use it
 
-There is no 'one way' to use Juice Shop, so start by [downloading][juicedocker] and installing the Docker image.
-The Docker daemon will have to be running to do this, so get the Docker Engine from the [download site][dockerinstall].
+There is no 'one way' to use Juice Shop, and so a good starting point is the overview of Juice Shop
+provided by the OWASP Spotlight series: 'Project 25 - [OWASP Juice Shop][spotlight25]'.
+
+Get started by [downloading][juicedocker] and installing the Docker image.
+The Docker daemon will have to be running to do this; get the Docker Engine from the [download site][dockerinstall].
 
 ```text
 docker pull bkimminich/juice-shop
@@ -65,25 +68,26 @@ docker run --rm -p 3000:3000 bkimminich/juice-shop
 Using a browser access `http://localhost:3000/#/` and note that you are now interacting with a deliberately insecure
 'online' shopping web application, so be suspicious of everything you see :)
 
-Once Juice Shop is running then the next step is to follow the [Official Companion Guide][juiceguide]
-that can be freely downloaded from the Juice Shop shop.
+Once Juice Shop is running the next step is to follow the [Official Companion Guide][juiceguide]
+that can be downloaded from the Juice Shop shop.
 This guide provides overviews of each Juice Shop application vulnerability
 and includes hints on how to spot and exploit them.
-In the appendix you will there is a complete step-by-step solutions to every challenge for when you are stuck or curious.
+In the appendix there is a complete step-by-step solution to every challenge for when you are stuck or just curious.
 
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0901] or [edit on GitHub][edit0901].
+then [submit an issue][issue0903] or [edit on GitHub][edit0903].
 
 [dockerinstall]: https://docs.docker.com/engine/install/
-[edit0901]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/01-juice-shop.md
-[issue0901]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2009-training-education/01-juice-shop
+[edit0903]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/03-juice-shop.md
+[issue0903]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2009-training-education/03-juice-shop
 [juice]: https://owasp.org/www-project-juice-shop/
 [juicectf]: https://owasp.org/www-project-juice-shop/#div-ctf
 [juicedocker]: https://hub.docker.com/r/bkimminich/juice-shop
 [juiceguide]: https://owasp.org/www-project-juice-shop/#div-ecosystem
 [juicetutorial]: https://owasp.org/www-project-juice-shop/#div-learning
 [webhook]: https://pwning.owasp-juice.shop/companion-guide/latest/part4/integration.html#_challenge_solution_webhook
+[spotlight25]: https://youtu.be/--50rE76EeA
 
 \newpage

@@ -5,14 +5,14 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 910
+order: 902
 permalink: /draft/training_education/security_knowledge_framework/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 7.10 Security Knowledge Framework training
+### 7.2 Security Knowledge Framework training
 
 The [Security Knowledge Framework][skf] (SKF) is an expert system application that uses various open source projects
 to support development teams and security architects in building secure applications.
@@ -60,10 +60,10 @@ This will provide access to the practice labs, the training courses and also to 
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0910] or [edit on GitHub][edit0910].
+then [submit an issue][issue0902] or [edit on GitHub][edit0902].
 
-[edit0910]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/09-wrong-secrets.md
-[issue0910]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2009-training-education/10-security-knowledge-framework
+[edit0902]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/02-skf.md
+[issue0902]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2009-training-education/02-security-knowledge-framework
 [linuxtraining]: https://training.linuxfoundation.org/full-catalog/
 [skf]: https://www.securityknowledgeframework.org/
 [skfdemo]: https://secureby.design/

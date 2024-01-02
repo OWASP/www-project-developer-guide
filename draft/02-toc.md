@@ -98,16 +98,18 @@ permalink:
 6.5.3 [Open Source software](#open-source-software)  
 
 7 **[Training and Education](#training-and-education)**  
-7.1 [Juice Shop](#juice-shop)  
-7.2 [WebGoat](#webgoat)  
-7.3 [PyGoat](#pygoat)  
-7.4 [OWASP Top 10 project](#owasp-top-ten_project)  
-7.5 [Mobile Top 10](#mobile-top-ten)  
-7.6 [API Top 10](#api-top-ten)  
-7.7 [Security Shepherd](#security-shepherd)  
-7.8 [OWASP Snakes and Ladders](#owasp-snakes-and-ladders)  
-7.9 [Wrong Secrets](#wrong-secrets)  
-7.10 [Security Knowledge Framework](#security-knowledge-framework-training)  
+7.1 [Secure Coding Dojo](#secure-coding-dojo)  
+7.2 [Security Knowledge Framework](#security-knowledge-framework-training)  
+7.3 [Juice Shop](#juice-shop)  
+7.4 [WebGoat](#webgoat)  
+7.5 [PyGoat](#pygoat)  
+7.6 [Security Shepherd](#security-shepherd)  
+7.7 [SamuraiWTF](#samuraiwtf)  
+7.8 [OWASP Top 10 project](#owasp-top-ten-project)  
+7.9 [Mobile Top 10](#mobile-top-ten)  
+7.10 [API Top 10](#api-top-ten)  
+7.11 [Wrong Secrets](#wrong-secrets)  
+7.12 [OWASP Snakes and Ladders](#owasp-snakes-and-ladders)  
 
 8 **[Culture building and Process maturing](#culture-building-and-process-maturing)**  
 8.1 [Security Champions Playbook](#security-champions-playbook)  

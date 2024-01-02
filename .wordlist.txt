@@ -258,6 +258,7 @@ CSRF
 CSRFGuard
 gitlab
 Dojo
+dojo
 Nettacker
 OWTF
 WebGoat
@@ -296,6 +297,7 @@ NoSQL
 misconfiguration
 SSRF
 Dont's
+MSTG
 MASTG
 MASVS
 SKF
@@ -371,3 +373,5 @@ JA
 ZH
 SMS
 ENISA
+SamuraiWTF
+wtf

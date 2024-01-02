@@ -29,6 +29,8 @@ whether to use it in their project.
 
 #### How to use it
 
+The OWASP Spotlight series provides an overview of how to use this tool: 'Project 2 - [OWASP Dependency Check][spotlight02]'.
+
 To Do: give a brief outline of how applying the Dependency-Check tool provides value for a web development team.
 Do not repeat the project documentation itself; ideally provide a primer and a pointer to the documentation.
 
@@ -40,7 +42,8 @@ The OWASP Developer Guide is a community effort and this page needs some content
 If you have suggestions then [submit an issue][issue070201] and the project team can assign it to you,
 or provide new content [direct on GitHub][edit070201].
 
-[issue070201]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2007-implementation/02-dependencies/01-dependency-check
 [edit070201]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/02-dependencies/01-dependency-check.md
+[issue070201]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2007-implementation/02-dependencies/01-dependency-check
+[spotlight02]: https://youtu.be/YAXf3TaAYeA
 
 \newpage

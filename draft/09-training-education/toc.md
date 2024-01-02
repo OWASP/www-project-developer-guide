@@ -29,16 +29,18 @@ OWASP provides various resources and environments that can help with this securi
 
 Sections:  
 
-7.1 [Juice Shop](01-juice-shop.md)  
-7.2 [WebGoat](02-webgoat.md)  
-7.3 [PyGoat](03-pygoat.md)  
-7.4 [OWASP Top 10 project](04-top-ten.md)  
-7.5 [Mobile Top 10](05-mobile-top-ten.md)  
-7.6 [API Top 10](06-api-top-ten.md)  
-7.7 [Security Shepherd](07-security-shepherd.md)  
-7.8 [OWASP Snakes and Ladders](08-snakes-ladders.md)  
-7.9 [Wrong Secrets](09-wrong-secrets.md)  
-7.10 [Security Knowledge Framework](10-skf.md)  
+7.1 [Secure Coding Dojo](01-secure-coding-dojo.md)  
+7.2 [Security Knowledge Framework](02-skf.md)  
+7.3 [Juice Shop](03-juice-shop.md)  
+7.4 [WebGoat](04-webgoat.md)  
+7.5 [PyGoat](05-pygoat.md)  
+7.6 [Security Shepherd](06-security-shepherd.md)  
+7.7 [SamuraiWTF](07-samurai-wtf.md)  
+7.8 [OWASP Top 10 project](08-top-ten.md)  
+7.9 [Mobile Top 10](09-mobile-top-ten.md)  
+7.10 [API Top 10](10-api-top-ten.md)  
+7.11 [Wrong Secrets](11-wrong-secrets.md)  
+7.12 [OWASP Snakes and Ladders](12-snakes-ladders.md)  
 
 ----
 

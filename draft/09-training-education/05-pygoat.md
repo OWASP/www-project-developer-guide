@@ -5,14 +5,14 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 903
+order: 905
 permalink: /draft/training_education/pygoat/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 7.3 PyGoat
+### 7.5 PyGoat
 
 The OWASP [PyGoat project][pygoat] is an intentionally insecure web application,
 and is written in python using the Django framework.
@@ -73,11 +73,11 @@ these are almost about side by side and aid cross referencing to the latest OWAS
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0903] or [edit on GitHub][edit0903].
+then [submit an issue][issue0905] or [edit on GitHub][edit0905].
 
 [dockerinstall]: https://docs.docker.com/engine/install/
-[edit0903]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/03-pygoat.md
-[issue0903]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2009-training-education/03-pygoat
+[edit0905]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/05-pygoat.md
+[issue0905]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2009-training-education/05-pygoat
 [pygoat]: https://owasp.org/www-project-pygoat/
 [pygoatdocker]: https://github.com/adeyosemanputra/pygoat/blob/master/README.md#from-docker-compose
 [pygoathub]: https://hub.docker.com/r/pygoat/pygoat

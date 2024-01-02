@@ -29,6 +29,9 @@ to determine whether to use it in their culture building and process maturing ac
 
 #### How to use it
 
+The OWASP Spotlight series provides an overview of using the SAMM to guide development:
+'Project 9 - [Software Assurance Maturity Model (SAMM)][spotlight09]'.
+
 To Do: give a brief outline of how SAMM can be used by the development teams for their culture building and process maturing.
 Do not repeat the project documentation itself; ideally provide a primer and a pointer to the documentation.
 
@@ -40,7 +43,8 @@ The OWASP Developer Guide is a community effort and this page needs some content
 If you have suggestions then [submit an issue][issue1002] and the project team can assign it to you,
 or provide new content [direct on GitHub][edit1002].
 
-[issue1002]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2010-culture-building-process-maturing/02-samm
 [edit1002]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/10-culture-building-process-maturing/02-samm.md
+[issue1002]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2010-culture-building-process-maturing/02-samm
+[spotlight09]: https://youtu.be/N0zcZnkH5Wg
 
 \newpage

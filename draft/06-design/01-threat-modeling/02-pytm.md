@@ -35,6 +35,8 @@ If a report document is required then a pytm script can output the model, threat
 Programs such as [pandoc][pandoc] can then take this markdown file
 and provide the document in various formats such as PDF, ePub or html.
 
+The OWASP Spotlight series provides an overview of pytm: 'Project 6 - [OWASP pytm][spotlight06]'.
+
 #### Why use pytm?
 
 The pytm development team state that traditional threat modeling often comes too late in the development process,
@@ -102,6 +104,7 @@ then [submit an issue][issue060102] or [edit on GitHub][edit060102].
 [pytmproject]: https://owasp.org/www-project-pytm/
 [pytmexample]: https://github.com/izar/pytm/blob/master/tm.py
 [pytmreleases]: https://github.com/izar/pytm/releases
+[spotlight06]: https://youtu.be/oTqkPaEbTnE
 [TMchap4]: https://www.oreilly.com/library/view/threat-modeling/9781492056546/ch04.html
 
 \newpage

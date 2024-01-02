@@ -28,6 +28,9 @@ To Do: provide more context for WSTG that allows developers to determine whether
 
 #### How to use it
 
+The OWASP Spotlight series provides an overview of how to use the WSTG:
+'Project 1 - [Applying OWASP Testing Guide][spotlight01]'.
+
 To Do: give a brief outline of how the WSTG testing resource can provide value for web application development teams.
 Do not repeat the project documentation itself; ideally provide a primer and a pointer to the documentation.
 
@@ -39,7 +42,8 @@ The OWASP Developer Guide is a community effort and this page needs some content
 If you have suggestions then [submit an issue][issue080101] and the project team can assign it to you,
 or provide new content [direct on GitHub][edit080101].
 
-[issue080101]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2008-verification/01-guides/01-wstg
 [edit080101]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/01-guides/01-wstg.md
+[issue080101]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2008-verification/01-guides/01-wstg
+[spotlight01]: https://youtu.be/bxQPePVDbQk
 
 \newpage

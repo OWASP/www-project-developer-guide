@@ -38,6 +38,9 @@ To Do: provide more context for OSHP that allows developers to determine whether
 
 #### How to use it
 
+The OWASP Spotlight series provides an overview of this project and its uses:
+'Project 24 - [OWASP Security Headers Project][spotlight24]'.
+
 To Do: give a brief outline of how OSHP provides value for a development team.
 Do not repeat the project documentation itself; ideally provide a primer and a pointer to the documentation.
 
@@ -49,8 +52,9 @@ The OWASP Developer Guide is a community effort and this page needs some content
 If you have suggestions then [submit an issue][issue070303] and the project team can assign it to you,
 or provide new content [direct on GitHub][edit070303].
 
+[edit070303]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/03-secure-libraries/03-secure-headers.md
 [issue070303]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2007-implementation/03-secure-libraries/03-secure-headers
 [oshp]: https://owasp.org/www-project-secure-headers/
-[edit070303]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/03-secure-libraries/03-secure-headers.md
+[spotlight24]: https://youtu.be/N4F3VWQYU9E
 
 \newpage

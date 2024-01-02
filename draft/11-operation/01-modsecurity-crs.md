@@ -33,6 +33,9 @@ To Do: provide more context for ModSecurity and the CRS to allows developer to d
 
 #### How to use it
 
+The OWASP Spotlight series provides an overview of how to use the ModSecurity Core Rule Set:
+'Project 3 - [Core Rule Set (CRS) - 1st Line of Defense][spotlight03]'.
+
 To Do: give a brief outline of how CRS can provide value for the development teams.
 Do not repeat the project documentation itself; ideally provide a primer and a pointer to the documentation.
 
@@ -44,7 +47,8 @@ The OWASP Developer Guide is a community effort and this page needs some content
 If you have suggestions then [submit an issue][issue1101] and the project team can assign it to you,
 or provide new content [direct on GitHub][edit1101].
 
-[issue1101]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2011-operation/01-modsecurity-crs
 [edit1101]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/11-operation/01-modsecurity-crs.md
+[issue1101]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2011-operation/01-modsecurity-crs
+[spotlight03]: https://youtu.be/88ZMKpiZbRI
 
 \newpage

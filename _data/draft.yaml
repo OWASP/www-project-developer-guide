@@ -235,35 +235,41 @@ docs:
 - title: '7. Training and Education'
   url: training_education
 
-- title: '7.1 Juice Shop'
+- title: '7.1 Secure Coding Dojo'
+  url: training_education/secure_coding_dojo
+
+- title: '7.2 Security Knowledge Framework'
+  url: training_education/security_knowledge_framework
+
+- title: '7.3 Juice Shop'
   url: training_education/juice_shop
 
-- title: '7.2 WebGoat'
+- title: '7.4 WebGoat'
   url: training_education/webgoat
 
-- title: '7.3 PyGoat'
+- title: '7.5 PyGoat'
   url: training_education/pygoat
 
-- title: '7.4 OWASP Top 10 project'
-  url: training_education/owasp_top_ten
-
-- title: '7.5 Mobile Top 10'
-  url: training_education/mobile_top_ten
-
-- title: '7.6 API Top 10'
-  url: training_education/api_top_ten
-
-- title: '7.7 Security Shepherd'
+- title: '7.6 Security Shepherd'
   url: training_education/security_shepherd
 
-- title: '7.8 OWASP Snakes and Ladders'
-  url: training_education/snakes_and_ladders
+- title: '7.7 SamuraiWTF'
+  url: training_education/samurai_wtf
 
-- title: '7.9 Wrong Secrets'
+- title: '7.8 OWASP Top 10 project'
+  url: training_education/owasp_top_ten
+
+- title: '7.9 Mobile Top 10'
+  url: training_education/mobile_top_ten
+
+- title: '7.10 API Top 10'
+  url: training_education/api_top_ten
+
+- title: '7.11 Wrong Secrets'
   url: training_education/wrong_secrets
 
-- title: '7.10 Security Knowledge Framework'
-  url: training_education/security_knowledge_framework
+- title: '7.12 OWASP Snakes and Ladders'
+  url: training_education/snakes_and_ladders
 
 - title: '8. Culture building and Process maturing'
   url: culture_building_and_process_maturing
