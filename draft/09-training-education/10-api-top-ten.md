@@ -5,14 +5,14 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 909
+order: 910
 permalink: /draft/training_education/api_top_ten/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 7.9 API Top 10
+### 7.10 API Top 10
 
 To Do: supply a couple of sentences on the API Top 10 project,
 including its status as an OWASP project and where to find it.
@@ -32,10 +32,10 @@ whether to use it in their training and education program.
 ![Developer Guide](../../assets/images/dg_wip.png "OWASP Developer Guide")
 
 The OWASP Developer Guide is a community effort and this page needs some content to be added.
-If you have suggestions then [submit an issue][issue0909] and the project team can assign it to you,
-or provide new content [direct on GitHub][edit0909].
+If you have suggestions then [submit an issue][issue0910] and the project team can assign it to you,
+or provide new content [direct on GitHub][edit0910].
 
-[issue0909]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2009-training-education/09-api-top-ten
-[edit0909]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/09-api-top-ten.md
+[issue0910]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2009-training-education/10-api-top-ten
+[edit0910]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/10-api-top-ten.md
 
 \newpage

@@ -34,11 +34,12 @@ Sections:
 7.4 [WebGoat](#webgoat)  
 7.5 [PyGoat](#pygoat)  
 7.6 [Security Shepherd](#security-shepherd)  
-7.7 [OWASP Top 10 project](#owasp-top-ten-project)  
-7.8 [Mobile Top 10](#mobile-top-ten)  
-7.9 [API Top 10](#api-top-ten)  
-7.10 [Wrong Secrets](#wrong-secrets)  
-7.11 [OWASP Snakes and Ladders](#owasp-snakes-and-ladders)  
+7.7 [SamuraiWTF](#samuraiwtf)  
+7.8 [OWASP Top 10 project](#owasp-top-ten-project)  
+7.9 [Mobile Top 10](#mobile-top-ten)  
+7.10 [API Top 10](#api-top-ten)  
+7.11 [Wrong Secrets](#wrong-secrets)  
+7.12 [OWASP Snakes and Ladders](#owasp-snakes-and-ladders)  
 
 ----
 

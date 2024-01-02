@@ -373,3 +373,5 @@ JA
 ZH
 SMS
 ENISA
+SamuraiWTF
+wtf

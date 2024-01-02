@@ -5,14 +5,14 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 911
+order: 912
 permalink: /draft/training_education/snakes_and_ladders/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 7.11 OWASP Snakes and Ladders
+### 7.12 OWASP Snakes and Ladders
 
 OWASP [Snakes & Ladders][snakes] is an educational project based on the popular board game.
 It uses gamification to promote awareness of application security controls and risks,
@@ -66,11 +66,11 @@ but this last option no longer seems to be available.
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0911] or [edit on GitHub][edit0911].
+then [submit an issue][issue0912] or [edit on GitHub][edit0912].
 
 [cornucopia]: https://owasp.org/www-project-cornucopia/
-[edit0911]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/11-snakes-ladders.md
-[issue0911]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2009-training-education/11-snakes-ladders
+[edit0912]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/12-snakes-ladders.md
+[issue0912]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2009-training-education/12-snakes-ladders
 [mobile10-2014]: https://owasp.org/www-project-mobile-top-10/2014-risks/
 [mobile10controls]: https://owasp.org/www-project-mobile-top-10/#div-controls
 [proactive10]: https://owasp.org/www-project-proactive-controls/
