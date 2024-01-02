@@ -54,8 +54,11 @@ to check how well their tools cope with JavaScript-heavy application frontends a
 
 #### How to use it
 
-There is no 'one way' to use Juice Shop, so start by [downloading][juicedocker] and installing the Docker image.
-The Docker daemon will have to be running to do this, so get the Docker Engine from the [download site][dockerinstall].
+There is no 'one way' to use Juice Shop, and so a good starting point is the overview of Juice Shop
+provided by the OWASP Spotlight series: 'Project 25 - [OWASP Juice Shop][spotlight25]'.
+
+Get started by [downloading][juicedocker] and installing the Docker image.
+The Docker daemon will have to be running to do this; get the Docker Engine from the [download site][dockerinstall].
 
 ```text
 docker pull bkimminich/juice-shop
@@ -65,11 +68,11 @@ docker run --rm -p 3000:3000 bkimminich/juice-shop
 Using a browser access `http://localhost:3000/#/` and note that you are now interacting with a deliberately insecure
 'online' shopping web application, so be suspicious of everything you see :)
 
-Once Juice Shop is running then the next step is to follow the [Official Companion Guide][juiceguide]
-that can be freely downloaded from the Juice Shop shop.
+Once Juice Shop is running the next step is to follow the [Official Companion Guide][juiceguide]
+that can be downloaded from the Juice Shop shop.
 This guide provides overviews of each Juice Shop application vulnerability
 and includes hints on how to spot and exploit them.
-In the appendix you will there is a complete step-by-step solutions to every challenge for when you are stuck or curious.
+In the appendix there is a complete step-by-step solution to every challenge for when you are stuck or just curious.
 
 ----
 
@@ -85,5 +88,6 @@ then [submit an issue][issue0903] or [edit on GitHub][edit0903].
 [juiceguide]: https://owasp.org/www-project-juice-shop/#div-ecosystem
 [juicetutorial]: https://owasp.org/www-project-juice-shop/#div-learning
 [webhook]: https://pwning.owasp-juice.shop/companion-guide/latest/part4/integration.html#_challenge_solution_webhook
+[spotlight25]: https://youtu.be/--50rE76EeA
 
 \newpage

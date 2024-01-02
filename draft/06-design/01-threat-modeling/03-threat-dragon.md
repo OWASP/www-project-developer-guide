@@ -51,6 +51,9 @@ and it can be used by a wide range of developers and teams:
 
 #### How to use it
 
+The OWASP Spotlight series provides an overview of Threat Dragon and how to use it:
+'Project 22 - [OWASP Threat Dragon][spotlight22]'.
+
 Threat Dragon is distributed as a cross platform desktop application as well a web application.
 It is straightforward to start using Threat Dragon; the latest version is [available to use online][tddemo]:
 
@@ -80,5 +83,6 @@ then [submit an issue][issue060103] or [edit on GitHub][edit060103].
 [tddocker]: https://hub.docker.com/r/owasp/threat-dragon/tags
 [tddownload]: https://github.com/OWASP/threat-dragon/releases
 [tdtm]: https://owasp.org/www-project-threat-dragon/
+[spotlight22]: https://youtu.be/hUOAoc6QGJo
 
 \newpage

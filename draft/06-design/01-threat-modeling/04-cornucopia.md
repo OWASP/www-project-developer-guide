@@ -28,6 +28,9 @@ To Do: provide more context on Cornucopia that allows developers to determine wh
 
 #### How to use it
 
+The OWASP Spotlight series provides an overview of Cornucopia and how it is typically used:
+'Project 16 - [Cornucopia][spotlight16]'.
+
 To Do: give a brief outline of how to use Cornucopia, but do not repeat the project documentation itself;
 ideally provide a primer and a pointer to the documentation.
 
@@ -39,7 +42,8 @@ The OWASP Developer Guide is a community effort and this page needs some content
 If you have suggestions then [submit an issue][issue060104] and the project team can assign it to you,
 or provide new content [direct on GitHub][edit060104].
 
-[issue060104]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2006-design/01-threat-modeling/04-cornucopia
 [edit060104]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/01-threat-modeling/04-cornucopia.md
+[issue060104]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2006-design/01-threat-modeling/04-cornucopia
+[spotlight16]: https://youtu.be/NesxjEGX58s
 
 \newpage
