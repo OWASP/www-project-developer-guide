@@ -33,7 +33,7 @@ and so the content is expected to frequently change._
 3.1 [Requirements in practice](05-requirements/01-requirements.md)  
 3.2 [Risk profile](05-requirements/02-risk.md)  
 3.3 [Security Knowledge Framework](05-requirements/03-skf.md)  
-3.4 [Security RAT](05-requirements/04-security-rat.md)  
+3.4 [SecurityRAT](05-requirements/04-security-rat.md)  
 3.5 [Application Security Verification Standard](05-requirements/05-asvs.md)  
 3.6 [Mobile Application Security](05-requirements/06-mas.md)  
 
