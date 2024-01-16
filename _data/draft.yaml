@@ -37,7 +37,7 @@ docs:
 - title: '3.3 Security Knowledge Framework'
   url: requirements/security_knowledge_framework
 
-- title: '3.4 Security RAT'
+- title: '3.4 SecurityRAT'
   url: requirements/security_rat
 
 - title: '3.5 Application Security Verification Standard'

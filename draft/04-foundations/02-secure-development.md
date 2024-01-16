@@ -165,7 +165,7 @@ There are many OWASP tools and resources to help build security into the SDLC.
 * [Mobile Application Security][mas] (MAS)
 * [Pythonic Threat Modeling][pytm]
 * [Threat Dragon][tdtm]
-* [Security RAT][srat] (Requirement Automation Tool)
+* [SecurityRAT][srat] (Requirement Automation Tool)
 
 ----
 

@@ -375,3 +375,8 @@ SMS
 ENISA
 SamuraiWTF
 wtf
+SSO
+Atlassian
+JIRA
+JDK
+SecurityCAT
