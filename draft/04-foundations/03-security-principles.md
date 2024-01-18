@@ -104,7 +104,7 @@ so that all accesses to objects must be checked to ensure that they are allowed.
 The open design security principle states that the implementation details of the design
 should be independent of the design itself,
 allowing the design to remain open while the implementation can be kept secret.
-This is in contract to security by obscurity where the security of the software
+This is in contrast to security by obscurity where the security of the software
 is dependent upon the obscuring of the design itself.
 
 When software is architected using the open design concept,
