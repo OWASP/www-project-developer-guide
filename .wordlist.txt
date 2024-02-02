@@ -380,3 +380,6 @@ Atlassian
 JIRA
 JDK
 SecurityCAT
+OWASP's
+roadmap
+SAMMwise
