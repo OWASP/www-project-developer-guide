@@ -187,7 +187,7 @@ Finally some advice on threat modeling.
 
 **Make it incremental**:
 
-Strongly consider using [incremental threat modeling][sammdgata].
+Strongly consider using [incremental threat modeling][sammgata].
 It is almost certainly a bad idea trying to fully model an existing application or system;
 it can be very time consuming modeling a whole system,
 and by the time such a model was completed then it would probably be out of date.
@@ -272,7 +272,7 @@ then [submit an issue][issue060101] or [edit on GitHub][edit060101].
 [samm]: https://owaspsamm.org/about/
 [sammd]: https://owaspsamm.org/model/design/
 [sammdta]: https://owaspsamm.org/model/design/threat-assessment/
-[sammdgata]: https://owaspsamm.org/guidance/agile/#TA
+[sammgata]: https://owaspsamm.org/guidance/agile/#TA
 [snakes]: https://owasp.org/www-project-snakes-and-ladders/
 [stride]: https://en.wikipedia.org/wiki/STRIDE_%28security%29
 [tmcs]: https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html
