@@ -27,6 +27,7 @@ Sections:
 
 6.1.1 [Web Security Testing Guide](#web-security-testing Guide)  
 6.1.2 [Mobile Application Security](#mobile-application-security)  
+6.1.3 [Application Security Verification Standard](#application-security-verification-standard)  
 
 ----
 

@@ -28,6 +28,7 @@ Sections:
 
 6.1.1 [Web Security Testing Guide](01-wstg.md)  
 6.1.2 [Mobile Application Security](02-mas.md)  
+6.1.3 [Application Security Verification Standard](03-asvs.md)  
 
 ----
 

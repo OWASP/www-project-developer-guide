@@ -20,7 +20,7 @@ The OWASP [Mobile Application Security][masproject] (MAS) flagship project has t
 The MAS project covers the processes, techniques, and tools used for security testing a mobile application,
 as well as an exhaustive set of test cases that enables testers to deliver consistent and complete results.
 The OWASP MAS project provides the [Mobile Application Security Verification Standard][masvs] (MASVS)
-for mobile applications and a comprehensive [Mobile Application Security Testing Guide][mastg] (MASTG).
+for mobile applications that can be used as a guide for security gap analysis.
 
 #### What is MASVS?
 
@@ -49,8 +49,14 @@ given that MASVS is the industry standard for mobile applications, so any omissi
 
 #### How to use MASVS
 
+The MASVS provides a list of expected security controls for mobile applications,
+and this can be used to identify missing or inadequate controls during the gap analysis.
+These controls can then be tested using the [MAS Testing Guide][mastg].
+
 MASVS can be [accessed online][masvs] and the links followed for the security controls;
 the mobile application can then be inspected for compliance with each control.
+This provides a starting point for a security gap evaluation for any existing controls.
+
 In addition MASVS can be downloaded as a PDF which can, for example, be used for evidence or compliance purposes.
 
 ----

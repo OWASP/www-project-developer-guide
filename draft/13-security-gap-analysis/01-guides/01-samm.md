@@ -3,7 +3,7 @@
 title: Software Assurance Maturity Model
 layout: col-document
 tags: OWASP Developer Guide
-contributors:
+contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 1311
 permalink: /draft/security_gap_analysis/guides/software_assurance_maturity_model/
@@ -37,11 +37,8 @@ Do not repeat the project documentation itself; ideally provide a primer and a p
 
 ----
 
-![Developer Guide](../../../assets/images/dg_wip.png "OWASP Developer Guide")
-
-The OWASP Developer Guide is a community effort and this page needs some content to be added.
-If you have suggestions then [submit an issue][issue130101] and the project team can assign it to you,
-or provide new content [direct on GitHub][edit130101].
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue130101] or [edit on GitHub][edit130101].
 
 [edit130101]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/13-security-gap-analysis/01-guides/01-samm.md
 [issue130101]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2013-security-gap-analysis/01-guides/01-samm

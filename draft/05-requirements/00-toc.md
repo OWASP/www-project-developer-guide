@@ -14,9 +14,6 @@ permalink:
 
 ## 3. Requirements
 
-Understanding of key security requirements is outlined in the [Security Requirements][sammreqs] business function
-within the OWASP [SAMM model][samm].
-
 Referring to the OWASP [Top Ten Proactive Controls][control1], security requirements are statements of
 security functionality that ensure the different security properties of a software application are being satisfied.
 Security requirements are derived from industry standards, applicable laws, and a history of past vulnerabilities.
@@ -28,7 +25,14 @@ Instead of creating a custom approach to security for every application,
 standard security requirements allow developers to reuse the definition of security controls and best practices;
 those same vetted security requirements provide solutions for security issues that have occurred in the past.
 
-So you can look at it this way: requirements exist to prevent the repeat of past security failures.
+The importance of understanding key security requirements is described in the [Security Requirements][sammdsr]
+practice that is part of the [Design][sammd] business function section within the OWASP [SAMM model][samm].
+Ideally structured software security requirements are available within with a security a requirements framework,
+and these are utilized by both developer teams and product teams.
+In addition suppliers to the organization must meet security requirements;
+build security into supplier agreements in order to ensure compliance with organizational security requirements.
+
+In summary, security requirements exist to prevent the repeat of past security failures.
 
 Sections:
 
@@ -46,6 +50,7 @@ The OWASP Developer Guide is a community effort; if there is something that need
 [control1]: https://owasp.org/www-project-proactive-controls/v3/en/c1-security-requirements
 [issue0500]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-requirements/00-toc
 [samm]: https://owaspsamm.org/about/
-[sammreqs]: https://owaspsamm.org/model/design/security-requirements/
+[sammd]: https://owaspsamm.org/model/design/
+[sammdsr]: https://owaspsamm.org/model/design/security-requirements/
 
 \newpage

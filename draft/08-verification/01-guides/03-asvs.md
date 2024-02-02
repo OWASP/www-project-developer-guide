@@ -5,17 +5,17 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 1003
-permalink: /draft/culture_building_and_process_maturing/asvs/
+order: 813
+permalink: /draft/verification/guides/asvs/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 8.3 Application Security Verification Standard
+### 6.1.3 Application Security Verification Standard
 
 The [Application Security Verification Standard][asvs] (ASVS) is a long established OWASP flagship project,
-and is widely used to build a culture of security as well as verification of web applications.
+and is widely used as a guide during the verification of web applications.
 
 It can be downloaded from the [OWASP project page][asvs] in various languages and formats:
 PDF, Word, CSV, XML and JSON. Having said that, the recommended way to consume the ASVS is to access
@@ -56,36 +56,33 @@ or contain sensitive medical data, aiming for the highest level of trust at leve
 
 #### Why use it?
 
-The ASVS is well established, the earlier versions were written in 2008, and it has been continually supported since then.
-The ASVS is used to generate security requirements, guide the verification process
-and also to identify gaps in the application security.
+The ASVS is used by many organizations as a basis for the verification of their web applications.
+It is well established, the earlier versions were written in 2008, and it has been continually supported since then.
 
-The ASVS can also be used as a metric on how mature application security processes are;
-it is a yardstick with which to assess the degree of trust that can be placed in the web application.
-This helps provide a good security culture: the application developers and application owners can see how they are doing
-and be confident in the maturity of their processes in comparison with other teams and organizations.
+The ASVS is comprehensive, for example version 4.0.3 has a list of 286 verification requirements,
+and these verification requirements have been created and agreed to by a wide security community.
+Using the ASVS as a guide provides a firm basis for the verification process.
 
 #### How to use it
 
 The OWASP Spotlight series provides an overview of the ASVS and its uses:
 'Project 19 - [OWASP Application Security Verification standard (ASVS)][spotlight19]'.
 
-The appropriate ASVS level should be chosen from:
+The ASVS should be used as a guide for the verification process, with the appropriate level of verification chosen from:
 
 * Level 1: First steps, automated, or whole of portfolio view
 * Level 2: Most applications
 * Level 3: High value, high assurance, or high safety
 
-This is not a judgemental ranking, for example if an application needs only Level 1 protection then that is a valid choice.
-Tools such as [SecurityRAT][srat] can then help create a subset of the ASVS security requirements for consideration.
+Use the ASVS as guidance rather than trying to implement every possible control.
+Tools such as [SecurityRAT][srat] can help create a more manageable subset of the ASVS requirements.
 
-Application developer teams and application owners can then gain familiarity with the appropriate security
-requirements and incorporate them into the process and culture of the organization.
+The ASVS guidance will help developers build security controls that will satisfy the application security requirements.
 
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue1003] or [edit on GitHub][edit1003].
+then [submit an issue][issue080103] or [edit on GitHub][edit080103].
 
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [asvsL123]: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x03-Using-ASVS.md#application-security-verification-levels
@@ -104,8 +101,8 @@ then [submit an issue][issue1003] or [edit on GitHub][edit1003].
 [asvsV12]: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x20-V12-Files-Resources.md#v12-files-and-resources
 [asvsV13]: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x21-V13-API.md#v13-api-and-web-service
 [asvsV14]: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x22-V14-Config.md#v14-configuration
-[edit1003]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/10-culture-building-process-maturing/03-asvs.md
-[issue1003]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2010-culture-building-process-maturing/03-asvs
+[edit080103]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2008-verification/01-guides/05-asvs.md
+[issue080103]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2008-verification/01-guides/03-asvs
 [spotlight19]: https://youtu.be/3puIavsZfAk
 [srat]: https://owasp.org/www-project-securityrat/
 

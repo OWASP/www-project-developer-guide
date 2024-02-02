@@ -3,7 +3,7 @@
 title: Software Assurance Maturity Model
 layout: col-document
 tags: OWASP Developer Guide
-contributors:
+contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 1002
 permalink: /draft/culture_building_and_process_maturing/software_assurance_maturity_model/
@@ -37,11 +37,8 @@ Do not repeat the project documentation itself; ideally provide a primer and a p
 
 ----
 
-![Developer Guide](../../assets/images/dg_wip.png "OWASP Developer Guide")
-
-The OWASP Developer Guide is a community effort and this page needs some content to be added.
-If you have suggestions then [submit an issue][issue1002] and the project team can assign it to you,
-or provide new content [direct on GitHub][edit1002].
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue1002] or [edit on GitHub][edit1002].
 
 [edit1002]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/10-culture-building-process-maturing/02-samm.md
 [issue1002]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2010-culture-building-process-maturing/02-samm

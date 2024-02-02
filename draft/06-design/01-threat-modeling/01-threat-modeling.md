@@ -14,17 +14,16 @@ permalink: /draft/design/threat_modeling/practical_threat_modeling/
 
 ### 4.1.1 Threat modeling in practice
 
-This section discusses Threat Modeling, an activity in the OWASP Software Assurance Maturity Model ([SAMM][samm]).
-Threat modeling is part of the Threat Assessment security practice in the Design business function.
+This section discusses Threat Modeling, an activity described in the OWASP Software Assurance Maturity Model ([SAMM][samm]).
+Threat modeling is part of the [Threat Assessment][sammdta] security practice in the [Design][sammd] business function.
 Much of the material in this section is drawn from the OWASP [Threat Model project][otm].
 
 #### Overview
 
-Threat modeling work to discover what can go wrong with a system and to determine what to do about it
-often results in threat model deliverables.
-Those take many forms including system models and diagrams, lists of threats, mitigations or assumptions,
-meeting notes, and more.
-Sometimes those are assembled into a single "threat model" document, a structured representation of all the information
+Threat modeling activities try to discover what can go wrong with a system and determine what to do about it.
+The deliverables from threat modeling take various forms including system models and diagrams, lists of threats,
+mitigations or assumptions, meeting notes, and more.
+This may be assembled into a single threat model document; a structured representation of all the information
 that affects the security of an application.
 In essence, it is a view of the application and its environment through security glasses.
 
@@ -271,6 +270,8 @@ then [submit an issue][issue060101] or [edit on GitHub][edit060101].
 [pasta]: https://versprite.com/blog/what-is-pasta-threat-modeling/
 [PYTM]: https://owasp.org/www-project-pytm/
 [samm]: https://owaspsamm.org/about/
+[sammd]: https://owaspsamm.org/model/design/
+[sammdta]: https://owaspsamm.org/model/design/threat-assessment/
 [sammdgata]: https://owaspsamm.org/guidance/agile/#TA
 [snakes]: https://owasp.org/www-project-snakes-and-ladders/
 [stride]: https://en.wikipedia.org/wiki/STRIDE_%28security%29

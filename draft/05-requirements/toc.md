@@ -14,7 +14,7 @@ permalink: /draft/requirements/
 
 ## 3. Requirements
 
-Understanding of key security requirements is outlined in the [Security Requirements][sammreqs] business function
+Understanding of key security requirements is outlined in the [Security Requirements][sammdsr] business function
 within the OWASP [SAMM model][samm].
 
 Referring to the OWASP [Top Ten Proactive Controls][control1], security requirements are statements of
@@ -48,4 +48,4 @@ then [submit an issue][issue0500] or [edit on GitHub][edit0500].
 [edit0500]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/05-requirements/toc.md
 [issue0500]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-requirements/00-toc
 [samm]: https://owaspsamm.org/about/
-[sammreqs]: https://owaspsamm.org/model/design/security-requirements/
+[sammdsr]: https://owaspsamm.org/model/design/security-requirements/
