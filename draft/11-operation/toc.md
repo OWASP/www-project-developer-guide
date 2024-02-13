@@ -30,6 +30,7 @@ Sections:
 
 9.1 [ModSecurity Core Rule Set](01-modsecurity-crs.md)  
 9.2 [Coraza Web Application Firewall](02-coraza.md)  
+9.3 [ModSecurity Web Application Firewall](03-modsecurity.md)  
 
 ----
 
