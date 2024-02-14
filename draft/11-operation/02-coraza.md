@@ -14,27 +14,43 @@ permalink: /draft/operation/coraza_waf/
 
 ### 9.2 Coraza Web Application Firewall
 
-[OWASP Coraza][coraza] is a golang enterprise-grade Web Application Firewall framework
-that supports the seclang language by ModSecurity and is 100% compatible with the OWASP [Core Rule Set][modcrs].
-Coraza is an OWASP Production code project and is in active development.
+The [OWASP Coraza][coraza-project] project provides a golang enterprise-grade Web Application Firewall framework
+that supports the [ModSecurity][modsecurity] seclang language
+and is completely compatible with the OWASP [Core Rule Set][modcrs] (CRS).
+Coraza is in active development as an OWASP Production code project,
+with the first stable version released in September 2021 and several releases since then.
 
 #### What is Coraza?
 
-To Do: go into more detail about Coraza Web Application Firewall framework,
-so that a development team can gain an overview of how to use this as a WAF.
+The [Coraza][coraza] Web Application Firewall framework is used to enforce policies,
+providing a first line of security to stop attack on web applications and servers.
+Coraza  can be configured using the OWASP [Core Rule Set][modcrs] and also custom policies can be created.
+
+Coraza can be deployed:
+
+* as a library in an existing web server
+* within an application server acting as a WAF
+* as a reverse proxy
+* using a docker container
 
 #### Why use Coraza?
 
-To Do: provide more context for Coraza to allows developer to determine whether to use it.
+Web Application Firewalls are usually the first line of defense against HTTP attacks on web applications and servers.
+The Coraza WAF is widely used for this purpose, especially for cloud applications,
+along with the long-serving OWASP [ModSecurity][modsecurity] WAF.
 
 #### How to use Coraza
 
-To Do: give a brief outline of how Coraza can provide value for the development teams.
-Do not repeat the project documentation itself; ideally provide a primer and a pointer to the documentation.
+The best way to start is to create a Coraza WAF instance and then add rules to this WAF Instance,
+following the Coraza [Quick Start tutorial][coraza-tutorial].
 
-For example, Coraza can be imported as a library or used with one of the Coraza connectors
-[coraza-server][coraza-server] (GRPC and SPOA),
-[coraza-caddy][coraza-caddy] (web server, reverse proxy) and [docker][coraza-docker] (using connector).
+There are multiple ways of running CRS within a WAF,
+and the one chosen will depend on an individual organization's deployment:
+
+* Coraza [SPOA connector][coraza-spoa] runs the Coraza WAF as a backing service for HAProxy
+* Coraza [Caddy Module][coraza-caddy] provides Web Application Firewall capabilities for Caddy
+* the Coraza [Proxy WASM][coraza-wasm] filter can be loaded directly from Envoy or used as an Istio plugin
+* Coraza as a [C library][coraza-lib], used for applications written in C rather than golang
 
 ----
 
@@ -43,10 +59,14 @@ then [submit an issue][issue1102] or [edit on GitHub][edit1102].
 
 [coraza]: https://coraza.io/
 [coraza-caddy]: https://github.com/corazawaf/coraza-caddy
-[coraza-docker]: https://owasp.org/www-project-coraza-web-application-firewall/#
-[coraza-server]: https://github.com/corazawaf/coraza-server
+[coraza-lib]: https://github.com/corazawaf/libcoraza
+[coraza-project]: https://owasp.org/www-project-coraza-web-application-firewall/
+[coraza-spoa]: https://coraza.io/connectors/coraza-spoa/
+[coraza-tutorial]: https://coraza.io/docs/tutorials/quick-start/
+[coraza-wasm]: https://github.com/corazawaf/coraza-proxy-wasm
 [edit1102]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/11-operation/02-coraza.md
 [issue1102]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2011-operation/02-coraza
 [modcrs]: https://owasp.org/www-project-modsecurity-core-rule-set/
+[modsecurity]: https://owasp.org/www-project-modsecurity/
 
 \newpage
