@@ -25,10 +25,14 @@ Operations generally cover the security practices:
 * [Environment Management][sammoem] such as configuration hardening, patching and updating
 * [Operational Management][sammoom] which includes data protection and system / legacy management
 
+OWASP provides the Core Rule Set that is used for both Coraza and ModSecurity web application firewalls,
+which are important for data and system management..
+
 Sections:
 
 9.1 [ModSecurity Core Rule Set](#modSecurity-core-rule-set)  
 9.2 [Coraza Web Application Firewall](#coraza-web-application-firewall)  
+9.3 [ModSecurity Web Application Firewall](#modsecurity-web-application-firewall)  
 
 ----
 
