@@ -14,35 +14,42 @@ permalink: /draft/culture_building_and_process_maturing/security_champions_playb
 
 ### 8.1 Security Champions Playbook
 
-To Do: supply a couple of sentences on the Security Champions Playbook project,
-including its status as an OWASP project and where to find it.
+The [Security Champions Playbook][sec-champs] is a project that describes the process of establishing
+a Security Champions program within an organization.
 
-#### What is the Security Champions Playbook?
+#### What are Security Champions?
 
-To Do: go into more detail about the Security Champions Playbook project,
-and Security Champions in general,so that a developer can gain an overview of what it can provide
-for their culture building and process maturing activities.
+Security Champions are active members of a team that act as a core element of the security assurance process
+within a product or service.
+They are often are the single point of contact within the team when it comes to security concerns and incidents.
 
-#### Why use it?
+Some advantages of encouraging Security Champions within a team are :
 
-To Do: provide more context for the Security Champions Playbook project that allows developers
-to determine whether it is suitable for their culture building and process maturing activities.
+* Scaling security through multiple teams
+* Engaging non-security engineers in security
+* Establishing the security culture throughout an organization
 
-#### How to use it
+The Security Champion should be given extra training to carry out this role,
+which is often in addition to their existing responsibilities.
 
-To Do: give a brief outline of how the Security Champions Playbook project can be used by the development teams
-for their culture building and process maturing.
-Do not repeat the project documentation itself; ideally provide a primer and a pointer to the documentation.
+#### How to use the playbook
+
+Security Champions Playbook lists six steps which include general recommendations:
+
+1. [Identify teams](https://github.com/c0rdis/security-champions-playbook/blob/master/Security%20Playbook/1.%20Identify%20teams.md)
+2. [Define the role](https://github.com/c0rdis/security-champions-playbook/blob/master/Security%20Playbook/2.%20Define%20the%20role.md)
+3. [Nominate Champions](https://github.com/c0rdis/security-champions-playbook/blob/master/Security%20Playbook/3.%20Nominate%20Champions.md)
+4. [Set up communication channels](https://github.com/c0rdis/security-champions-playbook/blob/master/Security%20Playbook/4.%20Set%20up%20communication%20channels.md)
+5. [Build solid knowledge base](https://github.com/c0rdis/security-champions-playbook/blob/master/Security%20Playbook/5.%20Build%20solid%20knowledge%20base.md)
+6. [Maintain interest](https://github.com/c0rdis/security-champions-playbook/blob/master/Security%20Playbook/6.%20Maintain%20interest.md)
 
 ----
 
-![Developer Guide](../../assets/images/dg_wip.png "OWASP Developer Guide")
-
-The OWASP Developer Guide is a community effort and this page needs some content to be added.
-If you have suggestions then [submit an issue][issue1001] and the project team can assign it to you,
-or provide new content [direct on GitHub][edit1001].
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue1001] or [edit on GitHub][edit1001].
 
 [issue1001]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2010-culture-building-process-maturing/01-security-champions-playbook
 [edit1001]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/10-culture-building-process-maturing/01-security-champions-playbook.md
+[sec-champs]: https://github.com/c0rdis/security-champions-playbook
 
 \newpage
