@@ -36,7 +36,7 @@ The ModSecurity WAF is widely used for this purpose along with the [Coraza WAF][
 
 ModSecurity is deployed as a Web Application Firewall, which scans the incoming and outgoing HTTP traffic to a web server.
 The ModSecurity WAF is deployed as a proxy server in front of a web application,
-or deployed within the webserver itself, to provide protection against HTTP attacks.
+or deployed within the web server itself, to provide protection against HTTP attacks.
 
 The rules applied to the HTTP traffic are provided as configuration to ModSecurity,
 and these rules allow many different actions to be applied such as blocking traffic, redirecting requests, and many more.
