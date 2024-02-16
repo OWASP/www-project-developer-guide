@@ -14,38 +14,59 @@ permalink: /draft/implementation/documentation/proactive_controls/
 
 ### 5.1.1 Top 10 Proactive Controls
 
-To Do: supply a couple of sentences on the OWASP Top 10 Proactive Controls documentation project,
-including its status as an OWASP project and where to find it.
+The OWASP Top Ten Proactive Controls describes the most important controls and control categories
+that security architects and development teams should consider in web application projects.
+The [Proactive Controls project][proactive10] is an OWASP Lab documentation project and
+the PDF can be downloaded for [various languages][proactive10-pdf].
 
 #### What are the Top 10 Proactive Controls?
 
-To Do: go into more detail about the Proactive Controls so that a developer
-can gain an overview of what this documentation project can provide for them.
+The OWASP Top Ten Proactive Controls 2018 is a list of security techniques that should be considered for web applications.
+They are ordered by order of importance, with control number 1 being the most important:
+
+* C1: [Define Security Requirements][control1]
+* C2: [Leverage Security Frameworks and Libraries][control2]
+* C3: [Secure Database Access][control3]
+* C4: [Encode and Escape Data][control4]
+* C5: [[Validate All Inputs][control5]
+* C6: [Implement Digital Identity][control6]
+* C7: [Enforce Access Controls][control7]
+* C8: [Protect Data Everywhere][control8]
+* C9: [Implement Security Logging and Monitoring][control9]
+* C10: [Handle all Errors and Exceptions][control10]
 
 #### Why use them?
 
-To Do: provide more context for the Proactive Controls that allows developers to determine
-whether to use them in their project.
+The Proactive Controls are a well established list of security controls, first published in 2014
+so considering these controls can be seen as best practice.
 
 #### How to apply them
 
 The OWASP Spotlight series provides an overview of how to use this documentation project:
 'Project 8 - [Proactive Controls][spotlight08]'.
 
-To Do: give a brief outline of how applying the Top 10 Proactive Controls documentation
-provides value for a development team.
-Do not repeat the project documentation itself; ideally provide a primer and a pointer to the documentation.
+During development of a web application, consider using each security control
+described in the sections of the Proactive Controls that are relevant to the application.
 
 ----
 
-![Developer Guide](../../../assets/images/dg_wip.png "OWASP Developer Guide")
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue070101] or [edit on GitHub][edit070101].
 
-The OWASP Developer Guide is a community effort and this page needs some content to be added.
-If you have suggestions then [submit an issue][issue070101] and the project team can assign it to you,
-or provide new content [direct on GitHub][edit070101].
-
+[control1]: https://owasp.org/www-project-proactive-controls/v3/en/c1-security-requirements
+[control2]: https://owasp.org/www-project-proactive-controls/v3/en/c2-leverage-security-frameworks-libraries
+[control3]: https://owasp.org/www-project-proactive-controls/v3/en/c3-secure-database
+[control4]: https://owasp.org/www-project-proactive-controls/v3/en/c4-encode-escape-data
+[control5]: https://owasp.org/www-project-proactive-controls/v3/en/c5-validate-inputs
+[control6]: https://owasp.org/www-project-proactive-controls/v3/en/c6-digital-identity
+[control7]: https://owasp.org/www-project-proactive-controls/v3/en/c7-enforce-access-controls
+[control8]: https://owasp.org/www-project-proactive-controls/v3/en/c8-protect-data-everywhere
+[control9]: https://owasp.org/www-project-proactive-controls/v3/en/c9-security-logging
+[control10]: https://owasp.org/www-project-proactive-controls/v3/en/c10-errors-exceptions
 [edit070101]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/01-documentation/01-proactive-controls.md
 [issue070101]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2007-implementation/01-documentation/01-proactive-controls
+[proactive10]: https://owasp.org/www-project-proactive-controls/
+[proactive10-pdf]: https://github.com/OWASP/www-project-proactive-controls/tree/master/v3
 [spotlight08]: https://youtu.be/HRtYDCWOSc0
 
 \newpage

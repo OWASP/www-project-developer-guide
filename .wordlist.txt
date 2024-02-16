@@ -389,4 +389,6 @@ TrustWave
 HAProxy
 Istio
 WASM
-
+AppSec
+gamify
+AppSensor
