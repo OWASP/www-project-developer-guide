@@ -1,6 +1,6 @@
 ---
 
-title: Coraza Web Application Firewall
+title: OWASP Bug Logging Tool (BLT)
 layout: col-document
 tags: OWASP Developer Guide
 contributors:
