@@ -392,3 +392,12 @@ WASM
 AppSec
 gamify
 AppSensor
+SaaSBOM
+HBOM
+MBOM
+OBOM
+BOV
+VDR
+Exploitability
+eXchange
+BOMs

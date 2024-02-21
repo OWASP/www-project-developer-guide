@@ -3,7 +3,7 @@
 title: Threat Modeling Toolkit
 layout: col-document
 tags: OWASP Developer Guide
-contributors:
+contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 615
 permalink: /draft/design/threat_modeling/toolkit/

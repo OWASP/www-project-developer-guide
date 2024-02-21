@@ -3,7 +3,7 @@
 title: Security Champions Playbook
 layout: col-document
 tags: OWASP Developer Guide
-contributors:
+contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 1001
 permalink: /draft/culture_building_and_process_maturing/security_champions_playbook/
