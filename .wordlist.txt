@@ -401,3 +401,7 @@ VDR
 Exploitability
 eXchange
 BOMs
+interoperate
+deduplication
+templating
+integrations

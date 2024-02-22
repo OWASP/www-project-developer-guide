@@ -57,7 +57,7 @@ The OWASP Spotlight series provides an overview of the CycloneDX standard along 
 CycloneDX is an easy to understand standard that can be augmented to suit all part of a supply chain,
 and there are [many tools][cyclonedx-tools] (more than 220 as of February 2024) that interoperate with CycloneDX.
 The easiest way to use CycloneDX is to select tools from this list for any of the supported BOM types,
-with both proprietary/commercial and open source tools in this list.
+with both proprietary/commercial and open source tools included in the list.
 
 A common example is for a customer to request that an SBOM is provided for a web application,
 and [various tools][cyclonedx-tools] can be chosen that are able to export the SBOM in various formats.
