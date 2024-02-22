@@ -39,7 +39,7 @@ Sections:
 7.8 [OWASP Top 10 project](08-top-ten.md)  
 7.9 [Mobile Top 10](09-mobile-top-ten.md)  
 7.10 [API Top 10](10-api-top-ten.md)  
-7.11 [Wrong Secrets](11-wrong-secrets.md)  
+7.11 [WrongSecrets](11-wrongsecrets.md)  
 7.12 [OWASP Snakes and Ladders](12-snakes-ladders.md)  
 
 ----

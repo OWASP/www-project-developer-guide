@@ -268,8 +268,8 @@ docs:
 - title: '7.10 API Top 10'
   url: training_education/api_top_ten
 
-- title: '7.11 Wrong Secrets'
-  url: training_education/wrong_secrets
+- title: '7.11 WrongSecrets'
+  url: training_education/wrongsecrets
 
 - title: '7.12 OWASP Snakes and Ladders'
   url: training_education/snakes_and_ladders
