@@ -3,7 +3,7 @@
 title: Dependency-Track
 layout: col-document
 tags: OWASP Developer Guide
-contributors:
+contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 722
 permalink: /draft/implementation/dependencies/dependency_track/
@@ -38,11 +38,8 @@ Do not repeat the project documentation itself; ideally provide a primer and a p
 
 ----
 
-![Developer Guide](../../../assets/images/dg_wip.png "OWASP Developer Guide")
-
-The OWASP Developer Guide is a community effort and this page needs some content to be added.
-If you have suggestions then [submit an issue][issue070202] and the project team can assign it to you,
-or provide new content [direct on GitHub][edit070202].
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue070202] or [edit on GitHub]][edit070202].
 
 [edit070202]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/02-dependencies/02-dependency-track.md
 [issue070202]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2007-implementation/02-dependencies/02-dependency-track
