@@ -411,3 +411,11 @@ Kubernetes
 GCP
 testbed
 Haan
+CVEs
+NVD
+nist
+CPE
+Gradle
+SBT
+Adoptium
+
