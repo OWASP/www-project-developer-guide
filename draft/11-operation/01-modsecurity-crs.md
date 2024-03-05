@@ -3,7 +3,7 @@
 title: ModSecurity Core Rule Set
 layout: col-document
 tags: OWASP Developer Guide
-contributors:
+contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 1101
 permalink: /draft/operation/modsecurity_core_rule_set/

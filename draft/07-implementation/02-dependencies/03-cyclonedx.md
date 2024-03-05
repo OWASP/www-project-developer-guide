@@ -3,7 +3,7 @@
 title: CycloneDX
 layout: col-document
 tags: OWASP Developer Guide
-contributors:
+contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 723
 permalink: /draft/implementation/dependencies/cyclonedx/
@@ -14,35 +14,74 @@ permalink: /draft/implementation/dependencies/cyclonedx/
 
 ### 5.2.3 CycloneDX
 
-To Do: supply a couple of sentences on the OWASP CycloneDX full-stack Bill of Materials (BOM) standard
-and its use for Software Bill of Materials (SBOMs), including its status as an OWASP project and where to find it.
+OWASP [CycloneDX][cyclonedx] is a full-stack Bill of Materials (BOM) standard
+that provides advanced supply chain capabilities for cyber risk reduction.
+This [project][cyclonedx-project] is one of the OWASP flagship projects.
 
 #### What is CycloneDX?
 
-To Do: go into more detail about the CycloneDX standard so that a developer
-can gain an overview of what this standard can provide for them.
+CycloneDX is a full-stack [Bill of Materials standard][cyclonedx-spec] that provides advanced supply chain capabilities
+for cyber risk reduction. The specification supports:
+
+* [Software Bill of Materials][cyclonedx-sbom] (SBOM)
+* [Software-as-a-Service Bill of Materials][cyclonedx-saasbom] (SaaSBOM)
+* [Hardware Bill of Materials][cyclonedx-hbom] (HBOM)
+* [Machine-learning Bill of Materials][cyclonedx-mlbom] (ML-BOM)
+* [Manufacturing Bill of Materials][cyclonedx-mbom] (MBOM)
+* [Operations Bill of Materials][cyclonedx-obom] (OBOM)
+* [Bill of Vulnerabilities][cyclonedx-bov] (BOV)
+* [Vulnerability Disclosure Reports][cyclonedx-vdr] (VDR)
+* [Vulnerability Exploitability eXchange][cyclonedx-vex] (VEX)
+* Common [Release Notes][cyclonedx-notes] format
+* Syntax for [Bill of Materials linkage][cyclonedx-bomlink] (BOM-Link)
+
+The CycloneDX project provides standards in XML, JSON, and Protocol Buffers,
+as well as a large collection of official and community supported tools that create or interoperate with the standard.
 
 #### Why use it?
 
-To Do: provide more context for the CycloneDX standard and SBOMs that allows developers to determine
-whether to use them in their project.
+CycloneDX is a very well established standard for SBOMs and various other types of BOM.
+There is a huge ecosystem built around CycloneDX and it is used globally by many companies.
+In addition SBOMs are mandatory for many industries and various governments - at some point every organization
+will have to provide SBOMs for their customers and CycloneDX is an accepted standard.
+
+CycloneDX also provides standards for other types of BOMs that may be required in the supply chain
+along with standards for release notes, responsible disclosure, etc.
+It is useful to use these standards throughout the supply chain as it promotes interoperability between the various tools.
 
 #### How to use it
 
-The OWASP Spotlight series provides an overview of CycloneDX along with SBOMs:
+The OWASP Spotlight series provides an overview of the CycloneDX standard along with the use of SBOMs:
 'Project 21 - [OWASP CycloneDX][spotlight21]'.
 
-To Do: give a brief outline of how applying the CycloneDX standard provides value for a web development team.
-Do not repeat the project documentation itself; ideally provide a primer and a pointer to the documentation.
+CycloneDX is an easy to understand standard that can be augmented to suit all part of a supply chain,
+and there are [many tools][cyclonedx-tools] (more than 220 as of February 2024) that interoperate with CycloneDX.
+The easiest way to use CycloneDX is to select tools from this list for any of the supported BOM types,
+with both proprietary/commercial and open source tools included in the list.
+
+A common example is for a customer to request that an SBOM is provided for a web application,
+and [various tools][cyclonedx-tools] can be chosen that are able to export the SBOM in various formats.
 
 ----
 
-![Developer Guide](../../../assets/images/dg_wip.png "OWASP Developer Guide")
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue070203] or [edit on GitHub][edit070203].
 
-The OWASP Developer Guide is a community effort and this page needs some content to be added.
-If you have suggestions then [submit an issue][issue070203] and the project team can assign it to you,
-or provide new content [direct on GitHub][edit070203].
-
+[cyclonedx]: https://cyclonedx.org/
+[cyclonedx-bomlink]: https://cyclonedx.org/capabilities/bomlink/
+[cyclonedx-bov]: https://cyclonedx.org/capabilities/bov/
+[cyclonedx-hbom]: https://cyclonedx.org/capabilities/hbom/
+[cyclonedx-mbom]: https://cyclonedx.org/capabilities/mbom/
+[cyclonedx-mlbom]: https://cyclonedx.org/capabilities/mlbom/
+[cyclonedx-notes]: https://cyclonedx.org/capabilities/release-notes/
+[cyclonedx-obom]: https://cyclonedx.org/capabilities/obom/
+[cyclonedx-project]: https://owasp.org/www-project-cyclonedx/
+[cyclonedx-saasbom]: https://cyclonedx.org/capabilities/saasbom/
+[cyclonedx-sbom]: https://cyclonedx.org/capabilities/sbom/
+[cyclonedx-spec]: https://cyclonedx.org/specification/overview/
+[cyclonedx-tools]: https://cyclonedx.org/tool-center/
+[cyclonedx-vdr]: https://cyclonedx.org/capabilities/vdr/
+[cyclonedx-vex]: https://cyclonedx.org/capabilities/vex/
 [edit070203]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/02-dependencies/03-cyclonedx.md
 [issue070203]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2007-implementation/02-dependencies/03-cyclonedx
 [spotlight21]: https://youtu.be/qEG6cxwl8os

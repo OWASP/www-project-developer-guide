@@ -27,7 +27,8 @@ An ideal SBOM provides information on each dependency so that it can be tracked:
 * Source information and repository
 * Support and maintenance status of the dependency
 
-Having an SBOM provides the ability to quickly find out which applications are affected by a particular CVE, for example.
+Having an SBOM provides the ability to quickly find out which applications are affected by a specific
+[Common Vulnerability and Exposure][cve] (CVE), or what CVEs are present in a particular application.
 
 Sections:
 
@@ -39,6 +40,7 @@ Sections:
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing then [submit an issue][issue0720].
 
+[cve]: https://cve.mitre.org/
 [issue0720]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/02-dependencies/00-toc
 [sammi]: https://owaspsamm.org/model/implementation/
 [sammisb]: https://owaspsamm.org/model/implementation/secure-build/

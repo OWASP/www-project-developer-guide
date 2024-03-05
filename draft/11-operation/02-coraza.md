@@ -3,7 +3,7 @@
 title: Coraza Web Application Firewall
 layout: col-document
 tags: OWASP Developer Guide
-contributors:
+contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 1102
 permalink: /draft/operation/coraza_waf/

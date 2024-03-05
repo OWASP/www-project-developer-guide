@@ -14,13 +14,13 @@
 
 ### License
 
-* [![Creative Commons License][image]](https://creativecommons.org/licenses/by-sa/4.0/ "CC BY-SA 4.0")
+* [![Creative Commons License][license-image]](https://creativecommons.org/licenses/by-sa/4.0/ "CC BY-SA 4.0")
 
 ### Code Repository
 
 * [Source code][repo]
 
-[epub]: draft/assets/exports/OWASP_Developer_Guide.draft.epub
-[pdf]: draft/assets/exports/OWASP_Developer_Guide.draft.pdf
+[epub]: assets/exports/OWASP_Developer_Guide.epub
+[pdf]: assets/exports/OWASP_Developer_Guide.pdf
 [repo]: https://github.com/OWASP/www-project-developer-guide
-[image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[license-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png

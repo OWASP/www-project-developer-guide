@@ -3,7 +3,7 @@
 title: OWASP Bug Logging Tool (BLT)
 layout: col-document
 tags: OWASP Developer Guide
-contributors:
+contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 1320
 permalink: /draft/security_gap_analysis/bug_logging_tool/
