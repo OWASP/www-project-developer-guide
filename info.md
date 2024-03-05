@@ -20,7 +20,7 @@
 
 * [Source code][repo]
 
-[epub]: assets/exports/OWASP_Developer_Guide.draft.epub
-[pdf]: assets/exports/OWASP_Developer_Guide.draft.pdf
+[epub]: assets/exports/OWASP_Developer_Guide.epub
+[pdf]: assets/exports/OWASP_Developer_Guide.pdf
 [repo]: https://github.com/OWASP/www-project-developer-guide
 [license-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
