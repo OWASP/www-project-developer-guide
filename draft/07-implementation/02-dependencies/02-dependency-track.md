@@ -65,7 +65,7 @@ for a step by step guide to this configuration.
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue070202] or [edit on GitHub]][edit070202].
+then [submit an issue][issue070202] or [edit on GitHub][edit070202].
 
 [deptrack]: https://dependencytrack.org/
 [deptrack-docs]: https://docs.dependencytrack.org/

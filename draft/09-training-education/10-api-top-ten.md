@@ -3,7 +3,7 @@
 title: API Top 10
 layout: col-document
 tags: OWASP Developer Guide
-contributors:
+contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 910
 permalink: /draft/training_education/api_top_ten/
@@ -14,8 +14,10 @@ permalink: /draft/training_education/api_top_ten/
 
 ### 7.10 API Top 10
 
-To Do: supply a couple of sentences on the API Top 10 project,
-including its status as an OWASP project and where to find it.
+The OWASP [API Security Project][api-security] (API Top 10) explains strategies and solutions to help the understanding
+and mitigation of the unique vulnerabilities and security risks of Application Programming Interfaces (APIs).
+
+The WSTG document is an OWASP Laboratory Project and can be accessed as a [web based document][api-security-doc].
 
 #### What is the API Top 10?
 
@@ -29,13 +31,12 @@ whether to use it in their training and education program.
 
 ----
 
-![Developer Guide](../../assets/images/dg_wip.png "OWASP Developer Guide")
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue0910] or [edit on GitHub][edit0910].
 
-The OWASP Developer Guide is a community effort and this page needs some content to be added.
-If you have suggestions then [submit an issue][issue0910] and the project team can assign it to you,
-or provide new content [direct on GitHub][edit0910].
-
-[issue0910]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2009-training-education/10-api-top-ten
 [edit0910]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/10-api-top-ten.md
+[issue0910]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2009-training-education/10-api-top-ten
+[api-security-doc]: https://owasp.org/API-Security/editions/2023/en/0x00-header/
+[api-security]: https://owasp.org/www-project-api-security/
 
 \newpage

@@ -3,7 +3,7 @@
 title: SamuraiWTF
 layout: col-document
 tags: OWASP Developer Guide
-contributors:
+contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 907
 permalink: /draft/training_education/samurai_wtf/
@@ -14,8 +14,11 @@ permalink: /draft/training_education/samurai_wtf/
 
 ### 7.7 SamuraiWTF
 
-To Do: supply a couple of sentences on the OWASP SamuraiWTF (Web Training and Testing Framework) project,
-including its status as an OWASP project and where to find it.
+The OWASP [SamuraiWTF][samurai-wtf] (Web Training and Testing Framework) is a linux desktop
+for use in application security training.
+
+The SamuraiWTF [breaker/tool project][samuraiwtf-project] is an OWASP Laboratory Project
+and the desktop can be downloaded as a pre-built virtual machine from the [website][samuraiwtf-download].
 
 #### What is SamuraiWTF?
 
@@ -36,14 +39,14 @@ Do not repeat the project documentation itself; ideally provide a primer and a p
 
 ----
 
-![Developer Guide](../assets/images/dg_wip.png "OWASP Developer Guide")
-
-The OWASP Developer Guide is a community effort and this page needs some content to be added.
-If you have suggestions then [submit an issue][issue0907] and the project team can assign it to you,
-or provide new content [direct on GitHub][edit0907].
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue0907] or [edit on GitHub][edit0907].
 
 [edit0907]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/07-samurai-wtf.md
 [issue0907]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2009-training-education/07-samurai-wtf
+[samurai-wtf]: https://www.samuraiwtf.org/
+[samuraiwtf-download]: http://tiny.si/samurai
+[samuraiwtf-project]: https://owasp.org/www-project-samuraiwtf/
 [spotlight26]: https://youtu.be/PBWUlx_kJmI
 
 \newpage

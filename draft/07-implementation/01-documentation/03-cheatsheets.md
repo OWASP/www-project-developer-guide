@@ -3,7 +3,7 @@
 title: Cheat Sheet Series
 layout: col-document
 tags: OWASP Developer Guide
-contributors:
+contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 713
 permalink: /draft/implementation/documentation/cheatsheets/
@@ -14,11 +14,11 @@ permalink: /draft/implementation/documentation/cheatsheets/
 
 ### 5.1.3 Cheat Sheet Series
 
-The [OWASP Cheat Sheet Series][cheatsheets] was created to provide a concise collection of high value information
+The [OWASP Cheat Sheet Series][cheatsheets] were created to provide a concise collection of high value information
 on a wide range of specific application security topics.
 The cheat sheets are created by various application security professionals who have expertise in specific topics.
 
-The Cheat Sheet Series [documentation project][cheatproject] is an OWASP Flagship Project in active development.
+The Cheat Sheet Series [documentation project][cheatproject] is an OWASP Flagship Project in constant development.
 
 #### What is the Cheat Sheet Series?
 
@@ -40,11 +40,8 @@ Do not repeat the project documentation itself; ideally provide a primer and a p
 
 ----
 
-![Developer Guide](../../../assets/images/dg_wip.png "OWASP Developer Guide")
-
-The OWASP Developer Guide is a community effort and this page needs some content to be added.
-If you have suggestions then [submit an issue][issue070103] and the project team can assign it to you,
-or provide new content [direct on GitHub][edit070103].
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue070103] or [edit on GitHub][edit070103].
 
 [cheatproject]: https://owasp.org/www-project-cheat-sheets/
 [cheatsheets]: https://cheatsheetseries.owasp.org/
