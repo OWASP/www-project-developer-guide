@@ -5,14 +5,14 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 907
+order: 904
 permalink: /draft/training_education/samurai_wtf/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 7.7 SamuraiWTF
+### 7.4 SamuraiWTF
 
 The OWASP [SamuraiWTF][samurai-wtf] (Web Training and Testing Framework) is a linux desktop distribution
 that is intended for application security training.
@@ -61,10 +61,10 @@ From a command prompt run 'katana' to start configuring SamuraiWTF for your trai
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0907] or [edit on GitHub][edit0907].
+then [submit an issue][issue0904] or [edit on GitHub][edit0904].
 
-[edit0907]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/07-samurai-wtf.md
-[issue0907]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2009-training-education/07-samurai-wtf
+[edit0904]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/04-samurai-wtf.md
+[issue0904]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2009-training-education/04-samurai-wtf
 [kali]: https://www.kali.org/
 [samurai-dojo]: https://owasp.org/www-project-samuraiwtf/#div-dojo
 [samurai-katana]: https://owasp.org/www-project-samuraiwtf/#div-katana

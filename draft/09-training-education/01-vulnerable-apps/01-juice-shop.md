@@ -5,14 +5,14 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 903
-permalink: /draft/training_education/juice_shop/
+order: 911
+permalink: /draft/training_education/vulnerable_applications/juice_shop/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 7.3 Juice Shop
+### 7.1.1 Juice Shop
 
 The OWASP flagship project [Juice Shop][juice] is a deliberately insecure web application.
 Juice Shop encompasses vulnerabilities from the entire OWASP Top Ten
@@ -77,11 +77,11 @@ In the appendix there is a complete step-by-step solution to every challenge for
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0903] or [edit on GitHub][edit0903].
+then [submit an issue][issue090101] or [edit on GitHub][edit090101].
 
 [dockerinstall]: https://docs.docker.com/engine/install/
-[edit0903]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/03-juice-shop.md
-[issue0903]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2009-training-education/03-juice-shop
+[edit090101]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/01-vulnerable-apps/01-juice-shop.md
+[issue090101]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2009-training-education/01-vulnerable-apps/01-juice-shop
 [juice]: https://owasp.org/www-project-juice-shop/
 [juicectf]: https://owasp.org/www-project-juice-shop/#div-ctf
 [juicedocker]: https://hub.docker.com/r/bkimminich/juice-shop
