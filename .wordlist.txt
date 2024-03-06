@@ -420,3 +420,6 @@ SBT
 Adoptium
 SSP
 linux
+Katana
+katana
+VirtualBox
