@@ -18,7 +18,7 @@ The Zed Attack Proxy ([ZAP][zap]) verification and testing project is a widely u
 dynamic application security testing tool used for web applications and proxies.
 
 ZAP was for a long time an OWASP Flagship project and is now a project within
-the Software Security Project ([SSP][ssp]) organization, which itself is part of the Linux Foundation.
+the Software Security Project ([SSP][ssp]) organization, which itself is part of the [Linux Foundation][lf].
 Installers for various platforms can be [downloaded][zapdownload] from the ZAP website.
 
 #### What is ZAP?
@@ -44,6 +44,7 @@ then [submit an issue][issue080201] or [edit on GitHub][edit080201].
 
 [edit080201]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/02-tools/01-zap.md
 [issue080201]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2008-verification/02-tools/01-zap
+[lf]: https://www.linuxfoundation.org/
 [spotlight12]: https://youtu.be/usIlW8Q-hc4
 [ssp]: https://softwaresecurityproject.org/
 [zap]: https://www.zaproxy.org/
