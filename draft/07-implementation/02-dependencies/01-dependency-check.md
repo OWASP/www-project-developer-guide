@@ -70,7 +70,7 @@ for a pipeline to generate the SCA reports depending on what automation environm
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue070201] or [edit on GitHub]][edit070201].
+then [submit an issue][issue070201] or [edit on GitHub][edit070201].
 
 [a06]: https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/
 [adoptium]: https://adoptium.net/

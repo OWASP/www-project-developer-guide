@@ -3,7 +3,7 @@
 title: Zed Attack Proxy
 layout: col-document
 tags: OWASP Developer Guide
-contributors:
+contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 821
 permalink: /draft/verification/tools/zed_attack_proxy/
@@ -14,8 +14,12 @@ permalink: /draft/verification/tools/zed_attack_proxy/
 
 ### 6.2.1 Zed Attack Proxy
 
-To Do: supply a couple of sentences on the Zed Attack Proxy (ZAP) verification and testing project,
-including its status as a previous OWASP project, now a project with the Linux Foundation, and where to find it.
+The Zed Attack Proxy ([ZAP][zap]) verification and testing project is a widely used
+dynamic application security testing tool used for web applications and proxies.
+
+ZAP was for a long time an OWASP Flagship project and is now a project within
+the Software Security Project ([SSP][ssp]) organization, which itself is part of the [Linux Foundation][lf].
+Installers for various platforms can be [downloaded][zapdownload] from the ZAP website.
 
 #### What is ZAP?
 
@@ -35,14 +39,15 @@ Do not repeat the project documentation itself; ideally provide a primer and a p
 
 ----
 
-![Developer Guide](../../../assets/images/dg_wip.png "OWASP Developer Guide")
-
-The OWASP Developer Guide is a community effort and this page needs some content to be added.
-If you have suggestions then [submit an issue][issue080201] and the project team can assign it to you,
-or provide new content [direct on GitHub][edit080201].
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue080201] or [edit on GitHub][edit080201].
 
 [edit080201]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/02-tools/01-zap.md
 [issue080201]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2008-verification/02-tools/01-zap
+[lf]: https://www.linuxfoundation.org/
 [spotlight12]: https://youtu.be/usIlW8Q-hc4
+[ssp]: https://softwaresecurityproject.org/
+[zap]: https://www.zaproxy.org/
+[zapdownload]: https://www.zaproxy.org/download/
 
 \newpage

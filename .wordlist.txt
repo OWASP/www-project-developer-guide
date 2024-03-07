@@ -418,4 +418,8 @@ CPE
 Gradle
 SBT
 Adoptium
-
+SSP
+linux
+Katana
+katana
+VirtualBox

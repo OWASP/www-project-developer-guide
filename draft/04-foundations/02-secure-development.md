@@ -147,10 +147,10 @@ There are many OWASP tools and resources to help build security into the SDLC.
 
 #### OWASP training projects
 
-* [API Security Project][api]
+* [API Security Project][api-security] (API Top 10)
 * [Juice Shop][juice]
 * [Mobile Top 10][mobile10]
-* [Security Shepherd][shepherd]
+* [Security Shepherd][sec-shep]
 * [Snakes And Ladders][snakes]
 * [Top Ten Web Application security risks][top10]
 * [WebGoat][webgoat]
@@ -173,7 +173,7 @@ The OWASP Developer Guide is a community effort; if there is something that need
 then [submit an issue][issue0402] or [edit on GitHub][edit0402].
 
 [amass]: https://owasp.org/www-project-amass/
-[api]: https://owasp.org/www-project-api-security/
+[api-security]: https://owasp.org/www-project-api-security/
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [cheatproject]: https://owasp.org/www-project-cheat-sheets/
 [cornucopia]: https://owasp.org/www-project-cornucopia/
@@ -200,7 +200,7 @@ then [submit an issue][issue0402] or [edit on GitHub][edit0402].
 [pulse]: https://owasp.org/www-project-code-pulse/
 [pytm]: https://owasp.org/www-project-pytm/
 [samm]: https://owaspsamm.org/about/
-[shepherd]: https://owasp.org/www-project-security-shepherd/
+[sec-shep]: https://owasp.org/www-project-security-shepherd/
 [snakes]: https://owasp.org/www-project-snakes-and-ladders/
 [srat]: https://owasp.org/www-project-securityrat/
 [tdtm]: https://owasp.org/www-project-threat-dragon/

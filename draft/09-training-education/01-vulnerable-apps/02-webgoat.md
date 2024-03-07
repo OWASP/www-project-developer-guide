@@ -5,14 +5,14 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 904
-permalink: /draft/training_education/webgoat/
+order: 912
+permalink: /draft/training_education/vulnerable_applications/webgoat/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 7.4 WebGoat
+### 7.1.2 WebGoat
 
 The OWASP [WebGoat][webgoat] project is a deliberately insecure web application that can be
 used to attack common application vulnerabilities in a safe environment.
@@ -101,14 +101,14 @@ There are various ways of configuring WebGoat, see the [github repo][goatgithub]
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0904] or [edit on GitHub][edit0904].
+then [submit an issue][issue090102] or [edit on GitHub][edit090102].
 
 [goatdocker]: https://hub.docker.com/r/webgoat/webgoat
 [goatgithub]: https://github.com/WebGoat/WebGoat
 [goatreleases]: https://github.com/WebGoat/WebGoat/releases
 [dockerinstall]: https://docs.docker.com/engine/install/
-[edit0904]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/04-webgoat.md
-[issue0904]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2009-training-education/04-webgoat
+[edit090102]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/01-vulnerable-apps/02-webgoat.md
+[issue090102]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2009-training-education/01-vulnerable-apps/02-webgoat
 [webgoat]: https://owasp.org/www-project-webgoat/
 [zap]: https://www.zaproxy.org/
 

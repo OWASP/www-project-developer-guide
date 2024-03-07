@@ -3,7 +3,7 @@
 title: Amass
 layout: col-document
 tags: OWASP Developer Guide
-contributors:
+contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 823
 permalink: /draft/verification/tools/amass/
@@ -14,13 +14,19 @@ permalink: /draft/verification/tools/amass/
 
 ### 6.2.3 Amass
 
-To Do: supply a couple of sentences on the OWASP Amass attack surface management project,
-including its status as an OWASP project and where to find it.
+The OWASP Amass project is a tool that provides  attack surface management for a web application.
+It performs network mapping of attack surfaces and external asset discovery using various categories of
+existing security tools.
+
+The Amass [breaker/tool project][amass] is an OWASP Flagship Project
+and can be downloaded from the project's github repository [release area][amass-download].
 
 #### What is Amass?
 
 To Do: go into more detail about Amass so that a developer
 can gain an overview of what this attack surface management project can provide for them.
+
+ using open source information gathering and active reconnaissance techniques.
 
 #### Why use it?
 
@@ -33,13 +39,12 @@ Do not repeat the project documentation itself; ideally provide a primer and a p
 
 ----
 
-![Developer Guide](../../../assets/images/dg_wip.png "OWASP Developer Guide")
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue080203] or [edit on GitHub][edit080203].
 
-The OWASP Developer Guide is a community effort and this page needs some content to be added.
-If you have suggestions then [submit an issue][issue080203] and the project team can assign it to you,
-or provide new content [direct on GitHub][edit080203].
-
-[issue080203]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2008-verification/02-tools/03-amass
+[amass]: https://owasp.org/www-project-amass/
+[amass-download]: https://github.com/owasp-amass/amass/releases
 [edit080203]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/02-tools/03-amass.md
+[issue080203]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2008-verification/02-tools/03-amass
 
 \newpage
