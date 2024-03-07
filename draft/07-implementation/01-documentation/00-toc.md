@@ -11,7 +11,7 @@ order:
 
 {% include breadcrumb.html %}
 
-## 5.1 Documentation
+### 5.1 Documentation
 
 Documentation is used here as part of the SAMM [Training and Awareness][sammgegta] activity,
 which in turn is part of the SAMM [Education & Guidance][sammgeg] security practice

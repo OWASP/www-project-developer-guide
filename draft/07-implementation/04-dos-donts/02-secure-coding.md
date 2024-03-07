@@ -306,7 +306,7 @@ Some of these are language specific and others have more general applicability.
     To prevent server-side JSON injections, sanitise all data before serialising it to JSON
     Escape characters like ":", "\", "@", "'”", "%", "?", "--", ">", "<", "&"
 
-### JSON Vulnerability Protection
+#### JSON Vulnerability Protection
 
 A JSON vulnerability allows third party website to turn your JSON resource URL into JSONP request under some conditions.
 To counter this your server can prefix all JSON requests with following string `")]}',\n"`.

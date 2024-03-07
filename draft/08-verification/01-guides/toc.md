@@ -12,7 +12,7 @@ permalink: /draft/verification/guides/
 
 {% include breadcrumb.html %}
 
-## 6.1 Verification guides
+### 6.1 Verification guides
 
 [Verification][sammv] is one of the business functions described by the [OWASP SAMM][samm].
 The verification activities are wide ranging, and will include:

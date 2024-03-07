@@ -12,7 +12,7 @@ permalink: /draft/security_gap_analysis/guides/
 
 {% include breadcrumb.html %}
 
-## 11.1 Security gap analysis guides
+### 11.1 Security gap analysis guides
 
 Security gap analysis and security gap evaluation are central to Governance, Risk & Compliance activities
 and are used to gain and maintain certification to a management system standard

@@ -11,7 +11,7 @@ order:
 
 {% include breadcrumb.html %}
 
-## 5.3 Secure libraries
+### 5.3 Secure libraries
 
 The use of secure libraries is part of the technology management that helps to fulfil security requirements.
 Standard libraries help with the adoption of common design patterns and security solutions,

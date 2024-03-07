@@ -68,7 +68,7 @@ In addition the Mobile Top 10 provides a list of controls that should be conside
 ideally at the requirements stage of the development cycle (the sooner the better)
 but they can be applied at any time during development.
 
-### Mobile Top 10 versions
+#### Mobile Top 10 versions
 
 The Mobile Top 10 was [first released in 2014][mobile10-2014], [updated in 2016][mobile10-2016]
 with the latest version [reaching draft in 2023][mobile10-2023].

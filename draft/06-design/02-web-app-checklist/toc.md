@@ -12,7 +12,7 @@ permalink: /draft/design/web_app_checklist/
 
 {% include breadcrumb.html %}
 
-## 4.2. Web application checklist
+### 4.2 Web application checklist
 
 Checklists are a valuable resource for development teams.
 They provide structure for establishing good practices and processes

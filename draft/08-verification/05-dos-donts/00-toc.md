@@ -11,7 +11,7 @@ order:
 
 {% include breadcrumb.html %}
 
-## 6.5 Verification Do's and Don'ts
+### 6.5 Verification Do's and Don'ts
 
 [Verification][sammv] is one of the business functions described by the [OWASP SAMM][samm].
 

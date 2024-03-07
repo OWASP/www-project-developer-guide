@@ -11,7 +11,7 @@ order:
 
 {% include breadcrumb.html %}
 
-## 7.1 Vulnerable Applications
+### 7.1 Vulnerable Applications
 
 Vulnerable applications are useful for the Training and Education activities
 described in the SAMM [Training and Awareness][sammgegta] section,
