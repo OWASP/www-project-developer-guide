@@ -25,7 +25,7 @@ which is accessed as a [web based document][api-security-doc].
 The use of Application Programming Interfaces (APIs) comes with security risks.
 Given that APIs are widely used in various types of applications,
 the OWASP API Security Project created and maintains the Top 10 API Security Risks document
-as well as a documentation portal for best practices when creating or assessing APIs. 
+as well as a documentation portal for best practices when creating or assessing APIs.
 
 * [API1:2023][api01] - Broken Object Level Authorization
 * [API2:2023][api02] - Broken Authentication
