@@ -426,5 +426,6 @@ VirtualBox
 defacto
 APIT
 enum
+intel
 subcommand
 subcommands
