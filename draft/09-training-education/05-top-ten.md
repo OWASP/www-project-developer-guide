@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 905
+order: 923
 permalink: /draft/training_education/owasp_top_ten/
 
 ---
@@ -57,7 +57,7 @@ The OWASP Top 10 has various uses that are foundational to application security:
 There is no one way to use this documentation project; use it in any way that promotes application security.
 The OWASP Spotlight series provides an overview of the Top Ten: 'Project 10 - [Top10][spotlight10]'.
 
-### OWASP Top 10 versions
+#### OWASP Top 10 versions
 
 The OWASP Top 10 Web Application Security Risks document was originally published in 2003,
 making it one of (or even the most) longest lived OWASP project, and has been in active and continuous development.

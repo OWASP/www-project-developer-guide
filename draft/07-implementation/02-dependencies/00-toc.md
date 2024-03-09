@@ -11,7 +11,7 @@ order:
 
 {% include breadcrumb.html %}
 
-## 5.2 Dependencies
+### 5.2 Dependencies
 
 Management of software dependencies is described by the SAMM [Software Dependencies][sammisbsd] activity,
 which in turn is part of the SAMM [Secure Build][sammisb] security practice

@@ -5,7 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 909
+order: 927
+
 permalink: /draft/training_education/snakes_and_ladders/
 
 ---

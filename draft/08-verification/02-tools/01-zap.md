@@ -23,19 +23,31 @@ Installers for various platforms can be [downloaded][zapdownload] from the ZAP w
 
 #### What is ZAP?
 
-To Do: go into more detail about ZAP so that a developer
-can gain an overview of what this testing resource can provide for them.
+The [Zed Attack Proxy][zap] is a very widely used tool that dynamically scans web applications.
+It is commonly used for Dynamic Application Security Testing (DAST) but also has multiple uses:
+
+* Vulnerability Assessment
+* Penetration Testing
+* Runtime Testing
+* Code Review
+
+ZAP can be used manually to test applications or can be run within an automated CI/CD environment.
 
 #### Why use it?
 
-To Do: provide more context for ZAP that allows developers to determine whether to use it in their project.
+ZAP is an effective tool that is widely used by a large community of testers, developers, security engineers etc.
+This makes it a tool that many teams will already be familiar with and probably using it already;
+you can almost regard ZAP is a common language within the security community when it comes to web application testing.
+
+Zap is easily installed, intuitive to use and is regularly updated to meet the evolving threat landscape.
 
 #### How to use it
 
 The OWASP Spotlight series provides an overview of using ZAP: 'Project 12 - [OWASP Zed Attack Proxy (ZAP)][spotlight12]'.
 
-To Do: give a brief outline of how the ZAP testing resource can provide value for web application development teams.
-Do not repeat the project documentation itself; ideally provide a primer and a pointer to the documentation.
+ZAP [installers][zapdownload] can be downloaded for Windows, Linux and MacOS.
+Once installed the follow the [getting started guide][zapstart] for an introduction on how to use it manually via the UI
+or automatically within a CI/CD environment - and definitely check out the [Heads Up Display][zaphud] mode.
 
 ----
 
@@ -49,5 +61,7 @@ then [submit an issue][issue080201] or [edit on GitHub][edit080201].
 [ssp]: https://softwaresecurityproject.org/
 [zap]: https://www.zaproxy.org/
 [zapdownload]: https://www.zaproxy.org/download/
+[zaphud]: https://www.zaproxy.org/getting-started/#the-heads-up-display
+[zapstart]: https://www.zaproxy.org/getting-started/
 
 \newpage

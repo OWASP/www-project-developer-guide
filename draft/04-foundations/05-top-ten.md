@@ -18,7 +18,7 @@ The OWASP Top Ten is a very well known list of web application security risks,
 and is included by the OWASP Software Assurance Maturity Model [(SAMM)][samm]
 in the Education & Guidance practice within the Governance business function.
 
-### Overview
+#### Overview
 
 The OWASP [Top 10 Web Application Security Risks][top10] project is probably the most well known security concept
 within the security community, achieving wide spread acceptance and fame soon after its release in 2003.
@@ -159,7 +159,7 @@ especially for cloud services and more complex application architectures.
 
 This is a new category introduced in 2021 with a single (for now) [Cheat Sheet][a10cs] that deals with SSRF.
 
-### OWASP top tens
+#### OWASP top tens
 
 There are various 'Top 10' projects created by OWASP that, depending on the context,
 may also be referred to as 'OWASP Top 10'. Here is a list of the stable 'OWASP Top 10' projects:

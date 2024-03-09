@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 904
+order: 922
 permalink: /draft/training_education/samurai_wtf/
 
 ---

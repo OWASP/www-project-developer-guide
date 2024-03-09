@@ -12,7 +12,7 @@ permalink: /draft/design/threat_modeling/
 
 {% include breadcrumb.html %}
 
-## 4.1 Threat modeling
+### 4.1 Threat modeling
 
 Referring to the [Threat Modeling Cheat Sheet][tmcs],
 threat modeling is a structured approach of identifying and prioritizing potential threats to a system.

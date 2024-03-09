@@ -12,7 +12,7 @@ permalink: /draft/verification/frameworks/
 
 {% include breadcrumb.html %}
 
-## 6.3 Verification frameworks
+### 6.3 Verification frameworks
 
 [Verification][sammv] is one of the business functions described by the [OWASP SAMM][samm]
 and testing is an important part of verification,

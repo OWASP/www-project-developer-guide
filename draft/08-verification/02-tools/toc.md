@@ -12,7 +12,7 @@ permalink: /draft/verification/tools/
 
 {% include breadcrumb.html %}
 
-## 6.2 Verification tools
+### 6.2 Verification tools
 
 [Verification][sammv] is one of the business functions described by the [OWASP SAMM][samm].
 

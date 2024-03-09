@@ -14,25 +14,33 @@ permalink: /draft/verification/tools/offensive_web_testing_framework/
 
 ### 6.2.4 Offensive Web Testing Framework
 
-OWASP Offensive Web Testing Framework (OWTF) is a tool that provides pen-testers with a framework for security test suites.
-It helps align the pen-testing to various standards and security guides, making pen-testing more creative and comprehensive.
+OWASP Offensive Web Testing Framework ([OWTF][owtf]) is a penetration test tool
+that provides pen-testers with a framework for organising and running security test suites.
+It also helps align the pen-testing to various standards and security guides,
+allowing the testing to be more creative and comprehensive.
 
-The OWTF [defender/tool project][owtf] is an OWASP Flagship Project
+The OWTF defender/tool project is an OWASP Flagship Project
 and can be downloaded from the project's github repository [release area][owtfdownload].
 
 #### What is OWTF?
 
-To Do: go into more detail about OWTF so that a developer / penetration tester
-can gain an overview of what this attack surface management project can provide for them.
+The [OWTF][owtf]tool is a penetration test framework used to organise and run suites of security and pen-testing tools.
+It is designed to be run on [Kali Linux][kali]; it can also be run on MacOS but with some modification of scripts and paths.
+
+OWTF is very much a penetration tester's tool; there is an expectation that the
+user has a reasonable expertise and grasp of penetration testing tools.
+The [documentation][owtfdocs] is out of date and requires some knowledge to configure and run OWTF.
 
 #### Why use it?
 
-To Do: provide more context for OWTF that allows developers or penetration testers to determine whether to use it.
+[OWTF][owtf] is easily configurable and plugins can be created or new tests added using the configuration files.
+It can be quickly installed on [Kali Linux][kali], a distribution of Ubuntu that is widely by pen-testers,
+and allows for a whole suite of tests to be directed against the target.
 
 #### How to use it
 
-To Do: give a brief outline of how OWTF provides value for a penetration tester.
-Do not repeat the project documentation itself; ideally provide a primer and a pointer to the documentation.
+The OWTF [documentation][owtfdocs] is relatively old, last updated in 2016,
+and  the [install][owtfinstall] instructions may need adapting to run on MacOS or Kali..
 
 ----
 
@@ -41,6 +49,9 @@ then [submit an issue][issue080204] or [edit on GitHub][edit080204].
 
 [edit080204]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/02-tools/04-owtf.md
 [issue080204]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2008-verification/02-tools/04-owtf
+[kali]: https://www.kali.org/
+[owtfinstall]: https://owtf.readthedocs.io/en/develop/installation/methods.html
+[owtfdocs]: https://owtf.readthedocs.io/
 [owtfdownload]: https://github.com/owtf/owtf/releases
 [owtf]: https://owasp.org/www-project-owtf/
 

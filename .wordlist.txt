@@ -423,3 +423,9 @@ linux
 Katana
 katana
 VirtualBox
+defacto
+APIT
+enum
+intel
+subcommand
+subcommands
