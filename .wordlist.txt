@@ -425,3 +425,6 @@ katana
 VirtualBox
 defacto
 APIT
+enum
+subcommand
+subcommands

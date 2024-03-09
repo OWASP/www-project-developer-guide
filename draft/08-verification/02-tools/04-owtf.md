@@ -40,7 +40,7 @@ and allows for a whole suite of tests to be directed against the target.
 #### How to use it
 
 The OWTF [documentation][owtfdocs] is relatively old, last updated in 2016,
-and [install][owtfinstall] the install instructions may not run correctly on MacOS or Kali.
+and  the [install][owtfinstall] instructions may need adapting to run on MacOS or Kali..
 
 ----
 
