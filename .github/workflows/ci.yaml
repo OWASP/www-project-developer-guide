@@ -3,9 +3,6 @@ on:
   push:
     branches:
       - main
-  pull_request:
-    branches:
-      - main
   workflow_dispatch:
 
 # for security reasons the github actions are pinned to specific release versions
@@ -48,42 +45,3 @@ jobs:
 
       - name: spell_checker
         uses: rojopolis/spellcheck-github-actions@0.36.0
-
-  export_draft:
-    name: Export epub and pdf (Draft)
-    runs-on: ubuntu-22.04
-    needs: [link_checker, md_linter, spell_checker]
-    steps:
-      - name: Checkout markdown
-        uses: actions/checkout@v4.1.1
-
-      - name: Combine markdown
-        run: |
-          tail --lines=+14 -q $(find draft -name "*[0-9]*.md" | sort) > draft.markdown
-          mkdir -p publish
-
-      - name: Export to pdf
-        uses: docker://pandoc/latex:3.1
-        with:
-          args: >-
-            --from=markdown
-            --output=publish/OWASP_Developer_Guide.draft.pdf
-            --resource-path="draft/assets/images:draft/assets:draft"
-            draft/title.pdf.yaml
-            draft.markdown
-
-      - name: Export to epub
-        uses: docker://pandoc/latex:3.1
-        with:
-          args: >-
-            --from=markdown
-            --output=publish/OWASP_Developer_Guide.draft.epub
-            --resource-path="draft/assets/images:draft/assets:draft"
-            draft/title.yaml
-            draft.markdown
-
-      - name: Save pdfs and epubs
-        uses: actions/upload-artifact@v4.3.0
-        with:
-          name: export-draft
-          path: publish

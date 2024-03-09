@@ -1,0 +1,86 @@
+name: Pull request pipeline
+on:
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+# for security reasons the github actions are pinned to specific release versions
+jobs:
+  link_checker:
+    name: Link checker
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout markdown
+        uses: actions/checkout@v4.1.1
+
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@v1.9.1
+        with:
+          # skip the jekyll files
+          args: --verbose --no-progress --max-retries 5 --exclude-path './_includes/*.html' '**/*.md' '*.md'
+          fail: true
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+  md_linter:
+    name: Lint markdown
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout markdown
+        uses: actions/checkout@v4.1.1
+
+      - name: Lint markdown
+        uses: DavidAnson/markdownlint-cli2-action@v15.0.0
+        with:
+          config: '.markdownlint.yaml'
+          globs: '**/*.md'
+
+  spell_checker:
+    name: Check spelling
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout markdown
+        uses: actions/checkout@v4.1.1
+
+      - name: spell_checker
+        uses: rojopolis/spellcheck-github-actions@0.36.0
+
+  export_draft:
+    name: Export epub and pdf (Draft)
+    runs-on: ubuntu-22.04
+    needs: [link_checker, md_linter, spell_checker]
+    steps:
+      - name: Checkout markdown
+        uses: actions/checkout@v4.1.1
+
+      - name: Combine markdown
+        run: |
+          tail --lines=+14 -q $(find draft -name "*[0-9]*.md" | sort) > draft.markdown
+          mkdir -p publish
+
+      - name: Export to pdf
+        uses: docker://pandoc/latex:3.1
+        with:
+          args: >-
+            --from=markdown
+            --output=publish/OWASP_Developer_Guide.draft.pdf
+            --resource-path="draft/assets/images:draft/assets:draft"
+            draft/title.pdf.yaml
+            draft.markdown
+
+      - name: Export to epub
+        uses: docker://pandoc/latex:3.1
+        with:
+          args: >-
+            --from=markdown
+            --output=publish/OWASP_Developer_Guide.draft.epub
+            --resource-path="draft/assets/images:draft/assets:draft"
+            draft/title.yaml
+            draft.markdown
+
+      - name: Save pdfs and epubs
+        uses: actions/upload-artifact@v4.3.0
+        with:
+          name: export-draft
+          path: publish
