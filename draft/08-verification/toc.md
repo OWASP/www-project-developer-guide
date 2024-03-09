@@ -52,7 +52,6 @@ Sections:
 6.3 [Frameworks](03-frameworks/toc.md)  
 6.3.1 [Glue](03-frameworks/01-glue.md)  
 6.3.2 [secureCodeBox](03-frameworks/02-secure-codebox.md)  
-6.3.3 [Dracon](03-frameworks/03-dracon.md)  
 6.4 [Vulnerability management](04-vulnerability-management/toc.md)  
 6.4.1 [DefectDojo](04-vulnerability-management/01-defectdojo.md)  
 6.5 [Do's and Don'ts](05-dos-donts/toc.md)  

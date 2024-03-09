@@ -214,9 +214,6 @@ docs:
 - title: '6.3.2 secureCodeBox'
   url: verification/frameworks/secure_codebox
 
-- title: '6.3.3 Dracon'
-  url: verification/frameworks/dracon
-
 - title: '6.4 Vulnerability management'
   url: verification/vulnerability_management
 

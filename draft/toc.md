@@ -95,7 +95,6 @@ and so the content is expected to frequently change._
 6.3 [Frameworks](08-verification/03-frameworks/toc.md)  
 6.3.1 [Glue](08-verification/03-frameworks/01-glue.md)  
 6.3.2 [secureCodeBox](08-verification/03-frameworks/02-secure-codebox.md)  
-6.3.3 [Dracon](08-verification/03-frameworks/03-dracon.md)  
 6.4 [Vulnerability management](08-verification/04-vulnerability-management/toc.md)  
 6.4.1 [DefectDojo](08-verification/04-vulnerability-management/01-defectdojo.md)  
 6.5 [Verification Do's and Don'ts](08-verification/05-dos-donts/toc.md)  

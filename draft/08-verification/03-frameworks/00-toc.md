@@ -29,7 +29,6 @@ Sections:
 
 6.3.1 [Glue](#glue)  
 6.3.2 [secureCodeBox](#securecodebox)  
-6.3.3 [Dracon](#dracon)  
 
 ----
 

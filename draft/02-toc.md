@@ -90,7 +90,6 @@ permalink:
 6.3 [Frameworks](#verification-frameworks)  
 6.3.1 [Glue](#glue)  
 6.3.2 [secureCodeBox](#securecodebox)  
-6.3.3 [Dracon](#dracon)  
 6.4 [Vulnerability management](#verification-vulnerability-management)  
 6.4.1 [DefectDojo](#defectdojo)  
 6.5 [Verification Do's and Don'ts](#verification-dos-and-donts)  
