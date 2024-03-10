@@ -208,10 +208,7 @@ docs:
 - title: '6.3 Frameworks'
   url: verification/frameworks
 
-- title: '6.3.1 Glue'
-  url: verification/frameworks/glue
-
-- title: '6.3.2 secureCodeBox'
+- title: '6.3.1 secureCodeBox'
   url: verification/frameworks/secure_codebox
 
 - title: '6.4 Vulnerability management'

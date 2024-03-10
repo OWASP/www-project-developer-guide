@@ -12,7 +12,7 @@ permalink: /draft/verification/frameworks/secure_codebox/
 
 {% include breadcrumb.html %}
 
-### 6.3.2 secureCodeBox
+### 6.3.1 secureCodeBox
 
 OWASP [secureCodeBox][codebox] is a kubernetes based modularized toolchain
 that provides continuous security scans of an organizations' projects and web applications.

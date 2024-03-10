@@ -27,8 +27,7 @@ Use of a framework can provide:
 
 Sections:
 
-6.3.1 [Glue](#glue)  
-6.3.2 [secureCodeBox](#securecodebox)  
+6.3.1 [secureCodeBox](#securecodebox)  
 
 ----
 
