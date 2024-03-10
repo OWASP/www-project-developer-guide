@@ -459,3 +459,12 @@ Tink
 Shiro
 OSS
 Sonatype
+DotNet
+HAPI
+NodeJS
+hsecscan
+SecurityHeaders
+Recx
+testssl
+DrHEADer
+csp

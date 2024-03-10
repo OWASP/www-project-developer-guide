@@ -3,7 +3,7 @@
 title: OWASP Secure Headers Project
 layout: col-document
 tags: OWASP Developer Guide
-contributors:
+contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 826
 permalink: /draft/verification/tools/secure_headers/
@@ -14,36 +14,60 @@ permalink: /draft/verification/tools/secure_headers/
 
 ### 6.2.6 Secure Headers Project
 
-To Do: supply a couple of sentences on the OWASP Secure Headers Project (OSHP)
-including its status as an OWASP project and where to find it.
+The OWASP Secure Headers Project ([OSHP][oshp]) provides information on HTTP response headers
+to increase the security of a web application.
+
+The OSHP documentation project is an OWASP Lab Project and intends to raise awareness and use of secure headers.
 
 #### What is OSHP?
 
-To Do: go into more detail about OSHP so that a developer / penetration tester
-can gain an overview of how this tool can validate an HTTP security header configuration.
+The [OSHP project][oshp]) provides explanations for the HTTP response headers that an application can use
+to increase the security of the application.
+Once set the HTTP response headers can restrict modern browsers from running into easily preventable vulnerabilities.
+
+OSHP contains guidance and downloads on:
+
+* Response headers explanations and usage
+* Links to individual browser support
+* Guidance and best practices
+* Technical resources in the form of tools and documents
+* Code snippets to help working with HTTP security headers
 
 #### Why use it?
 
-To Do: provide more context for OSHP that allows developers to determine whether to use it.
+The OSHP is a documentation project that explains the reasoning and usage of HTTP response headers.
+It is the go-to document for guidance and best practices;
+the information on HTTP response headers is the best advice in the one location and is kept up to date.
 
 #### How to use it
 
 The OWASP Spotlight series provides an overview of this project and its uses:
 'Project 24 - [OWASP Security Headers Project][spotlight24]'.
 
-To Do: give a brief outline of how OSHP provides value for a development team.
-Do not repeat the project documentation itself; ideally provide a primer and a pointer to the documentation.
+OSHP lists [various tools][oshp-tools] useful for inspection, analysis and scanning of HTTP response headers:
+
+* hsecscan
+* humble
+* SecurityHeaders.com
+* Mozilla Observatory
+* Recx Security Analyser
+* testssl.sh
+* DrHEADer
+* csp-evaluator
+
+OSHP also provides links to development [libraries][oshp-libs] that provide for secure HTTP response headers
+in a range of languages and frameworks.
 
 ----
 
-![Developer Guide](../../../assets/images/dg_wip.png "OWASP Developer Guide")
-
-The OWASP Developer Guide is a community effort and this page needs some content to be added.
-If you have suggestions then [submit an issue][issue080206] and the project team can assign it to you,
-or provide new content [direct on GitHub][edit080206].
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue080206] or [edit on GitHub][edit080206].
 
 [edit080206]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/02-tools/06-secure-headers.md
 [issue080206]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2008-verification/02-tools/06-secure-headers
+[oshp]: https://owasp.org/www-project-secure-headers/
+[oshp-libs]: https://owasp.org/www-project-secure-headers/#development-libraries
+[oshp-tools]: https://owasp.org/www-project-secure-headers/#analysis-tools
 [spotlight24]: https://youtu.be/N4F3VWQYU9E
 
 \newpage
