@@ -2,10 +2,11 @@
 
 ### Contributing
 
-The Developer Guide needs to be updated for the modern security landscape,
-and OWASP is reviving this project to do just that.
-The project has a team of leaders that will oversee the project
-and now we need as many members of the security community as possible to contribute.
+The Developer Guide has been updated for the modern security landscape,
+concentrating less on covering everything in one document and more on introducing a subject/project
+and then suggesting where more in-depth information can be found.
+The project has a team of leaders that oversee the project
+and contributions from members of the security community are positively encouraged.
 
 All contributions and suggestions are certainly welcome, and we ask that
 you follow the [contributing code of conduct][conduct].
@@ -38,13 +39,13 @@ and keeps track of progress towards each milestone.
 ### Style Guide
 
 The Developer Guide will have many contributors, and it is an aim to keep the style of writing similar throughout.
-It would be good to keep to a style used in OWASP flagship projects [ASVS][asvs] and [WSTG][wstg],
+Follow the style used in OWASP flagship projects [ASVS][asvs] and [WSTG][wstg],
 which is speaking from first person plural and semi-formal in tone.
 
 ### Technical level
 
 Generally the guide is aimed at the introductory to medium technical levels,
-and should rarely deal with a subject at an advanced level.
+and should rarely deal with any subject at an advanced level.
 This is a deliberate policy that makes the guide accessible and keeps the length reasonable.
 
 The overview/introduction of the main sections should be aimed at the introductory level,
@@ -54,13 +55,21 @@ instead provide links to these specialist security knowledge bases.
 
 ### Page structure
 
-Each sub-section should deal with one specific subject, for example 'Threat modeling' or 'Digests'.
-The sub-sections ideally follow the same structure:
+Each sub-section should deal with one specific subject, for example 'Threat modeling',
+or a single project such as the OWASP 'Threat Dragon' Builder/Tool project.
 
-1. Overview, summarising the subject at an introductory level
-2. Main body, explaining the subject to a medium/general level
-3. Further reading, providing links to the subject at an advanced/detailed level
-4. Resources, providing links to tools and applications that may be used when working within this domain
+Sub-sections that describe an individual project should follow the same structure:
+
+1. Introduction, summarising the project at a very high level:
+  _supply a couple of sentences on the project including its status as an OWASP project and where to find it_
+2. The 'What', explaining what the project is to a general level:
+  _go into more detail about the project so that a developer can gain an overview of what this project can provide for them_
+3. The 'Why', explaining why developers will want to use the project:
+  _provide more context for project that allows developers to determine whether to use it in their team_
+4. The 'How', describe how to get started with the project
+  _give a brief outline of how the project provides value for a web application development team_
+  _Do not repeat the project documentation itself; ideally provide a primer and a pointer to the project documentation_
+5. Further reading or resources, if any, providing links on the project at an advanced/detailed level
 
 ### Pull requests
 
