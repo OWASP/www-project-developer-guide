@@ -3,7 +3,7 @@
 title: Enterprise Security API library
 layout: col-document
 tags: OWASP Developer Guide
-contributors:
+contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 731
 permalink: /draft/implementation/secure_libraries/esapi/
@@ -14,39 +14,63 @@ permalink: /draft/implementation/secure_libraries/esapi/
 
 ### 5.3.1 Enterprise Security API library
 
-The OWASP Enterprise Security API (ESAPI) library is a free, open source, web application security control library
+The OWASP Enterprise Security API (ESAPI) [library][esapi-docs is a security control library
+for web applications written in Java.
+
+The [ESAPI library][esapi-project] is an OWASP Lab project that is under active development
+for [Java security controls][esapi-java] with regular releases.
+
+#### What is the ESAPI library?
+
+The OWASP Enterprise Security API (ESAPI) [library][esapi-docs] is an open source web application security control library
 that makes it easier for Java programmers to write lower-risk applications.
 The ESAPI Java library is designed to make it easier for programmers to retrofit security into existing Java applications,
 and also serve as a solid foundation for new development.
 
-The [ESAPI library][esapi] is an OWASP Lab project that is under active development for [Java][esapi-java] only.
-
-#### What is the ESAPI library?
-
-To Do: go into more detail about the ESAPI library so that a developer
-can gain an overview of what this Java library can provide for them.
+ESAPI provides a set of security control interfaces which define
+types of parameters that are passed to the security controls.
 
 #### Why use it?
 
-To Do: provide more context for the ESAPI Java library that allows developers to determine
-whether to use it in their project.
+The use of the ESAPI Java library is not easy to justify, although its use should certainly be considered.
+The engineering decision a development team will need to make when using ESAPI are discussed in the
+'[Should I use ESAPI?][esapi-question]' documentation.
+
+For new projects or for modifying an existing project then alternatives should be strongly considered:
+
+* Output encoding: OWASP [Java Encoder][java-encoder] project
+* General HTML sanitization: OWASP [Java HTML Sanitizer][java-sanitizer]
+* Validation: [JSR-303/JSR-349 Bean Validation][bean]
+* Strong cryptography: Google [Tink][google-tink] or [Keyczar][google-keyczar]
+* Authentication & authorization: [Apache Shiro][shiro], authentication using [Spring Security][spring]
+* CSRF protection: OWASP [CSRFGuard][csrfguard] project
+
+If multiple security controls provided by ESAPI are used in a project,
+then it may be useful to use the monolithic ESAPI library rather than multiple disparate class libraries.
 
 #### How to use it
 
-To Do: give a brief outline of how applying the ESAPI library provides valuable application security for a development team.
-Do not repeat the project documentation itself; ideally provide a primer and a pointer to the documentation.
+If the engineering decision is to use the ESAPI library then it can be downloaded as a Java Archive (.jar) package file.
+There is a reference implementation for each security control.
 
 ----
 
-![Developer Guide](../../../assets/images/dg_wip.png "OWASP Developer Guide")
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue070301] or [edit on GitHub][edit070301].
 
-The OWASP Developer Guide is a community effort and this page needs some content to be added.
-If you have suggestions then [submit an issue][issue070301] and the project team can assign it to you,
-or provide new content [direct on GitHub][edit070301].
-
-[esapi]: https://owasp.org/www-project-enterprise-security-api/
-[esapi-java]: https://mvnrepository.com/artifact/org.owasp.esapi/esapi
-[issue070301]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2007-implementation/03-secure-libraries/01-esapi
+[bean]: http://beanvalidation.org/
+[csrfguard]: https://owasp.org/www-project-csrfguard
 [edit070301]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/03-secure-libraries/01-esapi.md
+[esapi-docs]: https://www.javadoc.io/doc/org.owasp.esapi/esapi/latest/index.html
+[esapi-java]: https://mvnrepository.com/artifact/org.owasp.esapi/esapi
+[esapi-project]: https://owasp.org/www-project-enterprise-security-api/
+[esapi-question]: https://owasp.org/www-project-enterprise-security-api/#div-shouldiuseesapi
+[google-keyczar]: https://github.com/google/keyczar
+[google-tink]: https://github.com/google/tink
+[issue070301]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2007-implementation/03-secure-libraries/01-esapi
+[java-encoder]: https://owasp.org/www-project-java-encoder
+[java-sanitizer]: https://owasp.org/www-project-java-html-sanitizer
+[shiro]: https://shiro.apache.org/
+[spring]: https://docs.spring.io/spring-security/reference/features/index.html
 
 \newpage
