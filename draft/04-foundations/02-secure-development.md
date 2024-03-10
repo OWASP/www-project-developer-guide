@@ -76,7 +76,7 @@ There are many OWASP tools and resources to help build security into the SDLC.
     100% include in every project" and this is certainly good advice. Implementing these controls can provide
     a high degree of confidence that the application or system will be reasonably secure.
     OWASP provides two libraries that can be incorporated in web applications,
-    the [Enterprise Security API (ESAPI)][esapi] security control library
+    the [Enterprise Security API (ESAPI)][esapi-project] security control library
     and [CSRFGuard][csrfguard] to mitigate the risk of Cross-Site Request Forgery (CSRF) attacks,
     that help implement these proactive controls. In addition the OWASP [Cheat Sheet Series][cheatproject]
     is a valuable source of information and advice on all aspects of applications security.
@@ -160,7 +160,7 @@ There are many OWASP tools and resources to help build security into the SDLC.
 * [CSRFGuard library][csrfguard]
 * [Dependency-Check Software Composition Analysis (SCA)][depcheck]
 * [Dependency-Track Continuous SBOM Analysis Platform][deptrack]
-* [Enterprise Security API][esapi] (ESAPI)
+* [Enterprise Security API][esapi-project] (ESAPI)
 * [Integration Standards project Application Wayfinder][wayfinder]
 * [Mobile Application Security][mas] (MAS)
 * [Pythonic Threat Modeling][pytm]
@@ -186,7 +186,7 @@ then [submit an issue][issue0402] or [edit on GitHub][edit0402].
 [devsecops]: https://owasp.org/www-project-devsecops-guideline/
 [dojo]: https://www.defectdojo.org/
 [edit0402]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/04-foundations/02-secure-development.md
-[esapi]: https://owasp.org/www-project-enterprise-security-api/
+[esapi-project]: https://owasp.org/www-project-enterprise-security-api/
 [github]: https://github.com/
 [gitlab]: https://about.gitlab.com/
 [issue0402]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/02-secure-development

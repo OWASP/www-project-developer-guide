@@ -457,3 +457,5 @@ JSR
 Keyczar
 Tink
 Shiro
+OSS
+Sonatype
