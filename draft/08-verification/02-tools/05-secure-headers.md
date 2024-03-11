@@ -5,14 +5,14 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 826
+order: 825
 permalink: /draft/verification/tools/secure_headers/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 6.2.6 Secure Headers Project
+### 6.2.5 Secure Headers Project
 
 The OWASP Secure Headers Project ([OSHP][oshp]) provides information on HTTP response headers
 to increase the security of a web application.
@@ -61,10 +61,10 @@ in a range of languages and frameworks.
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue080206] or [edit on GitHub][edit080206].
+then [submit an issue][issue080205] or [edit on GitHub][edit080205].
 
-[edit080206]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/02-tools/06-secure-headers.md
-[issue080206]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2008-verification/02-tools/06-secure-headers
+[edit080205]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/02-tools/05-secure-headers.md
+[issue080205]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2008-verification/02-tools/05-secure-headers
 [oshp]: https://owasp.org/www-project-secure-headers/
 [oshp-libs]: https://owasp.org/www-project-secure-headers/#development-libraries
 [oshp-tools]: https://owasp.org/www-project-secure-headers/#analysis-tools

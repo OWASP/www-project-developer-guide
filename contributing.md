@@ -71,6 +71,9 @@ Sub-sections that describe an individual project should follow the same structur
   _Do not repeat the project documentation itself; ideally provide a primer and a pointer to the project documentation_
 5. Further reading or resources, if any, providing links on the project at an advanced/detailed level
 
+Note that the page describing a project should not be the same as the project documentation on the OWASP site,
+the Developer Guide should strive to be a ' TL;DR ' for the project running to one or maybe two pages.
+
 ### Pull requests
 
 The pull requests have checks applied to them:

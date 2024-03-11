@@ -27,11 +27,10 @@ whereas manual security testing of high-risk components requires good knowledge 
 Sections:
 
 6.2.1 [Zed Attack Proxy](01-zap.md)  
-6.2.2 [Code Pulse](02-code-pulse.md)  
-6.2.3 [Amass](03-amass.md)  
-6.2.4 [Offensive Web Testing Framework](04-owtf.md)  
-6.2.5 [Nettacker](05-nettacker.md)  
-6.2.6 [OWASP Secure Headers Project](06-secure-headers.md)  
+6.2.2 [Amass](02-amass.md)  
+6.2.3 [Offensive Web Testing Framework](03-owtf.md)  
+6.2.4 [Nettacker](04-nettacker.md)  
+6.2.5 [OWASP Secure Headers Project](05-secure-headers.md)  
 
 ----
 

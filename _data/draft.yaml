@@ -190,19 +190,16 @@ docs:
 - title: '6.2.1 Zed Attack Proxy'
   url: verification/tools/zed_attack_proxy
 
-- title: '6.2.2 Code Pulse'
-  url: verification/tools/code_pulse
-
-- title: '6.2.3 Amass'
+- title: '6.2.2 Amass'
   url: verification/tools/amass
 
-- title: '6.2.4 Offensive Web Testing Framework'
+- title: '6.2.3 Offensive Web Testing Framework'
   url: verification/tools/offensive_web_testing_framework
 
-- title: '6.2.5 Nettacker'
+- title: '6.2.4 Nettacker'
   url: verification/tools/nettacker
 
-- title: '6.2.6 OWASP Secure Headers Project'
+- title: '6.2.5 OWASP Secure Headers Project'
   url: verification/tools/secure_headers
 
 - title: '6.3 Frameworks'
