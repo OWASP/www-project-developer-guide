@@ -14,8 +14,11 @@ permalink: /draft/verification/tools/nettacker/
 
 ### 6.2.4 Nettacker
 
-To Do: supply a couple of sentences on the OWASP Nettacker automated information & vulnerability scanner,
-including its status as an OWASP project and where to find it.
+OWASP Nettacker is a command line utility for automated information & vulnerability scanning.
+It can be used during penetration testing for both internal and external security assessments.
+
+The Nettacker [breaker/tool project][nettacker-project] is an OWASP Incubator Project;
+the latest version can be downloaded from the project's [github repository][nettacker-install].
 
 #### What is Nettacker?
 
@@ -41,6 +44,8 @@ then [submit an issue][issue080204] or [edit on GitHub][edit080204].
 
 [edit080204]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/02-tools/04-nettacker.md
 [issue080204]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2008-verification/02-tools/04-nettacker
+[nettacker-install]: https://github.com/OWASP/Nettacker/wiki/Installation
+[nettacker-project]: https://owasp.org/www-project-nettacker/
 [spotlight11]: https://youtu.be/OGv7OtG127A
 
 \newpage
