@@ -14,28 +14,43 @@ permalink: /draft/verification/tools/nettacker/
 
 ### 6.2.4 Nettacker
 
-OWASP Nettacker is a command line utility for automated information & vulnerability scanning.
-It can be used during penetration testing for both internal and external security assessments.
+OWASP Nettacker is a command line utility for automated network and vulnerability scanning.
+It can be used during penetration testing for both internal and external security assessments of networks.
 
 The Nettacker [breaker/tool project][nettacker-project] is an OWASP Incubator Project;
 the latest version can be downloaded from the project's [github repository][nettacker-install].
 
 #### What is Nettacker?
 
-To Do: go into more detail about Nettacker so that a developer / penetration tester
-can gain an overview of what this attack surface management project can provide for them.
+[Nettacker][nettacker-project] is an automated penetration testing tool.
+It is used to scan a network to discover nodes and servers on the network including subdomains.
+Nettacker can then identify servers, services and port numbers in use.
+
+Nettacker is a modular python application that that can be extended with other scanning functions.
+There are many modules available grouped as:
+
+* [Scan][nettacker-scan] modules
+* [Vulnerability][nettacker-vuln] modules
+* [Brute force][nettacker-brute] modules
 
 #### Why use it?
 
-To Do: provide more context for Nettacker that allows developers or penetration testers to determine whether to use it.
+Nettacker is easy to use from the command line, making it easy to use in scripts,
+and also comes with a web browser interface for easy navigation of the results.
+This makes it a quick and reliable way to gain information from a network.
+Nettacker runs across various platforms, Windows / Linux / MacOS,
+and can be used for auditing purposes or for penetration testing.
 
 #### How to use it
 
 The OWASP Spotlight series provides an overview of attack surface management using Nettacker:
 'Project 11 - [Nettacker][spotlight11]'.
 
-To Do: give a brief outline of how Nettacker provides value for a penetration tester.
-Do not repeat the project documentation itself; ideally provide a primer and a pointer to the documentation.
+The documentation for Nettacker is provided in the repository wiki pages;
+follow [these instructions][nettacker-install] to install it.
+
+Nettacker is a flexible and modular scanning tool that can be used in many ways and with many options.
+The best way to start using it is by following the [introduction video][nettacker-intro] and then taking it from there.
 
 ----
 
@@ -44,8 +59,12 @@ then [submit an issue][issue080204] or [edit on GitHub][edit080204].
 
 [edit080204]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/02-tools/04-nettacker.md
 [issue080204]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2008-verification/02-tools/04-nettacker
+[nettacker-brute]: https://github.com/OWASP/Nettacker/wiki/Modules#brute-modules
 [nettacker-install]: https://github.com/OWASP/Nettacker/wiki/Installation
+[nettacker-intro]: https://github.com/OWASP/Nettacker/wiki#introduction
 [nettacker-project]: https://owasp.org/www-project-nettacker/
-[spotlight11]: https://youtu.be/OGv7OtG127A
+[nettacker-scan]: https://github.com/OWASP/Nettacker/wiki/Modules#scan-modules
+[nettacker-vuln]: https://github.com/OWASP/Nettacker/wiki/Modules#vuln-modules
+[spotlight11]: https://www.youtube.com/watch?v=OGv7OtG127A
 
 \newpage
