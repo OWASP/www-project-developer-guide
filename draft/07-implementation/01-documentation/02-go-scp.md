@@ -3,7 +3,7 @@
 title: Go Secure Coding Practices
 layout: col-document
 tags: OWASP Developer Guide
-contributors:
+contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 712
 permalink: /draft/implementation/documentation/go_scp/
@@ -14,32 +14,63 @@ permalink: /draft/implementation/documentation/go_scp/
 
 ### 5.1.2 Go Secure Coding Practices
 
-To Do: supply a couple of sentences on the OWASP Go Secure Coding Practices (SCP) documentation project,
-including its status as an OWASP project and where to find it.
+The OWASP Go Secure Coding Practices (Go-SCP) is a set of software secure coding practices for Go.
 
-#### What is Go SCP?
+The Go-SCP [documentation project][go-scp-project] is an OWASP Incubator Project
+that has enough long term support to achieve Lab status soon.
+The document can be [downloaded in various formats][go-scp-download] from the github repo.
 
-To Do: go into more detail about the Go SCP project so that a developer
-can gain an overview of what this documentation project can provide for them.
+#### What is Go-SCP?
 
-#### Why use Go SCP?
+Go-SCP provides examples and recommendations to help developers avoid common mistakes and pitfalls,
+including code examples in Go that provide practical guidance on implementing the recommendations.
+Go-SCP covers the OWASP [Secure Coding Practices Quick Reference Guide][scp-qrf] topic-by-topic:
 
-To Do: provide more context for Go SCP that allows developers to determine whether to use it in their project.
+* Input Validation
+* Sanitization Output Encoding
+* Authentication and Password Management
+* Session Management
+* Access Control
+* Cryptographic Practices
+* Error Handling and Logging
+* Data Protection
+* Communication Security
+* System Configuration
+* Database Security
+* File Management
+* Memory Management
+* General Coding Practices
 
-#### How to apply Go SCP
+The [Go Secure Coding Practices][go-scp-project] book is available in various formats:
 
-To Do: give a brief outline of how applying the Go SCP project provides value for a development team.
-Do not repeat the project documentation itself; ideally provide a primer and a pointer to the documentation.
+* PDF
+* ePub
+* DocX
+* MOBI
+
+#### Why use Go-SCP?
+
+Development teams often need help and support in getting the security right for web applications,
+and part of this help comes from secure coding guidelines and best practices.
+Go-SCP provides this guidance for a wide range of secure coding topics as well as providing practical code examples.
+
+#### How to use Go-SCP?
+
+The primary audience of the Go Secure Coding Practices Guide is developers,
+particularly the ones with previous experience with other programming languages.
+
+Download the [Go-SCP document][go-scp-download] in one of the formats: PDF, ePub, DocX and MOBI.
+Refer to the specific topic chapter and then use the example Go code snippets for practical guidance on secure coding in Go.
 
 ----
 
-![Developer Guide](../../../assets/images/dg_wip.png "OWASP Developer Guide")
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue070102] or [edit on GitHub][edit070102].
 
-The OWASP Developer Guide is a community effort and this page needs some content to be added.
-If you have suggestions then [submit an issue][issue070102] and the project team can assign it to you,
-or provide new content [direct on GitHub][edit070102].
-
-[issue070102]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2007-implementation/01-documentation/02-go-scp
 [edit070102]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/01-documentation/02-go-scp.md
+[go-scp-download]: https://github.com/OWASP/Go-SCP/tree/master/dist
+[go-scp-project]: https://owasp.org/www-project-go-secure-coding-practices-guide/
+[issue070102]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2007-implementation/01-documentation/02-go-scp
+[scp-qrf]: https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/
 
 \newpage

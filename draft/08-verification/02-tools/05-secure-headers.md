@@ -5,14 +5,14 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 733
-permalink: /draft/implementation/secure_libraries/secure_headers/
+order: 825
+permalink: /draft/verification/tools/secure_headers/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 5.3.3 OWASP Secure Headers Project
+### 6.2.5 Secure Headers Project
 
 The OWASP Secure Headers Project ([OSHP][oshp]) provides information on HTTP response headers
 to increase the security of a web application.
@@ -44,17 +44,27 @@ the information on HTTP response headers is the best advice in the one location 
 The OWASP Spotlight series provides an overview of this project and its uses:
 'Project 24 - [OWASP Security Headers Project][spotlight24]'.
 
-OSHP provides links to development [libraries][oshp-libs] that provide for secure HTTP response headers
-in a range of languages and frameworks: DotNet, Go, HAPI, Java, NodeJS, PHP, Python, Ruby, Rust.
-OSHP also lists [various tools][oshp-tools] useful for inspection, analysis and scanning of HTTP response headers.
+OSHP lists [various tools][oshp-tools] useful for inspection, analysis and scanning of HTTP response headers:
+
+* hsecscan
+* humble
+* SecurityHeaders.com
+* Mozilla Observatory
+* Recx Security Analyser
+* testssl.sh
+* DrHEADer
+* csp-evaluator
+
+OSHP also provides links to development [libraries][oshp-libs] that provide for secure HTTP response headers
+in a range of languages and frameworks.
 
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue070303] or [edit on GitHub][edit070303].
+then [submit an issue][issue080205] or [edit on GitHub][edit080205].
 
-[edit070303]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/03-secure-libraries/03-secure-headers.md
-[issue070303]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2007-implementation/03-secure-libraries/03-secure-headers
+[edit080205]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/02-tools/05-secure-headers.md
+[issue080205]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2008-verification/02-tools/05-secure-headers
 [oshp]: https://owasp.org/www-project-secure-headers/
 [oshp-libs]: https://owasp.org/www-project-secure-headers/#development-libraries
 [oshp-tools]: https://owasp.org/www-project-secure-headers/#analysis-tools

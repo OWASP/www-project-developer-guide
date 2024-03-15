@@ -49,8 +49,8 @@ Application developers should try to be familiar with the entire guide;
 it is far harder to write solid applications than to destroy them.
 
 You can regard the purpose of this guide as answering the question:
- “I am a developer and I need a reference source to navigate the numerous projects
- and describe the security activities I really should be doing”
+ “I am a developer and I need a reference guide to describe the security activities I really should be doing
+ and to navigate the numerous security tools and projects”
 
 Or you can regard this guide as a companion document to the OWASP [Application Wayfinder][wayfinder] project:
 the Wayfinder maps out the many OWASP tools, projects and documents with the Developer Guide providing some context.

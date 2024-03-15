@@ -38,7 +38,7 @@ Cornucopia provides a [score sheet][cornucopia-score] to help keep track of the 
 To provide context each card in the Cornucopia deck references other OWASP projects:
 
 * Application Security Verification Standard ([ASVS][asvs])
-* Secure Coding Practices ([SCP][scp])
+* Secure Coding Practices ([SCP][scp-v21]]) Quick Reference Guide
 * [AppSensor][appsensor]
 
 The SCP has now been incorporated into the now part of the [Developer Guide](../02-web-app-checklist/toc.md)
@@ -89,7 +89,7 @@ then [submit an issue][issue060104] or [edit on GitHub][edit060104].
 [cornucopia-play]: https://owasp.org/www-project-cornucopia#div-play
 [edit060104]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/01-threat-modeling/04-cornucopia.md
 [issue060104]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2006-design/01-threat-modeling/04-cornucopia
-[scp]: https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/assets/docs/OWASP_SCP_Quick_Reference_Guide_v21.pdf
+[scp-v21]: https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/assets/docs/OWASP_SCP_Quick_Reference_Guide_v21.pdf
 [spotlight16]: https://youtu.be/NesxjEGX58s
 
 \newpage
