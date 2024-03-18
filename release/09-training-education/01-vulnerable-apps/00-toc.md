@@ -31,8 +31,6 @@ Sections:
 
 ----
 
-if there is something that needs changing then [submit an issue][issue090100].
-
 [sammg]: https://owaspsamm.org/model/governance/
 [sammgeg]: https://owaspsamm.org/model/governance/education-and-guidance/
 [sammgegta]: https://owaspsamm.org/model/governance/education-and-guidance/stream-a/
