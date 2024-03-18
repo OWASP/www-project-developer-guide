@@ -81,7 +81,6 @@ The ASVS guidance will help developers build security controls that will satisfy
 
 ----
 
-
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [asvsL123]: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x03-Using-ASVS.md#application-security-verification-levels
 [asvsmd]: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x00-Header.md

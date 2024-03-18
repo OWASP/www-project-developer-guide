@@ -78,7 +78,6 @@ as well as having a good time.
 
 ----
 
-
 [appsensor]: https://owasp.org/www-project-appsensor/
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [cornucopia]: https://owasp.org/www-project-cornucopia/

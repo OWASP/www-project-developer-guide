@@ -248,7 +248,6 @@ These protocols prevent adversaries from learning the key or forcing their own k
 
 ----
 
-
 [ancs]: https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html
 [csaz]: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html
 [cheatproject]: https://owasp.org/www-project-cheat-sheets/

@@ -44,7 +44,6 @@ and  the [install][owtfinstall] instructions may need adapting to run on MacOS o
 
 ----
 
-
 [kali]: https://www.kali.org/
 [owtfinstall]: https://owtf.readthedocs.io/en/develop/installation/methods.html
 [owtfdocs]: https://owtf.readthedocs.io/

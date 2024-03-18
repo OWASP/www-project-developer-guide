@@ -59,7 +59,6 @@ This will provide access to the practice labs, the training courses and also to 
 
 ----
 
-
 [linuxtraining]: https://training.linuxfoundation.org/full-catalog/
 [skf]: https://www.securityknowledgeframework.org/
 [skfdemo]: https://secureby.design/

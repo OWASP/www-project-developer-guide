@@ -29,7 +29,6 @@ Sections:
 
 ----
 
-
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [iso27001]: https://www.iso.org/standard/82875.html
 [masvs]: https://mas.owasp.org/MASVS/

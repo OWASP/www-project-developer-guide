@@ -73,7 +73,6 @@ and GRC compliance purposes; from the threat model meta-data window click on the
 
 ----
 
-
 [tddemo]: https://www.threatdragon.com/#/
 [tdcode]: https://github.com/OWASP/threat-dragon
 [tddocker]: https://hub.docker.com/r/owasp/threat-dragon/tags

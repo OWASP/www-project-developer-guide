@@ -23,6 +23,7 @@ jobs:
           find release -name "*.md" -exec sed -i '' "/edit on GitHub/d" {} +
           find release -name "*.md" -exec sed -i '' "/www-project-developer-guide\/issues\/new?labels/d" {} +
           find release -name "*.md" -exec sed -i '' "/www-project-developer-guide\/blob\/main/d" {} +
+          find release -name "*.md" -exec sed -i '' "/^$/N;/^\n$/D" {} +
 
       - name: Combine markdown
         run: |

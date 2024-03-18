@@ -50,7 +50,6 @@ described in the sections of the Proactive Controls that are relevant to the app
 
 ----
 
-
 [control1]: https://owasp.org/www-project-proactive-controls/v3/en/c1-security-requirements
 [control2]: https://owasp.org/www-project-proactive-controls/v3/en/c2-leverage-security-frameworks-libraries
 [control3]: https://owasp.org/www-project-proactive-controls/v3/en/c3-secure-database

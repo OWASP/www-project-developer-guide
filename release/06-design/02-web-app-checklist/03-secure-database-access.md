@@ -54,7 +54,6 @@ and use the checklists below as suggestions for the checklist that has been tail
 
 ----
 
-
 [control3]: https://owasp.org/www-project-proactive-controls/v3/en/c3-secure-database
 [dbsec]: https://cheatsheetseries.owasp.org/cheatsheets/Database_Security_Cheat_Sheet.html
 [proactive10]: https://owasp.org/www-project-proactive-controls/

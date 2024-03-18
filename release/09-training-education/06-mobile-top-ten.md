@@ -79,7 +79,6 @@ and [released in February 2017][ssdg-2017] to inform the latest set of mobile ap
 
 ----
 
-
 [enisa]: https://www.enisa.europa.eu/
 [m01]: https://owasp.org/www-project-mobile-top-10/2023-risks/m1-improper-credential-usage.html
 [m02]: https://owasp.org/www-project-mobile-top-10/2023-risks/m2-inadequate-supply-chain-security.html

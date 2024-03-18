@@ -252,7 +252,6 @@ then that is a perfectly good choice.
 
 ----
 
-
 [4QFW]: https://github.com/adamshostack/4QuestionFrame
 [asacs]: https://cheatsheetseries.owasp.org/cheatsheets/Attack_Surface_Analysis_Cheat_Sheet.html
 [capec]: https://capec.mitre.org/

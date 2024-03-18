@@ -60,7 +60,6 @@ From a command prompt run 'katana' to start configuring SamuraiWTF for your trai
 
 ----
 
-
 [kali]: https://www.kali.org/
 [samurai-dojo]: https://owasp.org/www-project-samuraiwtf/#div-dojo
 [samurai-katana]: https://owasp.org/www-project-samuraiwtf/#div-katana

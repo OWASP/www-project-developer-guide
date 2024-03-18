@@ -65,7 +65,6 @@ The [SAMM Assessment][samma] tools include spreadsheets and online tools such as
 
 ----
 
-
 [samm]: https://owaspsamm.org/about/
 [samma]: https://owaspsamm.org/assessment/
 [sammd]: https://owaspsamm.org/model/design/

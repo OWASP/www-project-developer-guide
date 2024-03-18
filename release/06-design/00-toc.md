@@ -67,7 +67,6 @@ Sections:
 
 ----
 
-
 [samm]: https://owaspsamm.org/about/
 [sammd]: https://owaspsamm.org/model/design/
 [sammdsr]: https://owaspsamm.org/model/design/security-requirements/

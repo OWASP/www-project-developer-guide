@@ -112,7 +112,6 @@ both of which may have a direct impact on the application.
 
 ----
 
-
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [control1]: https://owasp.org/www-project-proactive-controls/v3/en/c1-security-requirements
 [mas]: https://mas.owasp.org/

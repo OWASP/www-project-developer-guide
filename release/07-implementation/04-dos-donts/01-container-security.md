@@ -134,7 +134,6 @@ Container image security, host security, client security, daemon security, runti
 
 ----
 
-
 [docker]: https://docs.docker.com/get-started/09_image_best/
 
 \newpage

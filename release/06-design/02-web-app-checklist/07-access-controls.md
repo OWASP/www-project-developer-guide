@@ -50,7 +50,6 @@ and use the checklists below as suggestions for the checklist that has been tail
 
 ----
 
-
 [control7]: https://owasp.org/www-project-proactive-controls/v3/en/c7-enforce-access-controls
 [csaz]: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html
 [proactive10]: https://owasp.org/www-project-proactive-controls/

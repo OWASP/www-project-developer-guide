@@ -30,5 +30,3 @@ Sections:
 2.6 [Security champions](06-security-champions.md)  
 
 ----
-
-

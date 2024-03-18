@@ -68,7 +68,6 @@ The OWASP Spotlight series provides an overview of the SKF: 'Project 7 - [Securi
 
 ----
 
-
 [skf]: https://www.securityknowledgeframework.org/
 [skfdemo]: https://secureby.design/
 [skfdocs]: https://skf.readme.io/docs/introduction

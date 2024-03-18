@@ -64,7 +64,6 @@ for a step by step guide to this configuration.
 
 ----
 
-
 [deptrack]: https://dependencytrack.org/
 [deptrack-docs]: https://docs.dependencytrack.org/
 [deptrack-project]: https://owasp.org/www-project-dependency-track/

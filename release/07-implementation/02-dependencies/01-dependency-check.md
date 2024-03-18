@@ -69,7 +69,6 @@ for a pipeline to generate the SCA reports depending on what automation environm
 
 ----
 
-
 [a06]: https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/
 [adoptium]: https://adoptium.net/
 [cpe]: https://nvd.nist.gov/products/cpe

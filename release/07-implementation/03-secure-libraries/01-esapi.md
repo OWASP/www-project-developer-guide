@@ -55,7 +55,6 @@ There is a reference implementation for each security control.
 
 ----
 
-
 [bean]: http://beanvalidation.org/
 [csrfguard]: https://owasp.org/www-project-csrfguard
 [esapi-docs]: https://www.javadoc.io/doc/org.owasp.esapi/esapi/latest/index.html

@@ -178,7 +178,6 @@ There are other OWASP Top 10s that are still being worked on as 'incubator' proj
 
 ----
 
-
 [a01]: https://owasp.org/Top10/A01_2021-Broken_Access_Control/
 [a01cs]: https://cheatsheetseries.owasp.org/IndexTopTen.html#a012021-broken-access-control
 [a02]: https://owasp.org/Top10/A02_2021-Cryptographic_Failures/

@@ -64,7 +64,6 @@ Refer to the specific topic chapter and then use the example Go code snippets fo
 
 ----
 
-
 [go-scp-download]: https://github.com/OWASP/Go-SCP/tree/master/dist
 [go-scp-project]: https://owasp.org/www-project-go-secure-coding-practices-guide/
 [scp-qrf]: https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/

@@ -45,7 +45,6 @@ along with the documentation on configuring ModSecurity with the [Core Rule Set]
 
 ----
 
-
 [coraza]: https://coraza.io/
 [modcrs]: https://owasp.org/www-project-modsecurity-core-rule-set/
 [modcrsdocs]: https://coreruleset.org/

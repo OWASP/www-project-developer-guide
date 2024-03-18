@@ -59,7 +59,6 @@ the Wayfinder maps out the many OWASP tools, projects and documents with the Dev
 
 ----
 
-
 [about]: https://owasp.org/about/
 [samm]: https://owaspsamm.org/about/
 [versions]: https://github.com/OWASP/DevGuide/wiki#old-versions

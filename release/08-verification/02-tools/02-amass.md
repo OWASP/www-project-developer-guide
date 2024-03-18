@@ -53,7 +53,6 @@ The extensive [Amass tutorial][amass-tutorial] provides the best way of learning
 
 ----
 
-
 [amass]: https://owasp.org/www-project-amass/
 [amass-docs]: https://github.com/owasp-amass/amass/blob/master/doc/user_guide.md
 [amass-download]: https://github.com/owasp-amass/amass/releases

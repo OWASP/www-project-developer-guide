@@ -73,7 +73,6 @@ Listed below are the versions up to the latest in 2021, which was released to ma
 
 ----
 
-
 [a01]: https://owasp.org/Top10/A01_2021-Broken_Access_Control/
 [a02]: https://owasp.org/Top10/A02_2021-Cryptographic_Failures/
 [a03]: https://owasp.org/Top10/A03_2021-Injection/

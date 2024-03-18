@@ -54,7 +54,6 @@ Security Shepherd has modes which it can be used for different training goals:
 
 ----
 
-
 [sec-shep]: https://owasp.org/www-project-security-shepherd/
 [sec-shep-docker]: https://github.com/OWASP/SecurityShepherd/wiki/Docker-Environment-Setup
 [sec-shep-repo]: https://github.com/OWASP/SecurityShepherd

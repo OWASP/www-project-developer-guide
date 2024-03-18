@@ -66,7 +66,6 @@ but this last option no longer seems to be available.
 
 ----
 
-
 [cornucopia]: https://owasp.org/www-project-cornucopia/
 [mobile10-2014]: https://owasp.org/www-project-mobile-top-10/2014-risks/
 [mobile10controls]: https://owasp.org/www-project-mobile-top-10/#div-controls

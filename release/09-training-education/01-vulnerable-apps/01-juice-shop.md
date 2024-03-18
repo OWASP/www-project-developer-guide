@@ -76,7 +76,6 @@ In the appendix there is a complete step-by-step solution to every challenge for
 
 ----
 
-
 [dockerinstall]: https://docs.docker.com/engine/install/
 [juice]: https://owasp.org/www-project-juice-shop/
 [juicectf]: https://owasp.org/www-project-juice-shop/#div-ctf

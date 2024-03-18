@@ -43,7 +43,6 @@ Follow the [instructions][csrfguard-build] to build CSRFGuard into the Java appl
 
 ----
 
-
 [csrfguard]: https://owasp.org/www-project-csrfguard/
 [csrfguard-build]: https://github.com/OWASP/www-project-csrfguard/blob/master/readme.md#using-with-maven
 [csrfguard-nexus]: https://oss.sonatype.org/#nexus-search;gav~~csrfguard~~~

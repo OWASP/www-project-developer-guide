@@ -150,7 +150,6 @@ In addition open source components have the benefit of 'many eyes' and are likel
 
 ----
 
-
 [ancs]: https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html
 [azcs]: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html
 [cheatproject]: https://owasp.org/www-project-cheat-sheets/

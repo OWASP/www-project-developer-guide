@@ -50,7 +50,6 @@ OSHP also lists [various tools][oshp-tools] useful for inspection, analysis and 
 
 ----
 
-
 [oshp]: https://owasp.org/www-project-secure-headers/
 [oshp-libs]: https://owasp.org/www-project-secure-headers/#development-libraries
 [oshp-tools]: https://owasp.org/www-project-secure-headers/#analysis-tools

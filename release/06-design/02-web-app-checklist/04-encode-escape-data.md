@@ -51,7 +51,6 @@ The specific methods vary depending on the way the output data is used, such as 
 
 ----
 
-
 [control4]: https://owasp.org/www-project-proactive-controls/v3/en/c4-encode-escape-data
 [encoder]: https://www.owasp.org/index.php/OWASP_Java_Encoder_Project
 [ipcs]: https://cheatsheetseries.owasp.org/cheatsheets/Injection_Prevention_Cheat_Sheet.html

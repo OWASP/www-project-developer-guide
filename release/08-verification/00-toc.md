@@ -58,7 +58,6 @@ Sections:
 
 ----
 
-
 [samm]: https://owaspsamm.org/about/
 [sammv]: https://owaspsamm.org/model/verification/
 

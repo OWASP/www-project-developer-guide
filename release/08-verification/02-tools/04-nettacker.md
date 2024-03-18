@@ -54,7 +54,6 @@ The best way to start using it is by following the [introduction video][nettacke
 
 ----
 
-
 [nettacker-brute]: https://github.com/OWASP/Nettacker/wiki/Modules#brute-modules
 [nettacker-install]: https://github.com/OWASP/Nettacker/wiki/Installation
 [nettacker-intro]: https://github.com/OWASP/Nettacker/wiki#introduction

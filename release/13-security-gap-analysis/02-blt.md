@@ -48,7 +48,6 @@ and encourage users/reporters to use the [BLT app][bltapp] and chrome [extension
 
 ----
 
-
 [blt]: https://owasp.org/www-project-bug-logging-tool/
 [bltchrome]: https://github.com/OWASP/BLT-Extension
 [bltcore]: https://github.com/OWASP/BLT

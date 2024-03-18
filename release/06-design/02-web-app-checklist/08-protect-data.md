@@ -56,7 +56,6 @@ and use the checklists below as suggestions for the checklist that has been tail
 
 ----
 
-
 [control8]: https://owasp.org/www-project-proactive-controls/v3/en/c8-protect-data-everywhere
 [cscs]: https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html
 [cssm]: https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html

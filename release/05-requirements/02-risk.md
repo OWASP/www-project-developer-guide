@@ -96,7 +96,6 @@ Examples:
 
 ----
 
-
 [cvss]: https://www.first.org/cvss/
 [nist]: https://csrc.nist.gov/publications/detail/sp/800-30/rev-1/final
 [rra]: https://infosec.mozilla.org/guidelines/risk/rapid_risk_assessment.html

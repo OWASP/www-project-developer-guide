@@ -99,7 +99,6 @@ and use the checklists below as suggestions for the checklist that has been tail
 
 ----
 
-
 [control6]: https://owasp.org/www-project-proactive-controls/v3/en/c6-digital-identity
 [csauth]: https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html
 [cspass]: https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html

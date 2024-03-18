@@ -32,5 +32,3 @@ Sections:
 6.8 [Memory management](08-memory-management.md)
 
 ----
-
-

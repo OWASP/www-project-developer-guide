@@ -51,7 +51,6 @@ or automatically within a CI/CD environment - and definitely check out the [Head
 
 ----
 
-
 [lf]: https://www.linuxfoundation.org/
 [spotlight12]: https://youtu.be/usIlW8Q-hc4
 [ssp]: https://softwaresecurityproject.org/

@@ -61,7 +61,6 @@ Sections:
 
 ----
 
-
 [sammm]: https://owaspsamm.org/model/
 [sammi]: https://owaspsamm.org/model/implementation/
 

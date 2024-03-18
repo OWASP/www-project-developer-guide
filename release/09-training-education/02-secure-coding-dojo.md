@@ -59,7 +59,6 @@ to practice penetration testing.
 
 ----
 
-
 [codedojo]: https://securecodingdojo.owasp.org/
 [codedojo-insecure]: https://github.com/OWASP/SecureCodingDojo/wiki/Running-Insecure.Inc
 [codedojo-install]: https://github.com/OWASP/SecureCodingDojo/wiki/Deploying-with-Docker

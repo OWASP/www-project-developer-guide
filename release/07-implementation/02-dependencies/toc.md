@@ -39,7 +39,6 @@ Sections:
 
 ----
 
-
 [cve]: https://cve.mitre.org/
 [sammi]: https://owaspsamm.org/model/implementation/
 [sammisb]: https://owaspsamm.org/model/implementation/secure-build/

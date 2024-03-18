@@ -1,3 +1,4 @@
+
 ---
 
 title: Security Champions
@@ -84,7 +85,6 @@ increase the effectiveness of the application security team and improve the secu
 * OWASP [Security Culture project][scculture]
 
 ----
-
 
 [sammgegoc]: https://owaspsamm.org/model/governance/education-and-guidance/stream-b/
 [scguide]: https://owasp.org/www-project-security-champions-guidebook/

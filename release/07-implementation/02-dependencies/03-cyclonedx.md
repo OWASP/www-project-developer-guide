@@ -64,7 +64,6 @@ and [various tools][cyclonedx-tools] can be chosen that are able to export the S
 
 ----
 
-
 [cyclonedx]: https://cyclonedx.org/
 [cyclonedx-bomlink]: https://cyclonedx.org/capabilities/bomlink/
 [cyclonedx-bov]: https://cyclonedx.org/capabilities/bov/

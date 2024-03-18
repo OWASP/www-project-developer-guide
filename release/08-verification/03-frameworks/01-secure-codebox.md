@@ -80,7 +80,6 @@ with the rest of the [documentation][codebox-docs] providing clear information o
 
 ----
 
-
 [codebox]: https://www.securecodebox.io/
 [codebox-project]: https://owasp.org/www-project-securecodebox/
 [codebox-repo]: https://charts.securecodebox.io

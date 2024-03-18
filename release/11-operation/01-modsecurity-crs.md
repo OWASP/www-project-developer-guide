@@ -44,7 +44,6 @@ The OWASP Spotlight series provides an overview of how to use this Core Rule Set
 
 ----
 
-
 [coraza]: https://coraza.io/
 [coraza-tutorial]: https://coraza.io/docs/tutorials/quick-start/
 [modcrs-project]: https://owasp.org/www-project-modsecurity-core-rule-set/

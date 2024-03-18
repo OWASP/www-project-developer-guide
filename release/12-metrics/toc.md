@@ -19,7 +19,6 @@ does not identify any OWASP projects that gather or process metrics, but this ma
 
 ----
 
-
 [wayfinder]: https://owasp.org/www-project-integration-standards/
 
 Sections:

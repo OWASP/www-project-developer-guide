@@ -59,7 +59,6 @@ and testing of mobile applications; pick and choose the resources that are appli
 
 ----
 
-
 [masproject]: https://owasp.org/www-project-mobile-app-security/
 [masc]: https://mas.owasp.org/checklists/
 [mastg]: https://mas.owasp.org/MASTG/

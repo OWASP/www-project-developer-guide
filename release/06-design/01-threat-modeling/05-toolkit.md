@@ -58,7 +58,6 @@ providing practical suggestions along with explanations of both the terminology 
 
 ----
 
-
 [4QFW]: https://github.com/adamshostack/4QuestionFrame
 [asacs]: https://cheatsheetseries.owasp.org/cheatsheets/Attack_Surface_Analysis_Cheat_Sheet.html
 [toolkit]: https://www.youtube.com/watch?v=KGy_KCRUGd4

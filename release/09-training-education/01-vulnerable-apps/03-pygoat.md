@@ -72,7 +72,6 @@ these are almost about side by side and aid cross referencing to the latest OWAS
 
 ----
 
-
 [dockerinstall]: https://docs.docker.com/engine/install/
 [pygoat]: https://owasp.org/www-project-pygoat/
 [pygoatdocker]: https://github.com/adeyosemanputra/pygoat/blob/master/README.md#from-docker-compose

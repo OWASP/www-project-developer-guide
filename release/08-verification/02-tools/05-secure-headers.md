@@ -60,7 +60,6 @@ in a range of languages and frameworks.
 
 ----
 
-
 [oshp]: https://owasp.org/www-project-secure-headers/
 [oshp-libs]: https://owasp.org/www-project-secure-headers/#development-libraries
 [oshp-tools]: https://owasp.org/www-project-secure-headers/#analysis-tools

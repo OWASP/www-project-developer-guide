@@ -55,7 +55,6 @@ This record of test results can be used as evidence for compliance purposes.
 
 ----
 
-
 [masproject]: https://owasp.org/www-project-mobile-app-security/
 [masxls]: https://github.com/OWASP/owasp-mastg/releases/latest/download/OWASP_MAS_Checklist.xlsx
 [masc]: https://mas.owasp.org/checklists/

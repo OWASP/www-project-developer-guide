@@ -103,7 +103,6 @@ and so this may be a future development for SecurityRAT.
 
 ----
 
-
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [spotlight05]: https://youtu.be/HiaHXtzJ3DE
 [scat]: https://securityrat.github.io/int_securitycat.html#securitycat

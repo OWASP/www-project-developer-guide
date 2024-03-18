@@ -45,7 +45,6 @@ Sections:
 
 ----
 
-
 [control1]: https://owasp.org/www-project-proactive-controls/v3/en/c1-security-requirements
 [samm]: https://owaspsamm.org/about/
 [sammd]: https://owaspsamm.org/model/design/

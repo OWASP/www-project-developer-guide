@@ -100,7 +100,6 @@ There are various ways of configuring WebGoat, see the [github repo][goatgithub]
 
 ----
 
-
 [goatdocker]: https://hub.docker.com/r/webgoat/webgoat
 [goatgithub]: https://github.com/WebGoat/WebGoat
 [goatreleases]: https://github.com/WebGoat/WebGoat/releases

@@ -169,7 +169,6 @@ There are many OWASP tools and resources to help build security into the SDLC.
 
 ----
 
-
 [amass]: https://owasp.org/www-project-amass/
 [api-security]: https://owasp.org/www-project-api-security/
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/

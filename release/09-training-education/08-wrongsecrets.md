@@ -54,7 +54,6 @@ For the CTF, the project also provides [set-up guides][ctf] and a [Helm chart][h
 
 ---
 
-
 [ctf]: https://github.com/OWASP/wrongsecrets/blob/master/ctf-instructions.md
 [helm]: https://owasp.org/wrongsecrets-ctf-party/
 [heroku]: https://wrongsecrets.herokuapp.com/

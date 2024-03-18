@@ -62,6 +62,5 @@ Sections:
 
 ----
 
-
 [sammdsa]: https://owaspsamm.org/model/design/security-architecture/
 [spdcs]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet.html

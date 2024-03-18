@@ -56,7 +56,6 @@ The cheat sheets are continually being updated and are always open to contributi
 
 ----
 
-
 [cheatproject]: https://owasp.org/www-project-cheat-sheets/
 [cheatsheets]: https://cheatsheetseries.owasp.org/
 [cheatsheet-alpha]: https://cheatsheetseries.owasp.org/Glossary.html

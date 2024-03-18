@@ -67,7 +67,6 @@ which feeds back into the culture of the organization.
 
 ----
 
-
 [samm]: https://owaspsamm.org/about/
 [samma]: https://owaspsamm.org/assessment/
 [sammd]: https://owaspsamm.org/model/design/

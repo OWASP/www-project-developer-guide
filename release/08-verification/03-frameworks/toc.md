@@ -32,7 +32,6 @@ Sections:
 
 ----
 
-
 [samm]: https://owaspsamm.org/about/
 [sammv]: https://owaspsamm.org/model/verification/
 [sammvrt]: https://owaspsamm.org/model/verification/requirements-driven-testing/

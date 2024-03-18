@@ -46,7 +46,6 @@ to assist them when acting as security builders, breakers, and defenders for an 
 
 ----
 
-
 [api01]: https://owasp.org/API-Security/editions/2023/en/0xa1-broken-object-level-authorization/
 [api02]: https://owasp.org/API-Security/editions/2023/en/0xa2-broken-authentication/
 [api03]: https://owasp.org/API-Security/editions/2023/en/0xa3-broken-object-property-level-authorization/

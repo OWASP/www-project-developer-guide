@@ -32,6 +32,4 @@ Sections:
 
 ----
 
-
-
 \newpage

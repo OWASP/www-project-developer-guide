@@ -44,7 +44,6 @@ and use the checklist below as suggestions for the checklist that has been tailo
 
 ----
 
-
 [control2]: https://owasp.org/www-project-proactive-controls/v3/en/c2-leverage-security-frameworks-libraries
 [dependency]: https://owasp.org/www-project-dependency-check/
 [proactive10]: https://owasp.org/www-project-proactive-controls/

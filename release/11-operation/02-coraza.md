@@ -54,7 +54,6 @@ and the one chosen will depend on an individual organization's deployment:
 
 ----
 
-
 [coraza]: https://coraza.io/
 [coraza-caddy]: https://github.com/corazawaf/coraza-caddy
 [coraza-lib]: https://github.com/corazawaf/libcoraza

@@ -46,7 +46,6 @@ and use the checklist below as suggestions for the checklist that has been tailo
 
 ----
 
-
 [control10]: https://owasp.org/www-project-proactive-controls/v3/en/c10-errors-exceptions
 [handle]: https://owasp.org/www-community/Improper_Error_Handling
 [proactive10]: https://owasp.org/www-project-proactive-controls/

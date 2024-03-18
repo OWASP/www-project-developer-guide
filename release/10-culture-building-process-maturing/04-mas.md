@@ -48,7 +48,6 @@ Each challenge has various solutions provided by the community; these can be use
 
 ----
 
-
 [masproject]: https://owasp.org/www-project-mobile-app-security/
 [masandroid]: https://mas.owasp.org/crackmes/Android/
 [mascrack]: https://mas.owasp.org/crackmes/

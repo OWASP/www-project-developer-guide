@@ -34,7 +34,6 @@ Sections:
 
 ----
 
-
 [samm]: https://owaspsamm.org/about/
 [sammv]: https://owaspsamm.org/model/verification/
 [sammvst]: https://owaspsamm.org/model/verification/security-testing/
