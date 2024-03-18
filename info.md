@@ -9,8 +9,9 @@
 
 ### Document
 
+* [Released version](draft)
+* Released [PDF][pdf] and [book][epub]
 * [Draft version](draft)
-* Draft [PDF][pdf] and [book][epub]
 
 ### License
 
