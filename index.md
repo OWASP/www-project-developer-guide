@@ -31,7 +31,8 @@ The intended audience of the Developer Guide is on application developers (web, 
 and API developers but it needs the wider security community to contribute to the guide.
 
 The [draft version](draft) is a work in progress and is subject to large scale and frequent changes.
-Periodically the draft version will be tagged and the contents will be promoted to the release area of the Developer Guide.
+Periodically the draft version will be tagged and the contents will be promoted to
+the [release area](release) of the Developer Guide.
 
 ### Contributing
 

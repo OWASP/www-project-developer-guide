@@ -9,52 +9,28 @@ on:
 
 # for security reasons the github actions are pinned to specific release versions
 jobs:
-  link_checker:
-    name: Link checker
-    runs-on: ubuntu-22.04
-    steps:
-      - name: Checkout markdown
-        uses: actions/checkout@v4.1.1
-
-      - name: Link Checker
-        uses: lycheeverse/lychee-action@v1.9.1
-        with:
-          # skip the jekyll files
-          args: --verbose --no-progress --max-retries 5 --exclude-path './_includes/*.html' '**/*.md' '*.md'
-          fail: true
-        env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-
-  md_linter:
-    name: Lint markdown
-    runs-on: ubuntu-22.04
-    steps:
-      - name: Checkout markdown
-        uses: actions/checkout@v4.1.1
-
-      - name: Lint markdown
-        uses: DavidAnson/markdownlint-cli2-action@v15.0.0
-        with:
-          config: '.markdownlint.yaml'
-          globs: '**/*.md'
-
-  spell_checker:
-    name: Check spelling
-    runs-on: ubuntu-22.04
-    steps:
-      - name: Checkout markdown
-        uses: actions/checkout@v4.1.1
-
-      - name: spell_checker
-        uses: rojopolis/spellcheck-github-actions@0.36.0
-
   export_docs:
     name: Export PDF and ePub
     runs-on: ubuntu-22.04
-    needs: [link_checker, md_linter, spell_checker]
     steps:
       - name: Checkout markdown
         uses: actions/checkout@v4.1.1
+
+      - name: Promote draft to release
+        run: |
+          cd draft
+          pwd
+          find . -name "*.md" ! -name "info.md" ! -name "01-front.md" -exec cp '{}' '../release/{}' \;
+
+      - name: Fix up markdown
+        run: |
+          pwd
+          find release -name "*.md" -exec sed -i '' "s|permalink: /draft/|permalink: /release/|g" {} +
+          find release -name "*.md" -exec sed -i '' "/The OWASP Developer Guide is a community effort/d" {} +
+          find release -name "*.md" -exec sed -i '' "/edit on GitHub/d" {} +
+          find release -name "*.md" -exec sed -i '' "/www-project-developer-guide\/issues\/new?labels/d" {} +
+          find release -name "*.md" -exec sed -i '' "/www-project-developer-guide\/blob\/main/d" {} +
+          find release -name "*.md" -exec sed -i '' "/^$/N;/^\n$/D" {} +
 
       - name: Combine markdown
         run: |
@@ -86,3 +62,20 @@ jobs:
         with:
           name: export-docs
           path: publish
+
+      - name: Update pdfs and epubs
+        run: |
+          pwd && ls -hal publish
+          cp publish/OWASP_Developer_Guide.* assets/exports/.
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v6.0.2
+        with:
+          title: 'Release'
+          body: |
+            ### Automatically generated
+            ---
+            Please verify and then **Merge** the pull request to update the release
+          commit-message: 'update release'
+          branch: update-release
+          base: main

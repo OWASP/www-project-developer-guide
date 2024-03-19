@@ -42,6 +42,25 @@
 !draft/assets/images/
 !draft/assets/images/*.png
 
+# release version
+!release/
+!release/title*.yaml
+!release/0*/
+!release/0*/*.md
+!release/0*/0*/
+!release/0*/0*/*.md
+!release/0*/1*/
+!release/0*/1*/*.md
+!release/1*/
+!release/1*/*.md
+!release/1*/0*/
+!release/1*/0*/*.md
+!release/1*/1*/
+!release/1*/1*/*.md
+!release/assets/
+!release/assets/images/
+!release/assets/images/*.png
+
 # pages markdown
 !*.md
 !assets/

@@ -15,10 +15,11 @@ The [original DevGuide repository][devguide] has many of the [previous versions]
 going back to the [original version 1.0][original] from 2002.
 Note that the original DevGuide repository has been deprecated in favour of this one.
 
-The source code for the latest draft developer guide can be found under the ['draft'][draft] directory.
+The source for the latest draft developer guide can be found under the ['draft'][draft] directory.
 The source is in markdown and is used to create the developer guide HTML, PDF and ePub outputs.
 The content is subject to large scale changes with no notice,
-as it is being actively worked on for the next release of the Developer Guide.
+and is usually being actively worked on for the latest release
+of the Developer Guide under the ['release'][release] directory.
 
 ### Contributing
 
@@ -48,5 +49,6 @@ is via the OWASP Slack [#project-developer-guide][project] project channel
 [original]: https://github.com/OWASP/DevGuide/blob/1d24d140de3724b6f95655e53b8d0cc6689fbfd8/DevGuide1.0/OWASPBuildingSecureWebApplicationsAndWebServices-V1.0.pdf
 [pages]: https://owasp.org/www-project-developer-guide/
 [project]: https://owasp.slack.com/messages/C04QN6CMNAC
+[release]: release
 [request]: https://github.com/OWASP/www-project-developer-guide/pulls
 [versions]: https://github.com/OWASP/DevGuide/wiki#old-versions

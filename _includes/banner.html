@@ -4,4 +4,10 @@
         This content represents the latest contributions to the Developer Guide, and it will frequently change
     </div>
     {% endif %}
+
+    {% if page.url contains "/release/" %}
+    <div style="background-color:#9ce37d;color:#344d2a;padding:8px 20px 8px;">
+        You're viewing the latest Developer Guide
+    </div>
+    {% endif %}
 </div>

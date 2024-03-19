@@ -33,10 +33,10 @@ Sections:
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue090100] or [edit on GitHub][edit090100].
+then [submit an issue][issue0910] or [edit on GitHub][edit0910].
 
-[edit090100]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/01-vulnerable-apps/toc.md
-[issue090100]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2009-training-education/01-vulnerable-apps/00-toc
+[edit0910]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/01-vulnerable-apps/toc.md
+[issue0910]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2009-training-education/01-vulnerable-apps/00-toc
 [sammg]: https://owaspsamm.org/model/governance/
 [sammgeg]: https://owaspsamm.org/model/governance/education-and-guidance/
 [sammgegta]: https://owaspsamm.org/model/governance/education-and-guidance/stream-a/
