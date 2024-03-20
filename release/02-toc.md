@@ -96,7 +96,7 @@ permalink:
 6.5.3 [Open Source software](#open-source-software)  
 
 7 **[Training and Education](#training-and-education)**  
-7.1 [Vulnerable Applications](#vulnerable-applications)
+7.1 [Vulnerable Applications](#vulnerable-applications)  
 7.1.1 [Juice Shop](#juice-shop)  
 7.1.2 [WebGoat](#webgoat)  
 7.1.3 [PyGoat](#pygoat)  

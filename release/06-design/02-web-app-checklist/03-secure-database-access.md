@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 623
+order: 6230
 permalink: /release/design/web_app_checklist/secure_database_access/
 
 ---

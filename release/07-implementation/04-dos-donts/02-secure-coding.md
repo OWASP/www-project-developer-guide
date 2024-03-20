@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
 document: OWASP Developer Guide
-order: 742
+order: 7420
 permalink: /release/implementation/dos_donts/secure_coding/
 
 ---

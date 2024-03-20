@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 1102
+order: 11020
 permalink: /release/operation/coraza_waf/
 
 ---

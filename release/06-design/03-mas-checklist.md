@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 640
+order: 6400
 permalink: /release/design/mas_checklist/
 
 ---

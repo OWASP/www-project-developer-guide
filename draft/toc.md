@@ -100,7 +100,7 @@ This draft version has the latest contributions to the Developer Guide so expect
 6.5.3 [Open Source software](08-verification/05-dos-donts/03-open-source-software.md)  
 
 7 **[Training and Education](09-training-education/toc.md)**  
-7.1 [Vulnerable Applications](09-training-education/01-vulnerable-apps/toc.md)
+7.1 [Vulnerable Applications](09-training-education/01-vulnerable-apps/toc.md)  
 7.1.1 [Juice Shop](09-training-education/01-vulnerable-apps/01-juice-shop.md)  
 7.1.2 [WebGoat](09-training-education/01-vulnerable-apps/02-webgoat.md)  
 7.1.3 [PyGoat](09-training-education/01-vulnerable-apps/03-pygoat.md)  

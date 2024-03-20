@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 624
+order: 6240
 permalink: /release/design/web_app_checklist/encode_escape_data/
 
 ---

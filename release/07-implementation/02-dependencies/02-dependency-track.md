@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 722
+order: 7220
 permalink: /release/implementation/dependencies/dependency_track/
 
 ---

@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 629
+order: 6290
 permalink: /release/design/web_app_checklist/security_logging_and_monitoring/
 
 ---

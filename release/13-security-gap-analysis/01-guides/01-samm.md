@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 1311
+order: 13110
 permalink: /release/security_gap_analysis/guides/software_assurance_maturity_model/
 
 ---

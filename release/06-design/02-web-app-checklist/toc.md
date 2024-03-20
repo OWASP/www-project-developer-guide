@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 620
+order: 6200
 permalink: /release/design/web_app_checklist/
 
 ---

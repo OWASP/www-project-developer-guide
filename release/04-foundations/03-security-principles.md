@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 403
+order: 4030
 permalink: /release/foundations/security_principles/
 
 ---

@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 406
+order: 4060
 permalink: /release/foundations/security_champions/
 
 ---

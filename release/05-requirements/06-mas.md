@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 506
+order: 5060
 permalink: /release/requirements/mobile_application_security/
 
 ---

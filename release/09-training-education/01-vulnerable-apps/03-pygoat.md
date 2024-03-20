@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 913
+order: 9130
 permalink: /release/training_education/vulnerable_applications/pygoat/
 
 ---

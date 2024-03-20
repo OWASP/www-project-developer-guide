@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 822
+order: 8220
 permalink: /release/verification/tools/amass/
 
 ---

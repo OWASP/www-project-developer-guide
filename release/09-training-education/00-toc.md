@@ -28,7 +28,7 @@ OWASP provides various resources and environments that can help with this securi
 
 Sections:
 
-7.1 [Vulnerable Applications](#vulnerable-applications)
+7.1 [Vulnerable Applications](#vulnerable-applications)  
 7.1.1 [Juice Shop](#juice-shop)  
 7.1.2 [WebGoat](#webgoat)  
 7.1.3 [PyGoat](#pygoat)  

@@ -33,6 +33,7 @@ jobs:
           find release -name "*.md" -exec \
           sed -i '' "s/.*the latest contributions to the Developer Guide.*/\#\#\# Release version $GITHUB_REF_NAME/" {} +
           find release -name "*.md" -exec sed -i '' "s/ (Draft)//gI" {} +
+          find release -name "*.md" -exec sed -i '' "/order: / s/$/0/" {} +
 
       - name: Combine markdown
         run: |

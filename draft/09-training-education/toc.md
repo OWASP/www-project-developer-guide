@@ -29,7 +29,7 @@ OWASP provides various resources and environments that can help with this securi
 
 Sections:  
 
-7.1 [Vulnerable Applications](01-vulnerable-apps/toc.md)
+7.1 [Vulnerable Applications](01-vulnerable-apps/toc.md)  
 7.1.1 [Juice Shop](01-vulnerable-apps/01-juice-shop.md)  
 7.1.2 [WebGoat](01-vulnerable-apps/02-webgoat.md)  
 7.1.3 [PyGoat](01-vulnerable-apps/03-pygoat.md)  

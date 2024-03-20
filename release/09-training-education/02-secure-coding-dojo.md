@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 920
+order: 9200
 permalink: /release/training_education/secure_coding_dojo/
 
 ---

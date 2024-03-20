@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 811
+order: 8110
 permalink: /release/verification/guides/web_security_testing_guide/
 
 ---

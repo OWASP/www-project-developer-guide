@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 505
+order: 5050
 permalink: /release/requirements/asvs/
 
 ---
