@@ -9,7 +9,7 @@
 
 ### Document
 
-* [Released version](draft)
+* [Release version 4.0](release)
 * Released [PDF][pdf] and [book][epub]
 * [Draft version](draft)
 
@@ -17,9 +17,9 @@
 
 * [![Creative Commons License][license-image]](https://creativecommons.org/licenses/by-sa/4.0/ "CC BY-SA 4.0")
 
-### Code Repository
+### Repository
 
-* [Source code][repo]
+* [Markdown source][repo]
 
 [epub]: assets/exports/OWASP_Developer_Guide.epub
 [pdf]: assets/exports/OWASP_Developer_Guide.pdf
