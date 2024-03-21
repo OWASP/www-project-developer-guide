@@ -41,5 +41,3 @@ Sections:
 [sammoem]: https://owaspsamm.org/model/operations/environment-management/
 [sammoim]: https://owaspsamm.org/model/operations/incident-management
 [sammoom]: https://owaspsamm.org/model/operations/operational-management/
-
-\newpage

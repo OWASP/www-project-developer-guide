@@ -67,5 +67,3 @@ This will provide access to the practice labs, the training courses and also to 
 [skflabs]: https://secureby.design/labs
 [skfrepo]: https://github.com/Security-Knowledge-Framework
 [skfreqs]: https://starfish-app-kd3eo.ondigitalocean.app/
-
-\newpage

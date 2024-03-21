@@ -53,5 +53,3 @@ and encourage users/reporters to use the [BLT app][bltapp] and chrome [extension
 [bltcore]: https://github.com/OWASP/BLT
 [bltapp]: https://github.com/OWASP/BLT-Flutter
 [bltsite]: https://blt.owasp.org/
-
-\newpage

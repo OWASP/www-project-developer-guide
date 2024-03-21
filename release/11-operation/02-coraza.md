@@ -63,5 +63,3 @@ and the one chosen will depend on an individual organization's deployment:
 [coraza-wasm]: https://github.com/corazawaf/coraza-proxy-wasm
 [modcrs]: https://owasp.org/www-project-modsecurity-core-rule-set/
 [modsecurity]: https://owasp.org/www-project-modsecurity/
-
-\newpage

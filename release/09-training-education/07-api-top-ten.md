@@ -59,5 +59,3 @@ to assist them when acting as security builders, breakers, and defenders for an 
 [api-security]: https://owasp.org/API-Security
 [api-security-doc]: https://owasp.org/API-Security/editions/2023/en/0x00-header/
 [api-security-project]: https://owasp.org/www-project-api-security/
-
-\newpage

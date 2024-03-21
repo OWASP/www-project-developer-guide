@@ -67,5 +67,3 @@ There is a reference implementation for each security control.
 [java-sanitizer]: https://owasp.org/www-project-java-html-sanitizer
 [shiro]: https://shiro.apache.org/
 [spring]: https://docs.spring.io/spring-security/reference/features/index.html
-
-\newpage

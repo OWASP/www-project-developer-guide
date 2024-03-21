@@ -210,5 +210,3 @@ There are other OWASP Top 10s that are still being worked on as 'incubator' proj
 [tmcs]: https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html
 [top10]: https://owasp.org/www-project-top-ten/
 [llm10]: https://owasp.org/www-project-top-10-for-large-language-model-applications/
-
-\newpage

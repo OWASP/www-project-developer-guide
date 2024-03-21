@@ -78,5 +78,3 @@ for a pipeline to generate the SCA reports depending on what automation environm
 [depcheck-download]: https://github.com/jeremylong/DependencyCheck/releases
 [nist-db]: https://nvd.nist.gov/
 [spotlight02]: https://youtu.be/YAXf3TaAYeA
-
-\newpage

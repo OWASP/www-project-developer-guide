@@ -31,5 +31,3 @@ Sections:
 5.4.8 [Memory management](#memory-management)  
 
 ----
-
-\newpage

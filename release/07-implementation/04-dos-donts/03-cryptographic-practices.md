@@ -66,5 +66,3 @@ Here is a collection of Do's and Don'ts when it comes to cryptographic practices
     Most modern APIs do not require the developer to seed the CSPRNG to get security.
 
 ----
-
-\newpage

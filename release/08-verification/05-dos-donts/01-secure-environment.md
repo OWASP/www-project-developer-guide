@@ -67,5 +67,3 @@ Some of these are language specific and others have more general applicability.
     or protect against the discovered issue.
 
 ----
-
-\newpage

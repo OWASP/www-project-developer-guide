@@ -61,5 +61,3 @@ The best way to start using it is by following the [introduction video][nettacke
 [nettacker-scan]: https://github.com/OWASP/Nettacker/wiki/Modules#scan-modules
 [nettacker-vuln]: https://github.com/OWASP/Nettacker/wiki/Modules#vuln-modules
 [spotlight11]: https://www.youtube.com/watch?v=OGv7OtG127A
-
-\newpage

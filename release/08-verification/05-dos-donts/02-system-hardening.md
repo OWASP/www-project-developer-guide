@@ -57,5 +57,3 @@ Some of these are language specific and others have more general applicability.
 * Change/disable all default account passwords
 
 ----
-
-\newpage

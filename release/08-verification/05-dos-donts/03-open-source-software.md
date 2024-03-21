@@ -109,5 +109,3 @@ We realise it could be challenging, but if feasible, maintain a list of approved
     *******Don’t do it!!!*******
 
 ----
-
-\newpage

@@ -57,5 +57,3 @@ Inspect each control within MASVS and regard it as a potential security requirem
 [masproject]: https://owasp.org/www-project-mobile-app-security/
 [mastg]: https://mas.owasp.org/MASTG/
 [masvs]: https://mas.owasp.org/MASVS/
-
-\newpage

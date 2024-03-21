@@ -64,5 +64,3 @@ to practice penetration testing.
 [codedojo-install]: https://github.com/OWASP/SecureCodingDojo/wiki/Deploying-with-Docker
 [codedojo-project]: https://owasp.org/www-project-secure-coding-dojo/
 [spotlight14]: https://youtu.be/7nVkDkL9cyE
-
-\newpage

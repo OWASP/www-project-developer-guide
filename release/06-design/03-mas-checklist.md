@@ -60,5 +60,3 @@ This record of test results can be used as evidence for compliance purposes.
 [masc]: https://mas.owasp.org/checklists/
 [mastg]: https://mas.owasp.org/MASTG/
 [masvs]: https://mas.owasp.org/MASVS/
-
-\newpage
