@@ -78,6 +78,7 @@ jobs:
       - name: Remove multiple blank lines
         run: |
           find release -name "*.md" -exec sed -i ":a; /^\n*$/{ s/\n//; N;  ba};" {} +
+          find release -name "*.md" -exec sed -i "${/^$/d;}" {} +
 
       - name: Create pull request
         uses: peter-evans/create-pull-request@v6.0.2
