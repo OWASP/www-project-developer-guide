@@ -104,4 +104,3 @@ Examples:
 [samm]: https://owaspsamm.org/about/
 [tra]: https://cyber.gc.ca/en/guidance/harmonized-tra-methodology-tra-1
 
-\newpage

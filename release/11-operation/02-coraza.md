@@ -64,4 +64,3 @@ and the one chosen will depend on an individual organization's deployment:
 [modcrs]: https://owasp.org/www-project-modsecurity-core-rule-set/
 [modsecurity]: https://owasp.org/www-project-modsecurity/
 
-\newpage

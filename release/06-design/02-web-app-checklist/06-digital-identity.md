@@ -106,4 +106,3 @@ and use the checklists below as suggestions for the checklist that has been tail
 [cssession]: https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html
 [proactive10]: https://owasp.org/www-project-proactive-controls/
 
-\newpage

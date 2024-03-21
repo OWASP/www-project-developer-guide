@@ -105,4 +105,3 @@ and the sections in the Developer Guide reference at least one of the Business F
 
 [samm]: https://owaspsamm.org/about/
 
-\newpage

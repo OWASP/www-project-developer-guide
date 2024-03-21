@@ -103,4 +103,3 @@ it can provide a basis for specifying application security verification requirem
 [spotlight19]: https://youtu.be/3puIavsZfAk
 [srat]: https://owasp.org/www-project-securityrat/
 
-\newpage

@@ -69,4 +69,3 @@ for a step by step guide to this configuration.
 [deptrack-project]: https://owasp.org/www-project-dependency-track/
 [spotlight15]: https://youtu.be/irnZuLq4MDM
 
-\newpage

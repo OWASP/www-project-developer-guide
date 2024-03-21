@@ -43,4 +43,3 @@ Sections:
 [sammisb]: https://owaspsamm.org/model/implementation/secure-build/
 [sammisbsd]: https://owaspsamm.org/model/implementation/secure-build/stream-b/
 
-\newpage

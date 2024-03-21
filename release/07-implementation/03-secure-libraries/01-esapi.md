@@ -68,4 +68,3 @@ There is a reference implementation for each security control.
 [shiro]: https://shiro.apache.org/
 [spring]: https://docs.spring.io/spring-security/reference/features/index.html
 
-\newpage

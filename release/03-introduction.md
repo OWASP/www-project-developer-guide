@@ -64,4 +64,3 @@ the Wayfinder maps out the many OWASP tools, projects and documents with the Dev
 [versions]: https://github.com/OWASP/DevGuide/wiki#old-versions
 [wayfinder]: https://owasp.org/www-project-integration-standards/
 
-\newpage

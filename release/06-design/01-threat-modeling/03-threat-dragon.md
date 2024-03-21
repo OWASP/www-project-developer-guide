@@ -80,4 +80,3 @@ and GRC compliance purposes; from the threat model meta-data window click on the
 [tdtm]: https://owasp.org/www-project-threat-dragon/
 [spotlight22]: https://youtu.be/hUOAoc6QGJo
 
-\newpage

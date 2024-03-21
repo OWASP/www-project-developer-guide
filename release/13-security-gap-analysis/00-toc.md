@@ -40,4 +40,3 @@ Sections:
 [masvs]: https://mas.owasp.org/MASVS/
 [samm]: https://owaspsamm.org/about/
 
-\newpage

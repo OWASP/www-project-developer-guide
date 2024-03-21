@@ -65,4 +65,3 @@ In addition MASVS can be downloaded as a PDF which can, for example, be used for
 [mastg]: https://mas.owasp.org/MASTG/
 [masvs]: https://mas.owasp.org/MASVS/
 
-\newpage

@@ -88,4 +88,3 @@ with the rest of the [documentation][codebox-docs] providing clear information o
 [helm]: https://helm.sh/
 [kube]: https://kubernetes.io/
 
-\newpage

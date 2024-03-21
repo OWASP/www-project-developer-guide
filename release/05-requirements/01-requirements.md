@@ -119,4 +119,3 @@ both of which may have a direct impact on the application.
 [samm]: https://owaspsamm.org/about/
 [sammdsr]: https://owaspsamm.org/model/design/security-requirements/
 
-\newpage

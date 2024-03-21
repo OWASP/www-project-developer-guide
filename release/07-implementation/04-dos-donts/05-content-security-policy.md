@@ -154,4 +154,3 @@ Setting rules for Android application:
 
 ----
 
-\newpage

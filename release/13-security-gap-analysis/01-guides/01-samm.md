@@ -77,4 +77,3 @@ The [SAMM Assessment][samma] tools include spreadsheets and online tools such as
 [sammy]: https://sammy.codific.com/
 [spotlight09]: https://youtu.be/N0zcZnkH5Wg
 
-\newpage

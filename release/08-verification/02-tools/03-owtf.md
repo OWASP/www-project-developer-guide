@@ -50,4 +50,3 @@ and  the [install][owtfinstall] instructions may need adapting to run on MacOS o
 [owtfdownload]: https://github.com/owtf/owtf/releases
 [owtf]: https://owasp.org/www-project-owtf/
 
-\newpage

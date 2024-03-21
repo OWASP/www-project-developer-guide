@@ -62,4 +62,3 @@ Security Shepherd has modes which it can be used for different training goals:
 [sec-shep-windows]: https://github.com/OWASP/SecurityShepherd/wiki/Manual-Shepherd-Set-Up-(Windows)
 [vbox]: https://www.virtualbox.org/wiki/Downloads
 
-\newpage

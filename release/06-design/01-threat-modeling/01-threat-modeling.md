@@ -280,4 +280,3 @@ then that is a perfectly good choice.
 [TMpractical]: https://threatmodeling.dev/
 [TMT]: https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool
 
-\newpage

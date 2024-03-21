@@ -81,4 +81,3 @@ and [various tools][cyclonedx-tools] can be chosen that are able to export the S
 [cyclonedx-vex]: https://cyclonedx.org/capabilities/vex/
 [spotlight21]: https://youtu.be/qEG6cxwl8os
 
-\newpage

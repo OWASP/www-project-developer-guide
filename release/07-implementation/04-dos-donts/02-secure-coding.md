@@ -336,4 +336,3 @@ Also not exploitable: `{""result"": [{""object"": ""inside an array""}]}"`
 [rfc7518]: https://www.rfc-editor.org/rfc/rfc7518
 [trace]: https://www.blackhillsinfosec.com/three-minutes-with-the-http-trace-method/
 
-\newpage

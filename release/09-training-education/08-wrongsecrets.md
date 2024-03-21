@@ -61,4 +61,3 @@ For the CTF, the project also provides [set-up guides][ctf] and a [Helm chart][h
 [wrongsecrets]: https://github.com/OWASP/wrongsecrets
 [wrongsecrets-project]: https://owasp.org/www-project-wrongsecrets/
 
-\newpage

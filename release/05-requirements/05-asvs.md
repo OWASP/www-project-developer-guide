@@ -101,4 +101,3 @@ allowing focus and decisions on whether each one is applicable to the web applic
 [spotlight19]: https://youtu.be/3puIavsZfAk
 [srat]: https://owasp.org/www-project-securityrat/
 
-\newpage

@@ -55,4 +55,3 @@ Each challenge has various solutions provided by the community; these can be use
 [mastg]: https://mas.owasp.org/MASTG/
 [masvs]: https://mas.owasp.org/MASVS/
 
-\newpage

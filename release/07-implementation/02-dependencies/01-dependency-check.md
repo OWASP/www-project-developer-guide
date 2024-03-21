@@ -79,4 +79,3 @@ for a pipeline to generate the SCA reports depending on what automation environm
 [nist-db]: https://nvd.nist.gov/
 [spotlight02]: https://youtu.be/YAXf3TaAYeA
 
-\newpage

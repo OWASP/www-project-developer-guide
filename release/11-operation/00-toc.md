@@ -42,4 +42,3 @@ Sections:
 [sammoim]: https://owaspsamm.org/model/operations/incident-management
 [sammoom]: https://owaspsamm.org/model/operations/operational-management/
 
-\newpage

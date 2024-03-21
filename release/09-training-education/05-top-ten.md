@@ -87,4 +87,3 @@ Listed below are the versions up to the latest in 2021, which was released to ma
 [top10]: https://owasp.org/www-project-top-ten/
 [top10data]: https://owasp.org/www-project-top-ten/#div-data_2020
 
-\newpage

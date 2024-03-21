@@ -87,4 +87,3 @@ and the tests should be tailored to provide at least the minimum test coverage w
 [wstg-howto]: https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/
 [wstg-latest]: https://owasp.org/www-project-web-security-testing-guide/stable/
 
-\newpage

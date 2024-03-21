@@ -104,4 +104,3 @@ requirements and incorporate them into the process and culture of the organizati
 [spotlight19]: https://youtu.be/3puIavsZfAk
 [srat]: https://owasp.org/www-project-securityrat/
 
-\newpage

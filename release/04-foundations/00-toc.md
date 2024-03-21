@@ -30,4 +30,3 @@ Sections:
 
 ----
 
-\newpage

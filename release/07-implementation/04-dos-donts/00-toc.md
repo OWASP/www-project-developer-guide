@@ -32,4 +32,3 @@ Sections:
 
 ----
 
-\newpage

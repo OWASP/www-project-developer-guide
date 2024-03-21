@@ -65,4 +65,3 @@ in a range of languages and frameworks.
 [oshp-tools]: https://owasp.org/www-project-secure-headers/#analysis-tools
 [spotlight24]: https://youtu.be/N4F3VWQYU9E
 
-\newpage

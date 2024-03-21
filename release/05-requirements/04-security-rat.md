@@ -112,4 +112,3 @@ and so this may be a future development for SecurityRAT.
 [sratdocker]: https://hub.docker.com/r/securityrat/securityrat
 [sratdocs]: https://securityrat.github.io/
 
-\newpage

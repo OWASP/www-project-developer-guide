@@ -90,4 +90,3 @@ increase the effectiveness of the application security team and improve the secu
 [scplaybook]: https://github.com/c0rdis/security-champions-playbook
 [scculture]: https://owasp.org/www-project-security-culture/stable/4-Security_Champions/
 
-\newpage

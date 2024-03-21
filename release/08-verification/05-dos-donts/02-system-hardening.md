@@ -58,4 +58,3 @@ Some of these are language specific and others have more general applicability.
 
 ----
 
-\newpage

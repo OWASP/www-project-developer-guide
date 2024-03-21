@@ -77,4 +77,3 @@ The OWASP Spotlight series provides an overview of the SKF: 'Project 7 - [Securi
 [skfreqs]: https://starfish-app-kd3eo.ondigitalocean.app/
 [spotlight07]: https://youtu.be/TFX_ZBy6lNY
 
-\newpage

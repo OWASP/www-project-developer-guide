@@ -50,4 +50,3 @@ Sections:
 [sammd]: https://owaspsamm.org/model/design/
 [sammdsr]: https://owaspsamm.org/model/design/security-requirements/
 
-\newpage

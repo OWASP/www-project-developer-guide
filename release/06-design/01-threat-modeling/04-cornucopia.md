@@ -87,4 +87,3 @@ as well as having a good time.
 [scp-v21]: https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/assets/docs/OWASP_SCP_Quick_Reference_Guide_v21.pdf
 [spotlight16]: https://youtu.be/NesxjEGX58s
 
-\newpage

@@ -67,4 +67,3 @@ Here is a collection of Do's and Don'ts when it comes to cryptographic practices
 
 ----
 
-\newpage

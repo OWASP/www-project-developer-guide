@@ -101,4 +101,3 @@ The ASVS guidance will help developers build security controls that will satisfy
 [spotlight19]: https://youtu.be/3puIavsZfAk
 [srat]: https://owasp.org/www-project-securityrat/
 
-\newpage

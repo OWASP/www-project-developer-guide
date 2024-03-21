@@ -78,4 +78,3 @@ which feeds back into the culture of the organization.
 [samm-project]: https://owasp.org/www-project-samm/
 [spotlight09]: https://youtu.be/N0zcZnkH5Wg
 
-\newpage

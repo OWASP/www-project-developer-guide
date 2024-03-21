@@ -36,4 +36,3 @@ Sections:
 [sammvrt]: https://owaspsamm.org/model/verification/requirements-driven-testing/
 [sammvst]: https://owaspsamm.org/model/verification/security-testing/
 
-\newpage

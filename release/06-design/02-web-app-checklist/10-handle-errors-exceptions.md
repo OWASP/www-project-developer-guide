@@ -51,4 +51,3 @@ and use the checklist below as suggestions for the checklist that has been tailo
 [proactive10]: https://owasp.org/www-project-proactive-controls/
 [review]: https://owasp.org/www-project-code-review-guide/
 
-\newpage

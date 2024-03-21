@@ -58,4 +58,3 @@ Inspect each control within MASVS and regard it as a potential security requirem
 [mastg]: https://mas.owasp.org/MASTG/
 [masvs]: https://mas.owasp.org/MASVS/
 
-\newpage

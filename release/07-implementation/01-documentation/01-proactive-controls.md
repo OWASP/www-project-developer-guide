@@ -64,4 +64,3 @@ described in the sections of the Proactive Controls that are relevant to the app
 [proactive10-pdf]: https://github.com/OWASP/www-project-proactive-controls/tree/master/v3
 [spotlight08]: https://youtu.be/HRtYDCWOSc0
 
-\newpage

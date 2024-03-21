@@ -110,4 +110,3 @@ We realise it could be challenging, but if feasible, maintain a list of approved
 
 ----
 
-\newpage

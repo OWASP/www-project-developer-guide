@@ -44,4 +44,3 @@ Sections:
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [proactive10]: https://owasp.org/www-project-proactive-controls/
 
-\newpage

@@ -47,4 +47,3 @@ Security Champions Playbook lists six steps which include general recommendation
 
 [sec-champs]: https://github.com/c0rdis/security-champions-playbook
 
-\newpage

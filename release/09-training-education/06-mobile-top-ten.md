@@ -99,4 +99,3 @@ and [released in February 2017][ssdg-2017] to inform the latest set of mobile ap
 [ssdg-2011]: https://www.enisa.europa.eu/publications/smartphone-secure-development-guidelines/at_download/fullReport
 [ssdg-2017]: https://www.enisa.europa.eu/publications/smartphone-secure-development-guidelines-2016
 
-\newpage

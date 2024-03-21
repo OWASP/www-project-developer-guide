@@ -78,4 +78,3 @@ these are almost about side by side and aid cross referencing to the latest OWAS
 [pygoathub]: https://hub.docker.com/r/pygoat/pygoat
 [pygoatrepo]: https://github.com/adeyosemanputra/pygoat/blob/master/README.md#from-sources
 
-\newpage

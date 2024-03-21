@@ -107,4 +107,3 @@ There are various ways of configuring WebGoat, see the [github repo][goatgithub]
 [webgoat]: https://owasp.org/www-project-webgoat/
 [zap]: https://www.zaproxy.org/
 
-\newpage

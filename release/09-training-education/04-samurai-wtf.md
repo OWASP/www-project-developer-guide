@@ -68,4 +68,3 @@ From a command prompt run 'katana' to start configuring SamuraiWTF for your trai
 [samuraiwtf-project]: https://owasp.org/www-project-samuraiwtf/
 [spotlight26]: https://youtu.be/PBWUlx_kJmI
 
-\newpage

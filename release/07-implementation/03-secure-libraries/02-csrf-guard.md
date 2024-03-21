@@ -48,4 +48,3 @@ Follow the [instructions][csrfguard-build] to build CSRFGuard into the Java appl
 [csrfguard-nexus]: https://oss.sonatype.org/#nexus-search;gav~~csrfguard~~~
 [csrfguard-maven]: https://central.sonatype.com/search?q=csrfguard&smo=true
 
-\newpage

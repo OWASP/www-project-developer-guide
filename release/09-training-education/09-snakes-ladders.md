@@ -74,4 +74,3 @@ but this last option no longer seems to be available.
 [snakeshowto]: https://owasp.org/www-project-snakes-and-ladders/#div-play
 [top10]: https://owasp.org/www-project-top-ten/
 
-\newpage

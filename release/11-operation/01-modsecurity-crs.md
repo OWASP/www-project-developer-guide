@@ -53,4 +53,3 @@ The OWASP Spotlight series provides an overview of how to use this Core Rule Set
 [modsecdocs]: https://www.modsecurity.org/
 [spotlight03]: https://youtu.be/88ZMKpiZbRI
 
-\newpage

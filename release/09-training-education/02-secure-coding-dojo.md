@@ -65,4 +65,3 @@ to practice penetration testing.
 [codedojo-project]: https://owasp.org/www-project-secure-coding-dojo/
 [spotlight14]: https://youtu.be/7nVkDkL9cyE
 
-\newpage

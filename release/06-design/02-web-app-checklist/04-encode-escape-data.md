@@ -56,4 +56,3 @@ The specific methods vary depending on the way the output data is used, such as 
 [ipcs]: https://cheatsheetseries.owasp.org/cheatsheets/Injection_Prevention_Cheat_Sheet.html
 [proactive10]: https://owasp.org/www-project-proactive-controls/
 
-\newpage

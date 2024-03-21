@@ -75,4 +75,3 @@ and use the checklists below as suggestions for the checklist that has been tail
 [mas]: https://mas.owasp.org/
 [proactive10]: https://owasp.org/www-project-proactive-controls/
 
-\newpage

@@ -48,4 +48,3 @@ and use the checklist below as suggestions for the checklist that has been tailo
 [dependency]: https://owasp.org/www-project-dependency-check/
 [proactive10]: https://owasp.org/www-project-proactive-controls/
 
-\newpage

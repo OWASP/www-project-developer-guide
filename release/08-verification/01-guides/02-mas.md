@@ -69,4 +69,3 @@ and testing of mobile applications; pick and choose the resources that are appli
 [masvs]: https://mas.owasp.org/MASVS/
 [spotlight13]: https://youtu.be/b07OQd5KSrs
 
-\newpage
