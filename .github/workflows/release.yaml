@@ -25,15 +25,15 @@ jobs:
       - name: Fix up markdown
         run: |
           pwd
-          find release -name "*.md" -exec sed -i '' "s|permalink: /draft/|permalink: /release/|" {} +
-          find release -name "*.md" -exec sed -i '' "/The OWASP Developer Guide is a community effort/d" {} +
-          find release -name "*.md" -exec sed -i '' "/edit on GitHub/d" {} +
-          find release -name "*.md" -exec sed -i '' "/www-project-developer-guide\/issues\/new?labels/d" {} +
-          find release -name "*.md" -exec sed -i '' "/www-project-developer-guide\/blob\/main/d" {} +
+          find release -name "*.md" -exec sed -i "s|permalink: /draft/|permalink: /release/|" {} +
+          find release -name "*.md" -exec sed -i "/The OWASP Developer Guide is a community effort/d" {} +
+          find release -name "*.md" -exec sed -i "/edit on GitHub/d" {} +
+          find release -name "*.md" -exec sed -i "/www-project-developer-guide\/issues\/new?labels/d" {} +
+          find release -name "*.md" -exec sed -i "/www-project-developer-guide\/blob\/main/d" {} +
           find release -name "*.md" -exec \
-          sed -i '' "s/.*the latest contributions to the Developer Guide.*/\#\#\# Release version $GITHUB_REF_NAME/" {} +
-          find release -name "*.md" -exec sed -i '' "s/ (Draft)//gI" {} +
-          find release -name "*.md" -exec sed -i '' "/order: / s/$/0/" {} +
+          sed -i "s/.*the latest contributions to the Developer Guide.*/\#\#\# Release version $GITHUB_REF_NAME/" {} +
+          find release -name "*.md" -exec sed -i "s/ (Draft)//gI" {} +
+          find release -name "*.md" -exec sed -i "/order: / s/$/0/" {} +
 
       - name: Combine markdown
         run: |
@@ -73,20 +73,24 @@ jobs:
 
       - name: Remove newpage tags
         run: |
-          find release -name "*.md" -exec sed -i '' "/newpage/d" {} +
+          find release -name "*.md" -exec sed -i '/newpage/d' {} +
 
       - name: Remove multiple blank lines
         run: |
-          find release -name "*.md" -exec sed -i '' ':a; /^\n*$/{ s/\n//; N;  ba};' {} +
+          find release -name "*.md" -exec sed -i ':a; /^\n*$/{ s/\n//; N;  ba};' {} +
+          find release -name "*.md" -exec sed -i '${/^$/d;}' {} +
 
       - name: Create pull request
         uses: peter-evans/create-pull-request@v6.0.2
         with:
-          title: 'Release for version $GITHUB_REF_NAME'
+          title: "Release for version $GITHUB_REF_NAME"
           body: |
-            ### Automatically generated for version $GITHUB_REF_NAME
-            ---
-            Please verify and then **Merge** the pull request to update the release
+            **Summary** :  
+            Pull request automatically generated for the latest release version  
+            **Description for the changelog** :  
+            Developer Guide release  
+            **Other info** :  
+            Please verify and then merge the pull request to update the release  
           commit-message: 'update release'
           branch: update-release
           base: main
