@@ -42,7 +42,7 @@ This draft version has the latest contributions to the Developer Guide so expect
 4.1.2 [Pythonic Threat Modeling](06-design/01-threat-modeling/02-pytm.md)  
 4.1.3 [Threat Dragon](06-design/01-threat-modeling/03-threat-dragon.md)  
 4.1.4 [Threat Modeling and Cornucopia](06-design/01-threat-modeling/04-cornucopia.md)  
-4.1.5 [Threat Modeling toolkit](06-design/01-threat-modeling/05-toolkit.md)  
+4.1.6 [Threat Modeling toolkit](06-design/01-threat-modeling/06-toolkit.md)  
 4.2 [Web application checklist](06-design/02-web-app-checklist/toc.md)  
 4.2.1 [Checklist: Define Security Requirements](06-design/02-web-app-checklist/01-define-security-requirements.md)  
 4.2.2 [Checklist: Leverage Security Frameworks and Libraries](06-design/02-web-app-checklist/02-frameworks-libraries.md)  

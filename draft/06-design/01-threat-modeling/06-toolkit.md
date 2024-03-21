@@ -5,14 +5,14 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 615
+order: 616
 permalink: /draft/design/threat_modeling/toolkit/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 4.1.5 Threat Modeling toolkit
+### 4.1.6 Threat Modeling toolkit
 
 There is no one technique or tool that fits every threat modeling process.
 The process can be tactical or architectural, subjective or automated, attack tree or data flow diagram,
@@ -59,12 +59,12 @@ providing practical suggestions along with explanations of both the terminology 
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue060105] or [edit on GitHub][edit060105].
+then [submit an issue][issue060106] or [edit on GitHub][edit060106].
 
 [4QFW]: https://github.com/adamshostack/4QuestionFrame
 [asacs]: https://cheatsheetseries.owasp.org/cheatsheets/Attack_Surface_Analysis_Cheat_Sheet.html
-[issue060105]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2006-design/01-threat-modeling/05-toolkit
-[edit060105]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/01-threat-modeling/05-toolkit.md
+[issue060106]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2006-design/01-threat-modeling/06-toolkit
+[edit060106]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/01-threat-modeling/06-toolkit.md
 [toolkit]: https://www.youtube.com/watch?v=KGy_KCRUGd4
 [tmcs]: https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html
 [tmpb]: https://owasp.org/www-project-threat-modeling-playbook/

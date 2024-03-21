@@ -33,7 +33,7 @@ Sections:
 4.1.2 [Pythonic Threat Modeling](02-pytm.md)  
 4.1.3 [Threat Dragon](03-threat-dragon.md)  
 4.1.4 [Threat Modeling and Cornucopia](04-cornucopia.md)  
-4.1.5 [Threat Modeling toolkit](05-toolkit.md)  
+4.1.6 [Threat Modeling toolkit](06-toolkit.md)  
 
 ----
 

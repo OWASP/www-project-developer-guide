@@ -5,14 +5,14 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 6150
+order: 6160
 permalink: /release/design/threat_modeling/toolkit/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 4.1.5 Threat Modeling toolkit
+### 4.1.6 Threat Modeling toolkit
 
 There is no one technique or tool that fits every threat modeling process.
 The process can be tactical or architectural, subjective or automated, attack tree or data flow diagram,

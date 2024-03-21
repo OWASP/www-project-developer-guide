@@ -20,7 +20,7 @@ jobs:
         run: |
           cd draft
           pwd
-          find . -name "*.md" ! -name "info.md" ! -name "01-front.md" -exec cp '{}' '../release/{}' \;
+          find . -name "*.md" ! -name "info.md" -exec cp '{}' '../release/{}' \;
 
       - name: Fix up markdown
         run: |
@@ -31,7 +31,7 @@ jobs:
           find release -name "*.md" -exec sed -i "/www-project-developer-guide\/issues\/new?labels/d" {} +
           find release -name "*.md" -exec sed -i "/www-project-developer-guide\/blob\/main/d" {} +
           find release -name "*.md" -exec \
-          sed -i "s/.*the latest contributions to the Developer Guide.*/\#\#\# Release version $GITHUB_REF_NAME/" {} +
+          sed -i "s/.*the latest contributions to the Developer Guide.*/\#\#\# Release version ${{ GITHUB_REF_NAME }}/" {} +
           find release -name "*.md" -exec sed -i "s/ (Draft)//gI" {} +
           find release -name "*.md" -exec sed -i "/order: / s/$/0/" {} +
 
