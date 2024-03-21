@@ -16,7 +16,7 @@ permalink: /release/
 
 ## OWASP Developer Guide
 
-### Release version release-workflow
+### Release version 4.0
 
 1 **[Introduction](03-introduction.md)**
 
