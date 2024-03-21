@@ -52,5 +52,3 @@ along with the documentation on configuring ModSecurity with the [Core Rule Set]
 [modsecurity]: https://owasp.org/www-project-modsecurity/
 [modsecpress]: https://owasp.org/blog/2024/01/09/ModSecurity.html
 [trustwave]: https://www.trustwave.com/
-
-\newpage

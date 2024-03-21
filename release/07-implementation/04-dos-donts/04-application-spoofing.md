@@ -77,5 +77,3 @@ How can it be addressed:
 ----
 
 [urdp]: https://www.icann.org/resources/pages/help/dndr/udrp-en
-
-\newpage

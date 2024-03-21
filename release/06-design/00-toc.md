@@ -73,5 +73,3 @@ Sections:
 [sammdsa]: https://owaspsamm.org/model/design/security-architecture/
 [sammdta]: https://owaspsamm.org/model/design/threat-assessment
 [spdcs]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet.html
-
-\newpage

@@ -111,5 +111,3 @@ and so this may be a future development for SecurityRAT.
 [sratdeploy]: https://securityrat.github.io/depl_production.html
 [sratdocker]: https://hub.docker.com/r/securityrat/securityrat
 [sratdocs]: https://securityrat.github.io/
-
-\newpage

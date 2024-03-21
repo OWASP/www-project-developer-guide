@@ -77,5 +77,3 @@ which feeds back into the culture of the organization.
 [sammv]: https://owaspsamm.org/model/verification
 [samm-project]: https://owasp.org/www-project-samm/
 [spotlight09]: https://youtu.be/N0zcZnkH5Wg
-
-\newpage

@@ -54,5 +54,3 @@ Each challenge has various solutions provided by the community; these can be use
 [masios]: https://mas.owasp.org/crackmes/iOS/
 [mastg]: https://mas.owasp.org/MASTG/
 [masvs]: https://mas.owasp.org/MASVS/
-
-\newpage

@@ -106,5 +106,3 @@ There are various ways of configuring WebGoat, see the [github repo][goatgithub]
 [dockerinstall]: https://docs.docker.com/engine/install/
 [webgoat]: https://owasp.org/www-project-webgoat/
 [zap]: https://www.zaproxy.org/
-
-\newpage

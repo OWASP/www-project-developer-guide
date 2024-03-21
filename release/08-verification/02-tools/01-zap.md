@@ -58,5 +58,3 @@ or automatically within a CI/CD environment - and definitely check out the [Head
 [zapdownload]: https://www.zaproxy.org/download/
 [zaphud]: https://www.zaproxy.org/getting-started/#the-heads-up-display
 [zapstart]: https://www.zaproxy.org/getting-started/
-
-\newpage

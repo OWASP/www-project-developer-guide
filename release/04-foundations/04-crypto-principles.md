@@ -256,5 +256,3 @@ These protocols prevent adversaries from learning the key or forcing their own k
 [sscs]: https://cheatsheetseries.owasp.org/cheatsheets/SAML_Security_Cheat_Sheet.html
 [spdcs]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet.html
 [uppcs]: https://cheatsheetseries.owasp.org/cheatsheets/User_Privacy_Protection_Cheat_Sheet.html
-
-\newpage

@@ -279,5 +279,3 @@ then that is a perfectly good choice.
 [TMdesigning]: https://shostack.org/books/threat-modeling-book
 [TMpractical]: https://threatmodeling.dev/
 [TMT]: https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool
-
-\newpage

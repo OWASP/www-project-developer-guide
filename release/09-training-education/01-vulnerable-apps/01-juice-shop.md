@@ -84,5 +84,3 @@ In the appendix there is a complete step-by-step solution to every challenge for
 [juicetutorial]: https://owasp.org/www-project-juice-shop/#div-learning
 [webhook]: https://pwning.owasp-juice.shop/companion-guide/latest/part4/integration.html#_challenge_solution_webhook
 [spotlight25]: https://youtu.be/--50rE76EeA
-
-\newpage

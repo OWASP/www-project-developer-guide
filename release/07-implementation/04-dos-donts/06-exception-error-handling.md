@@ -135,5 +135,3 @@ which can be used later on by the developer to get into the system without havin
 * Use a cryptographic hash function to validate log entry integrity
 
 ----
-
-\newpage

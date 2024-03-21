@@ -74,5 +74,3 @@ and use the checklists below as suggestions for the checklist that has been tail
 [control1]: https://owasp.org/www-project-proactive-controls/v3/en/c1-security-requirements
 [mas]: https://mas.owasp.org/
 [proactive10]: https://owasp.org/www-project-proactive-controls/
-
-\newpage

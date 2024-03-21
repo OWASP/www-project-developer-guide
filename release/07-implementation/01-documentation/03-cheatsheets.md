@@ -64,5 +64,3 @@ The cheat sheets are continually being updated and are always open to contributi
 [cheatsheet-proactive]: https://cheatsheetseries.owasp.org/IndexProactiveControls.html
 [cheatsheet-top10]: https://cheatsheetseries.owasp.org/IndexTopTen.html
 [spotlight04]: https://youtu.be/S1cVYRDeiPQ
-
-\newpage

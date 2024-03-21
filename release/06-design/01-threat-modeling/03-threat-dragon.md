@@ -79,5 +79,3 @@ and GRC compliance purposes; from the threat model meta-data window click on the
 [tddownload]: https://github.com/OWASP/threat-dragon/releases
 [tdtm]: https://owasp.org/www-project-threat-dragon/
 [spotlight22]: https://youtu.be/hUOAoc6QGJo
-
-\newpage

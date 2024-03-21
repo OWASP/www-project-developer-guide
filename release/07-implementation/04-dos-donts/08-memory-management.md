@@ -32,5 +32,3 @@ Here is a collection of Do's and Don'ts when it comes to memory management, gath
 * Properly free allocated memory upon the completion of functions and at all exit points.
 
 ----
-
-\newpage

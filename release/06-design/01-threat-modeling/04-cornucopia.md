@@ -86,5 +86,3 @@ as well as having a good time.
 [cornucopia-play]: https://owasp.org/www-project-cornucopia#div-play
 [scp-v21]: https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/assets/docs/OWASP_SCP_Quick_Reference_Guide_v21.pdf
 [spotlight16]: https://youtu.be/NesxjEGX58s
-
-\newpage

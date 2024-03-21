@@ -47,5 +47,3 @@ Sections:
 [sammg]: https://owaspsamm.org/model/governance/
 [sammgeg]: https://owaspsamm.org/model/governance/education-and-guidance/
 [sammgegta]: https://owaspsamm.org/model/governance/education-and-guidance/stream-a/
-
-\newpage

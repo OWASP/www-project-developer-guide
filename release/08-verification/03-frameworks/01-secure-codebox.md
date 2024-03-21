@@ -87,5 +87,3 @@ with the rest of the [documentation][codebox-docs] providing clear information o
 [codebox-docs]: https://www.securecodebox.io/docs/getting-started/installation
 [helm]: https://helm.sh/
 [kube]: https://kubernetes.io/
-
-\newpage

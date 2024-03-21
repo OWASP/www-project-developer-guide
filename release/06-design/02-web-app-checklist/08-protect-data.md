@@ -60,5 +60,3 @@ and use the checklists below as suggestions for the checklist that has been tail
 [cscs]: https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html
 [cssm]: https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html
 [proactive10]: https://owasp.org/www-project-proactive-controls/
-
-\newpage

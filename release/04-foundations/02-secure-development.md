@@ -204,5 +204,3 @@ There are many OWASP tools and resources to help build security into the SDLC.
 [webgoat]: https://owasp.org/www-project-webgoat/
 [wstg]: https://owasp.org/www-project-web-security-testing-guide/
 [zap]: https://www.zaproxy.org/
-
-\newpage

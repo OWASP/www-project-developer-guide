@@ -32,5 +32,3 @@ Sections:
 [sammd]: https://owaspsamm.org/model/design/
 [sammdsa]: https://owaspsamm.org/model/design/security-architecture/
 [sammdsatm]: https://owaspsamm.org/model/design/security-architecture/stream-b/
-
-\newpage

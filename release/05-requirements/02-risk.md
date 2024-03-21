@@ -103,5 +103,3 @@ Examples:
 [rrs]: https://infosec.mozilla.org/guidelines/assessing_security_risk
 [samm]: https://owaspsamm.org/about/
 [tra]: https://cyber.gc.ca/en/guidance/harmonized-tra-methodology-tra-1
-
-\newpage

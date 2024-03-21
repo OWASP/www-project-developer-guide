@@ -59,5 +59,3 @@ The extensive [Amass tutorial][amass-tutorial] provides the best way of learning
 [amass-install]: https://github.com/owasp-amass/amass/blob/master/doc/install.md
 [amass-tutorial]: https://github.com/owasp-amass/amass/blob/master/doc/tutorial.md
 [kali]: https://www.kali.org/
-
-\newpage

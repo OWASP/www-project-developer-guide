@@ -39,5 +39,3 @@ Sections:
 [iso27001]: https://www.iso.org/standard/82875.html
 [masvs]: https://mas.owasp.org/MASVS/
 [samm]: https://owaspsamm.org/about/
-
-\newpage

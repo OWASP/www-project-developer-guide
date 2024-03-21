@@ -29,5 +29,3 @@ Sections:
 2.6 [Security champions](#security-champions)  
 
 ----
-
-\newpage

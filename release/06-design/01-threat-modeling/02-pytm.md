@@ -101,5 +101,3 @@ mkdir -p tm
 [pytmreleases]: https://github.com/izar/pytm/releases
 [spotlight06]: https://youtu.be/oTqkPaEbTnE
 [TMchap4]: https://www.oreilly.com/library/view/threat-modeling/9781492056546/ch04.html
-
-\newpage

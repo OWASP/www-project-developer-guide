@@ -56,5 +56,3 @@ and use the checklists below as suggestions for the checklist that has been tail
 [cslogging]: https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html
 [csvocabulary]: https://cheatsheetseries.owasp.org/cheatsheets/Logging_Vocabulary_Cheat_Sheet.html
 [proactive10]: https://owasp.org/www-project-proactive-controls/
-
-\newpage

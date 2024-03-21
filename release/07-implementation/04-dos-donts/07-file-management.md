@@ -58,5 +58,3 @@ Here is a collection of Do's and Don'ts when it comes to file management, gather
 * Scan user uploaded files for viruses and malware
 
 ----
-
-\newpage
