@@ -12,7 +12,7 @@ permalink: /draft/design/threat_modeling/cornucopia/
 
 {% include breadcrumb.html %}
 
-### 4.1.4 Threat Modeling and Cornucopia
+### 4.1.4 Cornucopia
 
 OWASP Cornucopia is a card game used to help derive application security requirements
 during the software development life cycle.
