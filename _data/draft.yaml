@@ -61,10 +61,13 @@ docs:
 - title: '4.1.3 Threat Dragon'
   url: design/threat_modeling/threat_dragon
 
-- title: '4.1.4 Threat Modeling and Cornucopia'
+- title: '4.1.4 Cornucopia'
   url: design/threat_modeling/cornucopia
 
-- title: '4.1.5 Threat Modeling toolkit'
+- title: '4.1.5 LINDDUN GO'
+  url: design/threat_modeling/linddun-go
+
+- title: '4.1.6 Threat Modeling toolkit'
   url: design/threat_modeling/toolkit
 
 - title: '4.2 Web application checklist'
