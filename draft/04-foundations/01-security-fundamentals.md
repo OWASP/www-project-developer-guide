@@ -35,9 +35,9 @@ Often CIA is extended with AAA: Authorization, Authentication and Auditing.
 #### Confidentiality
 
 Confidentiality is the protection of data against unauthorized disclosure;
-it is about ensuring that only those with the correct authorization can access the data.
-Confidentiality applies to data at rest, and should also be considered for data in motion.
-Confidentiality is related to the broader concept of data privacy.
+it is about ensuring that only those with the correct authorization can access the data
+and applies to both data at rest and to data in transit.
+Confidentiality is also related to the broader concept of data privacy.
 
 #### Integrity
 
@@ -54,19 +54,21 @@ but also on the protection of the services that provide access to the data, for 
 #### AAA
 
 CIA is often extended with Authentication, Authorization and Auditing as these are closely linked to CIA concepts.
-CIA has such a strong dependency on Authentication and Authorization
-that the confidentiality of the data in question can't be assured without them.
+CIA has a strong dependency on Authentication and Authorization;
+the confidentiality and integrity of sensitive data can not be assured without them.
 Auditing is added as it can provide the mechanism to ensure proof of any interaction with the system.
 
 #### Authentication
 
 Authentication is about confirming the identity of the entity that wants to interact with a secure system.
+For example the entity could be an automated client or a human actor;
+in either case authentication is required for a secure application.
 
 #### Authorization
 
 Authorization is about specifying access rights to secure resources (data, services, files, applications, etc).
-These rights describe the privileges or access levels related to the resources in question.
-It is normally preceded by *Authentication*.
+These rights describe the privileges or access levels related to the resources that are being secured.
+Authorization is usually preceded by successful authentication.
 
 #### Auditing
 
@@ -74,7 +76,7 @@ Auditing is about keeping track of implementation-level events, as well as domai
 This helps to provide non-repudiation, which means that changes or actions on the protected system are undeniable.
 Auditing can provide not only technical information about the running system,
 but also proof that particular actions have been performed.
-The typical questions that are answered by auditing are "*Who* did *What* *When* and potentially *How*?"
+The typical questions that are answered by auditing are "Who did What, When and potentially How?"
 
 #### Software Assurance Maturity Model
 

@@ -17,9 +17,8 @@ Note that the original DevGuide repository has been deprecated in favour of this
 
 The source for the latest draft developer guide can be found under the ['draft'][draft] directory.
 The source is in markdown and is used to create the developer guide HTML, PDF and ePub outputs.
-The content is subject to large scale changes with no notice,
-and is usually being actively worked on for the latest release
-of the Developer Guide under the ['release'][release] directory.
+The draft content is subject to large scale changes with no notice.
+The draft version is used for the Developer Guide in the ['release'][release] directory.
 
 ### Contributing
 

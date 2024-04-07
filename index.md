@@ -21,18 +21,26 @@ pitch: The Developer Guide allows businesses, developers, designers
 
 ![Developer Guide](assets/images/dg_logo.png "OWASP Developer Guide"){: height="220px" }
 
+The [OWASP Developer Guide](release) provides an introduction to security concepts
+and a handy reference for application and system developers.
+This guide does not seek to replicate the many excellent sources on specific security topics;
+it will rarely tries to go into details on a subject and instead provides links for greater depth on these security topics.
+Instead the content of the Developer Guide aims to be accessible, introducing  practical security concepts
+and providing enough detail to get developers started on various OWASP tools and documents.
+
+### History
+
 Along with the OWASP Top Ten, the Developer Guide is one of the original resources
 published soon after OWASP was formed in 2001.
 Version 1.0 of the Developer Guide was released in 2002
-and since then there have been various [releases][versions], the latest being version 2.0 in 2005.
+and then there were various [releases][versions] up to version 2.0 in 2005.
 
 After much effort throughout 2023 and early 2024 the Developer Guide has been updated for the modern security landscape.
 The intended audience of the Developer Guide is on application developers (web, desktop, mobile, and cloud)
-and API developers but it needs the wider security community to contribute to the guide.
+and API developers, and has been written using contributions from the wider security community.
 
 The [draft version](draft) is a work in progress and is subject to large scale and frequent changes.
-Periodically the draft version will be tagged and the contents will be promoted to
-the [release area](release) of the Developer Guide.
+Periodically the draft version is tagged and the contents promoted to the [release area](release) of the Developer Guide.
 
 ### Contributing
 
