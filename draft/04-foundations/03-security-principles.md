@@ -52,13 +52,13 @@ when an error condition is detected.
 These error conditions may be a result of an attack, or may be due to design or implementation failures,
 in any case the system / applications should default to a secure state rather than an unsafe state.
 
-For example unless a subject is given explicit access to an object,
+For example unless an entity is given explicit access to an object,
 it should be denied access to that object by default.
 This is often described as 'Fail Safe Defaults' or 'Secure by Default'.
 
-In the context of software security, fail secure is commonly used interchangeably with fail safe,
+In the context of software security, the term 'fail secure' is commonly used interchangeably with fail safe,
 which comes from physical security terminology.
-Failing safe also helps software resiliency, so that the system / application can rapidly recover
+Failing safe also helps software resiliency in that the system / application can rapidly recover
 upon design or implementation flaws.
 
 #### Least Privilege
@@ -68,7 +68,7 @@ that is necessary for that person or process to complete an assigned operation.
 This right must be given only for a minimum amount of time that is necessary to complete the operation.
 
 This helps to limits the damage when a system is compromised by minimising the ability of an attacker
-to escalate privileges both horizontally or vertically.
+to escalate privileges both laterally or vertically.
 In order to apply this [principle of least privilege][elp] proper granularity
 of privileges and permissions should be established.
 
@@ -76,7 +76,7 @@ of privileges and permissions should be established.
 
 Also known as [separation of privilege][sop], separation of duties is a security principle which requires that
 the successful completion of a single task
-is dependent upon two or more conditions that are insufficient for completing the task by itself.
+is dependent upon two or more conditions that are insufficient, individually by themselves, for completing the task.
 
 There are many applications for this principle,
 for example limiting the damage an aggrieved or malicious insider can do, or by limiting privilege escalation.
@@ -113,7 +113,8 @@ the review of the design itself will not result in the compromise of the safegua
 #### Least Common Mechanism
 
 The security principle of least common mechanisms disallows the sharing of mechanisms that are common
-to more than one user or process if the users and processes are at different levels of privilege.
+to more than one user or process if the users or processes are at different levels of privilege.
+This is important when defending against privilege escalation.
 
 #### Psychological acceptability
 
@@ -121,10 +122,10 @@ A security principle that aims at maximizing the usage and adoption of the secur
 by ensuring that the security functionality is easy to use and at the same time transparent to the user.
 Ease of use and transparency are essential requirements for this security principle to be effective.
 
-Security mechanisms should not make the resource significantly more difficult to access
-than if the security mechanism were not present.
-If the security mechanism provides too much friction for the users then they may look for ways
-to defeat the mechanism and “prop the doors open”.
+Security controls should not make the resource significantly more difficult to access
+than if the security control were not present.
+If a security control provides too much friction for the users then they may look for ways
+to defeat the control and “prop the doors open”.
 
 #### Weakest Link
 
@@ -139,7 +140,8 @@ software components, code and functionality.
 
 Existing components are more likely to be tried and tested, and hence more secure,
 and also should have security patches available.
-In addition open source components have the benefit of 'many eyes' and are likely to be even more secure.
+In addition components developed within the open source community have the further benefit of 'many eyes'
+and are therefore likely to be even more secure.
 
 #### Further reading
 
