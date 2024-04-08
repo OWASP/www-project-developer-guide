@@ -15,8 +15,8 @@ permalink: /draft/implementation/secure_libraries/
 ### 5.3 Secure libraries
 
 The use of secure libraries is part of the technology management that helps to fulfil security requirements.
-Standard libraries help with the adoption of common design patterns and security solutions,
-and help standardize technologies and frameworks used throughout the different applications.
+Standard libraries enable the adoption of common design patterns and security solutions,
+and provide standardized technologies and frameworks that can be used throughout different applications.
 
 [Technology Management][sammdsatm] for the software applications is described by SAMM as an activity
 within the SAMM [Security Architecture][sammdsa] security practice

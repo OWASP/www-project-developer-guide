@@ -14,7 +14,7 @@ permalink: /draft/implementation/dos_donts/container_security/
 
 ### 5.4.1 Container security
 
-Here is a collection of Do's and Don'ts when it comes to container security, gathered from practical experiences.
+This is a collection of Do's and Don'ts when it comes to container security, gathered from practical experiences.
 Some of these are language specific and others have more general applicability.
 
 Container image security, host security, client security, daemon security, runtime security:
@@ -27,10 +27,9 @@ Container image security, host security, client security, daemon security, runti
   * Remove special permissions from images
   * `find / -perm /6000 -type f -exec ls -ld {} \;`
   * RUN `find / -xdev -perm /6000 -type f -exec chmod a-s {} \; || true`
-* Reduce overall image size by shipping only what your app needs to run
-* Please see the [Docker documentation][docker] for more information
-* Remove unused images with prune
-* docker image prune [OPTIONS]
+* Reduce overall image size by shipping only what your app needs to run,
+    see the [Docker documentation][docker] for more information
+* Remove unused images with prune: `docker image prune [OPTIONS]`
 * Do not embed any secrets, passwords, keys, credentials, etc in images
 * Use a read-only file system
 * Sign images with cryptographic keys and not with username/password combination
@@ -60,21 +59,21 @@ Container image security, host security, client security, daemon security, runti
 * Namespaces are enabled to ensure that
 * Leave control groups (cgroups) at default setting to ensure that tampering does not take place
     with excessive resource consumption.
-* Do not enable experimental features for Docker.
+* Do not enable experimental features for Docker
 * set docker.service file ownership to root:root.
 * Set docker.service file permissions to either 644 or to a more restrictive value.
 * Set docker.socket file ownership and group ownership to root.
-* Set file permissions on the docker.socket file to 644 or more restrictively.
-* Set /etc/docker directory ownership and group ownership to root.
-* Set /etc/docker directory permissions to 755 or more restrictively.
+* Set file permissions on the docker.socket file to 644 or more restrictively
+* Set /etc/docker directory ownership and group ownership to root
+* Set /etc/docker directory permissions to 755 or more restrictively
 * Set ownership of registry certificate files (usually found under `/etc/docker/certs.d/<registry-name>` directory)
     to individual ownership and is group owned by root.
 * Set registry certificate files (usually found under `/etc/docker/certs.d/<registry-name>` directory)
     permissions to 444 or more restrictively.
 * Acquire and ship daemon logs to SIEM for monitoring
 * Inter-container network connections are restricted and enabled on a requirement basis.
-    By default containers cannot capture packets that have other containers as destination.
-* Where hairpin NAT is enabled, userland proxy is disabled.
+    By default containers cannot capture packets that have other containers as destination
+* Where hairpin NAT is enabled, userland proxy is disabled
 * Docker daemon is run as a non-root user to mitigate lateral privilege escalation
     due to any possible compromise of vulnerabilities.
 * `No_new_priv` is set (but not to false) to ensure that containers cannot gain additional privileges
@@ -87,7 +86,7 @@ Container image security, host security, client security, daemon security, runti
 * Containers should run as a non-root user.
 * Containers should have as small a footprint as possible, and should not contain unnecessary software packages
     which could increase their attack surface
-* Docker default bridge 'docker0' is not used to avoid ARP spoofing and MAC flooding attacks.
+* Docker default bridge 'docker0' is not used to avoid ARP spoofing and MAC flooding attacks
 * Either Dockers AppArmor policy is enabled or the Docker hosts AppArmor is enabled.
 * SELinux policy is enabled on the Docker host.
 * Linux kernel capabilities are restricted within containers
@@ -105,10 +104,10 @@ Container image security, host security, client security, daemon security, runti
 * Docker socket is not mounted inside any containers to prevent processes running within the container
     to execute Docker commands which would effectively allow for full control of the host.
 * incoming container traffic is bound to a specific host interface
-* hosts process namespace is not shared to ensure that processes are separated.
-* hosts IPC namespace is not shared to ensure that inter-process communications does not take place.
+* hosts process namespace is not shared to ensure that processes are separated
+* hosts IPC namespace is not shared to ensure that inter-process communications does not take place
 * host devices are not directly exposed to containers
-* hosts user namespaces are not shared to ensure isolation of containers.
+* hosts user namespaces are not shared to ensure isolation of containers
 * CPU priority is set appropriately on containers
 * memory usage for containers is limited.
 * 'on-failure' container restart policy is set to '5'
@@ -116,21 +115,20 @@ Container image security, host security, client security, daemon security, runti
 * container health is checked at runtime
 * PIDs cgroup limit is used (limit is set as applicable)
 * The Docker host is hardened to ensure that only Docker services are run on the host
-* Secure configurations are applied to ensure that the containers do not gain access to the host via the Docker daemon.
-* Docker is updated with the latest patches such that vulnerabilities are not compromised.
-* The underlying host is managed to ensure that vulnerabilities are identified and mitigated with patches.
+* Secure configurations are applied to ensure that the containers do not gain access to the host via the Docker daemon
+* Docker is updated with the latest patches such that vulnerabilities are not compromised
+* The underlying host is managed to ensure that vulnerabilities are identified and mitigated with patches
 * Docker server certificate file (the file that is passed along with the `--tlscert` parameter)
     is individual owned and group owned by root.
 * Docker server certificate file (the file that is passed along with the `--tlscert` parameter)
     has permissions of 444 or more restrictive permissions.
 * Docker server certificate key file (the file that is passed along with the `--tlskey` parameter)
     is individually owned and group owned by root.
-* Docker server certificate key file (the file that is passed along with the `--tlskey` parameter)
-    has permissions of 400.
+* Docker server certificate key file (the file that is passed along with the `--tlskey` parameter) has permissions of 400
 * Docker socket file is owned by root and group owned by docker.
-* Docker socket file has permissions of 660 or are configured more restrictively.
-* `daemon.json` file individual ownership and group ownership is correctly set to root, if it is in use.
-* daemon.json file is present its file permissions are correctly set to 644 or more restrictively.
+* Docker socket file has permissions of 660 or are configured more restrictively
+* ensure `daemon.json` file individual ownership and group ownership is correctly set to root, if it is in use
+* if `daemon.json` file is present its file permissions are correctly set to 644 or more restrictively
 
 ----
 

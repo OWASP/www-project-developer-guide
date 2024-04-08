@@ -60,12 +60,10 @@ What is domain squatting (also known as cybersquatting):
 * A threat actor creating a malicious domain with the same spelling as a legitimate domain
     but use different UTF characters (domain squatting)
 * A threat actor registering, trafficking in, or using an Internet domain name,
-    with an intent to profit from the goodwill of a trademark belonging to someone else.
-* Though domain squatting impacts brand value directly, it has an impact from a security perspective.
+    with an intent to profit from the goodwill of a trademark belonging to someone else
+* Though domain squatting impacts brand value directly, it has an impact from a security perspective
 * It can result in the following kind of scenario: (also known as typosquatting)
-
-Wherein the domain with U+00ED may be a malicious application trying to harvest credentials.
-
+    Wherein the domain with U+00ED may be a malicious application trying to harvest credentials
 * Typo squatting is achieved with supply chain manipulation.
 
 How can it be addressed:
