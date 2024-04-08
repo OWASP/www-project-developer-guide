@@ -15,7 +15,7 @@ permalink: /draft/requirements/security_rat/
 ### 3.4 SecurityRAT
 
 The [OWASP SecurityRAT][srat] (Requirement Automation Tool) is used to generate and manage security requirements
-that are obtained the [OWASP ASVS][asvs] project.
+using information from the [OWASP ASVS][asvs] project.
 It also provides an automated approach to requirements management
 during development of frontend, server and mobile applications.
 
@@ -28,7 +28,7 @@ it can be used to generate an initial set of requirements from the ASVS
 and then keep track of the status and updates for these requirements.
 It comes with [documentation and instructions][sratdocs] on how to install and run SecurityRAT.
 
-To generate the initial list of requirements SecurityRAT needs to be provided with three attributes defined by the ASVS:
+To generate the initial list of requirements, SecurityRAT needs to be provided with three attributes defined by the ASVS:
 
 * Application Security Verification Standard chapter ID - for example 'V2 - Authentication'
 * Application Security Verification Level - the compliance level, for example 'L2'
