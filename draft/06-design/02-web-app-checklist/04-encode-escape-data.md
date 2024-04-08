@@ -23,7 +23,7 @@ so encoding and escaping output data helps to provide defense in depth for the s
 
 Refer to proactive control [C4: Encode and Escape Data][control4]
 for more context from the OWASP Top 10 Proactive Controls project,
-and use the checklists below as suggestions for the checklist that has been tailored for the individual project.
+and use the list below as suggestions for a checklist that has been tailored for the individual project.
 
 #### Character encoding and canonicalization
 

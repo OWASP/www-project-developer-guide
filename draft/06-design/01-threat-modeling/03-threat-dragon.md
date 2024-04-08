@@ -1,6 +1,6 @@
 ---
 
-title: Threat Modeling with Threat Dragon
+title: Threat Dragon
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
@@ -34,37 +34,34 @@ Threat Dragon aims for:
 
 * Simplicity - you can install and start using Threat Dragon very quickly
 * Flexibility - the diagramming and threat generation allows all types of threat to be described
-* Accessibility - different types of teams can benefit from Threat Dragon’s simplicity and flexibility
+* Accessibility - various different types of teams can all benefit from Threat Dragon ease of use
 
 It supports various methodologies and threat categorizations used during the threat modeling activities:
 
 * STRIDE
 * LINDDUN
+* PLOT4ai
 * CIA
 * DIE
 
-and it can be used by a wide range of developers and teams:
-
-* Simplicity - installation is easy and teams can start using Threat Dragon quickly
-* Flexibility - the diagramming and threat generation allows all types of threat to be described
-* Accessibility - various different types of teams can all benefit from Threat Dragon ease of use
+and it can be used by all sorts of development teams.
 
 #### How to use it
 
 The OWASP Spotlight series provides an overview of Threat Dragon and how to use it:
 'Project 22 - [OWASP Threat Dragon][spotlight22]'.
 
-Threat Dragon is distributed as a cross platform desktop application as well a web application.
 It is straightforward to start using Threat Dragon; the latest version is [available to use online][tddemo]:
 
-1. select Login to Local Session
-2. select Explore a Sample Threat Model
-3. select Version 2 Demo Model
-4. you are presented with the threat model meta-data which can be edited
-5. click on the diagram Main Request Data Flow to display the data flow diagram
+1. select 'Login to Local Session'
+2. select 'Explore a Sample Threat Model'
+3. select 'Version 2 Demo Model'
+4. you are then presented with the threat model meta-data which can be edited
+5. click on the diagram 'Main Request Data Flow' to display the data flow diagram
 6. the diagram components can be inspected, and their associated threats are displayed
 7. components can be added and deleted, along with editing their properties
 
+Threat Dragon is distributed as a cross platform desktop application as well a web application.
 The [desktop application][tddownload] can be downloaded for Windows, Linux and MacOS.
 The web application can be run using a [Docker container][tddocker] or from the [source code][tdcode].
 
