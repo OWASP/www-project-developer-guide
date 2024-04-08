@@ -1,6 +1,6 @@
 ---
 
-title: OWASP Secure Headers Project
+title: Secure Headers Project
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden

@@ -1,6 +1,6 @@
 ---
 
-title: Do's and Don'ts System Hardening
+title: System Hardening
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Shruti Kulkarni

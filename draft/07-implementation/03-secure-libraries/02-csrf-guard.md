@@ -1,6 +1,6 @@
 ---
 
-title: CSRFGuard
+title: CSRFGuard library
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden

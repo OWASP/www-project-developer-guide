@@ -1,6 +1,6 @@
 ---
 
-title: Do's and Don'ts Application Spoofing
+title: Application Spoofing
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Shruti Kulkarni

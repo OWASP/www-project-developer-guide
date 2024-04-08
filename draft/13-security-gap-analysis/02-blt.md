@@ -1,6 +1,6 @@
 ---
 
-title: OWASP Bug Logging Tool (BLT)
+title: Bug Logging Tool
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden

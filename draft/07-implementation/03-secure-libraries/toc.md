@@ -1,6 +1,6 @@
 ---
 
-title: Implementation with Secure Libraries
+title: Implementation Secure Libraries
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden

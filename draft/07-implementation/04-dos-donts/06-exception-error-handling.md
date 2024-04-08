@@ -1,6 +1,6 @@
 ---
 
-title: Do's and Don'ts Exception and Error Handling
+title: Exception and Error Handling
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Shruti Kulkarni

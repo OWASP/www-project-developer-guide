@@ -1,6 +1,6 @@
 ---
 
-title: Do's and Don'ts Container security
+title: Container security
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
