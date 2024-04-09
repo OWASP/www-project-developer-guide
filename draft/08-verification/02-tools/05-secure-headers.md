@@ -17,7 +17,7 @@ permalink: /draft/verification/tools/secure_headers/
 The OWASP Secure Headers Project ([OSHP][oshp]) provides information on HTTP response headers
 to increase the security of a web application.
 
-The OSHP documentation project is an OWASP Lab Project and intends to raise awareness and use of secure headers.
+The OSHP documentation project is an OWASP Lab Project and raises awareness  of secure headers and their use.
 
 #### What is OSHP?
 
@@ -37,14 +37,14 @@ OSHP contains guidance and downloads on:
 
 The OSHP is a documentation project that explains the reasoning and usage of HTTP response headers.
 It is the go-to document for guidance and best practices;
-the information on HTTP response headers is the best advice in the one location and is kept up to date.
+the information on HTTP response headers is the best advice, in one location, and is kept up to date.
 
 #### How to use it
 
 The OWASP Spotlight series provides an overview of this project and its uses:
 'Project 24 - [OWASP Security Headers Project][spotlight24]'.
 
-OSHP lists [various tools][oshp-tools] useful for inspection, analysis and scanning of HTTP response headers:
+OSHP documents [various tools][oshp-tools] useful for inspection, analysis and scanning of HTTP response headers:
 
 * hsecscan
 * humble

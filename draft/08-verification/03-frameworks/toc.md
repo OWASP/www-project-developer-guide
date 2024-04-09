@@ -15,8 +15,7 @@ permalink: /draft/verification/frameworks/
 ### 6.3 Verification frameworks
 
 [Verification][sammv] is one of the business functions described by the [OWASP SAMM][samm]
-and testing is an important part of verification,
-both [Security Testing][sammvst] and [Requirements-driven Testing][sammvrt].
+and both [Security Testing][sammvst] and [Requirements-driven Testing][sammvrt] are an important part of verification.
 
 Verification testing can benefit from using frameworks to support continuous and automated security testing.
 Use of a framework can provide:

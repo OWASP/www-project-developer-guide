@@ -17,13 +17,13 @@ order:
 
 Verification focuses on the processes and activities related to how an organization checks
 and tests artifacts produced throughout software development.
-This typically includes quality assurance work such as testing,
-but it can also include other review and evaluation activities.
+This typically includes quality assurance work such as testing, and also includes other review and evaluation activities.
 
 Verification activities should include:
 
 * Architecture assessment, validation and mitigation
-* Requirements-driven testing including security control verification and misuse/abuse testing
+* Requirements-driven testing
+* Security control verification and misuse/abuse testing
 * Automated security testing and baselining
 * Manual security testing and penetration testing
 
