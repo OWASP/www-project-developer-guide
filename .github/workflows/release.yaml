@@ -11,7 +11,11 @@ on:
 jobs:
   create_release:
     name: Release pull-request
+
     runs-on: ubuntu-22.04
+    env:
+      GH_TAG: ${{ env.GITHUB_REF_NAME }}
+
     steps:
       - name: Checkout markdown
         uses: actions/checkout@v4.1.1
@@ -84,16 +88,16 @@ jobs:
         uses: peter-evans/create-pull-request@v6.0.2
         with:
           title: |
-            Release of Developer Guide version ${{GITHUB_REF_NAME}}
+            Release of Developer Guide version ${{ env.GH_TAG }}
           body: |
             **Summary** :  
             Pull request automatically generated for the latest release version  
             
             **Description for the changelog** :  
-            release of version ${{GITHUB_REF_NAME}}  
+            release of version ${{ env.GH_TAG }}  
             
             **Other info** :  
             Please verify and then merge the pull request to update the release  
-          commit-message: update for release version ${{GITHUB_REF_NAME}}
+          commit-message: update for release version ${{ env.GH_TAG }}
           branch: update-release
           base: main
