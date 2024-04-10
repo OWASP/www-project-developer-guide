@@ -41,7 +41,7 @@ BLT can provide the route for these security bugs to be responsibly disclosed to
 
 #### How to use it
 
-BLT has its own [bug recording site][bltsite] which can be used to disclose bugs in any web site.
+BLT has its own [bug recording site][bltsite] which can be used to disclose any type of bug in any web site.
 Ideally this is not used for security related bugs because these bugs need responsible disclosure.
 The organization should run its own [BLT core site][bltcore] to accept submission of security related bugs,
 and encourage users/reporters to use the [BLT app][bltapp] and chrome [extension][bltchrome].
