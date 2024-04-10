@@ -38,8 +38,8 @@ In addition there is another WebGoat container available that includes a Linux d
 
 WebGoat is one of those tools that has many uses; certainly during training but also when presenting demonstrations,
 testing out security tools and so on.
-When ever you need a deliberately vulnerable web application running in a self contained and safe environment then
-WebGoat should be one of the first to consider.
+Whenever you need a deliberately vulnerable web application running in a self contained and safe environment then
+WebGoat is one of the first to consider.
 
 Reasons to use WebGoat:
 

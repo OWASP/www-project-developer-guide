@@ -71,7 +71,7 @@ but they can be applied at any time during development.
 #### Mobile Top 10 versions
 
 The Mobile Top 10 was [first released in 2014][mobile10-2014], [updated in 2016][mobile10-2016]
-with the latest version [reaching draft in 2023][mobile10-2023].
+with the latest version [released in 2024][mobile10-2023].
 
 The list of mobile application [controls][mobile10controls] were originally published in 2011
 as the '[Smartphone Secure Development Guideline][ssdg-2011]'. This was then revised during 2016

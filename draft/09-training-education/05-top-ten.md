@@ -54,13 +54,14 @@ The OWASP Top 10 has various uses that are foundational to application security:
 * to raise awareness of vulnerabilities in applications in general
 * as a set of demonstration topics
 
-There is no one way to use this documentation project; use it in any way that promotes application security.
+There is not one way to use this documentation project; use it in any way that promotes application security.
 The OWASP Spotlight series provides an overview of the Top Ten: 'Project 10 - [Top10][spotlight10]'.
 
 #### OWASP Top 10 versions
 
 The OWASP Top 10 Web Application Security Risks document was originally published in 2003,
-making it one of (or even the most) longest lived OWASP project, and has been in active and continuous development.
+making it one of (or even the most) longest lived OWASP project,
+and since then has been in active and continuous development.
 Listed below are the versions up to the latest in 2021, which was released to mark 20 years of OWASP.
 
 * Original [2003](https://github.com/OWASP/Top10/blob/master/archives/OWASPWebApplicationSecurityTopTen-Version1.pdf)
