@@ -21,7 +21,7 @@ a Security Champions program within an organization.
 
 Security Champions are active members of a team that act as a core element of the security assurance process
 within a product or service.
-They are often are the single point of contact within the team when it comes to security concerns and incidents.
+They are often are the initial point of contact within the team when it comes to security concerns and incidents.
 
 Some advantages of encouraging Security Champions within a team are :
 
@@ -42,6 +42,8 @@ Security Champions Playbook lists six steps which include general recommendation
 4. [Set up communication channels](https://github.com/c0rdis/security-champions-playbook/blob/master/Security%20Playbook/4.%20Set%20up%20communication%20channels.md)
 5. [Build solid knowledge base](https://github.com/c0rdis/security-champions-playbook/blob/master/Security%20Playbook/5.%20Build%20solid%20knowledge%20base.md)
 6. [Maintain interest](https://github.com/c0rdis/security-champions-playbook/blob/master/Security%20Playbook/6.%20Maintain%20interest.md)
+
+Use these recommendations to build up a Security Champions program that is tailored to the needs of the organization.
 
 ----
 

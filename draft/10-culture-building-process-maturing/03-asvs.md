@@ -23,7 +23,7 @@ the [github markdown][asvsmd] pages directly - this will ensure that the latest 
 
 #### What is ASVS?
 
-The ASVS is an open standard that sets out the coverage and 'level of rigor' expected when it comes to
+The ASVS is an open standard that sets out the coverage and level of rigor expected when it comes to
 performing web application security verification.
 The standard also provides a basis for testing any technical security controls
 that are relied on to protect against vulnerabilities in the application.
