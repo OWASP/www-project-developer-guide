@@ -83,7 +83,8 @@ jobs:
       - name: Create pull request
         uses: peter-evans/create-pull-request@v6.0.2
         with:
-          title: Release of Developer Guide version ${{GITHUB_REF_NAME}}
+          title: |
+            Release of Developer Guide version ${{GITHUB_REF_NAME}}
           body: |
             **Summary** :  
             Pull request automatically generated for the latest release version  
