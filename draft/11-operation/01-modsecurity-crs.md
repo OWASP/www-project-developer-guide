@@ -52,7 +52,7 @@ then [submit an issue][issue1101] or [edit on GitHub][edit1101].
 [edit1101]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/11-operation/01-modsecurity-crs.md
 [issue1101]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2011-operation/01-modsecurity-crs
 [modcrs-project]: https://owasp.org/www-project-modsecurity-core-rule-set/
-[modcrs-download]: https://coreruleset.org/installation/
+[modcrs-download]: https://coreruleset.org/docs/deployment/install/
 [modcrs]: https://coreruleset.org/
 [modsecurity]: https://owasp.org/www-project-modsecurity/
 [modsecdocs]: https://www.modsecurity.org/
