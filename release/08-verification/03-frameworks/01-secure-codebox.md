@@ -17,8 +17,8 @@ permalink: /release/verification/frameworks/secure_codebox/
 OWASP [secureCodeBox][codebox] is a kubernetes based modularized toolchain
 that provides continuous security scans of an organizations' projects and web applications.
 
-The secureCodeBox [builder/tool project][codebox-project]is an OWASP Lab Project;
-secureCodeBox is installed using the [Helm ChartMuseum][codebox-repo].
+The secureCodeBox [builder/tool project][codebox-project] is an OWASP Lab Project
+and is installed using the [Helm ChartMuseum][codebox-repo].
 
 #### What is secureCodeBox?
 

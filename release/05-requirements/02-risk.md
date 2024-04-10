@@ -79,7 +79,7 @@ Examples:
 2. Acceptance: sometimes a risk is low enough in priority, or the outcome bearable, that it is not worth mitigating,
     an example might be where the version of software is revealed but this is acceptable (or even desirable)
 
-3. Mitigation: it is usual to mitigate the impact of a risk, for example
+3. Mitigation: it is common to implement a security control to mitigate the impact of a risk, for example
     input sanitization or output encoding may be used for information supplied by an untrusted source,
     or the use of encrypted communication channels for transferring high risk information
 

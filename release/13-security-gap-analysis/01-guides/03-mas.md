@@ -57,8 +57,6 @@ MASVS can be [accessed online][masvs] and the links followed for the security co
 the mobile application can then be inspected for compliance with each control.
 This provides a starting point for a security gap evaluation for any existing controls.
 
-In addition MASVS can be downloaded as a PDF which can, for example, be used for evidence or compliance purposes.
-
 ----
 
 [masproject]: https://owasp.org/www-project-mobile-app-security/

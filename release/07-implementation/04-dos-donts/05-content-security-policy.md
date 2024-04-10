@@ -1,6 +1,6 @@
 ---
 
-title: Do's and Don'ts Content Security Policy
+title: Content Security Policy
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Shruti Kulkarni

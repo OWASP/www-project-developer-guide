@@ -1,6 +1,6 @@
 ---
 
-title: Threat Modeling and Cornucopia
+title: Cornucopia
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
@@ -22,7 +22,9 @@ during the software development life cycle.
 
 Cornucopia provides a [set of cards][cornucopia-cards] designed to gamify threat modeling activities.
 This is designed so that agile development teams can identify weaknesses in web applications
-and from that record mitigations or requirements.
+and then record remediations or requirements.
+
+Cornucopia comes with the cards in various suits that cover the various security domains:
 
 * Data validation and encoding
 * Authentication
@@ -41,7 +43,7 @@ To provide context each card in the Cornucopia deck references other OWASP proje
 * Secure Coding Practices ([SCP][scp-v21]]) Quick Reference Guide
 * [AppSensor][appsensor]
 
-The SCP has now been incorporated into the now part of the [Developer Guide](../02-web-app-checklist/toc.md)
+The SCP reference guide has now been incorporated into part of the [Developer Guide](../02-web-app-checklist/toc.md) itself.
 
 #### Why use it?
 
@@ -58,7 +60,7 @@ The OWASP Spotlight series provides an excellent overview of Cornucopia and how 
 
 Ideally Cornucopia is played in person using physical cards,
 with the development team and security architects in the same room.
-The application should have been described by an architecture diagram or data flow diagram
+The application should already have been described by an architecture diagram or data flow diagram
 so that the players have something to refer to during the game.
 
 The suggested order of play is:
@@ -68,10 +70,10 @@ The suggested order of play is:
 3. Play: the players take turns to select a card
 4. Describe: the player describes the possible attack using the card played
 5. Convince: the other players have to be convinced that the attack is valid
-6. Score: award points of r a successful attack
+6. Score: award points for a successful attack
 7. Follow suit: the next player has to select a card from the same suit
-8. Winner; the player with the most points
-9. Follow up: each valid threat should be recorded and acted upon.
+8. Winner: the player with the most points
+9. Follow up: each valid threat should be recorded and acted upon
 
 Remember that the outcome of the game is to identify possible threats and propose remediations,
 as well as having a good time.

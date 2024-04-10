@@ -14,8 +14,10 @@ permalink: /release/operation/modsecurity_waf/
 
 ### 9.3 ModSecurity Web Application Firewall
 
-[ModSecurity][modsecurity] is an open source Web Application Firewall (WAF) widely deployed on web servers.
-It is an OWASP Production project and has been in continuous development and widespread use since 2002.
+[ModSecurity][modsecurity] is an open source Web Application Firewall (WAF) widely deployed on web servers
+that has been in continuous development and widespread use since 2002.
+
+In 2024 it became an OWASP Production project, supported by the existing leadership and contributors.
 
 #### What is ModSecurity?
 
@@ -34,7 +36,7 @@ The ModSecurity WAF is widely used for this purpose along with the [Coraza WAF][
 
 #### How to use ModSecurity
 
-ModSecurity is deployed as a Web Application Firewall, which scans the incoming and outgoing HTTP traffic to a web server.
+ModSecurity is a Web Application Firewall, which scans the incoming and outgoing HTTP traffic to a web server.
 The ModSecurity WAF is deployed as a proxy server in front of a web application,
 or deployed within the web server itself, to provide protection against HTTP attacks.
 

@@ -1,6 +1,6 @@
 ---
 
-title: Threat Modeling with pytm
+title: Pythonic Threat Modeling
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
@@ -17,7 +17,7 @@ permalink: /release/design/threat_modeling/pytm/
 The OWASP [Pythonic Threat Modeling (pytm)][pytmproject] project is a framework for threat modeling and its automation.
 The goal of pytm is to shift threat modeling to the left, making threat modeling more automated and developer-centric.
 
-Pytm is an OWASP Lab Project with a community of contributors creating [several releases][pytmreleases].
+Pytm is an OWASP Lab Project with a community of contributors creating [regular releases][pytmreleases].
 
 #### What is pytm?
 
@@ -39,10 +39,11 @@ The OWASP Spotlight series provides an overview of pytm: 'Project 6 - [OWASP pyt
 
 #### Why use pytm?
 
-The pytm development team state that traditional threat modeling often comes too late in the development process,
-and sometimes may not happen at all.
+The pytm development team make the good point that traditional threat modeling often comes too late
+in the development process, and sometimes may not happen at all.
 In addition, creating manual / diagrammatic data flows and reports can be extremely time-consuming.
-These are very good points, and pytm attempts to get threat modeling to 'shift-left' in the development lifecycle.
+These are certainly valid observations,
+and so pytm attempts to get threat modeling to 'shift-left' in the development lifecycle.
 
 Many traditional threat modeling tools such as OWASP Threat Dragon provide
 a graphical way of creating diagrams and entering threats.
@@ -55,7 +56,7 @@ This makes pytm a powerful tool for describing a system or application, and allo
 
 This focus on the model as code and programmatic outputs makes Pytm particularly useful in automated environments,
 helping the threat model to be built in to the design process from the start,
-as well as in the more traditional threat modeling sessions.
+as well as in more traditional threat modeling sessions.
 
 #### How to use pytm
 

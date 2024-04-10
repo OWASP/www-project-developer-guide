@@ -104,7 +104,7 @@ a concerted, repeatable application security configuration process to minimise m
 Perhaps one of the easiest and most effective security activities
 is keeping all the third party software dependencies up to date.
 If a vulnerable dependency is identified by a malicious actor during the reconnaissance phase of an attack
-then there are databases available, such as [Exploit Database][exploit], that will provide a description of the exploit.
+then there are databases available, such as [Exploit Database][exploit], that will provide a description of any exploit.
 These databases can also provide ready made scripts and techniques for attacking a given vulnerability,
 making it easy for vulnerable third party software dependencies to be exploited .
 

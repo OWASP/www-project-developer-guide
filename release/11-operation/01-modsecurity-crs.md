@@ -20,21 +20,21 @@ CRS is an OWASP Flagship tool project and can be [downloaded][modcrs-download] f
 
 #### What is the Core Rule Set?
 
-The [Core Rule Set][modcrs] (CRS) is a set of generic attack detection rules for use with [Coraza[coraza]
-or other [ModSecurity][modsecurity] compatible web application firewalls.
+The [Core Rule Set][modcrs] (CRS) are attack detection rules for use with [ModSecurity][modsecurity],
+[Coraza[coraza] and other ModSecurity compatible web application firewalls.
 The CRS aims to protect web applications from a wide range of attacks with a minimum of false alerts.
 The CRS provides protection against many common attack categories, including those in the OWASP Top Ten.
 
 #### Why use it?
 
-If an organization is already using a Coraza or ModSecurity compatible Web Application Firewall (WAF)
+If an organization is using a Coraza, ModSecurity or compatible Web Application Firewall (WAF)
 then it is very likely that the [Core Rule Set][modcrs] is already in use by this WAF.
 The CRS provides the policy for the Coraza / Modsecurity engine so that traffic to a web application is inspected
 for various attacks and malicious traffic is blocked.
 
 #### How to use it
 
-The use of the Core Rule Set assumes that a Coraza or ModSecurity compatible WAF has been installed.
+The use of the Core Rule Set assumes that a ModSecurity, Coraza or compatible WAF has been installed.
 Refer to the [Coraza tutorial][coraza-tutorial] or the [ModSecurity][modsecdocs] on how to do this.
 
 To get started with CRS refer to the Core Rule Set [installation instructions][modcrs-download].

@@ -43,20 +43,20 @@ Dependency-Check's core analysis engine can be used as:
 
 #### Why use it?
 
-Checking for vulnerable components has been in the OWASP Top Ten '[A06 Vulnerable and Outdated Components][a06]'
+Checking for vulnerable components, '[A06 Vulnerable and Outdated Components][a06]', is in the OWASP Top Ten
 and is one of the most straight-forward and effective security activities to implement.
-The Dependency-Check tool provides this check for vulnerable components in CI/CD pipelines using the plugins.
+The Dependency-Check tool provides this check for vulnerable components for CI/CD pipelines using the plugins.
 
-In addition this is very useful for development teams;
-the ability for vulnerable application components from the command line gives
-immediate feedback to the developer without waiting for a pipeline to run.
+In addition this is an immediately useful for development teams;
+the ability to check for vulnerable application components from the command line gives
+immediate feedback to the developer without having to wait for a pipeline to run.
 
 #### How to use it
 
 The OWASP Spotlight series provides an example of the risks involved in using out of date and vulnerable libraries,
 and how to use Dependency-Check: 'Project 2 - [OWASP Dependency Check][spotlight02]'.
 
-Refer to the Dependency-Check [documentation][depcheck-docs] to get started running from the command line.
+Refer to the Dependency-Check [documentation][depcheck-docs] to get started running from the command line:
 
 * ensure Java is installed, for example from [Eclipse Adoptium][adoptium]
 * download and unzip the latest Dependency-Check [release][depcheck-download]
@@ -64,8 +64,9 @@ Refer to the Dependency-Check [documentation][depcheck-docs] to get started runn
   `./dependency-check.sh --project "Threat Dragon" --scan ~/github/threat-dragon`
 * open the html output file and act on the findings
 
-The command line is useful for development and debugging, and a plugin can hen be installed
-for a pipeline to generate the SCA reports depending on what automation environment is in place.
+The command line is useful for immediate debugging development.
+Depending on what automation environment is in place a plugin can also be installed
+into a pipeline which can then generate the SCA reports.
 
 ----
 
