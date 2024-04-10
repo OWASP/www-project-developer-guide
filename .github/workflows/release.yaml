@@ -9,8 +9,8 @@ on:
 
 # for security reasons the github actions are pinned to specific release versions
 jobs:
-  export_docs:
-    name: Export PDF and ePub
+  create_release:
+    name: Release pull-request
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout markdown
@@ -83,14 +83,16 @@ jobs:
       - name: Create pull request
         uses: peter-evans/create-pull-request@v6.0.2
         with:
-          title: "Release for version ${{ GITHUB_REF_NAME }}"
+          title: Release of Developer Guide version ${{GITHUB_REF_NAME}}
           body: |
             **Summary** :  
             Pull request automatically generated for the latest release version  
+            
             **Description for the changelog** :  
-            Developer Guide release  
+            release of version ${{GITHUB_REF_NAME}}  
+            
             **Other info** :  
             Please verify and then merge the pull request to update the release  
-          commit-message: 'update release'
+          commit-message: update for release version ${{GITHUB_REF_NAME}}
           branch: update-release
           base: main
