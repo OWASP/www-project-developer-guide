@@ -23,7 +23,7 @@ Installers for various platforms can be [downloaded][zapdownload] from the ZAP w
 
 #### What is ZAP?
 
-The [Zed Attack Proxy][zap] is a very widely used tool that dynamically scans web applications.
+The [Zed Attack Proxy][zap] is a tool that dynamically scans web applications.
 It is commonly used for Dynamic Application Security Testing (DAST) but also has multiple uses:
 
 * Vulnerability Assessment
@@ -35,11 +35,11 @@ ZAP can be used manually to test applications or can be run within an automated 
 
 #### Why use it?
 
+ZAP is easily installed, intuitive to use and is regularly updated to meet the evolving threat landscape.
+
 ZAP is an effective tool that is widely used by a large community of testers, developers, security engineers etc.
 This makes it a tool that many teams will already be familiar with and probably using it already;
 you can almost regard ZAP is a common language within the security community when it comes to web application testing.
-
-Zap is easily installed, intuitive to use and is regularly updated to meet the evolving threat landscape.
 
 #### How to use it
 

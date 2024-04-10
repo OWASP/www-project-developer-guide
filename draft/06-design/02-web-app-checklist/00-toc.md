@@ -1,6 +1,6 @@
 ---
 
-title: Checklist and Proactive Controls
+title: Web Application Checklist
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
@@ -22,7 +22,7 @@ The checklists that follow are general lists that are categorised to follow the 
 These checklists provide suggestions that certainly should be tailored to
 an individual project's requirements and environment; they are not meant to be followed in their entirety.
 
-Probably the best advice on checklists is given by the [Application Security Verification Standard (ASVS)][asvs].
+Probably the best starting point for a checklist is given by the [Application Security Verification Standard (ASVS)][asvs].
 The ASVS can be used to provide a framework for an initial checklist, according to the security verification level,
 and this initial ASVS checklist can then be expanded using the following checklist sections.
 

@@ -37,7 +37,6 @@ Wordlist
 XSS
 YAML
 aSemy
-albertvolkman
 backrefs
 bracex
 codefences
@@ -475,3 +474,4 @@ LINNDUN
 DPO
 CISO
 iteratively
+ai

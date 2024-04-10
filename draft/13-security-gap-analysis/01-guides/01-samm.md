@@ -20,7 +20,7 @@ SAMM is one of the OWASP's flagship projects, and can be downloaded from the [SA
 
 #### What is SAMM?
 
-SAMM aims to be the prime maturity model for software assurance.
+SAMM is regarded as the prime maturity model for software assurance.
 SAMM provides an effective and measurable way for all types of organizations to analyze and improve
 their software security posture.
 SAMM supports the complete secure software development lifecycle and is technology and process agnostic.

@@ -20,7 +20,7 @@ so that the user may continue to use the system without re-authenticating.
 
 Refer to proactive control [C6: Implement Digital Identity][control6]
 for more context from the OWASP Top 10 Proactive Controls project,
-and use the checklists below as suggestions for the checklist that has been tailored for the individual project.
+and use the list below as suggestions for a checklist that has been tailored for the individual project.
 
 #### Authentication
 

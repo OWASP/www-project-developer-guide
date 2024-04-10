@@ -63,12 +63,12 @@ The internal container port 8000 is mapped to external port 8000, so browse to `
 A user account needs to be set up before the labs can be accessed. This account is local to the container;
 it will be deleted if the Docker container is stopped or deleted.
 It can be any test account such as username 'user' and password 'Kali1234'.
-To set up a user account access the login page and click on the 'Here' text within 'Click Here to register',
-it is not entirely obvious at first, and then enter the new username and password.
+To set up a user account access the login page and click on the 'Here' text within 'Click Here to register'
+(it is not entirely obvious at first) and then enter the new username and password.
 
 Once a user account has been set up then login to access the labs.
 A handy feature of PyGoat is the inclusion of the 2021 version of the OWASP Top Ten as well as the 2017 version,
-these are almost about side by side and aid cross referencing to the latest OWASP Top Ten.
+these are provided side by side and aid cross referencing to the latest OWASP Top Ten.
 
 ----
 

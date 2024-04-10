@@ -15,13 +15,13 @@ permalink: /draft/design/threat_modeling/
 ### 4.1 Threat modeling
 
 Referring to the [Threat Modeling Cheat Sheet][tmcs],
-threat modeling is a structured approach of identifying and prioritizing potential threats to a system.
+threat modeling is a structured approach to identifying and prioritizing potential threats to a system.
 The threat modeling process includes determining the value that potential mitigations would have
 in reducing or neutralizing these threats.
 
 Assessing potential threats during the design phase of your project can save significant resources
-that might be needed to refactor the project to include risk mitigations during a later phase of the project.
-The outputs from the threat modeling activities generally include:
+if during a later phase of the project refactoring is required to include risk mitigations.
+The outcomes from the threat modeling activities generally include:
 
 * Documenting how data flows through a system to identify where the system might be attacked
 * Identifying as many potential threats to the system as possible

@@ -14,11 +14,11 @@ permalink: /draft/implementation/documentation/go_scp/
 
 ### 5.1.2 Go Secure Coding Practices
 
-The OWASP Go Secure Coding Practices (Go-SCP) is a set of software secure coding practices for Go.
+The OWASP Go Secure Coding Practices (Go-SCP) is a set of software secure coding practices for the Go programming language.
 
 The Go-SCP [documentation project][go-scp-project] is an OWASP Incubator Project
 that has enough long term support to achieve Lab status soon.
-The document can be [downloaded in various formats][go-scp-download] from the github repo.
+The published document can be [downloaded in various formats][go-scp-download] from the github repo.
 
 #### What is Go-SCP?
 
@@ -52,15 +52,17 @@ The [Go Secure Coding Practices][go-scp-project] book is available in various fo
 
 Development teams often need help and support in getting the security right for web applications,
 and part of this help comes from secure coding guidelines and best practices.
-Go-SCP provides this guidance for a wide range of secure coding topics as well as providing practical code examples.
+Go-SCP provides this guidance for a wide range of secure coding topics as well as providing practical code examples
+for each coding practice.
 
 #### How to use Go-SCP?
 
 The primary audience of the Go Secure Coding Practices Guide is developers,
-particularly the ones with previous experience with other programming languages.
+particularly those with previous experience in other programming languages.
 
 Download the [Go-SCP document][go-scp-download] in one of the formats: PDF, ePub, DocX and MOBI.
-Refer to the specific topic chapter and then use the example Go code snippets for practical guidance on secure coding in Go.
+Refer to the specific topic chapter and then use the example Go code snippets
+for practical guidance on secure coding using Go.
 
 ----
 

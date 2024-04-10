@@ -28,7 +28,7 @@ They are ordered by order of importance, with control number 1 being the most im
 * C2: [Leverage Security Frameworks and Libraries][control2]
 * C3: [Secure Database Access][control3]
 * C4: [Encode and Escape Data][control4]
-* C5: [[Validate All Inputs][control5]
+* C5: [Validate All Inputs][control5]
 * C6: [Implement Digital Identity][control6]
 * C7: [Enforce Access Controls][control7]
 * C8: [Protect Data Everywhere][control8]

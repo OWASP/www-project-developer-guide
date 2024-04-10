@@ -47,7 +47,7 @@ The OWASP Spotlight series provides an overview of the developer training provid
 
 There is a [demonstration site][codedojo] for Secure Coding Dojo which provides access to the
 training modules, code blocks and a public leader board.
-Note that the demonstration site does not provide the deliberately insecure web sites,such as the 'Insecure.Inc' Java site,
+Note that the demonstration site does not provide the deliberately insecure web sites, such as the 'Insecure.Inc' Java site,
 because this would encourage attack traffic across a public network.
 
 Ideally Secure Coding Dojo is deployed by the organization providing the training, rather than by using the demo site,

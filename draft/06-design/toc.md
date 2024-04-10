@@ -14,7 +14,6 @@ permalink: /draft/design/
 
 ## 4. Design
 
-Security Architecture is one of the practices that is described in the [Software Assurance Maturity Model (SAMM)][sammdsa].
 Referring to the [Secure Product Design Cheat Sheet][spdcs], the purpose of secure architecture and design is to ensure
 that all products meet or exceed the security requirements laid down by the organization,
 focusing on the security linked to components and technologies used during the development of the application.
@@ -38,6 +37,13 @@ Various secure development lifecycles can be used and they generally include thr
 
 Checklists and Cheat Sheets are an important tool during the design process;
 they provide an easy reference of knowledge and help avoid repeating design errors and mistakes.
+
+Software application [Design][sammd] is one of the major business functions described in
+the [Software Assurance Maturity Model (SAMM)][samm], and includes security practices:
+
+* [Threat Assessment][sammdta]
+* [Security Requirements][sammdsr]
+* [Security Architecture][sammdsa]
 
 Sections:
 
@@ -68,5 +74,9 @@ then [submit an issue][issue0600] or [edit on GitHub][edit0600].
 
 [edit0600]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/toc.md
 [issue0600]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/00-toc
+[samm]: https://owaspsamm.org/about/
+[sammd]: https://owaspsamm.org/model/design/
+[sammdsr]: https://owaspsamm.org/model/design/security-requirements/
 [sammdsa]: https://owaspsamm.org/model/design/security-architecture/
+[sammdta]: https://owaspsamm.org/model/design/threat-assessment
 [spdcs]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet.html
