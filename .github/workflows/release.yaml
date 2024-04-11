@@ -87,16 +87,16 @@ jobs:
         uses: peter-evans/create-pull-request@v6.0.2
         with:
           title: |
-            Release of Developer Guide
+            Release ${{ github.ref_name }} of Developer Guide 
           body: |
             **Summary** :  
             Pull request automatically generated for the latest release version  
             
             **Description for the changelog** :  
-            release of version 
+            release of version ${{ github.ref_name }} 
             
             **Other info** :  
             Please verify and then merge the pull request to update the release  
-          commit-message: update to release version
+          commit-message: update to release version ${{ github.ref_name }} 
           branch: update-release
           base: main
