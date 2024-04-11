@@ -16,12 +16,12 @@ permalink: /release/training_education/security_knowledge_framework/
 
 The [Security Knowledge Framework][skf] (SKF) is an expert system application that uses various open source projects
 to support development teams and security architects in building secure applications.
-The Security Knowledge Framework uses the OWASP [Application Security Verification Standard] (ASVS) with code examples
+The Security Knowledge Framework uses the OWASP [Application Security Verification Standard][asvs] (ASVS) with code examples
 to help developers in pre-development and post-development phases and create applications that are secure by design.
 
 Having been an OWASP flagship project for many years the SKF is now no longer within the OWASP organization;
-and it will continue to be referenced in the OWASP Wayfinder and other OWASP projects
-because it is a flagship project for any organization.
+it will continue to be referenced in the OWASP Wayfinder and other OWASP projects
+because it is certainly a flagship project for any organization.
 
 #### What is the Security Knowledge Framework?
 
@@ -59,6 +59,7 @@ This will provide access to the practice labs, the training courses and also to 
 
 ----
 
+[asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [linuxtraining]: https://training.linuxfoundation.org/full-catalog/
 [skf]: https://www.securityknowledgeframework.org/
 [skfdemo]: https://secureby.design/

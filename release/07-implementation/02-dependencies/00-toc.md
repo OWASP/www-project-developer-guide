@@ -17,9 +17,11 @@ Management of software dependencies is described by the SAMM [Software Dependenc
 which in turn is part of the SAMM [Secure Build][sammisb] security practice
 within the [Implementation][sammi] business function.
 
-It is important to record all dependencies used throughout the target production environment.
-This record is often referred to as a Software Bill of Materials (SBOM).
-An ideal SBOM provides information on each dependency so that it can be tracked:
+It is important to record all dependencies used throughout the application in a production environment.
+This can be achieved by Software Composition Analysis (SCA) to identify the third party dependencies.
+
+A Software Bill of Materials (SBOM) provides a record of the dependencies within the system / application,
+and provides information on each dependency so that it can be tracked :
 
 * Where it is used or referenced
 * Version used

@@ -27,19 +27,21 @@ It is used to scan a network to discover nodes and servers on the network includ
 Nettacker can then identify servers, services and port numbers in use.
 
 Nettacker is a modular python application that that can be extended with other scanning functions.
-There are many modules available grouped as:
+The many modules available are grouped into domains:
 
-* [Scan][nettacker-scan] modules
-* [Vulnerability][nettacker-vuln] modules
+* [Scan][nettacker-scan] modules for reconnaissance
+* [Vulnerability][nettacker-vuln] modules that attempt specific exploits
 * [Brute force][nettacker-brute] modules
+
+Nettacker runs on Windows, Linux and MacOS.
 
 #### Why use it?
 
 Nettacker is easy to use from the command line, making it easy to use in scripts,
 and also comes with a web browser interface for easy navigation of the results.
 This makes it a quick and reliable way to gain information from a network.
-Nettacker runs across various platforms, Windows / Linux / MacOS,
-and can be used for auditing purposes or for penetration testing.
+
+Nettacker can be used both for auditing purposes and also for penetration testing.
 
 #### How to use it
 

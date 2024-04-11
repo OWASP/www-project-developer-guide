@@ -27,7 +27,7 @@ This may be assembled into a single threat model document; a structured represen
 that affects the security of an application.
 In essence, it is a view of the application and its environment through security glasses.
 
-Threat modeling is a process for capturing, organizing, and analyzing all of this information.
+Threat modeling is a process for capturing, organizing, and analyzing all of this information
 and enables informed decision-making about application security risk.
 In addition to producing a model, typical threat modeling efforts also produce a prioritized list
 of _potential_ security vulnerabilities in the concept, requirements, design, or implementation.
@@ -35,8 +35,8 @@ Any potential vulnerabilities that have been identified from the model should th
 using one of the common strategies: mitigate, eliminate, transfer or accept the threat of being exploited.
 
 There are many reasons for doing threat modeling but the most important one is that this activity is _useful_ ,
-it is probably the only stage in a development lifecycle where a team sits back and asks:
-'What can go wrong?'
+it is probably the only stage in a development lifecycle where a team sits back and asks: 'What can go wrong?'.
+
 There are other reasons for threat modeling, for example standards compliance or analysis for disaster recovery,
 but the main aim of threat modeling is to remedy (possible) vulnerabilities before the malicious actors can exploit them.
 
@@ -84,7 +84,7 @@ The inclusion of threat modeling in the secure development activities can help:
     a malicious actor, accidents, or other causes of impact
 * Identification of security test cases / security test scenarios to test the security requirements
 
-Threat modeling also provides a clear “line of sight” across a project that can be used
+Threat modeling also provides a clear 'line of sight' across a project that can be used
 to justify other security efforts.
 The threat model allows security decisions to be made rationally, with all the information available,
 so that security decisions can be properly supported.
@@ -107,7 +107,7 @@ As more details are added to the system new attack vectors are identified,
 so the ongoing threat modeling process should examine, diagnose, and address these threats.
 
 Note that it is a natural part of refining a system for new threats to be exposed.
-For example, when you select a particular technology, such as Java for example,
+When you select a particular technology, such as Java for example,
 you take on the responsibility to identify the new threats that are created by that choice.
 Even implementation choices such as using regular expressions for validation
 introduce potential new threats to deal with.
@@ -183,7 +183,7 @@ all perfectly valid, so choose the right process that works for a specific team.
 
 #### Final advice
 
-Finally some advice on threat modeling.
+Some final words on threat modeling.
 
 **Make it incremental**:
 
@@ -207,7 +207,7 @@ but also allow teams to choose how they record their threat models.
 If one team decides to use Threat Dragon, for example, and another wants to use a drawing board,
 then that is usually fine.
 The discussions had during the threat modeling process are more important than the tool used,
-although you might ask the team using the drawing board how they implement their change control.
+although you might ask the team using the drawing board how they implement change control for their models.
 
 **Brevity is paramount**:
 
@@ -222,8 +222,8 @@ malicious actors (external or internal) trying to subvert your system.
 
 It is a good strategy to choose a threat categorisation methodology for the whole organisation
 and then try and keep to it.
-This could be [STRIDE][stride] or [LINDDUN][linddun], but if the [CIA][cia] triad gives enough granularity
-then that is a perfectly good choice.
+For example this could be [STRIDE][stride] or [LINDDUN][linddun], but if the [CIA][cia] triad provides enough granularity
+then that is also a perfectly good choice.
 
 #### Further reading
 

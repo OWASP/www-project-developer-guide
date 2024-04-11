@@ -14,7 +14,7 @@ permalink: /release/implementation/secure_libraries/esapi/
 
 ### 5.3.1 Enterprise Security API library
 
-The OWASP Enterprise Security API (ESAPI) [library][esapi-docs is a security control library
+The OWASP Enterprise Security API (ESAPI) [library][esapi-docs] is a security control library
 for web applications written in Java.
 
 The [ESAPI library][esapi-project] is an OWASP Lab project that is under active development
@@ -22,18 +22,18 @@ for [Java security controls][esapi-java] with regular releases.
 
 #### What is the ESAPI library?
 
-The OWASP Enterprise Security API (ESAPI) [library][esapi-docs] is an open source web application security control library
-that makes it easier for Java programmers to write lower-risk applications.
-The ESAPI Java library is designed to make it easier for programmers to retrofit security into existing Java applications,
-and also serve as a solid foundation for new development.
+The OWASP Enterprise Security API (ESAPI) [library][esapi-docs] provides a set of security control interfaces
+which define types of parameters that are passed to the security controls.
 
-ESAPI provides a set of security control interfaces which define
-types of parameters that are passed to the security controls.
+The ESAPI is an open source web application security control library
+that makes it easier for Java programmers to write lower-risk applications.
+The ESAPI Java library is designed to help programmers retrofit security into existing Java applications,
+and the library also serves as a solid foundation for new development.
 
 #### Why use it?
 
 The use of the ESAPI Java library is not easy to justify, although its use should certainly be considered.
-The engineering decision a development team will need to make when using ESAPI are discussed in the
+The engineering decisions a development team will need to make when using ESAPI are discussed in the
 '[Should I use ESAPI?][esapi-question]' documentation.
 
 For new projects or for modifying an existing project then alternatives should be strongly considered:
@@ -45,8 +45,8 @@ For new projects or for modifying an existing project then alternatives should b
 * Authentication & authorization: [Apache Shiro][shiro], authentication using [Spring Security][spring]
 * CSRF protection: OWASP [CSRFGuard][csrfguard] project
 
-If multiple security controls provided by ESAPI are used in a project,
-then it may be useful to use the monolithic ESAPI library rather than multiple disparate class libraries.
+Consideration could be given for using ESAPI if multiple security controls provided by this library are used in a project,
+it then may be useful to use the monolithic ESAPI library rather than multiple disparate class libraries.
 
 #### How to use it
 

@@ -16,15 +16,15 @@ permalink: /release/training_education/wrongsecrets/
 and provides challenges focused on secrets management using an intentionally vulnerable application and environment.
 The project offers standalone and Capture-the-flag modes, with a demo on [Heroku][heroku].
 
-The project goals are to:
+#### What is WrongSecrets?
+
+[WrongSecrets][wrongsecrets] goals are to:
 
 - Educate on secret management and its pitfalls
 - Help people reflect on their secrets management strategy
 - Promote secrets management as an important facet of security
 
-#### What is WrongSecrets?
-
-[WrongSecrets][wrongsecrets] provides challenges around secrets management across several layers:
+The project provides challenges around secrets management across several layers:
 
 - A Spring Boot Java application
 - Application configuration
@@ -46,7 +46,7 @@ Alternatively, you can use WrongSecrets as a secret detector testbed/benchmark.
 
 #### How to use it
 
-You can set WrongSecrets up in standalone or capture the flag (CTF) mode on Docker, Kubernetes, AWS, GCP or Azure.
+You can set WrongSecrets up in standalone or in capture the flag (CTF) mode on Docker, Kubernetes, AWS, GCP or Azure.
 
 Set-up guides for the standalone version are available in the [project README][readme].
 

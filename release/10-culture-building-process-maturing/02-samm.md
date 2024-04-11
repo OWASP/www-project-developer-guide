@@ -20,10 +20,10 @@ SAMM is one of the OWASP's flagship projects, and can be downloaded from the [SA
 
 #### What is SAMM?
 
-SAMM aims to be the prime maturity model for software assurance.
+SAMM can be regarded as the prime maturity model for software assurance.
 SAMM provides an effective and measurable way for all types of organizations to analyze and improve
 their software security posture.
-SAMM supports the complete secure software development lifecycle and is technology and process agnostic.
+SAMM supports the entire secure software development lifecycle and is technology and process agnostic.
 
 The SAMM model is hierarchical. At the highest level SAMM defines five business functions;
 activities that software development must fulfill to some degree:
@@ -53,17 +53,17 @@ The structure and setup of the SAMM model support:
 * definition of an implementation roadmap to get there
 * prescriptive advice on how to implement particular activities
 
-This provides suggestions for improving processes and building security practices into the culture of the organization.
+These provide suggestions for improving processes and building security practices into the culture of the organization.
 
 #### How to use it
 
 The OWASP Spotlight series provides an overview of using the SAMM to guide development:
 'Project 9 - [Software Assurance Maturity Model (SAMM)][spotlight09]'.
 
-The [SAMM Fundamentals Course][sammfun] provides training on the five SAMM Business Functions
+The [SAMM Fundamentals Course][sammfun] provides training on the high level SAMM Business Functions
 and provides guidance on each Security Practice.
 The SAMM [assessment tools][samma] measure the quality of an organization's software assurance maturity process,
-which feeds back into the culture of the organization.
+which can be used as feedback into the culture of the organization.
 
 ----
 
