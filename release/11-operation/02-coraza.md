@@ -23,7 +23,7 @@ with the first stable version released in September 2021 and several releases si
 #### What is Coraza?
 
 The [Coraza][coraza] Web Application Firewall framework is used to enforce policies,
-providing a first line of security to stop attack on web applications and servers.
+providing a first line of defense to stop attack on web applications and servers.
 Coraza  can be configured using the OWASP [Core Rule Set][modcrs] and also custom policies can be created.
 
 Coraza can be deployed:
@@ -36,16 +36,15 @@ Coraza can be deployed:
 #### Why use Coraza?
 
 Web Application Firewalls are usually the first line of defense against HTTP attacks on web applications and servers.
-The Coraza WAF is widely used for this purpose, especially for cloud applications,
-along with the long-serving OWASP [ModSecurity][modsecurity] WAF.
+The Coraza WAF is widely used for providing this security, especially for cloud applications,
+along with the original OWASP [ModSecurity][modsecurity] WAF.
 
 #### How to use Coraza
 
-The best way to start is to create a Coraza WAF instance and then add rules to this WAF Instance,
+The best way to start is to create a Coraza WAF instance and then add rules to this WAF,
 following the Coraza [Quick Start tutorial][coraza-tutorial].
 
-There are multiple ways of running CRS within a WAF,
-and the one chosen will depend on an individual organization's deployment:
+There are multiple ways of running Coraza, and the one chosen will depend on an individual organization's deployment:
 
 * Coraza [SPOA connector][coraza-spoa] runs the Coraza WAF as a backing service for HAProxy
 * Coraza [Caddy Module][coraza-caddy] provides Web Application Firewall capabilities for Caddy

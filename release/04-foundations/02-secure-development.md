@@ -30,26 +30,27 @@ according to the processes adopted by the business.
 
 With the increasing number and sophistication of exploits against almost every application or business system,
 most companies have adopted a secure Software Development LifeCycle (SDLC).
-The secure SDLC should never be a separate lifecycle,
-it must always be the same Software Development LifeCycle as before but with security actions built into each phase,
-otherwise the security actions will be set aside by busy development teams.
+The secure SDLC should never be a separate lifecycle from an existing software development lifecycle,
+it must always be the same development lifecycle as before but with security actions built into each phase,
+otherwise security actions may well be set aside by busy development teams.
 Note that although the Secure SDLC could be written as 'SSDLC' it is almost always written as 'SDLC'.
 
 DevOps integrates and automates many of the SDLC phases and implements Continuous Integration (CI)
-and Continuous Delivery/Deployment (CD) pipelines to provide much of this automation.
-DevOps and pipelines have been successfully exploited with serious large scale consequences
-and so, in a similar manner to the SDLC, much of the DevOps actions have also had to have security built in.
-Secure DevOps, or DevSecOps, builds security practices into the DevOps activities to guard against attack
-and to provide the SDLC with automated security testing.
+and Continuous Delivery/Deployment (CD) pipelines to provide much of the SDLC automation.
 Examples of how DevSecOps is 'building security in' is the provision of
 Interactive, Static and Dynamic Application Security Testing (IAST, SAST & DAST)
 and implementing supply chain security, and there are many other security activities that can be applied.
 
+DevOps and pipelines have been successfully exploited with serious large scale consequences
+and so, in a similar manner to the SDLC, much of the DevOps actions have also had to have security built in.
+Secure DevOps, or DevSecOps, builds security practices into the DevOps activities to guard against attack
+and to provide the SDLC with automated security testing.
+
 #### Secure development lifecycle
 
 Referring to the OWASP [Application Wayfinder][wayfinder] development cycle
-there are four phases during application development: Requirements, Design, Implementation and Verification.
-There are other phases that are done less often in the development cycle and these form an equally important
+there are four iterative phases during application development: Requirements, Design, Implementation and Verification.
+The other phases are done less iteratively in the development cycle but these form an equally important
 part of the SDLC: Gap Analysis, Metrics, Operation and Training & Culture Building.
 
 All of these phases of the SDLC should have security activities built into them,
@@ -59,19 +60,19 @@ a process as before, with the development teams taking ownership of the security
 
 There are many OWASP tools and resources to help build security into the SDLC.
 
-* Requirements: this phase determines the functional, non-functional and security requirements for the application.
-    Requirements should be revisited periodically and check for completeness and validity,
-    and it is worth considering various OWASP tools;
-    the [Application Security Verification Standard (ASVS)][asvs] provides developers
-    with a list of requirements for secure development,
-    the [Mobile Application Security project][masproject] provides a security standard for mobile applications
-    and [SecurityRAT][srat] helps identify an initial set of security requirements.
+* **Requirements**: this phase determines the functional, non-functional and security requirements for the application.
+    Requirements should be revisited periodically and checked for completeness and validity,
+    and it is worth considering various OWASP tools to help with this;
+  * the [Application Security Verification Standard (ASVS)][asvs] provides developers
+      with a list of requirements for secure development,
+  * the [Mobile Application Security project][masproject] provides a security standard for mobile applications
+      and [SecurityRAT][srat] helps identify an initial set of security requirements.
 
-* Design: it is important to design security into the development - it is never too late to do this
-    but the earlier the better (and easier). OWASP provides two tools, [Pythonic Threat Modeling][pytm]
+* **Design**: it is important to design security into the application - it is never too late to do this
+    but the earlier the better and easier to do. OWASP provides two tools, [Pythonic Threat Modeling][pytm]
     and [Threat Dragon][tdtm], for threat modeling along with security gamification using [Cornucopia][cornucopia].
 
-* Implementation: the OWASP [Top 10 Proactive Controls][proactive10] project states that they are
+* **Implementation**: the OWASP [Top 10 Proactive Controls][proactive10] project states that they are
     "the most important control and control categories that every architect and developer should absolutely,
     100% include in every project" and this is certainly good advice. Implementing these controls can provide
     a high degree of confidence that the application or system will be reasonably secure.
@@ -81,14 +82,14 @@ There are many OWASP tools and resources to help build security into the SDLC.
     that help implement these proactive controls. In addition the OWASP [Cheat Sheet Series][cheatproject]
     is a valuable source of information and advice on all aspects of applications security.
 
-* Verification: OWASP provides a relatively large number of projects that help with testing and verification.
-   This is the subject of a section in this Developer Guide, and the projects are listed below.
+* **Verification**: OWASP provides a relatively large number of projects that help with testing and verification.
+   This is the subject of a section in this Developer Guide, and the projects are listed at the end of this section.
 
-* Training: development teams continually need security training. Although not part of the inner SDLC iterative loop,
-   training should be factored into the project lifecycle.
+* **Training**: development teams continually need security training.
+   Although not part of the inner SDLC iterative loop training should still be factored into the project lifecycle.
    OWASP provides many training environments and materials - see the list at the end of this section.
 
-* Culture Building: a good security culture within a business organization will help greatly in keeping
+* **Culture Building**: a good security culture within a business organization will help greatly in keeping
    the applications and systems secure. There are many activities that all add up to create the
    security culture, the OWASP [Security Culture][culture] project goes into more detail on these activities,
    and a good Security Champion program within the business is foundational to a good security posture.
@@ -96,12 +97,12 @@ There are many OWASP tools and resources to help build security into the SDLC.
    within the development teams - ideally every team should have a security champion that has
    a special interest in security and has received further training, enabling the team to build security in.
 
-* Operation: the OWASP [DevSecOps Guideline][devsecops] explains how to best implement a secure pipeline,
+* **Operation**: the OWASP [DevSecOps Guideline][devsecops] explains how to best implement a secure pipeline,
     using best practices and introducing automation tools to help 'shift-left'.
     Refer to the DevSecOps Guideline for more information on any of the topics within DevSecOps
     and in particular sections on Operation.
 
-* Supply chain: attacks that leverage the supply chain can be devastating
+* **Supply chain**: attacks that leverage the supply chain can be devastating
     and there have been several high profile of products being successfully exploited.
     A Software Bill of Materials (SBOM) is the first step in avoiding these attacks and
     it is well worth using the OWASP [CycloneDX][cyclone] full-stack Bill of Materials (BOM) standard
@@ -109,19 +110,19 @@ There are many OWASP tools and resources to help build security into the SDLC.
     In addition the OWASP [Dependency-Track][deptrack] project is a Continuous SBOM Analysis Platform
     which can help prevent these supply chain exploits by providing control of the SBOM.
 
-* Third party libraries: keeping track of what third party libraries are included in the application,
+* **Third party dependencies**: keeping track of what third party libraries are included in the application,
     and what vulnerabilities they have, is easily automated. Many public repositories such as [github][github]
     and [gitlab][gitlab] offer this service along with some commercial vendors.
     OWASP provides the [Dependency-Check][depcheck] Software Composition Analysis (SCA) tool
     to track external libraries.
 
-* Application security testing: there are various types of security testing that can be automated on pull-request,
+* **Application security testing**: there are various types of security testing that can be automated on pull-request,
    merge or nightlies - or indeed manually but they are most powerful when automated. Commonly there is
    Static Application Security Testing (SAST), which analyses the code without running it,
-   Dynamic Application Security Testing (DAST), which applies input to the application while running it in a sandbox
-   or other isolated environment.
-   Interactive Application Security Testing (IAST) on the other hand is designed to be run manually as well,
-   providing instant feedback on the tests as they are run.
+   and Dynamic Application Security Testing (DAST), which applies input to the application while running it in a sandbox
+   or other isolated environments.
+   Interactive Application Security Testing (IAST) is designed to be run manually as well as being automated,
+   and provides instant feedback on the tests as they are run.
 
 #### Further reading from OWASP
 

@@ -54,32 +54,16 @@ The ASVS defines three [levels of security verification][asvsL123]:
 Most applications will aim for Level 2, with only those applications that perform high value transactions,
 or contain sensitive medical data, aiming for the highest level of trust at level 3.
 
-#### Why use it?
+#### How to use it
 
-The ASVS is comprehensive, for example version 4.0.3 has a list of 286 verification requirements,
-and these verification requirements have been created and agreed to by a wide security community.
-It is well established, the earlier versions were written in 2008, and it has been continually supported since then.
-
-The ASVS is used by many organizations as a basis for the verification of their web applications,
-and for this reason it can be used to identify gaps in the security of web applications.
+The ASVS is a list of verification requirements that is used by many organizations
+as a basis for the verification of their web applications.
+For this reason it can be used to identify gaps in the security of web applications.
 If the ASVS suggests using a control then that control should be considered for the application security,
 it may be not applicable but at least the control should have been considered at some point in the development process.
 
-#### How to use it
-
 The OWASP Spotlight series provides an overview of the ASVS and its uses:
 'Project 19 - [OWASP Application Security Verification standard (ASVS)][spotlight19]'.
-
-The appropriate level of verification should be chosen from the ASVS levels:
-
-* Level 1: First steps, automated, or whole of portfolio view
-* Level 2: Most applications
-* Level 3: High value, high assurance, or high safety
-
-Tools such as [SecurityRAT][srat] can help create a more manageable subset of the ASVS requirements
-that can then be used to identify any gaps in the application security controls.
-In addition the ASVS can be used during procurement;
-it can provide a basis for specifying application security verification requirements in contracts.
 
 ----
 
@@ -101,4 +85,3 @@ it can provide a basis for specifying application security verification requirem
 [asvsV13]: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x21-V13-API.md#v13-api-and-web-service
 [asvsV14]: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x22-V14-Config.md#v14-configuration
 [spotlight19]: https://youtu.be/3puIavsZfAk
-[srat]: https://owasp.org/www-project-securityrat/

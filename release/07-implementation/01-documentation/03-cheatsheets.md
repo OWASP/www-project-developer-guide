@@ -16,20 +16,23 @@ permalink: /release/implementation/documentation/cheatsheets/
 
 The [OWASP Cheat Sheet Series][cheatsheets] provide a concise collection of high value information
 on a wide range of specific application security topics.
-The cheat sheets have been created by various application security professionals who have expertise in specific topics.
+The cheat sheets have been created by a community of application security professionals
+who have expertise in each specific topic.
 
-The Cheat Sheet Series [documentation project][cheatproject] is an OWASP Flagship Project in constant development.
+The Cheat Sheet Series [documentation project][cheatproject] is an OWASP Flagship Project
+which is constantly being kept up to date.
 
 #### What are the Cheat Sheets?
 
-The Cheat Sheets are a series of self contained articles written by the security community
-on a specific subject within the security domain.
-The topics covered by the cheat sheets is wide, ranging from AJAX Security to XS (Cross Site) vulnerabilities.
-Each cheat sheet provides an introduction to the subject which provides enough information to understand the basic concept.
-It then goes on to describe its subject in more detail, often supplying recommendations or best practices.
-
 The OWASP Cheat Sheets are a common body of knowledge created by the software security community
 for a wide audience that is not confined to the security community.
+
+The Cheat Sheets are a series of self contained articles written by the security community
+on a specific subject within the security domain.
+The range of topics covered by the cheat sheets is wide, almost from A to Z:
+from AJAX Security to XS (Cross Site) vulnerabilities.
+Each cheat sheet provides an introduction to the subject and provides enough information to understand the basic concept.
+It will then go on to describe its subject in more detail, often supplying recommendations or best practices.
 
 #### Why use them?
 
@@ -37,7 +40,7 @@ The OWASP Cheat Sheet Series provide developers and security engineers with most
 of the information on security topics that they will need to do their job.
 In addition the Cheat Sheets are regarded as authoritative: it is recommended to follow the advice in these Cheat Sheets.
 If a web application does not follow the recommendations in a cheat sheet, for example,
-then the implementation could be challenged during the testing or review processes.
+then the implementation could be challenged during testing or review processes.
 
 #### How to use them
 

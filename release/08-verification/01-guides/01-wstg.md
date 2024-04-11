@@ -24,10 +24,11 @@ and can be accessed as a [web based document][wstg-latest].
 
 The Web Security Testing Guide ([WSTG][wstg]) document is a comprehensive guide to testing the security
 of web applications and web services.
-The WSTG provides a framework of best practices commonly used by penetration testers and organizations globally.
+The WSTG provides a framework of best practices commonly used by external penetration testers
+and organizations conducting in-house testing.
 
 The WSTG document describes a suggested [web application test framework][wstg-framework]
-and also provides general information [how to test][wstg-howto] web applications and good testing practice.
+and also provides general information on [how to test][wstg-howto] web applications with good testing practice.
 
 The tests are split out into domains:
 
@@ -51,15 +52,21 @@ Each test in each domain has enough information to understand and run the test i
 * Suggested remediation
 * Recommended tools and references
 
-Each test has a reference number, for example 'WSTG-APIT-01' refers to the first test in the 'API Testing' domain
-provided in the WSTG document. These references are widely used and understood by the test and security communities.
+The tests are identified with a unique reference number,
+for example 'WSTG-APIT-01' refers to the first test in the 'API Testing' domain provided in the WSTG document.
+These references are widely used and understood by the test and security communities.
+
+The WSTG also provides a suggested Web Security Testing Framework which can be tailored
+for a particular organization's processes or can provide a generally accepted reference framework.
 
 #### Why use it?
 
 The WSTG document is widely used and has become the defacto standard on
 what is required for comprehensive web application testing.
-An organization's security testing process should take into account the contents of the WSTG, or have equivalents,
-and conform to general expectation of the security community.
+An organization's security testing process should consider the contents of the WSTG, or have equivalents,
+which help the organization conform to general expectation of the security community.
+The WSTG reference document can be adopted completely, partially or not at all;
+according to an organization's needs and requirements.
 
 #### How to use it
 
@@ -67,13 +74,8 @@ The OWASP Spotlight series provides an overview of how to use the WSTG:
 'Project 1 - [Applying OWASP Testing Guide][spotlight01]'.
 
 The WSTG is accessed via the [online web document][wstg-latest].
-It is a reference document which can be adopted completely, partially or not at all;
-according to an organization's needs and requirements.
-
-There is a section on principles and techniques of testing which provides foundational knowledge,
+The section on principles and techniques of testing provides foundational knowledge,
 along with advice on testing within typical Secure Development Lifecycle (SDLC) and penetration testing methodologies.
-The WSTG also provides a suggested Web Security Testing Framework which can be tailored
-for a particular organization's processes or can provide a generally accepted reference framework.
 
 The individual tests described in the various testing domains should be selected or discarded as necessary;
 not every test will be relevant to every web application or organizational requirement,

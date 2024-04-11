@@ -1,12 +1,12 @@
 ---
 
-title: Threat Modeling and LINDDUN GO
+title: LINDDUN GO
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 6150
-permalink: /draft/design/threat_modeling/linddun-go/
+permalink: /release/design/threat_modeling/linddun-go/
 
 ---
 

@@ -22,10 +22,10 @@ with regulatory and statutory requirements being an important subset of both the
 #### Overview
 
 Security requirements are part of every secure development process
-and form the foundation for the application's security posture - they will certainly help with
-the prevention of many types of vulnerabilities.
+and form the foundation for the application's security posture.
+Requirements will certainly help with the prevention of many types of vulnerabilities.
 
-Requirements can come from many sources and in general there are three main sources:
+Requirements come from various sources, three common ones being:
 
 1. Software-related requirements which specify objectives and expectations
     to protect the service and data at the core of the application
@@ -99,7 +99,7 @@ the only general advice is to be familiar with and follow the appropriate statut
 The security requirements should be identified and recorded at the beginning of any new development
 and also when new features are added to an existing application.
 These security requirements should be periodically revisited and revised as necessary;
-for example security standards are updated and new standards come into force,
+for example security standards are updated and new regulations come into force,
 both of which may have a direct impact on the application.
 
 #### Further reading

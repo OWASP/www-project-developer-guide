@@ -14,11 +14,11 @@ permalink: /release/operation/
 
 ## 9. Operation
 
-Operations are those activities necessary to ensure confidentiality, integrity, and availability are maintained
-throughout the operational lifetime of an application and its associated data.
+Operations are those activities necessary to ensure that confidentiality, integrity, and availability
+are maintained throughout the operational lifetime of an application and its associated data.
 The aim of Operations is to provide greater assurance that the organization is resilient
 in the face of operational disruptions, and responsive to changes in the operational landscape.
-This is described by the OWASP [SAMM model][samm] for the [Operations][sammo] business function.
+This is described by the [Operations][sammo] business function in the OWASP [SAMM model][samm].
 
 Operations generally cover the security practices:
 
@@ -26,8 +26,8 @@ Operations generally cover the security practices:
 * [Environment Management][sammoem] such as configuration hardening, patching and updating
 * [Operational Management][sammoom] which includes data protection and system / legacy management
 
-OWASP provides the Core Rule Set that is used for both Coraza and ModSecurity web application firewalls,
-which are important for data and system management..
+OWASP projects provide the Core Rule Set that is used for both Coraza and ModSecurity web application firewalls,
+which are widely used for data and system management.
 
 Sections:
 

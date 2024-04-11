@@ -18,7 +18,7 @@ Ensure that access to all data stores is secure, including both relational datab
 
 Refer to proactive control [C3: Secure Database Access][control3]
 for more context from the OWASP Top 10 Proactive Controls project,
-and use the checklists below as suggestions for the checklist that has been tailored for the individual project.
+and use the list below as suggestions for a checklist that has been tailored for the individual project.
 
 #### Secure queries
 

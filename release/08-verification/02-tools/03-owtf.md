@@ -28,19 +28,20 @@ The [OWTF][owtf]tool is a penetration test framework used to organise and run su
 It is designed to be run on [Kali Linux][kali]; it can also be run on MacOS but with some modification of scripts and paths.
 
 OWTF is very much a penetration tester's tool; there is an expectation that the
-user has a reasonable expertise and grasp of penetration testing tools.
-The [documentation][owtfdocs] is out of date and requires some knowledge to configure and run OWTF.
+user has a reasonable expertise and grasp of penetration testing environments and tools.
+The [documentation][owtfdocs] on installing and running OWTF requires is not extensive,
+and some in-depth knowledge on the target system is required to configure the tool.
 
 #### Why use it?
 
 [OWTF][owtf] is easily configurable and plugins can be created or new tests added using the configuration files.
-It can be quickly installed on [Kali Linux][kali], a distribution of Ubuntu that is widely by pen-testers,
+It can be quickly installed on [Kali Linux][kali], a distribution of Ubuntu that is widely used by pen-testers,
 and allows for a whole suite of tests to be directed against the target.
 
 #### How to use it
 
 The OWTF [documentation][owtfdocs] is relatively old, last updated in 2016,
-and  the [install][owtfinstall] instructions may need adapting to run on MacOS or Kali..
+and  the [install][owtfinstall] instructions may need adapting to run on MacOS or Kali.
 
 ----
 
