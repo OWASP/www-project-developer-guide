@@ -19,7 +19,8 @@ jobs:
 
       - name: Promote draft to release
         run: |
-          echo Version is ${{ GITHUB_REF_NAME }}
+          echo "GITHUB_WORKFLOW: ${GITHUB_WORKFLOW}"
+          echo "GITHUB_REF_NAME: ${GITHUB_REF_NAME}"
           cd draft
           pwd
           find . -name "*.md" ! -name "info.md" -exec cp '{}' '../release/{}' \;
@@ -92,10 +93,10 @@ jobs:
             Pull request automatically generated for the latest release version  
             
             **Description for the changelog** :  
-            release of version ${GITHUB_REF_NAME}  
+            release of version 
             
             **Other info** :  
             Please verify and then merge the pull request to update the release  
-          commit-message: update to release version ${{ GITHUB_REF_NAME }}
+          commit-message: update to release version
           branch: update-release
           base: main
