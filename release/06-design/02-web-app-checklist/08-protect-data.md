@@ -20,7 +20,7 @@ financial data protection rules such as PCI Data Security Standard (PCI DSS) or 
 
 Refer to proactive control [C8: Protect Data Everywhere][control8]
 for more context from the OWASP Top 10 Proactive Controls project,
-and use the checklists below as suggestions for the checklist that has been tailored for the individual project.
+and use the list below as suggestions for a checklist that has been tailored for the individual project.
 
 #### Data protection
 

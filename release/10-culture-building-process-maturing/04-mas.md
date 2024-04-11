@@ -17,13 +17,13 @@ permalink: /release/culture_building_and_process_maturing/mobile_application_sec
 The OWASP [Mobile Application Security][masproject] (MAS) flagship project has the mission statement:
 "Define the industry standard for mobile application security".
 
-OWASP [MAS Crackmes][mascrack], also known as UnCrackable Apps,
-is a collection of reverse engineering challenges for the MAS project.
-
 The MAS project covers the processes, techniques, and tools used for security testing a mobile application,
 as well as an exhaustive set of test cases that enables testers to deliver consistent and complete results.
 The OWASP MAS project provides the [Mobile Application Security Verification Standard][masvs] (MASVS)
 for mobile applications and a comprehensive [Mobile Application Security Testing Guide][mastg] (MASTG).
+
+OWASP [MAS Crackmes][mascrack], also known as UnCrackable Apps,
+is a collection of reverse engineering challenges for the MAS project.
 
 #### What is MAS Crackmes?
 
@@ -31,7 +31,7 @@ OWASP [MAS Crackmes][mascrack] is a set of reverse engineering challenges for mo
 These challenges are used as examples throughout the OWASP [Mobile Application Security Testing Guide][mastg] (MASTG)
 and, of course, you can also solve them for fun.
 
-There are challenges for [Android][masandroid] and a couple for [Apple iOS][masios].
+There are challenges for [Android][masandroid] and also a couple for [Apple iOS][masios].
 
 #### Why use MAS Crackmes?
 
