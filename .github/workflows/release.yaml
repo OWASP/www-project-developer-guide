@@ -19,7 +19,7 @@ jobs:
 
       - name: Promote draft to release
         run: |
-          echo "Version is ${GITHUB_REF_NAME}"
+          echo Version is ${GITHUB_REF_NAME}
           cd draft
           pwd
           find . -name "*.md" ! -name "info.md" -exec cp '{}' '../release/{}' \;
@@ -86,16 +86,16 @@ jobs:
         uses: peter-evans/create-pull-request@v6.0.2
         with:
           title: |
-            Release of Developer Guide version TBD
+            Release of Developer Guide
           body: |
             **Summary** :  
             Pull request automatically generated for the latest release version  
             
             **Description for the changelog** :  
-            release of version TBD  
+            release of version ${GITHUB_REF_NAME}  
             
             **Other info** :  
             Please verify and then merge the pull request to update the release  
-          commit-message: update for release version TBD
+          commit-message: update for release version ${GITHUB_REF_NAME}
           branch: update-release
           base: main
