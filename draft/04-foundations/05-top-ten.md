@@ -168,13 +168,14 @@ may also be referred to as 'OWASP Top 10'. Here is a list of the stable 'OWASP T
 * [Data Security Top 10][data10]
 * [Low-Code/No-Code Top 10][lcnc10]
 * [Mobile Top 10][mobile10]
+* [Serverless Top 10][serverless10]
 * [Top 10 CI/CD Security Risks][cicd10]
 * [Top 10 for Large Language Model Applications][llm10]
 * [Top 10 Privacy Risks][privacy10]
 * [Top 10 Proactive Controls][proactive10]
 * [Top 10 Web Application Security Risks][top10]
 
-There are other OWASP Top 10s that are still being worked on as 'incubator' projects so this list may change.
+Many of the OWASP Top 10s that are being worked on as 'incubator' projects so this list will change.
 
 ----
 
@@ -212,6 +213,7 @@ then [submit an issue][issue0405] or [edit on GitHub][edit0405].
 [privacy10]: https://owasp.org/www-project-top-10-privacy-risks/
 [proactive10]: https://owasp.org/www-project-proactive-controls/
 [samm]: https://owaspsamm.org/about/
+[serverless10]: https://owasp.org/www-project-serverless-top-10/
 [tmcs]: https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html
 [top10]: https://owasp.org/www-project-top-ten/
 [llm10]: https://owasp.org/www-project-top-10-for-large-language-model-applications/
