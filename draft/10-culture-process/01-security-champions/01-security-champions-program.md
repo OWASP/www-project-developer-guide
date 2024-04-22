@@ -5,14 +5,14 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 406
-permalink: /draft/foundations/security_champions/
+order: 1011
+permalink: /draft/culture_building_and_process_maturing/security_champions/security_champions_program/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 2.6 Security champions
+### 8.1.1 Security champions program
 
 A Security Champion program is a commonly used way of helping development teams successfully run a development lifecycle
 that is secure, and this is achieved by selecting members of teams to become Security Champions.
@@ -86,10 +86,10 @@ increase the effectiveness of the application security team and improve the secu
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0406] or [edit on GitHub][edit0406].
+then [submit an issue][issue1011] or [edit on GitHub][edit1011].
 
-[issue0406]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/06-security-champions
-[edit0406]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/04-foundations/06-security-champions.md
+[issue1011]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2010-culture-process/01-security-champions/01-security-champions
+[edit1011]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/10-culture-process/01-security-champions/01-security-champions.md
 [sammgegoc]: https://owaspsamm.org/model/governance/education-and-guidance/stream-b/
 [scguide]: https://owasp.org/www-project-security-champions-guidebook/
 [scplaybook]: https://github.com/c0rdis/security-champions-playbook

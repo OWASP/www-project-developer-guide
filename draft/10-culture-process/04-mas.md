@@ -51,8 +51,8 @@ Each challenge has various solutions provided by the community; these can be use
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue1004] or [edit on GitHub][edit1004].
 
-[edit1004]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/10-culture-building-process-maturing/04-mas.md
-[issue1004]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2010-culture-building-process-maturing/04-mas
+[edit1004]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/10-culture-process/04-mas.md
+[issue1004]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2010-culture-process/04-mas
 [masproject]: https://owasp.org/www-project-mobile-app-security/
 [masandroid]: https://mas.owasp.org/crackmes/Android/
 [mascrack]: https://mas.owasp.org/crackmes/

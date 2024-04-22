@@ -104,8 +104,8 @@ then [submit an issue][issue1003] or [edit on GitHub][edit1003].
 [asvsV12]: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x20-V12-Files-Resources.md#v12-files-and-resources
 [asvsV13]: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x21-V13-API.md#v13-api-and-web-service
 [asvsV14]: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x22-V14-Config.md#v14-configuration
-[edit1003]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/10-culture-building-process-maturing/03-asvs.md
-[issue1003]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2010-culture-building-process-maturing/03-asvs
+[edit1003]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/10-culture-process/03-asvs.md
+[issue1003]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2010-culture-process/03-asvs
 [spotlight19]: https://youtu.be/3puIavsZfAk
 [srat]: https://owasp.org/www-project-securityrat/
 
