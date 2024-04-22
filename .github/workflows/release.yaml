@@ -100,3 +100,11 @@ jobs:
           commit-message: update to release version ${{ github.ref_name }} 
           branch: update-release
           base: main
+          labels: release
+          assignees: jgadsden
+          reviewers: |
+            jgadsden
+            alezza
+            Shruti-s-kulkarni
+            hblankenship
+          draft: false
