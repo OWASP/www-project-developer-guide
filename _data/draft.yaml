@@ -271,22 +271,22 @@ docs:
 - title: '8. Culture building and Process maturing'
   url: culture_building_and_process_maturing
 
-- title: '8.1 Security Champions'
+- title: '8.2 Security Champions'
   url: culture_building_and_process_maturing/security_champions
 
-- title: '8.1.1 Security champions program'
+- title: '8.2.1 Security champions program'
   url: culture_building_and_process_maturing/security_champions/security_champions_program
 
-- title: '8.1.2 Security Champions Playbook'
+- title: '8.2.2 Security Champions Playbook'
   url: culture_building_and_process_maturing/security_champions/security_champions_playbook
 
-- title: '8.2 Software Assurance Maturity Model'
+- title: '8.3 Software Assurance Maturity Model'
   url: culture_building_and_process_maturing/software_assurance_maturity_model
 
-- title: '8.3 Application Security Verification Standard'
+- title: '8.4 Application Security Verification Standard'
   url: culture_building_and_process_maturing/asvs
 
-- title: '8.4 Mobile Application Security'
+- title: '8.5 Mobile Application Security'
   url: culture_building_and_process_maturing/mobile_application_security
 
 - title: '9. Operation'

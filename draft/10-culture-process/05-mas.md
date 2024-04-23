@@ -5,14 +5,14 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 1004
+order: 1005
 permalink: /draft/culture_building_and_process_maturing/mobile_application_security/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 8.4 Mobile Application Security
+### 8.5 Mobile Application Security
 
 The OWASP [Mobile Application Security][masproject] (MAS) flagship project has the mission statement:
 "Define the industry standard for mobile application security".
@@ -49,10 +49,10 @@ Each challenge has various solutions provided by the community; these can be use
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue1004] or [edit on GitHub][edit1004].
+then [submit an issue][issue1005] or [edit on GitHub][edit1005].
 
-[edit1004]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/10-culture-process/04-mas.md
-[issue1004]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2010-culture-process/04-mas
+[edit1005]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/10-culture-process/05-mas.md
+[issue1005]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2010-culture-process/05-mas
 [masproject]: https://owasp.org/www-project-mobile-app-security/
 [masandroid]: https://mas.owasp.org/crackmes/Android/
 [mascrack]: https://mas.owasp.org/crackmes/

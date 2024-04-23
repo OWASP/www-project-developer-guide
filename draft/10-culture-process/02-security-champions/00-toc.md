@@ -45,14 +45,14 @@ in addition to their existing one, and it is important that support is provided 
 
 Sections:
 
-8.1.1 [Security champions program](#security-champions-program)  
-8.1.3 [Security Champions Playbook](#security-champions-playbook)  
+8.2.1 [Security champions program](#security-champions-program)  
+8.2.3 [Security Champions Playbook](#security-champions-playbook)  
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing then [submit an issue][issue1010].
+The OWASP Developer Guide is a community effort; if there is something that needs changing then [submit an issue][issue1020].
 
-[issue1010]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2010-culture-process/01-security-champions/00-toc
+[issue1020]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2010-culture-process/02-security-champions/00-toc
 [sammg]: https://owaspsamm.org/model/governance/
 [sammgeg]: https://owaspsamm.org/model/governance/education-and-guidance/
 [sammgegtb]: https://owaspsamm.org/model/governance/education-and-guidance/stream-b/

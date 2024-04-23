@@ -115,12 +115,12 @@ This draft version has the latest contributions to the Developer Guide so expect
 7.9 [OWASP Snakes and Ladders](09-training-education/09-snakes-ladders.md)  
 
 8 **[Culture building and Process maturing](10-culture-process/toc.md)**  
-8.1 [Security Champions](10-culture-process/01-security-champions/toc.md)  
-8.1.1 [Security champions program](10-culture-process/01-security-champions/01-security-champions-program.md)  
-8.1.3 [Security Champions Playbook](10-culture-process/01-security-champions/03-security-champions-playbook.md)  
-8.2 [Software Assurance Maturity Model](10-culture-process/02-samm.md)  
-8.3 [Application Security Verification Standard](10-culture-process/03-asvs.md)  
-8.4 [Mobile Application Security](10-culture-process/04-mas.md)  
+8.2 [Security Champions](10-culture-process/01-security-champions/toc.md)  
+8.2.1 [Security champions program](10-culture-process/01-security-champions/01-security-champions-program.md)  
+8.2.3 [Security Champions Playbook](10-culture-process/01-security-champions/03-security-champions-playbook.md)  
+8.3 [Software Assurance Maturity Model](10-culture-process/02-samm.md)  
+8.4 [Application Security Verification Standard](10-culture-process/04-asvs.md)  
+8.5 [Mobile Application Security](10-culture-process/05-mas.md)  
 
 9 **[Operation](11-operation/toc.md)**  
 9.1 [ModSecurity Core Rule Set](11-operation/01-modsecurity-crs.md)  
