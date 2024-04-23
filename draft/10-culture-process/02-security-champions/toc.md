@@ -5,14 +5,14 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 1010
+order: 1020
 permalink: /draft/culture_building_and_process_maturing/security_champions/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 8.1 Security Champions
+### 8.2 Security Champions
 
 A 'Security Champion' is a member of a software development team who is
 the liaison between Information Security and developers.

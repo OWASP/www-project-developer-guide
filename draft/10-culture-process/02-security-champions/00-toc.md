@@ -11,7 +11,7 @@ order:
 
 {% include breadcrumb.html %}
 
-### 8.1 Security Champions
+### 8.2 Security Champions
 
 A 'Security Champion' is a member of a software development team who is
 the liaison between Information Security and developers.
