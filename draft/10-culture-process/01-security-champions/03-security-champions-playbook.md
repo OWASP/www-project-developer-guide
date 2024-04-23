@@ -5,14 +5,14 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 1012
+order: 1013
 permalink: /draft/culture_building_and_process_maturing/security_champions/security_champions_playbook/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 8.1.2 Security Champions Playbook
+### 8.1.3 Security Champions Playbook
 
 The [Security Champions Playbook][sec-champs] is a project that describes the process of establishing
 a Security Champions program within an organization.
@@ -48,10 +48,10 @@ Use these recommendations to build up a Security Champions program that is tailo
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue1012] or [edit on GitHub][edit1012].
+then [submit an issue][issue1013] or [edit on GitHub][edit1013].
 
-[issue1012]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2010-culture-process/01-security-champions/02-security-champions-playbook
-[edit1012]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/10-culture-process/01-security-champions/02-security-champions-playbook.md
+[issue1013]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2010-culture-process/01-security-champions/03-security-champions-playbook
+[edit1013]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/10-culture-process/01-security-champions/03-security-champions-playbook.md
 [sec-champs]: https://github.com/c0rdis/security-champions-playbook
 
 \newpage

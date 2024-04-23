@@ -29,7 +29,7 @@ Sections:
 
 8.1 [Security Champions](01-security-champions/toc.md)  
 8.1.1 [Security champions program](01-security-champions/01-security-champions-program.md)  
-8.1.2 [Security Champions Playbook](01-security-champions/02-security-champions-playbook.md)  
+8.1.3 [Security Champions Playbook](01-security-champions/03-security-champions-playbook.md)  
 8.2 [Software Assurance Maturity Model](02-samm.md)  
 8.3 [Application Security Verification Standard](03-asvs.md)  
 8.4 [Mobile Application Security](04-mas.md)  
