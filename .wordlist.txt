@@ -476,3 +476,4 @@ CISO
 iteratively
 ai
 Serverless
+proscriptive
