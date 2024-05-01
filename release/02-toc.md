@@ -22,6 +22,7 @@ permalink:
 2.3 [Principles of security](#principles-of-security)  
 2.4 [Principles of cryptography](#principles-of-cryptography)  
 2.5 [OWASP Top 10](#owasp-top-ten)  
+2.6 [Security champions](#security-champions)  
 
 3 **[Requirements](#requirements)**  
 3.1 [Requirements in practice](#requirements-in-practice)  
@@ -111,9 +112,7 @@ permalink:
 7.9 [OWASP Snakes and Ladders](#owasp-snakes-and-ladders)  
 
 8 **[Culture building and Process maturing](#culture-building-and-process-maturing)**  
-8.1 [Security Champions](#security-champions)  
-8.1.1 [Security champions program](#security-champions-program)  
-8.1.3 [Security Champions Playbook](#security-champions-playbook)  
+8.1 [Security Champions Playbook](#security-champions-playbook)  
 8.2 [Software Assurance Maturity Model](#software-assurance-maturity-model)  
 8.3 [Application Security Verification Standard](#application-security-verification-standard)  
 8.4 [Mobile Application Security](#mobile-application-security)  
