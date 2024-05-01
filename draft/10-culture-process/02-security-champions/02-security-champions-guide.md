@@ -17,7 +17,7 @@ permalink: /draft/culture_building_and_process_maturing/security_champions/secur
 The OWASP [Security Champions Guide][scguide] is a guidebook that helps organizations build
 a security champions program that can succeed over the long term.
 
-It is a relatively new [OWASP Incubator project][scguiderepo] and is available as an [http document][scguidedoc].
+It is a relatively new [OWASP Incubator project][scguiderepo] and is available as a [web document][scguidedoc].
 
 #### Overview
 

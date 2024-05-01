@@ -26,6 +26,7 @@ permalink: /release/
 2.3 [Principles of security](04-foundations/03-security-principles.md)  
 2.4 [Principles of cryptography](04-foundations/04-crypto-principles.md)  
 2.5 [OWASP Top 10](04-foundations/05-top-ten.md)  
+2.6 [Security champions](04-foundations/06-security-champions.md)  
 
 3 **[Requirements](05-requirements/toc.md)**  
 3.1 [Requirements in practice](05-requirements/01-requirements.md)  
@@ -114,13 +115,11 @@ permalink: /release/
 7.8 [WrongSecrets](09-training-education/08-wrongsecrets.md)  
 7.9 [OWASP Snakes and Ladders](09-training-education/09-snakes-ladders.md)  
 
-8 **[Culture building and Process maturing](10-culture-process/toc.md)**  
-8.1 [Security Champions](10-culture-process/01-security-champions/toc.md)  
-8.1.1 [Security champions program](10-culture-process/01-security-champions/06-security-champions.md)  
-8.1.3 [Security Champions Playbook](10-culture-process/01-security-champions/03-security-champions-playbook.md)  
-8.2 [Software Assurance Maturity Model](10-culture-process/02-samm.md)  
-8.3 [Application Security Verification Standard](10-culture-process/03-asvs.md)  
-8.4 [Mobile Application Security](10-culture-process/04-mas.md)  
+8 **[Culture building and Process maturing](10-culture-building-process-maturing/toc.md)**  
+8.1 [Security Champions Playbook](10-culture-building-process-maturing/01-security-champions-playbook.md)  
+8.2 [Software Assurance Maturity Model](10-culture-building-process-maturing/02-samm.md)  
+8.3 [Application Security Verification Standard](10-culture-building-process-maturing/03-asvs.md)  
+8.4 [Mobile Application Security](10-culture-building-process-maturing/04-mas.md)  
 
 9 **[Operation](11-operation/toc.md)**  
 9.1 [ModSecurity Core Rule Set](11-operation/01-modsecurity-crs.md)  

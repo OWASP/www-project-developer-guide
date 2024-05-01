@@ -46,6 +46,7 @@ in addition to their existing one, and it is important that support is provided 
 Sections:
 
 8.2.1 [Security champions program](#security-champions-program)  
+8.2.2 [Security Champions Guide](#security-champions-guide)  
 8.2.3 [Security Champions Playbook](#security-champions-playbook)  
 
 ----

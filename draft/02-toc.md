@@ -111,8 +111,10 @@ permalink:
 7.9 [OWASP Snakes and Ladders](#owasp-snakes-and-ladders)  
 
 8 **[Culture building and Process maturing](#culture-building-and-process-maturing)**  
+8.1 [Security Culture](#security-culture)  
 8.2 [Security Champions](#security-champions)  
 8.2.1 [Security champions program](#security-champions-program)  
+8.2.2 [Security Champions Guide](#security-champions-guide)  
 8.2.3 [Security Champions Playbook](#security-champions-playbook)  
 8.3 [Software Assurance Maturity Model](#software-assurance-maturity-model)  
 8.4 [Application Security Verification Standard](#application-security-verification-standard)  

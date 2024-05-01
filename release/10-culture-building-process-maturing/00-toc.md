@@ -26,9 +26,7 @@ The maturity of security processes and culture is wide ranging, with indicators 
 
 Sections:
 
-8.1 [Security Champions](#security-champions)  
-8.1.1 [Security champions program](#security-champions-program)  
-8.1.3 [Security Champions Playbook](#security-champions-playbook)  
+8.1 [Security Champions Playbook](#security-champions-playbook)  
 8.2 [Software Assurance Maturity Model](#software-assurance-maturity-model)  
 8.3 [Application Security Verification Standard](#application-security-verification-standard)  
 8.4 [Mobile Application Security](#mobile-application-security)  

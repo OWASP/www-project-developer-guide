@@ -21,8 +21,9 @@ Organization and Culture activities within the Governance business function of t
 
 #### Overview
 
-Referring to the OWASP [Security Culture project][scculture], it can be hard to introduce security across development teams
-using the application security team alone. Information security people do not scale across teams of developers.
+Referring to the OWASP [Security Culture project][culturechamps],
+it can be hard to introduce security across development teams using the application security team alone.
+Information security people do not scale across teams of developers.
 A good way to scale security and distribute security across development teams is by creating a security champion role
 and providing a Security Champions program to encourage a community spirit within the organization.
 
@@ -38,7 +39,7 @@ Security champions are active members of a development team that act as the "voi
 Security champions also provide visibility of their team's security activities to the application security team,
 and are seen as the first point of contact between developers and a central security team.
 
-There is no universally defined role for a security champion, but the [Security Culture project][scculture]
+There is no universally defined role for a security champion, but the [Security Culture project][culturechamps]
 provides various suggestions:
 
 * Evangelise security: promoting security best practice in their team,
@@ -81,7 +82,7 @@ increase the effectiveness of the application security team and improve the secu
 
 * [Security Champions Playbook][scplaybook]
 * OWASP [Security Champions Guide][scguide]
-* OWASP [Security Culture project][scculture]
+* OWASP [Security Culture project][culturedoc]
 
 ----
 
@@ -93,6 +94,7 @@ then [submit an issue][issue1021] or [edit on GitHub][edit1021].
 [sammgegoc]: https://owaspsamm.org/model/governance/education-and-guidance/stream-b/
 [scguide]: https://owasp.org/www-project-security-champions-guidebook/
 [scplaybook]: https://github.com/c0rdis/security-champions-playbook
-[scculture]: https://owasp.org/www-project-security-culture/stable/4-Security_Champions/
+[culturechamps]: https://owasp.org/www-project-security-culture/stable/4-Security_Champions/
+[culturedoc]: https://owasp.org/www-project-security-culture/stable/
 
 \newpage
