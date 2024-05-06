@@ -299,7 +299,7 @@ docs:
   url: operation
 
 - title: '9.1 DevSecOps Guideline'
-  url: operations/devsecops
+  url: operations/devsecops_guideline
 
 - title: '9.2 Coraza Web Application Firewall'
   url: operations/coraza_waf
