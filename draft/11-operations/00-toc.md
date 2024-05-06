@@ -5,14 +5,13 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 1100
-permalink: /draft/operation/
+order:
 
 ---
 
 {% include breadcrumb.html %}
 
-## 9. Operation
+## 9. Operations
 
 Operations are those activities necessary to ensure that confidentiality, integrity, and availability
 are maintained throughout the operational lifetime of an application and its associated data.
@@ -31,19 +30,20 @@ which are widely used for data and system management.
 
 Sections:
 
-9.1 [ModSecurity Core Rule Set](01-modsecurity-crs.md)  
-9.2 [Coraza Web Application Firewall](02-coraza.md)  
-9.3 [ModSecurity Web Application Firewall](03-modsecurity.md)  
+9.1 [DevSecOps Guideline](#devsecops-guideline)  
+9.2 [Coraza Web Application Firewall](#coraza-web-application-firewall)  
+9.3 [ModSecurity Web Application Firewall](#modsecurity-web-application-firewall)  
+9.4 [ModSecurity Core Rule Set](#modSecurity-core-rule-set)  
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue1100] or [edit on GitHub][edit1100].
+The OWASP Developer Guide is a community effort; if there is something that needs changing then [submit an issue][issue1100].
 
-[edit1100]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/11-operation/toc.md
-[issue1100]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2011-operation/00-toc
+[issue1100]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2011-operations/00-toc
 [samm]: https://owaspsamm.org/about/
 [sammo]: https://owaspsamm.org/model/operations/
 [sammoem]: https://owaspsamm.org/model/operations/environment-management/
 [sammoim]: https://owaspsamm.org/model/operations/incident-management
 [sammoom]: https://owaspsamm.org/model/operations/operational-management/
+
+\newpage

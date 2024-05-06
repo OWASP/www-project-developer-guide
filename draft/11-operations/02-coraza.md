@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 1102
-permalink: /draft/operation/coraza_waf/
+permalink: /draft/operations/coraza_waf/
 
 ---
 
@@ -63,8 +63,8 @@ then [submit an issue][issue1102] or [edit on GitHub][edit1102].
 [coraza-spoa]: https://coraza.io/connectors/coraza-spoa/
 [coraza-tutorial]: https://coraza.io/docs/tutorials/quick-start/
 [coraza-wasm]: https://github.com/corazawaf/coraza-proxy-wasm
-[edit1102]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/11-operation/02-coraza.md
-[issue1102]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2011-operation/02-coraza
+[edit1102]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/11-operations/02-coraza.md
+[issue1102]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2011-operations/02-coraza
 [modcrs]: https://owasp.org/www-project-modsecurity-core-rule-set/
 [modsecurity]: https://owasp.org/www-project-modsecurity/
 

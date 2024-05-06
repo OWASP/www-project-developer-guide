@@ -63,8 +63,9 @@ the [Security Champions Playbook][scplaybook].
 
 [Threat modelling][culturetm] is an activity that in itself is important within an organization,
 and it also has the benefit of helping communication between the security teams and development teams.
-[Security testing][culturetest] (such as SAST, DAST and IAST) is another domain where close collaboration
-is required within the organization: management, security, development and pipeline teams will all be involved.
+[Security testing][culturetest] (such as [SAST][dsosast], [DAST][dsodast] and [IAST][dsoiast])
+is another area where close collaboration is required within the organization:
+management, security, development and pipeline teams will all be involved.
 This has the added benefit, as with threat modeling, of promoting a good security culture / awareness
 within the organization - and can be a good indicator of where the security culture is succeeding.
 
@@ -90,6 +91,9 @@ then [submit an issue][issue1001] or [edit on GitHub][edit1001].
 [culturetest]: https://owasp.org/www-project-security-culture/v10/7-Security_Testing/
 [culturetm]: https://owasp.org/www-project-security-culture/v10/6-Threat_Modelling/
 [culturewhy]: https://owasp.org/www-project-security-culture/v10/2-Why_Add_Security_In_Development_Teams/
+[dsodast]: https://owasp.org/www-project-devsecops-guideline/latest/02b-Dynamic-Application-Security-Testing
+[dsoiast]: https://owasp.org/www-project-devsecops-guideline/latest/02c-Interactive-Application-Security-Testing
+[dsosast]: https://owasp.org/www-project-devsecops-guideline/latest/02a-Static-Application-Security-Testing
 [scplaybook]: https://github.com/c0rdis/security-champions-playbook
 
 \newpage

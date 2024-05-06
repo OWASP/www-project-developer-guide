@@ -9,8 +9,8 @@
 
 ### Document
 
-* [Release version 4.0](release)
-* Released [PDF][pdf] and [book][epub]
+* [Latest release](release)
+* Released [PDF][pdf] and [e-book][epub]
 * [Draft version](draft)
 
 ### License
