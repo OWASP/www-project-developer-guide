@@ -97,10 +97,10 @@ There are many OWASP tools and resources to help build security into the SDLC.
    within the development teams - ideally every team should have a security champion that has
    a special interest in security and has received further training, enabling the team to build security in.
 
-* **Operation**: the OWASP [DevSecOps Guideline][devsecops] explains how to best implement a secure pipeline,
-    using best practices and introducing automation tools to help 'shift-left'.
+* **Operations**: the OWASP [DevSecOps Guideline][devsecops] explains how to best implement a secure pipeline,
+    using best practices and automation tools to help 'shift-left' security issues.
     Refer to the DevSecOps Guideline for more information on any of the topics within DevSecOps
-    and in particular sections on Operation.
+    and in particular sections on Operations.
 
 * **Supply chain**: attacks that leverage the supply chain can be devastating
     and there have been several high profile of products being successfully exploited.

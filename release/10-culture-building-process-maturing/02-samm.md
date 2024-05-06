@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 10020
+order: 100200
 permalink: /release/culture_building_and_process_maturing/software_assurance_maturity_model/
 
 ---

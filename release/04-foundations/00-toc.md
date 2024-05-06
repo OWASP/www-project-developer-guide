@@ -26,6 +26,5 @@ Sections:
 2.3 [Principles of security](#principles-of-security)  
 2.4 [Principles of cryptography](#principles-of-cryptography)  
 2.5 [OWASP Top 10](#owasp-top-ten)  
-2.6 [Security champions](#security-champions)  
 
 ----
