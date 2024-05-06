@@ -30,7 +30,7 @@ which are widely used for data and system management.
 
 Sections:
 
-9.1 [ModSecurity Core Rule Set](#modSecurity-core-rule-set)  
+9.1 [DevSecOps Guideline](#devsecops-guideline)  
 9.2 [Coraza Web Application Firewall](#coraza-web-application-firewall)  
 9.3 [ModSecurity Web Application Firewall](#modsecurity-web-application-firewall)  
 9.4 [ModSecurity Core Rule Set](#modSecurity-core-rule-set)  

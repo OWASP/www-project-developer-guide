@@ -298,8 +298,8 @@ docs:
 - title: '9. Operation'
   url: operation
 
-- title: '9.1 ModSecurity Core Rule Set'
-  url: operation/modsecurity_core_rule_set
+- title: '9.1 DevSecOps Guideline'
+  url: operation/devsecops
 
 - title: '9.2 Coraza Web Application Firewall'
   url: operation/coraza_waf

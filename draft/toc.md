@@ -125,7 +125,7 @@ This draft version has the latest contributions to the Developer Guide so expect
 8.5 [Mobile Application Security](10-culture-process/05-mas.md)  
 
 9 **[Operation](11-operation/toc.md)**  
-9.1 [ModSecurity Core Rule Set](11-operation/01-modsecurity-crs.md)  
+9.1 [DevSecOps Guideline](11-operation/01-devsecops.md)  
 9.2 [Coraza Web Application Firewall](11-operation/02-coraza.md)  
 9.3 [ModSecurity Web Application Firewall](11-operation/03-modsecurity.md)  
 9.4 [ModSecurity Core Rule Set](11-operation/04-modsecurity-crs.md)  
