@@ -120,7 +120,7 @@ permalink:
 8.4 [Application Security Verification Standard](#application-security-verification-standard)  
 8.5 [Mobile Application Security](#mobile-application-security)  
 
-9 **[Operation](#operation)**  
+9 **[Operations](#operations)**  
 9.1 [DevSecOps Guideline](#devsecops-guideline)  
 9.2 [Coraza Web Application Firewall](#coraza-web-application-firewall)  
 9.3 [ModSecurity Web Application Firewall](#modsecurity-web-application-firewall)  

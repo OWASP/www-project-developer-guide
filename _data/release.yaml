@@ -295,20 +295,20 @@ docs:
 - title: '8.5 Mobile Application Security'
   url: culture_building_and_process_maturing/mobile_application_security
 
-- title: '9. Operation'
+- title: '9. Operations'
   url: operation
 
 - title: '9.1 DevSecOps Guideline'
-  url: operation/devsecops
+  url: operations/devsecops
 
 - title: '9.2 Coraza Web Application Firewall'
-  url: operation/coraza_waf
+  url: operations/coraza_waf
 
 - title: '9.3 ModSecurity Web Application Firewall'
-  url: operation/modsecurity_waf/
+  url: operations/modsecurity_waf/
 
 - title: '9.4 ModSecurity Core Rule Set'
-  url: operation/modsecurity_core_rule_set
+  url: operations/modsecurity_core_rule_set
 
 - title: '10. Metrics'
   url: metrics

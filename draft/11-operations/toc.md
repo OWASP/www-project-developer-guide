@@ -6,13 +6,13 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 1100
-permalink: /draft/operation/
+permalink: /draft/operations/
 
 ---
 
 {% include breadcrumb.html %}
 
-## 9. Operation
+## 9. Operations
 
 Operations are those activities necessary to ensure that confidentiality, integrity, and availability
 are maintained throughout the operational lifetime of an application and its associated data.
@@ -41,8 +41,8 @@ Sections:
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue1100] or [edit on GitHub][edit1100].
 
-[edit1100]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/11-operation/toc.md
-[issue1100]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2011-operation/00-toc
+[edit1100]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/11-operations/toc.md
+[issue1100]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2011-operations/00-toc
 [samm]: https://owaspsamm.org/about/
 [sammo]: https://owaspsamm.org/model/operations/
 [sammoem]: https://owaspsamm.org/model/operations/environment-management/

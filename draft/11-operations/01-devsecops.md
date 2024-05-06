@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 1101
-permalink: /draft/operation/devsecops/
+permalink: /draft/operations/devsecops/
 
 ---
 
@@ -28,8 +28,8 @@ The DevSecOps Guideline is in active development as an OWASP Production document
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue1101] or [edit on GitHub][edit1101].
 
-[edit1101]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/11-operation/01-devsecops.md
-[issue1101]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2011-operation/01-devsecops
+[edit1101]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/11-operations/01-devsecops.md
+[issue1101]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2011-operations/01-devsecops
 [devsecops]: https://owasp.org/www-project-devsecops-guideline/
 
 \newpage

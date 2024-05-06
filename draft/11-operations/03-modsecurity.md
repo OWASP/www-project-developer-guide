@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 1103
-permalink: /draft/operation/modsecurity_waf/
+permalink: /draft/operations/modsecurity_waf/
 
 ---
 
@@ -51,8 +51,8 @@ The OWASP Developer Guide is a community effort; if there is something that need
 then [submit an issue][issue1103] or [edit on GitHub][edit1103].
 
 [coraza]: https://coraza.io/
-[edit1103]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/11-operation/03-modsecurity.md
-[issue1103]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2011-operation/03-modsecurity
+[edit1103]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/11-operations/03-modsecurity.md
+[issue1103]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2011-operations/03-modsecurity
 [modcrs]: https://owasp.org/www-project-modsecurity-core-rule-set/
 [modcrsdocs]: https://coreruleset.org/
 [modsecdocs]: https://www.modsecurity.org/

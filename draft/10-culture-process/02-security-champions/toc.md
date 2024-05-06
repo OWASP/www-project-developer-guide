@@ -55,7 +55,7 @@ Sections:
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue1020] or [edit on GitHub][edit1020].
 
-[edit1020]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/10-culture-process/01-security-champions/toc.md
+[edit1020]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/10-culture-process/02-security-champions/toc.md
 [issue1020]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2010-culture-process/02-security-champions/00-toc
 [sammg]: https://owaspsamm.org/model/governance/
 [sammgeg]: https://owaspsamm.org/model/governance/education-and-guidance/
