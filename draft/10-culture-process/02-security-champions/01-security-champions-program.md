@@ -1,18 +1,18 @@
 ---
 
-title: Security Champions
+title: Security Champions Program
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 406
-permalink: /draft/foundations/security_champions/
+order: 1021
+permalink: /draft/culture_building_and_process_maturing/security_champions/security_champions_program/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 2.6 Security champions
+### 8.2.1 Security champions program
 
 A Security Champion program is a commonly used way of helping development teams successfully run a development lifecycle
 that is secure, and this is achieved by selecting members of teams to become Security Champions.
@@ -21,8 +21,9 @@ Organization and Culture activities within the Governance business function of t
 
 #### Overview
 
-Referring to the OWASP [Security Culture project][scculture], it can be hard to introduce security across development teams
-using the application security team alone. Information security people do not scale across teams of developers.
+Referring to the OWASP [Security Culture project][culturechamps],
+it can be hard to introduce security across development teams using the application security team alone.
+Information security people do not scale across teams of developers.
 A good way to scale security and distribute security across development teams is by creating a security champion role
 and providing a Security Champions program to encourage a community spirit within the organization.
 
@@ -38,7 +39,7 @@ Security champions are active members of a development team that act as the "voi
 Security champions also provide visibility of their team's security activities to the application security team,
 and are seen as the first point of contact between developers and a central security team.
 
-There is no universally defined role for a security champion, but the [Security Culture project][scculture]
+There is no universally defined role for a security champion, but the [Security Culture project][culturechamps]
 provides various suggestions:
 
 * Evangelise security: promoting security best practice in their team,
@@ -81,18 +82,19 @@ increase the effectiveness of the application security team and improve the secu
 
 * [Security Champions Playbook][scplaybook]
 * OWASP [Security Champions Guide][scguide]
-* OWASP [Security Culture project][scculture]
+* OWASP [Security Culture project][culturedoc]
 
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0406] or [edit on GitHub][edit0406].
+then [submit an issue][issue1021] or [edit on GitHub][edit1021].
 
-[issue0406]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/06-security-champions
-[edit0406]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/04-foundations/06-security-champions.md
+[issue1021]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2010-culture-process/02-security-champions/01-security-champions
+[edit1021]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/10-culture-process/02-security-champions/01-security-champions.md
 [sammgegoc]: https://owaspsamm.org/model/governance/education-and-guidance/stream-b/
 [scguide]: https://owasp.org/www-project-security-champions-guidebook/
 [scplaybook]: https://github.com/c0rdis/security-champions-playbook
-[scculture]: https://owasp.org/www-project-security-culture/stable/4-Security_Champions/
+[culturechamps]: https://owasp.org/www-project-security-culture/stable/4-Security_Champions/
+[culturedoc]: https://owasp.org/www-project-security-culture/stable/
 
 \newpage

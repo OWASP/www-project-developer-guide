@@ -27,18 +27,22 @@ The maturity of security processes and culture is wide ranging, with indicators 
 
 Sections:
 
-8.1 [Security Champions Playbook](01-security-champions-playbook.md)  
-8.2 [Software Assurance Maturity Model](02-samm.md)  
-8.3 [Application Security Verification Standard](03-asvs.md)  
-8.4 [Mobile Application Security](04-mas.md)  
+8.1 [Security Culture](01-security-culture.md)  
+8.2 [Security Champions](01-security-champions/toc.md)  
+8.2.1 [Security champions program](01-security-champions/01-security-champions-program.md)  
+8.2.2 [Security Champions Guide](01-security-champions/02-security-champions-guide.md)  
+8.2.3 [Security Champions Playbook](01-security-champions/03-security-champions-playbook.md)  
+8.3 [Software Assurance Maturity Model](03-samm.md)  
+8.4 [Application Security Verification Standard](04-asvs.md)  
+8.5 [Mobile Application Security](04-mas.md)  
 
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue1000] or [edit on GitHub][edit1000].
 
-[edit1000]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/10-culture-building-process-maturing/toc.md
-[issue1000]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2010-culture-building-process-maturing/00-toc
+[edit1000]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/10-culture-process/toc.md
+[issue1000]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2010-culture-process/00-toc
 [sammg]: https://owaspsamm.org/model/governance/
 [sammgeg]: https://owaspsamm.org/model/governance/education-and-guidance/
 [sammgegoc]: https://owaspsamm.org/model/governance/education-and-guidance/stream-b/
