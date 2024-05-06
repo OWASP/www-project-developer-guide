@@ -128,6 +128,7 @@ This draft version has the latest contributions to the Developer Guide so expect
 9.1 [ModSecurity Core Rule Set](11-operation/01-modsecurity-crs.md)  
 9.2 [Coraza Web Application Firewall](11-operation/02-coraza.md)  
 9.3 [ModSecurity Web Application Firewall](11-operation/03-modsecurity.md)  
+9.4 [ModSecurity Core Rule Set](11-operation/04-modsecurity-crs.md)  
 
 10 **[Metrics](12-metrics/toc.md)**  
 

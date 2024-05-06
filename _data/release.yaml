@@ -307,6 +307,9 @@ docs:
 - title: '9.3 ModSecurity Web Application Firewall'
   url: operation/modsecurity_waf/
 
+- title: '9.4 ModSecurity Core Rule Set'
+  url: operation/modsecurity_core_rule_set
+
 - title: '10. Metrics'
   url: metrics
 

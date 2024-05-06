@@ -97,4 +97,3 @@ then [submit an issue][issue1001] or [edit on GitHub][edit1001].
 [scplaybook]: https://github.com/c0rdis/security-champions-playbook
 
 \newpage
-
