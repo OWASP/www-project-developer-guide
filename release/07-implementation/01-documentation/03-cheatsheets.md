@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 7130
-permalink: /release/implementation/documentation/cheatsheets/
+order: 713
+permalink: /draft/implementation/documentation/cheatsheets/
 
 ---
 
@@ -59,6 +59,9 @@ The cheat sheets are continually being updated and are always open to contributi
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue070103] or [edit on GitHub][edit070103].
+
 [cheatproject]: https://owasp.org/www-project-cheat-sheets/
 [cheatsheets]: https://cheatsheetseries.owasp.org/
 [cheatsheet-alpha]: https://cheatsheetseries.owasp.org/Glossary.html
@@ -66,4 +69,8 @@ The cheat sheets are continually being updated and are always open to contributi
 [cheatsheet-masvs]: https://cheatsheetseries.owasp.org/IndexMASVS.html
 [cheatsheet-proactive]: https://cheatsheetseries.owasp.org/IndexProactiveControls.html
 [cheatsheet-top10]: https://cheatsheetseries.owasp.org/IndexTopTen.html
+[edit070103]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/01-documentation/03-cheatsheets.md
+[issue070103]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2007-implementation/01-documentation/03-cheatsheets
 [spotlight04]: https://youtu.be/S1cVYRDeiPQ
+
+\newpage

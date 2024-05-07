@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 4010
-permalink: /release/foundations/security_fundamentals/
+order: 401
+permalink: /draft/foundations/security_fundamentals/
 
 ---
 
@@ -105,4 +105,11 @@ and the sections in the Developer Guide reference at least one of the Business F
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue0401] or [edit on GitHub][edit0401].
+
+[issue0401]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/01-security-fundamentals
+[edit0401]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/04-foundations/01-security-fundamentals.md
 [samm]: https://owaspsamm.org/about/
+
+\newpage

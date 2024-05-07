@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 7230
-permalink: /release/implementation/dependencies/cyclonedx/
+order: 723
+permalink: /draft/implementation/dependencies/cyclonedx/
 
 ---
 
@@ -66,6 +66,9 @@ and [various tools][cyclonedx-tools] can be chosen that are able to export the S
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue070203] or [edit on GitHub][edit070203].
+
 [cyclonedx]: https://cyclonedx.org/
 [cyclonedx-bomlink]: https://cyclonedx.org/capabilities/bomlink/
 [cyclonedx-bov]: https://cyclonedx.org/capabilities/bov/
@@ -81,4 +84,8 @@ and [various tools][cyclonedx-tools] can be chosen that are able to export the S
 [cyclonedx-tools]: https://cyclonedx.org/tool-center/
 [cyclonedx-vdr]: https://cyclonedx.org/capabilities/vdr/
 [cyclonedx-vex]: https://cyclonedx.org/capabilities/vex/
+[edit070203]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/02-dependencies/03-cyclonedx.md
+[issue070203]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2007-implementation/02-dependencies/03-cyclonedx
 [spotlight21]: https://youtu.be/qEG6cxwl8os
+
+\newpage

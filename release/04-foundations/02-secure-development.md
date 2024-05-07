@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 4020
-permalink: /release/foundations/secure_development/
+order: 402
+permalink: /draft/foundations/secure_development/
 
 ---
 
@@ -97,10 +97,10 @@ There are many OWASP tools and resources to help build security into the SDLC.
    within the development teams - ideally every team should have a security champion that has
    a special interest in security and has received further training, enabling the team to build security in.
 
-* **Operation**: the OWASP [DevSecOps Guideline][devsecops] explains how to best implement a secure pipeline,
-    using best practices and introducing automation tools to help 'shift-left'.
+* **Operations**: the OWASP [DevSecOps Guideline][devsecops] explains how to best implement a secure pipeline,
+    using best practices and automation tools to help 'shift-left' security issues.
     Refer to the DevSecOps Guideline for more information on any of the topics within DevSecOps
-    and in particular sections on Operation.
+    and in particular sections on Operations.
 
 * **Supply chain**: attacks that leverage the supply chain can be devastating
     and there have been several high profile of products being successfully exploited.
@@ -170,6 +170,9 @@ There are many OWASP tools and resources to help build security into the SDLC.
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue0402] or [edit on GitHub][edit0402].
+
 [amass]: https://owasp.org/www-project-amass/
 [api-security]: https://owasp.org/www-project-api-security/
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
@@ -183,9 +186,11 @@ There are many OWASP tools and resources to help build security into the SDLC.
 [deptrack]: https://dependencytrack.org/
 [devsecops]: https://owasp.org/www-project-devsecops-guideline/
 [dojo]: https://www.defectdojo.org/
+[edit0402]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/04-foundations/02-secure-development.md
 [esapi-project]: https://owasp.org/www-project-enterprise-security-api/
 [github]: https://github.com/
 [gitlab]: https://about.gitlab.com/
+[issue0402]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/02-secure-development
 [juice]: https://owasp.org/www-project-juice-shop/
 [mas]: https://mas.owasp.org/
 [masproject]: https://owasp.org/www-project-mobile-app-security/
@@ -205,3 +210,5 @@ There are many OWASP tools and resources to help build security into the SDLC.
 [webgoat]: https://owasp.org/www-project-webgoat/
 [wstg]: https://owasp.org/www-project-web-security-testing-guide/
 [zap]: https://www.zaproxy.org/
+
+\newpage

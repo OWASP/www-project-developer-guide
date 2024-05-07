@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 8230
-permalink: /release/verification/tools/offensive_web_testing_framework/
+order: 823
+permalink: /draft/verification/tools/offensive_web_testing_framework/
 
 ---
 
@@ -45,8 +45,15 @@ and  the [install][owtfinstall] instructions may need adapting to run on MacOS o
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue080203] or [edit on GitHub][edit080203].
+
+[edit080203]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/02-tools/03-owtf.md
+[issue080203]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2008-verification/02-tools/03-owtf
 [kali]: https://www.kali.org/
 [owtfinstall]: https://owtf.readthedocs.io/en/develop/installation/methods.html
 [owtfdocs]: https://owtf.readthedocs.io/
 [owtfdownload]: https://github.com/owtf/owtf/releases
 [owtf]: https://owasp.org/www-project-owtf/
+
+\newpage

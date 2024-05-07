@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
 document: OWASP Developer Guide
-order: 8510
-permalink: /release/verification/dos_donts/secure_environment/
+order: 851
+permalink: /draft/verification/dos_donts/secure_environment/
 
 ---
 
@@ -67,3 +67,11 @@ Some of these are language specific and others have more general applicability.
     or protect against the discovered issue.
 
 ----
+
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue080501] or [edit on GitHub][edit080501].
+
+[issue080501]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2008-verification/05-dos-donts/01-secure-environment
+[edit080501]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/05-dos-donts/01-secure-environment.md
+
+\newpage

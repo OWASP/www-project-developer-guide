@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 7220
-permalink: /release/implementation/dependencies/dependency_track/
+order: 722
+permalink: /draft/implementation/dependencies/dependency_track/
 
 ---
 
@@ -65,7 +65,14 @@ for a step by step guide to this configuration process.
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue070202] or [edit on GitHub][edit070202].
+
 [deptrack]: https://dependencytrack.org/
 [deptrack-docs]: https://docs.dependencytrack.org/
 [deptrack-project]: https://owasp.org/www-project-dependency-track/
+[edit070202]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/02-dependencies/02-dependency-track.md
+[issue070202]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2007-implementation/02-dependencies/02-dependency-track
 [spotlight15]: https://youtu.be/irnZuLq4MDM
+
+\newpage

@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
 document: OWASP Developer Guide
-order: 7420
-permalink: /release/implementation/dos_donts/secure_coding/
+order: 742
+permalink: /draft/implementation/dos_donts/secure_coding/
 
 ---
 
@@ -333,5 +333,12 @@ Also not exploitable: `{""result"": [{""object"": ""inside an array""}]}"`
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue070402] or [edit on GitHub][edit070402].
+
+[issue070402]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/04-dos-donts/02-secure-coding
+[edit070402]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/04-dos-donts/02-secure-coding.md
 [rfc7518]: https://www.rfc-editor.org/rfc/rfc7518
 [trace]: https://www.blackhillsinfosec.com/three-minutes-with-the-http-trace-method/
+
+\newpage

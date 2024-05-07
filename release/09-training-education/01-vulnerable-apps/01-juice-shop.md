@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 9110
-permalink: /release/training_education/vulnerable_applications/juice_shop/
+order: 911
+permalink: /draft/training_education/vulnerable_applications/juice_shop/
 
 ---
 
@@ -76,7 +76,12 @@ In the appendix there is a complete step-by-step solution to every challenge for
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue090101] or [edit on GitHub][edit090101].
+
 [dockerinstall]: https://docs.docker.com/engine/install/
+[edit090101]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/01-vulnerable-apps/01-juice-shop.md
+[issue090101]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2009-training-education/01-vulnerable-apps/01-juice-shop
 [juice]: https://owasp.org/www-project-juice-shop/
 [juicectf]: https://owasp.org/www-project-juice-shop/#div-ctf
 [juicedocker]: https://hub.docker.com/r/bkimminich/juice-shop
@@ -84,3 +89,5 @@ In the appendix there is a complete step-by-step solution to every challenge for
 [juicetutorial]: https://owasp.org/www-project-juice-shop/#div-learning
 [webhook]: https://pwning.owasp-juice.shop/companion-guide/latest/part4/integration.html#_challenge_solution_webhook
 [spotlight25]: https://youtu.be/--50rE76EeA
+
+\newpage

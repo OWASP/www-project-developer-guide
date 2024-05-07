@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 9240
-permalink: /release/training_education/mobile_top_ten/
+order: 924
+permalink: /draft/training_education/mobile_top_ten/
 
 ---
 
@@ -79,7 +79,12 @@ and [released in February 2017][ssdg-2017] to inform the latest set of mobile ap
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue0906] or [edit on GitHub][edit0906].
+
+[edit0906]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/06-mobile-top-ten.md
 [enisa]: https://www.enisa.europa.eu/
+[issue0906]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2009-training-education/06-mobile-top-ten
 [m01]: https://owasp.org/www-project-mobile-top-10/2023-risks/m1-improper-credential-usage.html
 [m02]: https://owasp.org/www-project-mobile-top-10/2023-risks/m2-inadequate-supply-chain-security.html
 [m03]: https://owasp.org/www-project-mobile-top-10/2023-risks/m3-insecure-authentication-authorization.html
@@ -98,3 +103,5 @@ and [released in February 2017][ssdg-2017] to inform the latest set of mobile ap
 [mobile10repo]: https://github.com/OWASP/www-project-mobile-top-10/blob/master/README.md
 [ssdg-2011]: https://www.enisa.europa.eu/publications/smartphone-secure-development-guidelines/at_download/fullReport
 [ssdg-2017]: https://www.enisa.europa.eu/publications/smartphone-secure-development-guidelines-2016
+
+\newpage

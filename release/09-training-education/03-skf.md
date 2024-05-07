@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 9210
-permalink: /release/training_education/security_knowledge_framework/
+order: 921
+permalink: /draft/training_education/security_knowledge_framework/
 
 ---
 
@@ -59,7 +59,12 @@ This will provide access to the practice labs, the training courses and also to 
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue0903] or [edit on GitHub][edit0903].
+
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
+[edit0903]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/03-skf.md
+[issue0903]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2009-training-education/03-security-knowledge-framework
 [linuxtraining]: https://training.linuxfoundation.org/full-catalog/
 [skf]: https://www.securityknowledgeframework.org/
 [skfdemo]: https://secureby.design/
@@ -68,3 +73,5 @@ This will provide access to the practice labs, the training courses and also to 
 [skflabs]: https://secureby.design/labs
 [skfrepo]: https://github.com/Security-Knowledge-Framework
 [skfreqs]: https://starfish-app-kd3eo.ondigitalocean.app/
+
+\newpage

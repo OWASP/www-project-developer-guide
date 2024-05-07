@@ -5,9 +5,9 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 9270
+order: 927
 
-permalink: /release/training_education/snakes_and_ladders/
+permalink: /draft/training_education/snakes_and_ladders/
 
 ---
 
@@ -66,10 +66,17 @@ but this last option no longer seems to be available.
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue0909] or [edit on GitHub][edit0909].
+
 [cornucopia]: https://owasp.org/www-project-cornucopia/
+[edit0909]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/09-snakes-ladders.md
+[issue0909]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2009-training-education/09-snakes-ladders
 [mobile10-2014]: https://owasp.org/www-project-mobile-top-10/2014-risks/
 [mobile10controls]: https://owasp.org/www-project-mobile-top-10/#div-controls
 [proactive10]: https://owasp.org/www-project-proactive-controls/
 [snakes]: https://owasp.org/www-project-snakes-and-ladders/
 [snakeshowto]: https://owasp.org/www-project-snakes-and-ladders/#div-play
 [top10]: https://owasp.org/www-project-top-ten/
+
+\newpage

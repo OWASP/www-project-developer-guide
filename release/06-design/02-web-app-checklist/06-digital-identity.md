@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 6260
-permalink: /release/design/web_app_checklist/digital_identity/
+order: 626
+permalink: /draft/design/web_app_checklist/digital_identity/
 
 ---
 
@@ -99,9 +99,16 @@ and use the list below as suggestions for a checklist that has been tailored for
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue060206] or [edit on GitHub][edit060206].
+
 [control6]: https://owasp.org/www-project-proactive-controls/v3/en/c6-digital-identity
 [csauth]: https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html
 [cspass]: https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html
 [csforgot]: https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html
 [cssession]: https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html
+[issue060206]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/02-web-app-checklist/06-digital-identity
+[edit060206]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/02-web-app-checklist/06-digital-identity.md
 [proactive10]: https://owasp.org/www-project-proactive-controls/
+
+\newpage

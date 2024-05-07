@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 6210
-permalink: /release/design/web_app_checklist/define_security_requirements/
+order: 621
+permalink: /draft/design/web_app_checklist/define_security_requirements/
 
 ---
 
@@ -70,7 +70,14 @@ and use the lists below as suggestions for a checklist that has been tailored fo
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue060201] or [edit on GitHub][edit060201].
+
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [control1]: https://owasp.org/www-project-proactive-controls/v3/en/c1-security-requirements
+[issue060201]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/02-web-app-checklist/01-define-security-requirements
 [mas]: https://mas.owasp.org/
+[edit060201]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/02-web-app-checklist/01-define-security-requirements.md
 [proactive10]: https://owasp.org/www-project-proactive-controls/
+
+\newpage

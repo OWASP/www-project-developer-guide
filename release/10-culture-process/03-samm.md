@@ -5,14 +5,14 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 10020
-permalink: /release/culture_building_and_process_maturing/software_assurance_maturity_model/
+order: 1003
+permalink: /draft/culture_building_and_process_maturing/software_assurance_maturity_model/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 8.2 Software Assurance Maturity Model
+### 8.3 Software Assurance Maturity Model
 
 The [Software Assurance Maturity Model][samm] (SAMM) project provides an effective and measurable way for
 an organization to analyze and improve their secure development lifecycle processes.
@@ -67,6 +67,11 @@ which can be used as feedback into the culture of the organization.
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue1003] or [edit on GitHub][edit1003].
+
+[edit1003]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/10-culture-process/03-samm.md
+[issue1003]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2010-culture-process/03-samm
 [samm]: https://owaspsamm.org/about/
 [samma]: https://owaspsamm.org/assessment/
 [sammd]: https://owaspsamm.org/model/design/
@@ -77,3 +82,5 @@ which can be used as feedback into the culture of the organization.
 [sammv]: https://owaspsamm.org/model/verification
 [samm-project]: https://owasp.org/www-project-samm/
 [spotlight09]: https://youtu.be/N0zcZnkH5Wg
+
+\newpage

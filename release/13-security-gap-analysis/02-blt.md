@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 13200
-permalink: /release/security_gap_analysis/bug_logging_tool/
+order: 1320
+permalink: /draft/security_gap_analysis/bug_logging_tool/
 
 ---
 
@@ -48,8 +48,15 @@ and encourage users/reporters to use the [BLT app][bltapp] and chrome [extension
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue1102] or [edit on GitHub][edit1102].
+
 [blt]: https://owasp.org/www-project-bug-logging-tool/
 [bltchrome]: https://github.com/OWASP/BLT-Extension
 [bltcore]: https://github.com/OWASP/BLT
 [bltapp]: https://github.com/OWASP/BLT-Flutter
 [bltsite]: https://blt.owasp.org/
+[edit1102]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/13-security-gap-analysis/02-blt.md
+[issue1102]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2013-security-gap-analysis/02-blt
+
+\newpage

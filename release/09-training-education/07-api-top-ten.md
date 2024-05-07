@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 9250
-permalink: /release/training_education/api_top_ten/
+order: 925
+permalink: /draft/training_education/api_top_ten/
 
 ---
 
@@ -46,6 +46,9 @@ to assist them when acting as security builders, breakers, and defenders for an 
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue0907] or [edit on GitHub][edit0907].
+
 [api01]: https://owasp.org/API-Security/editions/2023/en/0xa1-broken-object-level-authorization/
 [api02]: https://owasp.org/API-Security/editions/2023/en/0xa2-broken-authentication/
 [api03]: https://owasp.org/API-Security/editions/2023/en/0xa3-broken-object-property-level-authorization/
@@ -59,3 +62,7 @@ to assist them when acting as security builders, breakers, and defenders for an 
 [api-security]: https://owasp.org/API-Security
 [api-security-doc]: https://owasp.org/API-Security/editions/2023/en/0x00-header/
 [api-security-project]: https://owasp.org/www-project-api-security/
+[edit0907]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/07-api-top-ten.md
+[issue0907]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2009-training-education/07-api-top-ten
+
+\newpage

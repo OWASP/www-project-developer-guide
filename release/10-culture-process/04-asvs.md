@@ -5,14 +5,14 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 10030
-permalink: /release/culture_building_and_process_maturing/asvs/
+order: 1004
+permalink: /draft/culture_building_and_process_maturing/asvs/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 8.3 Application Security Verification Standard
+### 8.4 Application Security Verification Standard
 
 The [Application Security Verification Standard][asvs] (ASVS) is a long established OWASP flagship project,
 and is widely used to build a culture of security as well as verification of web applications.
@@ -84,6 +84,9 @@ requirements and incorporate them into the process and culture of the organizati
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue1004] or [edit on GitHub][edit1004].
+
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [asvsL123]: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x03-Using-ASVS.md#application-security-verification-levels
 [asvsmd]: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x00-Header.md
@@ -101,5 +104,9 @@ requirements and incorporate them into the process and culture of the organizati
 [asvsV12]: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x20-V12-Files-Resources.md#v12-files-and-resources
 [asvsV13]: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x21-V13-API.md#v13-api-and-web-service
 [asvsV14]: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x22-V14-Config.md#v14-configuration
+[edit1004]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/10-culture-process/04-asvs.md
+[issue1004]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2010-culture-process/04-asvs
 [spotlight19]: https://youtu.be/3puIavsZfAk
 [srat]: https://owasp.org/www-project-securityrat/
+
+\newpage

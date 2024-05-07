@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 8220
-permalink: /release/verification/tools/amass/
+order: 822
+permalink: /draft/verification/tools/amass/
 
 ---
 
@@ -54,9 +54,16 @@ The extensive [Amass tutorial][amass-tutorial] provides the best way of learning
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue080202] or [edit on GitHub][edit080202].
+
 [amass]: https://owasp.org/www-project-amass/
 [amass-docs]: https://github.com/owasp-amass/amass/blob/master/doc/user_guide.md
 [amass-download]: https://github.com/owasp-amass/amass/releases
 [amass-install]: https://github.com/owasp-amass/amass/blob/master/doc/install.md
 [amass-tutorial]: https://github.com/owasp-amass/amass/blob/master/doc/tutorial.md
+[edit080202]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/02-tools/02-amass.md
+[issue080202]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2008-verification/02-tools/02-amass
 [kali]: https://www.kali.org/
+
+\newpage

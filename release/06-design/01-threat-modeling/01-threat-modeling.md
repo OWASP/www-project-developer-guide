@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Adam Shostack, Jon Gadsden
 document: OWASP Developer Guide
-order: 6110
-permalink: /release/design/threat_modeling/practical_threat_modeling/
+order: 611
+permalink: /draft/design/threat_modeling/practical_threat_modeling/
 
 ---
 
@@ -252,6 +252,9 @@ then that is also a perfectly good choice.
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue060101] or [edit on GitHub][edit060101].
+
 [4QFW]: https://github.com/adamshostack/4QuestionFrame
 [asacs]: https://cheatsheetseries.owasp.org/cheatsheets/Attack_Surface_Analysis_Cheat_Sheet.html
 [capec]: https://capec.mitre.org/
@@ -259,6 +262,8 @@ then that is also a perfectly good choice.
 [cia]: https://www.nccoe.nist.gov/publication/1800-25/VolA/index.html
 [corncards]: https://owasp.org/www-project-cornucopia/
 [eop]: https://shostack.org/games/elevation-of-privilege
+[edit060101]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/01-threat-modeling/01-threat-modeling.md
+[issue060101]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/01-threat-modeling/01-threat-modeling
 [linddun]: https://www.linddun.org/
 [nist-cvss]: https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator
 [otm]: https://owasp.org/www-project-threat-model/
@@ -279,3 +284,5 @@ then that is also a perfectly good choice.
 [TMdesigning]: https://shostack.org/books/threat-modeling-book
 [TMpractical]: https://threatmodeling.dev/
 [TMT]: https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool
+
+\newpage

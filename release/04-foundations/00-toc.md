@@ -26,6 +26,11 @@ Sections:
 2.3 [Principles of security](#principles-of-security)  
 2.4 [Principles of cryptography](#principles-of-cryptography)  
 2.5 [OWASP Top 10](#owasp-top-ten)  
-2.6 [Security champions](#security-champions)  
 
 ----
+
+The OWASP Developer Guide is a community effort; if there is something that needs changing then [submit an issue][issue0400].
+
+[issue0400]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/00-toc
+
+\newpage

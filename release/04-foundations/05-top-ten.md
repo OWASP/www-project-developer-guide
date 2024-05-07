@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 4050
-permalink: /release/foundations/owasp_top_ten/
+order: 405
+permalink: /draft/foundations/owasp_top_ten/
 
 ---
 
@@ -168,15 +168,19 @@ may also be referred to as 'OWASP Top 10'. Here is a list of the stable 'OWASP T
 * [Data Security Top 10][data10]
 * [Low-Code/No-Code Top 10][lcnc10]
 * [Mobile Top 10][mobile10]
+* [Serverless Top 10][serverless10]
 * [Top 10 CI/CD Security Risks][cicd10]
 * [Top 10 for Large Language Model Applications][llm10]
 * [Top 10 Privacy Risks][privacy10]
 * [Top 10 Proactive Controls][proactive10]
 * [Top 10 Web Application Security Risks][top10]
 
-There are other OWASP Top 10s that are still being worked on as 'incubator' projects so this list may change.
+Many of the OWASP Top 10s that are being worked on as 'incubator' projects so this list will change.
 
 ----
+
+The OWASP Developer Guide is a community effort; if you see something that needs changing
+then [submit an issue][issue0405] or [edit on GitHub][edit0405].
 
 [a01]: https://owasp.org/Top10/A01_2021-Broken_Access_Control/
 [a01cs]: https://cheatsheetseries.owasp.org/IndexTopTen.html#a012021-broken-access-control
@@ -202,11 +206,16 @@ There are other OWASP Top 10s that are still being worked on as 'incubator' proj
 [cwe284]: https://cwe.mitre.org/data/definitions/284.html
 [data10]: https://owasp.org/www-project-data-security-top-10/
 [exploit]: https://www.exploit-db.com/
+[issue0405]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/05-top-ten
 [lcnc10]: https://owasp.org/www-project-top-10-low-code-no-code-security-risks/
 [mobile10]: https://owasp.org/www-project-mobile-top-10/
+[edit0405]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/04-foundations/05-top-ten.md
 [privacy10]: https://owasp.org/www-project-top-10-privacy-risks/
 [proactive10]: https://owasp.org/www-project-proactive-controls/
 [samm]: https://owaspsamm.org/about/
+[serverless10]: https://owasp.org/www-project-serverless-top-10/
 [tmcs]: https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html
 [top10]: https://owasp.org/www-project-top-ten/
 [llm10]: https://owasp.org/www-project-top-10-for-large-language-model-applications/
+
+\newpage

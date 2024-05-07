@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 6130
-permalink: /release/design/threat_modeling/threat_dragon/
+order: 613
+permalink: /draft/design/threat_modeling/threat_dragon/
 
 ---
 
@@ -70,9 +70,16 @@ and GRC compliance purposes; from the threat model meta-data window click on the
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue060103] or [edit on GitHub][edit060103].
+
+[issue060103]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/01-threat-modeling/03-threat-dragon
+[edit060103]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/01-threat-modeling/03-threat-dragon.md
 [tddemo]: https://www.threatdragon.com/#/
 [tdcode]: https://github.com/OWASP/threat-dragon
 [tddocker]: https://hub.docker.com/r/owasp/threat-dragon/tags
 [tddownload]: https://github.com/OWASP/threat-dragon/releases
 [tdtm]: https://owasp.org/www-project-threat-dragon/
 [spotlight22]: https://youtu.be/hUOAoc6QGJo
+
+\newpage

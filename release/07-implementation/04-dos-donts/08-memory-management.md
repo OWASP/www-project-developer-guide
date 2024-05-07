@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
 document: OWASP Developer Guide
-order: 7480
-permalink: /release/implementation/dos_donts/memory_management/
+order: 748
+permalink: /draft/implementation/dos_donts/memory_management/
 
 ---
 
@@ -27,3 +27,11 @@ Here is a collection of Do's and Don'ts when it comes to memory management, gath
 * Properly free allocated memory upon the completion of functions and at all exit points.
 
 ----
+
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue070408] or [edit on GitHub][edit070408].
+
+[issue070408]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/04-dos-donts/08-memory-management
+[edit070408]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/04-dos-donts/08-memory-management.md
+
+\newpage
