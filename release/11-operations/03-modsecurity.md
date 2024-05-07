@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 1103
-permalink: /draft/operations/modsecurity_waf/
+order: 110300
+permalink: /release/operation/modsecurity_waf/
 
 ---
 

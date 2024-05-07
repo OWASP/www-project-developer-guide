@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 1005
-permalink: /draft/culture_building_and_process_maturing/mobile_application_security/
+order: 100400
+permalink: /release/culture_building_and_process_maturing/mobile_application_security/
 
 ---
 

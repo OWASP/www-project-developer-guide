@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 1104
-permalink: /draft/operations/modsecurity_core_rule_set/
+order: 110100
+permalink: /release/operation/modsecurity_core_rule_set/
 
 ---
 

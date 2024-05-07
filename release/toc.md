@@ -16,7 +16,7 @@ permalink: /draft/
 
 ## OWASP Developer Guide (draft)
 
-This draft version has the latest contributions to the Developer Guide so expect frequent changes in the content.
+### Release version 4.1.0
 
 1 **[Introduction](03-introduction.md)**
 

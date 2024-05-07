@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 1100
-permalink: /draft/operations/
+order: 110000
+permalink: /release/operation/
 
 ---
 
