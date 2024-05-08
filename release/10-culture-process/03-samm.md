@@ -72,8 +72,8 @@ which can be used as feedback into the culture of the organization.
 [sammd]: https://owaspsamm.org/model/design/
 [sammfun]: https://owaspsamm.thinkific.com/courses/samm
 [sammg]: https://owaspsamm.org/model/governance/
-[sammi]: https://owaspsamm.org/model/implementation
-[sammo]: https://owaspsamm.org/model/operations
-[sammv]: https://owaspsamm.org/model/verification
+[sammi]: https://owaspsamm.org/model/implementation/
+[sammo]: https://owaspsamm.org/model/operations/
+[sammv]: https://owaspsamm.org/model/verification/
 [samm-project]: https://owasp.org/www-project-samm/
 [spotlight09]: https://youtu.be/N0zcZnkH5Wg

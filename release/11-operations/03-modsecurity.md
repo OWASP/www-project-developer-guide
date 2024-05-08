@@ -14,14 +14,14 @@ permalink: /release/operations/modsecurity_waf/
 
 ### 9.3 ModSecurity Web Application Firewall
 
-[ModSecurity][modsecurity] is an open source Web Application Firewall (WAF) widely deployed on web servers
+[ModSecurity][modsec] is an open source Web Application Firewall (WAF) widely deployed on web servers
 that has been in continuous development and widespread use since 2002.
 
 In 2024 it became an OWASP Production project, supported by the existing leadership and contributors.
 
 #### What is ModSecurity?
 
-In January 2024 the [ModSecurity][modsecurity] Web Application Firewall project was [adopted by OWASP][modsecpress],
+In January 2024 the [ModSecurity][modsec] Web Application Firewall project was [adopted by OWASP][modsec-press],
 previously [TrustWave][trustwave] had been the custodian of this project.
 ModSecurity itself has a long history as an open source project, the first release was in November 2002,
 and is widely used as a web application firewall for cloud and on-premises web servers.
@@ -42,15 +42,14 @@ or deployed within the web server itself, to provide protection against HTTP att
 
 The rules applied to the HTTP traffic are provided as configuration to ModSecurity,
 and these rules allow many different actions to be applied such as blocking traffic, redirecting requests, and many more.
-See the documentation for [deploying and running][modsecdocs] ModSecurity,
-along with the documentation on configuring ModSecurity with the [Core Rule Set][modcrsdocs].
+See the documentation for [deploying and running][modsec-docs] ModSecurity,
+along with the documentation on configuring ModSecurity with the [Core Rule Set][modcrs].
 
 ----
 
 [coraza]: https://coraza.io/
-[modcrs]: https://owasp.org/www-project-modsecurity-core-rule-set/
-[modcrsdocs]: https://coreruleset.org/
-[modsecdocs]: https://www.modsecurity.org/
-[modsecurity]: https://owasp.org/www-project-modsecurity/
-[modsecpress]: https://owasp.org/blog/2024/01/09/ModSecurity.html
+[modcrs]: https://coreruleset.org/
+[modsec]: https://owasp.org/www-project-modsecurity/
+[modsec-docs]: https://www.modsecurity.org/
+[modsec-press]: https://owasp.org/blog/2024/01/09/ModSecurity.html
 [trustwave]: https://www.trustwave.com/

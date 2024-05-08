@@ -14,11 +14,11 @@ permalink: /release/training_education/api_top_ten/
 
 ### 7.7 API Top 10
 
-The OWASP [API Security Project][api-security] (API Top 10) explains strategies and solutions to help the understanding
+The OWASP [API Security Project][apisec] (API Top 10) explains strategies and solutions to help the understanding
 and mitigation of the unique vulnerabilities and security risks of Application Programming Interfaces (APIs).
 
-The [API Top 10][api-security-project] is an OWASP Laboratory Project
-which is accessed as a [web based document][api-security-doc].
+The [API Top 10][apisec-project] is an OWASP Laboratory Project
+which is accessed as a [web based document][apisec-doc].
 
 #### What is the API Top 10?
 
@@ -41,7 +41,7 @@ as well as a documentation portal for best practices when creating or assessing 
 #### Why use it?
 
 Most software projects use APIs in some form or another.
-Developers and security engineers should be encouraged to refer to the [API Security Project][api-security]
+Developers and security engineers should be encouraged to refer to the [API Security Top 10][apisec]
 to assist them when acting as security builders, breakers, and defenders for an organization.
 
 ----
@@ -56,6 +56,6 @@ to assist them when acting as security builders, breakers, and defenders for an 
 [api08]: https://owasp.org/API-Security/editions/2023/en/0xa8-security-misconfiguration/
 [api09]: https://owasp.org/API-Security/editions/2023/en/0xa9-improper-inventory-management/
 [api10]: https://owasp.org/API-Security/editions/2023/en/0xaa-unsafe-consumption-of-apis/
-[api-security]: https://owasp.org/API-Security
-[api-security-doc]: https://owasp.org/API-Security/editions/2023/en/0x00-header/
-[api-security-project]: https://owasp.org/www-project-api-security/
+[apisec]: https://owasp.org/API-Security
+[apisec-doc]: https://owasp.org/API-Security/editions/2023/en/0x00-header/
+[apisec-project]: https://owasp.org/www-project-api-security/
