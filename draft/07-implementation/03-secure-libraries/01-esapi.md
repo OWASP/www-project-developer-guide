@@ -59,7 +59,7 @@ The OWASP Developer Guide is a community effort; if there is something that need
 then [submit an issue][issue070301] or [edit on GitHub][edit070301].
 
 [bean]: http://beanvalidation.org/
-[csrfguard]: https://owasp.org/www-project-csrfguard
+[csrfguard]: https://owasp.org/www-project-csrfguard/
 [edit070301]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/03-secure-libraries/01-esapi.md
 [esapi-docs]: https://www.javadoc.io/doc/org.owasp.esapi/esapi/latest/index.html
 [esapi-java]: https://mvnrepository.com/artifact/org.owasp.esapi/esapi

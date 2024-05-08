@@ -164,7 +164,7 @@ This is a new category introduced in 2021 with a single (for now) [Cheat Sheet][
 There are various 'Top 10' projects created by OWASP that, depending on the context,
 may also be referred to as 'OWASP Top 10'. Here is a list of the stable 'OWASP Top 10' projects:
 
-* [API Security Top 10][api-security]
+* [API Security Top 10][apisec]
 * [Data Security Top 10][data10]
 * [Low-Code/No-Code Top 10][lcnc10]
 * [Mobile Top 10][mobile10]
@@ -201,7 +201,7 @@ then [submit an issue][issue0405] or [edit on GitHub][edit0405].
 [a09cs]: https://cheatsheetseries.owasp.org/IndexTopTen.html#a092021-security-logging-and-monitoring-failures
 [a10]: https://owasp.org/Top10/A10_2021-Server-Side_Request_Forgery_%28SSRF%29/
 [a10cs]: https://cheatsheetseries.owasp.org/IndexTopTen.html#a102021-server-side-request-forgery-ssrf
-[api-security]: https://owasp.org/www-project-api-security/
+[apisec]: https://owasp.org/API-Security
 [cicd10]: https://owasp.org/www-project-top-10-ci-cd-security-risks/
 [cwe284]: https://cwe.mitre.org/data/definitions/284.html
 [data10]: https://owasp.org/www-project-data-security-top-10/

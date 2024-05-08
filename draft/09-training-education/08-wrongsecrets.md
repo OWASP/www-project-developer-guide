@@ -50,7 +50,7 @@ You can set WrongSecrets up in standalone or in capture the flag (CTF) mode on D
 
 Set-up guides for the standalone version are available in the [project README][readme].
 
-For the CTF, the project also provides [set-up guides][ctf] and a [Helm chart][helm].
+For the CTF, the project also provides [set-up guides][ctf] and a [Helm chart][wrongsecrets-helm].
 
 ---
 
@@ -59,7 +59,7 @@ then [submit an issue][issue0908] or [edit on GitHub][edit0908].
 
 [ctf]: https://github.com/OWASP/wrongsecrets/blob/master/ctf-instructions.md
 [edit0908]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/08-wrongsecrets.md
-[helm]: https://owasp.org/wrongsecrets-ctf-party/
+[wrongsecrets-helm]: https://owasp.org/wrongsecrets-ctf-party/
 [heroku]: https://wrongsecrets.herokuapp.com/
 [issue0908]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2009-training-education/08-wrongsecrets
 [readme]: https://github.com/OWASP/wrongsecrets/blob/master/README.md

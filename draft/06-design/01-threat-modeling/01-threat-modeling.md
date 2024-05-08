@@ -264,7 +264,7 @@ then [submit an issue][issue060101] or [edit on GitHub][edit060101].
 [eop]: https://shostack.org/games/elevation-of-privilege
 [edit060101]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/01-threat-modeling/01-threat-modeling.md
 [issue060101]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/01-threat-modeling/01-threat-modeling
-[linddun]: https://www.linddun.org/
+[linddun]: https://linddun.org/
 [nist-cvss]: https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator
 [otm]: https://owasp.org/www-project-threat-model/
 [pasta]: https://versprite.com/blog/what-is-pasta-threat-modeling/
