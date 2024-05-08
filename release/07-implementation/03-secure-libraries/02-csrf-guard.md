@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 732
-permalink: /draft/implementation/secure_libraries/csrf_guard/
+order: 7320
+permalink: /release/implementation/secure_libraries/csrf_guard/
 
 ---
 
@@ -43,14 +43,7 @@ Follow the [instructions][csrfguard-build] to build CSRFGuard into the Java appl
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue070302] or [edit on GitHub][edit070302].
-
 [csrfguard]: https://owasp.org/www-project-csrfguard/
 [csrfguard-build]: https://github.com/OWASP/www-project-csrfguard/blob/master/readme.md#using-with-maven
 [csrfguard-nexus]: https://oss.sonatype.org/#nexus-search;gav~~csrfguard~~~
 [csrfguard-maven]: https://central.sonatype.com/search?q=csrfguard&smo=true
-[edit070302]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/03-secure-libraries/02-csrf-guard.md
-[issue070302]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2007-implementation/03-secure-libraries/02-csrf-guard
-
-\newpage

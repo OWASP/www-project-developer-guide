@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 731
-permalink: /draft/implementation/secure_libraries/esapi/
+order: 7310
+permalink: /release/implementation/secure_libraries/esapi/
 
 ---
 
@@ -55,22 +55,15 @@ There is a reference implementation for each security control.
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue070301] or [edit on GitHub][edit070301].
-
 [bean]: http://beanvalidation.org/
 [csrfguard]: https://owasp.org/www-project-csrfguard
-[edit070301]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/03-secure-libraries/01-esapi.md
 [esapi-docs]: https://www.javadoc.io/doc/org.owasp.esapi/esapi/latest/index.html
 [esapi-java]: https://mvnrepository.com/artifact/org.owasp.esapi/esapi
 [esapi-project]: https://owasp.org/www-project-enterprise-security-api/
 [esapi-question]: https://owasp.org/www-project-enterprise-security-api/#div-shouldiuseesapi
 [google-keyczar]: https://github.com/google/keyczar
 [google-tink]: https://github.com/google/tink
-[issue070301]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2007-implementation/03-secure-libraries/01-esapi
 [java-encoder]: https://owasp.org/www-project-java-encoder
 [java-sanitizer]: https://owasp.org/www-project-java-html-sanitizer
 [shiro]: https://shiro.apache.org/
 [spring]: https://docs.spring.io/spring-security/reference/features/index.html
-
-\newpage

@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 506
-permalink: /draft/requirements/mobile_application_security/
+order: 5060
+permalink: /release/requirements/mobile_application_security/
 
 ---
 
@@ -53,14 +53,7 @@ Inspect each control within MASVS and regard it as a potential security requirem
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0506] or [edit on GitHub][edit0506].
-
-[edit0506]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/05-requirements/06-mas.md
-[issue0506]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-requirements/06-mas
 [mas]: https://mas.owasp.org/
 [masproject]: https://owasp.org/www-project-mobile-app-security/
 [mastg]: https://mas.owasp.org/MASTG/
 [masvs]: https://mas.owasp.org/MASVS/
-
-\newpage

@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 400
-permalink: /draft/foundations/
+order: 4000
+permalink: /release/foundations/
 
 ---
 
@@ -29,9 +29,3 @@ Sections:
 2.5 [OWASP Top 10](05-top-ten.md)  
 
 ----
-
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0400] or [edit on GitHub][edit0400].
-
-[edit0400]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/04-foundations/toc.md
-[issue0400]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/00-toc

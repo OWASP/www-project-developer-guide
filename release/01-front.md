@@ -14,8 +14,6 @@ permalink:
 
 ## ![Developer Guide](../assets/images/dg_logo.png)
 
-## OWASP Developer Guide (draft)
+## OWASP Developer Guide
 
-This draft version has the latest contributions to the Developer Guide so expect frequent changes in the content.
-
-\newpage
+### Release version main

@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 502
-permalink: /draft/requirements/risk_profile/
+order: 5020
+permalink: /release/requirements/risk_profile/
 
 ---
 
@@ -96,17 +96,10 @@ Examples:
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0502] or [edit on GitHub][edit0502].
-
 [cvss]: https://www.first.org/cvss/
-[issue0502]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-requirements/02-risk
 [nist]: https://csrc.nist.gov/publications/detail/sp/800-30/rev-1/final
-[edit0502]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/05-requirements/02-risk.md
 [rra]: https://infosec.mozilla.org/guidelines/risk/rapid_risk_assessment.html
 [rrm]: https://owasp.org/www-community/OWASP_Risk_Rating_Methodology
 [rrs]: https://infosec.mozilla.org/guidelines/assessing_security_risk
 [samm]: https://owaspsamm.org/about/
 [tra]: https://cyber.gc.ca/en/guidance/harmonized-tra-methodology-tra-1
-
-\newpage

@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 914
-permalink: /draft/training_education/vulnerable_applications/security_shepherd/
+order: 9140
+permalink: /release/training_education/vulnerable_applications/security_shepherd/
 
 ---
 
@@ -54,11 +54,6 @@ Security Shepherd has modes which it can be used for different training goals:
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue090104] or [edit on GitHub][edit090104].
-
-[edit090104]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/01-vulnerable-apps/04-security-shepherd.md
-[issue090104]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2009-training-education/01-vulnerable-apps/04-security-shepherd
 [sec-shep]: https://owasp.org/www-project-security-shepherd/
 [sec-shep-docker]: https://github.com/OWASP/SecurityShepherd/wiki/Docker-Environment-Setup
 [sec-shep-repo]: https://github.com/OWASP/SecurityShepherd
@@ -66,5 +61,3 @@ then [submit an issue][issue090104] or [edit on GitHub][edit090104].
 [sec-shep-vm]: https://github.com/OWASP/SecurityShepherd/wiki/Using-the-Shepherd-VM
 [sec-shep-windows]: https://github.com/OWASP/SecurityShepherd/wiki/Manual-Shepherd-Set-Up-(Windows)
 [vbox]: https://www.virtualbox.org/wiki/Downloads
-
-\newpage

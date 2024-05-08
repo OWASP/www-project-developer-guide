@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 821
-permalink: /draft/verification/tools/zed_attack_proxy/
+order: 8210
+permalink: /release/verification/tools/zed_attack_proxy/
 
 ---
 
@@ -51,11 +51,6 @@ or automatically within a CI/CD environment - and definitely check out the [Head
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue080201] or [edit on GitHub][edit080201].
-
-[edit080201]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/02-tools/01-zap.md
-[issue080201]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2008-verification/02-tools/01-zap
 [lf]: https://www.linuxfoundation.org/
 [spotlight12]: https://youtu.be/usIlW8Q-hc4
 [ssp]: https://softwaresecurityproject.org/
@@ -63,5 +58,3 @@ then [submit an issue][issue080201] or [edit on GitHub][edit080201].
 [zapdownload]: https://www.zaproxy.org/download/
 [zaphud]: https://www.zaproxy.org/getting-started/#the-heads-up-display
 [zapstart]: https://www.zaproxy.org/getting-started/
-
-\newpage

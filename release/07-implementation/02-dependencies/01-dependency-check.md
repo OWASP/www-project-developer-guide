@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 721
-permalink: /draft/implementation/dependencies/dependency_check/
+order: 7210
+permalink: /release/implementation/dependencies/dependency_check/
 
 ---
 
@@ -70,9 +70,6 @@ into a pipeline which can then generate the SCA reports.
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue070201] or [edit on GitHub][edit070201].
-
 [a06]: https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/
 [adoptium]: https://adoptium.net/
 [cpe]: https://nvd.nist.gov/products/cpe
@@ -80,9 +77,5 @@ then [submit an issue][issue070201] or [edit on GitHub][edit070201].
 [depcheck]: https://owasp.org/www-project-dependency-check/
 [depcheck-docs]: https://jeremylong.github.io/DependencyCheck/
 [depcheck-download]: https://github.com/jeremylong/DependencyCheck/releases
-[edit070201]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/02-dependencies/01-dependency-check.md
-[issue070201]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2007-implementation/02-dependencies/01-dependency-check
 [nist-db]: https://nvd.nist.gov/
 [spotlight02]: https://youtu.be/YAXf3TaAYeA
-
-\newpage

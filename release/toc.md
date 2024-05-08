@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 200
-permalink: /draft/
+order: 2000
+permalink: /release/
 
 ---
 
@@ -14,9 +14,9 @@ permalink: /draft/
 
 ![Developer Guide](../assets/images/dg_logo.png "OWASP Developer Guide"){: height="220px" }
 
-## OWASP Developer Guide (draft)
+## OWASP Developer Guide
 
-This draft version has the latest contributions to the Developer Guide so expect frequent changes in the content.
+### Release version main
 
 1 **[Introduction](03-introduction.md)**
 

@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 900
-permalink: /draft/training_education/
+order: 9000
+permalink: /release/training_education/
 
 ---
 
@@ -45,11 +45,6 @@ Sections:
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0900] or [edit on GitHub][edit0900].
-
-[edit0900]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/toc.md
-[issue0900]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2009-training-education/00-toc
 [sammg]: https://owaspsamm.org/model/governance/
 [sammgeg]: https://owaspsamm.org/model/governance/education-and-guidance/
 [sammgegta]: https://owaspsamm.org/model/governance/education-and-guidance/stream-a/

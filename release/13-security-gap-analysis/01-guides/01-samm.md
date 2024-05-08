@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 1311
-permalink: /draft/security_gap_analysis/guides/software_assurance_maturity_model/
+order: 13110
+permalink: /release/security_gap_analysis/guides/software_assurance_maturity_model/
 
 ---
 
@@ -65,11 +65,6 @@ The [SAMM Assessment][samma] tools include spreadsheets and online tools such as
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue130101] or [edit on GitHub][edit130101].
-
-[edit130101]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/13-security-gap-analysis/01-guides/01-samm.md
-[issue130101]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2013-security-gap-analysis/01-guides/01-samm
 [samm]: https://owaspsamm.org/about/
 [samma]: https://owaspsamm.org/assessment/
 [sammd]: https://owaspsamm.org/model/design/
@@ -81,5 +76,3 @@ then [submit an issue][issue130101] or [edit on GitHub][edit130101].
 [samwise]: https://github.com/owaspsamm/sammwise
 [sammy]: https://sammy.codific.com/
 [spotlight09]: https://youtu.be/N0zcZnkH5Wg
-
-\newpage

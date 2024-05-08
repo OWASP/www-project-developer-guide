@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 1022
-permalink: /draft/culture_building_and_process_maturing/security_champions/security_champions_guide/
+order: 10220
+permalink: /release/culture_building_and_process_maturing/security_champions/security_champions_guide/
 
 ---
 
@@ -77,11 +77,6 @@ and will help to sustain the existing program.
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue1022] or [edit on GitHub][edit1022].
-
-[issue1022]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2010-culture-process/02-security-champions/02-security-champions-guide
-[edit1022]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/10-culture-process/02-security-champions/02-security-champions-guide.md
 [scguide]: https://owasp.org/www-project-security-champions-guidebook/
 [scguide1]: https://owasp.org/www-project-security-champions-guidebook/#1-be-passionate-about-security
 [scguide2]: https://owasp.org/www-project-security-champions-guidebook/#2-start-with-a-clear-vision-for-your-program
@@ -95,5 +90,3 @@ then [submit an issue][issue1022] or [edit on GitHub][edit1022].
 [scguide10]: https://owasp.org/www-project-security-champions-guidebook/#10-anticipate-personnel-changes
 [scguidedoc]: https://owasp.org/www-project-security-champions-guidebook/#1-be-passionate-about-security
 [scguiderepo]: https://github.com/OWASP/www-project-security-champions-guidebook
-
-\newpage

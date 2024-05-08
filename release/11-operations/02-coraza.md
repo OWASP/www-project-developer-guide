@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 1102
-permalink: /draft/operations/coraza_waf/
+order: 11020
+permalink: /release/operations/coraza_waf/
 
 ---
 
@@ -53,9 +53,6 @@ There are multiple ways of running Coraza, and the one chosen will depend on an 
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue1102] or [edit on GitHub][edit1102].
-
 [coraza]: https://coraza.io/
 [coraza-caddy]: https://github.com/corazawaf/coraza-caddy
 [coraza-lib]: https://github.com/corazawaf/libcoraza
@@ -63,9 +60,5 @@ then [submit an issue][issue1102] or [edit on GitHub][edit1102].
 [coraza-spoa]: https://coraza.io/connectors/coraza-spoa/
 [coraza-tutorial]: https://coraza.io/docs/tutorials/quick-start/
 [coraza-wasm]: https://github.com/corazawaf/coraza-proxy-wasm
-[edit1102]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/11-operations/02-coraza.md
-[issue1102]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2011-operations/02-coraza
 [modcrs]: https://owasp.org/www-project-modsecurity-core-rule-set/
 [modsecurity]: https://owasp.org/www-project-modsecurity/
-
-\newpage

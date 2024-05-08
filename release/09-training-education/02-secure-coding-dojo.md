@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 920
-permalink: /draft/training_education/secure_coding_dojo/
+order: 9200
+permalink: /release/training_education/secure_coding_dojo/
 
 ---
 
@@ -59,15 +59,8 @@ to practice penetration testing.
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0902] or [edit on GitHub][edit0902].
-
 [codedojo]: https://securecodingdojo.owasp.org/
 [codedojo-insecure]: https://github.com/OWASP/SecureCodingDojo/wiki/Running-Insecure.Inc
 [codedojo-install]: https://github.com/OWASP/SecureCodingDojo/wiki/Deploying-with-Docker
 [codedojo-project]: https://owasp.org/www-project-secure-coding-dojo/
-[edit0902]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/02-secure-coding-dojo.md
-[issue0902]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2009-training-education/02-secure-coding-dojo
 [spotlight14]: https://youtu.be/7nVkDkL9cyE
-
-\newpage

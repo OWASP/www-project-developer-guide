@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 405
-permalink: /draft/foundations/owasp_top_ten/
+order: 4050
+permalink: /release/foundations/owasp_top_ten/
 
 ---
 
@@ -179,9 +179,6 @@ Many of the OWASP Top 10s that are being worked on as 'incubator' projects so th
 
 ----
 
-The OWASP Developer Guide is a community effort; if you see something that needs changing
-then [submit an issue][issue0405] or [edit on GitHub][edit0405].
-
 [a01]: https://owasp.org/Top10/A01_2021-Broken_Access_Control/
 [a01cs]: https://cheatsheetseries.owasp.org/IndexTopTen.html#a012021-broken-access-control
 [a02]: https://owasp.org/Top10/A02_2021-Cryptographic_Failures/
@@ -206,10 +203,8 @@ then [submit an issue][issue0405] or [edit on GitHub][edit0405].
 [cwe284]: https://cwe.mitre.org/data/definitions/284.html
 [data10]: https://owasp.org/www-project-data-security-top-10/
 [exploit]: https://www.exploit-db.com/
-[issue0405]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/05-top-ten
 [lcnc10]: https://owasp.org/www-project-top-10-low-code-no-code-security-risks/
 [mobile10]: https://owasp.org/www-project-mobile-top-10/
-[edit0405]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/04-foundations/05-top-ten.md
 [privacy10]: https://owasp.org/www-project-top-10-privacy-risks/
 [proactive10]: https://owasp.org/www-project-proactive-controls/
 [samm]: https://owaspsamm.org/about/
@@ -217,5 +212,3 @@ then [submit an issue][issue0405] or [edit on GitHub][edit0405].
 [tmcs]: https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html
 [top10]: https://owasp.org/www-project-top-ten/
 [llm10]: https://owasp.org/www-project-top-10-for-large-language-model-applications/
-
-\newpage

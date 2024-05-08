@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 720
-permalink: /draft/implementation/dependencies/
+order: 7200
+permalink: /release/implementation/dependencies/
 
 ---
 
@@ -41,12 +41,7 @@ Sections:
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0720] or [edit on GitHub][edit0702].
-
 [cve]: https://cve.mitre.org/
-[edit0702]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/02-dependencies/toc.md
-[issue0720]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/02-dependencies/00-toc
 [sammi]: https://owaspsamm.org/model/implementation/
 [sammisb]: https://owaspsamm.org/model/implementation/secure-build/
 [sammisbsd]: https://owaspsamm.org/model/implementation/secure-build/stream-b/

@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 811
-permalink: /draft/verification/guides/web_security_testing_guide/
+order: 8110
+permalink: /release/verification/guides/web_security_testing_guide/
 
 ---
 
@@ -83,15 +83,8 @@ and the tests should be tailored to provide at least the minimum test coverage w
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue080101] or [edit on GitHub][edit080101].
-
-[edit080101]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/01-guides/01-wstg.md
-[issue080101]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2008-verification/01-guides/01-wstg
 [spotlight01]: https://youtu.be/bxQPePVDbQk
 [wstg]: https://owasp.org/www-project-web-security-testing-guide/
 [wstg-framework]: https://owasp.org/www-project-web-security-testing-guide/latest/3-The_OWASP_Testing_Framework/0-The_Web_Security_Testing_Framework
 [wstg-howto]: https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/
 [wstg-latest]: https://owasp.org/www-project-web-security-testing-guide/stable/
-
-\newpage

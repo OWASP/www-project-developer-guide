@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 831
-permalink: /draft/verification/frameworks/secure_codebox/
+order: 8310
+permalink: /release/verification/frameworks/secure_codebox/
 
 ---
 
@@ -80,17 +80,10 @@ with the rest of the [documentation][codebox-docs] providing clear information o
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue080301] or [edit on GitHub][edit080301].
-
 [codebox]: https://www.securecodebox.io/
 [codebox-project]: https://owasp.org/www-project-securecodebox/
 [codebox-repo]: https://charts.securecodebox.io
 [codebox-start]: https://www.securecodebox.io/docs/getting-started/first-scans
 [codebox-docs]: https://www.securecodebox.io/docs/getting-started/installation
-[edit080301]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/03-frameworks/01-secure-codebox.md
 [helm]: https://helm.sh/
-[issue080301]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2008-verification/03-frameworks/01-secure-codebox
 [kube]: https://kubernetes.io/
-
-\newpage
