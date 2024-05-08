@@ -15,7 +15,7 @@ permalink: /draft/operations/coraza_waf/
 ### 9.2 Coraza Web Application Firewall
 
 The [OWASP Coraza][coraza-project] project provides a golang enterprise-grade Web Application Firewall framework
-that supports the [ModSecurity][modsecurity] seclang language
+that supports the [ModSecurity][modsec] seclang language
 and is completely compatible with the OWASP [Core Rule Set][modcrs] (CRS).
 Coraza is in active development as an OWASP Production code project,
 with the first stable version released in September 2021 and several releases since then.
@@ -37,7 +37,7 @@ Coraza can be deployed:
 
 Web Application Firewalls are usually the first line of defense against HTTP attacks on web applications and servers.
 The Coraza WAF is widely used for providing this security, especially for cloud applications,
-along with the original OWASP [ModSecurity][modsecurity] WAF.
+along with the original OWASP [ModSecurity][modsec] WAF.
 
 #### How to use Coraza
 
@@ -65,7 +65,7 @@ then [submit an issue][issue1102] or [edit on GitHub][edit1102].
 [coraza-wasm]: https://github.com/corazawaf/coraza-proxy-wasm
 [edit1102]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/11-operations/02-coraza.md
 [issue1102]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2011-operations/02-coraza
-[modcrs]: https://owasp.org/www-project-modsecurity-core-rule-set/
-[modsecurity]: https://owasp.org/www-project-modsecurity/
+[modcrs]: https://coreruleset.org/
+[modsec]: https://owasp.org/www-project-modsecurity/
 
 \newpage
