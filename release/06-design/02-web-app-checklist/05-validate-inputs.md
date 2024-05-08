@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 625
-permalink: /draft/design/web_app_checklist/validate_inputs/
+order: 6250
+permalink: /release/design/web_app_checklist/validate_inputs/
 
 ---
 
@@ -64,14 +64,7 @@ and use the list below as suggestions for a checklist that has been tailored for
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue060205] or [edit on GitHub][edit060205].
-
 [control5]: https://owasp.org/www-project-proactive-controls/v3/en/c5-validate-inputs
 [ivcs]: https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html
-[issue060205]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/02-web-app-checklist/05-validate-inputs
-[edit060205]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/02-web-app-checklist/05-validate-inputs.md
 [proactive10]: https://owasp.org/www-project-proactive-controls/
 [sanitizer]: https://www.owasp.org/index.php/OWASP_Java_HTML_Sanitizer
-
-\newpage

@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 614
-permalink: /draft/design/threat_modeling/cornucopia/
+order: 6140
+permalink: /release/design/threat_modeling/cornucopia/
 
 ---
 
@@ -80,18 +80,11 @@ as well as having a good time.
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue060104] or [edit on GitHub][edit060104].
-
 [appsensor]: https://owasp.org/www-project-appsensor/
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [cornucopia]: https://owasp.org/www-project-cornucopia/
 [cornucopia-cards]: https://owasp.org/www-project-cornucopia#div-cards
 [cornucopia-score]: https://owasp.org/www-project-cornucopia/assets/files/Cornucopia-scoresheet.pdf
 [cornucopia-play]: https://owasp.org/www-project-cornucopia#div-play
-[edit060104]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/01-threat-modeling/04-cornucopia.md
-[issue060104]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2006-design/01-threat-modeling/04-cornucopia
 [scp-v21]: https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/assets/docs/OWASP_SCP_Quick_Reference_Guide_v21.pdf
 [spotlight16]: https://youtu.be/NesxjEGX58s
-
-\newpage

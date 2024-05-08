@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 913
-permalink: /draft/training_education/vulnerable_applications/pygoat/
+order: 9130
+permalink: /release/training_education/vulnerable_applications/pygoat/
 
 ---
 
@@ -72,15 +72,8 @@ these are provided side by side and aid cross referencing to the latest OWASP To
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue090103] or [edit on GitHub][edit090103].
-
 [dockerinstall]: https://docs.docker.com/engine/install/
-[edit090103]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/01-vulnerable-apps/03-pygoat.md
-[issue090103]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2009-training-education/01-vulnerable-apps/03-pygoat
 [pygoat]: https://owasp.org/www-project-pygoat/
 [pygoatdocker]: https://github.com/adeyosemanputra/pygoat/blob/master/README.md#from-docker-compose
 [pygoathub]: https://hub.docker.com/r/pygoat/pygoat
 [pygoatrepo]: https://github.com/adeyosemanputra/pygoat/blob/master/README.md#from-sources
-
-\newpage

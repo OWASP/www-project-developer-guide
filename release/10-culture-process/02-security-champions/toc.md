@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 1020
-permalink: /draft/culture_building_and_process_maturing/security_champions/
+order: 10200
+permalink: /release/culture_building_and_process_maturing/security_champions/
 
 ---
 
@@ -52,11 +52,6 @@ Sections:
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue1020] or [edit on GitHub][edit1020].
-
-[edit1020]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/10-culture-process/02-security-champions/toc.md
-[issue1020]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2010-culture-process/02-security-champions/00-toc
 [sammg]: https://owaspsamm.org/model/governance/
 [sammgeg]: https://owaspsamm.org/model/governance/education-and-guidance/
 [sammgegtb]: https://owaspsamm.org/model/governance/education-and-guidance/stream-b/

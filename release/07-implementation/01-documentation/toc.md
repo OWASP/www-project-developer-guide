@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 710
-permalink: /draft/implementation/documentation/
+order: 7100
+permalink: /release/implementation/documentation/
 
 ---
 
@@ -30,11 +30,6 @@ Sections:
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0710] or [edit on GitHub][edit0710].
-
-[edit0710]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/01-documentation/toc.md
-[issue0710]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/01-documentation/00-toc
 [sammg]: https://owaspsamm.org/model/governance/
 [sammgeg]: https://owaspsamm.org/model/governance/education-and-guidance/
 [sammgegta]: https://owaspsamm.org/model/governance/education-and-guidance/stream-a/

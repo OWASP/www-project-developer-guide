@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
 document: OWASP Developer Guide
-order: 853
-permalink: /draft/verification/dos_donts/open_source_software/
+order: 8530
+permalink: /release/verification/dos_donts/open_source_software/
 
 ---
 
@@ -109,11 +109,3 @@ We realise it could be challenging, but if feasible, maintain a list of approved
     *******Don’t do it!!!*******
 
 ----
-
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue080503] or [edit on GitHub][edit080503].
-
-[edit080503]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/05-dos-donts/03-open-source-software.md
-[issue080503]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2008-verification/05-dos-donts/03-open-source-software
-
-\newpage

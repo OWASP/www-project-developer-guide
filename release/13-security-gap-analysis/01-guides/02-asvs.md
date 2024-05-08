@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 1312
-permalink: /draft/security_gap_analysis/guides/asvs/
+order: 13120
+permalink: /release/security_gap_analysis/guides/asvs/
 
 ---
 
@@ -67,9 +67,6 @@ The OWASP Spotlight series provides an overview of the ASVS and its uses:
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue130102] or [edit on GitHub][edit130102].
-
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [asvsL123]: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x03-Using-ASVS.md#application-security-verification-levels
 [asvsmd]: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x00-Header.md
@@ -87,8 +84,4 @@ then [submit an issue][issue130102] or [edit on GitHub][edit130102].
 [asvsV12]: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x20-V12-Files-Resources.md#v12-files-and-resources
 [asvsV13]: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x21-V13-API.md#v13-api-and-web-service
 [asvsV14]: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x22-V14-Config.md#v14-configuration
-[edit130102]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/13-security-gap-analysis/01-guides/02-asvs.md
-[issue130102]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2013-security-gap-analysis/01-guides/02-asvs
 [spotlight19]: https://youtu.be/3puIavsZfAk
-
-\newpage

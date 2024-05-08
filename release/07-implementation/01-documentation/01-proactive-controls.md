@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 711
-permalink: /draft/implementation/documentation/proactive_controls/
+order: 7110
+permalink: /release/implementation/documentation/proactive_controls/
 
 ---
 
@@ -50,9 +50,6 @@ described in the sections of the Proactive Controls that are relevant to the app
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue070101] or [edit on GitHub][edit070101].
-
 [control1]: https://owasp.org/www-project-proactive-controls/v3/en/c1-security-requirements
 [control2]: https://owasp.org/www-project-proactive-controls/v3/en/c2-leverage-security-frameworks-libraries
 [control3]: https://owasp.org/www-project-proactive-controls/v3/en/c3-secure-database
@@ -63,10 +60,6 @@ then [submit an issue][issue070101] or [edit on GitHub][edit070101].
 [control8]: https://owasp.org/www-project-proactive-controls/v3/en/c8-protect-data-everywhere
 [control9]: https://owasp.org/www-project-proactive-controls/v3/en/c9-security-logging
 [control10]: https://owasp.org/www-project-proactive-controls/v3/en/c10-errors-exceptions
-[edit070101]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/01-documentation/01-proactive-controls.md
-[issue070101]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2007-implementation/01-documentation/01-proactive-controls
 [proactive10]: https://owasp.org/www-project-proactive-controls/
 [proactive10-pdf]: https://github.com/OWASP/www-project-proactive-controls/tree/master/v3
 [spotlight08]: https://youtu.be/HRtYDCWOSc0
-
-\newpage

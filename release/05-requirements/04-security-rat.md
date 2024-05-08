@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 504
-permalink: /draft/requirements/security_rat/
+order: 5040
+permalink: /release/requirements/security_rat/
 
 ---
 
@@ -103,12 +103,7 @@ and so this may be a future development for SecurityRAT.
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0504] or [edit on GitHub][edit0504].
-
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
-[edit0504]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/05-requirements/04-security-rat.md
-[issue0504]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2005-requirements/04-security-rat
 [spotlight05]: https://youtu.be/HiaHXtzJ3DE
 [scat]: https://securityrat.github.io/int_securitycat.html#securitycat
 [srat]: https://owasp.org/www-project-securityrat/
@@ -116,5 +111,3 @@ then [submit an issue][issue0504] or [edit on GitHub][edit0504].
 [sratdeploy]: https://securityrat.github.io/depl_production.html
 [sratdocker]: https://hub.docker.com/r/securityrat/securityrat
 [sratdocs]: https://securityrat.github.io/
-
-\newpage
