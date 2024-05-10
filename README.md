@@ -18,7 +18,8 @@ Note that the original DevGuide repository has been deprecated in favour of this
 The source for the latest draft developer guide can be found under the ['draft'][draft] directory.
 The source is in markdown and is used to create the developer guide HTML, PDF and ePub outputs.
 The draft content is subject to large scale changes with no notice.
-The draft version is used for the Developer Guide in the ['release'][release] directory.
+The draft version provides the content for the released version of Developer Guide,
+in the ['release'][release] directory, during the automated release process.
 
 ### Contributing
 
@@ -38,6 +39,10 @@ is via the OWASP Slack [#project-developer-guide][project] project channel
 - [Vandana Verma](vandana.verma@owasp.org)
 - [Harold Blankenship](mailto:harold.blankenship@owasp.org)
 - [Jon Gadsden](mailto:jon.gadsden@owasp.org)
+
+----
+
+OWASP Developer Guide: _accessible security for system and application developers_
 
 [conduct]: code_of_conduct.md
 [guide]: contributing.md

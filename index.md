@@ -24,8 +24,8 @@ pitch: The Developer Guide allows businesses, developers, designers
 The [OWASP Developer Guide](release) provides an introduction to security concepts
 and a handy reference for application and system developers.
 This guide does not seek to replicate the many excellent sources on specific security topics;
-it will rarely tries to go into details on a subject and instead provides links for greater depth on these security topics.
-Instead the content of the Developer Guide aims to be accessible, introducing  practical security concepts
+it rarely tries to go into detail on a subject and instead provides links for greater depth on these security topics.
+The content of the Developer Guide aims to be accessible, introducing practical security concepts
 and providing enough detail to get developers started on various OWASP tools and documents.
 
 ### History
@@ -36,8 +36,8 @@ Version 1.0 of the Developer Guide was released in 2002
 and then there were various [releases][versions] up to version 2.0 in 2005.
 
 After much effort throughout 2023 and early 2024 the Developer Guide has been updated for the modern security landscape.
-The intended audience of the Developer Guide is on application developers (web, desktop, mobile, and cloud)
-and API developers, and has been written using contributions from the wider security community.
+The intended audience of the Developer Guide is application developers (web, desktop, mobile, and cloud)
+and API developers, and has been written using contributions from the wider application security community.
 
 The [draft version](draft) is a work in progress and is subject to large scale and frequent changes.
 Periodically the draft version is tagged and the contents promoted to the [release area](release) of the Developer Guide.
@@ -51,6 +51,10 @@ and discussions in the [project wiki][wiki].
 
 The easiest way to get in contact with the development community for this documentation project
 is via the OWASP Slack [#project-developer-guide][project] project channel (you may need to [subscribe][slack] first).
+
+----
+
+OWASP Developer Guide: _accessible security for system and application developers_
 
 [conduct]: code_of_conduct.md
 [contribution]: contributing.md
