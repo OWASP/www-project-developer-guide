@@ -259,7 +259,7 @@ then that is also a perfectly good choice.
 [cia]: https://www.nccoe.nist.gov/publication/1800-25/VolA/index.html
 [corncards]: https://owasp.org/www-project-cornucopia/
 [eop]: https://shostack.org/games/elevation-of-privilege
-[linddun]: https://www.linddun.org/
+[linddun]: https://linddun.org/
 [nist-cvss]: https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator
 [otm]: https://owasp.org/www-project-threat-model/
 [pasta]: https://versprite.com/blog/what-is-pasta-threat-modeling/

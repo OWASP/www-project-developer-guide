@@ -69,9 +69,9 @@ The [SAMM Assessment][samma] tools include spreadsheets and online tools such as
 [samma]: https://owaspsamm.org/assessment/
 [sammd]: https://owaspsamm.org/model/design/
 [sammg]: https://owaspsamm.org/model/governance/
-[sammi]: https://owaspsamm.org/model/implementation
-[sammo]: https://owaspsamm.org/model/operations
-[sammv]: https://owaspsamm.org/model/verification
+[sammi]: https://owaspsamm.org/model/implementation/
+[sammo]: https://owaspsamm.org/model/operations/
+[sammv]: https://owaspsamm.org/model/verification/
 [samm-project]: https://owasp.org/www-project-samm/
 [samwise]: https://github.com/owaspsamm/sammwise
 [sammy]: https://sammy.codific.com/

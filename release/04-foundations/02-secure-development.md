@@ -148,7 +148,7 @@ There are many OWASP tools and resources to help build security into the SDLC.
 
 #### OWASP training projects
 
-* [API Security Project][api-security] (API Top 10)
+* [API Security Project][apisec] (API Top 10)
 * [Juice Shop][juice]
 * [Mobile Top 10][mobile10]
 * [Security Shepherd][sec-shep]
@@ -171,7 +171,7 @@ There are many OWASP tools and resources to help build security into the SDLC.
 ----
 
 [amass]: https://owasp.org/www-project-amass/
-[api-security]: https://owasp.org/www-project-api-security/
+[apisec]: https://owasp.org/API-Security
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [cheatproject]: https://owasp.org/www-project-cheat-sheets/
 [cornucopia]: https://owasp.org/www-project-cornucopia/
