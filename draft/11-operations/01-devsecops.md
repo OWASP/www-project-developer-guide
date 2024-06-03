@@ -68,7 +68,7 @@ then [submit an issue][issue1101] or [edit on GitHub][edit1101].
 [dsoiast]: https://owasp.org/www-project-devsecops-guideline/latest/02c-Interactive-Application-Security-Testing
 [dsointro]: https://owasp.org/www-project-devsecops-guideline/latest/index
 [dsoivs]: https://owasp.org/www-project-devsecops-guideline/latest/02e-Infrastructure-Vulnerability-Scanning
-[dsonew]: https://github.com/OWASP/DevSecOpsGuideline/tree/master/documents
+[dsonew]: https://github.com/OWASP/DevSecOpsGuideline/tree/master/current-version
 [dsopdf]: https://github.com/OWASP/DevSecOpsGuideline/releases
 [dsosast]: https://owasp.org/www-project-devsecops-guideline/latest/02a-Static-Application-Security-Testing
 [dsosca]: https://owasp.org/www-project-devsecops-guideline/latest/02d-Software-Composition-Analysis
