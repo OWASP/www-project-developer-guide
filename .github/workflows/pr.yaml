@@ -9,7 +9,7 @@ on:
 jobs:
   link_checker:
     name: Link checker
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout markdown
         uses: actions/checkout@v4.1.1
@@ -25,7 +25,7 @@ jobs:
 
   md_linter:
     name: Lint markdown
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout markdown
         uses: actions/checkout@v4.1.1
@@ -38,7 +38,7 @@ jobs:
 
   spell_checker:
     name: Check spelling
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout markdown
         uses: actions/checkout@v4.1.1
@@ -48,7 +48,7 @@ jobs:
 
   export_draft:
     name: Export epub and pdf (Draft)
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     needs: [link_checker, md_linter, spell_checker]
     steps:
       - name: Checkout markdown
