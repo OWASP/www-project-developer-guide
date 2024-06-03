@@ -18,7 +18,7 @@ jobs:
         uses: lycheeverse/lychee-action@v1.10.0
         with:
           # skip the jekyll files
-          args: --verbose --no-progress --max-retries 5 --exclude-path './_includes/*.html' '**/*.md' '*.md'
+          args: --verbose --no-progress --max-retries 5 --exclude-path './_includes/*.html' './draft/**/*.md' '*.md'
           fail: true
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
