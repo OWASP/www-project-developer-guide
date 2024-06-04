@@ -9,38 +9,33 @@ on:
 
 # for security reasons the github actions are pinned to specific release versions
 jobs:
-  create_release:
-    name: Release pull-request
-    runs-on: ubuntu-22.04
+  create_artifacts:
+    name: Create artifacts
+    runs-on: ubuntu-24.04
 
     steps:
       - name: Checkout markdown
         uses: actions/checkout@v4.1.1
 
-      - name: Promote draft to release
+      - name: Fix up markdown
         run: |
           echo "GITHUB_WORKFLOW: ${GITHUB_WORKFLOW}"
           echo "GITHUB_REF_NAME: ${GITHUB_REF_NAME}"
-          cd draft
           pwd
-          find . -name "*.md" ! -name "info.md" -exec cp '{}' '../release/{}' \;
-
-      - name: Fix up markdown
-        run: |
-          pwd
-          find release -name "*.md" -exec sed -i "s|permalink: /draft/|permalink: /release/|" {} +
-          find release -name "*.md" -exec sed -i "/The OWASP Developer Guide is a community effort/d" {} +
-          find release -name "*.md" -exec sed -i "/edit on GitHub/d" {} +
-          find release -name "*.md" -exec sed -i "/www-project-developer-guide\/issues\/new?labels/d" {} +
-          find release -name "*.md" -exec sed -i "/www-project-developer-guide\/blob\/main/d" {} +
-          find release -name "*.md" -exec \
+          echo "rename draft to release"
+          find draft -name "*.md" -exec sed -i "s|permalink: /draft/|permalink: /release/|" {} +
+          find draft -name "*.md" -exec \
           sed -i "s/.*the latest contributions to the Developer Guide.*/\#\#\# Release version $GITHUB_REF_NAME/" {} +
-          find release -name "*.md" -exec sed -i "s/ (Draft)//gI" {} +
-          find release -name "*.md" -exec sed -i "/order: / s/$/0/" {} +
+          find draft -name "*.md" -exec sed -i "s/ (Draft)//gI" {} +
+          echo "remove contributing footer"
+          find draft -name "*.md" -exec sed -i "/The OWASP Developer Guide is a community effort/d" {} +
+          find draft -name "*.md" -exec sed -i "/edit on GitHub/d" {} +
+          find draft -name "*.md" -exec sed -i "/www-project-developer-guide\/issues\/new?labels/d" {} +
+          find draft -name "*.md" -exec sed -i "/www-project-developer-guide\/blob\/main/d" {} +
 
       - name: Combine markdown
         run: |
-          tail --lines=+14 -q $(find release -name "*[0-9]*.md" | sort) > release.markdown
+          tail --lines=+14 -q $(find draft -name "*[0-9]*.md" | sort) > release.markdown
           mkdir -p publish
 
       - name: Export to pdf
@@ -63,48 +58,70 @@ jobs:
             release/title.yaml
             release.markdown
 
-      - name: Save pdfs and epubs
+      - name: Store pdf and epub assets
         uses: actions/upload-artifact@v4.3.0
         with:
           name: export-docs
           path: publish
 
-      - name: Update pdfs and epubs
-        run: |
-          pwd && ls -hal publish
-          cp publish/OWASP_Developer_Guide.* assets/exports/.
+  create_release:
+    name: Create pull request
+    runs-on: ubuntu-24.04
+    needs: create_artifacts
 
-      - name: Remove newpage tags
+    steps:
+      - name: Checkout markdown
+        uses: actions/checkout@v4.1.1
+
+      - name: Promote draft to release
         run: |
+          echo "GITHUB_WORKFLOW: ${GITHUB_WORKFLOW}"
+          echo "GITHUB_REF_NAME: ${GITHUB_REF_NAME}"
+          cd draft && find . -name "*.md" ! -name "info.md" -exec cp '{}' '../release/{}' \;
+
+      - name: Fix up markdown
+        run: |
+          pwd
+          echo "rename draft to release"
+          find release -name "*.md" -exec sed -i "s|permalink: /draft/|permalink: /release/|" {} +
+          find release -name "*.md" -exec \
+          sed -i "s/.*the latest contributions to the Developer Guide.*/\#\#\# Release version $GITHUB_REF_NAME/" {} +
+          find release -name "*.md" -exec sed -i "s/ (Draft)//gI" {} +
+          echo "revise page ordering"
+          find release -name "*.md" -exec sed -i "/order: / s/$/0/" {} +
+          echo "remove newpage tags"
           find release -name "*.md" -exec sed -i '/newpage/d' {} +
-
-      - name: Remove multiple blank lines
-        run: |
+          echo "Remove multiple blank lines"
           find release -name "*.md" -exec sed -i ':a; /^\n*$/{ s/\n//; N;  ba};' {} +
           find release -name "*.md" -exec sed -i '${/^$/d;}' {} +
+
+      - name: Retrieve pdfs and epubs
+        uses: actions/download-artifact@v4.1.7
+        with:
+          name: export-docs
+
+      - name: Update pdf and epub assets
+        run: |
+          pwd && ls -hal
+          cp OWASP_Developer_Guide.pdf assets/exports/.
+          cp OWASP_Developer_Guide.epub assets/exports/.
 
       - name: Create pull request
         uses: peter-evans/create-pull-request@v6.0.2
         with:
           title: |
-            Release ${{ github.ref_name }} of Developer Guide 
+            Release ${{ github.ref_name }} of Developer Guide
           body: |
             **Summary** :  
-            Pull request automatically generated for the latest release version  
+            Automatically generated pull-request for the latest release version  
             
             **Description for the changelog** :  
-            release of version ${{ github.ref_name }} 
+            release of version ${{ github.ref_name }}  
             
             **Other info** :  
-            Please verify and then merge the pull request to update the release  
-          commit-message: update to release version ${{ github.ref_name }} 
+            Please verify and then update the release by merging the pull request  
+          commit-message: update to release version ${{ github.ref_name }}
           branch: update-release
           base: main
           labels: release
-          assignees: jgadsden
-          reviewers: |
-            jgadsden
-            alezza
-            Shruti-s-kulkarni
-            hblankenship
           draft: false

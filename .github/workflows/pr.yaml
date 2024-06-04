@@ -9,7 +9,7 @@ on:
 jobs:
   link_checker:
     name: Link checker
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout markdown
         uses: actions/checkout@v4.1.1
@@ -18,14 +18,14 @@ jobs:
         uses: lycheeverse/lychee-action@v1.10.0
         with:
           # skip the jekyll files
-          args: --verbose --no-progress --max-retries 5 --exclude-path './_includes/*.html' '**/*.md' '*.md'
+          args: --verbose --no-progress --max-retries 5 --exclude-path './_includes/*.html' './draft/**/*.md' '*.md'
           fail: true
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
   md_linter:
     name: Lint markdown
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout markdown
         uses: actions/checkout@v4.1.1
@@ -38,17 +38,17 @@ jobs:
 
   spell_checker:
     name: Check spelling
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout markdown
         uses: actions/checkout@v4.1.1
 
       - name: spell_checker
-        uses: rojopolis/spellcheck-github-actions@0.36.0
+        uses: rojopolis/spellcheck-github-actions@0.37.0
 
   export_draft:
     name: Export epub and pdf (Draft)
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     needs: [link_checker, md_linter, spell_checker]
     steps:
       - name: Checkout markdown
