@@ -68,6 +68,11 @@ The OWASP Spotlight series provides an overview of the SKF: 'Project 7 - [Securi
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue0503] or [edit on GitHub][edit0503].
+
+[edit0503]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/05-requirements/03-skf.md
+[issue0503]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-requirements/03-skf
 [skf]: https://www.securityknowledgeframework.org/
 [skfdemo]: https://secureby.design/
 [skfdocs]: https://skf.readme.io/docs/introduction

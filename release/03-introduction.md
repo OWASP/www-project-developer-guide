@@ -59,7 +59,12 @@ the Wayfinder mapping out the many OWASP tools, projects and documents with the 
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue03] or [edit on GitHub][edit03].
+
 [about]: https://owasp.org/about/
+[edit03]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/03-introduction.md
+[issue03]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2003-introduction
 [samm]: https://owaspsamm.org/about/
 [versions]: https://github.com/OWASP/DevGuide/wiki#old-versions
 [wayfinder]: https://owasp.org/www-project-integration-standards/

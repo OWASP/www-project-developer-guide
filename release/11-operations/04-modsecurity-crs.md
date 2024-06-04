@@ -45,8 +45,13 @@ The OWASP Spotlight series provides an overview of how to use this Core Rule Set
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue1104] or [edit on GitHub][edit1104].
+
 [coraza]: https://coraza.io/
 [coraza-tutorial]: https://coraza.io/docs/tutorials/quick-start/
+[edit1104]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/11-operations/04-modsecurity-crs.md
+[issue1104]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2011-operations/04-modsecurity-crs
 [modcrs]: https://coreruleset.org/
 [modcrs-download]: https://coreruleset.org/docs/deployment/install/
 [modcrs-project]: https://owasp.org/www-project-modsecurity-core-rule-set/

@@ -67,6 +67,11 @@ which can be used as feedback into the culture of the organization.
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue1003] or [edit on GitHub][edit1003].
+
+[edit1003]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/10-culture-process/03-samm.md
+[issue1003]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2010-culture-process/03-samm
 [samm]: https://owaspsamm.org/about/
 [samma]: https://owaspsamm.org/assessment/
 [sammd]: https://owaspsamm.org/model/design/

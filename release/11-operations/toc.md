@@ -38,6 +38,11 @@ Sections:
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue1100] or [edit on GitHub][edit1100].
+
+[edit1100]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/11-operations/toc.md
+[issue1100]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2011-operations/00-toc
 [samm]: https://owaspsamm.org/about/
 [sammo]: https://owaspsamm.org/model/operations/
 [sammoem]: https://owaspsamm.org/model/operations/environment-management/

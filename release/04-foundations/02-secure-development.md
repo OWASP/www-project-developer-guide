@@ -170,6 +170,9 @@ There are many OWASP tools and resources to help build security into the SDLC.
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue0402] or [edit on GitHub][edit0402].
+
 [amass]: https://owasp.org/www-project-amass/
 [apisec]: https://owasp.org/API-Security
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
@@ -183,9 +186,11 @@ There are many OWASP tools and resources to help build security into the SDLC.
 [deptrack]: https://dependencytrack.org/
 [devsecops]: https://owasp.org/www-project-devsecops-guideline/
 [dojo]: https://www.defectdojo.org/
+[edit0402]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/04-foundations/02-secure-development.md
 [esapi-project]: https://owasp.org/www-project-enterprise-security-api/
 [github]: https://github.com/
 [gitlab]: https://about.gitlab.com/
+[issue0402]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/02-secure-development
 [juice]: https://owasp.org/www-project-juice-shop/
 [mas]: https://mas.owasp.org/
 [masproject]: https://owasp.org/www-project-mobile-app-security/

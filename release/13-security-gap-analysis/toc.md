@@ -36,7 +36,12 @@ Sections:
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue1300] or [edit on GitHub][edit1300].
+
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
+[edit1300]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/13-security-gap-analysis/toc.md
 [iso27001]: https://www.iso.org/standard/82875.html
+[issue1300]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2013-security-gap-analysis/00-toc
 [masvs]: https://mas.owasp.org/MASVS/
 [samm]: https://owaspsamm.org/about/
