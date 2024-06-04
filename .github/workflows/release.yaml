@@ -67,6 +67,7 @@ jobs:
   create_release:
     name: Create pull request
     runs-on: ubuntu-24.04
+    needs: create_artifacts
 
     steps:
       - name: Checkout markdown
@@ -76,10 +77,7 @@ jobs:
         run: |
           echo "GITHUB_WORKFLOW: ${GITHUB_WORKFLOW}"
           echo "GITHUB_REF_NAME: ${GITHUB_REF_NAME}"
-          mkdir -p publish
-          cd draft
-          pwd
-          find . -name "*.md" ! -name "info.md" -exec cp '{}' '../release/{}' \;
+          cd draft && find . -name "*.md" ! -name "info.md" -exec cp '{}' '../release/{}' \;
 
       - name: Fix up markdown
         run: |
@@ -104,7 +102,7 @@ jobs:
 
       - name: Update pdf and epub assets
         run: |
-          pwd && ls -hal && ls -hal publish
+          pwd && ls -hal
           cp OWASP_Developer_Guide.pdf assets/exports/.
           cp OWASP_Developer_Guide.epub assets/exports/.
 
