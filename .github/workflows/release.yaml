@@ -98,14 +98,15 @@ jobs:
           find release -name "*.md" -exec sed -i '${/^$/d;}' {} +
 
       - name: Retrieve pdfs and epubs
-        uses: actions/download-artifact@v4.3.0
+        uses: actions/download-artifact@v4.1.7
         with:
           name: export-docs
 
       - name: Update pdf and epub assets
         run: |
           pwd && ls -hal && ls -hal publish
-          cp publish/OWASP_Developer_Guide.* assets/exports/.
+          cp OWASP_Developer_Guide.pdf assets/exports/.
+          cp OWASP_Developer_Guide.epub assets/exports/.
 
       - name: Create pull request
         uses: peter-evans/create-pull-request@v6.0.2

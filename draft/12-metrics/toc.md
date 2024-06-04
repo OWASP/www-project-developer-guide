@@ -14,6 +14,13 @@ permalink: /draft/metrics/
 
 ## 10. Metrics
 
+Metrics are important in an organization for various reasons, and in software security they can be used to:
+
+* measure the effectiveness of security controls
+* determine security posture
+* provide justification for security programs
+* and others
+
 At present the OWASP [Integration Standards project Application Wayfinder][wayfinder] project
 does not identify any OWASP projects that gather or process metrics, but this may change in the future.
 
