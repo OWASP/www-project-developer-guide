@@ -6,7 +6,7 @@ myfriend.site.com/
 # Lockheed Martin has trouble with SSL certificates, temporarily ignore
 https://www.lockheedmartin.com
 
-# github gets upset if too many requests are made to creat new issues
+# github gets upset if too many requests are made to create new issues
 https://github.com/OWASP/www-project-developer-guide/issues/new
 https://github.com/OWASP/www-project-developer-guide/pulls
 
@@ -23,6 +23,7 @@ https://hub.docker.com/r/webgoat/webgoat
 # lychee gets confused with the Jekyl image paths
 www-project-developer-guide/assets/images/sdlc_diag.png
 www-project-developer-guide/assets/images/owasp-wayfinder.png
+www-project-developer-guide/assets/images/
 
 # Google drive tends to need permissions that the link checker does not have
 https://drive.google.com/
