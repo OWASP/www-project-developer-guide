@@ -12,6 +12,18 @@ permalink: /draft/culture_building_and_process_maturing/security_champions/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![Developer Guide](../../../../assets/images/dg_logo_bbd.png "OWASP Developer Guide"){: .image-right }
+
 ### 8.2 Security Champions
 
 A 'Security Champion' is a member of a software development team who is

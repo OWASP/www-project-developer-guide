@@ -12,6 +12,18 @@ permalink: /draft/verification/tools/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![Developer Guide](../../../../assets/images/dg_logo_bbd.png "OWASP Developer Guide"){: .image-right }
+
 ### 6.2 Verification tools
 
 [Verification][sammv] is one of the business functions described by the [OWASP SAMM][samm].
