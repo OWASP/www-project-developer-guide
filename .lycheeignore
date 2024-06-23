@@ -23,3 +23,6 @@ https://hub.docker.com/r/webgoat/webgoat
 # lychee gets confused with the Jekyl image paths
 www-project-developer-guide/assets/images/sdlc_diag.png
 www-project-developer-guide/assets/images/owasp-wayfinder.png
+
+# Google drive tends to need permissions that the link checker does not have
+https://drive.google.com/

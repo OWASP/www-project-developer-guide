@@ -74,6 +74,11 @@ Sub-sections that describe an individual project should follow the same structur
 Note that the page describing a project should not be the same as the project documentation on the OWASP site,
 the Developer Guide should strive to be a ' TL;DR ' for the project running to one or maybe two pages.
 
+### Media kit
+
+The OWASP projects have [media kits][media] that contain biographies of the project leaders and other project media.
+This can be used for images and marketing material.
+
 ### Pull requests
 
 The pull requests have checks applied to them:
@@ -110,8 +115,8 @@ and to install `pyspelling` use pip: `pip install pyspelling`
 The release process is automatic, and triggers when the repo is tagged with a version number.
 To trigger the release this process from within a cloned repo:
 
-1. tag the release, for example: `git tag 4.1.0`
-2. push to the repo, for example: `git push origin 4.1.0`
+1. tag the release, for example: `git tag 4.1.1`
+2. push to the repo, for example: `git push origin 4.1.1`
 
 The github release workflow then creates the pull request
 with modifications to the release area promoted from the draft area.
@@ -128,6 +133,7 @@ using the wording from the previous releases as a guide to the release notes.
 [dashboard]: https://github.com/orgs/OWASP/projects/14/views/1
 [issues]: https://github.com/OWASP/www-project-developer-guide/issues/new/choose
 [lychee-install]: https://lychee.cli.rs/
+[media]: https://drive.google.com/drive/folders/1Ft8Ll0cgw0TIoub6aXTIJDmy0sk1RarU
 [pandoc-install]: https://pandoc.org/installing.html
 [release]: https://github.com/OWASP/www-project-developer-guide/releases
 [request]: https://github.com/OWASP/www-project-developer-guide/pulls
