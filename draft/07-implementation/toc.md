@@ -12,6 +12,18 @@ permalink: /draft/implementation/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![Developer Guide](../../../assets/images/dg_logo.png "OWASP Developer Guide"){: .image-right }
+
 ## 5. Implementation
 
 The [Implementation][sammi] business function is described by the OWASP [Software Assurance Maturity Model][sammm] (SAMM).

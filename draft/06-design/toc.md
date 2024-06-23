@@ -12,6 +12,18 @@ permalink: /draft/design/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![Developer Guide](../../../assets/images/dg_logo.png "OWASP Developer Guide"){: .image-right }
+
 ## 4. Design
 
 Referring to the [Secure Product Design Cheat Sheet][spdcs], the purpose of secure architecture and design is to ensure

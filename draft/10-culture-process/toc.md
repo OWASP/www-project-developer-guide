@@ -12,6 +12,18 @@ permalink: /draft/culture_building_and_process_maturing/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![Developer Guide](../../../assets/images/dg_logo.png "OWASP Developer Guide"){: .image-right }
+
 ## 8. Culture building and Process maturing
 
 Culture building and Process maturing is described by the SAMM [Organization and Culture][sammgegoc] activity,

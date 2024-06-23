@@ -12,6 +12,18 @@ permalink: /draft/requirements/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![Developer Guide](../../../assets/images/dg_logo.png "OWASP Developer Guide"){: .image-right }
+
 ## 3. Requirements
 
 Referring to the OWASP [Top Ten Proactive Controls][control1], security requirements are statements of
