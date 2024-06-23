@@ -12,6 +12,18 @@ permalink: /draft/introduction/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![Developer Guide](assets/images/dg_logo.png "OWASP Developer Guide"){: .image-right }
+
 ### 1. Introduction
 
 Welcome to the OWASP Development Guide.
@@ -55,7 +67,7 @@ You can regard the purpose of this guide as answering the question:
 Or you can regard this guide as a companion document to the OWASP [Application Wayfinder][wayfinder] project:
 the Wayfinder mapping out the many OWASP tools, projects and documents with the Developer Guide providing some context.
 
-![Application Wayfinder Diagram](../assets/images/owasp-wayfinder.png "OWASP Application Wayfinder")
+[![Application Wayfinder Diagram](../assets/images/owasp-wayfinder.png "OWASP Application Wayfinder")](https://owasp.org/www-project-integration-standards/)
 
 ----
 
