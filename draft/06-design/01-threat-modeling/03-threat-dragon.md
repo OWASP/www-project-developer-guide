@@ -12,6 +12,18 @@ permalink: /draft/design/threat_modeling/threat_dragon/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![Threat Dragon](../../../../assets/images/logos/threat_dragon.png "OWASP Threat Dragon"){: .image-right }
+
 ### 4.1.3 Threat Dragon
 
 The OWASP [Threat Dragon][tdtm] project provides a diagrammatic tool for threat modeling

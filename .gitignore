@@ -69,5 +69,7 @@
 !assets/exports/*.pdf
 !assets/images/
 !assets/images/*.png
+!assets/images/logos/
+!assets/images/logos/*.png
 !license.txt
 
