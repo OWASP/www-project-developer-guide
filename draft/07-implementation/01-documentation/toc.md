@@ -12,6 +12,18 @@ permalink: /draft/implementation/documentation/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![Developer Guide](../../../../assets/images/dg_logo_bbd.png "OWASP Developer Guide"){: .image-right }
+
 ### 5.1 Documentation
 
 Documentation is used here as part of the SAMM [Training and Awareness][sammgegta] activity,

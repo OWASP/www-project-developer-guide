@@ -12,6 +12,18 @@ permalink: /draft/training_education/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![Developer Guide](../../../assets/images/dg_logo.png "OWASP Developer Guide"){: .image-right }
+
 ## 7. Training and Education
 
 Training and Education activities are described by in the SAMM [Training and Awareness][sammgegta] section,

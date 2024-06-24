@@ -12,6 +12,18 @@ permalink: /draft/security_gap_analysis/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![Developer Guide](../../../assets/images/dg_logo.png "OWASP Developer Guide"){: .image-right }
+
 ## 11. Security gap analysis
 
 A security gap analysis is an activity where the information security posture of an organization is assessed

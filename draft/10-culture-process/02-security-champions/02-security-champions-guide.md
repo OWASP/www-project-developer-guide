@@ -40,16 +40,16 @@ to create its own program - and perhaps revisit the guide as its security champi
 
 The manifesto defines ten key principles for a successful security champions program:
 
-* [Be passionate][scguide1] about security
-* [Start][scguide2] with a clear vision for your program
-* [Secure][scguide3] management support
-* [Nominate][scguide4] a dedicated captain
-* [Trust][scguide5] your champions
-* [Create][scguide6] a community
-* [Promote][scguide7] knowledge sharing
-* [Reward][scguide8] responsibility
-* [Invest][scguide9] in your champions
-* [Anticipate][scguide10] personnel changes
+* Be passionate about security
+* Start with a clear vision for your program
+* Secure management support
+* Nominate a dedicated captain
+* Trust your champions
+* Create a community
+* Promote knowledge sharing
+* Reward responsibility
+* Invest in your champions
+* Anticipate personnel changes
 
 This manifesto is a set of guiding principles that will certainly help with the creating the program
 and can also improve an existing security champions program.
@@ -83,17 +83,7 @@ then [submit an issue][issue1022] or [edit on GitHub][edit1022].
 [issue1022]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2010-culture-process/02-security-champions/02-security-champions-guide
 [edit1022]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/10-culture-process/02-security-champions/02-security-champions-guide.md
 [scguide]: https://owasp.org/www-project-security-champions-guidebook/
-[scguide1]: https://owasp.org/www-project-security-champions-guidebook/#1-be-passionate-about-security
-[scguide2]: https://owasp.org/www-project-security-champions-guidebook/#2-start-with-a-clear-vision-for-your-program
-[scguide3]: https://owasp.org/www-project-security-champions-guidebook/#3-secure-management-support
-[scguide4]: https://owasp.org/www-project-security-champions-guidebook/#4-nominate-a-dedicated-captain
-[scguide5]: https://owasp.org/www-project-security-champions-guidebook/#5-trust-your-champions
-[scguide6]: https://owasp.org/www-project-security-champions-guidebook/#6-create-a-community
-[scguide7]: https://owasp.org/www-project-security-champions-guidebook/#7-promote-knowledge-sharing
-[scguide8]: https://owasp.org/www-project-security-champions-guidebook/#8-reward-responsibility
-[scguide9]: https://owasp.org/www-project-security-champions-guidebook/#9-invest-in-your-champions
-[scguide10]: https://owasp.org/www-project-security-champions-guidebook/#10-anticipate-personnel-changes
-[scguidedoc]: https://owasp.org/www-project-security-champions-guidebook/#1-be-passionate-about-security
+[scguidedoc]: https://owasp.org/www-project-security-champions-guidebook/#div-principles
 [scguiderepo]: https://github.com/OWASP/www-project-security-champions-guidebook
 
 \newpage

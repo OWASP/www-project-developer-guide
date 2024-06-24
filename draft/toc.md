@@ -12,7 +12,7 @@ permalink: /draft/
 
 {% include breadcrumb.html %}
 
-![Developer Guide](../assets/images/dg_logo.png "OWASP Developer Guide"){: height="220px" }
+![Developer Guide](../assets/images/dg_logo.png "OWASP Developer Guide"){: height="180px" }
 
 ## OWASP Developer Guide (draft)
 

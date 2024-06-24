@@ -12,6 +12,18 @@ permalink: /draft/implementation/dependencies/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![Developer Guide](../../../../assets/images/dg_logo_bbd.png "OWASP Developer Guide"){: .image-right }
+
 ### 5.2 Dependencies
 
 Management of software dependencies is described by the SAMM [Software Dependencies][sammisbsd] activity,

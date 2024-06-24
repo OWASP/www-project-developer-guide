@@ -12,6 +12,18 @@ permalink: /draft/implementation/documentation/cheatsheets/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![Cheat Sheets](../../../../assets/images/logos/cheatsheets.png "OWASP Cheat Sheets"){: .image-right }
+
 ### 5.1.3 Cheat Sheet Series
 
 The [OWASP Cheat Sheet Series][cheatsheets] provide a concise collection of high value information
