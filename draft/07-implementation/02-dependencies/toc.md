@@ -22,7 +22,7 @@ permalink: /draft/implementation/dependencies/
 }
 </style>
 
-![Developer Guide](../../../../assets/images/dg_logo_bbd.png "OWASP Developer Guide"){: .image-right }
+![Developer guide logo](../../../assets/images/dg_logo_bbd.png "OWASP Developer Guide"){: .image-right }
 
 ### 5.2 Dependencies
 

@@ -22,7 +22,7 @@ permalink: /draft/verification/frameworks/
 }
 </style>
 
-![Developer Guide](../../../../assets/images/dg_logo_bbd.png "OWASP Developer Guide"){: .image-right }
+![Developer guide logo](../../../assets/images/dg_logo_bbd.png "OWASP Developer Guide"){: .image-right }
 
 ### 6.3 Verification frameworks
 

@@ -22,7 +22,7 @@ permalink: /draft/implementation/dos_donts/
 }
 </style>
 
-![Developer Guide](../../../../assets/images/dg_logo_bbd.png "OWASP Developer Guide"){: .image-right }
+![Developer guide logo](../../../assets/images/dg_logo_bbd.png "OWASP Developer Guide"){: .image-right }
 
 ### 5.4 Implementation Do's and Don'ts
 

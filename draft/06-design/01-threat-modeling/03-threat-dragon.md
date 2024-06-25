@@ -22,7 +22,7 @@ permalink: /draft/design/threat_modeling/threat_dragon/
 }
 </style>
 
-![Threat Dragon](../../../../assets/images/logos/threat_dragon.png "OWASP Threat Dragon"){: .image-right }
+![Threat dragon logo](../../../../assets/images/logos/threat_dragon.png "OWASP Threat Dragon"){: .image-right }
 
 ### 4.1.3 Threat Dragon
 

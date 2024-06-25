@@ -22,7 +22,7 @@ permalink: /draft/introduction/
 }
 </style>
 
-![Developer Guide](../../assets/images/dg_logo.png "OWASP Developer Guide"){: .image-right }
+![Developer guide logo](../../assets/images/dg_logo.png "OWASP Developer Guide"){: .image-right }
 
 ### 1. Introduction
 
