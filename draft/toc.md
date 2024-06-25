@@ -38,7 +38,7 @@ This draft version has the latest contributions to the Developer Guide so expect
 4 **[Design](06-design/toc.md)**  
 4.1 [Threat modeling](06-design/01-threat-modeling/toc.md)  
 4.1.1 [Threat modeling in practice](06-design/01-threat-modeling/01-threat-modeling.md)  
-4.1.2 [Pythonic Threat Modeling](06-design/01-threat-modeling/02-pytm.md)  
+4.1.2 [pytm](06-design/01-threat-modeling/02-pytm.md)  
 4.1.3 [Threat Dragon](06-design/01-threat-modeling/03-threat-dragon.md)  
 4.1.4 [Cornucopia](06-design/01-threat-modeling/04-cornucopia.md)  
 4.1.5 [LINDDUN GO](06-design/01-threat-modeling/05-linddun-go.md)  

@@ -29,7 +29,7 @@ The outcomes from the threat modeling activities generally include:
 Sections:
 
 4.1.1 [Threat modeling in practice](#threat-modeling-in-practice)  
-4.1.2 [Pythonic Threat Modeling](#pythonic-threat-modeling)  
+4.1.2 [pytm](#pytm)  
 4.1.3 [Threat Dragon](#threat-dragon)  
 4.1.4 [Cornucopia](#cornucopia)  
 4.1.5 [LINDDUN GO](#linddun-go)  

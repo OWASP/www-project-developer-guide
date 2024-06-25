@@ -52,7 +52,7 @@ docs:
 - title: '4.1.1 Threat modeling in practice'
   url: design/threat_modeling/practical_threat_modeling
 
-- title: '4.1.2 Pythonic Threat Modeling'
+- title: '4.1.2 pytm'
   url: design/threat_modeling/pytm
 
 - title: '4.1.3 Threat Dragon'
