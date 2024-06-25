@@ -22,7 +22,7 @@ permalink: /draft/implementation/documentation/cheatsheets/
 }
 </style>
 
-![Cheat Sheets](../../../../assets/images/logos/cheatsheets.png "OWASP Cheat Sheets"){: .image-right }
+![Cheat sheets logo](../../../../assets/images/logos/cheatsheets.png "OWASP Cheat Sheets"){: .image-right }
 
 ### 5.1.3 Cheat Sheet Series
 

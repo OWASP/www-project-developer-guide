@@ -22,7 +22,7 @@ permalink: /draft/security_gap_analysis/guides/
 }
 </style>
 
-![Developer Guide](../../../../assets/images/dg_logo_bbd.png "OWASP Developer Guide"){: .image-right }
+![Developer guide logo](../../../assets/images/dg_logo_bbd.png "OWASP Developer Guide"){: .image-right }
 
 ### 11.1 Security gap analysis guides
 

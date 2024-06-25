@@ -22,7 +22,7 @@ permalink: /draft/culture_building_and_process_maturing/
 }
 </style>
 
-![Developer Guide](../../../assets/images/dg_logo.png "OWASP Developer Guide"){: .image-right }
+![Developer guide logo](../../assets/images/dg_logo.png "OWASP Developer Guide"){: .image-right }
 
 ## 8. Culture building and Process maturing
 

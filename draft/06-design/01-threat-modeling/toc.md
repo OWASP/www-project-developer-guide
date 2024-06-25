@@ -22,7 +22,7 @@ permalink: /draft/design/threat_modeling/
 }
 </style>
 
-![Developer Guide](../../../../assets/images/dg_logo_bbd.png "OWASP Developer Guide"){: .image-right }
+![Developer guide logo](../../../assets/images/dg_logo_bbd.png "OWASP Developer Guide"){: .image-right }
 
 ### 4.1 Threat modeling
 
