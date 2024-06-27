@@ -478,3 +478,5 @@ ai
 Serverless
 proscriptive
 devsecops
+Janca
+Tesauro
