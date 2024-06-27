@@ -12,6 +12,18 @@ permalink: /draft/verification/guides/mobile_application_security/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![MAS logo](../../../../assets/images/logos/mas.png "OWASP MAS"){: .image-right }
+
 ### 6.1.2 Mobile Application Security
 
 The OWASP [Mobile Application Security][masproject] (MAS) flagship project has the mission statement:

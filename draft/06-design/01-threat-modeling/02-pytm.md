@@ -22,7 +22,7 @@ permalink: /draft/design/threat_modeling/pytm/
 }
 </style>
 
-![pytm logo](../../../../assets/images/logos/cornucopia.png "OWASP pytm"){: .image-right }
+![pytm logo](../../../../assets/images/logos/pytm.png "OWASP pytm"){: .image-right }
 
 ### 4.1.2 pytm
 

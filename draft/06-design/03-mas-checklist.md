@@ -12,6 +12,18 @@ permalink: /draft/design/mas_checklist/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![MAS checklist logo](../../../../assets/images/logos/mas.png "OWASP MAS checklist"){: .image-right }
+
 ### 4.3 Mobile application checklist
 
 The OWASP [Mobile Application Security][masproject] (MAS) flagship project has the mission statement:
