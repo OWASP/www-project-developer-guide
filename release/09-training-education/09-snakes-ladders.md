@@ -23,7 +23,7 @@ permalink: /release/training_education/snakes_and_ladders/
 }
 </style>
 
-![Snakes and Ladders logo](../../../assets/images/logos/snakes_and_ladders.png "OWASP Snakes and Ladders"){: .image-right }
+![Snakes and Ladders logo](../../../assets/images/logos/snakes_ladders.png "OWASP Snakes and Ladders"){: .image-right }
 
 ### 7.9 OWASP Snakes and Ladders
 
