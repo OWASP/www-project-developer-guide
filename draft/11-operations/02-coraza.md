@@ -12,6 +12,8 @@ permalink: /draft/operations/coraza_waf/
 
 {% include breadcrumb.html %}
 
+![Coraza logo](../../../../assets/images/coraza.png "OWASP Coraza"){: height="180px" }
+
 ### 9.2 Coraza Web Application Firewall
 
 The [OWASP Coraza][coraza-project] project provides a golang enterprise-grade Web Application Firewall framework

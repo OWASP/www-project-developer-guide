@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 1004
-permalink: /draft/culture_building_and_process_maturing/asvs/
+permalink: /draft/culture_building_and_process_maturing/application_security_verification_standard/
 
 ---
 

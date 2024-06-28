@@ -12,6 +12,18 @@ permalink: /draft/verification/tools/nettacker/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![Nettacker logo](../../../../assets/images/logos/nettacker.png "OWASP Nettacker"){: .image-right }
+
 ### 6.2.4 Nettacker
 
 OWASP Nettacker is a command line utility for automated network and vulnerability scanning.

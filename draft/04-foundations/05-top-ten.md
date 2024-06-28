@@ -175,7 +175,7 @@ may also be referred to as 'OWASP Top 10'. Here is a list of the stable 'OWASP T
 * [Top 10 Proactive Controls][proactive10]
 * [Top 10 Web Application Security Risks][top10]
 
-Other OWASP Top 10s are 'incubator' projects, work in progress, so this list will change over time.
+Other OWASP Top 10s are 'incubator' projects, which are work in progress, so this list will change over time.
 
 ----
 

@@ -38,7 +38,7 @@ docs:
   url: requirements/security_rat
 
 - title: '3.5 Application Security Verification Standard'
-  url: requirements/asvs
+  url: requirements/application_security_verification_standard
 
 - title: '3.6 Mobile Application Security'
   url: requirements/mobile_application_security
@@ -290,7 +290,7 @@ docs:
   url: culture_building_and_process_maturing/software_assurance_maturity_model
 
 - title: '8.4 Application Security Verification Standard'
-  url: culture_building_and_process_maturing/asvs
+  url: culture_building_and_process_maturing/application_security_verification_standard
 
 - title: '8.5 Mobile Application Security'
   url: culture_building_and_process_maturing/mobile_application_security
@@ -323,7 +323,7 @@ docs:
   url: security_gap_analysis/guides/software_assurance_maturity_model
 
 - title: '11.1.2 Application Security Verification Standard'
-  url: security_gap_analysis/guides/asvs
+  url: security_gap_analysis/guides/application_security_verification_standard
 
 - title: '11.1.3 Mobile Application Security'
   url: security_gap_analysis/guides/mobile_application_security

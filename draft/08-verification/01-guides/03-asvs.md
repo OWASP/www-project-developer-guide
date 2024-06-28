@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 813
-permalink: /draft/verification/guides/asvs/
+permalink: /draft/verification/guides/application_security_verification_standard/
 
 ---
 

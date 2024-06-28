@@ -22,7 +22,7 @@ permalink: /draft/design/mas_checklist/
 }
 </style>
 
-![MAS checklist logo](../../../../assets/images/logos/mas.png "OWASP MAS checklist"){: .image-right }
+![MAS checklist logo](../../../assets/images/logos/mas.png "OWASP MAS checklist"){: .image-right }
 
 ### 4.3 Mobile application checklist
 
