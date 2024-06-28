@@ -12,6 +12,18 @@ permalink: /release/training_education/samurai_wtf/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![SamuraiWTF logo](../../../assets/images/logos/samurai_wtf.png "OWASP SamuraiWTF"){: .image-right }
+
 ### 7.4 SamuraiWTF
 
 The OWASP [SamuraiWTF][samurai-wtf] (Web Training and Testing Framework) is a linux desktop distribution
@@ -42,7 +54,7 @@ SamuraiWTF is easy to use and comes as a virtual machine, which makes it ideal i
 or as an attack tool targeted specifically against web applications.
 The applications provided by Samurai-Dojo provides a set of real world applications to attack;
 these applications are contained within the Samurai Web Training Framework virtual machine so none of the
-attack traffic will leak from the environment - and avoids triggering network intrusion detection systems.
+attack traffic will leak from the environment - and so avoid triggering network intrusion detection systems.
 
 #### How to use it
 
@@ -60,6 +72,11 @@ From a command prompt run 'katana' to start configuring SamuraiWTF for your trai
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue0904] or [edit on GitHub][edit0904].
+
+[edit0904]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/04-samurai-wtf.md
+[issue0904]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2009-training-education/04-samurai-wtf
 [kali]: https://www.kali.org/
 [samurai-dojo]: https://owasp.org/www-project-samuraiwtf/#div-dojo
 [samurai-katana]: https://owasp.org/www-project-samuraiwtf/#div-katana

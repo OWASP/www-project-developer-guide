@@ -29,7 +29,7 @@ The outcomes from the threat modeling activities generally include:
 Sections:
 
 4.1.1 [Threat modeling in practice](#threat-modeling-in-practice)  
-4.1.2 [Pythonic Threat Modeling](#pythonic-threat-modeling)  
+4.1.2 [pytm](#pytm)  
 4.1.3 [Threat Dragon](#threat-dragon)  
 4.1.4 [Cornucopia](#cornucopia)  
 4.1.5 [LINDDUN GO](#linddun-go)  
@@ -37,4 +37,7 @@ Sections:
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing then [submit an issue][issue0601].
+
+[issue0601]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/01-threat-modeling/00-toc
 [tmcs]: https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html

@@ -56,6 +56,11 @@ existing 2023 version.
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue1101] or [edit on GitHub][edit1101].
+
+[edit1101]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/11-operations/01-devsecops.md
+[issue1101]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2011-operations/01-devsecops
 [devsecops]: https://owasp.org/www-project-devsecops-guideline/
 [dsocvs]: https://owasp.org/www-project-devsecops-guideline/latest/02f-Container-Vulnerability-Scanning
 [dsodoc]: https://owasp.org/www-project-devsecops-guideline/latest/
@@ -63,7 +68,7 @@ existing 2023 version.
 [dsoiast]: https://owasp.org/www-project-devsecops-guideline/latest/02c-Interactive-Application-Security-Testing
 [dsointro]: https://owasp.org/www-project-devsecops-guideline/latest/index
 [dsoivs]: https://owasp.org/www-project-devsecops-guideline/latest/02e-Infrastructure-Vulnerability-Scanning
-[dsonew]: https://github.com/OWASP/DevSecOpsGuideline/tree/master/documents
+[dsonew]: https://github.com/OWASP/DevSecOpsGuideline/tree/master/current-version
 [dsopdf]: https://github.com/OWASP/DevSecOpsGuideline/releases
 [dsosast]: https://owasp.org/www-project-devsecops-guideline/latest/02a-Static-Application-Security-Testing
 [dsosca]: https://owasp.org/www-project-devsecops-guideline/latest/02d-Software-Composition-Analysis

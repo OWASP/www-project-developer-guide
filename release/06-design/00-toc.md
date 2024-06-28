@@ -48,7 +48,7 @@ Sections:
 
 4.1 [Threat modeling](#threat-modeling)  
 4.1.1 [Threat modeling in practice](#threat-modeling-in-practice)  
-4.1.2 [Pythonic Threat Modeling](#pythonic-threat-modeling)  
+4.1.2 [pytm](#pytm)  
 4.1.3 [Threat Dragon](#threat-dragon)  
 4.1.4 [Cornucopia](#cornucopia)  
 4.1.5 [LINDDUN GO](#linddun-go)  
@@ -68,9 +68,12 @@ Sections:
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing then [submit an issue][issue0600].
+
+[issue0600]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/00-toc
 [samm]: https://owaspsamm.org/about/
 [sammd]: https://owaspsamm.org/model/design/
 [sammdsr]: https://owaspsamm.org/model/design/security-requirements/
-[sammdsa]: https://owaspsamm.org/model/design/security-architecture/
+[sammdsa]: https://owaspsamm.org/model/design/secure-architecture/
 [sammdta]: https://owaspsamm.org/model/design/threat-assessment/
 [spdcs]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet.html

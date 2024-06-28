@@ -12,6 +12,18 @@ permalink: /release/design/threat_modeling/threat_dragon/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![Threat dragon logo](../../../../assets/images/logos/threat_dragon.png "OWASP Threat Dragon"){: .image-right }
+
 ### 4.1.3 Threat Dragon
 
 The OWASP [Threat Dragon][tdtm] project provides a diagrammatic tool for threat modeling
@@ -70,6 +82,11 @@ and GRC compliance purposes; from the threat model meta-data window click on the
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue060103] or [edit on GitHub][edit060103].
+
+[issue060103]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/01-threat-modeling/03-threat-dragon
+[edit060103]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/01-threat-modeling/03-threat-dragon.md
 [tddemo]: https://www.threatdragon.com/#/
 [tdcode]: https://github.com/OWASP/threat-dragon
 [tddocker]: https://hub.docker.com/r/owasp/threat-dragon/tags

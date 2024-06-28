@@ -13,6 +13,18 @@ permalink: /release/training_education/snakes_and_ladders/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![Snakes and Ladders logo](../../../assets/images/logos/snakes_and_ladders.png "OWASP Snakes and Ladders"){: .image-right }
+
 ### 7.9 OWASP Snakes and Ladders
 
 OWASP [Snakes & Ladders][snakes] is an educational project based on the popular board game.
@@ -66,7 +78,12 @@ but this last option no longer seems to be available.
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue0909] or [edit on GitHub][edit0909].
+
 [cornucopia]: https://owasp.org/www-project-cornucopia/
+[edit0909]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/09-snakes-ladders.md
+[issue0909]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2009-training-education/09-snakes-ladders
 [mobile10-2014]: https://owasp.org/www-project-mobile-top-10/2014-risks/
 [mobile10controls]: https://owasp.org/www-project-mobile-top-10/#div-controls
 [proactive10]: https://owasp.org/www-project-proactive-controls/

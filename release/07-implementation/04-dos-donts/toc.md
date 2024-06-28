@@ -12,6 +12,18 @@ permalink: /release/implementation/dos_donts/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![Developer guide logo](../../../assets/images/dg_logo_bbd.png "OWASP Developer Guide"){: .image-right }
+
 ### 5.4 Implementation Do's and Don'ts
 
 Implementation demands technical knowledge, skill and experience.
@@ -32,3 +44,9 @@ Sections:
 6.8 [Memory management](08-memory-management.md)
 
 ----
+
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue0740] or [edit on GitHub][edit0740].
+
+[edit0740]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/04-dos-donts/toc.md
+[issue0740]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/04-dos-donts/00-toc

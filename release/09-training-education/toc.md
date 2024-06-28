@@ -12,6 +12,18 @@ permalink: /release/training_education/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![Developer guide logo](../../assets/images/dg_logo.png "OWASP Developer Guide"){: .image-right }
+
 ## 7. Training and Education
 
 Training and Education activities are described by in the SAMM [Training and Awareness][sammgegta] section,
@@ -45,6 +57,11 @@ Sections:
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue0900] or [edit on GitHub][edit0900].
+
+[edit0900]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/toc.md
+[issue0900]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2009-training-education/00-toc
 [sammg]: https://owaspsamm.org/model/governance/
 [sammgeg]: https://owaspsamm.org/model/governance/education-and-guidance/
 [sammgegta]: https://owaspsamm.org/model/governance/education-and-guidance/stream-a/

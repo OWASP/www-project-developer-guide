@@ -66,3 +66,9 @@ Here is a collection of Do's and Don'ts when it comes to cryptographic practices
     Most modern APIs do not require the developer to seed the CSPRNG to get security.
 
 ----
+
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue070403] or [edit on GitHub][edit070403].
+
+[issue070403]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/04-dos-donts/03-cryptographic-practices
+[edit070403]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/04-dos-donts/03-cryptographic-practices.md

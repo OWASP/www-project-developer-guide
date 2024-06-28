@@ -12,6 +12,18 @@ permalink: /release/culture_building_and_process_maturing/security_champions/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![Developer guide logo](../../../assets/images/dg_logo_bbd.png "OWASP Developer Guide"){: .image-right }
+
 ### 8.2 Security Champions
 
 A 'Security Champion' is a member of a software development team who is
@@ -52,6 +64,11 @@ Sections:
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue1020] or [edit on GitHub][edit1020].
+
+[edit1020]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/10-culture-process/02-security-champions/toc.md
+[issue1020]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2010-culture-process/02-security-champions/00-toc
 [sammg]: https://owaspsamm.org/model/governance/
 [sammgeg]: https://owaspsamm.org/model/governance/education-and-guidance/
 [sammgegtb]: https://owaspsamm.org/model/governance/education-and-guidance/stream-b/

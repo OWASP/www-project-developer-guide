@@ -12,6 +12,18 @@ permalink: /release/training_education/vulnerable_applications/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![Developer guide logo](../../../assets/images/dg_logo_bbd.png "OWASP Developer Guide"){: .image-right }
+
 ### 7.1 Vulnerable Applications
 
 Vulnerable applications are useful for the Training and Education activities
@@ -32,6 +44,11 @@ Sections:
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue0910] or [edit on GitHub][edit0910].
+
+[edit0910]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/01-vulnerable-apps/toc.md
+[issue0910]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2009-training-education/01-vulnerable-apps/00-toc
 [sammg]: https://owaspsamm.org/model/governance/
 [sammgeg]: https://owaspsamm.org/model/governance/education-and-guidance/
 [sammgegta]: https://owaspsamm.org/model/governance/education-and-guidance/stream-a/

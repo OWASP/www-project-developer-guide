@@ -101,3 +101,9 @@ or a technical standpoint;
 * Use a cryptographic hash function to validate log entry integrity
 
 ----
+
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue070406] or [edit on GitHub][edit070406].
+
+[issue070406]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/04-dos-donts/06-exception-error-handling
+[edit070406]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/04-dos-donts/06-exception-error-handling.md
