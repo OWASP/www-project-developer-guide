@@ -48,5 +48,5 @@ then [submit an issue][issue0703] or [edit on GitHub][edit0703].
 [edit0703]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/03-secure-libraries/toc.md
 [issue0703]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/03-secure-libraries/00-toc
 [sammd]: https://owaspsamm.org/model/design/
-[sammdsa]: https://owaspsamm.org/model/design/security-architecture/
-[sammdsatm]: https://owaspsamm.org/model/design/security-architecture/stream-b/
+[sammdsa]: https://owaspsamm.org/model/design/secure-architecture/
+[sammdsatm]: https://owaspsamm.org/model/design/secure-architecture/stream-b/
