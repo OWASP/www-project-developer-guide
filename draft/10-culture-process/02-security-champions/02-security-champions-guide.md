@@ -12,6 +12,18 @@ permalink: /draft/culture_building_and_process_maturing/security_champions/secur
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![Security Champions Guide logo](../../../../assets/images/logos/security_champions_guide.png "OWASP Security Champions Guide"){: .image-right }
+
 ### 8.2.2 Security Champions Guide
 
 The OWASP [Security Champions Guide][scguide] is a guidebook that helps organizations build

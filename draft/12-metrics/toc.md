@@ -22,7 +22,7 @@ permalink: /draft/metrics/
 }
 </style>
 
-![Developer Guide](../../../assets/images/dg_alt.png "OWASP Developer Guide"){: .image-right }
+![Developer Guide](../../assets/images/dg_alt.png "OWASP Developer Guide"){: .image-right }
 
 ## 10. Metrics
 

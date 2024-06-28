@@ -12,6 +12,18 @@ permalink: /draft/operations/modsecurity_core_rule_set/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![CRS logo](../../../assets/images/logos/crs.png "OWASP CRS"){: .image-right }
+
 ### 9.4 ModSecurity Core Rule Set
 
 The OWASP ModSecurity [Core Rule Set][modcrs-project] (CRS) project is a set of generic attack detection rules

@@ -12,6 +12,18 @@ permalink: /draft/training_education/vulnerable_applications/webgoat/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![WebGoat logo](../../../../assets/images/logos/webgoat.png "OWASP WebGoat"){: .image-right }
+
 ### 7.1.2 WebGoat
 
 The OWASP [WebGoat][webgoat] project is a deliberately insecure web application that can be
@@ -71,6 +83,8 @@ Note that mapping to port 80 can be blocked on corporate laptops so it is sugges
 The browser should now be displaying the WebGoat lessons, such as 'Hijack a session' under 'Broken Access Control'.
 
 #### How to use WebWolf
+
+![WebWolf logo](../../../../assets/images/logos/webwolf.png "OWASP WebWolf"){: .image-right }
 
 WebWolf is provided alongside both the WebGoat docker images and the WebGoat JAR file.
 WebWolf is accessed using port 9090 on the Docker container,

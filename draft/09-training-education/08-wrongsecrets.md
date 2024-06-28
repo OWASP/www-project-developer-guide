@@ -10,6 +10,18 @@ permalink: /draft/training_education/wrongsecrets/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![WrongSecrets logo](../../../assets/images/logos/wrongsecrets.png "OWASP WrongSecrets"){: .image-right }
+
 ### 7.8 WrongSecrets
 
 [OWASP WrongSecrets][wrongsecrets-project] is a production status project

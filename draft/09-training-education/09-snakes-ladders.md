@@ -13,6 +13,18 @@ permalink: /draft/training_education/snakes_and_ladders/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![Snakes and Ladders logo](../../../assets/images/logos/snakes_and_ladders.png "OWASP Snakes and Ladders"){: .image-right }
+
 ### 7.9 OWASP Snakes and Ladders
 
 OWASP [Snakes & Ladders][snakes] is an educational project based on the popular board game.
