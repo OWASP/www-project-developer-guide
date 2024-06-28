@@ -12,17 +12,7 @@ permalink: /draft/verification/frameworks/secure_codebox/
 
 {% include breadcrumb.html %}
 
-<style type="text/css">
-.image-right {
-  height: 180px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  float: right;
-}
-</style>
-
-![SecureCodeBox logo](../../../../assets/images/logos/securecodebox.svg "OWASP SecureCodeBox"){: .image-right }
+![SecureCodeBox logo](../../../../assets/images/logos/securecodebox.svg "OWASP SecureCodeBox"){: height="180px" }
 
 #### 6.3.1 secureCodeBox
 
