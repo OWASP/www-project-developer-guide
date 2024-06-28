@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 5050
-permalink: /release/requirements/asvs/
+permalink: /release/requirements/application_security_verification_standard/
 
 ---
 
@@ -81,6 +81,9 @@ allowing focus and decisions on whether each one is applicable to the web applic
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue0505] or [edit on GitHub][edit0505].
+
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [asvsL123]: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x03-Using-ASVS.md#application-security-verification-levels
 [asvsmd]: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x00-Header.md
@@ -98,5 +101,7 @@ allowing focus and decisions on whether each one is applicable to the web applic
 [asvsV12]: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x20-V12-Files-Resources.md#v12-files-and-resources
 [asvsV13]: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x21-V13-API.md#v13-api-and-web-service
 [asvsV14]: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x22-V14-Config.md#v14-configuration
+[edit0505]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/05-requirements/05-asvs.md
+[issue0505]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2005-requirements/05-asvs
 [spotlight19]: https://youtu.be/3puIavsZfAk
 [srat]: https://owasp.org/www-project-securityrat/

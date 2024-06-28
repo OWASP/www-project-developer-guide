@@ -12,9 +12,21 @@ permalink: /release/design/threat_modeling/pytm/
 
 {% include breadcrumb.html %}
 
-### 4.1.2 Pythonic Threat Modeling
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
 
-The OWASP [Pythonic Threat Modeling (pytm)][pytmproject] project is a framework for threat modeling and its automation.
+![pytm logo](../../../../assets/images/logos/pytm.png "OWASP pytm"){: .image-right }
+
+### 4.1.2 pytm
+
+The OWASP [pytm (Pythonic Threat Modeling)][pytmproject] project is a framework for threat modeling and its automation.
 The goal of pytm is to shift threat modeling to the left, making threat modeling more automated and developer-centric.
 
 Pytm is an OWASP Lab Project with a community of contributors creating [regular releases][pytmreleases].
@@ -91,11 +103,16 @@ mkdir -p tm
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue060102] or [edit on GitHub][edit060102].
+
 [graphviz]: https://graphviz.org/
 [graphvizdot]: https://graphviz.org/download/
+[issue060102]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/01-threat-modeling/02-pytm
 [pandoc]: https://pandoc.org/installing.html
 [plantuml]: https://plantuml.com/
 [plantumljar]: https://plantuml.com/download
+[edit060102]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/01-threat-modeling/02-pytm.md
 [pytmrepo]: https://github.com/izar/pytm/
 [pytmproject]: https://owasp.org/www-project-pytm/
 [pytmexample]: https://github.com/izar/pytm/blob/master/tm.py

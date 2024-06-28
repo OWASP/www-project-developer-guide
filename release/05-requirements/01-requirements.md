@@ -112,9 +112,14 @@ both of which may have a direct impact on the application.
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue0501] or [edit on GitHub][edit0501].
+
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [control1]: https://owasp.org/www-project-proactive-controls/v3/en/c1-security-requirements
+[issue0501]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-requirements/01-requirements
 [mas]: https://mas.owasp.org/
+[edit0501]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/05-requirements/01-requirements.md
 [proactive10]: https://owasp.org/www-project-proactive-controls/
 [samm]: https://owaspsamm.org/about/
 [sammdsr]: https://owaspsamm.org/model/design/security-requirements/

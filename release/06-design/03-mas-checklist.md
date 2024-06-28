@@ -12,6 +12,18 @@ permalink: /release/design/mas_checklist/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![MAS checklist logo](../../../assets/images/logos/mas.png "OWASP MAS checklist"){: .image-right }
+
 ### 4.3 Mobile application checklist
 
 The OWASP [Mobile Application Security][masproject] (MAS) flagship project has the mission statement:
@@ -55,6 +67,11 @@ This record of test results can be used as evidence for compliance purposes.
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue0603] or [edit on GitHub][edit0603].
+
+[edit0603]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/03-mas-checklist.md
+[issue0603]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/03-mas-checklist
 [masproject]: https://owasp.org/www-project-mobile-app-security/
 [masxls]: https://github.com/OWASP/owasp-mastg/releases/latest/download/OWASP_MAS_Checklist.xlsx
 [masc]: https://mas.owasp.org/checklists/

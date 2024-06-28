@@ -12,6 +12,18 @@ permalink: /release/requirements/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![Developer guide logo](../../assets/images/dg_logo.png "OWASP Developer Guide"){: .image-right }
+
 ## 3. Requirements
 
 Referring to the OWASP [Top Ten Proactive Controls][control1], security requirements are statements of
@@ -45,7 +57,12 @@ Sections:
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue0500] or [edit on GitHub][edit0500].
+
 [control1]: https://owasp.org/www-project-proactive-controls/v3/en/c1-security-requirements
+[edit0500]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/05-requirements/toc.md
+[issue0500]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-requirements/00-toc
 [samm]: https://owaspsamm.org/about/
 [sammd]: https://owaspsamm.org/model/design/
 [sammdsr]: https://owaspsamm.org/model/design/security-requirements/

@@ -74,6 +74,9 @@ Listed below are the versions up to the latest in 2021, which was released to ma
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue0905] or [edit on GitHub][edit0905].
+
 [a01]: https://owasp.org/Top10/A01_2021-Broken_Access_Control/
 [a02]: https://owasp.org/Top10/A02_2021-Cryptographic_Failures/
 [a03]: https://owasp.org/Top10/A03_2021-Injection/
@@ -84,6 +87,8 @@ Listed below are the versions up to the latest in 2021, which was released to ma
 [a08]: https://owasp.org/Top10/A08_2021-Software_and_Data_Integrity_Failures/
 [a09]: https://owasp.org/Top10/A09_2021-Security_Logging_and_Monitoring_Failures/
 [a10]: https://owasp.org/Top10/A10_2021-Server-Side_Request_Forgery_%28SSRF%29/
+[edit0905]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/05-top-ten.md
+[issue0905]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2009-training-education/05-top-ten
 [spotlight10]: https://youtu.be/RMkoIrpz8ug
 [top10]: https://owasp.org/www-project-top-ten/
 [top10data]: https://owasp.org/www-project-top-ten/#div-data_2020

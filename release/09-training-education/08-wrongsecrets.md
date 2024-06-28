@@ -10,6 +10,18 @@ permalink: /release/training_education/wrongsecrets/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![WrongSecrets logo](../../../assets/images/logos/wrongsecrets.png "OWASP WrongSecrets"){: .image-right }
+
 ### 7.8 WrongSecrets
 
 [OWASP WrongSecrets][wrongsecrets-project] is a production status project
@@ -54,9 +66,14 @@ For the CTF, the project also provides [set-up guides][ctf] and a [Helm chart][w
 
 ---
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue0908] or [edit on GitHub][edit0908].
+
 [ctf]: https://github.com/OWASP/wrongsecrets/blob/master/ctf-instructions.md
+[edit0908]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/08-wrongsecrets.md
 [wrongsecrets-helm]: https://owasp.org/wrongsecrets-ctf-party/
 [heroku]: https://wrongsecrets.herokuapp.com/
+[issue0908]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2009-training-education/08-wrongsecrets
 [readme]: https://github.com/OWASP/wrongsecrets/blob/master/README.md
 [wrongsecrets]: https://github.com/OWASP/wrongsecrets
 [wrongsecrets-project]: https://owasp.org/www-project-wrongsecrets/

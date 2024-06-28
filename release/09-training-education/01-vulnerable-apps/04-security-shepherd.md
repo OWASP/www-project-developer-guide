@@ -54,6 +54,11 @@ Security Shepherd has modes which it can be used for different training goals:
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue090104] or [edit on GitHub][edit090104].
+
+[edit090104]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/01-vulnerable-apps/04-security-shepherd.md
+[issue090104]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2009-training-education/01-vulnerable-apps/04-security-shepherd
 [sec-shep]: https://owasp.org/www-project-security-shepherd/
 [sec-shep-docker]: https://github.com/OWASP/SecurityShepherd/wiki/Docker-Environment-Setup
 [sec-shep-repo]: https://github.com/OWASP/SecurityShepherd

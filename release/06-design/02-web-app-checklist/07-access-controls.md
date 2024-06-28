@@ -50,6 +50,11 @@ and use the list below as suggestions for a checklist that has been tailored for
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue060207] or [edit on GitHub][edit060207].
+
 [control7]: https://owasp.org/www-project-proactive-controls/v3/en/c7-enforce-access-controls
 [csaz]: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html
+[issue060207]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/02-web-app-checklist/07-access-controls
+[edit060207]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/02-web-app-checklist/07-access-controls.md
 [proactive10]: https://owasp.org/www-project-proactive-controls/

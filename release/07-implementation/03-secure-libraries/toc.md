@@ -12,6 +12,18 @@ permalink: /release/implementation/secure_libraries/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![Developer guide logo](../../../assets/images/dg_logo_bbd.png "OWASP Developer Guide"){: .image-right }
+
 ### 5.3 Secure libraries
 
 The use of secure libraries is part of the technology management that helps to fulfil security requirements.
@@ -30,6 +42,11 @@ Sections:
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue0703] or [edit on GitHub][edit0703].
+
+[edit0703]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/03-secure-libraries/toc.md
+[issue0703]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/03-secure-libraries/00-toc
 [sammd]: https://owaspsamm.org/model/design/
-[sammdsa]: https://owaspsamm.org/model/design/security-architecture/
-[sammdsatm]: https://owaspsamm.org/model/design/security-architecture/stream-b/
+[sammdsa]: https://owaspsamm.org/model/design/secure-architecture/
+[sammdsatm]: https://owaspsamm.org/model/design/secure-architecture/stream-b/

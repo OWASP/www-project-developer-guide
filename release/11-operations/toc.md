@@ -12,6 +12,18 @@ permalink: /release/operations/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![Developer guide logo](../../assets/images/dg_logo.png "OWASP Developer Guide"){: .image-right }
+
 ## 9. Operations
 
 Operations are those activities necessary to ensure that confidentiality, integrity, and availability
@@ -38,6 +50,11 @@ Sections:
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue1100] or [edit on GitHub][edit1100].
+
+[edit1100]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/11-operations/toc.md
+[issue1100]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2011-operations/00-toc
 [samm]: https://owaspsamm.org/about/
 [sammo]: https://owaspsamm.org/model/operations/
 [sammoem]: https://owaspsamm.org/model/operations/environment-management/

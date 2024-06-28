@@ -47,7 +47,12 @@ along with the documentation on configuring ModSecurity with the [Core Rule Set]
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue1103] or [edit on GitHub][edit1103].
+
 [coraza]: https://coraza.io/
+[edit1103]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/11-operations/03-modsecurity.md
+[issue1103]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2011-operations/03-modsecurity
 [modcrs]: https://coreruleset.org/
 [modsec]: https://owasp.org/www-project-modsecurity/
 [modsec-docs]: https://www.modsecurity.org/

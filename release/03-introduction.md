@@ -12,6 +12,18 @@ permalink: /release/introduction/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![Developer guide logo](../../assets/images/dg_logo.png "OWASP Developer Guide"){: .image-right }
+
 ### 1. Introduction
 
 Welcome to the OWASP Development Guide.
@@ -46,20 +58,29 @@ All OWASP projects are open source; do get involved if you are interested in imp
 
 The OWASP Developer Guide has been written by the security community to help software developers write solid,
 safe and secure applications.
-Developers should try and be familiar with most of this guide; it will help to write solid applications.
+Developers should try and be familiar with most of this guide; it will help to write applications that are more secure.
 
-You can regard the purpose of this guide as answering the question:
- “I am a developer and I need a reference guide to describe the security activities I really should be doing
- and to navigate the numerous security tools and projects”
+You can think of this guide as a cross-reference source to the many tools and documents that OWASP provide for developers.
+
+Or you can regard the purpose of this guide as answering the question:
+ “I am a developer and I need a reference guide to navigate the numerous security tools
+ and security activities that I know I should be doing.
+
+Or think of it as a collection of articles that introduce developers to the wide domain of application security.
 
 Or you can regard this guide as a companion document to the OWASP [Application Wayfinder][wayfinder] project:
 the Wayfinder mapping out the many OWASP tools, projects and documents with the Developer Guide providing some context.
 
-![Application Wayfinder Diagram](../assets/images/owasp-wayfinder.png "OWASP Application Wayfinder")
+[![Application Wayfinder Diagram](../assets/images/owasp-wayfinder.png "OWASP Application Wayfinder")][wayfinder]
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue03] or [edit on GitHub][edit03].
+
 [about]: https://owasp.org/about/
+[edit03]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/03-introduction.md
+[issue03]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2003-introduction
 [samm]: https://owaspsamm.org/about/
 [versions]: https://github.com/OWASP/DevGuide/wiki#old-versions
 [wayfinder]: https://owasp.org/www-project-integration-standards/

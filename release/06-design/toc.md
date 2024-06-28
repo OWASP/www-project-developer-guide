@@ -12,6 +12,18 @@ permalink: /release/design/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![Developer guide logo](../../assets/images/dg_logo.png "OWASP Developer Guide"){: .image-right }
+
 ## 4. Design
 
 Referring to the [Secure Product Design Cheat Sheet][spdcs], the purpose of secure architecture and design is to ensure
@@ -49,7 +61,7 @@ Sections:
 
 4.1 [Threat modeling](01-threat-modeling/toc.md)  
 4.1.1 [Threat modeling in practice](01-threat-modeling/01-threat-modeling.md)  
-4.1.2 [Pythonic Threat Modeling](01-threat-modeling/02-pytm.md)  
+4.1.2 [pytm](01-threat-modeling/02-pytm.md)  
 4.1.3 [Threat Dragon](01-threat-modeling/03-threat-dragon.md)  
 4.1.4 [Cornucopia](01-threat-modeling/04-cornucopia.md)  
 4.1.5 [LINDDUN GO](01-threat-modeling/05-linddun-go.md)  
@@ -69,9 +81,14 @@ Sections:
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue0600] or [edit on GitHub][edit0600].
+
+[edit0600]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/toc.md
+[issue0600]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/00-toc
 [samm]: https://owaspsamm.org/about/
 [sammd]: https://owaspsamm.org/model/design/
 [sammdsr]: https://owaspsamm.org/model/design/security-requirements/
-[sammdsa]: https://owaspsamm.org/model/design/security-architecture/
+[sammdsa]: https://owaspsamm.org/model/design/secure-architecture/
 [sammdta]: https://owaspsamm.org/model/design/threat-assessment/
 [spdcs]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet.html

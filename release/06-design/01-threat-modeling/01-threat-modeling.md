@@ -252,6 +252,9 @@ then that is also a perfectly good choice.
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue060101] or [edit on GitHub][edit060101].
+
 [4QFW]: https://github.com/adamshostack/4QuestionFrame
 [asacs]: https://cheatsheetseries.owasp.org/cheatsheets/Attack_Surface_Analysis_Cheat_Sheet.html
 [capec]: https://capec.mitre.org/
@@ -259,6 +262,8 @@ then that is also a perfectly good choice.
 [cia]: https://www.nccoe.nist.gov/publication/1800-25/VolA/index.html
 [corncards]: https://owasp.org/www-project-cornucopia/
 [eop]: https://shostack.org/games/elevation-of-privilege
+[edit060101]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/01-threat-modeling/01-threat-modeling.md
+[issue060101]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/01-threat-modeling/01-threat-modeling
 [linddun]: https://linddun.org/
 [nist-cvss]: https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator
 [otm]: https://owasp.org/www-project-threat-model/

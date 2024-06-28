@@ -153,3 +153,9 @@ Setting rules for Android application:
 ```
 
 ----
+
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue070405] or [edit on GitHub][edit070405].
+
+[issue070405]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/04-dos-donts/05-content-security-policy
+[edit070405]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/04-dos-donts/05-content-security-policy.md

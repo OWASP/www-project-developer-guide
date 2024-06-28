@@ -12,6 +12,18 @@ permalink: /release/implementation/documentation/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![Developer guide logo](../../../assets/images/dg_logo_bbd.png "OWASP Developer Guide"){: .image-right }
+
 ### 5.1 Documentation
 
 Documentation is used here as part of the SAMM [Training and Awareness][sammgegta] activity,
@@ -30,6 +42,11 @@ Sections:
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue0710] or [edit on GitHub][edit0710].
+
+[edit0710]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/01-documentation/toc.md
+[issue0710]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/01-documentation/00-toc
 [sammg]: https://owaspsamm.org/model/governance/
 [sammgeg]: https://owaspsamm.org/model/governance/education-and-guidance/
 [sammgegta]: https://owaspsamm.org/model/governance/education-and-guidance/stream-a/

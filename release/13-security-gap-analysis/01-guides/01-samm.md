@@ -65,6 +65,11 @@ The [SAMM Assessment][samma] tools include spreadsheets and online tools such as
 
 ----
 
+The OWASP Developer Guide is a community effort; if there is something that needs changing
+then [submit an issue][issue130101] or [edit on GitHub][edit130101].
+
+[edit130101]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/13-security-gap-analysis/01-guides/01-samm.md
+[issue130101]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2013-security-gap-analysis/01-guides/01-samm
 [samm]: https://owaspsamm.org/about/
 [samma]: https://owaspsamm.org/assessment/
 [sammd]: https://owaspsamm.org/model/design/
