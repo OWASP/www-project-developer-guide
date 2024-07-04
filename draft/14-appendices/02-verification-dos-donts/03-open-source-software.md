@@ -6,13 +6,13 @@ tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
 document: OWASP Developer Guide
 order: 853
-permalink: /draft/verification/dos_donts/open_source_software/
+permalink: /draft/appendices/verification_dos_donts/open_source_software/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 6.5.3 Open Source software
+### 12.2.3 Open Source software
 
 Here is a collection of Do's and Don'ts when it comes to Open Source software, gathered from practical experiences.
 Some of these are language specific and others have more general applicability.
@@ -111,9 +111,9 @@ We realise it could be challenging, but if feasible, maintain a list of approved
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue080503] or [edit on GitHub][edit080503].
+then [submit an issue][issue140203] or [edit on GitHub][edit140203].
 
-[edit080503]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/05-dos-donts/03-open-source-software.md
-[issue080503]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2008-verification/05-dos-donts/03-open-source-software
+[edit140203]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/14-appendices/02-verification-dos-donts/03-open-source-software.md
+[issue140203]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2014-appendices/02-verification-dos-donts/03-open-source-software
 
 \newpage

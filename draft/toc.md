@@ -69,15 +69,6 @@ This draft version has the latest contributions to the Developer Guide so expect
 5.3.1 [Enterprise Security API library](07-implementation/03-secure-libraries/01-esapi.md)  
 5.3.2 [CSRFGuard library](07-implementation/03-secure-libraries/02-csrf-guard.md)  
 5.3.3 [OWASP Secure Headers Project](07-implementation/03-secure-libraries/03-secure-headers.md)  
-5.4 [Implementation Do's and Don'ts](07-implementation/04-dos-donts/toc.md)  
-5.4.1 [Container security](07-implementation/04-dos-donts/01-container-security.md)  
-5.4.2 [Secure coding](07-implementation/04-dos-donts/02-secure-coding.md)  
-5.4.3 [Cryptographic practices](07-implementation/04-dos-donts/03-cryptographic-practices.md)  
-5.4.4 [Application spoofing](07-implementation/04-dos-donts/04-application-spoofing.md)  
-5.4.5 [Content Security Policy (CSP)](07-implementation/04-dos-donts/05-content-security-policy.md)  
-5.4.6 [Exception and error handling](07-implementation/04-dos-donts/06-exception-error-handling.md)  
-5.4.7 [File management](07-implementation/04-dos-donts/07-file-management.md)  
-5.4.8 [Memory management](07-implementation/04-dos-donts/08-memory-management.md)  
 
 6 **[Verification](08-verification/toc.md)**  
 6.1 [Guides](08-verification/01-guides/toc.md)  
@@ -94,10 +85,6 @@ This draft version has the latest contributions to the Developer Guide so expect
 6.3.1 [secureCodeBox](08-verification/03-frameworks/01-secure-codebox.md)  
 6.4 [Vulnerability management](08-verification/04-vulnerability-management/toc.md)  
 6.4.1 [DefectDojo](08-verification/04-vulnerability-management/01-defectdojo.md)  
-6.5 [Verification Do's and Don'ts](08-verification/05-dos-donts/toc.md)  
-6.5.1 [Secure environment](08-verification/05-dos-donts/01-secure-environment.md)  
-6.5.2 [System hardening](08-verification/05-dos-donts/02-system-hardening.md)  
-6.5.3 [Open Source software](08-verification/05-dos-donts/03-open-source-software.md)  
 
 7 **[Training and Education](09-training-education/toc.md)**  
 7.1 [Vulnerable Applications](09-training-education/01-vulnerable-apps/toc.md)  
@@ -138,3 +125,18 @@ This draft version has the latest contributions to the Developer Guide so expect
 11.1.2 [Application Security Verification Standard](13-security-gap-analysis/01-guides/02-asvs.md)  
 11.1.3 [Mobile Application Security](13-security-gap-analysis/01-guides/03-mas.md)  
 11.2 [Bug Logging Tool](13-security-gap-analysis/02-blt.md)  
+
+12 **[Appendices](14-appendices/toc.md)**  
+12.1 [Implementation Do's and Don'ts](14-appendices/01-implementation-dos-donts/toc.md)  
+12.1.1 [Container security](14-appendices/01-implementation-dos-donts/01-container-security.md)  
+12.1.2 [Secure coding](14-appendices/01-implementation-dos-donts/02-secure-coding.md)  
+12.1.3 [Cryptographic practices](14-appendices/01-implementation-dos-donts/03-cryptographic-practices.md)  
+12.1.4 [Application spoofing](14-appendices/01-implementation-dos-donts/04-application-spoofing.md)  
+12.1.5 [Content Security Policy (CSP)](14-appendices/01-implementation-dos-donts/05-content-security-policy.md)  
+12.1.6 [Exception and error handling](14-appendices/01-implementation-dos-donts/06-exception-error-handling.md)  
+12.1.7 [File management](14-appendices/01-implementation-dos-donts/07-file-management.md)  
+12.1.8 [Memory management](14-appendices/01-implementation-dos-donts/08-memory-management.md)  
+12.2 [Verification Do's and Don'ts](14-appendices/02-verification-dos-donts/toc.md)  
+12.2.1 [Secure environment](14-appendices/02-verification-dos-donts/01-secure-environment.md)  
+12.2.2 [System hardening](14-appendices/02-verification-dos-donts/02-system-hardening.md)  
+12.2.3 [Open Source software](14-appendices/02-verification-dos-donts/03-open-source-software.md)  

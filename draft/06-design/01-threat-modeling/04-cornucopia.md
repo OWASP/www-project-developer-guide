@@ -36,26 +36,63 @@ Cornucopia provides a [set of cards][cornucopia-cards] designed to gamify threat
 This is designed so that agile development teams can identify weaknesses in web applications
 and then record remediations or requirements.
 
-Cornucopia comes with the cards in various suits that cover the various security domains:
+There are three versions of the Cornucopia deck of threat modeling cards:
 
-* Data validation and encoding
-* Authentication
-* Session management
-* Authorization
-* Cryptography
-* Cornucopia
+* Website App Edition
+* Mobile App Edition
+* Enterprise App Edition
+
+The decks come with different suits according to the application, and always contain a 'Cornucopia' suit.
 
 There is no one 'right' way to play Cornucopia but there is a suggested [set of rules][cornucopia-play]
 to start the game off.
 Cornucopia provides a [score sheet][cornucopia-score] to help keep track of the game session and to record outcomes.
 
-To provide context each card in the Cornucopia deck references other OWASP projects:
+#### Website App Edition
 
-* Application Security Verification Standard ([ASVS][asvs])
-* Secure Coding Practices ([SCP][scp-v21]]) Quick Reference Guide
-* [AppSensor][appsensor]
+Each card in the Website App deck describes a common error or anti-pattern that allows systems to be vulnerable to attack.
+Vulnerabilities are arranged in domains as five key suits, with the additional Cornucopia suit ranging across domains:
 
-The SCP reference guide has now been incorporated into part of the [Developer Guide](../02-web-app-checklist/toc.md) itself.
+* Data Validation and Encoding
+* Authentication
+* Session Management
+* Authorization
+* Cryptography
+* Cornucopia
+
+To provide context the Cornucopia Website App cards reference other projects:
+
+* OWASP Application Security Verification Standard ([ASVS][asvs])
+* OWASP Secure Coding Practices ([SCP][scp-v21]]) quick reference guide
+* OWASP [AppSensor][appsensor]
+* Mitre's Common Attack Pattern Enumeration and Classification ([CAPEC][capec])
+* [SAFEcode][safecode]
+
+The SCP quick reference guide has now been incorporated as part of this [Developer Guide](../02-web-app-checklist/toc.md).
+
+#### Mobile App Edition
+
+Similarly to the website application deck, the mobile application deck has five domains/suits,
+with Cornucopia cross domain:
+
+* Platform and Code
+* Authentication and Authorization
+* Network and Storage
+* Resilience
+* Cryptography
+* Cornucopia
+
+To provide context the Cornucopia Mobile App cards reference other projects:
+
+* OWASP Mobile Application Security Verification Standard ([MASVS][masvs])
+* OWASP Mobile Application Security Testing Guide ([MASTG][mastg])
+* Mitre's Common Attack Pattern Enumeration and Classification ([CAPEC][capec])
+* [SAFEcode][safecode]
+
+#### Ecommerce Website Edition
+
+This is the original Cornucopia deck and has the same domains/suits, including the Cornucopia cross domain suit,
+as the Website App Edition. Some of the vulnerabilities are specific to Ecommerce, and it references the same projects.
 
 #### Why use it?
 
@@ -90,6 +127,18 @@ The suggested order of play is:
 Remember that the outcome of the game is to identify possible threats and propose remediations,
 as well as having a good time.
 
+#### References
+
+* [AppSensor][appsensor]
+* Application Security Verification Standard, [ASVS][asvs]
+* Common Attack Pattern Enumeration and Classification, [CAPEC][capec]
+* [Cornucopia][cornucopia]
+* Mobile Application Security Verification Standard, [MASVS][masvs])
+* Mobile Application Security Testing Guide, [MASTG][mastg])
+* [Secure Coding Practices][scp-v21] quick reference guide
+* [SAFEcode][safecode]
+* [Spotlight][spotlight16] on Cornucopia
+
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
@@ -97,12 +146,16 @@ then [submit an issue][issue060104] or [edit on GitHub][edit060104].
 
 [appsensor]: https://owasp.org/www-project-appsensor/
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
+[capec]: https://capec.mitre.org/
 [cornucopia]: https://owasp.org/www-project-cornucopia/
 [cornucopia-cards]: https://owasp.org/www-project-cornucopia#div-cards
 [cornucopia-score]: https://owasp.org/www-project-cornucopia/assets/files/Cornucopia-scoresheet.pdf
 [cornucopia-play]: https://owasp.org/www-project-cornucopia#div-play
 [edit060104]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/01-threat-modeling/04-cornucopia.md
 [issue060104]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2006-design/01-threat-modeling/04-cornucopia
+[mastg]: https://mas.owasp.org/MASTG/
+[masvs]: https://mas.owasp.org/MASVS/
+[safecode]: https://safecode.org/
 [scp-v21]: https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/assets/docs/OWASP_SCP_Quick_Reference_Guide_v21.pdf
 [spotlight16]: https://youtu.be/NesxjEGX58s
 

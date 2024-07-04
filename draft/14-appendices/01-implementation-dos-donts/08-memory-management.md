@@ -6,13 +6,13 @@ tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
 document: OWASP Developer Guide
 order: 748
-permalink: /draft/implementation/dos_donts/memory_management/
+permalink: /draft/appendices/implementation_dos_donts/memory_management/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 5.4.8 Memory Management
+### 12.1.8 Memory Management
 
 Here is a collection of Do's and Don'ts when it comes to memory management, gathered from practical experiences.
 
@@ -29,9 +29,9 @@ Here is a collection of Do's and Don'ts when it comes to memory management, gath
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue070408] or [edit on GitHub][edit070408].
+then [submit an issue][issue140108] or [edit on GitHub][edit140108].
 
-[issue070408]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/04-dos-donts/08-memory-management
-[edit070408]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/04-dos-donts/08-memory-management.md
+[edit140108]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/14-appendices/01-implementation-dos-donts/08-memory-management.md
+[issue140108]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2014-appendices/01-implementation-dos-donts/08-memory-management
 
 \newpage

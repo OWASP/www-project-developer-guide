@@ -6,13 +6,13 @@ tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
 document: OWASP Developer Guide
 order: 747
-permalink: /draft/implementation/dos_donts/file_management/
+permalink: /draft/appendices/implementation_dos_donts/file_management/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 5.4.7 File Management
+### 12.1.7 File Management
 
 Here is a collection of Do's and Don'ts when it comes to file management, gathered from practical experiences.
 
@@ -45,9 +45,9 @@ Here is a collection of Do's and Don'ts when it comes to file management, gather
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue070407] or [edit on GitHub][edit070407].
+then [submit an issue][issue140107] or [edit on GitHub][edit140107].
 
-[issue070407]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/04-dos-donts/07-file-management
-[edit070407]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/04-dos-donts/07-file-management.md
+[edit140107]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/14-appendices/01-implementation-dos-donts/07-file-management.md
+[issue140107]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%20/14-appendices/01-implementation-dos-donts/07-file-management
 
 \newpage

@@ -49,15 +49,6 @@ Sections:
 5.3.1 [Enterprise Security API library](#enterprise-security-api-library)  
 5.3.2 [CSRFGuard library](#csrfguard-library)  
 5.3.3 [OWASP Secure Headers Project](#owasp-secure-headers-project)  
-5.4 [Implementation Do's and Don'ts](#implementation-dos-and-donts)  
-5.4.1 [Container security](#container-security)  
-5.4.2 [Secure coding](#secure-coding)  
-5.4.3 [Cryptographic practices](#cryptographic-practices)  
-5.4.4 [Application spoofing](#application-spoofing)  
-5.4.5 [Content Security Policy (CSP)](#content-security-policy)  
-5.4.6 [Exception and error handling](#exception-and-error-handling)  
-5.4.7 [File management](#file-management)  
-5.4.8 [Memory management](#memory-management)  
 
 ----
 

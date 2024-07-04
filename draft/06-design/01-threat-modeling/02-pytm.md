@@ -14,7 +14,7 @@ permalink: /draft/design/threat_modeling/pytm/
 
 <style type="text/css">
 .image-right {
-  height: 180px;
+  height: 200px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -100,6 +100,15 @@ mkdir -p tm
 ./tm.py --dfd | dot -Tpng -o tm/dfd.png
 ./tm.py --seq | java -Djava.awt.headless=true -jar $PLANTUML_PATH -tpng -pipe > tm/seq.png
 ```
+
+#### References
+
+* [Graphviz][graphviz]
+* [pandoc][pandoc]
+* [PlantUML][plantuml]
+* [pytm][pytmrepo]
+* [Spotlight][spotlight06] on pytm
+* [Threat Modeling: a practical guide for development teams][TMchap4]
 
 ----
 

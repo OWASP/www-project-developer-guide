@@ -6,13 +6,13 @@ tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
 document: OWASP Developer Guide
 order: 745
-permalink: /draft/implementation/dos_donts/content_security_policy/
+permalink: /draft/appendices/implementation_dos_donts/content_security_policy/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 5.4.5 Content Security Policy
+### 12.1.5 Content Security Policy
 
 Here is a collection of Do's and Don'ts when it comes to Content Security Policy, gathered from practical experiences.
 Some of these are language specific and others have more general applicability.
@@ -155,9 +155,9 @@ Setting rules for Android application:
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue070405] or [edit on GitHub][edit070405].
+then [submit an issue][issue140105] or [edit on GitHub][edit140105].
 
-[issue070405]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/04-dos-donts/05-content-security-policy
-[edit070405]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/04-dos-donts/05-content-security-policy.md
+[edit140105]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/14-appendices/01-implementation-dos-donts/05-content-security-policy.md
+[issue140105]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%20/14-appendices/01-implementation-dos-donts/05-content-security-policy
 
 \newpage

@@ -6,13 +6,13 @@ tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
 document: OWASP Developer Guide
 order: 744
-permalink: /draft/implementation/dos_donts/application_spoofing/
+permalink: /draft/appendices/implementation_dos_donts/application_spoofing/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 5.4.4 Application Spoofing
+### 12.1.4 Application Spoofing
 
 Here is a collection of Do's and Don'ts when it comes to application spoofing, gathered from practical experiences.
 Some of these are language specific and others have more general applicability.
@@ -75,10 +75,10 @@ How can it be addressed:
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue070404] or [edit on GitHub][edit070404].
+then [submit an issue][issue140104] or [edit on GitHub][edit140104].
 
-[issue070404]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/04-dos-donts/04-application-spoofing
-[edit070404]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/04-dos-donts/04-application-spoofing.md
+[edit140104]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/14-appendices/01-implementation-dos-donts/04-application-spoofing.md
+[issue140104]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%20/14-appendices/01-implementation-dos-donts/04-application-spoofing
 [urdp]: https://www.icann.org/resources/pages/help/dndr/udrp-en
 
 \newpage

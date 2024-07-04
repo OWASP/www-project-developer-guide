@@ -65,7 +65,7 @@ is via the OWASP Slack [#project-developer-guide][project] project channel (you 
 
 ----
 
-OWASP Developer Guide: _accessible security for system and application developers_
+OWASP Developer Guide: _accessible security for developers_
 
 [conduct]: code_of_conduct.md
 [contribution]: contributing.md
