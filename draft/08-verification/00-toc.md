@@ -51,10 +51,6 @@ Sections:
 6.3.1 [secureCodeBox](#securecodebox)  
 6.4 [Vulnerability management](#verification-vulnerability-management)  
 6.4.1 [DefectDojo](#defectdojo)  
-6.5 [Do's and Don'ts](#verification-dos-and-donts)
-6.5.1 [Secure environment](#secure-environment)  
-6.5.2 [System hardening](#system-hardening)  
-6.5.3 [Open Source software](#open-source-software)  
 
 ----
 

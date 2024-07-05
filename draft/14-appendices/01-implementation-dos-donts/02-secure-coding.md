@@ -6,13 +6,13 @@ tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
 document: OWASP Developer Guide
 order: 742
-permalink: /draft/implementation/dos_donts/secure_coding/
+permalink: /draft/appendices/implementation_dos_donts/secure_coding/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 5.4.2 Secure coding
+### 12.1.2 Secure coding
 
 Here is a collection of Do's and Don'ts when it comes to secure coding, gathered from practical experiences.
 Some of these are language specific and others have more general applicability.
@@ -334,10 +334,10 @@ Also not exploitable: `{""result"": [{""object"": ""inside an array""}]}"`
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue070402] or [edit on GitHub][edit070402].
+then [submit an issue][issue140102] or [edit on GitHub][edit140102].
 
-[issue070402]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/04-dos-donts/02-secure-coding
-[edit070402]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/04-dos-donts/02-secure-coding.md
+[edit140102]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/14-appendices/01-implementation-dos-donts/02-secure-coding.md
+[issue140102]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%20/14-appendices/01-implementation-dos-donts/02-secure-coding
 [rfc7518]: https://www.rfc-editor.org/rfc/rfc7518
 [trace]: https://www.blackhillsinfosec.com/three-minutes-with-the-http-trace-method/
 

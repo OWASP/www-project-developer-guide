@@ -6,13 +6,13 @@ tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
 document: OWASP Developer Guide
 order: 851
-permalink: /draft/verification/dos_donts/secure_environment/
+permalink: /draft/appendices/verification_dos_donts/secure_environment/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 6.5.1 Secure environment
+### 12.2.1 Secure environment
 
 Here is a collection of Do's and Don'ts when it comes to creating a secure environment, gathered from practical experiences.
 Some of these are language specific and others have more general applicability.
@@ -69,9 +69,9 @@ Some of these are language specific and others have more general applicability.
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue080501] or [edit on GitHub][edit080501].
+then [submit an issue][issue140201] or [edit on GitHub][edit140201].
 
-[issue080501]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2008-verification/05-dos-donts/01-secure-environment
-[edit080501]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/05-dos-donts/01-secure-environment.md
+[edit140201]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/14-appendices/02-verification-dos-donts/01-secure-environment.md
+[issue140201]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2014-appendices/02-verification-dos-donts/01-secure-environment
 
 \newpage

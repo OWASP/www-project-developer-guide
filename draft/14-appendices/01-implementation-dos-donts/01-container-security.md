@@ -6,13 +6,13 @@ tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
 document: OWASP Developer Guide
 order: 741
-permalink: /draft/implementation/dos_donts/container_security/
+permalink: /draft/appendices/implementation_dos_donts/container_security/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 5.4.1 Container security
+### 12.1.1 Container security
 
 This is a collection of Do's and Don'ts when it comes to container security, gathered from practical experiences.
 Some of these are language specific and others have more general applicability.
@@ -133,10 +133,10 @@ Container image security, host security, client security, daemon security, runti
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue070401] or [edit on GitHub][edit070401].
+then [submit an issue][issue140101] or [edit on GitHub][edit140101].
 
-[issue070401]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/04-dos-donts/01-container-security
-[edit070401]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/04-dos-donts/01-container-security.md
 [docker]: https://docs.docker.com/get-started/09_image_best/
+[edit140101]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/14-appendices/01-implementation-dos-donts/01-container-security.md
+[issue140101]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%20/14-appendices/01-implementation-dos-donts/01-container-security
 
 \newpage

@@ -6,13 +6,13 @@ tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
 document: OWASP Developer Guide
 order: 852
-permalink: /draft/verification/dos_donts/system_hardening/
+permalink: /draft/appendices/verification_dos_donts/system_hardening/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 6.5.2 System hardening
+### 12.2.2 System hardening
 
 Here is a collection of Do's and Don'ts when it comes to system hardening, gathered from practical experiences.
 Some of these are language specific and others have more general applicability.
@@ -75,9 +75,9 @@ Some of these are language specific and others have more general applicability.
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue080502] or [edit on GitHub][edit080502].
+then [submit an issue][issue140202] or [edit on GitHub][edit140202].
 
-[edit080502]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/05-dos-donts/02-system-hardening.md
-[issue080502]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2008-verification/05-dos-donts/02-system-hardening
+[edit140202]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/14-appendices/02-verification-dos-donts/02-system-hardening.md
+[issue140202]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2014-appendices/02-verification-dos-donts/02-system-hardening
 
 \newpage

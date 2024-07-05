@@ -6,13 +6,13 @@ tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
 document: OWASP Developer Guide
 order: 743
-permalink: /draft/implementation/dos_donts/cryptographic_practices/
+permalink: /draft/appendices/implementation_dos_donts/cryptographic_practices/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 5.4.3 Cryptographic practices
+### 12.1.3 Cryptographic practices
 
 Here is a collection of Do's and Don'ts when it comes to cryptographic practices, gathered from practical experiences.
 
@@ -68,9 +68,9 @@ Here is a collection of Do's and Don'ts when it comes to cryptographic practices
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue070403] or [edit on GitHub][edit070403].
+then [submit an issue][issue140103] or [edit on GitHub][edit140103].
 
-[issue070403]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/04-dos-donts/03-cryptographic-practices
-[edit070403]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/04-dos-donts/03-cryptographic-practices.md
+[edit140103]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/14-appendices/01-implementation-dos-donts/03-cryptographic-practices.md
+[issue140103]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%20/14-appendices/01-implementation-dos-donts/03-cryptographic-practices
 
 \newpage
