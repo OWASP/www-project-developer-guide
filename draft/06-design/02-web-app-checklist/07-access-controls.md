@@ -21,27 +21,27 @@ Refer to proactive control [C7: Enforce Access Controls][control7]
 for more context from the OWASP Top 10 Proactive Controls project,
 and use the list below as suggestions for a checklist that has been tailored for the individual project.
 
-#### Authorization
+#### 1. Authorization
 
-* Design access control / authorization thoroughly up-front
-* Force all requests to go through access control checks unless public
-* Deny by default; if a request is not specifically allowed then it is denied
-* Apply least privilege, providing the least access as is necessary
-* Log all authorization events
+1. Design access control / authorization thoroughly up-front
+1. Force all requests to go through access control checks unless public
+1. Deny by default; if a request is not specifically allowed then it is denied
+1. Apply least privilege, providing the least access as is necessary
+1. Log all authorization events
 
-#### Access control
+#### 2. Access control
 
-* Enforce authorization controls on every request
-* Use only trusted system objects for making access authorization decisions
-* Use a single site-wide component to check access authorization
-* Access controls should fail securely
-* Deny all access if the application cannot access its security configuration information
-* Segregate privileged logic from other application code
-* Limit the number of transactions a single user or device can perform in a given period of time,
+1. Enforce authorization controls on every request
+1. Use only trusted system objects for making access authorization decisions
+1. Use a single site-wide component to check access authorization
+1. Access controls should fail securely
+1. Deny all access if the application cannot access its security configuration information
+1. Segregate privileged logic from other application code
+1. Limit the number of transactions a single user or device can perform in a given period of time,
     low enough to deter automated attacks but above the actual business requirement
-* If long authenticated sessions are allowed, periodically re-validate a user's authorization
-* Implement account auditing and enforce the disabling of unused accounts
-* The application must support termination of sessions when authorization ceases
+1. If long authenticated sessions are allowed, periodically re-validate a user's authorization
+1. Implement account auditing and enforce the disabling of unused accounts
+1. The application must support termination of sessions when authorization ceases
 
 #### References
 
