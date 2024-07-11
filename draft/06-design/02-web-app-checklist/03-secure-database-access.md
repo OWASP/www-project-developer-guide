@@ -20,31 +20,31 @@ Refer to proactive control [C3: Secure Database Access][control3]
 for more context from the OWASP Top 10 Proactive Controls project,
 and use the list below as suggestions for a checklist that has been tailored for the individual project.
 
-#### Secure queries
+#### 1. Secure queries
 
-* Use Query Parameterization to prevent untrusted input being interpreted as part of a SQL command
-* Use strongly typed parameterized queries
-* Utilize input validation and output encoding and be sure to address meta characters
-* Do not run the database command if input validation fails
-* Ensure that variables are strongly typed
-* Connection strings should not be hard coded within the application
-* Connection strings should be stored in a separate configuration file on a trusted system and they should be encrypted
+1. Use Query Parameterization to prevent untrusted input being interpreted as part of a SQL command
+1. Use strongly typed parameterized queries
+1. Utilize input validation and output encoding and be sure to address meta characters
+1. Do not run the database command if input validation fails
+1. Ensure that variables are strongly typed
+1. Connection strings should not be hard coded within the application
+1. Connection strings should be stored in a separate configuration file on a trusted system and they should be encrypted
 
-#### Secure configuration
+#### 2. Secure configuration
 
-* The application should use the lowest possible level of privilege when accessing the database
-* Use stored procedures to abstract data access and allow for the removal of permissions to the base tables in the database
-* Close the database connection as soon as possible
-* Turn off all unnecessary database functionality
-* Remove unnecessary default vendor content, for example sample schemas
-* Disable any default accounts that are not required to support business requirements
+1. The application should use the lowest possible level of privilege when accessing the database
+1. Use stored procedures to abstract data access and allow for the removal of permissions to the base tables in the database
+1. Close the database connection as soon as possible
+1. Turn off all unnecessary database functionality
+1. Remove unnecessary default vendor content, for example sample schemas
+1. Disable any default accounts that are not required to support business requirements
 
-#### Secure authentication
+#### 3. Secure authentication
 
-* Remove or change all default database administrative passwords
-* The application should connect to the database with different credentials for every trust distinction
+1. Remove or change all default database administrative passwords
+1. The application should connect to the database with different credentials for every trust distinction
     (for example user, read-only user, guest, administrators)
-* Use secure credentials for database access
+1. Use secure credentials for database access
 
 #### References
 

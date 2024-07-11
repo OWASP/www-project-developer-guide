@@ -4,7 +4,7 @@ docs:
 - title: '1. Introduction'
   url: introduction
 
-- title: '*2. Foundations*'
+- title: '2. Foundations'
   url: foundations
 
 - title: '2.1 Security fundamentals'

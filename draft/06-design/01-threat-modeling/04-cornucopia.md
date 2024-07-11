@@ -32,9 +32,8 @@ during the software development life cycle.
 
 #### What is Cornucopia?
 
-Cornucopia provides a [set of cards][cornucopia-cards] designed to gamify threat modeling activities.
-This is designed so that agile development teams can identify weaknesses in web applications
-and then record remediations or requirements.
+Cornucopia provides a [set of cards][cornucopia-cards] designed to gamify threat modeling activities,
+helping agile development teams to identify weaknesses in applications and then record remediations or requirements.
 
 There are three versions of the Cornucopia deck of threat modeling cards:
 
@@ -42,16 +41,16 @@ There are three versions of the Cornucopia deck of threat modeling cards:
 * Mobile App Edition
 * Enterprise App Edition
 
-The decks come with different suits according to the application, and always contain a 'Cornucopia' suit.
+The decks come with several suits according to the application, and always contain an overall 'Cornucopia' suit.
 
-There is no one 'right' way to play Cornucopia but there is a suggested [set of rules][cornucopia-play]
-to start the game off.
-Cornucopia provides a [score sheet][cornucopia-score] to help keep track of the game session and to record outcomes.
+Cornucopia can be played in many different ways, there is no one way,
+and there is a suggested [set of rules][cornucopia-play] to start the game off.
+Cornucopia provides a [score sheet][cornucopia-score] to can help keep track of the game session and to record outcomes.
 
 #### Website App Edition
 
 Each card in the Website App deck describes a common error or anti-pattern that allows systems to be vulnerable to attack.
-Vulnerabilities are arranged in domains as five key suits, with the additional Cornucopia suit ranging across domains:
+Vulnerabilities are arranged in domains as five suits with the additional Cornucopia suit ranging across these domains:
 
 * Data Validation and Encoding
 * Authentication
@@ -82,7 +81,7 @@ with Cornucopia cross domain:
 * Cryptography
 * Cornucopia
 
-To provide context the Cornucopia Mobile App cards reference other projects:
+For context the Cornucopia Mobile App cards reference these other projects:
 
 * OWASP Mobile Application Security Verification Standard ([MASVS][masvs])
 * OWASP Mobile Application Security Testing Guide ([MASTG][mastg])
@@ -92,7 +91,8 @@ To provide context the Cornucopia Mobile App cards reference other projects:
 #### Ecommerce Website Edition
 
 This is the original Cornucopia deck and has the same domains/suits, including the Cornucopia cross domain suit,
-as the Website App Edition. Some of the vulnerabilities are specific to Ecommerce, and it references the same projects.
+as the Website App Edition. Some of the vulnerabilities are specific to Ecommerce,
+but it references the same projects as the website edition.
 
 #### Why use it?
 
