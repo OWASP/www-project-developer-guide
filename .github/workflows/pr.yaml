@@ -5,6 +5,9 @@ on:
       - main
   workflow_dispatch:
 
+env:
+  RESOURCE_PATH: release/assets/images:release/assets:release:assets/images:assets/images/logos:assets/images/logos/publish
+
 # for security reasons the github actions are pinned to specific release versions
 jobs:
   link_checker:
@@ -56,8 +59,11 @@ jobs:
 
       - name: Combine markdown
         run: |
-          tail --lines=+14 -q $(find draft -name "*[0-9]*.md" | sort) > draft.markdown
-          mkdir -p publish
+          mkdir publish
+          mkdir assets/images/logos/publish
+          mkdir draft/temp
+          tail --lines=+14 -q $(find draft -name "*[0-9]*.md" | sort) > draft/temp/draft.markdown
+          sed -i "s/{: .image-right }/{height=180px}/g" draft/temp/draft.markdown
 
       - name: Export to pdf
         uses: docker://pandoc/latex:3.1
@@ -65,9 +71,10 @@ jobs:
           args: >-
             --from=markdown
             --output=publish/OWASP_Developer_Guide.draft.pdf
-            --resource-path="draft/assets/images:draft/assets:draft"
+            --resource-path=${{ env.RESOURCE_PATH }}
+            -fmarkdown-implicit_figures
             draft/title.pdf.yaml
-            draft.markdown
+            draft/temp/draft.markdown
 
       - name: Export to epub
         uses: docker://pandoc/latex:3.1
@@ -75,12 +82,13 @@ jobs:
           args: >-
             --from=markdown
             --output=publish/OWASP_Developer_Guide.draft.epub
-            --resource-path="draft/assets/images:draft/assets:draft"
+            --resource-path=${{ env.RESOURCE_PATH }}
+            -fmarkdown-implicit_figures
             draft/title.yaml
-            draft.markdown
+            draft/temp/draft.markdown
 
       - name: Save pdfs and epubs
-        uses: actions/upload-artifact@v4.3.0
+        uses: actions/upload-artifact@v4.3.4
         with:
           name: export-draft
           path: publish

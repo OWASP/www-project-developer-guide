@@ -14,7 +14,7 @@ tags: dev-guide, developer guide
   margin-left: auto;
   margin-right: auto;
   float: right;
-  height: 220px;
+  height: 180px;
 }
 </style>
 

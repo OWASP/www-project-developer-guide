@@ -97,12 +97,23 @@ To run these checks locally before pushing a commit, run these commands from the
 1. Link checker: `lychee --max-retries 5 --exclude-path './_includes/*.html' './**/*.md'`
 2. Markdown linter: `markdownlint-cli2  **/*.md`
 3. Spell checker: `pyspelling --config .spellcheck.yaml`
-4. commands to create PDF and ePub outputs:
+4. commands to set up the environment for PDF and ePub export
 
 ```text
-tail -n +14 -q $(find draft -name "*[0-9]*.md" | sort) > draft.markdown
-pandoc -f markdown -o draft.pdf --resource-path="draft/assets/images:draft/assets:draft" draft/title.pdf.yaml draft.markdown
-pandoc -f markdown -o draft.epub --resource-path="draft/assets/images:draft/assets:draft" draft/title.yaml draft.markdown
+mkdir draft/temp
+mkdir assets/images/logos/publish
+export RESOURCE_PATH="draft/assets/images:draft/assets:draft:assets/images/logos:assets/images:assets/images/logos/publish"
+```
+
+and the commands to create PDF and ePub outputs:
+
+```text
+tail -n +14 -q $(find draft -name "*[0-9]*.md" | sort) > draft/temp/draft.markdown
+sed -i "s/{: .image-right }/{height=180px}/g" draft/temp/draft.markdown
+pandoc -f markdown -o draft.pdf --resource-path="$RESOURCE_PATH" \
+-fmarkdown-implicit_figures draft/title.pdf.yaml draft/temp/draft.markdown
+pandoc -f markdown -o draft.epub --resource-path="$RESOURCE_PATH" \
+-fmarkdown-implicit_figures draft/title.yaml draft/temp/draft.markdown
 ```
 
 Follow instructions to install the command line [lychee][lychee-install] and [pandoc][pandoc-install].

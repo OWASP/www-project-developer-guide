@@ -11,6 +11,8 @@ order:
 
 {% include breadcrumb.html %}
 
+![Developer guide logo](../../../assets/images/dg_logo_bbd.png "OWASP Developer Guide"){height=180px}
+
 ### 11.1 Security gap analysis guides
 
 Security gap analysis and security gap evaluation are central to Governance, Risk & Compliance activities
