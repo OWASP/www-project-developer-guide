@@ -12,6 +12,8 @@ permalink:
 
 {% include breadcrumb.html %}
 
+![Developer guide logo](../../assets/images/dg_logo.png "OWASP Developer Guide"){height=180px}
+
 ## 3. Requirements
 
 Referring to the OWASP [Top Ten Proactive Controls][control1], security requirements are statements of

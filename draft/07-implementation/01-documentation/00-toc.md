@@ -11,6 +11,8 @@ order:
 
 {% include breadcrumb.html %}
 
+![Developer guide logo](../../../assets/images/dg_logo_bbd.png "OWASP Developer Guide"){height=180px}
+
 ### 5.1 Documentation
 
 Documentation is used here as part of the SAMM [Training and Awareness][sammgegta] activity,

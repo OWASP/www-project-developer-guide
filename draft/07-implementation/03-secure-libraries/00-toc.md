@@ -11,6 +11,8 @@ order:
 
 {% include breadcrumb.html %}
 
+![Developer guide logo](../../../assets/images/dg_logo_bbd.png "OWASP Developer Guide"){height=180px}
+
 ### 5.3 Secure libraries
 
 The use of secure libraries is part of the technology management that helps to fulfil security requirements.

@@ -11,6 +11,8 @@ order:
 
 {% include breadcrumb.html %}
 
+![Developer guide logo](../../../assets/images/dg_logo_bbd.png "OWASP Developer Guide"){height=180px}
+
 ### 12.1 Implementation Do's and Don'ts
 
 Implementation demands technical knowledge, skill and experience.
