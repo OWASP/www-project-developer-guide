@@ -20,28 +20,27 @@ jobs:
       - name: Checkout markdown
         uses: actions/checkout@v4.1.1
 
-      - name: Fix up markdown
-        run: |
-          echo "GITHUB_WORKFLOW: ${GITHUB_WORKFLOW}"
-          echo "GITHUB_REF_NAME: ${GITHUB_REF_NAME}"
-          echo "rename draft to release"
-          find draft -name "*.md" -exec sed -i "s|permalink: /draft/|permalink: /release/|" {} +
-          find draft -name "*.md" -exec \
-          sed -i "s/.*the latest contributions to the Developer Guide.*/\#\#\# Release version $GITHUB_REF_NAME/" {} +
-          find draft -name "*.md" -exec sed -i "s/ (Draft)//gI" {} +
-          echo "remove contributing footer"
-          find draft -name "*.md" -exec sed -i "/The OWASP Developer Guide is a community effort/d" {} +
-          find draft -name "*.md" -exec sed -i "/edit on GitHub/d" {} +
-          find draft -name "*.md" -exec sed -i "/www-project-developer-guide\/issues\/new?labels/d" {} +
-          find draft -name "*.md" -exec sed -i "/www-project-developer-guide\/blob\/main/d" {} +
-          find draft -name "*.md" -exec sed -i "s/{: .image-right }/{height=180px}/g" {} +
-
       - name: Combine markdown
         run: |
           mkdir publish
           mkdir assets/images/logos/publish
-          mkdir release/publish
-          tail --lines=+14 -q $(find draft -name "*[0-9]*.md" | sort) > release/publish/draft.markdown
+          mkdir release/temp
+          tail --lines=+14 -q $(find draft -name "*[0-9]*.md" | sort) > release/temp/draft.markdown
+
+      - name: Fix up markdown
+        run: |
+          echo "GITHUB_WORKFLOW: ${GITHUB_WORKFLOW}"
+          echo "GITHUB_REF_NAME: ${GITHUB_REF_NAME}"
+          sed -i "s/{: .image-right }/{height=180px}/g" release/temp/draft.markdown
+          echo "rename draft to release"
+          sed -i "s|permalink: /draft/|permalink: /release/|g" release/temp/draft.markdown
+          sed -i "s/.*the latest contributions to the Developer Guide.*/\#\#\# Release version $GITHUB_REF_NAME/" release/temp/draft.markdown
+          sed -i "s/ (Draft)//gI" release/temp/draft.markdown
+          echo "remove contributing footer"
+          sed -i "/The OWASP Developer Guide is a community effort/d" release/temp/draft.markdown
+          sed -i "/edit on GitHub/d" release/temp/draft.markdown
+          sed -i "/www-project-developer-guide\/issues\/new?labels/d" release/temp/draft.markdown
+          sed -i "/www-project-developer-guide\/blob\/main/d" release/temp/draft.markdown
 
       - name: Export to pdf
         uses: docker://pandoc/latex:3.1
@@ -51,7 +50,7 @@ jobs:
             --output=publish/OWASP_Developer_Guide.pdf
             --resource-path=${{ env.RESOURCE_PATH }}
             release/title.pdf.yaml
-            release/publish/draft.markdown
+            release/temp/draft.markdown
 
       - name: Export to epub
         uses: docker://pandoc/latex:3.1
@@ -61,7 +60,7 @@ jobs:
             --output=publish/OWASP_Developer_Guide.epub
             --resource-path=${{ env.RESOURCE_PATH }}
             release/title.yaml
-            release/publish/draft.markdown
+            release/temp/draft.markdown
 
       - name: Store pdf and epub assets
         uses: actions/upload-artifact@v4.3.4
@@ -80,8 +79,6 @@ jobs:
 
       - name: Promote draft to release
         run: |
-          echo "GITHUB_WORKFLOW: ${GITHUB_WORKFLOW}"
-          echo "GITHUB_REF_NAME: ${GITHUB_REF_NAME}"
           cd draft && find . -name "*.md" ! -name "info.md" -exec cp '{}' '../release/{}' \;
 
       - name: Fix up markdown
@@ -95,7 +92,7 @@ jobs:
           find release -name "*.md" -exec sed -i "/order: / s/$/0/" {} +
           echo "remove newpage tags"
           find release -name "*.md" -exec sed -i '/newpage/d' {} +
-          echo "Remove multiple blank lines"
+          echo "remove any multiple blank lines"
           find release -name "*.md" -exec sed -i ':a; /^\n*$/{ s/\n//; N;  ba};' {} +
           find release -name "*.md" -exec sed -i '${/^$/d;}' {} +
 

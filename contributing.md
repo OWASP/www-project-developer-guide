@@ -100,18 +100,18 @@ To run these checks locally before pushing a commit, run these commands from the
 4. commands to set up the environment for PDF and ePub export
 
 ```text
-mkdir draft/publish
+mkdir draft/temp
 mkdir assets/images/logos/publish
 export RESOURCE_PATH="draft/assets/images:draft/assets:draft:assets/images/logos:assets/images:assets/images/logos/publish"
 ```
 
-and the commands to create PDF and ePub outputs, a subset of those in `release.yaml` :
+and the commands to create PDF and ePub outputs:
 
 ```text
-tail -n +14 -q $(find draft -name "*[0-9]*.md" | sort) > draft/publish/draft.markdown
-find draft -name "draft.markdown" -exec sed -i "s/{\: .image-right }/{height=180px}/g" {} +
-pandoc -f markdown -o draft.pdf --resource-path="$RESOURCE_PATH" draft/title.pdf.yaml draft/publish/draft.markdown
-pandoc -f markdown -o draft.epub --resource-path="$RESOURCE_PATH" draft/title.yaml draft/publish/draft.markdown
+tail -n +14 -q $(find draft -name "*[0-9]*.md" | sort) > draft/temp/draft.markdown
+sed -i "s/{: .image-right }/{height=180px}/g" draft/temp/draft.markdown
+pandoc -f markdown -o draft.pdf --resource-path="$RESOURCE_PATH" draft/title.pdf.yaml draft/temp/draft.markdown
+pandoc -f markdown -o draft.epub --resource-path="$RESOURCE_PATH" draft/title.yaml draft/temp/draft.markdown
 ```
 
 Follow instructions to install the command line [lychee][lychee-install] and [pandoc][pandoc-install].
