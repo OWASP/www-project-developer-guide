@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 8500
+order: 85000
 permalink: /release/verification/dos_donts/
 
 ---

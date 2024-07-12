@@ -24,37 +24,37 @@ Refer to proactive control [C5: Validate All Inputs][control5]
 for more context from the OWASP Top 10 Proactive Controls project,
 and use the list below as suggestions for a checklist that has been tailored for the individual project.
 
-#### Syntax and semantic validity
+#### 1. Syntax and semantic validity
 
-* Identify all data sources and classify them into trusted and untrusted
-* Validate all input data from untrusted sources such as client provided data
-* Encode input to a common character set before validating
-* Specify character sets, such as UTF-8, for all input sources
-* If the system supports UTF-8 extended character sets then validate after UTF-8 decoding is completed
-* Verify that protocol header values in both requests and responses contain only ASCII characters
-* Validate data from redirects
-* Validate data range and also data length
-* Utilize canonicalization to address obfuscation attacks
-* All validation failures should result in input rejection
+1. Identify all data sources and classify them into trusted and untrusted
+1. Validate all input data from untrusted sources such as client provided data
+1. Encode input to a common character set before validating
+1. Specify character sets, such as UTF-8, for all input sources
+1. If the system supports UTF-8 extended character sets then validate after UTF-8 decoding is completed
+1. Verify that protocol header values in both requests and responses contain only ASCII characters
+1. Validate data from redirects
+1. Validate data range and also data length
+1. Utilize canonicalization to address obfuscation attacks
+1. All validation failures should result in input rejection
 
-#### Libraries and frameworks
+#### 2. Libraries and frameworks
 
-* Conduct all input validation on a trusted system
-* Use a centralized input validation library or framework for the whole application
-* If the standard validation routine cannot address some inputs then use extra discrete checks
-* If any potentially hazardous input _must_ be allowed then implement additional controls
-* Validate for expected data types using an allow-list rather than a deny-list
+1. Conduct all input validation on a trusted system[^SCP1]
+1. Use a centralized input validation library or framework for the whole application
+1. If the standard validation routine cannot address some inputs then use extra discrete checks
+1. If any potentially hazardous input _must_ be allowed then implement additional controls
+1. Validate for expected data types using an allow-list rather than a deny-list
 
-#### Validate serialized data
+#### 3. Validate serialized data
 
-* Implement integrity checks or encryption of the serialized objects
+1. Implement integrity checks or encryption of the serialized objects
     to prevent hostile object creation or data tampering
-* Enforce strict type constraints during deserialization before object creation;
+1. Enforce strict type constraints during deserialization before object creation;
     typically a definable set of classes is expected
-* Isolate features that deserialize so that they run in very low privilege environments such as temporary containers
-* Log security deserialization exceptions and failures
-* Restrict or monitor incoming and outgoing network connectivity from containers or servers that deserialize
-* Monitor deserialization, for example alerting if a user agent constantly deserializes
+1. Isolate features that deserialize so that they run in very low privilege environments such as temporary containers
+1. Log security deserialization exceptions and failures
+1. Restrict or monitor incoming and outgoing network connectivity from containers or servers that deserialize
+1. Monitor deserialization, for example alerting if a user agent constantly deserializes
 
 #### References
 
@@ -73,3 +73,4 @@ then [submit an issue][issue060205] or [edit on GitHub][edit060205].
 [edit060205]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/02-web-app-checklist/05-validate-inputs.md
 [proactive10]: https://owasp.org/www-project-proactive-controls/
 [sanitizer]: https://www.owasp.org/index.php/OWASP_Java_HTML_Sanitizer
+[^SCP1]: maybe this

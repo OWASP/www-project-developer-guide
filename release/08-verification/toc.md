@@ -64,10 +64,6 @@ Sections:
 6.3.1 [secureCodeBox](03-frameworks/01-secure-codebox.md)  
 6.4 [Vulnerability management](04-vulnerability-management/toc.md)  
 6.4.1 [DefectDojo](04-vulnerability-management/01-defectdojo.md)  
-6.5 [Do's and Don'ts](05-dos-donts/toc.md)  
-6.5.1 [Secure environment](05-dos-donts/01-secure-environment.md)  
-6.5.2 [System hardening](05-dos-donts/02-system-hardening.md)  
-6.5.3 [Open Source software](05-dos-donts/03-open-source-software.md)  
 
 ----
 

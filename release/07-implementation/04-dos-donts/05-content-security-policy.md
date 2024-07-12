@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
 document: OWASP Developer Guide
-order: 7450
+order: 74500
 permalink: /release/implementation/dos_donts/content_security_policy/
 
 ---
