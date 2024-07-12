@@ -49,6 +49,7 @@ jobs:
             --from=markdown
             --output=publish/OWASP_Developer_Guide.pdf
             --resource-path=${{ env.RESOURCE_PATH }}
+            -fmarkdown-implicit_figures
             release/title.pdf.yaml
             release/temp/draft.markdown
 
@@ -59,6 +60,7 @@ jobs:
             --from=markdown
             --output=publish/OWASP_Developer_Guide.epub
             --resource-path=${{ env.RESOURCE_PATH }}
+            -fmarkdown-implicit_figures
             release/title.yaml
             release/temp/draft.markdown
 
