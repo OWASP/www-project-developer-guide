@@ -71,6 +71,5 @@
 !assets/images/*.png
 !assets/images/logos/
 !assets/images/logos/*.png
-!assets/images/logos/*.svg
 !license.txt
 

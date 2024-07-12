@@ -7,6 +7,9 @@ on:
       - v?.?.?*
   workflow_dispatch:
 
+env:
+  RESOURCE_PATH: release/assets/images:release/assets:release:assets/images:assets/images/logos:assets/images/logos/publish
+
 # for security reasons the github actions are pinned to specific release versions
 jobs:
   create_artifacts:
@@ -31,11 +34,14 @@ jobs:
           find draft -name "*.md" -exec sed -i "/edit on GitHub/d" {} +
           find draft -name "*.md" -exec sed -i "/www-project-developer-guide\/issues\/new?labels/d" {} +
           find draft -name "*.md" -exec sed -i "/www-project-developer-guide\/blob\/main/d" {} +
+          find draft -name "*.md" -exec sed -i "s/{: .image-right }/{height=180px}/g" {} +
 
       - name: Combine markdown
         run: |
-          tail --lines=+14 -q $(find draft -name "*[0-9]*.md" | sort) > release.markdown
-          mkdir -p publish
+          mkdir publish
+          mkdir assets/images/logos/publish
+          mkdir release/publish
+          tail --lines=+14 -q $(find draft -name "*[0-9]*.md" | sort) > release/publish/draft.markdown
 
       - name: Export to pdf
         uses: docker://pandoc/latex:3.1
@@ -43,9 +49,9 @@ jobs:
           args: >-
             --from=markdown
             --output=publish/OWASP_Developer_Guide.pdf
-            --resource-path="release/assets/images:release/assets:release"
+            --resource-path=${{ env.RESOURCE_PATH }}
             release/title.pdf.yaml
-            release.markdown
+            release/publish/draft.markdown
 
       - name: Export to epub
         uses: docker://pandoc/latex:3.1
@@ -53,12 +59,12 @@ jobs:
           args: >-
             --from=markdown
             --output=publish/OWASP_Developer_Guide.epub
-            --resource-path="release/assets/images:release/assets:release"
+            --resource-path=${{ env.RESOURCE_PATH }}
             release/title.yaml
-            release.markdown
+            release/publish/draft.markdown
 
       - name: Store pdf and epub assets
-        uses: actions/upload-artifact@v4.3.0
+        uses: actions/upload-artifact@v4.3.4
         with:
           name: export-docs
           path: publish
