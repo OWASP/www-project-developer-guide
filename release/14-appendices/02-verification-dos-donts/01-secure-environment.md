@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
 document: OWASP Developer Guide
-order: 851
-permalink: /draft/appendices/verification_dos_donts/secure_environment/
+order: 14210
+permalink: /release/appendices/verification_dos_donts/secure_environment/
 
 ---
 
@@ -73,5 +73,3 @@ then [submit an issue][issue140201] or [edit on GitHub][edit140201].
 
 [edit140201]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/14-appendices/02-verification-dos-donts/01-secure-environment.md
 [issue140201]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2014-appendices/02-verification-dos-donts/01-secure-environment
-
-\newpage

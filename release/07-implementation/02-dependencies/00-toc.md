@@ -11,6 +11,8 @@ order:
 
 {% include breadcrumb.html %}
 
+![Developer guide logo](../../../assets/images/dg_logo_bbd.png "OWASP Developer Guide"){height=180px}
+
 ### 5.2 Dependencies
 
 Management of software dependencies is described by the SAMM [Software Dependencies][sammisbsd] activity,

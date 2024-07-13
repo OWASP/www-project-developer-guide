@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
 document: OWASP Developer Guide
-order: 852
+order: 1422
 permalink: /draft/appendices/verification_dos_donts/system_hardening/
 
 ---

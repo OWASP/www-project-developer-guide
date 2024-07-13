@@ -33,5 +33,3 @@ The OWASP Developer Guide is a community effort; if there is something that need
 [issue1402]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2014-appendices/02-verification-dos-donts/00-toc
 [samm]: https://owaspsamm.org/about/
 [sammv]: https://owaspsamm.org/model/verification/
-
-\newpage

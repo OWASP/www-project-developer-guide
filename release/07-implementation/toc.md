@@ -62,15 +62,6 @@ Sections:
 5.3.1 [Enterprise Security API library](03-secure-libraries/01-esapi.md)  
 5.3.2 [CSRFGuard library](03-secure-libraries/02-csrf-guard.md)  
 5.3.3 [OWASP Secure Headers Project](03-secure-libraries/03-secure-headers.md)  
-5.4 [Implementation Do's and Don'ts](04-dos-donts/toc.md)  
-5.4.1 [Container security](04-dos-donts/01-container-security.md)  
-5.4.2 [Secure coding](04-dos-donts/02-secure-coding.md)  
-5.4.3 [Cryptographic practices](04-dos-donts/03-cryptographic-practices.md)  
-5.4.4 [Application spoofing](04-dos-donts/04-application-spoofing.md)  
-5.4.5 [Content Security Policy (CSP)](04-dos-donts/05-content-security-policy.md)  
-5.4.6 [Exception and error handling](04-dos-donts/06-exception-error-handling.md)  
-5.4.7 [File management](04-dos-donts/07-file-management.md)  
-5.4.8 [Memory management](04-dos-donts/08-memory-management.md)  
 
 ----
 

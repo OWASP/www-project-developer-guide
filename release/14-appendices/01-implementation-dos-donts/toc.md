@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 740
-permalink: /draft/appendices/implementation_dos_donts/
+order: 14100
+permalink: /release/appendices/implementation_dos_donts/
 
 ---
 

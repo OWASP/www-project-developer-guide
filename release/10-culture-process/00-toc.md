@@ -11,6 +11,8 @@ order:
 
 {% include breadcrumb.html %}
 
+![Developer guide logo](../../assets/images/dg_logo.png "OWASP Developer Guide"){height=180px}
+
 ## 8. Culture building and Process maturing
 
 Culture building and Process maturing is described by the SAMM [Organization and Culture][sammgegoc] activity,
