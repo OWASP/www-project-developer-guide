@@ -65,15 +65,6 @@ permalink:
 5.3.1 [Enterprise Security API library](#enterprise-security-api-library)  
 5.3.2 [CSRFGuard library](#csrfguard-library)  
 5.3.3 [OWASP Secure Headers Project](#owasp-secure-headers-project)  
-5.4 [Implementation Do's and Don'ts](#implementation-dos-and-donts)  
-5.4.1 [Container security](#container-security)  
-5.4.2 [Secure coding](#secure-coding)  
-5.4.3 [Cryptographic practices](#cryptographic-practices)  
-5.4.4 [Application spoofing](#application-spoofing)  
-5.4.5 [Content Security Policy (CSP)](#content-security-policy)  
-5.4.6 [Exception and error handling](#exception-and-error-handling)  
-5.4.7 [File management](#file-management)  
-5.4.8 [Memory management](#memory-management)  
 
 6 **[Verification](#verification)**  
 6.1 [Guides](#verification-guides)  
@@ -90,10 +81,6 @@ permalink:
 6.3.1 [secureCodeBox](#securecodebox)  
 6.4 [Vulnerability management](#verification-vulnerability-management)  
 6.4.1 [DefectDojo](#defectdojo)  
-6.5 [Verification Do's and Don'ts](#verification-dos-and-donts)  
-6.5.1 [Secure environment](#secure-environment)  
-6.5.2 [System hardening](#system-hardening)  
-6.5.3 [Open Source software](#open-source-software)  
 
 7 **[Training and Education](#training-and-education)**  
 7.1 [Vulnerable Applications](#vulnerable-applications)  
@@ -134,3 +121,18 @@ permalink:
 11.1.2 [Application Security Verification Standard](#application-security-verification-standard)  
 11.1.3 [Mobile Application Security](#mobile-application-security)  
 11.2 [Bug Logging Tool](#bug-logging-tool)  
+
+12 **[Appendices](#appendices)**  
+12.1 [Implementation Do's and Don'ts](#implementation-dos-and-donts)  
+12.1.1 [Container security](#container-security)  
+12.1.2 [Secure coding](#secure-coding)  
+12.1.3 [Cryptographic practices](#cryptographic-practices)  
+12.1.4 [Application spoofing](#application-spoofing)  
+12.1.5 [Content Security Policy (CSP)](#content-security-policy)  
+12.1.6 [Exception and error handling](#exception-and-error-handling)  
+12.1.7 [File management](#file-management)  
+12.1.8 [Memory management](#memory-management)  
+12.2 [Verification Do's and Don'ts](#verification-dos-and-donts)  
+12.2.1 [Secure environment](#secure-environment)  
+12.2.2 [System hardening](#system-hardening)  
+12.2.3 [Open Source software](#open-source-software)  

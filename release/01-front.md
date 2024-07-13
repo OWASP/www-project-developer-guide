@@ -16,4 +16,4 @@ permalink:
 
 ## OWASP Developer Guide
 
-### Release version 4.1.1
+### Release version 4.1.2

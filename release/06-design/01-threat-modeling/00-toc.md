@@ -11,6 +11,8 @@ order:
 
 {% include breadcrumb.html %}
 
+![Developer guide logo](../../../assets/images/dg_logo_bbd.png "OWASP Developer Guide"){height=180px}
+
 ### 4.1 Threat modeling
 
 Referring to the [Threat Modeling Cheat Sheet][tmcs],

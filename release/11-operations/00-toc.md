@@ -11,6 +11,8 @@ order:
 
 {% include breadcrumb.html %}
 
+![Developer guide logo](../../assets/images/dg_logo.png "OWASP Developer Guide"){height=180px}
+
 ## 9. Operations
 
 Operations are those activities necessary to ensure that confidentiality, integrity, and availability
