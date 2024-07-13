@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
 document: OWASP Developer Guide
-order: 853
-permalink: /draft/appendices/verification_dos_donts/open_source_software/
+order: 8530
+permalink: /release/appendices/verification_dos_donts/open_source_software/
 
 ---
 
@@ -115,5 +115,3 @@ then [submit an issue][issue140203] or [edit on GitHub][edit140203].
 
 [edit140203]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/14-appendices/02-verification-dos-donts/03-open-source-software.md
 [issue140203]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2014-appendices/02-verification-dos-donts/03-open-source-software
-
-\newpage

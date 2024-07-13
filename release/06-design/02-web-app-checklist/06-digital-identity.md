@@ -22,71 +22,71 @@ Refer to proactive control [C6: Implement Digital Identity][control6]
 for more context from the OWASP Top 10 Proactive Controls project,
 and use the list below as suggestions for a checklist that has been tailored for the individual project.
 
-#### Authentication
+#### 1. Authentication
 
-* Design access control authentication thoroughly up-front
-* Force all requests to go through access control checks unless public
-* Do not hard code access controls that are role based
-* Log all access control events
-* Use Multi-Factor Authentication for highly sensitive or high value transactional accounts
+1. Design access control authentication thoroughly up-front
+1. Force all requests to go through access control checks unless public
+1. Do not hard code access controls that are role based
+1. Log all access control events
+1. Use Multi-Factor Authentication for highly sensitive or high value transactional accounts
 
-#### Passwords
+#### 2. Passwords
 
-* Require authentication for all pages and resources, except those specifically intended to be public
-* All authentication controls must be enforced on a trusted system
-* Establish and utilize standard, tested, authentication services whenever possible
-* Use a centralized implementation for all authentication controls
-* Segregate authentication logic from the resource being requested and
+1. Require authentication for all pages and resources, except those specifically intended to be public
+1. All authentication controls must be enforced on a trusted system
+1. Establish and utilize standard, tested, authentication services whenever possible
+1. Use a centralized implementation for all authentication controls
+1. Segregate authentication logic from the resource being requested and
     use redirection to and from the centralized authentication control
-* All authentication controls should fail securely
-* Administrative and account management must be at least as secure as the primary authentication mechanism
-* If your application manages a credential store, use cryptographically strong one-way salted hashes
-* Password hashing must be implemented on a trusted system
-* Validate the authentication data only on completion of all data input
-* Authentication failure responses should not indicate which part of the authentication data was incorrect
-* Utilize authentication for connections to external systems that involve sensitive information or functions
-* Authentication credentials for accessing services external to the application should be stored in a secure store
-* Use only HTTP POST requests to transmit authentication credentials
-* Only send non-temporary passwords over an encrypted connection or as encrypted data
-* Enforce password complexity and length requirements established by policy or regulation
-* Enforce account disabling after an established number of invalid login attempts
-* Password reset and changing operations require the same level of controls as account creation and authentication
-* Password reset questions should support sufficiently random answers
-* If using email based resets, only send email to a pre-registered address with a temporary link/password
-* Temporary passwords and links should have a short expiration time
-* Enforce the changing of temporary passwords on the next use
-* Notify users when a password reset occurs
-* Prevent password re-use
-* The last use (successful or unsuccessful) of a user account should be reported to the user
+1. All authentication controls should fail securely
+1. Administrative and account management must be at least as secure as the primary authentication mechanism
+1. If your application manages a credential store, use cryptographically strong one-way salted hashes
+1. Password hashing must be implemented on a trusted system
+1. Validate the authentication data only on completion of all data input
+1. Authentication failure responses should not indicate which part of the authentication data was incorrect
+1. Utilize authentication for connections to external systems that involve sensitive information or functions
+1. Authentication credentials for accessing services external to the application should be stored in a secure store
+1. Use only HTTP POST requests to transmit authentication credentials
+1. Only send non-temporary passwords over an encrypted connection or as encrypted data
+1. Enforce password complexity and length requirements established by policy or regulation
+1. Enforce account disabling after an established number of invalid login attempts
+1. Password reset and changing operations require the same level of controls as account creation and authentication
+1. Password reset questions should support sufficiently random answers
+1. If using email based resets, only send email to a pre-registered address with a temporary link/password
+1. Temporary passwords and links should have a short expiration time
+1. Enforce the changing of temporary passwords on the next use
+1. Notify users when a password reset occurs
+1. Prevent password re-use
+1. The last use (successful or unsuccessful) of a user account should be reported to the user
     at their next successful login
-* Change all vendor-supplied default passwords and user IDs or disable the associated accounts
-* Re-authenticate users prior to performing critical operations
-* If using third party code for authentication inspect the code carefully
+1. Change all vendor-supplied default passwords and user IDs or disable the associated accounts
+1. Re-authenticate users prior to performing critical operations
+1. If using third party code for authentication inspect the code carefully
     to ensure it is not affected by any malicious code
 
-#### Cryptographic based authentication
+#### 3. Cryptographic based authentication
 
-* Use the server or framework's session management controls
-* Session identifier creation must always be done on a trusted system
-* Session management controls should use well vetted algorithms that ensure sufficiently random session identifiers
-* Set the domain and path for cookies containing authenticated session identifiers
+1. Use the server or framework's session management controls
+1. Session identifier creation must always be done on a trusted system
+1. Session management controls should use well vetted algorithms that ensure sufficiently random session identifiers
+1. Set the domain and path for cookies containing authenticated session identifiers
     to an appropriately restricted value for the site
-* Logout functionality should fully terminate the associated session or connection
-* Logout functionality should be available from all pages protected by authorization
-* Establish a session inactivity timeout that is as short as possible,
+1. Logout functionality should fully terminate the associated session or connection
+1. Logout functionality should be available from all pages protected by authorization
+1. Establish a session inactivity timeout that is as short as possible,
     based on balancing risk and business functional requirements
-* Disallow persistent logins and enforce periodic session terminations, even when the session is active
-* If a session was established before login, close that session and establish a new session after a successful login
-* Generate a new session identifier on any re-authentication
-* Do not allow concurrent logins with the same user ID
-* Do not expose session identifiers in URLs, error messages or logs
-* Implement appropriate access controls to protect server side session data
+1. Disallow persistent logins and enforce periodic session terminations, even when the session is active
+1. If a session was established before login, close that session and establish a new session after a successful login
+1. Generate a new session identifier on any re-authentication
+1. Do not allow concurrent logins with the same user ID
+1. Do not expose session identifiers in URLs, error messages or logs
+1. Implement appropriate access controls to protect server side session data
     from unauthorized access from other users of the server
-* Generate a new session identifier and deactivate the old one periodically
-* Generate a new session identifier if the connection security changes from HTTP to HTTPS,
+1. Generate a new session identifier and deactivate the old one periodically
+1. Generate a new session identifier if the connection security changes from HTTP to HTTPS,
     as can occur during authentication
-* Set the `secure` attribute for cookies transmitted over an TLS connection
-* Set cookies with the `HttpOnly` attribute,
+1. Set the `secure` attribute for cookies transmitted over an TLS connection
+1. Set cookies with the `HttpOnly` attribute,
     unless you specifically require client-side scripts within your application to read or set a cookie value
 
 #### References

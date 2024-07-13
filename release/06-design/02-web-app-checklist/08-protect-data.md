@@ -22,31 +22,31 @@ Refer to proactive control [C8: Protect Data Everywhere][control8]
 for more context from the OWASP Top 10 Proactive Controls project,
 and use the list below as suggestions for a checklist that has been tailored for the individual project.
 
-#### Data protection
+#### 1. Data protection
 
-* Classify data according to the level of sensitivity
-* Implement appropriate access controls for sensitive data
-* Encrypt data in transit
-* Ensure secure communication channels are properly configured
-* Avoid storing sensitive data when at all possible
-* Ensure sensitive data at rest is cryptographically protected to avoid unauthorized disclosure and modification
-* Purge sensitive data when that data is no longer required
-* Store application-level secrets in a secrets vault
-* Check that secrets are not stored in code, config files or environment variables
-* Implement least privilege, restricting access to functionality, data and system information
-* Protect all cached or temporary copies of sensitive data from unauthorized access
-* Purge those temporary copies of sensitive data as soon as they are no longer required
+1. Classify data according to the level of sensitivity
+1. Implement appropriate access controls for sensitive data
+1. Encrypt data in transit
+1. Ensure secure communication channels are properly configured
+1. Avoid storing sensitive data when at all possible
+1. Ensure sensitive data at rest is cryptographically protected to avoid unauthorized disclosure and modification
+1. Purge sensitive data when that data is no longer required
+1. Store application-level secrets in a secrets vault
+1. Check that secrets are not stored in code, config files or environment variables
+1. Implement least privilege, restricting access to functionality, data and system information
+1. Protect all cached or temporary copies of sensitive data from unauthorized access
+1. Purge those temporary copies of sensitive data as soon as they are no longer required
 
-#### Memory management
+#### 2. Memory management
 
-* Explicitly initialize all variables and data stores
-* Check that any buffers are as large as specified
-* Check buffer boundaries if calling the function in a loop and protect against overflow
-* Specifically close resources, don't rely on garbage collection
-* Use non-executable stacks when available
-* Properly free allocated memory upon the completion of functions and at all exit points
-* Overwrite any sensitive information stored in allocated memory at all exit points from the function
-* Protect shared variables and resources from inappropriate concurrent access
+1. Explicitly initialize all variables and data stores
+1. Check that any buffers are as large as specified
+1. Check buffer boundaries if calling the function in a loop and protect against overflow
+1. Specifically close resources, don't rely on garbage collection
+1. Use non-executable stacks when available
+1. Properly free allocated memory upon the completion of functions and at all exit points
+1. Overwrite any sensitive information stored in allocated memory at all exit points from the function
+1. Protect shared variables and resources from inappropriate concurrent access
 
 #### References
 

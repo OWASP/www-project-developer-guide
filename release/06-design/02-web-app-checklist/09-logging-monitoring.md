@@ -21,28 +21,28 @@ Refer to proactive control [C9: Implement Security Logging and Monitoring][contr
 for more context from the OWASP Top 10 Proactive Controls project,
 and use the list below as suggestions for a checklist that has been tailored for the individual project.
 
-#### Security logging
+#### 1. Security logging
 
-* Log submitted data that is outside of an expected numeric range.
-* Log submitted data that involves changes to data that should not be modifiable
-* Log requests that violate server-side access control rules
-* Encode and validate any dangerous characters before logging to prevent log injection attacks
-* Do not log sensitive information
-* Logging controls should support both success and failure of specified security events
-* Do not store sensitive information in logs, including unnecessary system details, session identifiers or passwords
-* Use a cryptographic hash function to validate log entry integrity
+1. Log submitted data that is outside of an expected numeric range.
+1. Log submitted data that involves changes to data that should not be modifiable
+1. Log requests that violate server-side access control rules
+1. Encode and validate any dangerous characters before logging to prevent log injection attacks
+1. Do not log sensitive information
+1. Logging controls should support both success and failure of specified security events
+1. Do not store sensitive information in logs, including unnecessary system details, session identifiers or passwords
+1. Use a cryptographic hash function to validate log entry integrity
 
-#### Security logging design
+#### 2. Security logging design
 
-* Protect log integrity
-* Ensure log entries that include untrusted data will not execute as code in the intended log viewing interface or software
-* Restrict access to logs to only authorized individuals
-* Utilize a central routine for all logging operations
-* Forward logs from distributed systems to a central, secure logging service
-* Follow a common logging format and approach within the system and across systems of an organization
-* Synchronize across nodes to ensure that timestamps are consistent
-* All logging controls should be implemented on a trusted system
-* Ensure that a mechanism exists to conduct log analysis
+1. Protect log integrity
+1. Ensure log entries that include untrusted data will not execute as code in the intended log viewing interface or software
+1. Restrict access to logs to only authorized individuals
+1. Utilize a central routine for all logging operations
+1. Forward logs from distributed systems to a central, secure logging service
+1. Follow a common logging format and approach within the system and across systems of an organization
+1. Synchronize across nodes to ensure that timestamps are consistent
+1. All logging controls should be implemented on a trusted system
+1. Ensure that a mechanism exists to conduct log analysis
 
 #### References
 

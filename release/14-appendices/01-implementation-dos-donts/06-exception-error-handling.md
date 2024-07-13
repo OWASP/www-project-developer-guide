@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
 document: OWASP Developer Guide
-order: 746
-permalink: /draft/appendices/implementation_dos_donts/exception_error_handling/
+order: 7460
+permalink: /release/appendices/implementation_dos_donts/exception_error_handling/
 
 ---
 
@@ -107,5 +107,3 @@ then [submit an issue][issue140106] or [edit on GitHub][edit140106].
 
 [edit140106]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/14-appendices/01-implementation-dos-donts/06-exception-error-handling.md
 [issue140106]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%20/14-appendices/01-implementation-dos-donts/06-exception-error-handling
-
-\newpage

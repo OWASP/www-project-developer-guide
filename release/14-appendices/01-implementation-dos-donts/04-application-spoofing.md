@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
 document: OWASP Developer Guide
-order: 744
-permalink: /draft/appendices/implementation_dos_donts/application_spoofing/
+order: 7440
+permalink: /release/appendices/implementation_dos_donts/application_spoofing/
 
 ---
 
@@ -80,5 +80,3 @@ then [submit an issue][issue140104] or [edit on GitHub][edit140104].
 [edit140104]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/14-appendices/01-implementation-dos-donts/04-application-spoofing.md
 [issue140104]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%20/14-appendices/01-implementation-dos-donts/04-application-spoofing
 [urdp]: https://www.icann.org/resources/pages/help/dndr/udrp-en
-
-\newpage
