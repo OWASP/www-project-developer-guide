@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
 document: OWASP Developer Guide
-order: 748
+order: 1418
 permalink: /draft/appendices/implementation_dos_donts/memory_management/
 
 ---
