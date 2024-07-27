@@ -24,35 +24,35 @@ permalink: /draft/operations/modsecurity_core_rule_set/
 
 ![CRS logo](../../../assets/images/logos/crs.png "OWASP CRS"){: .image-right }
 
-### 9.4 ModSecurity Core Rule Set
+### 9.4 OWASP CRS
 
-The OWASP ModSecurity [Core Rule Set][modcrs-project] (CRS) project is a set of generic attack detection rules
+The OWASP CRS[modcrs-project] project is a set of generic attack detection rules
 for use with [ModSecurity][modsec] compatible web application firewalls such as [OWASP Coraza][coraza].
 CRS is an OWASP [Flagship tool project][modcrs-project] and can be [downloaded][modcrs-download]
 for either Apache or IIS/Nginx web servers.
 
-#### What is the Core Rule Set?
+#### What is the CRS?
 
-The [Core Rule Set][modcrs] (CRS) are attack detection rules for use with [ModSecurity][modsec],
-[Coraza[coraza] and other ModSecurity compatible web application firewalls.
+The [CRS][modcrs] are attack detection rules for use with [ModSecurity][modsec],
+[Coraza][coraza] and other ModSecurity compatible web application firewalls.
 The CRS aims to protect web applications from a wide range of attacks with a minimum of false alerts.
 The CRS provides protection against many common attack categories, including those in the OWASP Top Ten.
 
 #### Why use it?
 
 If an organization is using a Coraza, ModSecurity or compatible Web Application Firewall (WAF)
-then it is very likely that the [Core Rule Set][modcrs] is already in use by this WAF.
+then it is very likely that the [CRS][modcrs] is already in use by this WAF.
 The CRS provides the policy for the Coraza / Modsecurity engine so that traffic to a web application is inspected
 for various attacks and malicious traffic is blocked.
 
 #### How to use it
 
-The use of the Core Rule Set assumes that a ModSecurity, Coraza or compatible WAF has been installed.
+The use of the CRS assumes that a ModSecurity, Coraza or compatible WAF has been installed.
 Refer to the [Coraza tutorial][coraza-tutorial] or the [ModSecurity][modsec-docs] on how to do this.
 
-To get started with CRS refer to the Core Rule Set [installation instructions][modcrs-download].
+To get started with CRS refer to the CRS [installation instructions][modcrs-download].
 
-The OWASP Spotlight series provides an overview of how to use this Core Rule Set:
+The OWASP Spotlight series provides an overview of how to use this CRS:
 'Project 3 - [Core Rule Set (CRS) - 1st Line of Defense][spotlight03]'.
 
 ----
