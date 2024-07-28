@@ -268,7 +268,7 @@ docs:
 - title: '9.3 ModSecurity Web Application Firewall'
   url: operations/modsecurity_waf/
 
-- title: '9.4 ModSecurity Core Rule Set'
+- title: '9.4 OWASP CRS'
   url: operations/modsecurity_core_rule_set
 
 - title: '10. Metrics'
