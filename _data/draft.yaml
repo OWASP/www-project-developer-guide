@@ -269,7 +269,7 @@ docs:
   url: operations/modsecurity_waf/
 
 - title: '9.4 OWASP CRS'
-  url: operations/modsecurity_core_rule_set
+  url: operations/crs
 
 - title: '10. Metrics'
   url: metrics

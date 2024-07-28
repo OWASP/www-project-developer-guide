@@ -46,7 +46,7 @@ Sections:
 9.1 [DevSecOps Guideline](01-devsecops.md)  
 9.2 [Coraza Web Application Firewall](02-coraza.md)  
 9.3 [ModSecurity Web Application Firewall](03-modsecurity.md)  
-9.4 [ModSecurity Core Rule Set](04-modsecurity-crs.md)  
+9.4 [OWASP CRS](04-crs.md)  
 
 ----
 
