@@ -3,10 +3,10 @@
 title: ModSecurity Core Rule Set
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors: Matteo Pace, Jon Gadsden
 document: OWASP Developer Guide
 order: 11040
-permalink: /release/operations/modsecurity_core_rule_set/
+permalink: /release/operations/crs/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release/operations/modsecurity_core_rule_set/
 
 ![CRS logo](../../../assets/images/logos/crs.png "OWASP CRS"){: .image-right }
 
-### 9.4 ModSecurity Core Rule Set
+### 9.4 OWASP CRS
 
 The OWASP ModSecurity [Core Rule Set][modcrs-project] (CRS) project is a set of generic attack detection rules
 for use with [ModSecurity][modsec] compatible web application firewalls such as [OWASP Coraza][coraza].
@@ -62,8 +62,8 @@ then [submit an issue][issue1104] or [edit on GitHub][edit1104].
 
 [coraza]: https://coraza.io/
 [coraza-tutorial]: https://coraza.io/docs/tutorials/quick-start/
-[edit1104]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/11-operations/04-modsecurity-crs.md
-[issue1104]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2011-operations/04-modsecurity-crs
+[edit1104]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/11-operations/04-crs.md
+[issue1104]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2011-operations/04-crs
 [modcrs]: https://coreruleset.org/
 [modcrs-download]: https://coreruleset.org/docs/deployment/install/
 [modcrs-project]: https://owasp.org/www-project-modsecurity-core-rule-set/

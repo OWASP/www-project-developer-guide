@@ -115,7 +115,7 @@ permalink: /release/
 9.1 [DevSecOps Guideline](11-operations/01-devsecops.md)  
 9.2 [Coraza Web Application Firewall](11-operations/02-coraza.md)  
 9.3 [ModSecurity Web Application Firewall](11-operations/03-modsecurity.md)  
-9.4 [ModSecurity Core Rule Set](11-operations/04-modsecurity-crs.md)  
+9.4 [OWASP CRS](11-operations/04-crs.md)  
 
 10 **[Metrics](12-metrics/toc.md)**  
 
