@@ -12,6 +12,18 @@ permalink: /draft/implementation/dependencies/dependency_check/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![Dependency-Check logo](../../../../assets/images/logos/depcheck.png "OWASP Dependency-Check"){: .image-right }
+
 ### 5.2.1 Dependency-Check
 
 OWASP [Dependency-Check][depcheck] is a tool that provides Software Composition Analysis (SCA) from the command line.
