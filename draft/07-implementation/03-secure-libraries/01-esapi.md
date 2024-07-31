@@ -12,6 +12,18 @@ permalink: /draft/implementation/secure_libraries/esapi/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![ESAPI logo](../../../../assets/images/logos/esapi.png "OWASP ESAPI"){: .image-right }
+
 ### 5.3.1 Enterprise Security API library
 
 The OWASP Enterprise Security API (ESAPI) [library][esapi-docs] is a security control library
