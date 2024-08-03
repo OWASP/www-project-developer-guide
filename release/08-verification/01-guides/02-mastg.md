@@ -74,8 +74,8 @@ and testing of mobile applications; pick and choose the resources that are appli
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue080102] or [edit on GitHub][edit080102].
 
-[edit080102]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/01-guides/02-mas.md
-[issue080102]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2008-verification/01-guides/02-mas
+[edit080102]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/01-guides/02-mastg.md
+[issue080102]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2008-verification/01-guides/02-mastg
 [masproject]: https://owasp.org/www-project-mobile-app-security/
 [masc]: https://mas.owasp.org/checklists/
 [mastg]: https://mas.owasp.org/MASTG/
