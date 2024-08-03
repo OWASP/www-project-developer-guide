@@ -26,16 +26,11 @@ permalink: /draft/culture_building_and_process_maturing/mobile_application_secur
 
 ### 8.5 Mobile Application Security
 
-The OWASP [Mobile Application Security][masproject] (MAS) flagship project has the mission statement:
-"Define the industry standard for mobile application security".
+The [MAS Verification Standard][masvs] (MASVS) explains the processes, techniques
+and tools used for security testing a mobile application.
 
-The MAS project covers the processes, techniques, and tools used for security testing a mobile application,
-as well as an exhaustive set of test cases that enables testers to deliver consistent and complete results.
-The OWASP MAS project provides the [Mobile Application Security Verification Standard][masvs] (MASVS)
-for mobile applications and a comprehensive [Mobile Application Security Testing Guide][mastg] (MASTG).
-
-OWASP [MAS Crackmes][mascrack], also known as UnCrackable Apps,
-is a collection of reverse engineering challenges for the MAS project.
+The OWASP [MAS Crackmes][mascrack], also known as UnCrackable Apps,
+is a collection of reverse engineering challenges for the OWASP [Mobile Application Security][masproject] (MAS).
 
 #### What is MAS Crackmes?
 

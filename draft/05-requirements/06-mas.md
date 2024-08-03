@@ -43,13 +43,16 @@ the MASVS contains a list of security controls for mobile applications.
 
 The security controls are split into several categories:
 
-* [MASVS-STORAGE](https://mas.owasp.org/MASVS/05-MASVS-STORAGE/)
-* [MASVS-CRYPTO](https://mas.owasp.org/MASVS/06-MASVS-CRYPTO/)
-* [MASVS-AUTH](https://mas.owasp.org/MASVS/07-MASVS-AUTH/)
-* [MASVS-NETWORK](https://mas.owasp.org/MASVS/08-MASVS-NETWORK/)
-* [MASVS-PLATFORM](https://mas.owasp.org/MASVS/09-MASVS-PLATFORM/)
-* [MASVS-CODE](https://mas.owasp.org/MASVS/10-MASVS-CODE/)
-* [MASVS-RESILIENCE](https://mas.owasp.org/MASVS/11-MASVS-RESILIENCE/)
+* [MASVS-STORAGE](https://mas.owasp.org/MASVS/05-MASVS-STORAGE/) / [Cheat Sheets][masvs-storage]
+* [MASVS-CRYPTO](https://mas.owasp.org/MASVS/06-MASVS-CRYPTO/) / [Cheat Sheets][masvs-crypto]
+* [MASVS-AUTH](https://mas.owasp.org/MASVS/07-MASVS-AUTH/) / [Cheat Sheets][masvs-auth]
+* [MASVS-NETWORK](https://mas.owasp.org/MASVS/08-MASVS-NETWORK/) / [Cheat Sheets][masvs-network]
+* [MASVS-PLATFORM](https://mas.owasp.org/MASVS/09-MASVS-PLATFORM/) / [Cheat Sheets][masvs-platform]
+* [MASVS-CODE](https://mas.owasp.org/MASVS/10-MASVS-CODE/) / [Cheat Sheets][masvs-code]
+* [MASVS-RESILIENCE](https://mas.owasp.org/MASVS/11-MASVS-RESILIENCE/) / [Cheat Sheets][masvs-resilience]
+* [MASVS-PRIVACY](https://mas.owasp.org/MASVS/12-MASVS-PRIVACY/) / [Cheat Sheets][masvs-privacy]
+
+The last category, MASVS-PRIVACY, is being reworked so is subject to change.
 
 #### Why use MASVS?
 
@@ -74,5 +77,13 @@ then [submit an issue][issue0506] or [edit on GitHub][edit0506].
 [masproject]: https://owasp.org/www-project-mobile-app-security/
 [mastg]: https://mas.owasp.org/MASTG/
 [masvs]: https://mas.owasp.org/MASVS/
+[masvs-storage]: https://cheatsheetseries.owasp.org/IndexMASVS.html#masvs-storage
+[masvs-crypto]: https://cheatsheetseries.owasp.org/IndexMASVS.html#masvs-crypto
+[masvs-auth]: https://cheatsheetseries.owasp.org/IndexMASVS.html#masvs-auth
+[masvs-network]: https://cheatsheetseries.owasp.org/IndexMASVS.html#masvs-network
+[masvs-platform]: https://cheatsheetseries.owasp.org/IndexMASVS.html#masvs-platform
+[masvs-code]: https://cheatsheetseries.owasp.org/IndexMASVS.html#masvs-code
+[masvs-resilience]: https://cheatsheetseries.owasp.org/IndexMASVS.html#masvs-resilience
+[masvs-privacy]: https://cheatsheetseries.owasp.org/IndexMASVS.html#masvs-privacy
 
 \newpage
