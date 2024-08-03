@@ -81,6 +81,8 @@ Tools such as [SecurityRAT][srat] can then help create a subset of the ASVS secu
 
 Application developer teams and application owners can then gain familiarity with the appropriate security
 requirements and incorporate them into the process and culture of the organization.
+To help navigate the ASVS, the OWASP Cheat Sheets have been indexed specifically
+for [each section of the ASVS][cheatsheet-asvs] which can be used to explain and expand on each requirements category.
 
 ----
 
@@ -104,6 +106,7 @@ then [submit an issue][issue1004] or [edit on GitHub][edit1004].
 [asvsV12]: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x20-V12-Files-Resources.md#v12-files-and-resources
 [asvsV13]: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x21-V13-API.md#v13-api-and-web-service
 [asvsV14]: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x22-V14-Config.md#v14-configuration
+[cheatsheet-asvs]: https://cheatsheetseries.owasp.org/IndexASVS.html
 [edit1004]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/10-culture-process/04-asvs.md
 [issue1004]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2010-culture-process/04-asvs
 [spotlight19]: https://youtu.be/3puIavsZfAk

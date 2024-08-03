@@ -14,7 +14,7 @@ permalink: /draft/implementation/secure_libraries/secure_headers/
 
 <style type="text/css">
 .image-right {
-  height: 180px;
+  height: 220px;
   display: block;
   margin-left: auto;
   margin-right: auto;

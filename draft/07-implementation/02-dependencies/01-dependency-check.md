@@ -12,17 +12,7 @@ permalink: /draft/implementation/dependencies/dependency_check/
 
 {% include breadcrumb.html %}
 
-<style type="text/css">
-.image-right {
-  height: 180px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  float: right;
-}
-</style>
-
-![Dependency-Check logo](../../../../assets/images/logos/depcheck.png "OWASP Dependency-Check"){: .image-right }
+![Dependency-Check logo](../../../../assets/images/logos/depcheck.png "OWASP Dependency-Check"){: height="150px" }
 
 ### 5.2.1 Dependency-Check
 
