@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 812
-permalink: /draft/verification/guides/mobile_application_security/
+permalink: /draft/verification/guides/mas_testing_guide/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /draft/verification/guides/mobile_application_security/
 
 ![MAS logo](../../../../assets/images/logos/mas.png "OWASP MAS"){: .image-right }
 
-### 6.1.2 Mobile Application Security
+### 6.1.2 MAS testing guide
 
 The OWASP [Mobile Application Security][masproject] (MAS) flagship project has the mission statement:
 "Define the industry standard for mobile application security".

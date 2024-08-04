@@ -178,8 +178,8 @@ docs:
 - title: '6.1.1 Web Security Testing Guide'
   url: verification/guides/web_security_testing_guide
 
-- title: '6.1.2 Mobile Application Security'
-  url: verification/guides/mobile_application_security
+- title: '6.1.2 MAS Testing Guide'
+  url: verification/guides/mas_testing_guide
 
 - title: '6.1.3 Application Security Verification Standard'
   url: verification/guides/application_security_verification_standard
