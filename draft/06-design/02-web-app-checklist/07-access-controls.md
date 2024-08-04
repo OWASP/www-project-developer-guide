@@ -17,7 +17,7 @@ permalink: /draft/design/web_app_checklist/access_controls/
 Access Control (or Authorization) is the process of granting or denying specific requests
 from a user, program, or process.
 
-Refer to proactive control [C7: Enforce Access Controls][control7]
+Refer to proactive control [C7: Enforce Access Controls][control7] and its [cheatsheets][cheatsheet-proactive-c7]
 for more context from the OWASP Top 10 Proactive Controls project,
 and use the list below as suggestions for a checklist that has been tailored for the individual project.
 
@@ -53,10 +53,11 @@ and use the list below as suggestions for a checklist that has been tailored for
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue060207] or [edit on GitHub][edit060207].
 
+[cheatsheet-proactive-c7]: https://cheatsheetseries.owasp.org/IndexProactiveControls.html#c7-enforce-access-controls
 [control7]: https://owasp.org/www-project-proactive-controls/v3/en/c7-enforce-access-controls
 [csaz]: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html
-[issue060207]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/02-web-app-checklist/07-access-controls
 [edit060207]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/02-web-app-checklist/07-access-controls.md
+[issue060207]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/02-web-app-checklist/07-access-controls
 [proactive10]: https://owasp.org/www-project-proactive-controls/
 
 \newpage

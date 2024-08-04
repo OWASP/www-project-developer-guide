@@ -18,7 +18,7 @@ Authentication is the process of verifying that an individual or entity is who t
 Session management is a process by which a server maintains the state of the users authentication
 so that the user may continue to use the system without re-authenticating.
 
-Refer to proactive control [C6: Implement Digital Identity][control6]
+Refer to proactive control [C6: Implement Digital Identity][control6] and its [cheatsheets][cheatsheet-proactive-c6]
 for more context from the OWASP Top 10 Proactive Controls project,
 and use the list below as suggestions for a checklist that has been tailored for the individual project.
 
@@ -102,13 +102,14 @@ and use the list below as suggestions for a checklist that has been tailored for
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue060206] or [edit on GitHub][edit060206].
 
+[cheatsheet-proactive-c6]: https://cheatsheetseries.owasp.org/IndexProactiveControls.html#c6-implement-digital-identity
 [control6]: https://owasp.org/www-project-proactive-controls/v3/en/c6-digital-identity
 [csauth]: https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html
 [cspass]: https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html
 [csforgot]: https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html
 [cssession]: https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html
-[issue060206]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/02-web-app-checklist/06-digital-identity
 [edit060206]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/02-web-app-checklist/06-digital-identity.md
+[issue060206]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/02-web-app-checklist/06-digital-identity
 [proactive10]: https://owasp.org/www-project-proactive-controls/
 
 \newpage

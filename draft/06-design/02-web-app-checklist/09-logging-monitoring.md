@@ -18,7 +18,7 @@ Logging is recording security information during the runtime operation of an app
 Monitoring is the live review of application and security logs using various forms of automation.
 
 Refer to proactive control [C9: Implement Security Logging and Monitoring][control9]
-for more context from the OWASP Top 10 Proactive Controls project,
+and its [cheatsheets][cheatsheet-proactive-c9] for more context from the OWASP Top 10 Proactive Controls project,
 and use the list below as suggestions for a checklist that has been tailored for the individual project.
 
 #### 1. Security logging
@@ -55,11 +55,12 @@ and use the list below as suggestions for a checklist that has been tailored for
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue060209] or [edit on GitHub][edit060209].
 
+[cheatsheet-proactive-c9]: https://cheatsheetseries.owasp.org/IndexProactiveControls.html#c9-implement-security-logging-and-monitoring
 [control9]: https://owasp.org/www-project-proactive-controls/v3/en/c9-security-logging
 [cslogging]: https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html
 [csvocabulary]: https://cheatsheetseries.owasp.org/cheatsheets/Logging_Vocabulary_Cheat_Sheet.html
-[issue060209]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/02-web-app-checklist/09-logging-monitoring
 [edit060209]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/02-web-app-checklist/09-logging-monitoring.md
+[issue060209]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/02-web-app-checklist/09-logging-monitoring
 [proactive10]: https://owasp.org/www-project-proactive-controls/
 
 \newpage
