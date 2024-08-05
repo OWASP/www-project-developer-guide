@@ -33,6 +33,10 @@ jobs:
       - name: Checkout markdown
         uses: actions/checkout@v4.1.1
 
+      - name: Environment
+        run: |
+          whoami
+
       - name: Lint markdown
         uses: DavidAnson/markdownlint-cli2-action@v16.0.0
         with:

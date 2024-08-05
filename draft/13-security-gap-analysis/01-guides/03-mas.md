@@ -69,6 +69,12 @@ MASVS can be [accessed online][masvs] and the links followed for the security co
 the mobile application can then be inspected for compliance with each control.
 This provides a starting point for a security gap evaluation for any existing controls.
 
+#### References
+
+* OWASP [Mobile Application Security][masproject] (MAS) project
+* OWASP [MAS Testing Guide][mastg] (MASTG)
+* OWASP [MAS Verification Standard][masvs] (MASVS)
+
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing

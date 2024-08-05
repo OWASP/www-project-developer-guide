@@ -53,20 +53,20 @@ but also on the protection of the services that provide access to the data, for 
 
 #### AAA
 
-CIA is often extended with Authentication, Authorization and Auditing as these are closely linked to CIA concepts.
+The CIA triad is often extended with Authentication, Authorization and Auditing as these are closely linked to CIA concepts.
 CIA has a strong dependency on Authentication and Authorization;
 the confidentiality and integrity of sensitive data can not be assured without them.
 Auditing is added as it can provide the mechanism to ensure proof of any interaction with the system.
 
 #### Authentication
 
-Authentication is about confirming the identity of the entity that wants to interact with a secure system.
+[Authentication][csauthn] is about confirming the identity of the entity that wants to interact with a secure system.
 For example the entity could be an automated client or a human actor;
 in either case authentication is required for a secure application.
 
 #### Authorization
 
-Authorization is about specifying access rights to secure resources (data, services, files, applications, etc).
+[Authorization][csauthz] is about specifying access rights to secure resources (data, services, files, applications, etc).
 These rights describe the privileges or access levels related to the resources that are being secured.
 Authorization is usually preceded by successful authentication.
 
@@ -80,7 +80,7 @@ The typical questions that are answered by auditing are "Who did What, When and 
 
 #### Software Assurance Maturity Model
 
-The OWASP Software Assurance Maturity Model [(SAMM)][samm] provides a good context for the scope of software security,
+The OWASP Software Assurance Maturity Model ([SAMM][samm]) provides a good context for the scope of software security,
 and the foundations of SAMM rely on the security concepts in this section.
 The SAMM model describes the five fundamentals of software security, which it calls Business Functions:
 
@@ -103,11 +103,19 @@ Each of these five fundamentals are further split into three Business Practices:
 Each Business Practice is further subdivided into two streams,
 and the sections in the Developer Guide reference at least one of the Business Functions or Practices in SAMM.
 
+#### References
+
+* OWASP [Cheat Sheet Series][cheatsheets]
+* OWASP [Software Assurance Maturity Model][samm] (SAMM)
+
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue0401] or [edit on GitHub][edit0401].
 
+[csauthn]: https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html
+[csauthz]: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html
+[cheatsheets]: https://cheatsheetseries.owasp.org/
 [issue0401]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/01-security-fundamentals
 [edit0401]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/04-foundations/01-security-fundamentals.md
 [samm]: https://owaspsamm.org/about/

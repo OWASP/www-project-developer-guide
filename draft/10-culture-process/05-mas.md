@@ -53,6 +53,13 @@ and will also give an insight into the examples provided in the MASTG.
 
 Each challenge has various solutions provided by the community; these can be used to compare with your solution.
 
+#### References
+
+* OWASP [Mobile Application Security][masproject] (MAS) project
+* OWASP [MAS Crackmes][mascrack] UnCrackable Apps
+* OWASP [MAS Testing Guide][mastg] (MASTG)
+* OWASP [MAS Verification Standard][masvs] (MASVS)
+
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing

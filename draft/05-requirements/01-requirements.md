@@ -102,7 +102,7 @@ These security requirements should be periodically revisited and revised as nece
 for example security standards are updated and new regulations come into force,
 both of which may have a direct impact on the application.
 
-#### Further reading
+#### References
 
 * OWASP projects:
   * [Software Assurance Maturity Model (SAMM)][samm]

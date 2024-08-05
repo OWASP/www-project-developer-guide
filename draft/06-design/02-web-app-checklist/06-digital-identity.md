@@ -14,7 +14,7 @@ permalink: /draft/design/web_app_checklist/digital_identity/
 
 ### 4.2.6 Checklist: Implement Digital Identity
 
-Authentication is the process of verifying that an individual or entity is who they claim to be.
+[Authentication][csauthn] is the process of verifying that an individual or entity is who they claim to be.
 Session management is a process by which a server maintains the state of the users authentication
 so that the user may continue to use the system without re-authenticating.
 
@@ -85,13 +85,13 @@ and use the list below as suggestions for a checklist that has been tailored for
 1. Generate a new session identifier and deactivate the old one periodically
 1. Generate a new session identifier if the connection security changes from HTTP to HTTPS,
     as can occur during authentication
-1. Set the `secure` attribute for cookies transmitted over an TLS connection
+1. Set the `secure` attribute for cookies transmitted over an [TLS][tls] connection
 1. Set cookies with the `HttpOnly` attribute,
     unless you specifically require client-side scripts within your application to read or set a cookie value
 
 #### References
 
-* OWASP [Cheat Sheet: Authentication][csauth]
+* OWASP [Cheat Sheet: Authentication][csauthn]
 * OWASP [Cheat Sheet: Password Storage][cspass]
 * OWASP [Cheat Sheet: Forgot Password][csforgot]
 * OWASP [Cheat Sheet: Session Management][cssession]
@@ -104,12 +104,13 @@ then [submit an issue][issue060206] or [edit on GitHub][edit060206].
 
 [cheatsheet-proactive-c6]: https://cheatsheetseries.owasp.org/IndexProactiveControls.html#c6-implement-digital-identity
 [control6]: https://owasp.org/www-project-proactive-controls/v3/en/c6-digital-identity
-[csauth]: https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html
+[csauthn]: https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html
 [cspass]: https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html
 [csforgot]: https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html
 [cssession]: https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html
 [edit060206]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/02-web-app-checklist/06-digital-identity.md
 [issue060206]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/02-web-app-checklist/06-digital-identity
 [proactive10]: https://owasp.org/www-project-proactive-controls/
+[tls]: https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Security_Cheat_Sheet.html
 
 \newpage

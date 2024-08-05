@@ -26,13 +26,11 @@ permalink: /draft/verification/guides/mas_testing_guide/
 
 ### 6.1.2 MAS testing guide
 
-The OWASP [Mobile Application Security][masproject] (MAS) flagship project has the mission statement:
-"Define the industry standard for mobile application security".
+The [MAS Verification Standard][masvs] (MASVS) explains the processes, techniques
+and tools used for security testing a mobile application.
 
-The MAS project covers the processes, techniques, and tools used for security testing a mobile application,
-as well as an exhaustive set of test cases that enables testers to deliver consistent and complete results.
-The OWASP MAS project provides the [Mobile Application Security Verification Standard][masvs] (MASVS)
-for mobile applications and a comprehensive [Mobile Application Security Testing Guide][mastg] (MASTG).
+The OWASP MAS project provides the [Mobile Application Security Testing Guide][mastg] (MASTG)
+which describes technical processes that can be used for verification of the mobile application controls .
 
 #### What is MASTG?
 
@@ -68,6 +66,13 @@ and testing of mobile applications; pick and choose the resources that are appli
 * Use the section on [MASTG techniques][mastgtechs] to run the selected tests correctly
 * Become familiar with the range of [MASTG tools][mastgtools] available and select the ones that you need
 * Use the [MAS Checklists][masc] to provide evidence of compliance
+
+#### References
+
+* OWASP [Mobile Application Security][masproject] (MAS) project
+* OWASP [MAS Testing Guide][mastg] (MASTG)
+* OWASP [MAS Checklists][masc]
+* OWASP [MAS Verification Standard][masvs] (MASVS)
 
 ----
 

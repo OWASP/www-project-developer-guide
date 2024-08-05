@@ -82,6 +82,12 @@ The ASVS guidance will help developers build security controls that will satisfy
 The OWASP Cheat Sheets have been indexed specifically for [each section of the ASVS][cheatsheet-asvs],
 which can be used as documentation to help decide if a requirements category is to be included in verification.
 
+#### References
+
+* OWASP [Application Security Verification Standard][asvs] (ASVS)
+* OWASP [ASVS Index][cheatsheet-asvs]
+* OWASP [SecurityRAT][srat] project
+
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
