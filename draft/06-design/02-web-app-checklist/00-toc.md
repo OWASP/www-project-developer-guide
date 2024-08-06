@@ -28,6 +28,24 @@ Probably the best starting point for a checklist is given by the [Application Se
 The ASVS can be used to provide a framework for an initial checklist, according to the security verification level,
 and this initial ASVS checklist can then be expanded using the following checklist sections.
 
+For technology specific checklists refer to the appropriate OWASP Cheat Sheets:
+
+* [AJAX_Security][csajax]
+* [C-Based toolchain hardening][cscbased]
+* [Django security][csdjango]
+* [Django REST framework][csdjangorest]
+* [Docker security][csdocker]
+* [DotNet security][csdotnet]
+* [Java security][csjava]
+* [Javascript management][csjcavascript]
+* [Laravel security][cslaravel]
+* [NPM security best practices][csnpm]
+* [Node.js security][csnode]
+* [Node.js security for Docker][csnodedocker]
+* [PHP configuration][csphp]
+* [Ruby on Rails security][csruby]
+* [Symfony framework][cssymfony]
+
 Sections:
 
 4.2.1 [Checklist: Define Security Requirements](#checklist-define-security-requirements)  
@@ -45,8 +63,23 @@ Sections:
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing then [submit an issue][issue0602].
 
-[issue0602]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/02-web-app-checklist/00-toc
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
+[csajax]: https://cheatsheetseries.owasp.org/cheatsheets/AJAX_Security_Cheat_Sheet
+[cscbased]: https://cheatsheetseries.owasp.org/cheatsheets/C-Based_Toolchain_Hardening_Cheat_Sheet
+[csdjango]: https://cheatsheetseries.owasp.org/cheatsheets/Django_Security_Cheat_Sheet
+[csdjangorest]: https://cheatsheetseries.owasp.org/cheatsheets/Django_REST_Framework_Cheat_Sheet
+[csdocker]: https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet
+[csdotnet]: https://cheatsheetseries.owasp.org/cheatsheets/DotNet_Security_Cheat_Sheet
+[csjava]: https://cheatsheetseries.owasp.org/cheatsheets/Java_Security_Cheat_Sheet
+[csjcavascript]: https://cheatsheetseries.owasp.org/cheatsheets/Third_Party_Javascript_Management_Cheat_Sheet
+[cslaravel]: https://cheatsheetseries.owasp.org/cheatsheets/Laravel_Cheat_Sheet
+[csnpm]: https://cheatsheetseries.owasp.org/cheatsheets/NPM_Security_Cheat_Sheet
+[csnode]: https://cheatsheetseries.owasp.org/cheatsheets/Nodejs_Security_Cheat_Sheet
+[csnodedocker]: https://cheatsheetseries.owasp.org/cheatsheets/NodeJS_Docker_Cheat_Sheet
+[csphp]: https://cheatsheetseries.owasp.org/cheatsheets/PHP_Configuration_Cheat_Sheet
+[csruby]: https://cheatsheetseries.owasp.org/cheatsheets/Ruby_on_Rails_Cheat_Sheet
+[cssymfony]: https://cheatsheetseries.owasp.org/cheatsheets/Symfony_Cheat_Sheet
+[issue0602]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/02-web-app-checklist/00-toc
 [proactive10]: https://owasp.org/www-project-proactive-controls/
 
 \newpage
