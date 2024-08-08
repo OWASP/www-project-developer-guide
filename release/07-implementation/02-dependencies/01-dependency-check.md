@@ -12,6 +12,8 @@ permalink: /release/implementation/dependencies/dependency_check/
 
 {% include breadcrumb.html %}
 
+![Dependency-Check logo](../../../../assets/images/logos/depcheck.png "OWASP Dependency-Check"){: height="150px" }
+
 ### 5.2.1 Dependency-Check
 
 OWASP [Dependency-Check][depcheck] is a tool that provides Software Composition Analysis (SCA) from the command line.
@@ -45,11 +47,12 @@ Dependency-Check's core analysis engine can be used as:
 
 Checking for vulnerable components, '[A06 Vulnerable and Outdated Components][a06]', is in the OWASP Top Ten
 and is one of the most straight-forward and effective security activities to implement.
-The Dependency-Check tool provides this check for vulnerable components for CI/CD pipelines using the plugins.
+The Dependency-Check tool provides checks for vulnerable components that can be run from the command line.
 
-In addition this is an immediately useful for development teams;
-the ability to check for vulnerable application components from the command line gives
-immediate feedback to the developer without having to wait for a pipeline to run.
+This is useful for development teams; the ability to check for vulnerable application components from the command line
+gives immediate feedback to the developer without having to wait for a pipeline to run.
+
+Dependency-Check also provides plugins to check for vulnerable components for [CI/CD pipelines][cscicd].
 
 #### How to use it
 
@@ -68,6 +71,13 @@ The command line is useful for immediate debugging development.
 Depending on what automation environment is in place a plugin can also be installed
 into a pipeline which can then generate the SCA reports.
 
+#### References
+
+* OWASP [Dependency-Check][depcheck] project
+* OWASP [Dependency-Check][depcheck-docs] documentation
+* OWASP [CI/CD Security Cheat Sheet][cscicd]
+* OWASP [Top 10][a06]
+
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
@@ -76,6 +86,7 @@ then [submit an issue][issue070201] or [edit on GitHub][edit070201].
 [a06]: https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/
 [adoptium]: https://adoptium.net/
 [cpe]: https://nvd.nist.gov/products/cpe
+[cscicd]: https://cheatsheetseries.owasp.org/cheatsheets/CI_CD_Security_Cheat_Sheet
 [cve]: https://cve.mitre.org/
 [depcheck]: https://owasp.org/www-project-dependency-check/
 [depcheck-docs]: https://jeremylong.github.io/DependencyCheck/

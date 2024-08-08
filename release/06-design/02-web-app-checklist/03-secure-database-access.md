@@ -16,7 +16,7 @@ permalink: /release/design/web_app_checklist/secure_database_access/
 
 Ensure that access to all data stores is secure, including both relational databases and NoSQL databases.
 
-Refer to proactive control [C3: Secure Database Access][control3]
+Refer to proactive control [C3: Secure Database Access][control3] and its [cheatsheets][csproactive-c3]
 for more context from the OWASP Top 10 Proactive Controls project,
 and use the list below as suggestions for a checklist that has been tailored for the individual project.
 
@@ -48,8 +48,8 @@ and use the list below as suggestions for a checklist that has been tailored for
 
 #### References
 
-* OWASP [Cheat Sheet: Query Parameterization][query]
-* OWASP [Cheat Sheet: Database Security][dbsec]
+* OWASP [Cheat Sheet: Query Parameterization][csquery]
+* OWASP [Cheat Sheet: Database Security][csdb]
 * OWASP [Top 10 Proactive Controls][proactive10]
 
 ----
@@ -57,9 +57,10 @@ and use the list below as suggestions for a checklist that has been tailored for
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue060203] or [edit on GitHub][edit060203].
 
+[csproactive-c3]: https://cheatsheetseries.owasp.org/IndexProactiveControls.html#c3-secure-database-access
 [control3]: https://owasp.org/www-project-proactive-controls/v3/en/c3-secure-database
-[dbsec]: https://cheatsheetseries.owasp.org/cheatsheets/Database_Security_Cheat_Sheet.html
-[issue060203]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/02-web-app-checklist/03-secure-database-access
+[csdb]: https://cheatsheetseries.owasp.org/cheatsheets/Database_Security_Cheat_Sheet
+[csquery]: https://cheatsheetseries.owasp.org/cheatsheets/Query_Parameterization_Cheat_Sheet
 [edit060203]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/02-web-app-checklist/03-secure-database-access.md
+[issue060203]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/02-web-app-checklist/03-secure-database-access
 [proactive10]: https://owasp.org/www-project-proactive-controls/
-[query]: https://cheatsheetseries.owasp.org/cheatsheets/Query_Parameterization_Cheat_Sheet.html
