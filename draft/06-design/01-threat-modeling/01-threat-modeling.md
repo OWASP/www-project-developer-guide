@@ -167,16 +167,17 @@ There is no one process for threat modeling.
 How it is done in practice will vary according to the organisation's culture,
 according to what type of system / application is being modeled
 and according to preferences of the development team itself.
-The various techniques and concepts are discussed in the [Threat Modeling Cheat Sheet][tmcs]
+The various techniques and concepts are discussed in the [Threat Modeling Cheat Sheet][cstm]
 and can be summarised:
 
 1. Terminology: try to use standard terms such as actors, trust boundaries, etc as this will help convey these concepts
 2. Scope: be clear what is being modeled and keep within this scope
 3. Document: decide which tools and what outputs are required to satisfy compliance, for example
-4. Decompose: break the system being modeled into manageable pieces and identify your trust boundaries
-5. Agents: identify who the actors are (malicious or otherwise) and what they can do
-6. Categorise: prioritise the threats taking into account probability, impact and any other factors
-7. Remediation: be sure to decide what to do about any threats identified, the whole reason for threat modeling
+4. Decompose: break the system being modeled into manageable pieces
+5. Trust: identify your trust boundaries, consider [network segmentation][ccsnet]
+6. Agents: identify who the actors are (malicious or otherwise) and what they can do
+7. Categorise: prioritise the threats taking into account probability, impact and any other factors
+8. Remediation: be sure to decide what to do about any threats identified, the whole reason for threat modeling
 
 It is worth saying this again: there are many ways to do threat modeling,
 all perfectly valid, so choose the right process that works for a specific team.
@@ -229,7 +230,7 @@ then that is also a perfectly good choice.
 
 * [Threat Modeling Manifesto](https://www.threatmodelingmanifesto.org/)
 * OWASP [Threat Model project][tmproject]
-* OWASP [Threat Modeling Cheat Sheet][tmcs]
+* OWASP [Threat Modeling Cheat Sheet][cstm]
 * OWASP [Threat Modeling Playbook (OTMP)][tmpb]
 * OWASP [Attack Surface Analysis Cheat Sheet][asacs]
 * OWASP community pages on [Threat Modeling][TM] and the [Threat Modeling Process][TMP]
@@ -256,11 +257,13 @@ The OWASP Developer Guide is a community effort; if there is something that need
 then [submit an issue][issue060101] or [edit on GitHub][edit060101].
 
 [4QFW]: https://github.com/adamshostack/4QuestionFrame
-[asacs]: https://cheatsheetseries.owasp.org/cheatsheets/Attack_Surface_Analysis_Cheat_Sheet.html
+[asacs]: https://cheatsheetseries.owasp.org/cheatsheets/Attack_Surface_Analysis_Cheat_Sheet
 [capec]: https://capec.mitre.org/
 [chains]: https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html
 [cia]: https://www.nccoe.nist.gov/publication/1800-25/VolA/index.html
 [corncards]: https://owasp.org/www-project-cornucopia/
+[ccsnet]: https://cheatsheetseries.owasp.org/cheatsheets/Network_Segmentation_Cheat_Sheet
+[cstm]: https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet
 [eop]: https://shostack.org/games/elevation-of-privilege
 [edit060101]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/01-threat-modeling/01-threat-modeling.md
 [issue060101]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/01-threat-modeling/01-threat-modeling
@@ -275,7 +278,6 @@ then [submit an issue][issue060101] or [edit on GitHub][edit060101].
 [sammgata]: https://owaspsamm.org/guidance/agile/#TA
 [snakes]: https://owasp.org/www-project-snakes-and-ladders/
 [stride]: https://en.wikipedia.org/wiki/STRIDE_%28security%29
-[tmcs]: https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html
 [tmpb]: https://owasp.org/www-project-threat-modeling-playbook/
 [tmproject]: https://owasp.org/www-project-threat-model/
 [tdtm]: https://owasp.org/www-project-threat-dragon/

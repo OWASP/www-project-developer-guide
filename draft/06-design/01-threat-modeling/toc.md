@@ -26,7 +26,7 @@ permalink: /draft/design/threat_modeling/
 
 ### 4.1 Threat modeling
 
-Referring to the [Threat Modeling Cheat Sheet][tmcs],
+Referring to the [Threat Modeling Cheat Sheet][cstm],
 threat modeling is a structured approach to identifying and prioritizing potential threats to a system.
 The threat modeling process includes determining the value that potential mitigations would have
 in reducing or neutralizing these threats.
@@ -55,4 +55,4 @@ then [submit an issue][issue0601] or [edit on GitHub][edit0601].
 
 [edit0601]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/01-threat-modeling/toc.md
 [issue0601]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/01-threat-modeling/00-toc
-[tmcs]: https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html
+[cstm]: https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet

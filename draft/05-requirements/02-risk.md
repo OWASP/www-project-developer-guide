@@ -86,7 +86,7 @@ Examples:
 4. Eliminate: an example may be that an application implements legacy functionality that is no longer used,
     if there is a risk of it being exploited then the risk can be eliminated by removing this legacy functionality
 
-#### Further reading
+#### References
 
 * [OWASP Risk Rating Methodology][rrm]
 * [NIST 800-30 - Guide for Conducting Risk Assessments][nist]

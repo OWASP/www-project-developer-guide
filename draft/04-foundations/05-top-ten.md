@@ -85,7 +85,7 @@ should be incorporated within the application design and architecture activities
 In practice this involves establishing a secure development lifecycle that encourages
 the identification of security requirements, the periodic use of threat modeling
 and consideration of existing secure libraries and frameworks.
-This category was introduced in the 2021 version and for now the supporting cheat sheets only cover [threat modeling][tmcs];
+This category was introduced in the 2021 version and for now the supporting cheat sheets only cover [threat modeling][cstm];
 as this category becomes more established it is expected that more supporting information will become available.
 
 #### A05:2021 Security Misconfiguration
@@ -131,8 +131,8 @@ consider the cost / benefit of using these (often commercial) suppliers.
 
 #### A08:2021 Software and Data Integrity Failures
 
-Software and data integrity failures relate to code and infrastructure
-that does not protect against integrity violations. This is a wide ranging category that describes supply chain attacks,
+Software and data integrity failures relate to code and infrastructure that does not protect against integrity violations.
+This is a wide ranging category that describes [supply chain attacks][cschain],
 compromised auto-update and use of untrusted components for example.
 [A07 Software and Data Integrity Failures][a08] was a new category introduced in 2021
 so there is little information available from the [Cheat Sheets][a08cs],
@@ -155,7 +155,7 @@ whenever a web application is fetching a remote resource without validating the 
 These exploits allow an attacker to coerce the application to send a crafted request to an unexpected destination,
 even when protected by a firewall, VPN, or another type of network access control list.
 Fetching a URL has become a common scenario for modern web applications and as a result the incidence of SSRF is increasing,
-especially for cloud services and more complex application architectures.
+especially for [cloud services][cscloud] and more complex application architectures.
 
 This is a new category introduced in 2021 with a single (for now) [Cheat Sheet][a10cs] that deals with SSRF.
 
@@ -203,6 +203,9 @@ then [submit an issue][issue0405] or [edit on GitHub][edit0405].
 [a10cs]: https://cheatsheetseries.owasp.org/IndexTopTen.html#a102021-server-side-request-forgery-ssrf
 [apisec]: https://owasp.org/API-Security
 [cicd10]: https://owasp.org/www-project-top-10-ci-cd-security-risks/
+[cschain]: https://cheatsheetseries.owasp.org/cheatsheets/Software_Supply_Chain_Security
+[cscloud]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Cloud_Architecture_Cheat_Sheet
+[cstm]: https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet
 [cwe284]: https://cwe.mitre.org/data/definitions/284.html
 [data10]: https://owasp.org/www-project-data-security-top-10/
 [exploit]: https://www.exploit-db.com/
@@ -214,7 +217,6 @@ then [submit an issue][issue0405] or [edit on GitHub][edit0405].
 [proactive10]: https://owasp.org/www-project-proactive-controls/
 [samm]: https://owaspsamm.org/about/
 [serverless10]: https://owasp.org/www-project-serverless-top-10/
-[tmcs]: https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html
 [top10]: https://owasp.org/www-project-top-ten/
 [llm10]: https://owasp.org/www-project-top-10-for-large-language-model-applications/
 

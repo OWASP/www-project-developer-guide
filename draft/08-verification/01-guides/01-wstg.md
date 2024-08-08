@@ -14,7 +14,7 @@ permalink: /draft/verification/guides/web_security_testing_guide/
 
 ### 6.1.1 Web Security Testing Guide
 
-The Web Security Testing Guide ([WSTG][wstg]) is a comprehensive guide to testing the security of
+The OWASP [Web Security Testing Guide][wstg] (WSTG) is a comprehensive guide to testing the security of
 web applications and web services.
 
 The WSTG [documentation project][wstg] is an OWASP Flagship Project
@@ -80,6 +80,11 @@ along with advice on testing within typical Secure Development Lifecycle (SDLC) 
 The individual tests described in the various testing domains should be selected or discarded as necessary;
 not every test will be relevant to every web application or organizational requirement,
 and the tests should be tailored to provide at least the minimum test coverage while not expending too much test effort.
+
+#### References
+
+* OWASP [Web Security Testing Guide][wstg] (WSTG) project
+* [WSTG downloads][wstg-latest]
 
 ----
 

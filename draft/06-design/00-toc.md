@@ -78,6 +78,6 @@ The OWASP Developer Guide is a community effort; if there is something that need
 [sammdsr]: https://owaspsamm.org/model/design/security-requirements/
 [sammdsa]: https://owaspsamm.org/model/design/secure-architecture/
 [sammdta]: https://owaspsamm.org/model/design/threat-assessment/
-[spdcs]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet.html
+[spdcs]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet
 
 \newpage

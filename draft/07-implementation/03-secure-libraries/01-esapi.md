@@ -55,7 +55,7 @@ For new projects or for modifying an existing project then alternatives should b
 * Validation: [JSR-303/JSR-349 Bean Validation][bean]
 * Strong cryptography: Google [Tink][google-tink] or [Keyczar][google-keyczar]
 * Authentication & authorization: [Apache Shiro][shiro], authentication using [Spring Security][spring]
-* CSRF protection: OWASP [CSRFGuard][csrfguard] project
+* [CSRF][cscsrf] protection: OWASP [CSRFGuard][csrfguard] project
 
 Consideration could be given for using ESAPI if multiple security controls provided by this library are used in a project,
 it then may be useful to use the monolithic ESAPI library rather than multiple disparate class libraries.
@@ -72,6 +72,7 @@ then [submit an issue][issue070301] or [edit on GitHub][edit070301].
 
 [bean]: http://beanvalidation.org/
 [csrfguard]: https://owasp.org/www-project-csrfguard/
+[cscsrf]: https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet
 [edit070301]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/03-secure-libraries/01-esapi.md
 [esapi-docs]: https://www.javadoc.io/doc/org.owasp.esapi/esapi/latest/index.html
 [esapi-java]: https://mvnrepository.com/artifact/org.owasp.esapi/esapi

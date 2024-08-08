@@ -30,7 +30,7 @@ into the development and release process.
 
 The [DevSecOps Guideline][devsecops] is a collection of advice and theory that explains how to embed security into DevOps.
 It covers various foundational topics such as Threat Modeling pipelines, Secrets Management and Linting Code.
-It then explains and illustrates various vulnerability scanning steps commonly used in CI/CD pipelines:
+It then explains and illustrates various vulnerability scanning steps commonly used in [CI/CD pipelines][cscicd] :
 
 * Static Application Security Testing ([SAST][dsosast])
 * Dynamic Application Security Testing ([DAST][dsodast])
@@ -54,13 +54,17 @@ Many of the pages in the DevSecOps Guideline contain lists of tools that can be 
 The DevSecOps Guideline document is in the process of [being expanded and updated][dsonew] which will build on the
 existing 2023 version.
 
+#### References
+
+* OWASP [DevSecOps Guideline][devsecops] project
+* OWASP [CI/CD Security Cheat Sheet][cscicd]
+
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue1101] or [edit on GitHub][edit1101].
 
-[edit1101]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/11-operations/01-devsecops.md
-[issue1101]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2011-operations/01-devsecops
+[cscicd]: https://cheatsheetseries.owasp.org/cheatsheets/CI_CD_Security_Cheat_Sheet
 [devsecops]: https://owasp.org/www-project-devsecops-guideline/
 [dsocvs]: https://owasp.org/www-project-devsecops-guideline/latest/02f-Container-Vulnerability-Scanning
 [dsodoc]: https://owasp.org/www-project-devsecops-guideline/latest/
@@ -72,5 +76,7 @@ then [submit an issue][issue1101] or [edit on GitHub][edit1101].
 [dsopdf]: https://github.com/OWASP/DevSecOpsGuideline/releases
 [dsosast]: https://owasp.org/www-project-devsecops-guideline/latest/02a-Static-Application-Security-Testing
 [dsosca]: https://owasp.org/www-project-devsecops-guideline/latest/02d-Software-Composition-Analysis
+[edit1101]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/11-operations/01-devsecops.md
+[issue1101]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2011-operations/01-devsecops
 
 \newpage

@@ -20,7 +20,7 @@ may enter a software application or system component.
 It is vital that input validation is performed to provide the starting point for a secure application or system.
 Without input validation the software application/system will continue to be vulnerable to new and varied attacks.
 
-Refer to proactive control [C5: Validate All Inputs][control5]
+Refer to proactive control [C5: Validate All Inputs][control5] and its [cheatsheets][csproactive-c5]
 for more context from the OWASP Top 10 Proactive Controls project,
 and use the list below as suggestions for a checklist that has been tailored for the individual project.
 
@@ -67,12 +67,12 @@ and use the list below as suggestions for a checklist that has been tailored for
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue060205] or [edit on GitHub][edit060205].
 
+[csproactive-c5]: https://cheatsheetseries.owasp.org/IndexProactiveControls.html#c5-validate-all-inputs
 [control5]: https://owasp.org/www-project-proactive-controls/v3/en/c5-validate-inputs
-[ivcs]: https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html
-[issue060205]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/02-web-app-checklist/05-validate-inputs
+[ivcs]: https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet
 [edit060205]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/02-web-app-checklist/05-validate-inputs.md
+[issue060205]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/02-web-app-checklist/05-validate-inputs
 [proactive10]: https://owasp.org/www-project-proactive-controls/
 [sanitizer]: https://www.owasp.org/index.php/OWASP_Java_HTML_Sanitizer
-[^SCP1]: maybe this
 
 \newpage

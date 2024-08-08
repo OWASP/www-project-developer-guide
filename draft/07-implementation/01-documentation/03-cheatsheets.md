@@ -31,7 +31,7 @@ on a wide range of specific application security topics.
 The cheat sheets have been created by a community of application security professionals
 who have expertise in each specific topic.
 
-The Cheat Sheet Series [documentation project][cheatproject] is an OWASP Flagship Project
+The Cheat Sheet Series [documentation project][csproject] is an OWASP Flagship Project
 which is constantly being kept up to date.
 
 #### What are the Cheat Sheets?
@@ -59,28 +59,37 @@ then the implementation could be challenged during testing or review processes.
 The OWASP Spotlight series provides a good overview of using this documentation:
 'Project 4 - [Cheat Sheet Series][spotlight04]'.
 
-There are a lot of cheat sheets in the OWASP Cheat Sheet Series;
+There are many cheat sheets in the OWASP Cheat Sheet Series;
 91 of them as of March 2024 and this number is set to increase.
 The OWASP community recognises that this may become overwhelming at first, and so has arranged them in various ways:
 
 * [Alphabetically][cheatsheet-alpha]
-* Indexed to follow the [ASVS project][cheatsheet-asvs] or the [MASVS project][cheatsheet-masvs]
-* Arranged in sections of the [OWASP Top 10][cheatsheet-top10] or the [OWASP Proactive Controls][cheatsheet-proactive]
+* Indexed to follow the [ASVS project][csasvs] or the [MASVS project][csmasvs]
+* Arranged in sections of the [OWASP Top 10][cstop10] or the [OWASP Proactive Controls][csproactive]
 
 The cheat sheets are continually being updated and are always open to contributions from the security community.
+
+#### References
+
+* OWASP [Cheat Sheet Series][cheatsheets]
+* OWASP Cheat Sheet [ASVS index][csasvs]
+* OWASP Cheat Sheet [MASVS index][csmasvs]
+* OWASP Cheat Sheet [Proactive Controls index][csproactive]
+* OWASP Cheat Sheet [Top 10 index][cstop10]
+* OWASP [Cheat Sheet project][csproject]
 
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue070103] or [edit on GitHub][edit070103].
 
-[cheatproject]: https://owasp.org/www-project-cheat-sheets/
+[csproject]: https://owasp.org/www-project-cheat-sheets/
 [cheatsheets]: https://cheatsheetseries.owasp.org/
-[cheatsheet-alpha]: https://cheatsheetseries.owasp.org/Glossary.html
-[cheatsheet-asvs]: https://cheatsheetseries.owasp.org/IndexASVS.html
-[cheatsheet-masvs]: https://cheatsheetseries.owasp.org/IndexMASVS.html
-[cheatsheet-proactive]: https://cheatsheetseries.owasp.org/IndexProactiveControls.html
-[cheatsheet-top10]: https://cheatsheetseries.owasp.org/IndexTopTen.html
+[cheatsheet-alpha]: https://cheatsheetseries.owasp.org/Glossary
+[csasvs]: https://cheatsheetseries.owasp.org/IndexASVS
+[csmasvs]: https://cheatsheetseries.owasp.org/IndexMASVS.html
+[csproactive]: https://cheatsheetseries.owasp.org/IndexProactiveControls.html
+[cstop10]: https://cheatsheetseries.owasp.org/IndexTopTen.html
 [edit070103]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/01-documentation/03-cheatsheets.md
 [issue070103]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2007-implementation/01-documentation/03-cheatsheets
 [spotlight04]: https://youtu.be/S1cVYRDeiPQ
