@@ -96,7 +96,7 @@ then [submit an issue][issue060202] or [edit on GitHub][edit060202].
 [csruby]: https://cheatsheetseries.owasp.org/cheatsheets/Ruby_on_Rails_Cheat_Sheet
 [cssymfony]: https://cheatsheetseries.owasp.org/cheatsheets/Symfony_Cheat_Sheet
 [cswebservice]: https://cheatsheetseries.owasp.org/cheatsheets/Web_Service_Security_Cheat_Sheet
-[csxml]: https://cheatsheetseries.owasp.org/cheatsheets/XML_Security_Cheat_Shee
+[csxml]: https://cheatsheetseries.owasp.org/cheatsheets/XML_Security_Cheat_Sheet
 [csproactive-c2]: https://cheatsheetseries.owasp.org/IndexProactiveControls.html#c2-leverage-security-frameworks-and-libraries
 [control2]: https://owasp.org/www-project-proactive-controls/v3/en/c2-leverage-security-frameworks-libraries
 [dependency]: https://owasp.org/www-project-dependency-check/
