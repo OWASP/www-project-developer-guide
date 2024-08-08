@@ -56,7 +56,7 @@ The last category, MASVS-PRIVACY, is being reworked so is subject to change.
 
 #### Why use MASVS?
 
-The OWASP MASVS is the industry standard for mobile application security
+The OWASP MASVS is the industry standard for [mobile application security][csmas]
 and it is expected that any given set of security requirements will satisfy the MASVS.
 When defining security requirements for mobile applications then each security control in the MASVS should be considered.
 
@@ -69,18 +69,27 @@ Inspect each control within MASVS and regard it as a potential security requirem
 The OWASP Cheat Sheets have been indexed specifically for [each category of the MASVS][csmasvs],
 which can be used as a guide to decide if the category should to be included in the test scheme.
 
+#### References
+
+* Mobile Application Security ([MAS][masproject]) project
+* MAS [Checklist][masc]
+* MAS Verification Standard ([MASVS][masvs])
+* OWASP [Mobile Application Security][csmas] cheat sheet
+
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue0506] or [edit on GitHub][edit0506].
 
+[csmas]: https://cheatsheetseries.owasp.org/cheatsheets/Mobile_Application_Security_Cheat_Sheet
+[csmasvs]: https://cheatsheetseries.owasp.org/IndexMASVS
 [edit0506]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/05-requirements/06-mas.md
 [issue0506]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-requirements/06-mas
 [mas]: https://mas.owasp.org/
+[masc]: https://mas.owasp.org/checklists/
 [masproject]: https://owasp.org/www-project-mobile-app-security/
 [mastg]: https://mas.owasp.org/MASTG/
 [masvs]: https://mas.owasp.org/MASVS/
-[csmasvs]: https://cheatsheetseries.owasp.org/IndexMASVS
 [masvs-storage]: https://cheatsheetseries.owasp.org/IndexMASVS.html#masvs-storage
 [masvs-crypto]: https://cheatsheetseries.owasp.org/IndexMASVS.html#masvs-crypto
 [masvs-auth]: https://cheatsheetseries.owasp.org/IndexMASVS.html#masvs-auth

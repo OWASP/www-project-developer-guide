@@ -488,3 +488,9 @@ Laravel
 Symfony
 DoS
 IDOR
+GraphQL
+Microservices
+OAuth
+OpenID
+Multifactor
+XXE

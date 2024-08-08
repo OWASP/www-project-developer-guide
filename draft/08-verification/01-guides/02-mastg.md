@@ -48,7 +48,7 @@ The MASTG provides several resources for testing the controls:
 
 #### Why use MASTG?
 
-The OWASP MASVS is the industry standard for mobile application security,
+The OWASP MASVS is the industry standard for [mobile application security][csmas],
 and provides a list of security controls that are expected in a mobile application.
 If the application does not implement these controls correctly then it could be vulnerable;
 the MASTG tests that the application has the controls listed in the MASVS.
@@ -73,12 +73,14 @@ and testing of mobile applications; pick and choose the resources that are appli
 * OWASP [MAS Testing Guide][mastg] (MASTG)
 * OWASP [MAS Checklists][masc]
 * OWASP [MAS Verification Standard][masvs] (MASVS)
+* OWASP [Mobile Application Security][csmas] cheat sheet
 
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue080102] or [edit on GitHub][edit080102].
 
+[csmas]: https://cheatsheetseries.owasp.org/cheatsheets/Mobile_Application_Security_Cheat_Sheet
 [edit080102]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/01-guides/02-mastg.md
 [issue080102]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2008-verification/01-guides/02-mastg
 [masproject]: https://owasp.org/www-project-mobile-app-security/

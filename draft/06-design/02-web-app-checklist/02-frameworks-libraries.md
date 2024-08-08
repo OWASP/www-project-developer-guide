@@ -29,6 +29,7 @@ For technology specific checklists refer to the appropriate OWASP Cheat Sheets:
 * [Docker security][csdocker]
 * [DotNet security][csdotnet]
 * [GraphQL security][csgraphql]
+* [Infrastructure as Code][csias]
 * [Java security][csjava]
 * [Javascript management][csjcavascript]
 * [Kubernetes][cskube]
@@ -81,6 +82,7 @@ then [submit an issue][issue060202] or [edit on GitHub][edit060202].
 [csdocker]: https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet
 [csdotnet]: https://cheatsheetseries.owasp.org/cheatsheets/DotNet_Security_Cheat_Sheet
 [csgraphql]: https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Cheat_Sheet
+[csias]: https://cheatsheetseries.owasp.org/cheatsheets/Infrastructure_as_Code_Security_Cheat_Sheet
 [csjava]: https://cheatsheetseries.owasp.org/cheatsheets/Java_Security_Cheat_Sheet
 [csjcavascript]: https://cheatsheetseries.owasp.org/cheatsheets/Third_Party_Javascript_Management_Cheat_Sheet
 [cskube]: https://cheatsheetseries.owasp.org/cheatsheets/Kubernetes_Security_Cheat_Sheet

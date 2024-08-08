@@ -66,6 +66,9 @@ Cryptography is central to authentication:
 3. to verify the identity one or both parties in exchanging messages,
     for example identity verification within [Transport Layer Security][tls] (TLS)
 
+OpenID Connect is widely used as an identity layer on top of the OAuth 2.0 protocol,
+see the [OAuth 2.0 Protocol][csoauth] Cheat Sheet.
+
 #### Integrity
 
 Integrity ensures that even authorized users have performed no accidental or malicious alternation of information.
@@ -237,29 +240,31 @@ These protocols prevent adversaries from learning the key or forcing their own k
 #### References
 
 * OWASP Cheat Sheet series
-  * [Authentication Cheat Sheet][csauthn]
-  * [Authorization Cheat Sheet][csauthz]
-  * [Cryptographic Storage Cheat Sheet][cscs]
-  * [Key Management Cheat Sheet][kmcs]
-  * [SAML Security Cheat Sheet][sscs]
-  * [Secure Product Design Cheat Sheet][spdcs]
-  * [User Privacy Protection Cheat Sheet][uppcs]
+  * [Authentication][csauthn]
+  * [Authorization][csauthz]
+  * [Cryptographic Storage][cscs]
+  * [Key Management][kmcs]
+  * [OAuth 2.0 Protocol][csoauth]
+  * [SAML Security][sscs]
+  * [Secure Product Design][spdcs]
+  * [User Privacy Protection][uppcs]
 
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue0404] or [edit on GitHub][edit0404].
 
-[csauthn]: https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html
-[csauthz]: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html
+[csauthn]: https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet
+[csauthz]: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet
+[csoauth]: https://cheatsheetseries.owasp.org/cheatsheets/OAuth2_Cheat_Sheet
 [csproject]: https://owasp.org/www-project-cheat-sheets/
-[cscs]: https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html
+[cscs]: https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet
 [issue0404]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/04-crypto-principles
-[kmcs]: https://cheatsheetseries.owasp.org/cheatsheets/Key_Management_Cheat_Sheet.html
+[kmcs]: https://cheatsheetseries.owasp.org/cheatsheets/Key_Management_Cheat_Sheet
 [edit0404]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/04-foundations/04-crypto-principles.md
-[sscs]: https://cheatsheetseries.owasp.org/cheatsheets/SAML_Security_Cheat_Sheet.html
-[spdcs]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet.html
-[tls]: https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Security_Cheat_Sheet.html
-[uppcs]: https://cheatsheetseries.owasp.org/cheatsheets/User_Privacy_Protection_Cheat_Sheet.html
+[sscs]: https://cheatsheetseries.owasp.org/cheatsheets/SAML_Security_Cheat_Sheet
+[spdcs]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet
+[tls]: https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Security_Cheat_Sheet
+[uppcs]: https://cheatsheetseries.owasp.org/cheatsheets/User_Privacy_Protection_Cheat_Sheet
 
 \newpage

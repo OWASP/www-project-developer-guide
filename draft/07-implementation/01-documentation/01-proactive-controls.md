@@ -45,15 +45,17 @@ Putting these proactive controls in place can help remediate common security vul
 
 * [Clickjacking][csclick]
 * [Credential Stuffing][cscreds]
+* [Cross-site leaks][csxsleaks]
 * [Denial of Service][csdos] (DoS) attacks
 * DOM based [XSS attacks][csdom] including [DOM Clobbering][csdomclub]
-* [General injection][csinjection]
 * [IDOR][csidor] (Insecure Direct Object Reference)
+* [Injection][csinjection] including [OS Command injection][csosinjection] and [XXE][csxxe]
 * LDAP specific [injection attacks][csldap]
 * [Prototype pollution][csproto]
 * [SSRF][csssrf] attacks
-* [SQL injection][cssql]
-* [XSS attacks][csxss]
+* [SQL injection][cssql] and the use of [Query Parameterization][csquery]
+* [Unvalidated redirects and forwards][csredirect]
+* [XSS attacks][csxss] and [XSS Filter Evasion][csxssevade]
 
 #### How to apply them
 
@@ -83,6 +85,7 @@ then [submit an issue][issue070101] or [edit on GitHub][edit070101].
 [csdos]: https://cheatsheetseries.owasp.org/cheatsheets/Denial_of_Service_Cheat_Sheet
 [csidor]: https://cheatsheetseries.owasp.org/cheatsheets/Insecure_Direct_Object_Reference_Prevention_Cheat_Sheet
 [csinjection]: https://cheatsheetseries.owasp.org/cheatsheets/Injection_Prevention_Cheat_Sheet
+[csosinjection]: https://cheatsheetseries.owasp.org/cheatsheets/OS_Command_Injection_Defense_Cheat_Sheet
 [csldap]: https://cheatsheetseries.owasp.org/cheatsheets/LDAP_Injection_Prevention_Cheat_Sheet
 [csproto]: https://cheatsheetseries.owasp.org/cheatsheets/Prototype_Pollution_Prevention_Cheat_Sheet
 [csproactive]: https://cheatsheetseries.owasp.org/IndexProactiveControls
@@ -96,9 +99,14 @@ then [submit an issue][issue070101] or [edit on GitHub][edit070101].
 [csproactive-c8]: https://cheatsheetseries.owasp.org/IndexProactiveControls.html#c8-protect-data-everywhere
 [csproactive-c9]: https://cheatsheetseries.owasp.org/IndexProactiveControls.html#c9-implement-security-logging-and-monitoring
 [csproactive-c10]: https://cheatsheetseries.owasp.org/IndexProactiveControls.html#c10-handle-all-errors-and-exceptions
+[csredirect]: https://cheatsheetseries.owasp.org/cheatsheets/Unvalidated_Redirects_and_Forwards_Cheat_Sheet
 [cssql]: https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet
+[csquery]: https://cheatsheetseries.owasp.org/cheatsheets/Query_Parameterization_Cheat_Sheet
 [csssrf]:  https://cheatsheetseries.owasp.org/cheatsheets/Server_Side_Request_Forgery_Prevention_Cheat_Sheet
 [csxss]: https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet
+[csxsleaks]: https://cheatsheetseries.owasp.org/cheatsheets/XS_Leaks_Cheat_Sheet
+[csxssevade]: https://cheatsheetseries.owasp.org/cheatsheets/XSS_Filter_Evasion_Cheat_Sheet
+[csxxe]: https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet
 [control1]: https://owasp.org/www-project-proactive-controls/v3/en/c1-security-requirements
 [control2]: https://owasp.org/www-project-proactive-controls/v3/en/c2-leverage-security-frameworks-libraries
 [control3]: https://owasp.org/www-project-proactive-controls/v3/en/c3-secure-database

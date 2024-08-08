@@ -55,7 +55,7 @@ The security controls are split into several categories:
 
 #### Why use MASVS?
 
-The OWASP MASVS provides a list of security controls that are expected in a mobile application.
+The OWASP MASVS provides a list of industry-standard security controls for [secure mobile applications][csmas].
 If the application does not implement any of the controls then this could become a compliance issue,
 given that MASVS is the industry standard for mobile applications, so any omissions need to be justified.
 
@@ -74,12 +74,14 @@ This provides a starting point for a security gap evaluation for any existing co
 * OWASP [Mobile Application Security][masproject] (MAS) project
 * OWASP [MAS Testing Guide][mastg] (MASTG)
 * OWASP [MAS Verification Standard][masvs] (MASVS)
+* OWASP [Mobile Application Security][csmas] cheat sheet
 
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue130103] or [edit on GitHub][edit130103].
 
+[csmas]: https://cheatsheetseries.owasp.org/cheatsheets/Mobile_Application_Security_Cheat_Sheet
 [edit130103]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/13-security-gap-analysis/01-guides/03-mas.md
 [issue130103]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2013-security-gap-analysis/01-guides/03-mas
 [masproject]: https://owasp.org/www-project-mobile-app-security/
