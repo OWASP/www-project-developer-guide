@@ -65,6 +65,9 @@ The [Application Security Verification Standard][asvs] provides a list of requir
 and this can be used as a starting point for the security requirements.
 The [Mobile Application Security][mas] provides a similar set of standard security requirements for mobile applications.
 
+Consider using [Abuse Cases][csabuse] to identify possible attacks and the controls required to mitigate them.
+This can then feed into the software security requirements.
+
 #### Supplier security
 
 External suppliers involved in the development process need to be assessed for their security practices and compliance.
@@ -102,7 +105,7 @@ These security requirements should be periodically revisited and revised as nece
 for example security standards are updated and new regulations come into force,
 both of which may have a direct impact on the application.
 
-#### Further reading
+#### References
 
 * OWASP projects:
   * [Software Assurance Maturity Model (SAMM)][samm]
@@ -116,6 +119,7 @@ The OWASP Developer Guide is a community effort; if there is something that need
 then [submit an issue][issue0501] or [edit on GitHub][edit0501].
 
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
+[csabuse]: https://cheatsheetseries.owasp.org/cheatsheets/Abuse_Case_Cheat_Sheet
 [control1]: https://owasp.org/www-project-proactive-controls/v3/en/c1-security-requirements
 [issue0501]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-requirements/01-requirements
 [mas]: https://mas.owasp.org/

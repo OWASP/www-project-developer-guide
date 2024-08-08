@@ -16,7 +16,7 @@ permalink: /release/foundations/security_principles/
 
 This section is a very brief introduction to some concepts used within the software security domain,
 as these may not be familiar to many application developers.
-The OWASP [Cheat Sheet Series][cheatproject] provides more in depth explanations for these security principles,
+The OWASP [Cheat Sheet Series][csproject] provides more in depth explanations for these security principles,
 see the further reading at the end of this section.
 
 #### Overview
@@ -28,7 +28,7 @@ will also need this understanding to implement secure applications.
 
 #### No security guarantee
 
-One of the most important principles of software security is that **no** application or system is totally
+One of the most important principles of software security is that no application or system is totally
 100% guaranteed to be secure from all attacks. This may seem an unusually pessimistic starting point
 but it is merely acknowledging the real world; given enough time and enough resources any system can be compromised.
 The goal of software security is not '100% secure' but to make it hard enough and the rewards small enough
@@ -143,11 +143,11 @@ and also should have security patches available.
 In addition components developed within the open source community have the further benefit of 'many eyes'
 and are therefore likely to be even more secure.
 
-#### Further reading
+#### References
 
 * OWASP Cheat Sheet series
-  * [Authentication Cheat Sheet][ancs]
-  * [Authorization_Cheat_Sheet][azcs]
+  * [Authentication Cheat Sheet][csauthn]
+  * [Authorization Cheat Sheet][csauthz]
   * [Secure Product Design Cheat Sheet][spdcs]
 
 ----
@@ -155,12 +155,12 @@ and are therefore likely to be even more secure.
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue0403] or [edit on GitHub][edit0403].
 
-[ancs]: https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html
-[azcs]: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html
-[cheatproject]: https://owasp.org/www-project-cheat-sheets/
+[csauthn]: https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet
+[csauthz]: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet
+[csproject]: https://owasp.org/www-project-cheat-sheets/
 [did]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet.html#2-the-principle-of-defense-in-depth
 [issue0403]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/03-security-principles
 [elp]: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html#enforce-least-privileges
 [edit0403]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/04-foundations/03-security-principles.md
 [sop]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet.html#1-the-principle-of-least-privilege-and-separation-of-duties
-[spdcs]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet.html
+[spdcs]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet

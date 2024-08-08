@@ -15,7 +15,7 @@ permalink: /release/foundations/crypto_principles/
 ### 2.4 Principles of cryptography
 
 Cryptography is fundamental to the Confidentiality and Integrity of applications and systems.
-The OWASP [Cheat Sheet][cheatproject] series describes the use of cryptography and some of these are
+The OWASP [Cheat Sheet][csproject] series describes the use of cryptography and some of these are
 listed in the further reading at the end of this section.
 
 #### Overview
@@ -56,7 +56,7 @@ Cryptographic hashes (secure, one way hashes) to prevent passwords from disclosu
 
 #### Authentication
 
-Authentication is the process of verifying a claim that a subject is who it says it is
+[Authentication][csauthn] is the process of verifying a claim that a subject is who it says it is
 via some provided corroborating evidence.
 Cryptography is central to authentication:
 
@@ -64,7 +64,10 @@ Cryptography is central to authentication:
 2. in authentication protocols often use cryptography to either directly authenticate entities
     or to exchange credentials in a secure manner
 3. to verify the identity one or both parties in exchanging messages,
-    for example identity verification within Transport Layer Security (TLS)
+    for example identity verification within [Transport Layer Security][tls] (TLS)
+
+OpenID Connect is widely used as an identity layer on top of the OAuth 2.0 protocol,
+see the [OAuth 2.0 Protocol][csoauth] Cheat Sheet.
 
 #### Integrity
 
@@ -179,7 +182,7 @@ which is only used for the duration of the encrypted communication.
 This random session key is then encrypted using an asymmetric cipher and the recipient's private key.
 The plaintext data itself is encrypted with the session key.
 Then the entire bundle (encrypted session key and encrypted message) is all sent together.
-Both TLS and S/MIME are common cryptosystems using hybrid cryptography.
+Both [TLS][tls] and S/MIME are common cryptosystems using hybrid cryptography.
 
 #### Digital signature
 
@@ -234,29 +237,32 @@ Key Agreement protocols are protocols whereby N parties (usually two) can agree 
 with all parties contributing to the key value.
 These protocols prevent adversaries from learning the key or forcing their own key choice on the participating parties.
 
-#### Further reading
+#### References
 
 * OWASP Cheat Sheet series
-  * [Authentication Cheat Sheet][ancs]
-  * [Authorization_Cheat_Sheet][csaz]
-  * [Cryptographic Storage Cheat Sheet][cscs]
-  * [Key Management Cheat Sheet][kmcs]
-  * [SAML Security Cheat Sheet][sscs]
-  * [Secure Product Design Cheat Sheet][spdcs]
-  * [User Privacy Protection Cheat Sheet][uppcs]
+  * [Authentication][csauthn]
+  * [Authorization][csauthz]
+  * [Cryptographic Storage][cscs]
+  * [Key Management][kmcs]
+  * [OAuth 2.0 Protocol][csoauth]
+  * [SAML Security][sscs]
+  * [Secure Product Design][spdcs]
+  * [User Privacy Protection][uppcs]
 
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue0404] or [edit on GitHub][edit0404].
 
-[ancs]: https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html
-[csaz]: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html
-[cheatproject]: https://owasp.org/www-project-cheat-sheets/
-[cscs]: https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html
+[csauthn]: https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet
+[csauthz]: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet
+[csoauth]: https://cheatsheetseries.owasp.org/cheatsheets/OAuth2_Cheat_Sheet
+[csproject]: https://owasp.org/www-project-cheat-sheets/
+[cscs]: https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet
 [issue0404]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/04-crypto-principles
-[kmcs]: https://cheatsheetseries.owasp.org/cheatsheets/Key_Management_Cheat_Sheet.html
+[kmcs]: https://cheatsheetseries.owasp.org/cheatsheets/Key_Management_Cheat_Sheet
 [edit0404]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/04-foundations/04-crypto-principles.md
-[sscs]: https://cheatsheetseries.owasp.org/cheatsheets/SAML_Security_Cheat_Sheet.html
-[spdcs]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet.html
-[uppcs]: https://cheatsheetseries.owasp.org/cheatsheets/User_Privacy_Protection_Cheat_Sheet.html
+[sscs]: https://cheatsheetseries.owasp.org/cheatsheets/SAML_Security_Cheat_Sheet
+[spdcs]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet
+[tls]: https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Security_Cheat_Sheet
+[uppcs]: https://cheatsheetseries.owasp.org/cheatsheets/User_Privacy_Protection_Cheat_Sheet

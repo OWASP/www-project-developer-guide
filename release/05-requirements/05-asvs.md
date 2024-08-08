@@ -79,6 +79,15 @@ The appropriate level of verification should be chosen from the ASVS levels:
 Tools such as [SecurityRAT][srat] can help create a more manageable subset of the ASVS security requirements,
 allowing focus and decisions on whether each one is applicable to the web application or not.
 
+The OWASP Cheat Sheets have been indexed specifically for [each section of the ASVS][csasvs],
+which can be used as documentation to help decide if a requirements category is to be included in the test scheme.
+
+#### References
+
+* OWASP [Application Security Verification Standard][asvs] (ASVS)
+* OWASP [Cheat Sheets for ASVS][csasvs]
+* OWASP [SecurityRAT][srat]
+
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
@@ -101,6 +110,7 @@ then [submit an issue][issue0505] or [edit on GitHub][edit0505].
 [asvsV12]: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x20-V12-Files-Resources.md#v12-files-and-resources
 [asvsV13]: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x21-V13-API.md#v13-api-and-web-service
 [asvsV14]: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x22-V14-Config.md#v14-configuration
+[csasvs]: https://cheatsheetseries.owasp.org/IndexASVS.html
 [edit0505]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/05-requirements/05-asvs.md
 [issue0505]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2005-requirements/05-asvs
 [spotlight19]: https://youtu.be/3puIavsZfAk

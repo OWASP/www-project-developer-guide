@@ -35,7 +35,7 @@ This documentation project is an OWASP Lab project, aimed at security builders a
 
 #### What is it?
 
-Yes, it really is the snakes & ladders game, but for web and mobile application security.
+Yes, it really is the snakes & ladders game, but for web and [mobile application security][csmas].
 [It is played][snakeshowto] by two competing teams, possibly accompanied by beer and pretzels.
 
 In the board game for web applications, the virtuous behaviours (ladders) are secure coding practices
@@ -82,6 +82,7 @@ The OWASP Developer Guide is a community effort; if there is something that need
 then [submit an issue][issue0909] or [edit on GitHub][edit0909].
 
 [cornucopia]: https://owasp.org/www-project-cornucopia/
+[csmas]: https://cheatsheetseries.owasp.org/cheatsheets/Mobile_Application_Security_Cheat_Sheet
 [edit0909]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/09-snakes-ladders.md
 [issue0909]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2009-training-education/09-snakes-ladders
 [mobile10-2014]: https://owasp.org/www-project-mobile-top-10/2014-risks/

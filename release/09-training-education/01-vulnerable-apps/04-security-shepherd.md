@@ -14,7 +14,7 @@ permalink: /release/training_education/vulnerable_applications/security_shepherd
 
 ### 7.1.4 Security Shepherd
 
-OWASP Security Shepherd is a web and mobile application security training platform
+OWASP Security Shepherd is a web and [mobile application security][csmas] training platform
 that helps to foster and improve security awareness for development teams.
 
 The Security Shepherd [tool project][sec-shep] is an OWASP Flagship Project
@@ -57,6 +57,7 @@ Security Shepherd has modes which it can be used for different training goals:
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue090104] or [edit on GitHub][edit090104].
 
+[csmas]: https://cheatsheetseries.owasp.org/cheatsheets/Mobile_Application_Security_Cheat_Sheet
 [edit090104]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/01-vulnerable-apps/04-security-shepherd.md
 [issue090104]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2009-training-education/01-vulnerable-apps/04-security-shepherd
 [sec-shep]: https://owasp.org/www-project-security-shepherd/

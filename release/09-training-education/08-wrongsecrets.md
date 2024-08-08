@@ -47,7 +47,7 @@ The project provides challenges around secrets management across several layers:
 - Binaries / Reverse engineering
 
 Scenarios vary in difficulty, and you can solve some of them just by using the browser on your mobile phone.
-For others, you would need knowledge of cloud security or reverse engineering tools and cryptography.
+For others, you would need knowledge of [cloud security][cscloud] or reverse engineering tools and cryptography.
 
 #### Why use it?
 
@@ -69,11 +69,12 @@ For the CTF, the project also provides [set-up guides][ctf] and a [Helm chart][w
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue0908] or [edit on GitHub][edit0908].
 
+[cscloud]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Cloud_Architecture_Cheat_Sheet
 [ctf]: https://github.com/OWASP/wrongsecrets/blob/master/ctf-instructions.md
 [edit0908]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/08-wrongsecrets.md
-[wrongsecrets-helm]: https://owasp.org/wrongsecrets-ctf-party/
 [heroku]: https://wrongsecrets.herokuapp.com/
 [issue0908]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2009-training-education/08-wrongsecrets
 [readme]: https://github.com/OWASP/wrongsecrets/blob/master/README.md
 [wrongsecrets]: https://github.com/OWASP/wrongsecrets
+[wrongsecrets-helm]: https://owasp.org/wrongsecrets-ctf-party/
 [wrongsecrets-project]: https://owasp.org/www-project-wrongsecrets/

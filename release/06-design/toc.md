@@ -91,4 +91,4 @@ then [submit an issue][issue0600] or [edit on GitHub][edit0600].
 [sammdsr]: https://owaspsamm.org/model/design/security-requirements/
 [sammdsa]: https://owaspsamm.org/model/design/secure-architecture/
 [sammdta]: https://owaspsamm.org/model/design/threat-assessment/
-[spdcs]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet.html
+[spdcs]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet

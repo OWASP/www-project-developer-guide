@@ -52,9 +52,12 @@ This allows instructors to set up a classroom lab, for example, that can be dist
 
 SamuraiWTF is easy to use and comes as a virtual machine, which makes it ideal in a teaching environment
 or as an attack tool targeted specifically against web applications.
+The teaching environment can be tailored for a particular set of lessons using the command line tool 'katana'.
+
 The applications provided by Samurai-Dojo provides a set of real world applications to attack;
-these applications are contained within the Samurai Web Training Framework virtual machine so none of the
-attack traffic will leak from the environment - and so avoid triggering network intrusion detection systems.
+these applications are contained within the Samurai Web Training Framework virtual machine.
+This provides a teaching environment where none of the attack traffic will leak from the environment,
+and so avoids triggering network intrusion detection systems.
 
 #### How to use it
 

@@ -78,7 +78,7 @@ The OWASP [Security Champions Guide][scguide] identifies ten key principles for 
 A successful security champions program will increase the security of the applications / systems, allay developer's fears,
 increase the effectiveness of the application security team and improve the security posture of the organization as a whole.
 
-#### Further reading
+#### References
 
 * [Security Champions Playbook][scplaybook]
 * OWASP [Security Champions Guide][scguide]

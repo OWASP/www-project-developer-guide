@@ -24,7 +24,7 @@ Installers for various platforms can be [downloaded][zapdownload] from the ZAP w
 #### What is ZAP?
 
 The [Zed Attack Proxy][zap] is a tool that dynamically scans web applications.
-ZAP can be used manually to test applications or can be run within an automated CI/CD pipeline environment.
+ZAP can be used manually to test applications or can be run within an automated [CI/CD pipeline][cscicd] environment.
 
 It is commonly used for Dynamic Application Security Testing (DAST), both manual DAST and automated in pipelines.
 ZAP is also widely used for:
@@ -60,10 +60,11 @@ or automatically within a CI/CD environment - and definitely check out the [Head
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue080201] or [edit on GitHub][edit080201].
 
+[crash]: https://crashoverride.com/open-source
+[cscicd]: https://cheatsheetseries.owasp.org/cheatsheets/CI_CD_Security_Cheat_Sheet
 [edit080201]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/02-tools/01-zap.md
 [issue080201]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2008-verification/02-tools/01-zap
 [spotlight12]: https://youtu.be/usIlW8Q-hc4
-[crash]: https://crashoverride.com/open-source
 [zap]: https://www.zaproxy.org/
 [zapdownload]: https://www.zaproxy.org/download/
 [zaphud]: https://www.zaproxy.org/getting-started/#the-heads-up-display

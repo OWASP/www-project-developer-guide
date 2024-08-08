@@ -26,16 +26,11 @@ permalink: /release/culture_building_and_process_maturing/mobile_application_sec
 
 ### 8.5 Mobile Application Security
 
-The OWASP [Mobile Application Security][masproject] (MAS) flagship project has the mission statement:
-"Define the industry standard for mobile application security".
+The [MAS Verification Standard][masvs] (MASVS) explains the processes, techniques
+and tools used for security testing a mobile application.
 
-The MAS project covers the processes, techniques, and tools used for security testing a mobile application,
-as well as an exhaustive set of test cases that enables testers to deliver consistent and complete results.
-The OWASP MAS project provides the [Mobile Application Security Verification Standard][masvs] (MASVS)
-for mobile applications and a comprehensive [Mobile Application Security Testing Guide][mastg] (MASTG).
-
-OWASP [MAS Crackmes][mascrack], also known as UnCrackable Apps,
-is a collection of reverse engineering challenges for the MAS project.
+The OWASP [MAS Crackmes][mascrack], also known as UnCrackable Apps,
+is a collection of reverse engineering challenges for the OWASP [Mobile Application Security][masproject] (MAS).
 
 #### What is MAS Crackmes?
 
@@ -47,7 +42,7 @@ There are challenges for [Android][masandroid] and also a couple for [Apple iOS]
 
 #### Why use MAS Crackmes?
 
-Working through the challenges will improve understanding of mobile application security,
+Working through the challenges will improve understanding of [mobile application security][csmas]
 and will also give an insight into the examples provided in the MASTG.
 
 #### How to try the challenges
@@ -58,11 +53,20 @@ and will also give an insight into the examples provided in the MASTG.
 
 Each challenge has various solutions provided by the community; these can be used to compare with your solution.
 
+#### References
+
+* OWASP [Mobile Application Security][masproject] (MAS) project
+* OWASP [MAS Crackmes][mascrack] UnCrackable Apps
+* OWASP [MAS Testing Guide][mastg] (MASTG)
+* OWASP [MAS Verification Standard][masvs] (MASVS)
+* OWASP [Mobile Application Security][csmas] cheat sheet
+
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue1005] or [edit on GitHub][edit1005].
 
+[csmas]: https://cheatsheetseries.owasp.org/cheatsheets/Mobile_Application_Security_Cheat_Sheet
 [edit1005]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/10-culture-process/05-mas.md
 [issue1005]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2010-culture-process/05-mas
 [masproject]: https://owasp.org/www-project-mobile-app-security/
