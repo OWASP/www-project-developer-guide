@@ -65,7 +65,7 @@ it may be not applicable but at least the control should have been considered at
 The OWASP Spotlight series provides an overview of the ASVS and its uses:
 'Project 19 - [OWASP Application Security Verification standard (ASVS)][spotlight19]'.
 
-The OWASP Cheat Sheets have been indexed specifically for [each section of the ASVS][cheatsheet-asvs],
+The OWASP Cheat Sheets have been indexed specifically for [each section of the ASVS][csasvs],
 which can be used as documentation on controls for a given requirements category.
 
 ----
@@ -90,7 +90,7 @@ then [submit an issue][issue130102] or [edit on GitHub][edit130102].
 [asvsV12]: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x20-V12-Files-Resources.md#v12-files-and-resources
 [asvsV13]: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x21-V13-API.md#v13-api-and-web-service
 [asvsV14]: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x22-V14-Config.md#v14-configuration
-[cheatsheet-asvs]: https://cheatsheetseries.owasp.org/IndexASVS.html
+[csasvs]: https://cheatsheetseries.owasp.org/IndexASVS.html
 [edit130102]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/13-security-gap-analysis/01-guides/02-asvs.md
 [issue130102]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2013-security-gap-analysis/01-guides/02-asvs
 [spotlight19]: https://youtu.be/3puIavsZfAk

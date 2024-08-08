@@ -42,7 +42,7 @@ BLT can provide the route for these security bugs to be responsibly disclosed to
 #### How to use it
 
 BLT has its own [bug recording site][bltsite] which can be used to disclose any type of bug in any web site.
-Ideally this is not used for security related bugs because these bugs need responsible disclosure.
+Ideally this is not used for security related bugs because these bugs need [responsible disclosure][csdisclose].
 The organization should run its own [BLT core site][bltcore] to accept submission of security related bugs,
 and encourage users/reporters to use the [BLT app][bltapp] and chrome [extension][bltchrome].
 
@@ -56,6 +56,7 @@ then [submit an issue][issue1302] or [edit on GitHub][edit1302].
 [bltcore]: https://github.com/OWASP/BLT
 [bltapp]: https://github.com/OWASP/BLT-Flutter
 [bltsite]: https://blt.owasp.org/
+[csdisclose]: https://cheatsheetseries.owasp.org/cheatsheets/Vulnerability_Disclosure_Cheat_Sheet
 [edit1302]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/13-security-gap-analysis/02-blt.md
 [issue1302]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2013-security-gap-analysis/02-blt
 

@@ -131,8 +131,8 @@ consider the cost / benefit of using these (often commercial) suppliers.
 
 #### A08:2021 Software and Data Integrity Failures
 
-Software and data integrity failures relate to code and infrastructure
-that does not protect against integrity violations. This is a wide ranging category that describes supply chain attacks,
+Software and data integrity failures relate to code and infrastructure that does not protect against integrity violations.
+This is a wide ranging category that describes [supply chain attacks][cschain],
 compromised auto-update and use of untrusted components for example.
 [A07 Software and Data Integrity Failures][a08] was a new category introduced in 2021
 so there is little information available from the [Cheat Sheets][a08cs],
@@ -203,6 +203,7 @@ then [submit an issue][issue0405] or [edit on GitHub][edit0405].
 [a10cs]: https://cheatsheetseries.owasp.org/IndexTopTen.html#a102021-server-side-request-forgery-ssrf
 [apisec]: https://owasp.org/API-Security
 [cicd10]: https://owasp.org/www-project-top-10-ci-cd-security-risks/
+[cschain]: https://cheatsheetseries.owasp.org/cheatsheets/Software_Supply_Chain_Security
 [cwe284]: https://cwe.mitre.org/data/definitions/284.html
 [data10]: https://owasp.org/www-project-data-security-top-10/
 [exploit]: https://www.exploit-db.com/

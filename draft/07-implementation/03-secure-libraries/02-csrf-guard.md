@@ -15,7 +15,7 @@ permalink: /draft/implementation/secure_libraries/csrf_guard/
 ### 5.3.2 CSRFGuard library
 
 OWASP [CSRFGuard][csrfguard] is a security control that helps protect Java applications
-against Cross-Site Request Forgery (CSRF) attacks.
+against [Cross-Site Request Forgery][cscsrf] (CSRF) attacks.
 
 The CSRFGuard Builder/Breaker Tool project is an OWASP Production Project
 and is being actively maintained by a pool of international volunteers.
@@ -41,6 +41,11 @@ the [Maven Central repository][csrfguard-maven] or the [OSS Sonatype Nexus][csrf
 
 Follow the [instructions][csrfguard-build] to build CSRFGuard into the Java application using Maven.
 
+#### References
+
+* OWASP [CSRFGuard][csrfguard]
+* OWASP [Cross-Site Request Forgery Prevention Cheat Sheet][cscsrf]
+
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
@@ -50,6 +55,7 @@ then [submit an issue][issue070302] or [edit on GitHub][edit070302].
 [csrfguard-build]: https://github.com/OWASP/www-project-csrfguard/blob/master/readme.md#using-with-maven
 [csrfguard-nexus]: https://oss.sonatype.org/#nexus-search;gav~~csrfguard~~~
 [csrfguard-maven]: https://central.sonatype.com/search?q=csrfguard&smo=true
+[cscsrf]: https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet
 [edit070302]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/03-secure-libraries/02-csrf-guard.md
 [issue070302]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2007-implementation/03-secure-libraries/02-csrf-guard
 

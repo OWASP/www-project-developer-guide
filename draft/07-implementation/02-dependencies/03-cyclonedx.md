@@ -21,7 +21,7 @@ This [project][cyclonedx-project] is one of the OWASP flagship projects.
 #### What is CycloneDX?
 
 CycloneDX is a widely used standard for various types of [Bills of Materials][cyclonedx-spec].
-It provides an organization's supply chain with software security risk reduction.
+It provides an organization's [supply chain][cschain] with software security risk reduction.
 The specification supports:
 
 * [Software Bill of Materials][cyclonedx-sbom] (SBOM)
@@ -48,7 +48,7 @@ In addition SBOMs are mandatory for many industries and various governments - at
 will have to provide SBOMs for their customers and CycloneDX is an accepted standard for this.
 
 CycloneDX also provides standards for other types of BOMs that may be required in the supply chain
-along with standards for release notes, responsible disclosure, etc.
+along with standards for release notes and [responsible disclosure][csdisclose].
 It is useful to use CycloneDX throughout the supply chain as it promotes interoperability between the various tools.
 
 #### How to use it
@@ -69,6 +69,8 @@ and [various tools][cyclonedx-tools] can be chosen that are able to export the S
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue070203] or [edit on GitHub][edit070203].
 
+[cschain]: https://cheatsheetseries.owasp.org/cheatsheets/Software_Supply_Chain_Security
+[csdisclose]: https://cheatsheetseries.owasp.org/cheatsheets/Vulnerability_Disclosure_Cheat_Sheet
 [cyclonedx]: https://cyclonedx.org/
 [cyclonedx-bomlink]: https://cyclonedx.org/capabilities/bomlink/
 [cyclonedx-bov]: https://cyclonedx.org/capabilities/bov/

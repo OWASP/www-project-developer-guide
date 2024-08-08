@@ -18,8 +18,35 @@ Secure coding libraries and software frameworks with embedded security help soft
 security-related design and implementation flaws.
 
 Refer to proactive control [C2: Leverage Security Frameworks and Libraries][control2]
-and its [cheatsheets][cheatsheet-proactive-c2] for more context from the OWASP Top 10 Proactive Controls project,
-and use the list below as suggestions for a checklist that has been tailored for the individual project.
+and its [cheatsheets][csproactive-c2] for more context from the OWASP Top 10 Proactive Controls project.
+
+For technology specific checklists refer to the appropriate OWASP Cheat Sheets:
+
+* [AJAX_Security][csajax]
+* [C-Based toolchain hardening][cscbased]
+* [Django security][csdjango]
+* [Django REST framework][csdjangorest]
+* [Docker security][csdocker]
+* [DotNet security][csdotnet]
+* [GraphQL security][csgraphql]
+* [Java security][csjava]
+* [Javascript management][csjcavascript]
+* [Kubernetes][cskube]
+* [Laravel security][cslaravel]
+* [Microservices security][csmicro]
+* [NPM security best practices][csnpm]
+* [Node.js security][csnode]
+* [Node.js security for Docker][csnodedocker]
+* [PHP configuration][csphp]
+* [REST APIs][csrest]
+* [Ruby on Rails security][csruby]
+* [Symfony framework][cssymfony]
+* [Web Services][cswebservice]
+* [XML security][csxml]
+
+and use them as the starting point for a checklist that is tailored for the technology used by the project.
+
+In addition consider the following extra checks for frameworks and libraries.
 
 #### 1. Security Frameworks and Libraries
 
@@ -47,7 +74,28 @@ and use the list below as suggestions for a checklist that has been tailored for
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue060202] or [edit on GitHub][edit060202].
 
-[cheatsheet-proactive-c2]: https://cheatsheetseries.owasp.org/IndexProactiveControls.html#c2-leverage-security-frameworks-and-libraries
+[csajax]: https://cheatsheetseries.owasp.org/cheatsheets/AJAX_Security_Cheat_Sheet
+[cscbased]: https://cheatsheetseries.owasp.org/cheatsheets/C-Based_Toolchain_Hardening_Cheat_Sheet
+[csdjango]: https://cheatsheetseries.owasp.org/cheatsheets/Django_Security_Cheat_Sheet
+[csdjangorest]: https://cheatsheetseries.owasp.org/cheatsheets/Django_REST_Framework_Cheat_Sheet
+[csdocker]: https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet
+[csdotnet]: https://cheatsheetseries.owasp.org/cheatsheets/DotNet_Security_Cheat_Sheet
+[csgraphql]: https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Cheat_Sheet
+[csjava]: https://cheatsheetseries.owasp.org/cheatsheets/Java_Security_Cheat_Sheet
+[csjcavascript]: https://cheatsheetseries.owasp.org/cheatsheets/Third_Party_Javascript_Management_Cheat_Sheet
+[cskube]: https://cheatsheetseries.owasp.org/cheatsheets/Kubernetes_Security_Cheat_Sheet
+[cslaravel]: https://cheatsheetseries.owasp.org/cheatsheets/Laravel_Cheat_Sheet
+[csmicro]: https://cheatsheetseries.owasp.org/cheatsheets/Microservices_Security_Cheat_Sheet
+[csnpm]: https://cheatsheetseries.owasp.org/cheatsheets/NPM_Security_Cheat_Sheet
+[csnode]: https://cheatsheetseries.owasp.org/cheatsheets/Nodejs_Security_Cheat_Sheet
+[csnodedocker]: https://cheatsheetseries.owasp.org/cheatsheets/NodeJS_Docker_Cheat_Sheet
+[csphp]: https://cheatsheetseries.owasp.org/cheatsheets/PHP_Configuration_Cheat_Sheet
+[csrest]: https://cheatsheetseries.owasp.org/cheatsheets/REST_Security_Cheat_Sheet
+[csruby]: https://cheatsheetseries.owasp.org/cheatsheets/Ruby_on_Rails_Cheat_Sheet
+[cssymfony]: https://cheatsheetseries.owasp.org/cheatsheets/Symfony_Cheat_Sheet
+[cswebservice]: https://cheatsheetseries.owasp.org/cheatsheets/Web_Service_Security_Cheat_Sheet
+[csxml]: https://cheatsheetseries.owasp.org/cheatsheets/XML_Security_Cheat_Shee
+[csproactive-c2]: https://cheatsheetseries.owasp.org/IndexProactiveControls.html#c2-leverage-security-frameworks-and-libraries
 [control2]: https://owasp.org/www-project-proactive-controls/v3/en/c2-leverage-security-frameworks-libraries
 [dependency]: https://owasp.org/www-project-dependency-check/
 [edit060202]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/02-web-app-checklist/02-frameworks-libraries.md

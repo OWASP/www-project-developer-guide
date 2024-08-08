@@ -15,7 +15,7 @@ permalink: /draft/implementation/dependencies/dependency_track/
 ### 5.2.2 Dependency-Track
 
 OWASP Dependency-Track is an intelligent platform for Component Analysis including Third Party Software.
-It allows organizations to identify and reduce risk in the software supply chain
+It allows organizations to identify and reduce risk in the [software supply chain][cschain]
 using its ability to analyse a Software Bill of Materials (SBOM).
 
 The [Dependency-Track][deptrack-project] is an OWASP Flagship project
@@ -68,6 +68,7 @@ for a step by step guide to this configuration process.
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue070202] or [edit on GitHub][edit070202].
 
+[cschain]: https://cheatsheetseries.owasp.org/cheatsheets/Software_Supply_Chain_Security
 [deptrack]: https://dependencytrack.org/
 [deptrack-docs]: https://docs.dependencytrack.org/
 [deptrack-project]: https://owasp.org/www-project-dependency-track/

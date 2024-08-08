@@ -18,7 +18,7 @@ permalink: /draft/design/web_app_checklist/digital_identity/
 Session management is a process by which a server maintains the state of the users authentication
 so that the user may continue to use the system without re-authenticating.
 
-Refer to proactive control [C6: Implement Digital Identity][control6] and its [cheatsheets][cheatsheet-proactive-c6]
+Refer to proactive control [C6: Implement Digital Identity][control6] and its [cheatsheets][csproactive-c6]
 for more context from the OWASP Top 10 Proactive Controls project,
 and use the list below as suggestions for a checklist that has been tailored for the individual project.
 
@@ -102,7 +102,7 @@ and use the list below as suggestions for a checklist that has been tailored for
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue060206] or [edit on GitHub][edit060206].
 
-[cheatsheet-proactive-c6]: https://cheatsheetseries.owasp.org/IndexProactiveControls.html#c6-implement-digital-identity
+[csproactive-c6]: https://cheatsheetseries.owasp.org/IndexProactiveControls.html#c6-implement-digital-identity
 [control6]: https://owasp.org/www-project-proactive-controls/v3/en/c6-digital-identity
 [csauthn]: https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html
 [cspass]: https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html

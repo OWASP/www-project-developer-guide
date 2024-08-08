@@ -66,7 +66,7 @@ MASVS can be [accessed online][masvs] and the links followed for each security c
 In addition MASVS can be downloaded as a PDF which can, for example, be used for evidence or compliance purposes.
 Inspect each control within MASVS and regard it as a potential security requirement.
 
-The OWASP Cheat Sheets have been indexed specifically for [each category of the MASVS][cheatsheet-masvs],
+The OWASP Cheat Sheets have been indexed specifically for [each category of the MASVS][csmasvs],
 which can be used as a guide to decide if the category should to be included in the test scheme.
 
 ----
@@ -80,7 +80,7 @@ then [submit an issue][issue0506] or [edit on GitHub][edit0506].
 [masproject]: https://owasp.org/www-project-mobile-app-security/
 [mastg]: https://mas.owasp.org/MASTG/
 [masvs]: https://mas.owasp.org/MASVS/
-[cheatsheet-masvs]: https://cheatsheetseries.owasp.org/IndexMASVS
+[csmasvs]: https://cheatsheetseries.owasp.org/IndexMASVS
 [masvs-storage]: https://cheatsheetseries.owasp.org/IndexMASVS.html#masvs-storage
 [masvs-crypto]: https://cheatsheetseries.owasp.org/IndexMASVS.html#masvs-crypto
 [masvs-auth]: https://cheatsheetseries.owasp.org/IndexMASVS.html#masvs-auth

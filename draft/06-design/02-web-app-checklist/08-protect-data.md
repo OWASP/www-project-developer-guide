@@ -18,7 +18,7 @@ Sensitive data such as passwords, credit card numbers, health records, personal 
 require extra protection, particularly if that data falls under privacy laws (EU General Data Protection Regulation GDPR),
 financial data protection rules such as PCI Data Security Standard (PCI DSS) or other regulations.
 
-Refer to proactive control [C8: Protect Data Everywhere][control8] and its [cheatsheets][cheatsheet-proactive-c8]
+Refer to proactive control [C8: Protect Data Everywhere][control8] and its [cheatsheets][csproactive-c8]
 for more context from the OWASP Top 10 Proactive Controls project,
 and use the list below as suggestions for a checklist that has been tailored for the individual project.
 
@@ -59,7 +59,7 @@ and use the list below as suggestions for a checklist that has been tailored for
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue060208] or [edit on GitHub][edit060208].
 
-[cheatsheet-proactive-c8]: https://cheatsheetseries.owasp.org/IndexProactiveControls.html#c8-protect-data-everywhere
+[csproactive-c8]: https://cheatsheetseries.owasp.org/IndexProactiveControls.html#c8-protect-data-everywhere
 [control8]: https://owasp.org/www-project-proactive-controls/v3/en/c8-protect-data-everywhere
 [cscs]: https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html
 [cssm]: https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html

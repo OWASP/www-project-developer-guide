@@ -101,6 +101,13 @@ There is not an actual implementation of SecurityCAT,
 SecurityRAT provides an API that allows for a compliance tool to be created.
 and so this may be a future development for SecurityRAT.
 
+#### References
+
+* OWASP [SecurityRAT][srat]
+* OWASP [SecurityRAT documentation][sratdocs]
+* OWASP [SecurityCAT][scat]
+* OWASP [Application Security Verification Standard][asvs] (ASVS)
+
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing

@@ -66,6 +66,12 @@ and use this as a starting point for the application security requirements.
 
 The OWASP Spotlight series provides an overview of the SKF: 'Project 7 - [Security Knowledge Framework (SKF)][spotlight07]'.
 
+#### References
+
+* [Security Knowledge Framework][skf] (SKF)
+* [SKF courses and labs][skfdemo]
+* [SKF requirements][skfreqs]
+
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing

@@ -486,3 +486,5 @@ crs
 Matteo
 Laravel
 Symfony
+DoS
+IDOR

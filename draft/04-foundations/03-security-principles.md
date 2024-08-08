@@ -16,7 +16,7 @@ permalink: /draft/foundations/security_principles/
 
 This section is a very brief introduction to some concepts used within the software security domain,
 as these may not be familiar to many application developers.
-The OWASP [Cheat Sheet Series][cheatproject] provides more in depth explanations for these security principles,
+The OWASP [Cheat Sheet Series][csproject] provides more in depth explanations for these security principles,
 see the further reading at the end of this section.
 
 #### Overview
@@ -157,7 +157,7 @@ then [submit an issue][issue0403] or [edit on GitHub][edit0403].
 
 [csauthn]: https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html
 [csauthz]: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html
-[cheatproject]: https://owasp.org/www-project-cheat-sheets/
+[csproject]: https://owasp.org/www-project-cheat-sheets/
 [did]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet.html#2-the-principle-of-defense-in-depth
 [issue0403]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/03-security-principles
 [elp]: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html#enforce-least-privileges
