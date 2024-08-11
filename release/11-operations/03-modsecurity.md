@@ -24,10 +24,10 @@ In 2024 it became an OWASP Production project, supported by the existing leaders
 In January 2024 the [ModSecurity][modsec] Web Application Firewall project was [adopted by OWASP][modsec-press],
 previously [TrustWave][trustwave] had been the custodian of this project.
 ModSecurity itself has a long history as an open source project, the first release was in November 2002,
-and is widely used as a web application firewall for cloud and on-premises web servers.
+and is widely used as a web application firewall for [cloud applications][cscloud] and on-premises web servers.
 
 The ModSecurity WAF needs to be configured in operational deployments,
-and this can be done using the OWASP ModSecurity [Core Rule Set][modcrs].
+and this can be done using the OWASP [CRS][crs].
 
 #### Why use ModSecurity?
 
@@ -43,7 +43,7 @@ or deployed within the web server itself, to provide protection against HTTP att
 The rules applied to the HTTP traffic are provided as configuration to ModSecurity,
 and these rules allow many different actions to be applied such as blocking traffic, redirecting requests, and many more.
 See the documentation for [deploying and running][modsec-docs] ModSecurity,
-along with the documentation on configuring ModSecurity with the [Core Rule Set][modcrs].
+along with the documentation on configuring ModSecurity with the [CRS][crs].
 
 ----
 
@@ -51,9 +51,10 @@ The OWASP Developer Guide is a community effort; if there is something that need
 then [submit an issue][issue1103] or [edit on GitHub][edit1103].
 
 [coraza]: https://coraza.io/
+[crs]: https://coreruleset.org/
+[cscloud]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Cloud_Architecture_Cheat_Sheet
 [edit1103]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/11-operations/03-modsecurity.md
 [issue1103]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2011-operations/03-modsecurity
-[modcrs]: https://coreruleset.org/
 [modsec]: https://owasp.org/www-project-modsecurity/
 [modsec-docs]: https://www.modsecurity.org/
 [modsec-press]: https://owasp.org/blog/2024/01/09/ModSecurity.html

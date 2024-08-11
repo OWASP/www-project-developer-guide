@@ -22,7 +22,7 @@ permalink: /release/training_education/samurai_wtf/
 }
 </style>
 
-![SamuraiWTF logo](../../../assets/images/logos/samurai_wtf.png "OWASP SamuraiWTF"){: .image-right }
+![SamuraiWTF logo](../../../assets/images/logos/samuraiwtf.png "OWASP DefectDojo"){: height="160px" }
 
 ### 7.4 SamuraiWTF
 
@@ -52,9 +52,12 @@ This allows instructors to set up a classroom lab, for example, that can be dist
 
 SamuraiWTF is easy to use and comes as a virtual machine, which makes it ideal in a teaching environment
 or as an attack tool targeted specifically against web applications.
+The teaching environment can be tailored for a particular set of lessons using the command line tool 'katana'.
+
 The applications provided by Samurai-Dojo provides a set of real world applications to attack;
-these applications are contained within the Samurai Web Training Framework virtual machine so none of the
-attack traffic will leak from the environment - and so avoid triggering network intrusion detection systems.
+these applications are contained within the Samurai Web Training Framework virtual machine.
+This provides a teaching environment where none of the attack traffic will leak from the environment,
+and so avoids triggering network intrusion detection systems.
 
 #### How to use it
 
@@ -70,6 +73,16 @@ Getting started with SamuraiWTF is described in the [github README][samuraiwtf-d
 Run the Samurai Web Training Framework and login as the super-user 'samurai'.
 From a command prompt run 'katana' to start configuring SamuraiWTF for your training purposes, for example 'katana list'.
 
+![SamuraiWTF logo](../../../assets/images/logos/samurai_wtf.png "OWASP SamuraiWTF"){: .image-right }
+
+#### References
+
+* OWASP [SamuraiWTF][samuraiwtf] main site
+* [SamuraiWTF Dojo][samurai-dojo]
+* [SamuraiWTF Katana][samurai-katana]
+* [SamuraiWTF downloads][samuraiwtf-download]
+* SamuraiWTF [OWASP project][samuraiwtf-project]
+
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
@@ -78,9 +91,10 @@ then [submit an issue][issue0904] or [edit on GitHub][edit0904].
 [edit0904]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/04-samurai-wtf.md
 [issue0904]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2009-training-education/04-samurai-wtf
 [kali]: https://www.kali.org/
+[samuraiwtf]: https://www.samuraiwtf.org/
 [samurai-dojo]: https://owasp.org/www-project-samuraiwtf/#div-dojo
 [samurai-katana]: https://owasp.org/www-project-samuraiwtf/#div-katana
-[samurai-wtf]: https://www.samuraiwtf.org/
+[samurai-wtf]: https://www.samurai-wtf.org/
 [samuraiwtf-download]: https://github.com/SamuraiWTF/samuraiwtf/blob/main/README.md
 [samuraiwtf-project]: https://owasp.org/www-project-samuraiwtf/
 [spotlight26]: https://youtu.be/PBWUlx_kJmI

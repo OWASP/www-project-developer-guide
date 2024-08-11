@@ -78,8 +78,8 @@ There are many OWASP tools and resources to help build security into the SDLC.
     a high degree of confidence that the application or system will be reasonably secure.
     OWASP provides two libraries that can be incorporated in web applications,
     the [Enterprise Security API (ESAPI)][esapi-project] security control library
-    and [CSRFGuard][csrfguard] to mitigate the risk of Cross-Site Request Forgery (CSRF) attacks,
-    that help implement these proactive controls. In addition the OWASP [Cheat Sheet Series][cheatproject]
+    and [CSRFGuard][csrfguard] to mitigate the risk of [Cross-Site Request Forgery][cscsrf] (CSRF) attacks,
+    that help implement these proactive controls. In addition the OWASP [Cheat Sheet Series][csproject]
     is a valuable source of information and advice on all aspects of applications security.
 
 * **Verification**: OWASP provides a relatively large number of projects that help with testing and verification.
@@ -106,7 +106,7 @@ There are many OWASP tools and resources to help build security into the SDLC.
     and there have been several high profile of products being successfully exploited.
     A Software Bill of Materials (SBOM) is the first step in avoiding these attacks and
     it is well worth using the OWASP [CycloneDX][cyclone] full-stack Bill of Materials (BOM) standard
-    for risk reduction in the supply chain.
+    for [risk reduction in the supply chain][cschain].
     In addition the OWASP [Dependency-Track][deptrack] project is a Continuous SBOM Analysis Platform
     which can help prevent these supply chain exploits by providing control of the SBOM.
 
@@ -126,7 +126,7 @@ There are many OWASP tools and resources to help build security into the SDLC.
 
 #### Further reading from OWASP
 
-* [Cheat Sheet Series][cheatproject]
+* [Cheat Sheet Series][csproject]
 * [Cornucopia][cornucopia]
 * [CycloneDX][cyclone] Bill of Materials (BOM) standard
 * [DevSecOps Guideline][devsecops]
@@ -176,10 +176,12 @@ then [submit an issue][issue0402] or [edit on GitHub][edit0402].
 [amass]: https://owasp.org/www-project-amass/
 [apisec]: https://owasp.org/API-Security
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
-[cheatproject]: https://owasp.org/www-project-cheat-sheets/
-[cornucopia]: https://owasp.org/www-project-cornucopia/
-[csrfguard]: https://owasp.org/www-project-csrfguard/
 [champions]: https://owasp.org/www-project-security-champions-guidebook/
+[cornucopia]: https://owasp.org/www-project-cornucopia/
+[cschain]: https://cheatsheetseries.owasp.org/cheatsheets/Software_Supply_Chain_Security
+[cscsrf]: https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet
+[csproject]: https://owasp.org/www-project-cheat-sheets/
+[csrfguard]: https://owasp.org/www-project-csrfguard/
 [culture]: https://owasp.org/www-project-security-culture/
 [cyclone]: https://owasp.org/www-project-cyclonedx/
 [depcheck]: https://owasp.org/www-project-dependency-check/
