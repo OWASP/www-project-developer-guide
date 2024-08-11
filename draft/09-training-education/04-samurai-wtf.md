@@ -81,7 +81,7 @@ From a command prompt run 'katana' to start configuring SamuraiWTF for your trai
 * [SamuraiWTF Dojo][samurai-dojo]
 * [SamuraiWTF Katana][samurai-katana]
 * [SamuraiWTF downloads][samuraiwtf-download]
-* OWASP [project][samuraiwtf-project]
+* SamuraiWTF [OWASP project][samuraiwtf-project]
 
 ----
 

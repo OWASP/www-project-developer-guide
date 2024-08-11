@@ -121,13 +121,13 @@ Follow instructions to install the command line [lychee][lychee-install] and [pa
 To install `markdownlint-cli2` use npm: `npm install markdownlint-cli2 --global`,
 and to install `pyspelling` use pip: `pip install pyspelling`
 
-## Release process
+#### Release process
 
 The release process is automatic, and triggers when the repo is tagged with a version number.
 To trigger the release this process from within a cloned repo:
 
-1. tag the release, for example: `git tag 4.1.2`
-2. push to the repo, for example: `git push origin 4.1.2`
+1. tag the release, for example: `git tag 4.1.3`
+2. push to the repo, for example: `git push origin 4.1.3`
 
 The github release workflow then creates the pull request
 with modifications to the release area promoted from the draft area.
