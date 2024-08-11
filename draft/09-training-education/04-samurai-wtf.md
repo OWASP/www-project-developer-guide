@@ -22,7 +22,7 @@ permalink: /draft/training_education/samurai_wtf/
 }
 </style>
 
-![SamuraiWTF logo](../../../assets/images/logos/samurai_wtf.png "OWASP SamuraiWTF"){: .image-right }
+![SamuraiWTF logo](../../../assets/images/logos/samuraiwtf.png "OWASP DefectDojo"){: height="160px" }
 
 ### 7.4 SamuraiWTF
 
@@ -73,6 +73,16 @@ Getting started with SamuraiWTF is described in the [github README][samuraiwtf-d
 Run the Samurai Web Training Framework and login as the super-user 'samurai'.
 From a command prompt run 'katana' to start configuring SamuraiWTF for your training purposes, for example 'katana list'.
 
+![SamuraiWTF logo](../../../assets/images/logos/samurai_wtf.png "OWASP SamuraiWTF"){: .image-right }
+
+#### References
+
+* OWASP [SamuraiWTF][samuraiwtf] main site
+* [SamuraiWTF Dojo][samurai-dojo]
+* [SamuraiWTF Katana][samurai-katana]
+* [SamuraiWTF downloads][samuraiwtf-download]
+* OWASP [project][samuraiwtf-project]
+
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
@@ -81,9 +91,10 @@ then [submit an issue][issue0904] or [edit on GitHub][edit0904].
 [edit0904]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/04-samurai-wtf.md
 [issue0904]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2009-training-education/04-samurai-wtf
 [kali]: https://www.kali.org/
+[samuraiwtf]: https://www.samuraiwtf.org/
 [samurai-dojo]: https://owasp.org/www-project-samuraiwtf/#div-dojo
 [samurai-katana]: https://owasp.org/www-project-samuraiwtf/#div-katana
-[samurai-wtf]: https://www.samuraiwtf.org/
+[samurai-wtf]: https://www.samurai-wtf.org/
 [samuraiwtf-download]: https://github.com/SamuraiWTF/samuraiwtf/blob/main/README.md
 [samuraiwtf-project]: https://owasp.org/www-project-samuraiwtf/
 [spotlight26]: https://youtu.be/PBWUlx_kJmI
