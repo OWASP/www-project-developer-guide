@@ -53,7 +53,7 @@ create and nurture a good threat modeling culture within the organisation itself
 #### Cheat Sheets for Threat Modeling
 
 The OWASP series of Cheat Sheets is a primary source of advice and techniques on all things security,
-with the OWASP [Threat Modeling Cheat Sheet][tmcs] and OWASP [Attack Surface Analysis Cheat Sheet][asacs]
+with the OWASP [Threat Modeling Cheat Sheet][cstm] and OWASP [Attack Surface Analysis Cheat Sheet][asacs]
 providing practical suggestions along with explanations of both the terminology and the concepts involved.
 
 ----
@@ -62,11 +62,11 @@ The OWASP Developer Guide is a community effort; if there is something that need
 then [submit an issue][issue060106] or [edit on GitHub][edit060106].
 
 [4QFW]: https://github.com/adamshostack/4QuestionFrame
-[asacs]: https://cheatsheetseries.owasp.org/cheatsheets/Attack_Surface_Analysis_Cheat_Sheet.html
+[asacs]: https://cheatsheetseries.owasp.org/cheatsheets/Attack_Surface_Analysis_Cheat_Sheet
+[cstm]: https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet
 [issue060106]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2006-design/01-threat-modeling/06-toolkit
 [edit060106]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/01-threat-modeling/06-toolkit.md
 [toolkit]: https://www.youtube.com/watch?v=KGy_KCRUGd4
-[tmcs]: https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html
 [tmpb]: https://owasp.org/www-project-threat-modeling-playbook/
 [tmproject]: https://owasp.org/www-project-threat-model/
 [TM]: https://owasp.org/www-community/Threat_Modeling

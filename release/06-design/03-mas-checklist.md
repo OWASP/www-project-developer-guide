@@ -51,6 +51,7 @@ In addition to the web links there is a [downloadable spreadsheet][masxls].
 
 #### Why use it?
 
+The OWASP MASVS is the industry standard for [mobile application security][csmas].
 If the MASTG is being applied to a mobile application then the MAS Checklist is a handy reference
 that can also be used for compliance purposes.
 
@@ -68,12 +69,14 @@ This record of test results can be used as evidence for compliance purposes.
 * Mobile Application Security ([MAS][masproject]) project
 * MAS [Checklist][masc]
 * MAS Verification Standard ([MASVS][masvs])
+* OWASP [Mobile Application Security][csmas] cheat sheet
 
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue0603] or [edit on GitHub][edit0603].
 
+[csmas]: https://cheatsheetseries.owasp.org/cheatsheets/Mobile_Application_Security_Cheat_Sheet
 [edit0603]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/03-mas-checklist.md
 [issue0603]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/03-mas-checklist
 [masproject]: https://owasp.org/www-project-mobile-app-security/

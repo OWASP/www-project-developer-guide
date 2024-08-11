@@ -18,7 +18,7 @@ permalink: /release/operations/coraza_waf/
 
 The [OWASP Coraza][coraza-project] project provides a golang enterprise-grade Web Application Firewall framework
 that supports the [ModSecurity][modsec] seclang language
-and is completely compatible with the OWASP [Core Rule Set][modcrs] (CRS).
+and is completely compatible with the OWASP [CRS][crs].
 Coraza is in active development as an OWASP Production code project,
 with the first stable version released in September 2021 and several releases since then.
 
@@ -26,7 +26,7 @@ with the first stable version released in September 2021 and several releases si
 
 The [Coraza][coraza] Web Application Firewall framework is used to enforce policies,
 providing a first line of defense to stop attack on web applications and servers.
-Coraza  can be configured using the OWASP [Core Rule Set][modcrs] and also custom policies can be created.
+Coraza  can be configured using the OWASP [CRS][crs] and also custom policies can be created.
 
 Coraza can be deployed:
 
@@ -38,7 +38,7 @@ Coraza can be deployed:
 #### Why use Coraza?
 
 Web Application Firewalls are usually the first line of defense against HTTP attacks on web applications and servers.
-The Coraza WAF is widely used for providing this security, especially for cloud applications,
+The Coraza WAF is widely used for providing this security, especially for [cloud applications][cscloud],
 along with the original OWASP [ModSecurity][modsec] WAF.
 
 #### How to use Coraza
@@ -65,7 +65,8 @@ then [submit an issue][issue1102] or [edit on GitHub][edit1102].
 [coraza-spoa]: https://coraza.io/connectors/coraza-spoa/
 [coraza-tutorial]: https://coraza.io/docs/tutorials/quick-start/
 [coraza-wasm]: https://github.com/corazawaf/coraza-proxy-wasm
+[cscloud]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Cloud_Architecture_Cheat_Sheet
 [edit1102]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/11-operations/02-coraza.md
 [issue1102]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2011-operations/02-coraza
-[modcrs]: https://coreruleset.org/
+[crs]: https://coreruleset.org/
 [modsec]: https://owasp.org/www-project-modsecurity/

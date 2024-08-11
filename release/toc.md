@@ -16,7 +16,7 @@ permalink: /release/
 
 ## OWASP Developer Guide
 
-### Release version 4.1.2
+### Release version 4.1.3
 
 1 **[Introduction](03-introduction.md)**
 
@@ -73,7 +73,7 @@ permalink: /release/
 6 **[Verification](08-verification/toc.md)**  
 6.1 [Guides](08-verification/01-guides/toc.md)  
 6.1.1 [Web Security Testing Guide](08-verification/01-guides/01-wstg.md)  
-6.1.2 [Mobile Application Security](08-verification/01-guides/02-mastg.md)  
+6.1.2 [MAS Testing Guide](08-verification/01-guides/02-mastg.md)  
 6.1.3 [Application Security Verification Standard](08-verification/01-guides/03-asvs.md)  
 6.2 [Tools](08-verification/02-tools/toc.md)  
 6.2.1 [Zed Attack Proxy](08-verification/02-tools/01-zap.md)  

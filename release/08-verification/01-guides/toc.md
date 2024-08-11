@@ -39,7 +39,7 @@ Given the breadth of techniques and knowledge required, guides are an important 
 Sections:
 
 6.1.1 [Web Security Testing Guide](01-wstg.md)  
-6.1.2 [Mobile Application Security](02-mastg.md)  
+6.1.2 [MAS Testing Guide](02-mastg.md)  
 6.1.3 [Application Security Verification Standard](03-asvs.md)  
 
 ----
