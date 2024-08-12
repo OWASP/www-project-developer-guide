@@ -188,15 +188,15 @@ and are therefore likely to be even more secure.
   * [Authorization Cheat Sheet][csauthz]
   * [Secure Product Design Cheat Sheet][spdcs]
 * Other
-  * [Compartmentalization (information security), Wikipedia](https://en.wikipedia.org/wiki/Compartmentalization_(information_security))
-  * [Usability and Manageability, Opengroup](https://pubs.opengroup.org/security/o-esa/#_Toc291061714)
-  * [Security by Design, Opengroup](https://pubs.opengroup.org/security/o-esa/#_Toc291061712)
-  * [Secure by Default, Wikipedia](https://en.wikipedia.org/wiki/Secure_by_default)
-  * [Least Functionality, NIST](https://csf.tools/reference/nist-sp-800-53/r5/cm/cm-7/)
+  * [Compartmentalization (information security)](https://en.wikipedia.org/wiki/Compartmentalization_(information_security)), (Wikipedia)
+  * [Usability and Manageability](https://pubs.opengroup.org/security/o-esa/#_Toc291061714), (Opengroup)
+  * [Security by Design, Opengroup](https://pubs.opengroup.org/security/o-esa/#_Toc291061712), (Opengroup)
+  * [Secure by Default, Wikipedia](https://en.wikipedia.org/wiki/Secure_by_default), (Wikipedia)
+  * [Least Functionality, NIST](https://csf.tools/reference/nist-sp-800-53/r5/cm/cm-7/), (NIST)
 
 #### Footnotes
 
-<sup>1</sup> [Operational Management](https://owaspsamm.org/model/operations/operational-management/)
+<sup>1</sup> [Operational Management](https://owaspsamm.org/model/operations/operational-management/), (SAMM)
 
 ----
 
