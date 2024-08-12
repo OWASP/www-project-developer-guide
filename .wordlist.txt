@@ -495,3 +495,5 @@ OpenID
 Multifactor
 XXE
 VWAD
+Johan
+Sydseter
