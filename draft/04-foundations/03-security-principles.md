@@ -190,10 +190,10 @@ and are therefore likely to be even more secure.
 * Other
   * [Compartmentalization (information security)](https://en.wikipedia.org/wiki/Compartmentalization_(information_security)),
 (Wikipedia)
-  * [Least Functionality, NIST](https://csf.tools/reference/nist-sp-800-53/r5/cm/cm-7/), (NIST)
-  * [Secure by Default, Wikipedia](https://en.wikipedia.org/wiki/Secure_by_default), (Wikipedia)
-  * [Security by Design, Opengroup](https://pubs.opengroup.org/security/o-esa/#_Toc291061712), (Opengroup)
-  * [Usability and Manageability](https://pubs.opengroup.org/security/o-esa/#_Toc291061714), (Opengroup)
+  * [Least Functionality](https://csf.tools/reference/nist-sp-800-53/r5/cm/cm-7/), (NIST)
+  * [Secure by Default](https://en.wikipedia.org/wiki/Secure_by_default), (Wikipedia)
+  * [Security by Design](https://pubs.opengroup.org/security/o-esa/#_Toc291061712), (Open Group)
+  * [Usability and Manageability](https://pubs.opengroup.org/security/o-esa/#_Toc291061714), (Open Group)
 
 #### Footnotes
 
