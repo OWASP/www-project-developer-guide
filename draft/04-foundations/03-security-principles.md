@@ -33,7 +33,7 @@ security requirements and treat them as an integral part of the overall process 
 establishing and adopting relevant principles and policies as a foundation for your design, then build security
 into your development life cycle. Keep also in mind that the system you are building also will be needing maintenance
 and that system operators will need to securely manage and even shutdown and dispose of the system. Therefore, commit
-to secure operations by developing secure operational management principles and practices.
+to secure operations by developing secure "operational management"<sup>1</sup> principles and -practices.
 
 #### Security by Default
 
@@ -193,6 +193,9 @@ and are therefore likely to be even more secure.
   * [Security by Design](https://pubs.opengroup.org/security/o-esa/#_Toc291061712)
   * [Secure by Default](https://en.wikipedia.org/wiki/Secure_by_default)
   * [Least Functionality](https://csf.tools/reference/nist-sp-800-53/r5/cm/cm-7/)
+
+#### Footnotes
+  * <sup>1</sup> "Operational Management" https://owaspsamm.org/model/operations/operational-management/ 
 
 ----
 
