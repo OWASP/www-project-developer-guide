@@ -26,7 +26,7 @@ to the understanding and discussion of application security.
 Security architects and security engineers will be familiar with these terms and development teams
 will also need this understanding to implement secure applications.
 
-#### Security by design
+#### Security by Design
 
 Security should not be an afterthought or add-on. When developing systems, you should begin with identifying relevant 
 security requirements and treat them as an integral part of the overall process and system design. Begin with 
@@ -35,7 +35,7 @@ into your development life cycle. Keep also in mind that the system you are buil
 and that system operators will need to securely manage and even shutdown and dispose of the system. Therefore, commit 
 to secure operations by developing DevSecOps principles and guidelines.
 
-#### Security by default
+#### Security by Default
 
 Secure by default means that the default configuration settings are the most secure settings possible. This is not
 necessarily the most user-friendly settings, therfore, you need to evaluate what the setting should be based on both
@@ -191,8 +191,8 @@ and are therefore likely to be even more secure.
 * Other
   * [Compartmentalization (information security, Wikipedia)](https://en.wikipedia.org/wiki/Compartmentalization_(information_security))
   * [Usability and Manageability](https://pubs.opengroup.org/security/o-esa/#_Toc291061714)
-  * [Security by design](https://pubs.opengroup.org/security/o-esa/#_Toc291061712)
-  * [Secure by default](https://en.wikipedia.org/wiki/Secure_by_default)
+  * [Security by Design](https://pubs.opengroup.org/security/o-esa/#_Toc291061712)
+  * [Secure by Default](https://en.wikipedia.org/wiki/Secure_by_default)
   * [Least Functionality](https://csf.tools/reference/nist-sp-800-53/r5/cm/cm-7/)
 
 ----
