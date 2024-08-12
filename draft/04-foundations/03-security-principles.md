@@ -188,7 +188,7 @@ and are therefore likely to be even more secure.
   * [Authorization Cheat Sheet][csauthz]
   * [Secure Product Design Cheat Sheet][spdcs]
 * Other
-  * [Compartmentalization (information security), Wikipedia)](https://en.wikipedia.org/wiki/Compartmentalization_(information_security))
+  * [Compartmentalization (information security), Wikipedia](https://en.wikipedia.org/wiki/Compartmentalization_(information_security))
   * [Usability and Manageability, Opengroup](https://pubs.opengroup.org/security/o-esa/#_Toc291061714)
   * [Security by Design, Opengroup](https://pubs.opengroup.org/security/o-esa/#_Toc291061712)
   * [Secure by Default, Wikipedia](https://en.wikipedia.org/wiki/Secure_by_default)
