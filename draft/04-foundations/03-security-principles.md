@@ -195,7 +195,7 @@ and are therefore likely to be even more secure.
   * [Least Functionality](https://csf.tools/reference/nist-sp-800-53/r5/cm/cm-7/)
 
 #### Footnotes
-  * <sup>1</sup> "Operational Management" https://owaspsamm.org/model/operations/operational-management/ 
+<sup>1</sup> "Operational Management" https://owaspsamm.org/model/operations/operational-management/ 
 
 ----
 
