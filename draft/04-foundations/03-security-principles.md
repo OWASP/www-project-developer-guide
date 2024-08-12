@@ -33,7 +33,7 @@ security requirements and treat them as an integral part of the overall process 
 establishing and adopting relevant principles and policies as a foundation for your design, then build security
 into your development life cycle. Keep also in mind that the system you are building also will be needing maintenance
 and that system operators will need to securely manage and even shutdown and dispose of the system. Therefore, commit
-to secure operations by developing DevSecOps principles and guidelines.
+to secure operations by developing secure operational management principles and practices.
 
 #### Security by Default
 
