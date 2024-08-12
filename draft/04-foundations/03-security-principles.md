@@ -72,6 +72,14 @@ to escalate privileges both laterally or vertically.
 In order to apply this [principle of least privilege][elp] proper granularity
 of privileges and permissions should be established.
 
+#### Compartmentalize
+
+The principle of least privilege works better if access rights are not an "all or nothing" access model.
+Instead, compartmentalize the access to information on a "need-to-know" basis in order to perform certain tasks.
+The compartmentalization principle helps in minimizing the impact of a security breach in case of a successful
+breach attempt but must be used in moderation in order to prevent the system from becoming unmanageable.
+Therefore, follow also the principle of "Economy of Mechanism".
+
 #### Separation of Duties
 
 Also known as [separation of privilege][sop], separation of duties is a security principle which requires that
