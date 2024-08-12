@@ -38,12 +38,11 @@ to secure operations by developing DevSecOps principles and guidelines.
 #### Security by Default
 
 Secure by default means that the default configuration settings are the most secure settings possible. This is not
-necessarily the most user-friendly settings, therfore, you need to evaluate what the setting should be based on both
-risk analysis and usability tests. As a result, the precise meaning is up to you to decide. Nevertheless, configure
-the system to only provide the least functionality and to specifically prohibit and/or restrict the use of all other
-functions, ports, protocols, and/or services. Also configure the defaults to be as restrictive as possible, according
-to best practices, without compromising the "Psychological acceptability" and "Usability and Manageability" of the
-system.
+necessarily the most user-friendly settings. Evaluate what the settings should be, based on both risk analysis and
+usability tests. As a result, the precise meaning is up to you to decide. Nevertheless, configure the system to only
+provide the least functionality and to specifically prohibit and/or restrict the use of all other functions, ports,
+protocols, and/or services. Also configure the defaults to be as restrictive as possible, according to best practices,
+without compromising the "Psychological acceptability" and "Usability and Manageability" of the system.
 
 #### No security guarantee
 
