@@ -130,8 +130,8 @@ to defeat the control and “prop the doors open”.
 #### Secure the Weakest Link
 
 This security principle states that the resiliency of your software against hacker attempts will depend heavily
-on the protection of its weakest components, be it the code, service or an interface. Therfore, identifying the
-wakest component and addressing the most serious risk first, until an acceptable level of risk is attained, is
+on the protection of its weakest components, be it the code, service or an interface. Therefore, identifying the
+weakest component and addressing the most serious risk first, until an acceptable level of risk is attained, is
 considered good security practice.
 
 #### Leveraging Existing Components
