@@ -157,7 +157,8 @@ and are therefore likely to be even more secure.
   * [Authentication Cheat Sheet][csauthn]
   * [Authorization Cheat Sheet][csauthz]
   * [Secure Product Design Cheat Sheet][spdcs]
-
+* Other
+  * [Compartmentalization (information security, Wikipedia)](https://en.wikipedia.org/wiki/Compartmentalization_(information_security))
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
