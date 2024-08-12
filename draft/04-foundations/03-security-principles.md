@@ -28,11 +28,11 @@ will also need this understanding to implement secure applications.
 
 #### Security by Design
 
-Security should not be an afterthought or add-on. When developing systems, you should begin with identifying relevant 
-security requirements and treat them as an integral part of the overall process and system design. Begin with 
-establishing and adopting relevant principles and policies as a foundation for your design, then build security 
-into your development life cycle. Keep also in mind that the system you are building also will be needing maintenance 
-and that system operators will need to securely manage and even shutdown and dispose of the system. Therefore, commit 
+Security should not be an afterthought or add-on. When developing systems, you should begin with identifying relevant
+security requirements and treat them as an integral part of the overall process and system design. Begin with
+establishing and adopting relevant principles and policies as a foundation for your design, then build security
+into your development life cycle. Keep also in mind that the system you are building also will be needing maintenance
+and that system operators will need to securely manage and even shutdown and dispose of the system. Therefore, commit
 to secure operations by developing DevSecOps principles and guidelines.
 
 #### Security by Default
@@ -42,7 +42,7 @@ necessarily the most user-friendly settings, therfore, you need to evaluate what
 risk analysis and usability tests. As a result, the precise meaning is up to you to decide. Nevertheless, configure
 the system to only provide the least functionality and to specifically prohibit and/or restrict the use of all other
 functions, ports, protocols, and/or services. Also configure the defaults to be as restrictive as possible, according
-to best practices, without compromising the "Psychological acceptability" and "Usability and Manageability" of the 
+to best practices, without compromising the "Psychological acceptability" and "Usability and Manageability" of the
 system.
 
 #### No security guarantee
