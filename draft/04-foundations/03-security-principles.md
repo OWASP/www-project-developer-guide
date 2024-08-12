@@ -191,9 +191,9 @@ and are therefore likely to be even more secure.
 * Other
   * [Compartmentalization (information security, Wikipedia)](https://en.wikipedia.org/wiki/Compartmentalization_(information_security))
   * [Usability and Manageability](https://pubs.opengroup.org/security/o-esa/#_Toc291061714)
-  * [Security by Design][https://pubs.opengroup.org/security/o-esa/#_Toc291061712]
+  * [Security by Design](https://pubs.opengroup.org/security/o-esa/#_Toc291061712)
   * [Secure by default](https://en.wikipedia.org/wiki/Secure_by_default)
-  * [Least Functionality][https://csf.tools/reference/nist-sp-800-53/r5/cm/cm-7/]
+  * [Least Functionality](https://csf.tools/reference/nist-sp-800-53/r5/cm/cm-7/)
 
 ----
 
