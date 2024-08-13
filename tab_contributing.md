@@ -20,11 +20,11 @@ tags: dev-guide, developer guide
 
 ![developer guide logo](assets/images/dg_logo_bbd.png){: .image-right }
 
-## Contribute to the Developer Guide
+## Contributing to the Developer Guide
 
-The Developer Guide is first and foremost a guide for development teams,
+The OWASP Developer Guide is first and foremost a guide for development teams,
 and is intended to be a body of knowledge that these teams can draw on and should be familiar with.
-The Developer Guide must be a community effort with a diverse and wide range of contributors
+The Developer Guide is a community effort with a diverse and wide range of contributors
 from across the whole software security field.
 The Developer Guide does not seek to replicate the various projects and resources already available,
 such as OWASP ASVS or WSTG, but provides basic and medium level introductions to software security;
