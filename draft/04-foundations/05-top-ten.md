@@ -12,6 +12,18 @@ permalink: /draft/foundations/owasp_top_ten/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![Top 10 logo](../../../assets/images/logos/top10.png "OWASP Top 10"){: .image-right }
+
 ### 2.5 OWASP Top Ten
 
 The OWASP Top Ten is a very well known list of web application security risks,
@@ -20,14 +32,14 @@ in the Education & Guidance practice within the Governance business function.
 
 #### Overview
 
-The OWASP [Top 10 Web Application Security Risks][top10] project is probably the most well known security concept
+The OWASP [Top 10 Web Application Security Risks][top10project] project is probably the most well known security concept
 within the security community, achieving wide spread acceptance and fame soon after its release in 2003.
 Often referred to as just the 'OWASP Top Ten', it is a list that identifies the most important threats
 to web applications and seeks to rank them in importance and severity.
 
 The list has changed over time, with some threat types becoming more of a problem to web applications
 and other threats becoming less of a risk as technologies change.
-The latest version was issued in 2021 and each category is summarised below.
+The [latest version][top10] was issued in 2021 and each category is summarised below.
 
 Note that there are various 'OWASP Top Ten' projects, for example the 'OWASP Top 10 for Large Language Model Applications',
 so to avoid confusion the context should be noted when referring to these lists.
@@ -217,7 +229,8 @@ then [submit an issue][issue0405] or [edit on GitHub][edit0405].
 [proactive10]: https://owasp.org/www-project-proactive-controls/
 [samm]: https://owaspsamm.org/about/
 [serverless10]: https://owasp.org/www-project-serverless-top-10/
-[top10]: https://owasp.org/www-project-top-ten/
+[top10project]: https://owasp.org/www-project-top-ten/
+[top10]: https://owasp.org/Top10/
 [llm10]: https://owasp.org/www-project-top-10-for-large-language-model-applications/
 
 \newpage

@@ -40,7 +40,7 @@ Yes, it really is the snakes & ladders game, but for web and [mobile application
 
 In the board game for web applications, the virtuous behaviours (ladders) are secure coding practices
 (using the OWASP [Proactive Controls][proactive10]) and the vices (snakes)
-are application security risks from the [OWASP Top Ten][top10] 2017 version.
+are application security risks from the [OWASP Top Ten][top102017] 2017 version.
 
 The web application version can be downloaded for various languages:
 
@@ -90,6 +90,6 @@ then [submit an issue][issue0909] or [edit on GitHub][edit0909].
 [proactive10]: https://owasp.org/www-project-proactive-controls/
 [snakes]: https://owasp.org/www-project-snakes-and-ladders/
 [snakeshowto]: https://owasp.org/www-project-snakes-and-ladders/#div-play
-[top10]: https://owasp.org/www-project-top-ten/
+[top102017]: https://owasp.org/www-project-top-ten/2017/
 
 \newpage

@@ -12,19 +12,43 @@ permalink: /draft/foundations/security_fundamentals/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
 ### 2.1 Security fundamentals
 
 The OWASP Software Assurance Maturity Model [(SAMM)][samm] is used throughout this Developer Guide
-to provide context for each section. Refer to the section below for a brief introduction to SAMM.
+to provide context for each section.
 
-#### Overview
+![SAMM logo](../../../assets/images/logos/samm.png "OWASP SAMM"){: .image-right }
+
+#### Software Assurance Maturity Model
+
+The OWASP Software Assurance Maturity Model ([SAMM][samm]) provides a good context for the scope of software security,
+the fundamentals of software security rely on the security concepts in this developer guide.
+The SAMM model describes these fundamentals of software security or Business Functions:
+
+* [Governance][sammg]
+* [Design][sammd]
+* [Implementation][sammi]
+* [Verification][sammv]
+* [Operations][sammo]
+
+The sections in the Developer Guide reference at least one of the Business Functions or Practices in SAMM.
+
+#### CIA triad
 
 Security is simply about controlling who can interact with your information,
 what they can do with it, and when they can interact with it.
 These characteristics of security can be described using the CIA triad,
 and can be extended using the AAA triad.
-
-#### CIA
 
 CIA stands for Confidentiality, Integrity and Availability,
 and it is usually depicted as a triangle representing the strong bonds between its three tenets.
@@ -51,7 +75,7 @@ Availability is about ensuring the presence of information or resources.
 This concept relies not just on the availability of the data itself, for example by using replication of data,
 but also on the protection of the services that provide access to the data, for example by using load balancing.
 
-#### AAA
+#### AAA triad
 
 The CIA triad is often extended with Authentication, Authorization and Auditing as these are closely linked to CIA concepts.
 CIA has a strong dependency on Authentication and Authorization;
@@ -77,31 +101,6 @@ This helps to provide non-repudiation, which means that changes or actions on th
 Auditing can provide not only technical information about the running system,
 but also proof that particular actions have been performed.
 The typical questions that are answered by auditing are "Who did What, When and potentially How?"
-
-#### Software Assurance Maturity Model
-
-The OWASP Software Assurance Maturity Model ([SAMM][samm]) provides a good context for the scope of software security,
-and the foundations of SAMM rely on the security concepts in this section.
-The SAMM model describes the five fundamentals of software security, which it calls Business Functions:
-
-* Governance
-* Design
-* Implementation
-* Verification
-* Operations
-
-Each of these five fundamentals are further split into three Business Practices:
-
-| Business Function   | Business Practices      |                             |                        |
-| ------------------- | ----------------------- | --------------------------- | ---------------------- |
-| Governance          | Strategy and Metrics    | Policy and Compliance       | Education and Guidance |
-| Design              | Threat Assessment       | Security Requirements       | Security Architecture  |
-| Implementation      | Secure Build            | Secure Deployment           | Defect Management      |
-| Verification        | Architecture Assessment | Requirements-driven Testing | Security Testing       |
-| Operations          | Incident Management     | Environment Management      | Operational Management |
-
-Each Business Practice is further subdivided into two streams,
-and the sections in the Developer Guide reference at least one of the Business Functions or Practices in SAMM.
 
 #### Vulnerabilities
 
@@ -162,5 +161,10 @@ then [submit an issue][issue0401] or [edit on GitHub][edit0401].
 [issue0401]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/01-security-fundamentals
 [edit0401]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/04-foundations/01-security-fundamentals.md
 [samm]: https://owaspsamm.org/about/
+[sammd]: https://owaspsamm.org/model/design/
+[sammg]: https://owaspsamm.org/model/governance/
+[sammi]: https://owaspsamm.org/model/implementation/
+[sammo]: https://owaspsamm.org/model/operations/
+[sammv]: https://owaspsamm.org/model/verification/
 
 \newpage

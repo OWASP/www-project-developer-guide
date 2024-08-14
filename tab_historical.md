@@ -25,13 +25,13 @@ tags: dev-guide, developer guide
 The OWASP Developer Guide is the original OWASP project.
 It was first published in 2002 under the title 'A Guide to Building Secure Web Applications and Web Services'.
 Since then, the web has come a long way.
-Unfortunately, the Developer Guide never really took off with the intended audience: developers.
+Unfortunately, the original Developer Guide never really took off with the intended audience: developers.
 The original guide was more of a 'how to perform a web application penetration test',
 material now better covered in the OWASP [Web Security Testing Guide][wstg].
 
 The developer guide has gone through several iterations since then and is now at version 4.x .
 This version does not seek to be a comprehensive and authoritative text;
-rather it is a 'sort of' text-based [Wayfinder Guide][wayfinder] to security projects and salient concepts,
+rather think of it as a text-based [Wayfinder Guide][wayfinder] to security projects and salient concepts,
 or a bit like a 'Lonely Planet' guide to AppSec for developers.
 
 ### Previous versions
@@ -56,7 +56,7 @@ Collected here are the previous versions of the OWASP Developer Guide that can s
 #### [Developer Guide 1.1.1][guide-1v11] (September 2002)
 
 * English [PDF][guide-pdf-en-1v11]
-* Japanese [Word][guide-word-jp-1v11] | [PDF][guide-pdf-jp-1v11]
+* Japanese [Word][guide-word-jp-1v11] and [PDF][guide-pdf-jp-1v11]
 
 #### [Developer Guide 1.1][guide-1v1] (September 2002)
 

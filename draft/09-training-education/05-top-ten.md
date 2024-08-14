@@ -21,7 +21,7 @@ The OWASP Top Ten is a flagship documentation project and is one of the very fir
 
 #### What is the OWASP Top 10?
 
-The OWASP [Top 10 Web Application Security Risks][top10] project is probably the most well known security concept
+The OWASP [Top 10 Web Application Security Risks][top10project] project is probably the most well known security concept
 within the security community, achieving wide spread acceptance and fame soon after its release in 2003.
 Often referred to as just the 'OWASP Top Ten', it is a list that identifies the most important threats
 to web applications and seeks to rank them in importance and severity.
@@ -90,7 +90,7 @@ then [submit an issue][issue0905] or [edit on GitHub][edit0905].
 [edit0905]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/05-top-ten.md
 [issue0905]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2009-training-education/05-top-ten
 [spotlight10]: https://youtu.be/RMkoIrpz8ug
-[top10]: https://owasp.org/www-project-top-ten/
+[top10project]: https://owasp.org/www-project-top-ten/
 [top10data]: https://owasp.org/www-project-top-ten/#div-data_2020
 
 \newpage
