@@ -12,6 +12,18 @@ permalink: /draft/culture_building_and_process_maturing/software_assurance_matur
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![SAMM logo](../../../assets/images/logos/samm.png "OWASP SAMM"){: .image-right }
+
 ### 8.3 Software Assurance Maturity Model
 
 The [Software Assurance Maturity Model][samm] (SAMM) project provides an effective and measurable way for

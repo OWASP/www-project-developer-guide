@@ -22,18 +22,20 @@ permalink: /draft/foundations/security_fundamentals/
 }
 </style>
 
+![SAMM logo](../../../assets/images/logos/samm.png "OWASP SAMM"){: .image-right }
+
 ### 2.1 Security fundamentals
 
-The OWASP Software Assurance Maturity Model [(SAMM)][samm] is used throughout this Developer Guide
-to provide context for each section.
+The fundamental principles of software security rely on the security concepts referenced in this developer guide.
+This section aims to provide an introduction to some fundamental principles that any development team must be familiar with.
 
-![SAMM logo](../../../assets/images/logos/samm.png "OWASP SAMM"){: .image-right }
+In addition the OWASP Software Assurance Maturity Model ([SAMM][samm]) is used throughout this Developer Guide
+to provide context for each section.
 
 #### Software Assurance Maturity Model
 
-The OWASP Software Assurance Maturity Model ([SAMM][samm]) provides a good context for the scope of software security,
-the fundamentals of software security rely on the security concepts in this developer guide.
-The SAMM model describes these fundamentals of software security or Business Functions:
+The Software Assurance Maturity Model ([SAMM][samm]) provides context for the scope of software security
+and the foundations of good security practice:
 
 * [Governance][sammg]
 * [Design][sammd]
@@ -41,20 +43,21 @@ The SAMM model describes these fundamentals of software security or Business Fun
 * [Verification][sammv]
 * [Operations][sammo]
 
-The sections in the Developer Guide reference at least one of the Business Functions or Practices in SAMM.
+The SAMM model describes these foundations of software security as Business Functions,
+which are further divided into Business Practices.
+Most of the sections in the Developer Guide reference at least one of the Business Functions or Practices from SAMM.
 
 #### CIA triad
 
 Security is simply about controlling who can interact with your information,
 what they can do with it, and when they can interact with it.
-These characteristics of security can be described using the CIA triad,
-and can be extended using the AAA triad.
+These characteristics of security can be described using the CIA triad.
 
 CIA stands for Confidentiality, Integrity and Availability,
 and it is usually depicted as a triangle representing the strong bonds between its three tenets.
-This trio is considered the pillars of application security,
-with CIA described as a property of some data or of a process.
-Often CIA is extended with AAA: Authorization, Authentication and Auditing.
+This triad is considered the pillars of application security,
+often Confidentiality, Integrity or Availability are used as a properties of data or processes within a given system.
+The CIA triad can be extended with the AAA triad: Authorization, Authentication and Auditing.
 
 #### Confidentiality
 

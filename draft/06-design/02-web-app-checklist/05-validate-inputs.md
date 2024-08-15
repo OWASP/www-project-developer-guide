@@ -67,6 +67,8 @@ and use the list below as suggestions for a checklist that has been tailored for
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue060205] or [edit on GitHub][edit060205].
 
+[^SCP1]: Secure Coding Practices checklist
+
 [csproactive-c5]: https://cheatsheetseries.owasp.org/IndexProactiveControls.html#c5-validate-all-inputs
 [control5]: https://owasp.org/www-project-proactive-controls/v3/en/c5-validate-inputs
 [ivcs]: https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet
@@ -74,6 +76,5 @@ then [submit an issue][issue060205] or [edit on GitHub][edit060205].
 [issue060205]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/02-web-app-checklist/05-validate-inputs
 [proactive10]: https://owasp.org/www-project-proactive-controls/
 [sanitizer]: https://www.owasp.org/index.php/OWASP_Java_HTML_Sanitizer
-[^SCP1]: Secure Coding Practices checklist
 
 \newpage

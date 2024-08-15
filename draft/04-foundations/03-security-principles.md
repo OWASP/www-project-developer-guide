@@ -195,14 +195,12 @@ and are therefore likely to be even more secure.
   * [Security by Design](https://pubs.opengroup.org/security/o-esa/#_Toc291061712), (Open Group)
   * [Usability and Manageability](https://pubs.opengroup.org/security/o-esa/#_Toc291061714), (Open Group)
 
-#### Footnotes
-
-[^1]: [Operational Management](https://owaspsamm.org/model/operations/operational-management/), (SAMM)
-
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue0403] or [edit on GitHub][edit0403].
+
+[^1]: [Operational Management](https://owaspsamm.org/model/operations/operational-management/), (SAMM)
 
 [csauthn]: https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet
 [csauthz]: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet
