@@ -27,18 +27,26 @@ permalink: /draft/foundations/secure_development/
 ### 2.2 Secure development and integration
 
 Secure development is described in the OWASP Software Assurance Maturity Model [(SAMM)][samm]
-by the Design, Implementation and Verification business functions.
-Much of the material in this section is drawn from the OWASP [Integration Standards project][wayfinder].
+[Design][sammd], [Implementation][sammi] and [Verification][sammv] business functions.
+
+#### Prelude
+
+The best introduction to practical secure software development is the OWASP [Application Security Fragmentation][sdlc]
+article :
+
+_Or how I worried less and stood on the shoulders of giants._ - Spyros Gasteratos, Elie Saad
+
+Much of the material in this section is drawn from this OWASP [Integration Standards][wayfinder] project.
 
 #### Overview
 
 Almost all modern software is developed in an iterative manner passing through phase to phase,
 such as identifying customer requirements, implementation and test.
 These phases are revisited in a cyclic manner throughout the lifetime of the application.
-A generic Software Development LifeCycle (SDLC) is shown below, and in practice there may be more or less phases
-according to the processes adopted by the business.
+A notional Software Development LifeCycle (SDLC) is shown below, in practice there may be more or less phases
+according to the processes adopted by the organization.
 
-![SDLC Lifecycle](../../assets/images/sdlc_diag.png "generic  SDLC lifecycle"){: .image-right }
+![SDLC Lifecycle](../../../assets/images/sdlc_diag.png "notional SDLC lifecycle"){: .image-right }
 
 With the increasing number and sophistication of exploits against almost every application or business system,
 most companies have adopted a secure Software Development LifeCycle (SDLC).
@@ -219,6 +227,10 @@ then [submit an issue][issue0402] or [edit on GitHub][edit0402].
 [pulse]: https://owasp.org/www-project-code-pulse/
 [pytm]: https://owasp.org/www-project-pytm/
 [samm]: https://owaspsamm.org/about/
+[sammd]: https://owaspsamm.org/model/design/
+[sammi]: https://owaspsamm.org/model/implementation/
+[sammv]: https://owaspsamm.org/model/verification/
+[sdlc]: https://owasp.org/www-project-integration-standards/writeups/owasp_in_sdlc/
 [sec-shep]: https://owasp.org/www-project-security-shepherd/
 [snakes]: https://owasp.org/www-project-snakes-and-ladders/
 [srat]: https://owasp.org/www-project-securityrat/

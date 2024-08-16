@@ -42,6 +42,22 @@
 !draft/assets/images/
 !draft/assets/images/*.png
 
+# draft portuguese version
+!draft-pt/
+!draft-pt/title*.yaml
+!draft-pt/0*/
+!draft-pt/0*/*.md
+!draft-pt/0*/0*/
+!draft-pt/0*/0*/*.md
+!draft-pt/0*/1*/
+!draft-pt/0*/1*/*.md
+!draft-pt/1*/
+!draft-pt/1*/*.md
+!draft-pt/1*/0*/
+!draft-pt/1*/0*/*.md
+!draft-pt/1*/1*/
+!draft-pt/1*/1*/*.md
+
 # release version
 !release/
 !release/title*.yaml
