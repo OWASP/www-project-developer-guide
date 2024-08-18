@@ -1,6 +1,6 @@
 <img src="assets/images/dg_logo_di.png" alt="DevGuide logo" height="220px"/>
 
-[![Build status](https://github.com/OWASP/www-project-developer-guide/actions/workflows/ci.yaml/badge.svg)](https://github.com/OWASP/www-project-developer-guide/actions/workflows/ci.yaml)
+[![Build status](https://github.com/OWASP/www-project-developer-guide/actions/workflows/ci.yaml/badge.svg?event=push)](https://github.com/OWASP/www-project-developer-guide/actions/workflows/ci.yaml)
 [![GitHub license](https://img.shields.io/github/license/owasp/www-project-developer-guide.svg)](license.txt)
 [![OWASP Incubator](https://img.shields.io/badge/owasp-incubator%20project-53AAE5.svg)](https://www.owasp.org/projects)
 
