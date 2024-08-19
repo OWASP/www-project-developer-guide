@@ -3,6 +3,7 @@
 [![Build status](https://github.com/OWASP/www-project-developer-guide/actions/workflows/ci.yaml/badge.svg?event=push)][build]
 [![GitHub license](https://img.shields.io/github/license/owasp/www-project-developer-guide.svg)](license.txt)
 [![OWASP Incubator](https://img.shields.io/badge/owasp-incubator%20project-53AAE5.svg)](https://www.owasp.org/projects)
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/9373/badge)](https://www.bestpractices.dev/projects/9373)
 
 ## OWASP Foundation Developer Guide project
 
