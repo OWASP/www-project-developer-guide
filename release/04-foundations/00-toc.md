@@ -18,8 +18,11 @@ order:
 There are various foundational concepts and terminology that are commonly used in software security.
 Although many of these concepts are complex to implement and are based on heavy-duty theory,
 the principles are often fairly straight forward and are accessible for every software engineer.
+
 A reasonable grasp of these foundational concepts allows development teams to understand and implement
 software security for the application or system under development.
+This Developer Guide can only give a brief overview of these concepts,
+for in-depth knowledge refer to the many texts on security such as the [The Cyber Security Body Of Knowledge][cbok].
 
 Sections:
 
@@ -33,4 +36,5 @@ Sections:
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing then [submit an issue][issue0400].
 
+[cbok]: https://www.cybok.org/
 [issue0400]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/00-toc

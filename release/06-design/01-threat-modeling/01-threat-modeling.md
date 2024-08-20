@@ -16,7 +16,7 @@ permalink: /release/design/threat_modeling/practical_threat_modeling/
 
 This section discusses Threat Modeling, an activity described in the OWASP Software Assurance Maturity Model ([SAMM][samm]).
 Threat modeling is part of the [Threat Assessment][sammdta] security practice in the [Design][sammd] business function.
-Much of the material in this section is drawn from the OWASP [Threat Model project][otm].
+Much of the material in this section is drawn from the OWASP [Threat Model project][tmproject].
 
 #### Overview
 
@@ -269,7 +269,6 @@ then [submit an issue][issue060101] or [edit on GitHub][edit060101].
 [issue060101]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/01-threat-modeling/01-threat-modeling
 [linddun]: https://linddun.org/
 [nist-cvss]: https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator
-[otm]: https://owasp.org/www-project-threat-model/
 [pasta]: https://versprite.com/blog/what-is-pasta-threat-modeling/
 [PYTM]: https://owasp.org/www-project-pytm/
 [samm]: https://owaspsamm.org/about/

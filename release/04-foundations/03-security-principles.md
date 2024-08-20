@@ -3,7 +3,7 @@
 title: Principles of Security
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors: Jon Gadsden, Johan Sydseter
 document: OWASP Developer Guide
 order: 4030
 permalink: /release/foundations/security_principles/
@@ -25,6 +25,24 @@ There are various concepts and terms used in the security domain that are fundam
 to the understanding and discussion of application security.
 Security architects and security engineers will be familiar with these terms and development teams
 will also need this understanding to implement secure applications.
+
+#### Security by Design
+
+Security should not be an afterthought or add-on. When developing systems, you should begin with identifying relevant
+security requirements and treat them as an integral part of the overall process and system design. Begin with
+establishing and adopting relevant principles and policies as a foundation for your design, then build security
+into your development life cycle. Keep also in mind that the system you are building also will be needing maintenance
+and that system operators will need to securely manage and even shutdown and dispose of the system. Therefore, commit
+to secure operations by developing secure "operational management"[^1] principles and practices.
+
+#### Security by Default
+
+Secure by default means that the default configuration settings are the most secure settings possible. This is not
+necessarily the most user-friendly settings. Evaluate what the settings should be, based on both risk analysis and
+usability tests. As a result, the precise meaning is up to you to decide. Nevertheless, configure the system to only
+provide the least functionality and to specifically prohibit and/or restrict the use of all other functions, ports,
+protocols, and/or services. Also configure the defaults to be as restrictive as possible, according to best practices,
+without compromising the "Psychological acceptability" and "Usability and Manageability" of the system.
 
 #### No security guarantee
 
@@ -71,6 +89,14 @@ This helps to limits the damage when a system is compromised by minimising the a
 to escalate privileges both laterally or vertically.
 In order to apply this [principle of least privilege][elp] proper granularity
 of privileges and permissions should be established.
+
+#### Compartmentalize
+
+The principle of least privilege works better if access rights are not an "all or nothing" access model.
+Instead, compartmentalize the access to information on a "need-to-know" basis in order to perform certain tasks.
+The compartmentalization principle helps in minimizing the impact of a security breach in case of a successful
+breach attempt but must be used in moderation in order to prevent the system from becoming unmanageable.
+Therefore, follow also the principle of "Economy of Mechanism".
 
 #### Separation of Duties
 
@@ -127,10 +153,22 @@ than if the security control were not present.
 If a security control provides too much friction for the users then they may look for ways
 to defeat the control and “prop the doors open”.
 
-#### Weakest Link
+#### Usability and Manageability
+
+Is a principle related to psychological acceptability, but goes beyond just the perceived psychological
+acceptability to also include the design, implementation and operation of security controls.
+The configuration, administration and integration of security components should not be overly complex or
+obscure. Therefore, always use open standards for portability and interoperability, use common language
+in developing security requirements, design security to allow for regular adoption of new technology,
+ensure a secure and logical upgrade process exist, automate security management activities and strive for
+operational ease of use.
+
+#### Secure the Weakest Link
 
 This security principle states that the resiliency of your software against hacker attempts will depend heavily
-on the protection of its weakest components, be it the code, service or an interface.
+on the protection of its weakest components, be it the code, service or an interface. Therefore, identifying the
+weakest component and addressing the most serious risk first, until an acceptable level of risk is attained, is
+considered good security practice.
 
 #### Leveraging Existing Components
 
@@ -149,11 +187,20 @@ and are therefore likely to be even more secure.
   * [Authentication Cheat Sheet][csauthn]
   * [Authorization Cheat Sheet][csauthz]
   * [Secure Product Design Cheat Sheet][spdcs]
+* Other
+  * [Compartmentalization (information security)](https://en.wikipedia.org/wiki/Compartmentalization_(information_security)),
+(Wikipedia)
+  * [Least Functionality](https://csf.tools/reference/nist-sp-800-53/r5/cm/cm-7/), (NIST)
+  * [Secure by Default](https://en.wikipedia.org/wiki/Secure_by_default), (Wikipedia)
+  * [Security by Design](https://pubs.opengroup.org/security/o-esa/#_Toc291061712), (Open Group)
+  * [Usability and Manageability](https://pubs.opengroup.org/security/o-esa/#_Toc291061714), (Open Group)
 
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue0403] or [edit on GitHub][edit0403].
+
+[^1]: [Operational Management](https://owaspsamm.org/model/operations/operational-management/), (SAMM)
 
 [csauthn]: https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet
 [csauthz]: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet

@@ -71,7 +71,7 @@ Or think of it as a collection of articles that introduce developers to the wide
 Or you can regard this guide as a companion document to the OWASP [Application Wayfinder][wayfinder] project:
 the Wayfinder mapping out the many OWASP tools, projects and documents with the Developer Guide providing some context.
 
-[![Application Wayfinder Diagram](../assets/images/owasp-wayfinder.png "OWASP Application Wayfinder")][wayfinder]
+[![Application Wayfinder Diagram](../../assets/images/owasp-wayfinder.png "OWASP Application Wayfinder")][wayfinder]
 
 ----
 

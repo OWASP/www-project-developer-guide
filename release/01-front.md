@@ -3,7 +3,7 @@
 title: Front Page
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Shruti Kulkarni, Jon Gadsden
+contributors: Shruti Kulkarni, Jon Gadsden, Johan Sydseter
 document: OWASP Developer Guide
 order:
 permalink:
@@ -16,4 +16,4 @@ permalink:
 
 ## OWASP Developer Guide
 
-### Release version 4.1.3
+### Release version 4.1.4-RC1
