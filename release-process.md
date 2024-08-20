@@ -37,14 +37,4 @@ using the wording from the previous releases as a guide to the release notes.
 
 ----
 
-[asvs]: https://owasp.org/www-project-application-security-verification-standard/
-[conduct]: code_of_conduct.md
-[dashboard]: https://github.com/orgs/OWASP/projects/14/views/1
-[issues]: https://github.com/OWASP/www-project-developer-guide/issues/new/choose
-[lychee-install]: https://lychee.cli.rs/
-[media]: https://drive.google.com/drive/folders/1Ft8Ll0cgw0TIoub6aXTIJDmy0sk1RarU
-[pandoc-install]: https://pandoc.org/installing.html
 [release]: https://github.com/OWASP/www-project-developer-guide/releases
-[request]: https://github.com/OWASP/www-project-developer-guide/pulls
-[wiki]: https://github.com/OWASP/www-project-developer-guide/wiki
-[wstg]: https://owasp.org/www-project-web-security-testing-guide/

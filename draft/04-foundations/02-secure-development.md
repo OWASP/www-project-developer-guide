@@ -12,8 +12,6 @@ permalink: /draft/foundations/secure_development/
 
 {% include breadcrumb.html %}
 
-{% include breadcrumb.html %}
-
 <style type="text/css">
 .image-right {
   height: 180px;
