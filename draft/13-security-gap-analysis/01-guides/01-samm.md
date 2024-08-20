@@ -12,6 +12,18 @@ permalink: /draft/security_gap_analysis/guides/software_assurance_maturity_model
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 45px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![SAMM logo](../../../../assets/images/logos/samm.png "OWASP SAMM"){: .image-right }
+
 ### 11.1.1 Software Assurance Maturity Model
 
 The [Software Assurance Maturity Model][samm] (SAMM) project provides an effective and measurable way for

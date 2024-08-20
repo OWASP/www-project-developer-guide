@@ -2,9 +2,9 @@ name: Release docs
 
 on:
   push:
-    # only for version x.x.x releases and release candidates
+    # tagged x.x.x releases as well as release candidates
     tags:
-      - v?.?.?*
+      - ?.?.?*
   workflow_dispatch:
 
 env:
@@ -74,6 +74,7 @@ jobs:
     name: Create pull request
     runs-on: ubuntu-24.04
     needs: create_artifacts
+    if: !contains( ${{ github.ref_name }}, 'RC' )
 
     steps:
       - name: Checkout markdown
@@ -126,4 +127,63 @@ jobs:
           branch: update-release
           base: main
           labels: release
+          draft: false
+
+  create_pre_release:
+    name: Create release candidate
+    runs-on: ubuntu-24.04
+    needs: create_artifacts
+    if: contains( ${{ github.ref_name }}, 'RC' )
+
+    steps:
+      - name: Checkout markdown
+        uses: actions/checkout@v4.1.1
+
+      - name: Copy draft to release
+        run: |
+          cd draft && find . -name "*.md" ! -name "info.md" -exec cp '{}' '../release/{}' \;
+
+      - name: Fix up markdown
+        run: |
+          echo "rename draft to release"
+          find release -name "*.md" -exec sed -i "s|permalink: /draft/|permalink: /release/|" {} +
+          find release -name "*.md" -exec \
+          sed -i "s/.*the latest contributions to the Developer Guide.*/\#\#\# Release version $GITHUB_REF_NAME/" {} +
+          find release -name "*.md" -exec sed -i "s/ (Draft)//gI" {} +
+          echo "revise page ordering"
+          find release -name "*.md" -exec sed -i "/order: / s/$/0/" {} +
+          echo "remove newpage tags"
+          find release -name "*.md" -exec sed -i '/newpage/d' {} +
+          echo "remove any multiple blank lines"
+          find release -name "*.md" -exec sed -i ':a; /^\n*$/{ s/\n//; N;  ba};' {} +
+          find release -name "*.md" -exec sed -i '${/^$/d;}' {} +
+
+      - name: Retrieve pdfs and epubs
+        uses: actions/download-artifact@v4.1.7
+        with:
+          name: export-docs
+
+      - name: Update pdf and epub assets
+        run: |
+          cp OWASP_Developer_Guide.pdf assets/exports/.
+          cp OWASP_Developer_Guide.epub assets/exports/.
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v6.1.0
+        with:
+          title: |
+            Developer Guide release candidate ${{ github.ref_name }}
+          body: |
+            **Summary** :  
+            Automatically generated pull-request for release candidate version ${{ github.ref_name }} 
+            
+            **Description for the changelog** :  
+            release candidate version ${{ github.ref_name }}  
+            
+            **Other info** :  
+            This PR should not be merged as it provides the _proposed_ changes for the next release 
+          commit-message: release candidate version ${{ github.ref_name }}
+          branch: pre-release
+          base: main
+          labels: pre-release
           draft: false
