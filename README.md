@@ -8,7 +8,7 @@
 ## OWASP Foundation Developer Guide project
 
 This repo is the source for the OWASP Developer Guide project [web pages][pages]
-and also the [developer guide][draftguide] itself.
+and also the [developer guide][dgrelease] itself.
 
 ## Developer Guide
 
@@ -20,8 +20,10 @@ Note that the original DevGuide repository has been deprecated in favour of this
 The source for the latest draft developer guide can be found under the ['draft'][draft] directory.
 The source is in markdown and is used to create the developer guide HTML, PDF and ePub outputs.
 The draft content is subject to large scale changes with no notice.
-The draft version provides the content for the released version of Developer Guide,
-in the ['release'][release] directory, during the automated release process.
+
+Note that the draft version provides the content for the released version of Developer Guide,
+in the ['release'][release] directory, promoted during the automated release process.
+Therefore any manual changes under the release directory are likely to be over-written.
 
 ### Contributing
 
@@ -50,7 +52,7 @@ OWASP Developer Guide: _accessible security for developers_
 [conduct]: code_of_conduct.md
 [devguide]: https://github.com/OWASP/DevGuide
 [draft]: draft
-[draftguide]: https://owasp.org/www-project-developer-guide/draft/
+[dgrelease]: https://owasp.org/www-project-developer-guide/release/
 [guide]: contributing.md
 [issues]: https://github.com/OWASP/www-project-developer-guide/issues/new/choose
 [original]: https://github.com/OWASP/DevGuide/blob/1d24d140de3724b6f95655e53b8d0cc6689fbfd8/DevGuide1.0/OWASPBuildingSecureWebApplicationsAndWebServices-V1.0.pdf

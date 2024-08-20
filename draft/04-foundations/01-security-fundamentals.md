@@ -14,7 +14,7 @@ permalink: /draft/foundations/security_fundamentals/
 
 <style type="text/css">
 .image-right {
-  height: 180px;
+  height: 45px;
   display: block;
   margin-left: auto;
   margin-right: auto;

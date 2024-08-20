@@ -14,7 +14,7 @@ permalink: /draft/culture_building_and_process_maturing/software_assurance_matur
 
 <style type="text/css">
 .image-right {
-  height: 180px;
+  height: 45px;
   display: block;
   margin-left: auto;
   margin-right: auto;
