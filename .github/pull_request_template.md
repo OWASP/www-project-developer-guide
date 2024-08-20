@@ -14,8 +14,9 @@ for inclusion in the change log
 <!--
 Add here any other information that may be of help to the reviewer
 If this closes an existing issue then add "closes #xxxx", where xxxx is the issue number
+-->
 
 Thanks for submitting a pull request!
-Please make sure you follow our code_of_conduct.md
-and our contributing guidelines contributing.md
--->
+Please make sure you follow our code_of_conduct.md and our contributing guidelines contributing.md
+Automated tests are run to check the links, markdown and spelling
+The pull request must pass these tests before it can be merged

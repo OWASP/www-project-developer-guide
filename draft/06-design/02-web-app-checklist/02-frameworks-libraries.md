@@ -39,7 +39,7 @@ For technology specific checklists refer to the appropriate OWASP Cheat Sheets:
 * [Node.js security][csnode]
 * [Node.js security for Docker][csnodedocker]
 * [PHP configuration][csphp]
-* [REST APIs][csrest]
+* [REST APIs][csrest] and [how to assess them][csrassess]
 * [Ruby on Rails security][csruby]
 * [Symfony framework][cssymfony]
 * [Web Services][cswebservice]
@@ -93,6 +93,7 @@ then [submit an issue][issue060202] or [edit on GitHub][edit060202].
 [csnodedocker]: https://cheatsheetseries.owasp.org/cheatsheets/NodeJS_Docker_Cheat_Sheet
 [csphp]: https://cheatsheetseries.owasp.org/cheatsheets/PHP_Configuration_Cheat_Sheet
 [csrest]: https://cheatsheetseries.owasp.org/cheatsheets/REST_Security_Cheat_Sheet
+[csrassess]: https://cheatsheetseries.owasp.org/cheatsheets/REST_Assessment_Cheat_Sheet.html
 [csruby]: https://cheatsheetseries.owasp.org/cheatsheets/Ruby_on_Rails_Cheat_Sheet
 [cssymfony]: https://cheatsheetseries.owasp.org/cheatsheets/Symfony_Cheat_Sheet
 [cswebservice]: https://cheatsheetseries.owasp.org/cheatsheets/Web_Service_Security_Cheat_Sheet

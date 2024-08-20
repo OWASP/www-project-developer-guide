@@ -1,7 +1,9 @@
 <img src="assets/images/dg_logo_di.png" alt="DevGuide logo" height="220px"/>
 
-![Build](https://github.com/OWASP/www-project-developer-guide/actions/workflows/ci.yaml/badge.svg?event=push)
+[![Build status](https://github.com/OWASP/www-project-developer-guide/actions/workflows/ci.yaml/badge.svg?event=push)][build]
 [![GitHub license](https://img.shields.io/github/license/owasp/www-project-developer-guide.svg)](license.txt)
+[![OWASP Incubator](https://img.shields.io/badge/owasp-incubator%20project-53AAE5.svg)](https://www.owasp.org/projects)
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/9373/badge)](https://www.bestpractices.dev/projects/9373)
 
 ## OWASP Foundation Developer Guide project
 
@@ -44,11 +46,12 @@ is via the OWASP Slack [#project-developer-guide][project] project channel
 
 OWASP Developer Guide: _accessible security for developers_
 
+[build]: https://github.com/OWASP/www-project-developer-guide/actions/workflows/ci.yaml
 [conduct]: code_of_conduct.md
-[guide]: contributing.md
 [devguide]: https://github.com/OWASP/DevGuide
 [draft]: draft
 [draftguide]: https://owasp.org/www-project-developer-guide/draft/
+[guide]: contributing.md
 [issues]: https://github.com/OWASP/www-project-developer-guide/issues/new/choose
 [original]: https://github.com/OWASP/DevGuide/blob/1d24d140de3724b6f95655e53b8d0cc6689fbfd8/DevGuide1.0/OWASPBuildingSecureWebApplicationsAndWebServices-V1.0.pdf
 [pages]: https://owasp.org/www-project-developer-guide/

@@ -46,7 +46,7 @@ such as web, desktop, mobile, API and cloud.
 Along with the OWASP Top Ten, the Developer Guide is one of the original resources
 published soon after OWASP was formed in 2001.
 Version 1.0 of the Developer Guide was released in 2002
-and then there were various [releases][versions] up to version 2.0 in 2005.
+and then there were various [updates][versions] culminating in version 2.0 in 2005.
 After discussions and iterations throughout 2023 and 2024, the Developer Guide has now been updated
 for the modern security landscape using contributions from the wider application security community.
 
