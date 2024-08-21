@@ -13,16 +13,14 @@ permalink: /draft/foundations/security_fundamentals/
 {% include breadcrumb.html %}
 
 <style type="text/css">
-.image-right {
-  height: 45px;
+.image-right-small {
+  height: 40px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   float: right;
 }
 </style>
-
-![SAMM logo](../../../assets/images/logos/samm.png "OWASP SAMM"){: .image-right }
 
 ### 2.1 Security fundamentals
 
@@ -33,6 +31,8 @@ This section aims to provide an introduction to fundamental principles that any 
 
 The Software Assurance Maturity Model ([SAMM][samm]) provides context for the scope of software security
 and the foundations of good security practice:
+
+![SAMM logo](../../../assets/images/logos/samm.png "OWASP SAMM"){: .image-right-small }
 
 * [Governance][sammg]
 * [Design][sammd]

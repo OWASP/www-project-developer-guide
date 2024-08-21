@@ -14,7 +14,7 @@ permalink: /draft/requirements/opencre/
 
 ### 3.3 OpenCRE
 
-#### What is the WayFinder project?
+#### What is the Wayfinder project?
 
 #### What is OpenCRE?
 

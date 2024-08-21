@@ -64,6 +64,7 @@ jobs:
           mkdir draft/temp
           tail --lines=+14 -q $(find draft -name "*[0-9]*.md" | sort) > draft/temp/draft.markdown
           sed -i "s/{: .image-right }/{height=180px}/g" draft/temp/draft.markdown
+          sed -i "s/{: .image-right-small }/{height=40px}/g" draft/temp/draft.markdown
 
       - name: Export to pdf
         uses: docker://pandoc/latex:3.1

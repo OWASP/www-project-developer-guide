@@ -13,8 +13,8 @@ permalink: /draft/culture_building_and_process_maturing/software_assurance_matur
 {% include breadcrumb.html %}
 
 <style type="text/css">
-.image-right {
-  height: 45px;
+.image-right-small {
+  height: 40px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -22,7 +22,7 @@ permalink: /draft/culture_building_and_process_maturing/software_assurance_matur
 }
 </style>
 
-![SAMM logo](../../../assets/images/logos/samm.png "OWASP SAMM"){: .image-right }
+![SAMM logo](../../../assets/images/logos/samm.png "OWASP SAMM"){: .image-right-small }
 
 ### 8.3 Software Assurance Maturity Model
 
