@@ -31,6 +31,9 @@ docs:
 - title: '3.2 Risk profile'
   url: requirements/risk_profile
 
+- title: '3.3 OpenCRE'
+  url: requirements/opencre
+
 - title: '3.4 SecurityRAT'
   url: requirements/security_rat
 
