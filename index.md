@@ -3,7 +3,7 @@
 layout: col-sidebar
 title: OWASP Developer Guide
 tags: dev-guide, developer guide
-level: 2
+level: 3
 type: documentation
 pitch: The Developer Guide allows businesses, developers, designers
        and solution architects to produce secure web applications.
