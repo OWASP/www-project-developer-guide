@@ -38,9 +38,6 @@
 !draft/1*/0*/*.md
 !draft/1*/1*/
 !draft/1*/1*/*.md
-!draft/assets/
-!draft/assets/images/
-!draft/assets/images/*.png
 
 # draft portuguese version
 !draft-pt/
@@ -73,13 +70,12 @@
 !release/1*/0*/*.md
 !release/1*/1*/
 !release/1*/1*/*.md
-!release/assets/
-!release/assets/images/
-!release/assets/images/*.png
 
 # pages markdown
 !*.md
 !assets/
+!assets/css/
+!assets/css/*.scss
 !assets/exports/
 !assets/exports/*.epub
 !assets/exports/*.pdf

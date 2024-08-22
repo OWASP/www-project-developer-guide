@@ -32,7 +32,7 @@ jobs:
           echo "GITHUB_WORKFLOW: ${GITHUB_WORKFLOW}"
           echo "GITHUB_REF_NAME: ${GITHUB_REF_NAME}"
           sed -i "s/{: .image-right }/{height=180px}/g" release/temp/draft.markdown
-          sed -i "s/{: .image-right-small }/{height=40px}/g" release/temp/draft.markdown
+          sed -i "s/{: .image-right-small }/{height=26px}/g" release/temp/draft.markdown
           echo "rename draft to release"
           sed -i "s|permalink: /draft/|permalink: /release/|g" release/temp/draft.markdown
           sed -i "s/.*the latest contributions to the Developer Guide.*/\#\#\# Release version $GITHUB_REF_NAME/" release/temp/draft.markdown
