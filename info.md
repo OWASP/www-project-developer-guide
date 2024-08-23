@@ -1,7 +1,7 @@
 ### Classification
 
-* <i class="fas fa-egg fa-2x" style="color:#53AAE5"></i> Incubator Project
-* <i class="fas fa-file-alt fa-2x" style="color:#233e81;"></i> Documentation
+* <i class="fas fa-flask fa-2x" style="color:#f7b73c"></i> Incubator Project
+* <i class="fas fa-file-alt fa-1x" style="color:#233e81;"></i> Documentation
 
 ### Audience
 
