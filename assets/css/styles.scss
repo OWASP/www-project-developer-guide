@@ -2,6 +2,14 @@
 ---
 @import "main";
 
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+
 .image-right-small {
   height: 26px;
   display: block;

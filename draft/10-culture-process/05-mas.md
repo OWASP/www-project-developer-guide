@@ -12,16 +12,6 @@ permalink: /draft/culture_building_and_process_maturing/mobile_application_secur
 
 {% include breadcrumb.html %}
 
-<style type="text/css">
-.image-right {
-  height: 180px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  float: right;
-}
-</style>
-
 ![MAS logo](../../../assets/images/logos/mas.png "OWASP MAS"){: .image-right }
 
 ### 8.5 Mobile Application Security

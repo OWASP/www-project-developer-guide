@@ -12,16 +12,6 @@ permalink: /draft/training_education/vulnerable_applications/juice_shop/
 
 {% include breadcrumb.html %}
 
-<style type="text/css">
-.image-right {
-  height: 180px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  float: right;
-}
-</style>
-
 ![Juice Shop logo](../../../../assets/images/logos/juiceshop.png "OWASP Juice Shop"){: .image-right }
 
 ### 7.1.1 Juice Shop

@@ -12,16 +12,6 @@ permalink: /draft/implementation/secure_libraries/secure_headers/
 
 {% include breadcrumb.html %}
 
-<style type="text/css">
-.image-right {
-  height: 220px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  float: right;
-}
-</style>
-
 ![Secure Headers logo](../../../../assets/images/logos/secure_headers.png "OWASP Secure Headers"){: .image-right }
 
 ### 5.3.3 OWASP Secure Headers Project

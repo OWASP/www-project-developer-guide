@@ -12,7 +12,7 @@ permalink: /draft/requirements/opencre/
 
 {% include breadcrumb.html %}
 
-![OpenCRE logo](../../../../assets/images/logos/defectdojo.png "OWASP OpenCRE"){: height="180px" }
+![OpenCRE logo](../../../assets/images/logos/defectdojo.png "OWASP OpenCRE"){: height="180px" }
 
 ### 3.3 OpenCRE
 
@@ -20,12 +20,15 @@ The [Open Common Requirement Enumeration][opencre] (OpenCRE) is a catalog of sec
 enumerating security topics and providing links to various standards, cheat sheets and guides.
 
 The OpenCRE is part of the [OWASP Integration Standards][opencre-project] project,
-classed as a documentation / production project within OWASP.
+which is a documentation and production project within OWASP.
 
 #### What is the Integration Standards project?
 
-The [Integration Standards][opencre-project] project
-Wayfinder
+The [Integration Standards][opencre-project] project is at the centre of the OWASP project community;
+it provides guidance on how to navigate and use the many projects within OWASP.
+
+Application Security Wayfinder
+
 as of August 2024 there are 345 [OWASP projects][projects]
 
 OWASP [Application Security Fragmentation][sdlc]

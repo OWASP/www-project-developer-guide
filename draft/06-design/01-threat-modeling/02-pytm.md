@@ -12,16 +12,6 @@ permalink: /draft/design/threat_modeling/pytm/
 
 {% include breadcrumb.html %}
 
-<style type="text/css">
-.image-right {
-  height: 200px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  float: right;
-}
-</style>
-
 ![pytm logo](../../../../assets/images/logos/pytm.png "OWASP pytm"){: .image-right }
 
 ### 4.1.2 pytm

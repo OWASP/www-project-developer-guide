@@ -12,16 +12,6 @@ permalink: /draft/requirements/mobile_application_security/
 
 {% include breadcrumb.html %}
 
-<style type="text/css">
-.image-right {
-  height: 180px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  float: right;
-}
-</style>
-
 ![MAS logo](../../../assets/images/logos/mas.png "OWASP MAS"){: .image-right }
 
 ### 3.6 Mobile Application Security
