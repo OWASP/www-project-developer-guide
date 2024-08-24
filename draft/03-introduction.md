@@ -44,7 +44,7 @@ The purpose of this guide is to provide an introduction to security concepts
 and a handy reference for application / system developers.
 Generally it describes security practices using the advice given in the
 OWASP Software Assurance Maturity Model ([SAMM][samm]) and describes the OWASP projects
-referenced in the OWASP [Application Wayfinder][wayfinder] project.
+referenced in the OWASP [Application Security Wayfinder][intstand] project.
 
 This guide does not seek to replicate the many excellent sources on specific security topics;
 it will rarely tries to go into details on a subject and instead provides links for greater depth on these security topics.
@@ -68,10 +68,11 @@ Or you can regard the purpose of this guide as answering the question:
 
 Or think of it as a collection of articles that introduce developers to the wide domain of application security.
 
-Or you can regard this guide as a companion document to the OWASP [Application Wayfinder][wayfinder] project:
-the Wayfinder mapping out the many OWASP tools, projects and documents with the Developer Guide providing some context.
+Or you can regard this guide as a companion document to the OWASP [Integration Standards][intstand] project:
+the Application Security Wayfinder mapping out the many OWASP tools,
+projects and documents with the Developer Guide providing some context.
 
-[![Application Wayfinder Diagram](../../assets/images/owasp-wayfinder.png "OWASP Application Wayfinder")][wayfinder]
+[![ApplSec Wayfinder](../../assets/images/owasp-wayfinder.png "OWASP Application Security Wayfinder")][intstand]
 
 ----
 
@@ -83,6 +84,6 @@ then [submit an issue][issue03] or [edit on GitHub][edit03].
 [issue03]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2003-introduction
 [samm]: https://owaspsamm.org/about/
 [versions]: https://github.com/OWASP/DevGuide/wiki#old-versions
-[wayfinder]: https://owasp.org/www-project-integration-standards/
+[intstand]: https://owasp.org/www-project-integration-standards/
 
 \newpage

@@ -31,7 +31,7 @@ material now better covered in the OWASP [Web Security Testing Guide][wstg].
 
 The developer guide has gone through several iterations since then and is now at version 4.x .
 This version does not seek to be a comprehensive and authoritative text;
-rather think of it as a text-based [Wayfinder Guide][wayfinder] to security projects and salient concepts,
+rather think of it as a text-based [Wayfinder Guide][intstand] to security projects and salient concepts,
 or a bit like a 'Lonely Planet' guide to AppSec for developers.
 
 ### Previous versions
@@ -81,5 +81,5 @@ if you have any of these then please get in touch.
 [guide-word-en-2v0]: https://github.com/OWASP/DevGuide/blob/master/old/Guide%203.0%20old%20text.docx
 [guide-2v01]: https://github.com/OWASP/DevGuide/tree/dc5a2977a4797d9b98486417a5527b9f15d8a251/DevGuide2.0.1
 [guide-3v0]: https://github.com/OWASP/DevGuide
-[wayfinder]: https://owasp.org/www-project-integration-standards/
+[intstand]: https://owasp.org/www-project-integration-standards/
 [wstg]: https://owasp.org/www-project-web-security-testing-guide/

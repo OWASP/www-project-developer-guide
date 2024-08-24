@@ -29,12 +29,12 @@ Secure development is described in the OWASP Software Assurance Maturity Model [
 
 #### Prelude
 
-The best introduction to practical secure software development is the OWASP [Application Security Fragmentation][sdlc]
-article :
+The best introduction to practical secure software development is the
+OWASP [Application Security Fragmentation][sdlc] article :
 
 _Or how I worried less and stood on the shoulders of giants._ - Spyros Gasteratos, Elie Saad
 
-Much of the material in this section is drawn from this OWASP [Integration Standards][wayfinder] project.
+Much of the material in this section is drawn from this OWASP [Integration Standards][intstand] project.
 
 #### Overview
 
@@ -68,7 +68,7 @@ Refer to the [CI/CD Security Cheat Sheet][cscicd] for the latest DevSecOps secur
 
 #### Secure development lifecycle
 
-Referring to the OWASP [Application Wayfinder][wayfinder] development cycle
+Referring to the OWASP [Application Security Wayfinder][intstand] development cycle
 there are four iterative phases during application development: Requirements, Design, Implementation and Verification.
 The other phases are done less iteratively in the development cycle but these form an equally important
 part of the SDLC: Gap Analysis, Metrics, Operation and Training & Culture Building.
@@ -183,7 +183,7 @@ There are many OWASP tools and resources to help build security into the SDLC.
 * [Dependency-Check Software Composition Analysis (SCA)][depcheck]
 * [Dependency-Track Continuous SBOM Analysis Platform][deptrack]
 * [Enterprise Security API][esapi-project] (ESAPI)
-* [Integration Standards project Application Wayfinder][wayfinder]
+* [Integration Standards project Application Security Wayfinder][intstand]
 * [Mobile Application Security][mas] (MAS)
 * [Pythonic Threat Modeling][pytm]
 * [Threat Dragon][tdtm]
@@ -234,7 +234,7 @@ then [submit an issue][issue0402] or [edit on GitHub][edit0402].
 [srat]: https://owasp.org/www-project-securityrat/
 [tdtm]: https://owasp.org/www-project-threat-dragon/
 [top10]: https://owasp.org/Top10/
-[wayfinder]: https://owasp.org/www-project-integration-standards/
+[intstand]: https://owasp.org/www-project-integration-standards/
 [webgoat]: https://owasp.org/www-project-webgoat/
 [wstg]: https://owasp.org/www-project-web-security-testing-guide/
 [zap]: https://www.zaproxy.org/

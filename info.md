@@ -1,11 +1,12 @@
 ### Classification
 
-* <i class="fas fa-egg fa-2x" style="color:#53AAE5"></i> Incubator Project
+* <i class="fas fa-flask fa-2x" style="color:#f7b73c"></i> Lab Project
 * <i class="fas fa-file-alt fa-2x" style="color:#233e81;"></i> Documentation
 
 ### Audience
 
 * <i class="fas fa-toolbox fa-2x" style="color:#233e81;"></i> Builder
+* <i class="fas fa-shield-alt fa-2x" style="color:#233e81;"></i> Defender
 
 ### Document
 
