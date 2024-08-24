@@ -14,7 +14,9 @@ permalink:
 
 ## ![Developer Guide](../assets/images/dg_logo.png)
 
-## OWASP Developer Guide (draft)
+### OWASP Developer Guide (draft)
+
+#### A Guide to Building Secure Web Applications and Web Services
 
 This draft version has the latest contributions to the Developer Guide so expect frequent changes in the content.
 

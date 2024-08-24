@@ -5,24 +5,14 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 1003
+order: 1030
 permalink: /draft/culture_building_and_process_maturing/software_assurance_maturity_model/
 
 ---
 
 {% include breadcrumb.html %}
 
-<style type="text/css">
-.image-right {
-  height: 45px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  float: right;
-}
-</style>
-
-![SAMM logo](../../../assets/images/logos/samm.png "OWASP SAMM"){: .image-right }
+![SAMM logo](../../../assets/images/logos/samm.png "OWASP SAMM"){: .image-right-small }
 
 ### 8.3 Software Assurance Maturity Model
 

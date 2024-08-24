@@ -31,8 +31,8 @@ docs:
 - title: '3.2 Risk profile'
   url: requirements/risk_profile
 
-- title: '3.3 Security Knowledge Framework'
-  url: requirements/security_knowledge_framework
+- title: '3.3 OpenCRE'
+  url: requirements/opencre
 
 - title: '3.4 SecurityRAT'
   url: requirements/security_rat
@@ -42,6 +42,9 @@ docs:
 
 - title: '3.6 Mobile Application Security'
   url: requirements/mobile_application_security
+
+- title: '3.7 Security Knowledge Framework'
+  url: requirements/security_knowledge_framework
 
 - title: '4. Design'
   url: /design

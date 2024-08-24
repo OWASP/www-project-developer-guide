@@ -12,24 +12,14 @@ permalink: /draft/foundations/security_fundamentals/
 
 {% include breadcrumb.html %}
 
-<style type="text/css">
-.image-right {
-  height: 45px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  float: right;
-}
-</style>
-
-![SAMM logo](../../../assets/images/logos/samm.png "OWASP SAMM"){: .image-right }
-
 ### 2.1 Security fundamentals
 
 The fundamental principles of application security rely on the security concepts referenced in this developer guide.
 This section aims to provide an introduction to fundamental principles that any development team must be familiar with.
 
 #### Software Assurance Maturity Model
+
+![SAMM logo](../../../assets/images/logos/samm.png "OWASP SAMM"){: .image-right-small }
 
 The Software Assurance Maturity Model ([SAMM][samm]) provides context for the scope of software security
 and the foundations of good security practice:
@@ -129,12 +119,12 @@ Well known security vulnerabilities are :
 
 #### HTTP and HTML
 
-Although it is not seen as a security fundamental, web applications rely on HTTP and HTML.
-Both application developers and security engineers should have a good understanding of the HTTP and HTML
-and the various security controls.
+Although not a security fundamental as such, web applications rely on HTTP communications and HTML.
+Both application developers and security engineers should have a good understanding of HTTP
+and the HTML language along with their various security controls.
 
 Most application development teams will be familiar with HTTP communications and the HTML standard,
-if necessary refer to the training from the [W3 Consortium][w3consortium] or the [W3 Schools][w3schools].
+but if necessary refer to the training from the [W3 Consortium][w3consortium] or the [W3 Schools][w3schools].
 The OWASP [Cheat Sheet Series][cheatsheets] provide web application developers with the information
 needed to produce secure software :
 

@@ -22,7 +22,7 @@ Metrics are important in an organization for various reasons, and in software se
 * provide justification for security programs
 * and others
 
-At present the OWASP [Integration Standards project Application Wayfinder][wayfinder] project
+At present the OWASP [Integration Standards project Application Wayfinder][intstand] project
 does not identify any OWASP projects that gather or process metrics; this may change in the future.
 
 ### Strategy and Metrics
@@ -56,6 +56,6 @@ The OWASP Developer Guide is a community effort; if there is something that need
 [sammgsm]: https://owaspsamm.org/model/governance/strategy-and-metrics/
 [sammgsma]: https://owaspsamm.org/model/governance/strategy-and-metrics/stream-a/
 [sammgsmb]: https://owaspsamm.org/model/governance/strategy-and-metrics/stream-b/
-[wayfinder]: https://owasp.org/www-project-integration-standards/
+[intstand]: https://owasp.org/www-project-integration-standards/
 
 \newpage

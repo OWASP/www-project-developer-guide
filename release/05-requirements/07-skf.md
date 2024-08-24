@@ -5,14 +5,14 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 503
-permalink: /draft/requirements/security_knowledge_framework/
+order: 5070
+permalink: /release/requirements/security_knowledge_framework/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 3.3 Security Knowledge Framework
+### 3.7 Security Knowledge Framework
 
 The [Security Knowledge Framework][skf] (SKF) is an expert system application that uses various open source projects
 to support development teams and security architects in building secure applications.
@@ -75,10 +75,10 @@ The OWASP Spotlight series provides an overview of the SKF: 'Project 7 - [Securi
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0503] or [edit on GitHub][edit0503].
+then [submit an issue][issue0507] or [edit on GitHub][edit0507].
 
-[edit0503]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/05-requirements/03-skf.md
-[issue0503]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-requirements/03-skf
+[edit0507]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/05-requirements/07-skf.md
+[issue0507]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-requirements/07-skf
 [skf]: https://www.securityknowledgeframework.org/
 [skfdemo]: https://secureby.design/
 [skfdocs]: https://skf.readme.io/docs/introduction
@@ -87,5 +87,3 @@ then [submit an issue][issue0503] or [edit on GitHub][edit0503].
 [skfrepo]: https://github.com/Security-Knowledge-Framework
 [skfreqs]: https://starfish-app-kd3eo.ondigitalocean.app/
 [spotlight07]: https://youtu.be/TFX_ZBy6lNY
-
-\newpage
