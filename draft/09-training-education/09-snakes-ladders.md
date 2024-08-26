@@ -13,7 +13,7 @@ permalink: /draft/training_education/snakes_and_ladders/
 
 {% include breadcrumb.html %}
 
-![Snakes and Ladders logo](../../../assets/images/logos/snakes_ladders.png "OWASP Snakes and Ladders"){: .image-right }
+[![Snakes & Ladders logo](../../../assets/images/logos/snakes_ladders.png "OWASP Snakes & Ladders"){: .image-right }][snakes]
 
 ### 7.9 OWASP Snakes and Ladders
 
@@ -65,6 +65,14 @@ and is not intended to have the same rigour or depth as the card game [Cornucopi
 When the project was first created there was a print run of the game on heavy duty paper.
 These were available at conferences and meetings - they were also available to be purchased online
 but this last option no longer seems to be available.  
+
+#### References
+
+* OWASP [Snakes & Ladders][snakes
+* OWASP [Proactive Controls][proactive10]
+* OWASP [Top Ten][top102017] 2017 version
+* OWASP [Mobile Top 10][mobile10controls]
+* OWASP [Cornucopia][cornucopia].
 
 ----
 

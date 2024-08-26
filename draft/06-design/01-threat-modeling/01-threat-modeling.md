@@ -12,11 +12,15 @@ permalink: /draft/design/threat_modeling/practical_threat_modeling/
 
 {% include breadcrumb.html %}
 
+[![TMM logo](../../../../assets/images/logos/tmmanifesto.png "OWASP TM Manifesto"){: height="60px" }][tmmanifesto]
+
 ### 4.1.1 Threat modeling in practice
 
 This section discusses Threat Modeling, an activity described in the OWASP Software Assurance Maturity Model ([SAMM][samm]).
 Threat modeling is part of the [Threat Assessment][sammdta] security practice in the [Design][sammd] business function.
-Much of the material in this section is drawn from the OWASP [Threat Model project][tmproject].
+
+Much of the material in this section is drawn from the OWASP [Threat Model project][tmproject],
+and the philosophy of this section tries to follow the [Threat Modeling Manifesto][tmmanifesto].
 
 #### Overview
 
@@ -228,7 +232,7 @@ then that is also a perfectly good choice.
 
 #### Further reading
 
-* [Threat Modeling Manifesto](https://www.threatmodelingmanifesto.org/)
+* [Threat Modeling Manifesto][tmmanifesto]
 * OWASP [Threat Model project][tmproject]
 * OWASP [Threat Modeling Cheat Sheet][cstm]
 * OWASP [Threat Modeling Playbook (OTMP)][tmpb]
@@ -277,9 +281,10 @@ then [submit an issue][issue060101] or [edit on GitHub][edit060101].
 [sammgata]: https://owaspsamm.org/guidance/agile/#TA
 [snakes]: https://owasp.org/www-project-snakes-and-ladders/
 [stride]: https://en.wikipedia.org/wiki/STRIDE_%28security%29
+[tdtm]: https://owasp.org/www-project-threat-dragon/
 [tmpb]: https://owasp.org/www-project-threat-modeling-playbook/
 [tmproject]: https://owasp.org/www-project-threat-model/
-[tdtm]: https://owasp.org/www-project-threat-dragon/
+[tmmanifesto]: https://www.threatmodelingmanifesto.org/
 [TM]: https://owasp.org/www-community/Threat_Modeling
 [TMP]: https://owasp.org/www-community/Threat_Modeling_Process
 [TMdesigning]: https://shostack.org/books/threat-modeling-book

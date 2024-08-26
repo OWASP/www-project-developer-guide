@@ -12,7 +12,7 @@ permalink: /draft/operations/crs/
 
 {% include breadcrumb.html %}
 
-![CRS logo](../../../assets/images/logos/crs.png "OWASP CRS"){: .image-right }
+[![CRS logo](../../../assets/images/logos/crs.png "OWASP CRS"){: .image-right }][crs]
 
 ### 9.4 OWASP CRS
 
@@ -44,6 +44,12 @@ To get started with CRS refer to the CRS [installation instructions][crs-downloa
 
 The OWASP Spotlight series provides an overview of how to use this CRS:
 'Project 3 - [Core Rule Set (CRS) - 1st Line of Defense][spotlight03]'.
+
+#### References
+
+* OWASP [CRS][crs]
+* OWASP [ModSecurity][modsec]
+* OWASP [Coraza][coraza]
 
 ----
 

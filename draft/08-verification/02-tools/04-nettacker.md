@@ -12,7 +12,7 @@ permalink: /draft/verification/tools/nettacker/
 
 {% include breadcrumb.html %}
 
-![Nettacker logo](../../../../assets/images/logos/nettacker.png "OWASP Nettacker"){: .image-right }
+[![Nettacker logo](../../../../assets/images/logos/nettacker.png "OWASP Nettacker"){: .image-right }][nettacker-project]
 
 ### 6.2.4 Nettacker
 

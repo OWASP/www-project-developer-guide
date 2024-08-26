@@ -12,19 +12,19 @@ permalink: /draft/requirements/opencre/
 
 {% include breadcrumb.html %}
 
-![OpenCRE logo](../../../assets/images/logos/defectdojo.png "OWASP OpenCRE"){: height="180px" }
+[![OpenCRE logo](../../../assets/images/logos/opencre.png "OWASP OpenCRE"){: height="180px" }][opencre]
 
 ### 3.3 OpenCRE
 
 The [Open Common Requirement Enumeration][opencre] (OpenCRE) is a catalog of security requirements,
 enumerating security topics and providing links to various standards, cheat sheets and guides.
 
-The OpenCRE is part of the [OWASP Integration Standards][opencre-project] project,
+The OpenCRE is part of the [OWASP Integration Standards][intstand] project,
 which is a documentation and production project within OWASP.
 
 #### What is the Integration Standards project?
 
-The [Integration Standards][opencre-project] project is at the centre of the OWASP project community;
+The [Integration Standards][intstand] project is at the centre of the OWASP project community;
 it provides guidance on how to navigate and use the many projects within OWASP.
 
 Application Security Wayfinder
@@ -41,6 +41,10 @@ OWASP [Application Security Fragmentation][sdlc]
 
 #### References
 
+* [Integration Standards][intstand] project
+* [OpenCRE][opencre]
+* OWASP [Application Security Fragmentation][sdlc]
+
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
@@ -49,7 +53,7 @@ then [submit an issue][issue0503] or [edit on GitHub][edit0503].
 [edit0503]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/05-requirements/03-opencre.md
 [issue0503]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2005-requirements/03-opencre
 [opencre]: https://www.opencre.org/
-[opencre-project]: https://owasp.org/www-project-integration-standards/
+[intstand]: https://owasp.org/www-project-integration-standards/
 [projects]: https://owasp.org/projects/
 [sdlc]: https://owasp.org/www-project-integration-standards/writeups/owasp_in_sdlc/
 

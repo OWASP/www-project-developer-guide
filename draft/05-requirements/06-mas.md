@@ -12,21 +12,21 @@ permalink: /draft/requirements/mobile_application_security/
 
 {% include breadcrumb.html %}
 
-![MAS logo](../../../assets/images/logos/mas.png "OWASP MAS"){: .image-right }
+[![MAS logo](../../../assets/images/logos/mas.png "OWASP MAS"){: .image-right }][mas]
 
 ### 3.6 Mobile Application Security
 
 The OWASP [Mobile Application Security][masproject] (MAS) flagship project has the mission statement:
 "Define the industry standard for mobile application security".
 
-The MAS project covers the processes, techniques, and tools used for security testing a mobile application,
-as well as an exhaustive set of test cases that enables testers to deliver consistent and complete results.
-The OWASP MAS project provides the [Mobile Application Security Verification Standard][masvs] (MASVS)
-for mobile applications and a comprehensive [Mobile Application Security Testing Guide][mastg] (MASTG).
+The MAS project covers the processes, techniques, and tools used for security testing mobile applications.
+It provides a set of test cases that enables testers to deliver consistent and complete results.
+The OWASP MAS project provides both the [Mobile Application Security Verification Standard][masvs] (MASVS)
+for mobile applications and the [Mobile Application Security Testing Guide][mastg] (MASTG).
 
 #### What is MASVS?
 
-The [OWASP MASVS][mas] is used by mobile software architects and developers seeking to develop secure mobile applications,
+The [OWASP MASVS][mas] is used by mobile software architects and developers to develop secure mobile applications,
 as well as security testers to ensure completeness and consistency of test results.
 The MAS project has several uses; when it comes to defining requirements then
 the MASVS contains a list of security controls for mobile applications.
@@ -61,7 +61,8 @@ which can be used as a guide to decide if the category should to be included in 
 
 #### References
 
-* Mobile Application Security ([MAS][masproject]) project
+* OWASP [Mobile Application Security][mas] (MAS)
+* MAS [project][masproject]
 * MAS [Checklist][masc]
 * MAS Verification Standard ([MASVS][masvs])
 * OWASP [Mobile Application Security][csmas] cheat sheet

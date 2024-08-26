@@ -12,7 +12,7 @@ permalink: /draft/security_gap_analysis/guides/software_assurance_maturity_model
 
 {% include breadcrumb.html %}
 
-![SAMM logo](../../../../assets/images/logos/samm.png "OWASP SAMM"){: .image-right-small }
+[![SAMM logo](../../../../assets/images/logos/samm.png "OWASP SAMM"){: .image-right-small }][samm]
 
 ### 11.1.1 Software Assurance Maturity Model
 
@@ -77,6 +77,12 @@ Each of these five fundamentals are further split into three Business Practices:
 | [Operations][sammo]     | [Incident Management][sammoim]     | [Environment Management][sammoem]      | [Operational Management][sammoom] |
 
 Each Business Practice is further subdivided into two streams which provide different objectives for the same practice.
+
+#### References
+
+* OWASP [Software Assurance Maturity Model][samm] (SAMM)
+* [SAMMY][sammy] management tool
+* OWASP [SAMM project][samm-project]
 
 ----
 

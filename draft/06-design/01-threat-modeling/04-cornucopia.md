@@ -12,7 +12,7 @@ permalink: /draft/design/threat_modeling/cornucopia/
 
 {% include breadcrumb.html %}
 
-![Cornucopia logo](../../../../assets/images/logos/cornucopia.png "OWASP Cornucopia"){: .image-right }
+[![Cornucopia logo](../../../../assets/images/logos/cornucopia.png "OWASP Cornucopia"){: .image-right }][cornucopia]
 
 ### 4.1.4 Cornucopia
 

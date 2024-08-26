@@ -12,7 +12,7 @@ permalink: /draft/foundations/owasp_top_ten/
 
 {% include breadcrumb.html %}
 
-![Top 10 logo](../../../assets/images/logos/top10.png "OWASP Top 10"){: .image-right }
+[![Top 10 logo](../../../assets/images/logos/top10.png "OWASP Top 10"){: .image-right }][top10]
 
 ### 2.5 OWASP Top Ten
 

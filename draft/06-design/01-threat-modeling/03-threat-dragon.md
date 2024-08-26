@@ -12,7 +12,7 @@ permalink: /draft/design/threat_modeling/threat_dragon/
 
 {% include breadcrumb.html %}
 
-![Threat dragon logo](../../../../assets/images/logos/threat_dragon.png "OWASP Threat Dragon"){: .image-right }
+[![Threat dragon logo](../../../../assets/images/logos/threat_dragon.png "OWASP Threat Dragon"){: .image-right }][tdtm]
 
 ### 4.1.3 Threat Dragon
 
@@ -69,6 +69,10 @@ The web application can be run using a [Docker container][tddocker] or from the 
 
 An important feature of Threat Dragon is the PDF report output which can be used for documentation
 and GRC compliance purposes; from the threat model meta-data window click on the Report button.
+
+#### References
+
+* OWASP [Threat Dragon][tdtm]
 
 ----
 

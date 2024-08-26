@@ -12,7 +12,7 @@ permalink: /draft/culture_building_and_process_maturing/mobile_application_secur
 
 {% include breadcrumb.html %}
 
-![MAS logo](../../../assets/images/logos/mas.png "OWASP MAS"){: .image-right }
+[![MAS logo](../../../assets/images/logos/mas.png "OWASP MAS"){: .image-right }][mas]
 
 ### 8.5 Mobile Application Security
 
@@ -45,10 +45,11 @@ Each challenge has various solutions provided by the community; these can be use
 
 #### References
 
-* OWASP [Mobile Application Security][masproject] (MAS) project
-* OWASP [MAS Crackmes][mascrack] UnCrackable Apps
-* OWASP [MAS Testing Guide][mastg] (MASTG)
-* OWASP [MAS Verification Standard][masvs] (MASVS)
+* OWASP [Mobile Application Security][mas] (MAS)
+* MAS [project][masproject]
+* MAS [Crackmes][mascrack] UnCrackable Apps
+* MAS [Testing Guide][mastg] (MASTG)
+* MAS [Verification Standard][masvs] (MASVS)
 * OWASP [Mobile Application Security][csmas] cheat sheet
 
 ----
@@ -59,6 +60,7 @@ then [submit an issue][issue1005] or [edit on GitHub][edit1005].
 [csmas]: https://cheatsheetseries.owasp.org/cheatsheets/Mobile_Application_Security_Cheat_Sheet
 [edit1005]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/10-culture-process/05-mas.md
 [issue1005]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2010-culture-process/05-mas
+[mas]: https://mas.owasp.org/
 [masproject]: https://owasp.org/www-project-mobile-app-security/
 [masandroid]: https://mas.owasp.org/crackmes/Android/
 [mascrack]: https://mas.owasp.org/crackmes/

@@ -12,7 +12,7 @@ permalink: /draft/culture_building_and_process_maturing/security_champions/secur
 
 {% include breadcrumb.html %}
 
-![Guide logo](../../../../assets/images/logos/security_champions_guide.png "OWASP Security Champions Guide"){: .image-right }
+[![Guide logo](../../../../assets/images/logos/secchampsguide.png "Security Champions Guide"){: .image-right }][scguide]
 
 ### 8.2.2 Security Champions Guide
 
