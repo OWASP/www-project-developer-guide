@@ -12,17 +12,7 @@ permalink: /draft/security_gap_analysis/guides/mobile_application_security/
 
 {% include breadcrumb.html %}
 
-<style type="text/css">
-.image-right {
-  height: 180px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  float: right;
-}
-</style>
-
-![MAS logo](../../../../assets/images/logos/mas.png "OWASP MAS"){: .image-right }
+[![MAS logo](../../../../assets/images/logos/mas.png "OWASP MAS"){: .image-right }][mas]
 
 ### 11.1.3 Mobile Application Security
 
@@ -71,9 +61,10 @@ This provides a starting point for a security gap evaluation for any existing co
 
 #### References
 
-* OWASP [Mobile Application Security][masproject] (MAS) project
-* OWASP [MAS Testing Guide][mastg] (MASTG)
-* OWASP [MAS Verification Standard][masvs] (MASVS)
+* OWASP [Mobile Application Security][mas] (MAS)
+* MAS [project][masproject]
+* MAS [Testing Guide][mastg] (MASTG)
+* MAS [Verification Standard][masvs] (MASVS)
 * OWASP [Mobile Application Security][csmas] cheat sheet
 
 ----
@@ -84,6 +75,7 @@ then [submit an issue][issue130103] or [edit on GitHub][edit130103].
 [csmas]: https://cheatsheetseries.owasp.org/cheatsheets/Mobile_Application_Security_Cheat_Sheet
 [edit130103]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/13-security-gap-analysis/01-guides/03-mas.md
 [issue130103]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2013-security-gap-analysis/01-guides/03-mas
+[mas]: https://mas.owasp.org/
 [masproject]: https://owasp.org/www-project-mobile-app-security/
 [mastg]: https://mas.owasp.org/MASTG/
 [masvs]: https://mas.owasp.org/MASVS/

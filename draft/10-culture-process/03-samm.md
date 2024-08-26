@@ -12,7 +12,7 @@ permalink: /draft/culture_building_and_process_maturing/software_assurance_matur
 
 {% include breadcrumb.html %}
 
-![SAMM logo](../../../assets/images/logos/samm.png "OWASP SAMM"){: .image-right-small }
+[![SAMM logo](../../../assets/images/logos/samm.png "OWASP SAMM"){: .image-right-small }][samm]
 
 ### 8.3 Software Assurance Maturity Model
 
@@ -67,6 +67,12 @@ and provides guidance on each Security Practice.
 The SAMM [assessment tools][samma] measure the quality of an organization's software assurance maturity process,
 which can be used as feedback into the culture of the organization.
 
+#### References
+
+* OWASP [Software Assurance Maturity Model][samm] (SAMM)
+* [SAMMY][sammy] management tool
+* OWASP [SAMM project][samm-project]
+
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
@@ -83,6 +89,7 @@ then [submit an issue][issue1003] or [edit on GitHub][edit1003].
 [sammo]: https://owaspsamm.org/model/operations/
 [sammv]: https://owaspsamm.org/model/verification/
 [samm-project]: https://owasp.org/www-project-samm/
+[sammy]: https://sammy.codific.com/
 [spotlight09]: https://youtu.be/N0zcZnkH5Wg
 
 \newpage

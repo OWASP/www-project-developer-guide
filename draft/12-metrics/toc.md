@@ -12,16 +12,6 @@ permalink: /draft/metrics/
 
 {% include breadcrumb.html %}
 
-<style type="text/css">
-.image-right {
-  height: 180px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  float: right;
-}
-</style>
-
 ![Developer Guide](../../assets/images/dg_alt.png "OWASP Developer Guide"){: .image-right }
 
 ## 10. Metrics

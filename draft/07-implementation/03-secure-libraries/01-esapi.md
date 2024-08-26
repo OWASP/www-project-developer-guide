@@ -12,17 +12,7 @@ permalink: /draft/implementation/secure_libraries/esapi/
 
 {% include breadcrumb.html %}
 
-<style type="text/css">
-.image-right {
-  height: 180px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  float: right;
-}
-</style>
-
-![ESAPI logo](../../../../assets/images/logos/esapi.png "OWASP ESAPI"){: .image-right }
+[![ESAPI logo](../../../../assets/images/logos/esapi.png "OWASP ESAPI"){: .image-right }][esapi-docs]
 
 ### 5.3.1 Enterprise Security API library
 
@@ -64,6 +54,15 @@ it then may be useful to use the monolithic ESAPI library rather than multiple d
 
 If the engineering decision is to use the ESAPI library then it can be downloaded as a Java Archive (.jar) package file.
 There is a reference implementation for each security control.
+
+#### References
+
+* [ESAPI for Java][esapi-java]
+* ESAPI [documentation][esapi-docs]
+* ESAPI [project][esapi-project]
+* OWASP [Java Encoder][java-encoder] project
+* OWASP [Java HTML Sanitizer][java-sanitizer]
+* [Spring Security][spring]
 
 ----
 

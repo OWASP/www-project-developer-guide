@@ -12,13 +12,12 @@ permalink: /draft/operations/coraza_waf/
 
 {% include breadcrumb.html %}
 
-![Coraza logo](../../../assets/images/logos/coraza.png "OWASP Coraza"){: height="180px" }
+[![Coraza logo](../../../assets/images/logos/coraza.png "OWASP Coraza"){: height="180px" }][coraza]
 
 ### 9.2 Coraza Web Application Firewall
 
 The [OWASP Coraza][coraza-project] project provides a golang enterprise-grade Web Application Firewall framework
-that supports the [ModSecurity][modsec] seclang language
-and is completely compatible with the OWASP [CRS][crs].
+that supports the [ModSecurity][modsec] seclang language and is completely compatible with OWASP [CRS][crs].
 Coraza is in active development as an OWASP Production code project,
 with the first stable version released in September 2021 and several releases since then.
 
@@ -52,6 +51,13 @@ There are multiple ways of running Coraza, and the one chosen will depend on an 
 * Coraza [Caddy Module][coraza-caddy] provides Web Application Firewall capabilities for Caddy
 * the Coraza [Proxy WASM][coraza-wasm] filter can be loaded directly from Envoy or used as an Istio plugin
 * Coraza as a [C library][coraza-lib], used for applications written in C rather than golang
+
+#### References
+
+* OWASP [Coraza][coraza]
+* OWASP [CRS][crs]
+* OWASP [ModSecurity][modsec]
+* [Secure Cloud Architecture][cscloud] cheat sheet
 
 ----
 

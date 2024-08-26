@@ -14,17 +14,7 @@ permalink: /draft/verification/tools/offensive_web_testing_framework/
 
 {% include breadcrumb.html %}
 
-<style type="text/css">
-.image-right {
-  height: 180px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  float: right;
-}
-</style>
-
-![OWTF logo](../../../../assets/images/logos/owtf.png "OWASP OWTF"){: .image-right }
+[![OWTF logo](../../../../assets/images/logos/owtf.png "OWASP OWTF"){: .image-right }][owtf]
 
 ### 6.2.3 Offensive Web Testing Framework
 

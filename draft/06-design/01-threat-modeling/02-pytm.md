@@ -12,17 +12,7 @@ permalink: /draft/design/threat_modeling/pytm/
 
 {% include breadcrumb.html %}
 
-<style type="text/css">
-.image-right {
-  height: 200px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  float: right;
-}
-</style>
-
-![pytm logo](../../../../assets/images/logos/pytm.png "OWASP pytm"){: .image-right }
+[![pytm logo](../../../../assets/images/logos/pytm.png "OWASP pytm"){: .image-right }][pytmproject]
 
 ### 4.1.2 pytm
 
@@ -103,10 +93,11 @@ mkdir -p tm
 
 #### References
 
+* OWASP [Pythonic Threat Modeling][pytmproject] (pytm)
 * [Graphviz][graphviz]
 * [pandoc][pandoc]
 * [PlantUML][plantuml]
-* [pytm][pytmrepo]
+* [pytm][pytmrepo] repository
 * [Spotlight][spotlight06] on pytm
 * [Threat Modeling: a practical guide for development teams][TMchap4]
 
