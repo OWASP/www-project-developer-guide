@@ -12,8 +12,6 @@ permalink: /draft/design/threat_modeling/practical_threat_modeling/
 
 {% include breadcrumb.html %}
 
-[![TMM logo](../../../../assets/images/logos/tmmanifesto.png "OWASP TM Manifesto"){: height="60px" }][tmmanifesto]
-
 ### 4.1.1 Threat modeling in practice
 
 This section discusses Threat Modeling, an activity described in the OWASP Software Assurance Maturity Model ([SAMM][samm]).
@@ -21,6 +19,8 @@ Threat modeling is part of the [Threat Assessment][sammdta] security practice in
 
 Much of the material in this section is drawn from the OWASP [Threat Model project][tmproject],
 and the philosophy of this section tries to follow the [Threat Modeling Manifesto][tmmanifesto].
+
+[![TMM logo](../../../../assets/images/logos/tmmanifesto.png "OWASP TM Manifesto"){: height="60px" }][tmmanifesto]
 
 #### Overview
 
