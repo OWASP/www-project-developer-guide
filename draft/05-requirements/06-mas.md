@@ -12,7 +12,7 @@ permalink: /draft/requirements/mobile_application_security/
 
 {% include breadcrumb.html %}
 
-[![MAS logo](../../../assets/images/logos/mas.png "OWASP MAS"){: .image-right }][mas]
+[MAS logo](../../../assets/images/logos/mas.png "OWASP MAS"){: .image-right }
 
 ### 3.6 Mobile Application Security
 
