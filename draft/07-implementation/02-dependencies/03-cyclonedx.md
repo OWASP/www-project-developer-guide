@@ -12,9 +12,19 @@ permalink: /draft/implementation/dependencies/cyclonedx/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right-small {
+  height: 26px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
 ### 5.2.3 CycloneDX
 
-[![CycloneDX logo](../../../../assets/images/logos/cyclonedx.png "OWASP CycloneDX"){: .image-right-small }][cyclonedx]
+![CycloneDX logo](../../../../assets/images/logos/cyclonedx.png "OWASP CycloneDX"){: .image-right-small }
 
 OWASP [CycloneDX][cyclonedx] is a full-stack Bill of Materials (BOM) standard
 that provides advanced supply chain capabilities for cyber risk reduction.

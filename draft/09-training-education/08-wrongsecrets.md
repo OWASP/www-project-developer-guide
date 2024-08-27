@@ -10,7 +10,17 @@ permalink: /draft/training_education/wrongsecrets/
 
 {% include breadcrumb.html %}
 
-[![WrongSecrets logo](../../../assets/images/logos/wrongsecrets.png "OWASP WrongSecrets"){: .image-right }][wrongsecrets]
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![WrongSecrets logo](../../../assets/images/logos/wrongsecrets.png "OWASP WrongSecrets"){: .image-right }
 
 ### 7.8 WrongSecrets
 

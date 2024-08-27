@@ -12,6 +12,16 @@ permalink: /draft/implementation/secure_libraries/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
 ![Developer guide logo](../../../assets/images/dg_logo_bbd.png "OWASP Developer Guide"){: .image-right }
 
 ### 5.3 Secure libraries

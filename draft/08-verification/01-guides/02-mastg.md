@@ -12,7 +12,17 @@ permalink: /draft/verification/guides/mas_testing_guide/
 
 {% include breadcrumb.html %}
 
-[![MAS logo](../../../../assets/images/logos/mas.png "OWASP MAS"){: .image-right }][mas]
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![MAS logo](../../../../assets/images/logos/mas.png "OWASP MAS"){: .image-right }
 
 ### 6.1.2 MAS testing guide
 

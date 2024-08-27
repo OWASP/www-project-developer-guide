@@ -12,6 +12,16 @@ permalink: /draft/foundations/secure_development/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
 ### 2.2 Secure development and integration
 
 Secure development is described in the OWASP Software Assurance Maturity Model [(SAMM)][samm]

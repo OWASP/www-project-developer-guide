@@ -12,7 +12,17 @@ permalink: /draft/implementation/secure_libraries/esapi/
 
 {% include breadcrumb.html %}
 
-[![ESAPI logo](../../../../assets/images/logos/esapi.png "OWASP ESAPI"){: .image-right }][esapi-docs]
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![ESAPI logo](../../../../assets/images/logos/esapi.png "OWASP ESAPI"){: .image-right }
 
 ### 5.3.1 Enterprise Security API library
 
