@@ -31,7 +31,7 @@ docs:
 - title: '3.2 Risk profile'
   url: requirements/risk_profile
 
-- title: '3.3 OpenCRE'
+- title: '3.3 OpenCRE and Integration Standards'
   url: requirements/integration_standard_opencre
 
 - title: '3.4 SecurityRAT'

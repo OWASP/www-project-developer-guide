@@ -37,6 +37,8 @@ or a bit like a 'Lonely Planet' guide to AppSec for developers.
 ### Previous versions
 
 Collected here are the previous versions of the OWASP Developer Guide that can still be accessed.
+OWASP has a podcast on [The History of the OWASP Developer Guide][history]
+which discusses the history and future of the project.
 
 #### [Developer Guide 3.0][guide-3v0] (abandoned April 2021)
 
@@ -81,5 +83,6 @@ if you have any of these then please get in touch.
 [guide-word-en-2v0]: https://github.com/OWASP/DevGuide/blob/master/old/Guide%203.0%20old%20text.docx
 [guide-2v01]: https://github.com/OWASP/DevGuide/tree/dc5a2977a4797d9b98486417a5527b9f15d8a251/DevGuide2.0.1
 [guide-3v0]: https://github.com/OWASP/DevGuide
+[history]: https://www.youtube.com/watch?v=niqV55vPTfw
 [intstand]: https://owasp.org/www-project-integration-standards/
 [wstg]: https://owasp.org/www-project-web-security-testing-guide/

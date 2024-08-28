@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 5030
-permalink: /draft/requirements/integration_standard_opencre/
+permalink: /release/requirements/integration_standard_opencre/
 
 ---
 
