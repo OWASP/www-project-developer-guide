@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 9120
+order: 29120
 permalink: /release-pt-br/training_education/vulnerable_applications/webgoat/
 
 ---

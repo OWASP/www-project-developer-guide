@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 7110
+order: 27110
 permalink: /release-pt-br/implementation/documentation/proactive_controls/
 
 ---

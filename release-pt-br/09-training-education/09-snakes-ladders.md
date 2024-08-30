@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 9270
+order: 29270
 
 permalink: /release-pt-br/training_education/snakes_and_ladders/
 

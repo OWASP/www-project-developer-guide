@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 13000
+order: 33000
 permalink: /release-pt-br/security_gap_analysis/
 
 ---

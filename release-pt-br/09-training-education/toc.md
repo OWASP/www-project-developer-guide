@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 9000
+order: 29000
 permalink: /release-pt-br/training_education/
 
 ---

@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 5060
+order: 25060
 permalink: /release-pt-br/requirements/mobile_application_security/
 
 ---

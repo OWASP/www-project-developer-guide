@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 5030
+order: 25030
 permalink: /release-pt-br/requirements/integration_standard_opencre/
 
 ---

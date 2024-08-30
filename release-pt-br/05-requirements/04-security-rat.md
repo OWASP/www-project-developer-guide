@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 5040
+order: 25040
 permalink: /release-pt-br/requirements/security_rat/
 
 ---

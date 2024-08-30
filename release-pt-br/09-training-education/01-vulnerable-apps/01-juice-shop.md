@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 9110
+order: 29110
 permalink: /release-pt-br/training_education/vulnerable_applications/juice_shop/
 
 ---

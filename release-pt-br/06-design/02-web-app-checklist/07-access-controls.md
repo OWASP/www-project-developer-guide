@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 6270
+order: 26270
 permalink: /release-pt-br/design/web_app_checklist/access_controls/
 
 ---

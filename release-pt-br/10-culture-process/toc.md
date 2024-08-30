@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 10000
+order: 30000
 permalink: /release-pt-br/culture_building_and_process_maturing/
 
 ---

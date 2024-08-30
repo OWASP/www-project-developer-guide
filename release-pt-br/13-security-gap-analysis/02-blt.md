@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 13200
+order: 33200
 permalink: /release-pt-br/security_gap_analysis/bug_logging_tool/
 
 ---

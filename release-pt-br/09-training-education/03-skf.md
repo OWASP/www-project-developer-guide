@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 9210
+order: 29210
 permalink: /release-pt-br/training_education/security_knowledge_framework/
 
 ---

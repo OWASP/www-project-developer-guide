@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 5050
+order: 25050
 permalink: /release-pt-br/requirements/application_security_verification_standard/
 
 ---

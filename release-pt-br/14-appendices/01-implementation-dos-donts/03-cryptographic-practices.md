@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
 document: OWASP Developer Guide
-order: 14130
+order: 34130
 permalink: /release-pt-br/appendices/implementation_dos_donts/cryptographic_practices/
 
 ---

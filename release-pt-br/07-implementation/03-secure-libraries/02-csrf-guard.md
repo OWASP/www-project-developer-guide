@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 7320
+order: 27320
 permalink: /release-pt-br/implementation/secure_libraries/csrf_guard/
 
 ---

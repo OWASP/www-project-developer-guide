@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 8000
+order: 28000
 permalink: /release-pt-br/verification/
 
 ---

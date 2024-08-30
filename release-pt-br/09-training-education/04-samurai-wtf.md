@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 9220
+order: 29220
 permalink: /release-pt-br/training_education/samurai_wtf/
 
 ---

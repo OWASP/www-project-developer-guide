@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 6100
+order: 26100
 permalink: /release-pt-br/design/threat_modeling/
 
 ---

@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 6150
+order: 26150
 permalink: /release-pt-br/design/threat_modeling/linddun-go/
 
 ---

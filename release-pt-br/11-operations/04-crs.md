@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Matteo Pace,
 document: OWASP Developer Guide
-order: 11040
+order: 31040
 permalink: /release-pt-br/operations/crs/
 
 ---

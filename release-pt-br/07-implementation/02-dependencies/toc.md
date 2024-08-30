@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 7200
+order: 27200
 permalink: /release-pt-br/implementation/dependencies/
 
 ---

@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 14200
+order: 34200
 permalink: /release-pt-br/appendices/verification_dos_donts/
 
 ---

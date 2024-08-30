@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 4010
+order: 24010
 permalink: /release-pt-br/foundations/security_fundamentals/
 
 ---

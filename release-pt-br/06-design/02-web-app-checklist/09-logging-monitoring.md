@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 6290
+order: 26290
 permalink: /release-pt-br/design/web_app_checklist/security_logging_and_monitoring/
 
 ---

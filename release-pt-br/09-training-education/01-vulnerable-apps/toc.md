@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 9100
+order: 29100
 permalink: /release-pt-br/training_education/vulnerable_applications/
 
 ---

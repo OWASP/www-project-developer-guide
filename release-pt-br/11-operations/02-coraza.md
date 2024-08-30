@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 11020
+order: 31020
 permalink: /release-pt-br/operations/coraza_waf/
 
 ---

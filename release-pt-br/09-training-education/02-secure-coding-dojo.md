@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 9200
+order: 29200
 permalink: /release-pt-br/training_education/secure_coding_dojo/
 
 ---

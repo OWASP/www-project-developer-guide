@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Adam Shostack,
 document: OWASP Developer Guide
-order: 6110
+order: 26110
 permalink: /release-pt-br/design/threat_modeling/practical_threat_modeling/
 
 ---

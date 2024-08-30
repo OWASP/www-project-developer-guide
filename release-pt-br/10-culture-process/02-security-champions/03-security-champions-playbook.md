@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 10230
+order: 30230
 permalink: /release-pt-br/culture_building_and_process_maturing/security_champions/security_champions_playbook/
 
 ---

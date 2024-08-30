@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 6120
+order: 26120
 permalink: /release-pt-br/design/threat_modeling/pytm/
 
 ---

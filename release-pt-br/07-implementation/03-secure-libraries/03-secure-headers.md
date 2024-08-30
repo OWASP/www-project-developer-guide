@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 7330
+order: 27330
 permalink: /release-pt-br/implementation/secure_libraries/secure_headers/
 
 ---

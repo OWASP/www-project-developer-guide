@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 7120
+order: 27120
 permalink: /release-pt-br/implementation/documentation/go_scp/
 
 ---

@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 8110
+order: 28110
 permalink: /release-pt-br/verification/guides/web_security_testing_guide/
 
 ---

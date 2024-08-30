@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 6400
+order: 26400
 permalink: /release-pt-br/design/mas_checklist/
 
 ---

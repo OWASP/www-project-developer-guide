@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 13130
+order: 33130
 permalink: /release-pt-br/security_gap_analysis/guides/mobile_application_security/
 
 ---

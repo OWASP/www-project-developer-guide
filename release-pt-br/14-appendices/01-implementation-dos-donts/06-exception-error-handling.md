@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
 document: OWASP Developer Guide
-order: 14160
+order: 34160
 permalink: /release-pt-br/appendices/implementation_dos_donts/exception_error_handling/
 
 ---

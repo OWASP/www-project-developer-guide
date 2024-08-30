@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 12000
+order: 32000
 permalink: /release-pt-br/metrics/
 
 ---

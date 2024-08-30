@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 4040
+order: 24040
 permalink: /release-pt-br/foundations/crypto_principles/
 
 ---

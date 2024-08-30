@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 7310
+order: 27310
 permalink: /release-pt-br/implementation/secure_libraries/esapi/
 
 ---

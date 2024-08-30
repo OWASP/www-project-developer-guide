@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 6230
+order: 26230
 permalink: /release-pt-br/design/web_app_checklist/secure_database_access/
 
 ---

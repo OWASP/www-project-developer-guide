@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 14000
+order: 34000
 permalink: /release-pt-br/appendices/
 
 ---

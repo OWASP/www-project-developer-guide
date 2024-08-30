@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 8120
+order: 28120
 permalink: /release-pt-br/verification/guides/mas_testing_guide/
 
 ---

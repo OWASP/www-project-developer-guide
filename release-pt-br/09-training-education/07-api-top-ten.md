@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 9250
+order: 29250
 permalink: /release-pt-br/training_education/api_top_ten/
 
 ---

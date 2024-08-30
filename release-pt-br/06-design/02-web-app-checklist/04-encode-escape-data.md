@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 6240
+order: 26240
 permalink: /release-pt-br/design/web_app_checklist/encode_escape_data/
 
 ---

@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 9140
+order: 29140
 permalink: /release-pt-br/training_education/vulnerable_applications/security_shepherd/
 
 ---

@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 11010
+order: 31010
 permalink: /release-pt-br/operations/devsecops_guideline/
 
 ---

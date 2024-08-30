@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 10030
+order: 30030
 permalink: /release-pt-br/culture_building_and_process_maturing/software_assurance_maturity_model/
 
 ---

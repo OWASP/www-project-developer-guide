@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 6220
+order: 26220
 permalink: /release-pt-br/design/web_app_checklist/frameworks_libraries/
 
 ---

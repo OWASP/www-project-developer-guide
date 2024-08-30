@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 11000
+order: 31000
 permalink: /release-pt-br/operations/
 
 ---
