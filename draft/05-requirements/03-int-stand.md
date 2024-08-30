@@ -41,9 +41,10 @@ OWASP [Application Security Fragmentation][sdlc]
 
 #### References
 
-* [Integration Standards][intstand] project
-* [OpenCRE][opencre]
+* OWASP [OpenCRE][opencre]
+* [Spotlight on OpenCRE][spotlight28]
 * OWASP [Application Security Fragmentation][sdlc]
+* OWASP [Integration Standards][intstand] project
 
 ----
 
@@ -56,5 +57,6 @@ then [submit an issue][issue0503] or [edit on GitHub][edit0503].
 [intstand]: https://owasp.org/www-project-integration-standards/
 [projects]: https://owasp.org/projects/
 [sdlc]: https://owasp.org/www-project-integration-standards/writeups/owasp_in_sdlc/
+[spotlight28]: https://www.youtube.com/watch?v=TwNroVARmB0&list=PLUKo5k_oSrfOTl27gUmk2o-NBKvkTGw0T
 
 \newpage
