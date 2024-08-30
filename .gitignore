@@ -71,6 +71,22 @@
 !release/1*/1*/
 !release/1*/1*/*.md
 
+# release língua portuguesa brazil
+!release-pt-br/
+!release-pt-br/title*.yaml
+!release-pt-br/0*/
+!release-pt-br/0*/*.md
+!release-pt-br/0*/0*/
+!release-pt-br/0*/0*/*.md
+!release-pt-br/0*/1*/
+!release-pt-br/0*/1*/*.md
+!release-pt-br/1*/
+!release-pt-br/1*/*.md
+!release-pt-br/1*/0*/
+!release-pt-br/1*/0*/*.md
+!release-pt-br/1*/1*/
+!release-pt-br/1*/1*/*.md
+
 # pages markdown
 !*.md
 !assets/
