@@ -89,7 +89,7 @@ jobs:
             draft/temp/draft.markdown
 
       - name: Save pdfs and epubs
-        uses: actions/upload-artifact@v4.3.4
+        uses: actions/upload-artifact@v4.4.0
         with:
           name: export-draft
           path: publish
