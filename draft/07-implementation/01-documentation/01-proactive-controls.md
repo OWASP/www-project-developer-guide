@@ -22,8 +22,6 @@ that security architects and development teams should consider in web applicatio
 The OWASP Top 10 Proactive Controls is a list of security techniques that should be considered for web applications.
 They are ordered by order of importance, with control number 1 being the most important:
 
-
-
 * C1: [Implement Access Control][control1], ref [Cheat Sheets][csproactive-c1]
 * C2: [Use Cryptography the proper way][control2], ref [Cheat Sheets][csproactive-c2]
 * C3: [Validate all Input & Handle Exceptions][control3], ref [Cheat Sheets][csproactive-c3]
