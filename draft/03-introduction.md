@@ -52,13 +52,20 @@ Instead the content of the Developer Guide aims to be accessible, introducing  p
 and providing enough detail to get developers started on various OWASP tools and documents.
 
 All of the OWASP projects and tools described in this guide are free to download and use.
-All OWASP projects are open source; do get involved if you are interested in improving application security.
+All OWASP projects are open source; please do get involved if you are interested in improving application security.
 
 #### Audience
 
-The OWASP Developer Guide has been written by the security community to help software developers write solid,
+Developers should use this OWASP Developer Guide to help write applications that are more secure.
+The guide has been written by the security community to help software developers write solid,
 safe and secure applications.
-Developers should try and be familiar with most of this guide; it will help to write applications that are more secure.
+Most of the contributors to this guide are also software developers as well as security engineers,
+and this helps to keep the focus developer centric.
+
+If you are in a hurry and want information on a specific subject then
+try the [OpenCRE chat][opencrechat] LLM for immediate answers.
+
+#### What is the Developer Guide?
 
 You can think of this guide as a cross-reference source to the many tools and documents that OWASP provide for developers.
 
@@ -69,10 +76,10 @@ Or you can regard the purpose of this guide as answering the question:
 Or think of it as a collection of articles that introduce developers to the wide domain of application security.
 
 Or you can regard this guide as a companion document to the OWASP [Integration Standards][intstand] project:
-the Application Security Wayfinder mapping out the many OWASP tools,
-projects and documents with the Developer Guide providing some context.
+the Application Security Wayfinder maps out the many tools,
+projects and documents within OWASP and the Developer Guide provides some 'wordy' context.
 
-[![ApplSec Wayfinder](../../assets/images/owasp-wayfinder.png "OWASP Application Security Wayfinder")][intstand]
+[![AppSec Wayfinder](../../assets/images/owasp-wayfinder.png "OWASP Application Security Wayfinder")][intstand]
 
 ----
 
@@ -81,9 +88,10 @@ then [submit an issue][issue03] or [edit on GitHub][edit03].
 
 [about]: https://owasp.org/about/
 [edit03]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/03-introduction.md
+[intstand]: https://owasp.org/www-project-integration-standards/
 [issue03]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2003-introduction
+[opencrechat]: https://www.opencre.org/chatbot
 [samm]: https://owaspsamm.org/about/
 [versions]: https://github.com/OWASP/DevGuide/wiki#old-versions
-[intstand]: https://owasp.org/www-project-integration-standards/
 
 \newpage
