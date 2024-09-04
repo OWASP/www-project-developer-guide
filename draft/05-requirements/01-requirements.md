@@ -37,11 +37,6 @@ but there is no wrong time to consider these security requirements and add new o
 
 #### Software requirements
 
-The OWASP [Top Ten Proactive Controls][proactive10] describes the most important categories of controls
-that architects and developers should include in every project.
-At the head of the list of controls is [C1: Define Security Requirements][control1]
-and this reflects the importance of software security requirements: without them the development will not be secure.
-
 Defining security requirements can be daunting at times,
 for example they may reference cryptographic techniques that can be misapplied,
 but it is perfectly acceptable to state these requirements in everyday language.
@@ -120,7 +115,6 @@ then [submit an issue][issue0501] or [edit on GitHub][edit0501].
 
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [csabuse]: https://cheatsheetseries.owasp.org/cheatsheets/Abuse_Case_Cheat_Sheet
-[control1]: https://owasp.org/www-project-proactive-controls/v3/en/c1-security-requirements
 [issue0501]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-requirements/01-requirements
 [mas]: https://mas.owasp.org/
 [edit0501]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/05-requirements/01-requirements.md

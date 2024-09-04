@@ -61,6 +61,6 @@ then [submit an issue][issue060209] or [edit on GitHub][edit060209].
 [csvocabulary]: https://cheatsheetseries.owasp.org/cheatsheets/Logging_Vocabulary_Cheat_Sheet
 [edit060209]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/02-web-app-checklist/09-logging-monitoring.md
 [issue060209]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/02-web-app-checklist/09-logging-monitoring
-[proactive10]: https://top10proactive.owasp.org/the-top-10/
+[proactive10]: https://top10proactive.owasp.org/
 
 \newpage
