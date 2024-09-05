@@ -16,7 +16,7 @@ permalink: /draft/design/web_app_checklist/secure_database_access/
 
 Ensure that access to all data stores is secure, including both relational databases and NoSQL databases.
 
-Refer to proactive control [C3: Validate all Input & Handle Excpetions][control3] and its [cheatsheets][csproactive-c3]
+Refer to proactive control [C3: Validate all Input & Handle Exceptions][control3] and its [cheatsheets][csproactive-c3]
 for more context from the OWASP Top 10 Proactive Controls project,
 and use the list below as suggestions for a checklist that has been tailored for the individual project.
 
