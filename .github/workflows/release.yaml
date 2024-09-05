@@ -111,7 +111,7 @@ jobs:
           cp OWASP_Developer_Guide.epub assets/exports/.
 
       - name: Create pull request
-        uses: peter-evans/create-pull-request@v6.1.0
+        uses: peter-evans/create-pull-request@v7.0.1
         with:
           title: |
             Release ${{ github.ref_name }} of Developer Guide
@@ -170,7 +170,7 @@ jobs:
           cp OWASP_Developer_Guide.epub assets/exports/.
 
       - name: Create pull request
-        uses: peter-evans/create-pull-request@v6.1.0
+        uses: peter-evans/create-pull-request@v7.0.1
         with:
           title: |
             Developer Guide release candidate ${{ github.ref_name }}
