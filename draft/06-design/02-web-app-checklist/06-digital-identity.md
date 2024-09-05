@@ -3,7 +3,7 @@
 title: Implement Digital Identity Checklist
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors: Jon Gadsden, Andreas Happe
 document: OWASP Developer Guide
 order: 626
 permalink: /draft/design/web_app_checklist/digital_identity/

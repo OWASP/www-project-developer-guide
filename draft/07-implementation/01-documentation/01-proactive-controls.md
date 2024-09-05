@@ -3,7 +3,7 @@
 title: Top 10 Proactive Controls
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors: Andreas Happe, Jon Gadsden
 document: OWASP Developer Guide
 order: 711
 permalink: /draft/implementation/documentation/proactive_controls/

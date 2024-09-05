@@ -3,7 +3,7 @@
 title: Implement Security Logging and Monitoring Checklist
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors: Jon Gadsden, Andreas Happe
 document: OWASP Developer Guide
 order: 629
 permalink: /draft/design/web_app_checklist/security_logging_and_monitoring/

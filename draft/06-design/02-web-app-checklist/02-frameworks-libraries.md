@@ -3,7 +3,7 @@
 title: Leverage Security Frameworks and Libraries Checklist
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors: Jon Gadsden, Andreas Happe
 document: OWASP Developer Guide
 order: 622
 permalink: /draft/design/web_app_checklist/frameworks_libraries/

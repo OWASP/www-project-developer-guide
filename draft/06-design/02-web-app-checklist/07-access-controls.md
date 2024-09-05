@@ -3,7 +3,7 @@
 title: Enforce Access Controls Checklist
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors: Jon Gadsden, Andreas Happe
 document: OWASP Developer Guide
 order: 627
 permalink: /draft/design/web_app_checklist/access_controls/
