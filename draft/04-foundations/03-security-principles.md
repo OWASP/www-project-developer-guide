@@ -3,7 +3,7 @@
 title: Principles of Security
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden, Johan Sydseter
+contributors: Jon Gadsden, Johan Sydseter, Andreas Happe
 document: OWASP Developer Guide
 order: 403
 permalink: /draft/foundations/security_principles/
@@ -187,11 +187,12 @@ and are therefore likely to be even more secure.
   * [Authentication Cheat Sheet][csauthn]
   * [Authorization Cheat Sheet][csauthz]
   * [Secure Product Design Cheat Sheet][spdcs]
+* OWASP Top 10 Proactive Controls
+  * [C5: Secure by Default Configurations](https://top10proactive.owasp.org/the-top-10/c5-secure-by-default/)
 * Other
   * [Compartmentalization (information security)](https://en.wikipedia.org/wiki/Compartmentalization_(information_security)),
 (Wikipedia)
   * [Least Functionality](https://csf.tools/reference/nist-sp-800-53/r5/cm/cm-7/), (NIST)
-  * [Secure by Default](https://en.wikipedia.org/wiki/Secure_by_default), (Wikipedia)
   * [Security by Design](https://pubs.opengroup.org/security/o-esa/#_Toc291061712), (Open Group)
   * [Usability and Manageability](https://pubs.opengroup.org/security/o-esa/#_Toc291061714), (Open Group)
 

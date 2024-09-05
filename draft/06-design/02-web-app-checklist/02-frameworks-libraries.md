@@ -3,7 +3,7 @@
 title: Leverage Security Frameworks and Libraries Checklist
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors: Jon Gadsden, Andreas Happe
 document: OWASP Developer Guide
 order: 622
 permalink: /draft/design/web_app_checklist/frameworks_libraries/
@@ -17,7 +17,7 @@ permalink: /draft/design/web_app_checklist/frameworks_libraries/
 Secure coding libraries and software frameworks with embedded security help software developers guard against
 security-related design and implementation flaws.
 
-Refer to proactive control [C2: Leverage Security Frameworks and Libraries][control2]
+Refer to proactive control [C4: Address Security from the Start][control4]
 and its [cheatsheets][csproactive-c2] for more context from the OWASP Top 10 Proactive Controls project.
 
 For technology specific checklists refer to the appropriate OWASP Cheat Sheets:
@@ -99,10 +99,10 @@ then [submit an issue][issue060202] or [edit on GitHub][edit060202].
 [cswebservice]: https://cheatsheetseries.owasp.org/cheatsheets/Web_Service_Security_Cheat_Sheet
 [csxml]: https://cheatsheetseries.owasp.org/cheatsheets/XML_Security_Cheat_Sheet
 [csproactive-c2]: https://cheatsheetseries.owasp.org/IndexProactiveControls.html#c2-leverage-security-frameworks-and-libraries
-[control2]: https://owasp.org/www-project-proactive-controls/v3/en/c2-leverage-security-frameworks-libraries
+[control4]: https://top10proactive.owasp.org/the-top-10/c4-secure-architecture/
 [dependency]: https://owasp.org/www-project-dependency-check/
 [edit060202]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/02-web-app-checklist/02-frameworks-libraries.md
 [issue060202]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/02-web-app-checklist/02-frameworks-libraries
-[proactive10]: https://owasp.org/www-project-proactive-controls/
+[proactive10]: https://top10proactive.owasp.org/
 
 \newpage

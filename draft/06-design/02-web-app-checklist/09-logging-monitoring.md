@@ -3,7 +3,7 @@
 title: Implement Security Logging and Monitoring Checklist
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors: Jon Gadsden, Andreas Happe
 document: OWASP Developer Guide
 order: 629
 permalink: /draft/design/web_app_checklist/security_logging_and_monitoring/
@@ -56,11 +56,11 @@ The OWASP Developer Guide is a community effort; if there is something that need
 then [submit an issue][issue060209] or [edit on GitHub][edit060209].
 
 [csproactive-c9]: https://cheatsheetseries.owasp.org/IndexProactiveControls.html#c9-implement-security-logging-and-monitoring
-[control9]: https://owasp.org/www-project-proactive-controls/v3/en/c9-security-logging
+[control9]: https://top10proactive.owasp.org/the-top-10/c9-security-logging-and-monitoring/
 [cslogging]: https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet
 [csvocabulary]: https://cheatsheetseries.owasp.org/cheatsheets/Logging_Vocabulary_Cheat_Sheet
 [edit060209]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/02-web-app-checklist/09-logging-monitoring.md
 [issue060209]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/02-web-app-checklist/09-logging-monitoring
-[proactive10]: https://owasp.org/www-project-proactive-controls/
+[proactive10]: https://top10proactive.owasp.org/
 
 \newpage
