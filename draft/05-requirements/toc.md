@@ -50,7 +50,7 @@ Sections:
 
 3.1 [Requirements in practice](01-requirements.md)  
 3.2 [Risk profile](02-risk.md)  
-3.3 [OpenCRE](03-int-stand.md)  
+3.3 [OpenCRE](03-opencre.md)  
 3.4 [SecurityRAT](04-security-rat.md)  
 3.5 [Application Security Verification Standard](05-asvs.md)  
 3.6 [Mobile Application Security](06-mas.md)  

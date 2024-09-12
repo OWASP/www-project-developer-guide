@@ -73,7 +73,7 @@ The OWASP Spotlight series provides an overview of using the SAMM:
 'Project 9 - [Software Assurance Maturity Model (SAMM)][spotlight09]'.
 
 Security gap analysis can benefit from an assessment which measures the quality of the software assurance maturity process.
-The [SAMM Assessment][samma] tools include spreadsheets and online tools such as [SAMMwise][samwise] and [SAMMY][sammy].
+The [SAMM Assessment][samma] tools include spreadsheets and online tools such as [SAMMwise][sammwise] and [SAMMY][sammy].
 
 The SAMM model describes these fundamentals of software security, which it calls Business Functions.
 Each of these five fundamentals are further split into three Business Practices:
@@ -124,7 +124,7 @@ then [submit an issue][issue130101] or [edit on GitHub][edit130101].
 [sammvrt]: https://owaspsamm.org/model/verification/requirements-driven-testing/
 [sammvst]: https://owaspsamm.org/model/verification/security-testing/
 [samm-project]: https://owasp.org/www-project-samm/
-[samwise]: https://github.com/owaspsamm/sammwise
+[sammwise]: https://github.com/owaspsamm/sammwise
 [sammy]: https://sammy.codific.com/
 [spotlight09]: https://youtu.be/N0zcZnkH5Wg
 

@@ -505,3 +505,5 @@ incrementing
 WHATWG
 OpenCRE
 opencre
+LLM
+SDLCs
