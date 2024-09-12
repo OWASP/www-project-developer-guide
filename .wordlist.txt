@@ -507,3 +507,6 @@ OpenCRE
 opencre
 LLM
 SDLCs
+br
+Andreas
+Happe

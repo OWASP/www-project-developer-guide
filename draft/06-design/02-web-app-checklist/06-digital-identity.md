@@ -3,7 +3,7 @@
 title: Implement Digital Identity Checklist
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors: Jon Gadsden, Andreas Happe
 document: OWASP Developer Guide
 order: 626
 permalink: /draft/design/web_app_checklist/digital_identity/
@@ -18,7 +18,7 @@ permalink: /draft/design/web_app_checklist/digital_identity/
 Session management is a process by which a server maintains the state of the users authentication
 so that the user may continue to use the system without re-authenticating.
 
-Refer to proactive control [C6: Implement Digital Identity][control6] and its [cheatsheets][csproactive-c6]
+Refer to proactive control [C7: Implement Digital Identity][control7] and its [cheatsheets][csproactive-c6]
 for more context from the OWASP Top 10 Proactive Controls project,
 and use the list below as suggestions for a checklist that has been tailored for the individual project.
 
@@ -105,7 +105,7 @@ The OWASP Developer Guide is a community effort; if there is something that need
 then [submit an issue][issue060206] or [edit on GitHub][edit060206].
 
 [csproactive-c6]: https://cheatsheetseries.owasp.org/IndexProactiveControls.html#c6-implement-digital-identity
-[control6]: https://owasp.org/www-project-proactive-controls/v3/en/c6-digital-identity
+[control7]: https://top10proactive.owasp.org/the-top-10/c7-implement-digital-identity/
 [csauthn]: https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet
 [csmfa]: https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet
 [cspass]: https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet
@@ -114,7 +114,7 @@ then [submit an issue][issue060206] or [edit on GitHub][edit060206].
 [csquestions]: https://cheatsheetseries.owasp.org/cheatsheets/Choosing_and_Using_Security_Questions_Cheat_Sheet
 [edit060206]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/02-web-app-checklist/06-digital-identity.md
 [issue060206]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/02-web-app-checklist/06-digital-identity
-[proactive10]: https://owasp.org/www-project-proactive-controls/
+[proactive10]: https://top10proactive.owasp.org
 [tls]: https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Security_Cheat_Sheet
 
 \newpage
