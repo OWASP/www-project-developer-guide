@@ -39,8 +39,8 @@ jobs:
         uses: DavidAnson/markdownlint-cli2-action@v17.0.0
         with:
           config: '.markdownlint.yaml'
-          globs: 'draft/**/*.md'
-          # only check the draft directory, that is where the changes should be
+          globs: 'draft/**/*.md *.md'
+          # only check the draft and root directories, that is where the changes should be
 
   spell_checker:
     name: Check spelling
@@ -52,8 +52,9 @@ jobs:
       - name: spell_checker
         uses: rojopolis/spellcheck-github-actions@0.41.0
         with:
-          source_files: './draft/**/*.md *.md'
           # check only draft and root as that is where the changes are
+          source_files: './draft/**/*.md *.md'
+          task_name: Markdown
 
   export_draft:
     name: Export epub and pdf (Draft)
