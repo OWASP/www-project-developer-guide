@@ -1,5 +1,5 @@
 name: Release docs
-# generally the checks are only on the draft directory because the release directory will be overwritten
+# checks are only on the draft directory because the release directory will be overwritten
 
 on:
   push:
@@ -24,7 +24,11 @@ jobs:
         uses: lycheeverse/lychee-action@v1.10.0
         with:
           # skip the jekyll files under '_includes' directory, check only draft where the promotion comes from
-          args: --no-progress --max-retries 5 --exclude-path './_includes/*.html' './draft/**/*.md'
+          args: >-
+            --no-progress
+            --max-retries 5
+            --exclude-path './_includes/*.html'
+            './draft/**/*.md'
           fail: true
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

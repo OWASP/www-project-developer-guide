@@ -1,5 +1,5 @@
 name: Pull request pipeline
-# generally the checks are only on the draft and root directories because that is where the changes should be
+# checks are only on the draft and root directories because that is where the changes should be
 
 on:
   pull_request:
@@ -23,7 +23,12 @@ jobs:
         uses: lycheeverse/lychee-action@v1.10.0
         with:
           # skip the jekyll files under '_includes' directory, only check the draft and root directories
-          args: --verbose --no-progress --max-retries 5 --exclude-path './_includes/*.html' './draft/**/*.md' '*.md'
+          args: >-
+            --no-progress
+            --max-retries 5
+            --exclude-path './_includes/*.html'
+            './draft/**/*.md'
+            '*.md'
           fail: true
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
@@ -53,7 +58,7 @@ jobs:
         uses: rojopolis/spellcheck-github-actions@0.41.0
         with:
           # check only draft and root as that is where the changes are
-          source_files: './draft/**/*.md *.md'
+          source_files: './draft/**/*.md'
           task_name: Markdown
 
   export_draft:

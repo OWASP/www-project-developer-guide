@@ -1,4 +1,6 @@
 name: Housekeeping
+# checks are on all directories
+
 on:
   # Run daily at 7:00
   schedule:
@@ -38,7 +40,12 @@ jobs:
         uses: lycheeverse/lychee-action@v1.10.0
         with:
           # skip the jekyll files under '_includes' directory, check all other directories
-          args:  --no-progress --max-retries 5 --exclude-path './_includes/*.html' '**/*.md' '*.md'
+          args: >-
+            --no-progress
+            --max-retries 5
+            --exclude-path './_includes/*.html'
+            '**/*.md'
+            '*.md'
           fail: true
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
