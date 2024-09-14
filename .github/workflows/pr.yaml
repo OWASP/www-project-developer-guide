@@ -56,10 +56,6 @@ jobs:
 
       - name: spell_checker
         uses: rojopolis/spellcheck-github-actions@0.41.0
-        with:
-          # check only draft and root as that is where the changes are
-          source_files: ./draft/**/*.md *.md
-          task_name: Markdown
 
   export_draft:
     name: Export epub and pdf (Draft)

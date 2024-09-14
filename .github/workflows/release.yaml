@@ -56,10 +56,6 @@ jobs:
 
       - name: spell_checker
         uses: rojopolis/spellcheck-github-actions@0.41.0
-        with:
-          # check draft only as that is where the promotion comes from
-          source_files: "./draft/**/*.md"
-          task_name: Markdown
 
   create_artifacts:
     name: Create artifacts
