@@ -1,4 +1,5 @@
 name: Release docs
+# checks are only on the draft directory because the release directory will be overwritten
 
 on:
   push:
@@ -12,10 +13,54 @@ env:
 
 # for security reasons the github actions are pinned to specific release versions
 jobs:
+  link_checker:
+    name: Link checker
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout markdown
+        uses: actions/checkout@v4.1.1
+
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@v1.10.0
+        with:
+          # skip the jekyll files under '_includes' directory, check only draft where the promotion comes from
+          args: >-
+            --no-progress
+            --max-retries 5
+            --exclude-path './_includes/*.html'
+            './draft/**/*.md'
+          fail: true
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+  md_linter:
+    name: Lint markdown
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout markdown
+        uses: actions/checkout@v4.1.1
+
+      - name: Lint markdown
+        uses: DavidAnson/markdownlint-cli2-action@v17.0.0
+        with:
+          config: '.markdownlint.yaml'
+          globs: 'draft/**/*.md'
+          # only check the draft directory, that is where the promotion comes from
+
+  spell_checker:
+    name: Check spelling
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout markdown
+        uses: actions/checkout@v4.1.1
+
+      - name: spell_checker
+        uses: rojopolis/spellcheck-github-actions@0.41.0
+
   create_artifacts:
     name: Create artifacts
     runs-on: ubuntu-24.04
-
+    needs: [link_checker, md_linter, spell_checker]
     steps:
       - name: Checkout markdown
         uses: actions/checkout@v4.1.1
@@ -75,7 +120,7 @@ jobs:
     name: Create pull request
     runs-on: ubuntu-24.04
     needs: create_artifacts
-    if: !contains( ${{ github.ref_name }}, 'RC' )
+    if: contains( ${{ github.ref_name }}, 'RC' ) == 'false'
 
     steps:
       - name: Checkout markdown

@@ -144,7 +144,7 @@ so that they can agree on the framework to be used during the threat modeling ex
 
 This is a research activity to find the main threats that apply to your application.
 There are many ways to approach the question, including open discussion or using a structure to help think it through.
-Techniques and methodologies to consider include [CIA][cia], [STRIDE][stride], [LINDDUN][linddun],
+Techniques and methodologies to consider include CIA, [STRIDE][stride], [LINDDUN][linddun],
 [cyber kill chains][chains], [PASTA][pasta], common attack patterns ([CAPEC][capec]) and others.
 
 There are resources available that will help with identifying threats and vulnerabilities.
@@ -227,7 +227,7 @@ malicious actors (external or internal) trying to subvert your system.
 
 It is a good strategy to choose a threat categorisation methodology for the whole organisation
 and then try and keep to it.
-For example this could be [STRIDE][stride] or [LINDDUN][linddun], but if the [CIA][cia] triad provides enough granularity
+For example this could be [STRIDE][stride] or [LINDDUN][linddun], but if the CIA triad provides enough granularity
 then that is also a perfectly good choice.
 
 #### Further reading
@@ -264,7 +264,6 @@ then [submit an issue][issue060101] or [edit on GitHub][edit060101].
 [asacs]: https://cheatsheetseries.owasp.org/cheatsheets/Attack_Surface_Analysis_Cheat_Sheet
 [capec]: https://capec.mitre.org/
 [chains]: https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html
-[cia]: https://www.nccoe.nist.gov/publication/1800-25/VolA/index.html
 [corncards]: https://owasp.org/www-project-cornucopia/
 [ccsnet]: https://cheatsheetseries.owasp.org/cheatsheets/Network_Segmentation_Cheat_Sheet
 [cstm]: https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet

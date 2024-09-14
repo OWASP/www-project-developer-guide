@@ -1,4 +1,6 @@
 name: CI pipeline
+# checks are on all directories
+
 on:
   push:
     branches:
@@ -17,8 +19,13 @@ jobs:
       - name: Link Checker
         uses: lycheeverse/lychee-action@v1.10.0
         with:
-          # skip the jekyll files
-          args: --no-progress --max-retries 5 --exclude-path './_includes/*.html' './draft/**/*.md' '*.md'
+          # skip the jekyll files under '_includes' directory
+          args: >-
+            --no-progress
+            --max-retries 5
+            --exclude-path './_includes/*.html'
+            './**/*.md'
+            '*.md'
           fail: true
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

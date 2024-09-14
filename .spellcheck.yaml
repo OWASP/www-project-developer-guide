@@ -17,4 +17,3 @@ matrix:
   sources:
   - '**/*.md'
   default_encoding: utf-8
-
