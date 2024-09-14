@@ -12,7 +12,6 @@ permalink: /draft/verification/tools/zed_attack_proxy/
 
 {% include breadcrumb.html %}
 
-
 <style type="text/css">
 .image-right {
   height: 180px;

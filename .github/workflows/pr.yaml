@@ -44,7 +44,7 @@ jobs:
         uses: DavidAnson/markdownlint-cli2-action@v17.0.0
         with:
           config: '.markdownlint.yaml'
-          globs: 'draft/**/*.md *.md'
+          globs: draft/**/*.md *.md
           # only check the draft and root directories, that is where the changes should be
 
   spell_checker:
