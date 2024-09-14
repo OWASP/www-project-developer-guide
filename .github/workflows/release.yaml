@@ -58,7 +58,7 @@ jobs:
         uses: rojopolis/spellcheck-github-actions@0.41.0
         with:
           # check draft only as that is where the promotion comes from
-          source_files: './draft/**/*.md'
+          source_files: "./draft/**/*.md"
           task_name: Markdown
 
   create_artifacts:
@@ -124,7 +124,7 @@ jobs:
     name: Create pull request
     runs-on: ubuntu-24.04
     needs: create_artifacts
-    if: !contains( ${{ github.ref_name }}, 'RC' )
+    if: contains( ${{ github.ref_name }}, 'RC' ) == 'false'
 
     steps:
       - name: Checkout markdown
