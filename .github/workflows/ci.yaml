@@ -41,7 +41,7 @@ jobs:
         uses: DavidAnson/markdownlint-cli2-action@v16.0.0
         with:
           config: '.markdownlint.yaml'
-          globs: '**/*.md *.md'
+          globs: '**/*.md'
 
   spell_checker:
     name: Check spelling
