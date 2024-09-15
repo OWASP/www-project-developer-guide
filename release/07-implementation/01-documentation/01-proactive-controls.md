@@ -3,7 +3,7 @@
 title: Top 10 Proactive Controls
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors: Andreas Happe, Jon Gadsden
 document: OWASP Developer Guide
 order: 7110
 permalink: /release/implementation/documentation/proactive_controls/
@@ -14,26 +14,24 @@ permalink: /release/implementation/documentation/proactive_controls/
 
 ### 5.1.1 Top 10 Proactive Controls
 
-The OWASP [Top 10 Proactive Controls][csproactive] describes the most important controls and control categories
+The OWASP [Top 10 Proactive Controls][proactive10] describes the most important controls and control categories
 that security architects and development teams should consider in web application projects.
-The [Proactive Controls project][proactive10] is an OWASP Lab documentation project and
-the PDF can be downloaded for [various languages][proactive10-pdf].
 
 #### What are the Top 10 Proactive Controls?
 
-The OWASP Top 10 Proactive Controls 2018 is a list of security techniques that should be considered for web applications.
+The OWASP Top 10 Proactive Controls is a list of security techniques that should be considered for web applications.
 They are ordered by order of importance, with control number 1 being the most important:
 
-* C1: [Define Security Requirements][control1], ref [Cheat Sheets][csproactive-c1]
-* C2: [Leverage Security Frameworks and Libraries][control2], ref [Cheat Sheets][csproactive-c2]
-* C3: [Secure Database Access][control3], ref [Cheat Sheets][csproactive-c3]
-* C4: [Encode and Escape Data][control4], ref [Cheat Sheets][csproactive-c4]
-* C5: [Validate All Inputs][control5], ref [Cheat Sheets][csproactive-c5]
-* C6: [Implement Digital Identity][control6], ref [Cheat Sheets][csproactive-c6]
-* C7: [Enforce Access Controls][control7], ref [Cheat Sheets][csproactive-c7]
-* C8: [Protect Data Everywhere][control8], ref [Cheat Sheets][csproactive-c8]
+* C1: [Implement Access Control][control1], ref [Cheat Sheets][csproactive-c1]
+* C2: [Use Cryptography the proper way][control2], ref [Cheat Sheets][csproactive-c2]
+* C3: [Validate all Input & Handle Exceptions][control3], ref [Cheat Sheets][csproactive-c3]
+* C4: [Address Security from the Start][control4], ref [Cheat Sheets][csproactive-c4]
+* C5: [Secure By Default Configurations][control5], ref [Cheat Sheets][csproactive-c5]
+* C6: [Keep your Components Secure][control6], ref [Cheat Sheets][csproactive-c6]
+* C7: [Implement Digital Identity][control7], ref [Cheat Sheets][csproactive-c7]
+* C8: [Leverage Browser Security Features][control8], ref [Cheat Sheets][csproactive-c8]
 * C9: [Implement Security Logging and Monitoring][control9], ref [Cheat Sheets][csproactive-c9]
-* C10: [Handle all Errors and Exceptions][control10], ref [Cheat Sheets][csproactive-c10]
+* C10: [Stop Server Side Request Forgery][control10], ref [Cheat Sheets][csproactive-c10]
 
 #### Why use them?
 
@@ -107,18 +105,17 @@ then [submit an issue][issue070101] or [edit on GitHub][edit070101].
 [csxsleaks]: https://cheatsheetseries.owasp.org/cheatsheets/XS_Leaks_Cheat_Sheet
 [csxssevade]: https://cheatsheetseries.owasp.org/cheatsheets/XSS_Filter_Evasion_Cheat_Sheet
 [csxxe]: https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet
-[control1]: https://owasp.org/www-project-proactive-controls/v3/en/c1-security-requirements
-[control2]: https://owasp.org/www-project-proactive-controls/v3/en/c2-leverage-security-frameworks-libraries
-[control3]: https://owasp.org/www-project-proactive-controls/v3/en/c3-secure-database
-[control4]: https://owasp.org/www-project-proactive-controls/v3/en/c4-encode-escape-data
-[control5]: https://owasp.org/www-project-proactive-controls/v3/en/c5-validate-inputs
-[control6]: https://owasp.org/www-project-proactive-controls/v3/en/c6-digital-identity
-[control7]: https://owasp.org/www-project-proactive-controls/v3/en/c7-enforce-access-controls
-[control8]: https://owasp.org/www-project-proactive-controls/v3/en/c8-protect-data-everywhere
-[control9]: https://owasp.org/www-project-proactive-controls/v3/en/c9-security-logging
-[control10]: https://owasp.org/www-project-proactive-controls/v3/en/c10-errors-exceptions
+[control1]: https://top10proactive.owasp.org/the-top-10/c1-accesscontrol/
+[control2]: https://top10proactive.owasp.org/the-top-10/c2-crypto/
+[control3]: https://top10proactive.owasp.org/the-top-10/c3-validate-input-and-handle-exceptions/
+[control4]: https://top10proactive.owasp.org/the-top-10/c4-secure-architecture/
+[control5]: https://top10proactive.owasp.org/the-top-10/c5-secure-by-default/
+[control6]: https://top10proactive.owasp.org/the-top-10/c6-use-secure-dependencies/
+[control7]: https://top10proactive.owasp.org/the-top-10/c7-implement-digital-identity/
+[control8]: https://top10proactive.owasp.org/the-top-10/c8-help-the-browser-defend-the-user/
+[control9]: https://top10proactive.owasp.org/the-top-10/c9-security-logging-and-monitoring/
+[control10]: https://top10proactive.owasp.org/the-top-10/c10-stop-server-side-request-forgery/
 [edit070101]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/01-documentation/01-proactive-controls.md
 [issue070101]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2007-implementation/01-documentation/01-proactive-controls
-[proactive10]: https://owasp.org/www-project-proactive-controls/
-[proactive10-pdf]: https://github.com/OWASP/www-project-proactive-controls/tree/master/v3
+[proactive10]: https://top10proactive.owasp.org/
 [spotlight08]: https://youtu.be/HRtYDCWOSc0

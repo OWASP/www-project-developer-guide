@@ -12,6 +12,18 @@ permalink: /release/verification/tools/zed_attack_proxy/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![ZAP logo](../../../../assets/images/logos/zap.png "OWASP ZAP"){: .image-right }
+
 ### 6.2.1 Zed Attack Proxy
 
 The Zed Attack Proxy ([ZAP][zap]) verification and testing project is a widely used

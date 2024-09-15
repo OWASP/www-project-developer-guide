@@ -3,7 +3,7 @@
 title: Handle all Errors and Exceptions Checklist
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors: Jon Gadsden, Andreas Happe
 document: OWASP Developer Guide
 order: 6300
 permalink: /release/design/web_app_checklist/handle_errors_and_exceptions/
@@ -18,7 +18,7 @@ Handling [exceptions and errors][cserror] correctly is critical to making your c
 Error and exception handling occurs in all areas of an application including critical business logic
 as well as security features and framework code.
 
-Refer to proactive control [C10: Handle all Errors and Exceptions][control10]
+Refer to proactive control [C3: Validate all Input & Handle Exceptions][control3]
 and its [cheatsheets][csproactive-c10] for more context from the OWASP Top 10 Proactive Controls project,
 and use the list below as suggestions for a checklist that has been tailored for the individual project.
 
@@ -51,9 +51,9 @@ then [submit an issue][issue060210] or [edit on GitHub][edit060210].
 
 [cserror]: https://cheatsheetseries.owasp.org/cheatsheets/Error_Handling_Cheat_Sheet
 [csproactive-c10]: https://cheatsheetseries.owasp.org/IndexProactiveControls.html#c10-handle-all-errors-and-exceptions
-[control10]: https://owasp.org/www-project-proactive-controls/v3/en/c10-errors-exceptions
+[control3]: https://top10proactive.owasp.org/the-top-10/c3-validate-input-and-handle-exceptions/
 [edit060210]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/02-web-app-checklist/10-handle-errors-exceptions.md
 [handle]: https://owasp.org/www-community/Improper_Error_Handling
 [issue060210]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/02-web-app-checklist/10-handle-errors-exceptions
-[proactive10]: https://owasp.org/www-project-proactive-controls/
+[proactive10]: https://top10proactive.owasp.org/
 [review]: https://owasp.org/www-project-code-review-guide/

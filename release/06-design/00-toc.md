@@ -75,7 +75,7 @@ The OWASP Developer Guide is a community effort; if there is something that need
 [issue0600]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/00-toc
 [samm]: https://owaspsamm.org/about/
 [sammd]: https://owaspsamm.org/model/design/
-[sammdsr]: https://owaspsamm.org/model/design/security-requirements/
 [sammdsa]: https://owaspsamm.org/model/design/secure-architecture/
+[sammdsr]: https://owaspsamm.org/model/design/security-requirements/
 [sammdta]: https://owaspsamm.org/model/design/threat-assessment/
 [spdcs]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet

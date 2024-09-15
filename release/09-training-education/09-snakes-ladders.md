@@ -23,7 +23,7 @@ permalink: /release/training_education/snakes_and_ladders/
 }
 </style>
 
-![Snakes and Ladders logo](../../../assets/images/logos/snakes_ladders.png "OWASP Snakes and Ladders"){: .image-right }
+![Snakes & Ladders logo](../../../assets/images/logos/snakes_ladders.png "OWASP Snakes & Ladders"){: .image-right }
 
 ### 7.9 OWASP Snakes and Ladders
 
@@ -40,7 +40,7 @@ Yes, it really is the snakes & ladders game, but for web and [mobile application
 
 In the board game for web applications, the virtuous behaviours (ladders) are secure coding practices
 (using the OWASP [Proactive Controls][proactive10]) and the vices (snakes)
-are application security risks from the [OWASP Top Ten][top10] 2017 version.
+are application security risks from the [OWASP Top Ten][top102017] 2017 version.
 
 The web application version can be downloaded for various languages:
 
@@ -76,6 +76,14 @@ When the project was first created there was a print run of the game on heavy du
 These were available at conferences and meetings - they were also available to be purchased online
 but this last option no longer seems to be available.  
 
+#### References
+
+* OWASP [Snakes & Ladders][snakes
+* OWASP [Proactive Controls][proactive10]
+* OWASP [Top Ten][top102017] 2017 version
+* OWASP [Mobile Top 10][mobile10controls]
+* OWASP [Cornucopia][cornucopia].
+
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
@@ -90,4 +98,4 @@ then [submit an issue][issue0909] or [edit on GitHub][edit0909].
 [proactive10]: https://owasp.org/www-project-proactive-controls/
 [snakes]: https://owasp.org/www-project-snakes-and-ladders/
 [snakeshowto]: https://owasp.org/www-project-snakes-and-ladders/#div-play
-[top10]: https://owasp.org/www-project-top-ten/
+[top102017]: https://owasp.org/www-project-top-ten/2017/

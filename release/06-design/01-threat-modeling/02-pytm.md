@@ -14,7 +14,7 @@ permalink: /release/design/threat_modeling/pytm/
 
 <style type="text/css">
 .image-right {
-  height: 200px;
+  height: 180px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -103,10 +103,11 @@ mkdir -p tm
 
 #### References
 
+* OWASP [Pythonic Threat Modeling][pytmproject] (pytm)
 * [Graphviz][graphviz]
 * [pandoc][pandoc]
 * [PlantUML][plantuml]
-* [pytm][pytmrepo]
+* [pytm][pytmrepo] repository
 * [Spotlight][spotlight06] on pytm
 * [Threat Modeling: a practical guide for development teams][TMchap4]
 

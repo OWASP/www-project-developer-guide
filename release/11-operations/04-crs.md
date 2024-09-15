@@ -55,6 +55,12 @@ To get started with CRS refer to the CRS [installation instructions][crs-downloa
 The OWASP Spotlight series provides an overview of how to use this CRS:
 'Project 3 - [Core Rule Set (CRS) - 1st Line of Defense][spotlight03]'.
 
+#### References
+
+* OWASP [CRS][crs]
+* OWASP [ModSecurity][modsec]
+* OWASP [Coraza][coraza]
+
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing

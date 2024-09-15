@@ -12,21 +12,39 @@ permalink: /release/foundations/secure_development/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
 ### 2.2 Secure development and integration
 
 Secure development is described in the OWASP Software Assurance Maturity Model [(SAMM)][samm]
-by the Design, Implementation and Verification business functions.
-Much of the material in this section is drawn from the OWASP [Integration Standards project][wayfinder].
+[Design][sammd], [Implementation][sammi] and [Verification][sammv] business functions.
+
+#### Prelude
+
+The best introduction to practical secure software development is the
+OWASP [Application Security Fragmentation][sdlc] article :
+
+_Or how I worried less and stood on the shoulders of giants._ - Spyros Gasteratos, Elie Saad
+
+Much of the material in this section is drawn from this OWASP [Integration Standards][intstand] project.
 
 #### Overview
 
 Almost all modern software is developed in an iterative manner passing through phase to phase,
 such as identifying customer requirements, implementation and test.
 These phases are revisited in a cyclic manner throughout the lifetime of the application.
-A generic Software Development LifeCycle (SDLC) is shown below, and in practice there may be more or less phases
-according to the processes adopted by the business.
+A notional Software Development LifeCycle (SDLC) is shown below, in practice there may be more or less phases
+according to the processes adopted by the organization.
 
-![SDLC Diagram](../../assets/images/sdlc_diag.png "typical SDLC diagram")
+![SDLC Lifecycle](../../../assets/images/sdlc_diag.png "notional SDLC lifecycle"){: .image-right }
 
 With the increasing number and sophistication of exploits against almost every application or business system,
 most companies have adopted a secure Software Development LifeCycle (SDLC).
@@ -37,18 +55,20 @@ Note that although the Secure SDLC could be written as 'SSDLC' it is almost alwa
 
 DevOps integrates and automates many of the SDLC phases and implements Continuous Integration (CI)
 and Continuous Delivery/Deployment (CD) pipelines to provide much of the SDLC automation.
-Examples of how DevSecOps is 'building security in' is the provision of
-Interactive, Static and Dynamic Application Security Testing (IAST, SAST & DAST)
-and implementing supply chain security, and there are many other security activities that can be applied.
 
 DevOps and pipelines have been successfully exploited with serious large scale consequences
-and so, in a similar manner to the SDLC, much of the DevOps actions have also had to have security built in.
+and so, in a similar manner to the SDLC, much of the DevOps actions have also had security built in to them.
 Secure DevOps, or DevSecOps, builds security practices into the DevOps activities to guard against attack
 and to provide the SDLC with automated security testing.
 
+Examples of how DevSecOps is 'building security in' is the provision of
+Interactive, Static and Dynamic Application Security Testing (IAST, SAST & DAST)
+and implementing supply chain security, and there are many other security activities that can be applied.
+Refer to the [CI/CD Security Cheat Sheet][cscicd] for the latest DevSecOps security controls.
+
 #### Secure development lifecycle
 
-Referring to the OWASP [Application Wayfinder][wayfinder] development cycle
+Referring to the OWASP [Application Security Wayfinder][intstand] development cycle
 there are four iterative phases during application development: Requirements, Design, Implementation and Verification.
 The other phases are done less iteratively in the development cycle but these form an equally important
 part of the SDLC: Gap Analysis, Metrics, Operation and Training & Culture Building.
@@ -127,6 +147,7 @@ There are many OWASP tools and resources to help build security into the SDLC.
 #### Further reading from OWASP
 
 * [Cheat Sheet Series][csproject]
+* [CI/CD Security Cheat Sheet][cscicd]
 * [Cornucopia][cornucopia]
 * [CycloneDX][cyclone] Bill of Materials (BOM) standard
 * [DevSecOps Guideline][devsecops]
@@ -139,7 +160,7 @@ There are many OWASP tools and resources to help build security into the SDLC.
 * [Application Security Verification Standard][asvs] (ASVS)
 * [Amass project][amass]
 * [Code Pulse][pulse]
-* [Defect Dojo][dojo]
+* [Defect Dojo][defectdojo]
 * [Mobile Application Security][masproject] (MAS)
 * [Nettacker][net]
 * [Offensive Web Testing Framework][owtf] (OWTF)
@@ -162,7 +183,7 @@ There are many OWASP tools and resources to help build security into the SDLC.
 * [Dependency-Check Software Composition Analysis (SCA)][depcheck]
 * [Dependency-Track Continuous SBOM Analysis Platform][deptrack]
 * [Enterprise Security API][esapi-project] (ESAPI)
-* [Integration Standards project Application Wayfinder][wayfinder]
+* [Integration Standards project Application Security Wayfinder][intstand]
 * [Mobile Application Security][mas] (MAS)
 * [Pythonic Threat Modeling][pytm]
 * [Threat Dragon][tdtm]
@@ -177,6 +198,7 @@ then [submit an issue][issue0402] or [edit on GitHub][edit0402].
 [apisec]: https://owasp.org/API-Security
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [champions]: https://owasp.org/www-project-security-champions-guidebook/
+[cscicd]: https://cheatsheetseries.owasp.org/cheatsheets/CI_CD_Security_Cheat_Sheet
 [cornucopia]: https://owasp.org/www-project-cornucopia/
 [cschain]: https://cheatsheetseries.owasp.org/cheatsheets/Software_Supply_Chain_Security
 [cscsrf]: https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet
@@ -187,7 +209,7 @@ then [submit an issue][issue0402] or [edit on GitHub][edit0402].
 [depcheck]: https://owasp.org/www-project-dependency-check/
 [deptrack]: https://dependencytrack.org/
 [devsecops]: https://owasp.org/www-project-devsecops-guideline/
-[dojo]: https://www.defectdojo.org/
+[defectdojo]: https://www.defectdojo.org/
 [edit0402]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/04-foundations/02-secure-development.md
 [esapi-project]: https://owasp.org/www-project-enterprise-security-api/
 [github]: https://github.com/
@@ -203,12 +225,16 @@ then [submit an issue][issue0402] or [edit on GitHub][edit0402].
 [pulse]: https://owasp.org/www-project-code-pulse/
 [pytm]: https://owasp.org/www-project-pytm/
 [samm]: https://owaspsamm.org/about/
+[sammd]: https://owaspsamm.org/model/design/
+[sammi]: https://owaspsamm.org/model/implementation/
+[sammv]: https://owaspsamm.org/model/verification/
+[sdlc]: https://owasp.org/www-project-integration-standards/writeups/owasp_in_sdlc/
 [sec-shep]: https://owasp.org/www-project-security-shepherd/
 [snakes]: https://owasp.org/www-project-snakes-and-ladders/
 [srat]: https://owasp.org/www-project-securityrat/
 [tdtm]: https://owasp.org/www-project-threat-dragon/
-[top10]: https://owasp.org/www-project-top-ten/
-[wayfinder]: https://owasp.org/www-project-integration-standards/
+[top10]: https://owasp.org/Top10/
+[intstand]: https://owasp.org/www-project-integration-standards/
 [webgoat]: https://owasp.org/www-project-webgoat/
 [wstg]: https://owasp.org/www-project-web-security-testing-guide/
 [zap]: https://www.zaproxy.org/
