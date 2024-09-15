@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 10040
+order: 10400
 permalink: /release/culture_building_and_process_maturing/application_security_verification_standard/
 
 ---

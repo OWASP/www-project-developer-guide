@@ -28,7 +28,7 @@ permalink: /release/training_education/vulnerable_applications/webgoat/
 
 The OWASP [WebGoat][webgoat] project is a deliberately insecure web application that can be
 used to attack common application vulnerabilities in a safe environment.
-It can also be used to exercise application security tools, such as [OWASP ZAP][zap], to practice
+It can also be used to exercise application security tools, such as [ZAP][zap], to practice
 scanning and identifying the various vulnerabilities built into WebGoat.
 
 WebGoat is a well established OWASP project and achieved Lab Project status many years ago.
@@ -111,6 +111,12 @@ Try out the WebGoat desktop environment by running `docker run -p 127.0.0.1:3000
 and navigating to `http://localhost:3000/`.
 
 There are various ways of configuring WebGoat, see the [github repo][goatgithub] for more details.
+
+#### References
+
+* OWASP [WebGoat][webgoat] and WebWolf
+* [Docker][dockerinstall]
+* [ZAP][zap]
 
 ----
 
