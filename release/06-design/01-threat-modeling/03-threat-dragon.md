@@ -80,6 +80,10 @@ The web application can be run using a [Docker container][tddocker] or from the 
 An important feature of Threat Dragon is the PDF report output which can be used for documentation
 and GRC compliance purposes; from the threat model meta-data window click on the Report button.
 
+#### References
+
+* OWASP [Threat Dragon][tdtm]
+
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
