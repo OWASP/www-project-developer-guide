@@ -12,6 +12,18 @@ permalink: /release-pt-br/security_gap_analysis/guides/software_assurance_maturi
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right-small {
+  height: 26px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![SAMM logo](../../../../assets/images/logos/samm.png "OWASP SAMM"){: .image-right-small }
+
 ### 11.1.1 Software Assurance Maturity Model
 
 The [Software Assurance Maturity Model][samm] (SAMM) project provides an effective and measurable way for
@@ -61,7 +73,26 @@ The OWASP Spotlight series provides an overview of using the SAMM:
 'Project 9 - [Software Assurance Maturity Model (SAMM)][spotlight09]'.
 
 Security gap analysis can benefit from an assessment which measures the quality of the software assurance maturity process.
-The [SAMM Assessment][samma] tools include spreadsheets and online tools such as [SAMMwise][samwise] and [SAMMY][sammy].
+The [SAMM Assessment][samma] tools include spreadsheets and online tools such as [SAMMwise][sammwise] and [SAMMY][sammy].
+
+The SAMM model describes these fundamentals of software security, which it calls Business Functions.
+Each of these five fundamentals are further split into three Business Practices:
+
+| Business Function       | Business Practices                 |                                        |        |
+| ----------------------- | ---------------------------------- | -------------------------------------- | ------ |
+| [Governance][sammg]     | [Strategy and Metrics][sammgsm]    | [Policy and Compliance][sammgpc]       | [Education and Guidance][sammgeg] |
+| [Design][sammd]         | [Threat Assessment][sammdta]       | [Security Requirements][sammdsr]       | [Secure Architecture][sammdsa]    |
+| [Implementation][sammi] | [Secure Build][sammisb]            | [Secure Deployment][sammisd]           | [Defect Management][sammidm]      |
+| [Verification][sammv]   | [Architecture Assessment][sammvaa] | [Requirements-driven Testing][sammvrt] | [Security Testing][sammvst]       |
+| [Operations][sammo]     | [Incident Management][sammoim]     | [Environment Management][sammoem]      | [Operational Management][sammoom] |
+
+Each Business Practice is further subdivided into two streams which provide different objectives for the same practice.
+
+#### References
+
+* OWASP [Software Assurance Maturity Model][samm] (SAMM)
+* [SAMMY][sammy] management tool
+* OWASP [SAMM project][samm-project]
 
 ----
 
@@ -73,11 +104,26 @@ then [submit an issue][issue130101] or [edit on GitHub][edit130101].
 [samm]: https://owaspsamm.org/about/
 [samma]: https://owaspsamm.org/assessment/
 [sammd]: https://owaspsamm.org/model/design/
+[sammdsa]: https://owaspsamm.org/model/design/secure-architecture/
+[sammdsr]: https://owaspsamm.org/model/design/security-requirements/
+[sammdta]: https://owaspsamm.org/model/design/threat-assessment/
 [sammg]: https://owaspsamm.org/model/governance/
+[sammgeg]: https://owaspsamm.org/model/governance/education-and-guidance/
+[sammgpc]: https://owaspsamm.org/model/governance/policy-and-compliance/
+[sammgsm]: https://owaspsamm.org/model/governance/strategy-and-metrics/
 [sammi]: https://owaspsamm.org/model/implementation/
+[sammidm]: https://owaspsamm.org/model/implementation/defect-management/
+[sammisb]: https://owaspsamm.org/model/implementation/secure-build/
+[sammisd]: https://owaspsamm.org/model/implementation/secure-deployment/
 [sammo]: https://owaspsamm.org/model/operations/
+[sammoem]: https://owaspsamm.org/model/operations/environment-management/
+[sammoim]: https://owaspsamm.org/model/operations/incident-management
+[sammoom]: https://owaspsamm.org/model/operations/operational-management/
 [sammv]: https://owaspsamm.org/model/verification/
+[sammvaa]: https://owaspsamm.org/model/verification/architecture-assessment/
+[sammvrt]: https://owaspsamm.org/model/verification/requirements-driven-testing/
+[sammvst]: https://owaspsamm.org/model/verification/security-testing/
 [samm-project]: https://owasp.org/www-project-samm/
-[samwise]: https://github.com/owaspsamm/sammwise
+[sammwise]: https://github.com/owaspsamm/sammwise
 [sammy]: https://sammy.codific.com/
 [spotlight09]: https://youtu.be/N0zcZnkH5Wg

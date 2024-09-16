@@ -3,7 +3,7 @@
 title: OWASP CRS
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Matteo Pace,
+contributors:
 document: OWASP Developer Guide
 order: 31040
 permalink: /release-pt-br/operations/crs/
@@ -54,6 +54,12 @@ To get started with CRS refer to the CRS [installation instructions][crs-downloa
 
 The OWASP Spotlight series provides an overview of how to use this CRS:
 'Project 3 - [Core Rule Set (CRS) - 1st Line of Defense][spotlight03]'.
+
+#### References
+
+* OWASP [CRS][crs]
+* OWASP [ModSecurity][modsec]
+* OWASP [Coraza][coraza]
 
 ----
 

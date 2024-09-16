@@ -3,7 +3,7 @@
 title: Threat Modeling in Practice
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Adam Shostack,
+contributors:
 document: OWASP Developer Guide
 order: 26110
 permalink: /release-pt-br/design/threat_modeling/practical_threat_modeling/
@@ -16,7 +16,11 @@ permalink: /release-pt-br/design/threat_modeling/practical_threat_modeling/
 
 This section discusses Threat Modeling, an activity described in the OWASP Software Assurance Maturity Model ([SAMM][samm]).
 Threat modeling is part of the [Threat Assessment][sammdta] security practice in the [Design][sammd] business function.
-Much of the material in this section is drawn from the OWASP [Threat Model project][otm].
+
+Much of the material in this section is drawn from the OWASP [Threat Model project][tmproject],
+and the philosophy of this section tries to follow the [Threat Modeling Manifesto][tmmanifesto].
+
+[![TMM logo](../../../../assets/images/logos/tmmanifesto.png "OWASP TM Manifesto"){: height="60px" }][tmmanifesto]
 
 #### Overview
 
@@ -140,7 +144,7 @@ so that they can agree on the framework to be used during the threat modeling ex
 
 This is a research activity to find the main threats that apply to your application.
 There are many ways to approach the question, including open discussion or using a structure to help think it through.
-Techniques and methodologies to consider include [CIA][cia], [STRIDE][stride], [LINDDUN][linddun],
+Techniques and methodologies to consider include CIA, [STRIDE][stride], [LINDDUN][linddun],
 [cyber kill chains][chains], [PASTA][pasta], common attack patterns ([CAPEC][capec]) and others.
 
 There are resources available that will help with identifying threats and vulnerabilities.
@@ -223,12 +227,12 @@ malicious actors (external or internal) trying to subvert your system.
 
 It is a good strategy to choose a threat categorisation methodology for the whole organisation
 and then try and keep to it.
-For example this could be [STRIDE][stride] or [LINDDUN][linddun], but if the [CIA][cia] triad provides enough granularity
+For example this could be [STRIDE][stride] or [LINDDUN][linddun], but if the CIA triad provides enough granularity
 then that is also a perfectly good choice.
 
 #### Further reading
 
-* [Threat Modeling Manifesto](https://www.threatmodelingmanifesto.org/)
+* [Threat Modeling Manifesto][tmmanifesto]
 * OWASP [Threat Model project][tmproject]
 * OWASP [Threat Modeling Cheat Sheet][cstm]
 * OWASP [Threat Modeling Playbook (OTMP)][tmpb]
@@ -260,7 +264,6 @@ then [submit an issue][issue060101] or [edit on GitHub][edit060101].
 [asacs]: https://cheatsheetseries.owasp.org/cheatsheets/Attack_Surface_Analysis_Cheat_Sheet
 [capec]: https://capec.mitre.org/
 [chains]: https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html
-[cia]: https://www.nccoe.nist.gov/publication/1800-25/VolA/index.html
 [corncards]: https://owasp.org/www-project-cornucopia/
 [ccsnet]: https://cheatsheetseries.owasp.org/cheatsheets/Network_Segmentation_Cheat_Sheet
 [cstm]: https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet
@@ -269,7 +272,6 @@ then [submit an issue][issue060101] or [edit on GitHub][edit060101].
 [issue060101]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/01-threat-modeling/01-threat-modeling
 [linddun]: https://linddun.org/
 [nist-cvss]: https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator
-[otm]: https://owasp.org/www-project-threat-model/
 [pasta]: https://versprite.com/blog/what-is-pasta-threat-modeling/
 [PYTM]: https://owasp.org/www-project-pytm/
 [samm]: https://owaspsamm.org/about/
@@ -278,9 +280,10 @@ then [submit an issue][issue060101] or [edit on GitHub][edit060101].
 [sammgata]: https://owaspsamm.org/guidance/agile/#TA
 [snakes]: https://owasp.org/www-project-snakes-and-ladders/
 [stride]: https://en.wikipedia.org/wiki/STRIDE_%28security%29
+[tdtm]: https://owasp.org/www-project-threat-dragon/
 [tmpb]: https://owasp.org/www-project-threat-modeling-playbook/
 [tmproject]: https://owasp.org/www-project-threat-model/
-[tdtm]: https://owasp.org/www-project-threat-dragon/
+[tmmanifesto]: https://www.threatmodelingmanifesto.org/
 [TM]: https://owasp.org/www-community/Threat_Modeling
 [TMP]: https://owasp.org/www-community/Threat_Modeling_Process
 [TMdesigning]: https://shostack.org/books/threat-modeling-book

@@ -14,9 +14,11 @@ permalink: /release-pt-br/
 
 ![Developer guide logo](../assets/images/dg_logo.png "OWASP Developer Guide"){: height="180px" }
 
-## OWASP Developer Guide
+### OWASP Developer Guide
 
-### Release version 4.1.3
+#### A Guide to Building Secure Web Applications and Web Services
+
+### Release version 4.1.4
 
 1 **[Introduction](03-introduction.md)**
 

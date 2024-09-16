@@ -65,6 +65,15 @@ it then may be useful to use the monolithic ESAPI library rather than multiple d
 If the engineering decision is to use the ESAPI library then it can be downloaded as a Java Archive (.jar) package file.
 There is a reference implementation for each security control.
 
+#### References
+
+* [ESAPI for Java][esapi-java]
+* ESAPI [documentation][esapi-docs]
+* ESAPI [project][esapi-project]
+* OWASP [Java Encoder][java-encoder] project
+* OWASP [Java HTML Sanitizer][java-sanitizer]
+* [Spring Security][spring]
+
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing

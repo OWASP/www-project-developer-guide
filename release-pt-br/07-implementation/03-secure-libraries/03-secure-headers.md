@@ -14,7 +14,7 @@ permalink: /release-pt-br/implementation/secure_libraries/secure_headers/
 
 <style type="text/css">
 .image-right {
-  height: 220px;
+  height: 180px;
   display: block;
   margin-left: auto;
   margin-right: auto;

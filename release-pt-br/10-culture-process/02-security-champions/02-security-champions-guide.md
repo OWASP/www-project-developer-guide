@@ -22,7 +22,7 @@ permalink: /release-pt-br/culture_building_and_process_maturing/security_champio
 }
 </style>
 
-![Guide logo](../../../../assets/images/logos/security_champions_guide.png "OWASP Security Champions Guide"){: .image-right }
+![Guide logo](../../../../assets/images/logos/secchampsguide.png "Security Champions Guide"){: .image-right }
 
 ### 8.2.2 Security Champions Guide
 

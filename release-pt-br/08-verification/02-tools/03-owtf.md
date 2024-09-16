@@ -12,8 +12,6 @@ permalink: /release-pt-br/verification/tools/offensive_web_testing_framework/
 
 {% include breadcrumb.html %}
 
-{% include breadcrumb.html %}
-
 <style type="text/css">
 .image-right {
   height: 180px;

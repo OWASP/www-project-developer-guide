@@ -12,7 +12,7 @@ permalink: /release-pt-br/implementation/dependencies/dependency_check/
 
 {% include breadcrumb.html %}
 
-![Dependency-Check logo](../../../../assets/images/logos/depcheck.png "OWASP Dependency-Check"){: height="150px" }
+[![DepCheck logo](../../../../assets/images/logos/depcheck.png "OWASP Dependency-Check"){: height="150px" }][depcheck]
 
 ### 5.2.1 Dependency-Check
 

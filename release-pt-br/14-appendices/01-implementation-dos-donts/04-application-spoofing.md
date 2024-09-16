@@ -3,7 +3,7 @@
 title: Application Spoofing
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Shruti Kulkarni
+contributors:
 document: OWASP Developer Guide
 order: 34140
 permalink: /release-pt-br/appendices/implementation_dos_donts/application_spoofing/

@@ -12,7 +12,7 @@ permalink: /release-pt-br/verification/frameworks/secure_codebox/
 
 {% include breadcrumb.html %}
 
-![SecureCodeBox logo](../../../../assets/images/logos/securecodebox.png "OWASP SecureCodeBox"){: height="180px" }
+[![SecureCodeBox logo](../../../../assets/images/logos/securecodebox.png "OWASP SecureCodeBox"){: height="180px" }][codebox]
 
 #### 6.3.1 secureCodeBox
 
@@ -79,6 +79,12 @@ OWASP secureCodeBox is fully scalable and can be separately configured for multi
 OWASP secureCodeBox runs on [Kubernetes][kube] and uses [Helm][helm] to install using the [Helm ChartMuseum][codebox-repo].
 There is an excellent '[Starting your First Scans][codebox-start]' guide to getting started with secureCodeBox,
 with the rest of the [documentation][codebox-docs] providing clear information on configuring and running secureCodeBox.
+
+#### References
+
+* OWASP [secureCodeBox][codebox]
+* [Kubernetes][kube] container orchestration
+* [Helm][helm] package manager for Kubernetes
 
 ----
 
