@@ -12,7 +12,7 @@ permalink: /draft/operations/coraza_waf/
 
 {% include breadcrumb.html %}
 
-[![Coraza logo](../../../assets/images/logos/coraza.png "OWASP Coraza"){: height="180px" }][coraza]
+![Coraza logo](../../../assets/images/logos/coraza.png "OWASP Coraza"){: height="160px" }
 
 ### 9.2 Coraza Web Application Firewall
 

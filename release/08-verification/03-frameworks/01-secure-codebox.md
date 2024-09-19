@@ -12,7 +12,7 @@ permalink: /release/verification/frameworks/secure_codebox/
 
 {% include breadcrumb.html %}
 
-[![SecureCodeBox logo](../../../../assets/images/logos/securecodebox.png "OWASP SecureCodeBox"){: height="180px" }][codebox]
+![SecureCodeBox logo](../../../../assets/images/logos/securecodebox.png "OWASP SecureCodeBox"){: height="180px" }
 
 #### 6.3.1 secureCodeBox
 

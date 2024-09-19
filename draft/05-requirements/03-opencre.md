@@ -12,7 +12,7 @@ permalink: /draft/requirements/opencre_integration_standard/
 
 {% include breadcrumb.html %}
 
-[OpenCRE logo](../../../assets/images/logos/opencre.png "OWASP OpenCRE"){: height="180px" }
+![OpenCRE logo](../../../assets/images/logos/opencre.png "OWASP OpenCRE"){: height="180px" }
 
 ### 3.3 OpenCRE
 

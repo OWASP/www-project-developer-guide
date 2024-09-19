@@ -145,33 +145,6 @@ docs:
 - title: '5.3.3 OWASP Secure Headers Project'
   url: implementation/secure_libraries/secure_headers
 
-- title: '5.4 Implementation Do''s and Don''ts'
-  url: implementation/dos_donts
-
-- title: '5.4.1 Container security'
-  url: implementation/dos_donts/container_security
-
-- title: '5.4.2 Secure coding'
-  url: implementation/dos_donts/secure_coding
-
-- title: '5.4.3 Cryptographic practices'
-  url: implementation/dos_donts/cryptographic_practices
-
-- title: '5.4.4 Application spoofing'
-  url: implementation/dos_donts/application_spoofing
-
-- title: '5.4.5 Content Security Policy (CSP)'
-  url: implementation/dos_donts/content_security_policy
-
-- title: '5.4.6 Exception and error handling'
-  url: implementation/dos_donts/exception_error_handling
-
-- title: '5.4.7 File management'
-  url: implementation/dos_donts/file_management
-
-- title: '5.4.8 Memory management'
-  url: implementation/dos_donts/memory_management
-
 - title: '6. Verification'
   url: verification
 
@@ -216,18 +189,6 @@ docs:
 
 - title: '6.4.1 DefectDojo'
   url: verification/vulnerability_management/defectdojo
-
-- title: '6.5 Verification Do''s and Don''ts'
-  url: verification/dos_donts
-
-- title: '6.5.1 Secure environment'
-  url: verification/dos_donts/secure_environment
-
-- title: '6.5.2 System hardening'
-  url: verification/dos_donts/system_hardening
-
-- title: '6.5.3 Open Source software'
-  url: verification/dos_donts/open_source_software
 
 - title: '7. Training and Education'
   url: training_education
@@ -333,3 +294,45 @@ docs:
 
 - title: '11.2 Bug Logging Tool'
   url: security_gap_analysis/bug_logging_tool
+
+- title: '12. Appendices'
+  url: appendices
+
+- title: '12.1 Implementation Do''s and Don''ts'
+  url: appendices/implementation_dos_donts
+
+- title: '12.1.1 Container security'
+  url: appendices/implementation_dos_donts/container_security
+
+- title: '12.1.2 Secure coding'
+  url: appendices/implementation_dos_donts/secure_coding
+
+- title: '12.1.3 Cryptographic practices'
+  url: appendices/implementation_dos_donts/cryptographic_practices
+
+- title: '12.1.4 Application spoofing'
+  url: appendices/implementation_dos_donts/application_spoofing
+
+- title: '12.1.5 Content Security Policy (CSP)'
+  url: appendices/implementation_dos_donts/content_security_policy
+
+- title: '12.1.6 Exception and error handling'
+  url: appendices/implementation_dos_donts/exception_error_handling
+
+- title: '12.1.7 File management'
+  url: appendices/implementation_dos_donts/file_management
+
+- title: '12.1.8 Memory management'
+  url: appendices/implementation_dos_donts/memory_management
+
+- title: '12.2 Verification Do''s and Don''ts'
+  url: appendices/verification_dos_donts
+
+- title: '12.2.1 Secure environment'
+  url: appendices/verification_dos_donts/secure_environment
+
+- title: '12.2.2 System hardening'
+  url: appendices/verification_dos_donts/system_hardening
+
+- title: '12.2.3 Open Source software'
+  url: appendices/verification_dos_donts/open_source_software
