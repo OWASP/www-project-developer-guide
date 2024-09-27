@@ -44,7 +44,7 @@ Sections:
 6.1.2 [MAS Testing Guide](#mas-testing-guide)  
 6.1.3 [Application Security Verification Standard](#application-security-verification-standard)  
 6.2 [Tools](#verification-tools)  
-6.2.1 [Zed Attack Proxy](#zed-attack-proxy)  
+6.2.1 [DAST](#dast)  
 6.2.2 [Amass](#amass)  
 6.2.3 [Offensive Web Testing Framework](#offensive-web-testing-framework)  
 6.2.4 [Nettacker](#nettacker)  
