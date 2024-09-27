@@ -56,17 +56,18 @@ know if the tool was configured correctly or was able to understand the web appl
 
 #### References
 
-* [Dynamic application security testing](https://en.wikipedia.org/wiki/Dynamic_application_security_testing)
-* [Vulnerability Scanning Tools](https://owasp.org/www-community/Vulnerability_Scanning_Tools)
+* [Dynamic application security testing][wikipedia]
+* [Vulnerability Scanning Tools][dast]
 
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue080201] or [edit on GitHub][edit080201].
 
-[edit080201]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/02-tools/01-dast.md
-[issue080201]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2008-verification/02-tools/01-dast
 [benchmark]: https://owasp.org/www-project-benchmark/
 [dast]: https://owasp.org/www-community/Vulnerability_Scanning_Tools
+[edit080201]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/02-tools/01-dast.md
+[issue080201]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2008-verification/02-tools/01-dast
+[wikipedia]: https://en.wikipedia.org/wiki/Dynamic_application_security_testing
 
 \newpage
