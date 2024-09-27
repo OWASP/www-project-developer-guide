@@ -37,9 +37,9 @@ by actually performing attacks.
 
 #### Different DAST tools
 
-The OWASP Community projects contains a [list of DAST tools](https://owasp.org/www-community/Vulnerability_Scanning_Tools)
+The OWASP Community projects contains a [list of DAST tools][dast]
 can be used to conduct DAST. All of these tools have their own strengths and weaknesses. If you are interested in the
-effectiveness of DAST tools, check out the OWASP Benchmark project, which is scientifically measuring the effectiveness of
+effectiveness of DAST tools, check out the [OWASP Benchmark][benchmark] project, which is scientifically measuring the effectiveness of
 all types of vulnerability detection tools, including DAST.
 
 #### Why use it?
@@ -66,5 +66,7 @@ then [submit an issue][issue080201] or [edit on GitHub][edit080201].
 
 [edit080201]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/02-tools/01-dast.md
 [issue080201]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2008-verification/02-tools/01-dast
+[benchmark]: https://owasp.org/www-project-benchmark/
+[dast]: https://owasp.org/www-community/Vulnerability_Scanning_Tools
 
 \newpage
