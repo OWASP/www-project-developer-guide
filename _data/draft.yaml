@@ -163,8 +163,8 @@ docs:
 - title: '6.2 Tools'
   url: verification/tools
 
-- title: '6.2.1 Zed Attack Proxy'
-  url: verification/tools/zed_attack_proxy
+- title: '6.2.1 DAST'
+  url: verification/tools/dast
 
 - title: '6.2.2 Amass'
   url: verification/tools/amass

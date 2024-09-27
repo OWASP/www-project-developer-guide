@@ -5,6 +5,7 @@ CVE
 CWE
 Cavalcanti
 Customizable
+dast
 DockerHub
 EscapeAll
 Flaxman
