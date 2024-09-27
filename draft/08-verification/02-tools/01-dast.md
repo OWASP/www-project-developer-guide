@@ -64,8 +64,6 @@ know if the tool was configured correctly or was able to understand the web appl
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue080201] or [edit on GitHub][edit080201].
 
-[crash]: https://crashoverride.com/open-source
-[cscicd]: https://cheatsheetseries.owasp.org/cheatsheets/CI_CD_Security_Cheat_Sheet
 [edit080201]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/02-tools/01-dast.md
 [issue080201]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2008-verification/02-tools/01-dast
 
