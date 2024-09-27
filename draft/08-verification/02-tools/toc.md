@@ -38,7 +38,7 @@ whereas manual security testing of high-risk components requires good knowledge 
 
 Sections:
 
-6.2.1 [Zed Attack Proxy](01-zap.md)  
+6.2.1 [DAST](01-dast.md)  
 6.2.2 [Amass](02-amass.md)  
 6.2.3 [Offensive Web Testing Framework](03-owtf.md)  
 6.2.4 [Nettacker](04-nettacker.md)  

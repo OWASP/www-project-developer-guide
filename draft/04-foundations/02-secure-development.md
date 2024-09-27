@@ -165,7 +165,6 @@ There are many OWASP tools and resources to help build security into the SDLC.
 * [Nettacker][net]
 * [Offensive Web Testing Framework][owtf] (OWTF)
 * [Web Security Testing Guide][wstg] (WSTG)
-* [Zed Attack Proxy][zap] (ZAP)
 
 #### OWASP training projects
 
@@ -237,6 +236,5 @@ then [submit an issue][issue0402] or [edit on GitHub][edit0402].
 [intstand]: https://owasp.org/www-project-integration-standards/
 [webgoat]: https://owasp.org/www-project-webgoat/
 [wstg]: https://owasp.org/www-project-web-security-testing-guide/
-[zap]: https://www.zaproxy.org/
 
 \newpage
