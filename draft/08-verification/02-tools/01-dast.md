@@ -22,28 +22,42 @@ permalink: /draft/verification/tools/dast/
 }
 </style>
 
-Dynamic application security testing (DAST) represents a non-functional testing process to identify security weaknesses and vulnerabilities in applications. The testing process can be carried out manually or be automated. Manual assessment of an application involves human intervention to identify security flaws which might slip from an automated tool. Usually business logic errors, race condition checks, and certain zero-day vulnerabilities can only be identified using manual assessments.
+Dynamic application security testing (DAST) represents a non-functional testing process to identify security weaknesses and
+vulnerabilities in applications. The testing process can be carried out manually or be automated. Manual assessment of an
+application involves human intervention to identify security flaws which might slip from an automated tool. Usually
+business logic errors, race condition checks, and certain zero-day vulnerabilities can only be identified using manual
+assessments.
 
 ### 6.2.1 DAST tools
 
-DAST tools are programs which communicates with a web application through the web front-end in order to identify potential security vulnerabilities in the web application and architectural weaknesses. It performs a black-box test. Unlike static application security testing tools, DAST tools do not have access to the source code and therefore detect vulnerabilities by actually performing attacks.
+DAST tools are programs which communicates with a web application through the web front-end in order to identify potential
+security vulnerabilities in the web application and architectural weaknesses. It performs a black-box test. Unlike static
+application security testing tools, DAST tools do not have access to the source code and therefore detect vulnerabilities
+by actually performing attacks.
 
 #### Different DAST tools
 
-The OWASP Community projects contains a [list of DAST tools](https://owasp.org/www-community/Vulnerability_Scanning_Tools) can be used to conduct DAST. All of these tools have their own strengths and weaknesses. If you are interested in the effectiveness of DAST tools, check out the OWASP Benchmark project, which is scientifically measuring the effectiveness of all types of vulnerability detection tools, including DAST.
+The OWASP Community projects contains a [list of DAST tools](https://owasp.org/www-community/Vulnerability_Scanning_Tools)
+can be used to conduct DAST. All of these tools have their own strengths and weaknesses. If you are interested in the
+effectiveness of DAST tools, check out the OWASP Benchmark project, which is scientifically measuring the effectiveness of
+all types of vulnerability detection tools, including DAST.
 
 #### Why use it?
 
-The big advantage of these types of tools are that they can scan year-round to be constantly searching for vulnerabilities. With new vulnerabilities being discovered regularly this allows companies to find and patch vulnerabilities before they can become exploited.
+The big advantage of these types of tools are that they can scan year-round to be constantly searching for vulnerabilities.
+With new vulnerabilities being discovered regularly this allows companies to find and patch vulnerabilities before they
+can become exploited.
 
 #### Cons
 
-Because these tools does dynamic testing, it cannot cover 100% of the source code of the application and then, the application itself. The penetration tester should look at the coverage of the web application or of its attack surface to know if the tool was configured correctly or was able to understand the web application.
+Because these tools does dynamic testing, it cannot cover 100% of the source code of the application and then, the
+application itself. The penetration tester should look at the coverage of the web application or of its attack surface to
+know if the tool was configured correctly or was able to understand the web application.
 
 #### References
 
 * [Dynamic application security testing](https://en.wikipedia.org/wiki/Dynamic_application_security_testing)
-* [Vulnerability Scanning Tools][https://owasp.org/www-community/Vulnerability_Scanning_Tools]
+* [Vulnerability Scanning Tools](https://owasp.org/www-community/Vulnerability_Scanning_Tools)
 
 ----
 
