@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Johan Sydseter, Jon Gadsden
 document: OWASP Developer Guide
-order: 8210
-permalink: /release/verification/tools/dast/
+order: 28210
+permalink: /release-pt-br/verification/tools/dast/
 
 ---
 
