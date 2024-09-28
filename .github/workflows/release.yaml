@@ -145,6 +145,11 @@ jobs:
           find release -name "*.md" -exec sed -i ':a; /^\n*$/{ s/\n//; N;  ba};' {} +
           find release -name "*.md" -exec sed -i '${/^$/d;}' {} +
 
+      - name: Fix up ToC sidebar
+        run: |
+          cp  _data/draft.yaml _data/release.yaml
+          sed -i "s/^docs_list_title.*/docs_list_title: Developer Guide/" _data/release.yaml
+
       - name: Retrieve pdfs and epubs
         uses: actions/download-artifact@v4.1.7
         with:
