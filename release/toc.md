@@ -18,7 +18,7 @@ permalink: /release/
 
 #### A Guide to Building Secure Web Applications and Web Services
 
-### Release version 4.1.5-RC1
+### Release version 4.1.5
 
 1 **[Introduction](03-introduction.md)**
 
