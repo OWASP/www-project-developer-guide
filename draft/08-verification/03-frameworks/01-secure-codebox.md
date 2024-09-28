@@ -62,7 +62,7 @@ OWASP secureCodeBox orchestrates a range of security-testing tools in various do
   * Nikto web server vulnerability scanner
   * Nuclei template based vulnerability scanner.
   * Screenshooter takes screenshots of websites
-  * ZAP and ZAP Advanced web application & OpenAPI vulnerability scanner extend with authentication features
+  * ZAP Advanced web application & OpenAPI vulnerability scanner
 
 Other tools may be added over time.
 

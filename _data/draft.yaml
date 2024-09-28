@@ -163,7 +163,7 @@ docs:
 - title: '6.2 Tools'
   url: verification/tools
 
-- title: '6.2.1 DAST'
+- title: '6.2.1 DAST tools'
   url: verification/tools/dast
 
 - title: '6.2.2 Amass'

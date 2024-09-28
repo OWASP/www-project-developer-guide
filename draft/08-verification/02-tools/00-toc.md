@@ -27,7 +27,7 @@ whereas manual security testing of high-risk components requires good knowledge 
 
 Sections:
 
-6.2.1 [DAST](#dast)  
+6.2.1 [DAST tools](#dast-tools)  
 6.2.2 [Amass](#amass)  
 6.2.3 [Offensive Web Testing Framework](#offensive-web-testing-framework)  
 6.2.4 [Nettacker](#nettacker)  
