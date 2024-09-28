@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Johan Sydseter, Jon Gadsden
 document: OWASP Developer Guide
-order: 821
-permalink: /draft/verification/tools/dast/
+order: 8210
+permalink: /release/verification/tools/dast/
 
 ---
 
@@ -70,5 +70,3 @@ then [submit an issue][issue080201] or [edit on GitHub][edit080201].
 [edit080201]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/02-tools/01-dast.md
 [issue080201]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2008-verification/02-tools/01-dast
 [wikipedia]: https://en.wikipedia.org/wiki/Dynamic_application_security_testing
-
-\newpage

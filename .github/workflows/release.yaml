@@ -120,7 +120,7 @@ jobs:
     name: Create pull request
     runs-on: ubuntu-24.04
     needs: create_artifacts
-    if: contains( ${{ github.ref_name }}, 'RC' ) == 'false'
+    if: ${{ !contains( github.ref_name, 'RC' ) }}
 
     steps:
       - name: Checkout markdown
@@ -208,6 +208,11 @@ jobs:
           echo "remove any multiple blank lines"
           find release -name "*.md" -exec sed -i ':a; /^\n*$/{ s/\n//; N;  ba};' {} +
           find release -name "*.md" -exec sed -i '${/^$/d;}' {} +
+
+      - name: Fix up ToC sidebar
+        run: |
+          cp  _data/draft.yaml _data/release.yaml
+          sed -i "s/^docs_list_title.*/docs_list_title: Developer Guide/" _data/release.yaml
 
       - name: Retrieve pdfs and epubs
         uses: actions/download-artifact@v4.1.7

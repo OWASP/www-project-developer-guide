@@ -48,7 +48,7 @@ This provides an overview of tools and techniques used for most SDLCs.
 * OWASP [Proactive Controls][proactiveocre]
 * OWASP [Cheat Sheets][csocre]
 * OWASP [WSTG][wstgocre]
-* [ZAP][zapocre] from [Crash Override][crash]
+* [ZAP][zapocre]
 
 The aim of this project is to 'Link all the things with OpenCRE' which will:
 
@@ -105,7 +105,6 @@ then [submit an issue][issue0503] or [edit on GitHub][edit0503].
 
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [capecocre]: https://opencre.org/search/CAPEC
-[crash]: https://crashoverride.com/
 [csocre]: https://opencre.org/search/OWASP%20Cheat%20Sheets
 [cweocre]: https://opencre.org/search/CWE
 [cwe]: https://cwe.mitre.org/
