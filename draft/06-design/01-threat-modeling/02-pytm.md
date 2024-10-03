@@ -123,10 +123,10 @@ then [submit an issue][issue060102] or [edit on GitHub][edit060102].
 [plantuml]: https://plantuml.com/
 [plantumljar]: https://plantuml.com/download
 [edit060102]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/01-threat-modeling/02-pytm.md
-[pytmrepo]: https://github.com/izar/pytm/
+[pytmrepo]: https://github.com/OWASP/pytm/
 [pytmproject]: https://owasp.org/www-project-pytm/
-[pytmexample]: https://github.com/izar/pytm/blob/master/tm.py
-[pytmreleases]: https://github.com/izar/pytm/releases
+[pytmexample]:https://github.com/OWASP/pytm/blob/master/tm.py
+[pytmreleases]:https://github.com/OWASP/pytm/releases
 [spotlight06]: https://youtu.be/oTqkPaEbTnE
 [TMchap4]: https://www.oreilly.com/library/view/threat-modeling/9781492056546/ch04.html
 
