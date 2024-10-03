@@ -68,7 +68,7 @@ for a step by step guide to this configuration process.
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue070202] or [edit on GitHub][edit070202].
 
-[cschain]: https://cheatsheetseries.owasp.org/cheatsheets/Software_Supply_Chain_Security
+[cschain]: https://cheatsheetseries.owasp.org/cheatsheets/Software_Supply_Chain_Security_Cheat_Sheet
 [deptrack]: https://dependencytrack.org/
 [deptrack-docs]: https://docs.dependencytrack.org/
 [deptrack-project]: https://owasp.org/www-project-dependency-track/

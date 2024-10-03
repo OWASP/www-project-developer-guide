@@ -81,7 +81,7 @@ and [various tools][cyclonedx-tools] can be chosen that are able to export the S
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue070203] or [edit on GitHub][edit070203].
 
-[cschain]: https://cheatsheetseries.owasp.org/cheatsheets/Software_Supply_Chain_Security
+[cschain]: https://cheatsheetseries.owasp.org/cheatsheets/Software_Supply_Chain_Security_Cheat_Sheet
 [csdisclose]: https://cheatsheetseries.owasp.org/cheatsheets/Vulnerability_Disclosure_Cheat_Sheet
 [cyclonedx]: https://cyclonedx.org/
 [cyclonedx-bomlink]: https://cyclonedx.org/capabilities/bomlink/

@@ -160,7 +160,7 @@ jobs:
           cp OWASP_Developer_Guide.epub assets/exports/.
 
       - name: Create release
-        if: !contains( github.ref_name, 'RC' )
+        if: ${{ ! contains( github.ref_name, 'RC' ) }}
         uses: peter-evans/create-pull-request@v7.0.1
         with:
           title: |
@@ -181,7 +181,7 @@ jobs:
           draft: false
 
       - name: Create release candidate
-        if: contains(github.ref_name, 'RC')
+        if: ${{ contains(github.ref_name, 'RC') }}
         uses: peter-evans/create-pull-request@v7.0.1
         with:
           title: |

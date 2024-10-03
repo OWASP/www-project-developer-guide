@@ -199,7 +199,7 @@ then [submit an issue][issue0402] or [edit on GitHub][edit0402].
 [champions]: https://owasp.org/www-project-security-champions-guidebook/
 [cscicd]: https://cheatsheetseries.owasp.org/cheatsheets/CI_CD_Security_Cheat_Sheet
 [cornucopia]: https://owasp.org/www-project-cornucopia/
-[cschain]: https://cheatsheetseries.owasp.org/cheatsheets/Software_Supply_Chain_Security
+[cschain]: https://cheatsheetseries.owasp.org/cheatsheets/Software_Supply_Chain_Security_Cheat_Sheet
 [cscsrf]: https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet
 [csproject]: https://owasp.org/www-project-cheat-sheets/
 [csrfguard]: https://owasp.org/www-project-csrfguard/
