@@ -12,79 +12,79 @@ permalink:
 
 {% include breadcrumb.html %}
 
-## Table of contents
+## Tabla de contenido
 
-1 **[Introduction](#introduction)**  
+1 **[Introducción](#introduction)**  
 
-2 **[Foundations](#foundations)**  
-2.1 [Security fundamentals](#security-fundamentals)  
-2.2 [Secure development and integration](#secure-development-and-integration)  
-2.3 [Principles of security](#principles-of-security)  
-2.4 [Principles of cryptography](#principles-of-cryptography)  
-2.5 [OWASP Top 10](#owasp-top-ten)  
+2 **[Fundamentos](#foundations)**  
+2.1 [Fundamentos de Seguridad](#security-fundamentals)  
+2.2 [Desarrollo e integración Segura](#secure-development-and-integration)  
+2.3 [Principios de Seguridad](#principles-of-security)  
+2.4 [Principios de Criptografía](#principles-of-cryptography)  
+2.5 [Top 10 de OWASP](#owasp-top-ten)  
 
-3 **[Requirements](#requirements)**  
-3.1 [Requirements in practice](#requirements-in-practice)  
-3.2 [Risk profile](#risk-profile)  
+3 **[Requerimientos](#requirements)**  
+3.1 [Requerimientos en la práctica](#requirements-in-practice)  
+3.2 [Perfil de riesgo](#risk-profile)  
 3.3 [OpenCRE](#opencre)  
 3.4 [SecurityRAT](#security-rat)  
-3.5 [Application Security Verification Standard](#application-security-verification-standard)  
-3.6 [Mobile Application Security](#mobile-application-security)  
-3.7 [Security Knowledge Framework](#security-knowledge-framework)  
+3.5 [Estandard de Verificación de Securidad de Aplicaciones](#application-security-verification-standard)  
+3.6 [Seguridad de aplicaciones móviles](#mobile-application-security)  
+3.7 [Framework de Conocimiento de Seguridad](#security-knowledge-framework)  
 
-4 **[Design](#design)**  
-4.1 [Threat modeling](#threat-modeling)  
-4.1.1 [Threat modeling in practice](#threat-modeling-in-practice)  
+4 **[Diseño](#design)**  
+4.1 [Modelado de amenazas](#threat-modeling)  
+4.1.1 [Modelado de amenazas en la práctica](#threat-modeling-in-practice)  
 4.1.2 [pytm](#pytm)  
 4.1.3 [Threat Dragon](#threat-dragon)  
 4.1.4 [Cornucopia](#cornucopia)  
 4.1.5 [LINDDUN GO](#linddun-go)  
-4.1.6 [Threat Modeling toolkit](#threat-modeling-toolkit)  
-4.2 [Web application checklist](#web-application-checklist)  
-4.2.1 [Checklist: Define Security Requirements](#checklist-define-security-requirements)  
-4.2.2 [Checklist: Leverage Security Frameworks and Libraries](#checklist-leverage-security-frameworks-and-libraries)  
-4.2.3 [Checklist: Secure Database Access](#checklist-secure-database-access)  
-4.2.4 [Checklist: Encode and Escape Data](#checklist-encode-and-escape-data)  
-4.2.5 [Checklist: Validate All Inputs](#checklist-validate-all-inputs)  
-4.2.6 [Checklist: Implement Digital Identity](#checklist-implement-digital-identity)  
-4.2.7 [Checklist: Enforce Access Controls](#checklist-enforce-access-controls)  
-4.2.8 [Checklist: Protect Data Everywhere](#checklist-protect-data-everywhere)  
-4.2.9 [Checklist: Implement Security Logging and Monitoring](#checklist-implement-security-logging-and-monitoring)  
-4.2.10 [Checklist: Handle all Errors and Exceptions](#checklist-handle-all-errors-and-exceptions)  
-4.3 [Mobile application checklist](#mobile-application-checklist)  
+4.1.6 [Kit de herramientas de modelado de amenazas](#threat-modeling-toolkit)  
+4.2 [Lista de verificación de aplicaciones web](#web-application-checklist)  
+4.2.1 [Lista de verificación: Definir requisitos de seguridad](#checklist-define-security-requirements)  
+4.2.2 [Lista de verificación: Aprovechar los frameworks y bibliotecas de seguridad](#checklist-leverage-security-frameworks-and-libraries)  
+4.2.3 [Lista de verificación: Asegurar el acceso a la base de datos](#checklist-secure-database-access)  
+4.2.4 [Lista de verificación: Codificar y escapar caracteres especiales en datos](#checklist-encode-and-escape-data)  
+4.2.5 [Lista de verificación: Validar todas las entradas](#checklist-validate-all-inputs)  
+4.2.6 [Lista de verificación: Implementar identidad digital](#checklist-implement-digital-identity)  
+4.2.7 [Lista de verificación: Hacer respetar los controles de acceso](#checklist-enforce-access-controls)  
+4.2.8 [Lista de verificación: Proteger los datos en todas partes](#checklist-protect-data-everywhere)  
+4.2.9 [Lista de verificación: Implementar registro y monitoreo de seguridad](#checklist-implement-security-logging-and-monitoring)  
+4.2.10 [Lista de verificación: Manejar todos los errores y excepciones](#checklist-handle-all-errors-and-exceptions)  
+4.3 [Lista de verificación de aplicaciones móviles](#mobile-application-checklist)  
 
-5 **[Implementation](#implementation)**  
-5.1 [Documentation](#documentation)  
-5.1.1 [Top 10 Proactive Controls](#top-proactive-controls)  
-5.1.2 [Go Secure Coding Practices](#go-secure-coding-practices)  
-5.1.3 [Cheatsheet Series](#cheatsheet-series)  
-5.2 [Dependencies](#dependencies)
+5 **[Implementación](#implementation)**  
+5.1 [Documentación](#documentation)  
+5.1.1 [Los Top 10 controles proactivos](#top-proactive-controls)  
+5.1.2 [Prácticas de codificación seguras de Go](#go-secure-coding-practices)  
+5.1.3 [Serie de hojas de referencia](#cheatsheet-series)  
+5.2 [Dependencias](#dependencies)
 5.2.1 [Dependency-Check](#dependency-check)  
 5.2.2 [Dependency-Track](#dependency-track)  
 5.2.3 [CycloneDX](#cyclonedx)  
-5.3 [Secure Libraries](#secure-libraries)  
-5.3.1 [Enterprise Security API library](#enterprise-security-api-library)  
-5.3.2 [CSRFGuard library](#csrfguard-library)  
-5.3.3 [OWASP Secure Headers Project](#owasp-secure-headers-project)  
+5.3 [Librerías seguras](#secure-libraries)  
+5.3.1 [Librería de API de seguridad empresarial](#enterprise-security-api-library)  
+5.3.2 [Librería CSRFGuard](#csrfguard-library)  
+5.3.3 [Proyecto OWASP Secure Headers](#owasp-secure-headers-project)  
 
-6 **[Verification](#verification)**  
-6.1 [Guides](#verification-guides)  
-6.1.1 [Web Security Testing Guide](#web-security-testing-guide)  
-6.1.2 [MAS Testing Guide](#mas-testing-guide)  
-6.1.3 [Application Security Verification Standard](#application-security-verification-standard)  
-6.2 [Tools](#verification-tools)  
+6 **[Verificación](#verification)**  
+6.1 [Guías](#verification-guides)  
+6.1.1 [Guía de testeo de seguridad web](#web-security-testing-guide)  
+6.1.2 [Guía de testeo MAS](#mas-testing-guide)  
+6.1.3 [Estándar de verificación de seguridad de aplicaciones](#application-security-verification-standard)  
+6.2 [Herramientas](#verification-tools)  
 6.2.1 [Zed Attack Proxy](#zed-attack-proxy)  
 6.2.2 [Amass](#amass)  
 6.2.3 [Offensive Web Testing Framework](#offensive-web-testing-framework)  
 6.2.4 [Nettacker](#nettacker)  
-6.2.5 [OWASP Secure Headers Project](#secure-headers-project)  
+6.2.5 [Proyecto OWASP Secure Headers](#secure-headers-project)  
 6.3 [Frameworks](#verification-frameworks)  
-6.3.1 [secureCodeBox](#securecodebox)  
-6.4 [Vulnerability management](#verification-vulnerability-management)  
+6.3.1 [SecureCodeBox](#securecodebox)  
+6.4 [Gestión de vulnerabilidades](#verification-vulnerability-management)  
 6.4.1 [DefectDojo](#defectdojo)  
 
-7 **[Training and Education](#training-and-education)**  
-7.1 [Vulnerable Applications](#vulnerable-applications)  
+7 **[Capacitación y Educación](#training-and-education)**  
+7.1 [Aplicaciones vulnerables](#vulnerable-applications)  
 7.1.1 [Juice Shop](#juice-shop)  
 7.1.2 [WebGoat](#webgoat)  
 7.1.3 [PyGoat](#pygoat)  
@@ -92,50 +92,50 @@ permalink:
 7.2 [Secure Coding Dojo](#secure-coding-dojo)  
 7.3 [Security Knowledge Framework](#security-knowledge-framework-training)  
 7.4 [SamuraiWTF](#samuraiwtf)  
-7.5 [OWASP Top 10 project](#owasp-top-ten-project)  
+7.5 [Proyecto OWASP Top 10](#owasp-top-ten-project)  
 7.6 [Mobile Top 10](#mobile-top-ten)  
 7.7 [API Top 10](#api-top-ten)  
 7.8 [WrongSecrets](#wrongsecrets)  
 7.9 [OWASP Snakes and Ladders](#owasp-snakes-and-ladders)  
 
-8 **[Culture building and Process maturing](#culture-building-and-process-maturing)**  
-8.1 [Security Culture](#security-culture)  
-8.2 [Security Champions](#security-champions)  
-8.2.1 [Security champions program](#security-champions-program)  
-8.2.2 [Security Champions Guide](#security-champions-guide)  
-8.2.3 [Security Champions Playbook](#security-champions-playbook)  
-8.3 [Software Assurance Maturity Model](#software-assurance-maturity-model)  
-8.4 [Application Security Verification Standard](#application-security-verification-standard)  
-8.5 [Mobile Application Security](#mobile-application-security)  
+8 **[Desarrollo de cultura y maduración de procesos](#culture-building-and-process-maturing)**  
+8.1 [Cultura de seguridad](#security-culture)  
+8.2 [Defensores de Seguridad](#security-champions)  
+8.2.1 [Programa de Defensores de seguridad](#security-champions-program)  
+8.2.2 [Guía de Defensores de seguridad](#security-champions-guide)  
+8.2.3 [Manual de Defensores de seguridad](#security-champions-playbook)  
+8.3 [Modelo de madurez de garantía de software](#software-assurance-maturity-model)  
+8.4 [Estándar de verificación de seguridad de aplicaciones](#application-security-verification-standard)  
+8.5 [Seguridad de aplicaciones móviles](#mobile-application-security)  
 
-9 **[Operations](#operations)**  
-9.1 [DevSecOps Guideline](#devsecops-guideline)  
-9.2 [Coraza Web Application Firewall](#coraza-web-application-firewall)  
-9.3 [ModSecurity Web Application Firewall](#modsecurity-web-application-firewall)  
+9 **[Operaciones](#operations)**  
+9.1 [Directriz DevSecOps](#devsecops-guideline)  
+9.2 [Firewall de aplicaciones web Coraza](#coraza-web-application-firewall)  
+9.3 [Firewall de aplicaciones web ModSecurity](#modsecurity-web-application-firewall)  
 9.4 [OWASP CRS](#owasp-crs)  
 
-10 **[Metrics](#metrics)**  
+10 **[Métricas](#metrics)**  
 
-11 **[Security gap analysis](#security-gap-analysis)**  
-11.1 [Guides](#security-gap-analysis-guides)  
-11.1.1 [Software Assurance Maturity Model](#software-assurance-maturity-model)  
-11.1.2 [Application Security Verification Standard](#application-security-verification-standard)  
-11.1.3 [Mobile Application Security](#mobile-application-security)  
-11.2 [Bug Logging Tool](#bug-logging-tool)  
+11 **[Análisis de brechas de seguridad](#security-gap-analysis)**  
+11.1 [Guías](#security-gap-analysis-guides)  
+11.1.1 [Modelo de madurez de garantía de software](#software-assurance-maturity-model)  
+11.1.2 [Estándar de verificación de seguridad de aplicaciones](#application-security-verification-standard)  
+11.1.3 [Seguridad de aplicaciones móviles](#mobile-application-security)  
+11.2 [Herramienta de registro de errores](#bug-logging-tool)  
 
-12 **[Appendices](#appendices)**  
-12.1 [Implementation Do's and Don'ts](#implementation-dos-and-donts)  
-12.1.1 [Container security](#container-security)  
-12.1.2 [Secure coding](#secure-coding)  
-12.1.3 [Cryptographic practices](#cryptographic-practices)  
-12.1.4 [Application spoofing](#application-spoofing)  
-12.1.5 [Content Security Policy (CSP)](#content-security-policy)  
-12.1.6 [Exception and error handling](#exception-and-error-handling)  
-12.1.7 [File management](#file-management)  
-12.1.8 [Memory management](#memory-management)  
-12.2 [Verification Do's and Don'ts](#verification-dos-and-donts)  
-12.2.1 [Secure environment](#secure-environment)  
-12.2.2 [System hardening](#system-hardening)  
-12.2.3 [Open Source software](#open-source-software)  
+12 **[Apéndices](#appendices)**  
+12.1 [Qué hacer y qué no hacer en la implementación](#implementation-dos-and-donts)  
+12.1.1 [Seguridad de Contenedores](#container-security)  
+12.1.2 [Codificación segura](#secure-coding)  
+12.1.3 [Prácticas criptográficas](#cryptographic-practices)  
+12.1.4 [Suplantación de aplicaciones](#application-spoofing)  
+12.1.5 [Política de seguridad de contenido (CSP)](#content-security-policy)  
+12.1.6 [Manejo de excepciones y errores](#exception-and-error-handling)  
+12.1.7 [Administración de archivos](#file-management)  
+12.1.8 [Administración de memoria](#memory-management)  
+12.2 [Qué hacer y qué no hacer en la verificación](#verification-dos-and-donts)  
+12.2.1 [Entorno seguro](#secure-environment)  
+12.2.2 [Refuerzo de seguridad del sistema](#system-hardening)  
+12.2.3 [Software de código abierto](#open-source-software)  
 
 \newpage
