@@ -12,12 +12,13 @@ permalink:
 
 {% include breadcrumb.html %}
 
-## ![Developer Guide](../assets/images/dg_logo.png)
+## ![Guía del Desarrollador](../assets/images/dg_logo.png)
 
-### OWASP Developer Guide (draft)
+### OWASP Guía del Desarrollador(Borrador)
 
-#### A Guide to Building Secure Web Applications and Web Services
+#### Una Guía para desarrollar Aplicaciones Web y Servicios Web Seguros
 
-This draft version has the latest contributions to the Developer Guide so expect frequent changes in the content.
+Esta versión borrador contiene las últimas contribuciones a la Guía del Desarrollador así que se espera cambios frecuentes en el contenido.
+
 
 \newpage
