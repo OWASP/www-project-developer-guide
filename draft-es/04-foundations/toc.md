@@ -24,29 +24,29 @@ permalink: /draft/foundations/
 
 ![Developer guide logo](../../assets/images/dg_logo.png "OWASP Developer Guide"){: .image-right }
 
-## 2. Foundations
+## 2. Fundamentos
 
-There are various foundational concepts and terminology that are commonly used in software security.
-Although many of these concepts are complex to implement and are based on heavy-duty theory,
-the principles are often fairly straight forward and are accessible for every software engineer.
+Existen varios conceptos y terminología fundamentales que se utilizan comúnmente en seguridad de software.
+Aunque muchos de estos conceptos son complejos de implementar y se basan en una teoría muy estricta,
+Los principios suelen ser bastante sencillos y accesibles para todos los ingenieros de software.
 
-A reasonable grasp of these foundational concepts allows development teams to understand and implement
-software security for the application or system under development.
-This Developer Guide can only give a brief overview of these concepts,
-for in-depth knowledge refer to the many texts on security such as the [The Cyber Security Body Of Knowledge][cbok].
+Una comprensión razonable de estos conceptos fundamentales permite a los equipos de desarrollo comprender e implementar
+Seguridad de software para la aplicación o sistema en desarrollo.
+Esta Guía para desarrolladores solo puede brindar una breve descripción general de estos conceptos.
+para obtener conocimientos más profundos, consulte los numerosos textos sobre seguridad, como [El conjunto de conocimientos sobre seguridad cibernética] [cbok].
 
-Sections:
+Secciones:
 
-2.1 [Security fundamentals](01-security-fundamentals.md)  
-2.2 [Secure development and integration](02-secure-development.md)  
-2.3 [Principles of security](03-security-principles.md)  
-2.4 [Principles of cryptography](04-crypto-principles.md)  
-2.5 [OWASP Top 10](05-top-ten.md)  
+2.1 [Fundamentos de seguridad](01-security-fundamentals.md)  
+2.2 [Desarrollo e integración seguros](02-secure-development.md)  
+2.3 [Principios de seguridad](03-security-principles.md)  
+2.4 [Principios de criptografía](04-crypto-principles.md)  
+2.5 [Top 10 de OWASP](05-top-ten.md)  
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0400] or [edit on GitHub][edit0400].
+La Guía para desarrolladores de OWASP es un esfuerzo comunitario; si hay algo que necesita cambio
+entonces [cree un issue][issue0400] o [edítelo en GitHub][edit0400]
 
 [cbok]: https://www.cybok.org/
 [edit0400]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/04-foundations/toc.md
