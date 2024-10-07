@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Roxana Calderon, Shruti Kulkarni
 document: OWASP Developer Guide
-order: 1418
+order: 54180
 permalink: /release-es/appendices/implementation_dos_donts/memory_management/
 
 ---

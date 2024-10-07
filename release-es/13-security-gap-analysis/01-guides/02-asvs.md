@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Roxana Calderon, Jon Gadsden
 document: OWASP Developer Guide
-order: 1312
+order: 53120
 permalink: /release-es/security_gap_analysis/guides/application_security_verification_standard/
 
 ---

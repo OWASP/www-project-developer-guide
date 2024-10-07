@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Roxana Calderon, Jon Gadsden
 document: OWASP Developer Guide
-order: 507
+order: 45070
 permalink: /release-es/requirements/security_knowledge_framework/
 
 ---

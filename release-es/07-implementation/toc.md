@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Roxana Calderon, Jon Gadsden
 document: OWASP Developer Guide
-order: 700
+order: 47000
 permalink: /release-es/implementation/
 
 ---

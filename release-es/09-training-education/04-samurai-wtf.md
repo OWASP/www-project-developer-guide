@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Roxana Calderon, Jon Gadsden
 document: OWASP Developer Guide
-order: 922
+order: 49220
 permalink: /release-es/training_education/samurai_wtf/
 
 ---

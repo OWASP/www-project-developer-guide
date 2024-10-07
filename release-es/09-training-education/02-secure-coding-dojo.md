@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Roxana Calderon, Jon Gadsden
 document: OWASP Developer Guide
-order: 920
+order: 49200
 permalink: /release-es/training_education/secure_coding_dojo/
 
 ---

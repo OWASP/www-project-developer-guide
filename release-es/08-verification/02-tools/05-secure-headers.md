@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Roxana Calderon, Jon Gadsden
 document: OWASP Developer Guide
-order: 825
+order: 48250
 permalink: /release-es/verification/tools/secure_headers/
 
 ---

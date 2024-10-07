@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Roxana Calderon, Jon Gadsden, Andreas Happe
 document: OWASP Developer Guide
-order: 624
+order: 46240
 permalink: /release-es/design/web_app_checklist/encode_escape_data/
 
 ---

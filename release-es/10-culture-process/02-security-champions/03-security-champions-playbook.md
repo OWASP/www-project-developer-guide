@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Roxana Calderon, Jon Gadsden
 document: OWASP Developer Guide
-order: 1023
+order: 50230
 permalink: /release-es/culture_building_and_process_maturing/security_champions/security_champions_playbook/
 
 ---

@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Roxana Calderon, Jon Gadsden
 document: OWASP Developer Guide
-order: 723
+order: 47230
 permalink: /release-es/implementation/dependencies/cyclonedx/
 
 ---

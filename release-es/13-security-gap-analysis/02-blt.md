@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Roxana Calderon, Jon Gadsden
 document: OWASP Developer Guide
-order: 1320
+order: 53200
 permalink: /release-es/security_gap_analysis/bug_logging_tool/
 
 ---

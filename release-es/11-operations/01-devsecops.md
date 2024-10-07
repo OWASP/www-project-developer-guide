@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Roxana Calderon, Jon Gadsden
 document: OWASP Developer Guide
-order: 1101
+order: 51010
 permalink: /release-es/operations/devsecops_guideline/
 
 ---

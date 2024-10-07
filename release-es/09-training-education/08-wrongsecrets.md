@@ -4,7 +4,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Roxana Calderon, Ben de Haan 
 document: OWASP Developer Guide
-order: 926
+order: 49260
 permalink: /release-es/training_education/wrongsecrets/
 ---
 
