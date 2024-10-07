@@ -3,7 +3,7 @@
 title: Requirements
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden, Andreas Happe
+contributors: Roxana Calderon, Jon Gadsden, Andreas Happe
 document: OWASP Developer Guide
 order: 500
 permalink: /release-es/requirements/

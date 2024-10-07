@@ -2,7 +2,7 @@
 title: WrongSecrets
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Ben de Haan 
+contributors: Roxana Calderon, Ben de Haan 
 document: OWASP Developer Guide
 order: 926
 permalink: /release-es/training_education/wrongsecrets/

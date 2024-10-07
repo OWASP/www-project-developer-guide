@@ -3,7 +3,7 @@
 title: Implementation Dependencies
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors: Roxana Calderon, Jon Gadsden
 document: OWASP Developer Guide
 order: 720
 permalink: /release-es/implementation/dependencies/

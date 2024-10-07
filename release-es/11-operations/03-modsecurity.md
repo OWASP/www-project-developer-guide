@@ -3,7 +3,7 @@
 title: ModSecurity Web Application Firewall
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors: Roxana Calderon, Jon Gadsden
 document: OWASP Developer Guide
 order: 1103
 permalink: /release-es/operations/modsecurity_waf/

@@ -3,7 +3,7 @@
 title: Security Champions
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors: Roxana Calderon, Jon Gadsden
 document: OWASP Developer Guide
 order: 1020
 permalink: /release-es/culture_building_and_process_maturing/security_champions/

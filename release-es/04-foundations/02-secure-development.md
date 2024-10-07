@@ -3,7 +3,7 @@
 title: Secure Development and Integration
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors: Roxana Calderon, Jon Gadsden
 document: OWASP Developer Guide
 order: 402
 permalink: /release-es/foundations/secure_development/

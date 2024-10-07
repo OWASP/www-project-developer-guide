@@ -3,7 +3,7 @@
 title: Web Application Checklist
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors: Roxana Calderon, Jon Gadsden
 document: OWASP Developer Guide
 order: 620
 permalink: /release-es/design/web_app_checklist/

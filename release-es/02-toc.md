@@ -3,7 +3,7 @@
 title: Table of Contents
 layout: col-document
 tags: OWASP Developer Guide
-contributors:
+contributors: Roxana Calderon
 document: OWASP Developer Guide
 order:
 permalink:

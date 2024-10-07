@@ -3,7 +3,7 @@
 title: secureCodeBox
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors: Roxana Calderon, Jon Gadsden
 document: OWASP Developer Guide
 order: 831
 permalink: /release-es/verification/frameworks/secure_codebox/

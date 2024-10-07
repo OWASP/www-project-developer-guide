@@ -3,7 +3,7 @@
 title: SamuraiWTF
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors: Roxana Calderon, Jon Gadsden
 document: OWASP Developer Guide
 order: 922
 permalink: /release-es/training_education/samurai_wtf/

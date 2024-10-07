@@ -3,7 +3,7 @@
 title: Nettacker
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors: Roxana Calderon, Jon Gadsden
 document: OWASP Developer Guide
 order: 824
 permalink: /release-es/verification/tools/nettacker/

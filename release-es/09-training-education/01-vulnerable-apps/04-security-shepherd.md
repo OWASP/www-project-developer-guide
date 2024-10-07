@@ -3,7 +3,7 @@
 title: Security Shepherd
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors: Roxana Calderon, Jon Gadsden
 document: OWASP Developer Guide
 order: 914
 permalink: /release-es/training_education/vulnerable_applications/security_shepherd/

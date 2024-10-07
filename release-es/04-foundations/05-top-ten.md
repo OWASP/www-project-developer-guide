@@ -3,7 +3,7 @@
 title: OWASP Top Ten
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors: Roxana Calderon, Jon Gadsden
 document: OWASP Developer Guide
 order: 405
 permalink: /release-es/foundations/owasp_top_ten/

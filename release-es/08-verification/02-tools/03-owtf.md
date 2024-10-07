@@ -3,7 +3,7 @@
 title: Offensive Web Testing Framework
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors: Roxana Calderon, Jon Gadsden
 document: OWASP Developer Guide
 order: 823
 permalink: /release-es/verification/tools/offensive_web_testing_framework/

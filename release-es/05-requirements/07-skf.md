@@ -3,7 +3,7 @@
 title: Security Knowledge Framework
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors: Roxana Calderon, Jon Gadsden
 document: OWASP Developer Guide
 order: 507
 permalink: /release-es/requirements/security_knowledge_framework/

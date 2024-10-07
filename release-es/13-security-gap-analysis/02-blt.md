@@ -3,7 +3,7 @@
 title: Bug Logging Tool
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors: Roxana Calderon, Jon Gadsden
 document: OWASP Developer Guide
 order: 1320
 permalink: /release-es/security_gap_analysis/bug_logging_tool/

@@ -3,7 +3,7 @@
 title: File Management
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Shruti Kulkarni
+contributors: Roxana Calderon, Shruti Kulkarni
 document: OWASP Developer Guide
 order: 1417
 permalink: /release-es/appendices/implementation_dos_donts/file_management/

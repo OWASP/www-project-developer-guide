@@ -3,7 +3,7 @@
 title: Enterprise Security API library
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors: Roxana Calderon, Jon Gadsden
 document: OWASP Developer Guide
 order: 731
 permalink: /release-es/implementation/secure_libraries/esapi/

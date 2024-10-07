@@ -3,7 +3,7 @@
 title: Secure Coding Dojo
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors: Roxana Calderon, Jon Gadsden
 document: OWASP Developer Guide
 order: 920
 permalink: /release-es/training_education/secure_coding_dojo/

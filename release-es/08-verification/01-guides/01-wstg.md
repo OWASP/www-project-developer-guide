@@ -3,7 +3,7 @@
 title:  Web Security Testing Guide
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors: Roxana Calderon, Jon Gadsden
 document: OWASP Developer Guide
 order: 811
 permalink: /release-es/verification/guides/web_security_testing_guide/

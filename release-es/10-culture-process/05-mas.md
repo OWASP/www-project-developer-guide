@@ -3,7 +3,7 @@
 title: Mobile Application Security
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors: Roxana Calderon, Jon Gadsden
 document: OWASP Developer Guide
 order: 1050
 permalink: /release-es/culture_building_and_process_maturing/mobile_application_security/

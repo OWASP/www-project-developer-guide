@@ -3,7 +3,7 @@
 title: Vulnerable Applications
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors: Roxana Calderon, Jon Gadsden
 document: OWASP Developer Guide
 order: 910
 permalink: /release-es/training_education/vulnerable_applications/

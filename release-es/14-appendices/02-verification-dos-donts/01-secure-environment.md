@@ -3,7 +3,7 @@
 title: Secure Environment
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Shruti Kulkarni
+contributors: Roxana Calderon, Shruti Kulkarni
 document: OWASP Developer Guide
 order: 1421
 permalink: /release-es/appendices/verification_dos_donts/secure_environment/

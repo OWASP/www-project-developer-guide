@@ -3,7 +3,7 @@
 title: Application Security Verification Standard
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors: Roxana Calderon, Jon Gadsden
 document: OWASP Developer Guide
 order: 813
 permalink: /release-es/verification/guides/application_security_verification_standard/

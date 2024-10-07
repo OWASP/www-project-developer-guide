@@ -3,7 +3,7 @@
 title: Define Security Requirements Checklist
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden, Andreas Happe
+contributors: Roxana Calderon, Jon Gadsden, Andreas Happe
 document: OWASP Developer Guide
 order: 621
 permalink: /release-es/design/web_app_checklist/define_security_requirements/

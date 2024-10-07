@@ -3,7 +3,7 @@
 title: Risk Profile
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors: Roxana Calderon, Jon Gadsden
 document: OWASP Developer Guide
 order: 502
 permalink: /release-es/requirements/risk_profile/

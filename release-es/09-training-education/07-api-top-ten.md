@@ -3,7 +3,7 @@
 title: API Top 10
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors: Roxana Calderon, Jon Gadsden
 document: OWASP Developer Guide
 order: 925
 permalink: /release-es/training_education/api_top_ten/

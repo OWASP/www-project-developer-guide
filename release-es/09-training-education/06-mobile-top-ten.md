@@ -3,7 +3,7 @@
 title: Mobile Top 10
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors: Roxana Calderon, Jon Gadsden
 document: OWASP Developer Guide
 order: 924
 permalink: /release-es/training_education/mobile_top_ten/

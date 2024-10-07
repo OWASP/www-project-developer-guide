@@ -3,7 +3,7 @@
 title: Memory Management
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Shruti Kulkarni
+contributors: Roxana Calderon, Shruti Kulkarni
 document: OWASP Developer Guide
 order: 1418
 permalink: /release-es/appendices/implementation_dos_donts/memory_management/

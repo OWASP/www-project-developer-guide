@@ -3,7 +3,7 @@
 title: OpenCRE and Integration Standards
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors: Roxana Calderon, Jon Gadsden
 document: OWASP Developer Guide
 order: 503
 permalink: /release-es/requirements/integration_standard_opencre/

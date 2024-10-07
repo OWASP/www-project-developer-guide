@@ -3,7 +3,7 @@
 title: Zed Attack Proxy
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors: Roxana Calderon, Jon Gadsden
 document: OWASP Developer Guide
 order: 821
 permalink: /release-es/verification/tools/zed_attack_proxy/

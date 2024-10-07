@@ -3,7 +3,7 @@
 title: Security Fundamentals
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors: Roxana Calderon, Jon Gadsden
 document: OWASP Developer Guide
 order: 401
 permalink: /release-es/foundations/security_fundamentals/
