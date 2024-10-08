@@ -111,7 +111,7 @@ then [submit an issue][issue070101] or [edit on GitHub][edit070101].
 [control4]: https://top10proactive.owasp.org/the-top-10/c4-secure-architecture/
 [control5]: https://top10proactive.owasp.org/the-top-10/c5-secure-by-default/
 [control6]: https://top10proactive.owasp.org/the-top-10/c6-use-secure-dependencies/
-[control7]: https://top10proactive.owasp.org/the-top-10/c7-implement-digital-identity/
+[control7]: https://top10proactive.owasp.org/the-top-10/c7-secure-digital-identities/
 [control8]: https://top10proactive.owasp.org/the-top-10/c8-help-the-browser-defend-the-user/
 [control9]: https://top10proactive.owasp.org/the-top-10/c9-security-logging-and-monitoring/
 [control10]: https://top10proactive.owasp.org/the-top-10/c10-stop-server-side-request-forgery/
