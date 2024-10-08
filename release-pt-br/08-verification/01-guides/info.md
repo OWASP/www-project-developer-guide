@@ -1,1 +1,1 @@
-{% include navigation.html collection="release" %}
+{% include navigation.html collection="release-pt-br" %}
