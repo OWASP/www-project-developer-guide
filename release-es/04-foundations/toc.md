@@ -1,10 +1,10 @@
 ---
 
-title: Foundations
+title: Fundamentos
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors: Roxana Calderon, Jon Gadsden
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 44000
 permalink: /release-es/foundations/
 
@@ -28,12 +28,12 @@ permalink: /release-es/foundations/
 
 Existen varios conceptos y terminología fundamentales que se utilizan comúnmente en seguridad de software.
 Aunque muchos de estos conceptos son complejos de implementar y se basan en una teoría muy estricta,
-Los principios suelen ser bastante sencillos y accesibles para todos los ingenieros de software.
+los principios suelen ser bastante sencillos y accesibles para todos los ingenieros de software.
 
-Una comprensión razonable de estos conceptos fundamentales permite a los equipos de desarrollo comprender e implementar
+Una comprensión razonable de estos conceptos fundamentales permite a los equipos de desarrollo entender e implementar
 Seguridad de software para la aplicación o sistema en desarrollo.
 Esta Guía para desarrolladores solo puede brindar una breve descripción general de estos conceptos.
-para obtener conocimientos más profundos, consulte los numerosos textos sobre seguridad, como [El conjunto de conocimientos sobre seguridad cibernética] [cbok].
+para obtener conocimientos más profundos, consulte los numerosos textos sobre seguridad, como [El conjunto de conocimientos sobre seguridad cibernética][cbok].
 
 Secciones:
 
