@@ -1,10 +1,10 @@
 ---
 
-title: Security Fundamentals
+title: Fundamentos de Seguridad
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors: Roxana Calderon, Jon Gadsden
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 44010
 permalink: /release-es/foundations/security_fundamentals/
 
@@ -24,15 +24,14 @@ permalink: /release-es/foundations/security_fundamentals/
 
 ### 2.1 Fundamentos de seguridad
 
-Los principios fundamentales de la seguridad de las aplicaciones se basan en los conceptos de seguridad a los que se hace referencia en esta Guía del Desarrollador.
+Los principios fundamentales de la seguridad de aplicaciones se basan en los conceptos de seguridad a los que se hace referencia en esta Guía del Desarrollador.
 Esta sección tiene como objetivo proporcionar una introducción a los principios fundamentales con los que cualquier equipo de desarrollo debe estar familiarizado.
 
-#### Modelo de madurez de Software Assurance
+#### Modelo de madurez de Seguridad de Software 
 
 ![SAMM logo](../../../assets/images/logos/samm.png "OWASP SAMM"){: .image-right-small }
 
-El modelo de madurez de Software Assurance ([SAMM][samm]) proporciona contexto para el alcance de la seguridad del software.
-y los fundamentos de las buenas prácticas de seguridad:
+El modelo de madurez de Aseguramiento de Software ([SAMM][samm]) proporciona contexto para el alcance de la seguridad del software y los fundamentos de las buenas prácticas de seguridad:
 
 * [Gobernanza][sammg]
 * [Diseño][sammd]
@@ -42,7 +41,7 @@ y los fundamentos de las buenas prácticas de seguridad:
 
 El modelo SAMM describe estos fundamentos de seguridad de software como funciones comerciales,
 que a su vez se dividen en Prácticas Comerciales.
-El Modelo de Madurez de Software Assurance de OWASP ([SAMM][samm]) se utiliza en esta Guía del Desarrollador;
+El Modelo de Madurez de Aseguramiento de Software de OWASP ([SAMM][samm]) se utiliza en esta Guía del Desarrollador;
 la mayoría de las secciones de la Guía del desarrollador hacen referencia a al menos una de las funciones o prácticas comerciales de SAMM.
 
 #### Tríada CIA
@@ -51,10 +50,8 @@ La seguridad consiste simplemente en controlar quién puede interactuar con la i
 qué pueden hacer con ella y cuándo pueden interactuar con ella.
 Estas características de seguridad se pueden describir utilizando la tríada CIA.
 
-CIA significa Confidencialidad, Integridad y Disponibilidad,
-y generalmente se representa como un triángulo que representa los fuertes vínculos entre sus tres principios.
-Esta tríada se considera los pilares de la seguridad de las aplicaciones,
-A menudo, la confidencialidad, la integridad o la disponibilidad se utilizan como propiedades de los datos o procesos dentro de un sistema determinado.
+CIA significa Confidencialidad, Integridad y Disponibilidad y generalmente se representa como un triángulo que representa los fuertes vínculos entre sus tres principios.
+Esta tríada se considera los pilares de la seguridad de las aplicaciones, a menudo, la confidencialidad, la integridad o la disponibilidad se utilizan como propiedades de los datos o procesos dentro de un sistema determinado.
 La tríada de la CIA se puede ampliar con la tríada AAA: Autorización, Autenticación y Auditoría.
 
 #### Confidencialidad
@@ -117,30 +114,28 @@ Las vulnerabilidades de seguridad más conocidas son:
 * [Clickjacking][csclick]
 * [Credential Stuffing][cscreds]
 * [Fugas Cross-site][csxsleaks]
-* Ataques [Denial of Service][csdos] (DoS)
-* Ataques basado en DOM [ataques XSS][csdom] incluido [DOM Clobbering][csdomclub]
+* Ataques de [Denegación de Servicio][csdos] (DoS)
+* Ataques basado en DOM [ataques XSS][csdom] incluido [destrucción de DOM][csdomclub]
 * [IDOR][csidor] (Referencia directa a objetos inseguros)
 * [Inyección][csinjection] incluyendo [Inyección de comando OS][csosinjection] y [XXE][csxxe]
-* Específico de LDAP [ataques de inyección][csldap]
+* [Ataques de inyección][csldap] específico de LDAP
 * [Contaminación de prototipo][csproto]
 * Ataques [SSRF][csssrf]
-* [Inyección SQL][cssql]  y el uso de [Parametrización de consultas][csquery]
+* [Inyección SQL][cssql] y el uso de [parametrización de consultas][csquery]
 * [Redirecciones y reenvíos no validados][csredirect]
-* [Ataques XSS][csxss] y [Evasión de filtro XSS][csxssevade]
+* [Ataques XSS][csxss] y [evasión de filtro XSS][csxssevade]
 
 #### HTTP y HTML
 
 Aunque no son un elemento fundamental de seguridad como tal, las aplicaciones web dependen de comunicaciones HTTP y HTML.
 Tanto los desarrolladores de aplicaciones como los ingenieros de seguridad deben tener un buen conocimiento de HTTP y del lenguaje HTML junto con sus diversos controles de seguridad.
 
-La mayoría de los equipos de desarrollo de aplicaciones estarán familiarizados con las comunicaciones HTTP y el estándar HTML.
-pero si es necesario consulte la formación del [Consorcio W3][w3consortium] o de las [Escuelas W3][w3schools].
-OWASP [Serie de hojas de referencia] [cheatsheets] proporciona a los desarrolladores de aplicaciones web la información
-necesario para producir software seguro:
+La mayoría de los equipos de desarrollo de aplicaciones estarán familiarizados con las comunicaciones HTTP y el estándar HTML, pero si es necesario consulte la formación del [Consorcio W3][w3consortium] o de las [Escuelas W3][w3schools].
+La [serie de hojas de referencia][cheatsheets] de OWASP proporciona a los desarrolladores de aplicaciones web la información necesario para producir software seguro:
 
 * La hoja de referencia [Seguridad HTML5][cshtml5] describe una amplia gama de controles,
   alineado con el actual [Estándar de vida HTML][htmlliving]
-* Consulte la hoja de referencia para CSS[Seguridad de Hojas de estilo en cascada][cscss]
+* Consulte la hoja de referencia para CSS [Seguridad de Hojas de estilo en cascada][cscss]
 * Los encabezados HTTP deben ser seguros; consulte la hoja de referencia [HTTP Security Response Headers][csheaders]
 * Considere seriamente [Seguridad estricta de transporte HTTP][csstrict]
 * Si la aplicación tiene una función de carga de archivos, siga la hoja de referencia de [Carga de archivos][csfile]
@@ -151,8 +146,8 @@ necesario para producir software seguro:
 #### Referencias
 
 * [WHATWG][whatwg] [Estándar de vida HTML][htmlliving]
-* OWASP [Serie de Hojas de referencia][cheatsheets]
-* OWASP [Modelo de Madurez de Garantía de Software][samm] (SAMM)
+* [Serie de Hojas de referencia][cheatsheets] de OWASP
+* [Modelo de Madurez de Aseguramiento de Software][samm] de OWASP(SAMM)
 
 ----
 
