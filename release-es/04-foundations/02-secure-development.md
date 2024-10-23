@@ -1,10 +1,10 @@
 ---
 
-title: Secure Development and Integration
+title: Desarrollo e Integración Seguros
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors: Roxana Calderon, Jon Gadsden
-document: OWASP Developer Guide
+document: Guía del Desarrollador  OWASP
 order: 44020
 permalink: /release-es/foundations/secure_development/
 
@@ -22,177 +22,110 @@ permalink: /release-es/foundations/secure_development/
 }
 </style>
 
-### 2.2 Secure development and integration
+### 2.2 Desarrollo e integración seguros
 
-Secure development is described in the OWASP Software Assurance Maturity Model [(SAMM)][samm]
-[Design][sammd], [Implementation][sammi] and [Verification][sammv] business functions.
+El desarrollo seguro se describe en las funciones de negocio de [Diseño][sammd], [Implementación][sammi] y [Verificación][sammv] del Modelo de Madurez de Aseguramiento de Software de OWASP [(SAMM-Software Assurance Maturity Model)][samm].
 
-#### Prelude
+#### Introducción
 
-The best introduction to practical secure software development is the
-OWASP [Application Security Fragmentation][sdlc] article :
+La mejor introducción al desarrollo práctico de software seguro es el artículo de OWASP sobre [Fragmentación de la Seguridad de Aplicaciones][sdlc]:
 
-_Or how I worried less and stood on the shoulders of giants._ - Spyros Gasteratos, Elie Saad
+_O cómo me preocupé menos y me apoyé en los hombros de gigantes._ - Spyros Gasteratos, Elie Saad
 
-Much of the material in this section is drawn from this OWASP [Integration Standards][intstand] project.
+Gran parte del material de esta sección fue extraído del proyecto [Estándares de Integración][intstand] de OWASP.
 
-#### Overview
+#### Descripción general
 
-Almost all modern software is developed in an iterative manner passing through phase to phase,
-such as identifying customer requirements, implementation and test.
-These phases are revisited in a cyclic manner throughout the lifetime of the application.
-A notional Software Development LifeCycle (SDLC) is shown below, in practice there may be more or less phases
-according to the processes adopted by the organization.
+Casi todo el software moderno se desarrolla de manera iterativa, pasando por diferentes fases, como la identificación de requisitos del cliente, implementación y testeo. Estas fases se vuelven a aplicar de forma cíclica a lo largo de la vida útil de la aplicación. A continuación se muestra un Ciclo de Vida de Desarrollo de Software (SDLC) teórico; en la práctica, puede haber más o menos fases según los procesos adoptados por la organización.
 
-![SDLC Lifecycle](../../../assets/images/sdlc_diag.png "notional SDLC lifecycle"){: .image-right }
+![Ciclo de vida SDLC](../../../assets/images/sdlc_diag.png "ciclo de vida SDLC teórico"){: .image-right }
 
-With the increasing number and sophistication of exploits against almost every application or business system,
-most companies have adopted a secure Software Development LifeCycle (SDLC).
-The secure SDLC should never be a separate lifecycle from an existing software development lifecycle,
-it must always be the same development lifecycle as before but with security actions built into each phase,
-otherwise security actions may well be set aside by busy development teams.
-Note that although the Secure SDLC could be written as 'SSDLC' it is almost always written as 'SDLC'.
+Con el creciente número y sofisticación de los ataques contra casi todas las aplicaciones o sistemas empresariales, la mayoría de las empresas han adoptado un Ciclo de Vida de Desarrollo de Software (SDLC) seguro. El SDLC seguro nunca debe ser un ciclo de vida separado del ciclo de vida de desarrollo de software existente, sino que debe ser siempre el mismo ciclo de vida de desarrollo que antes, pero con acciones de seguridad integradas en cada fase. De lo contrario, las acciones de seguridad pueden ser dejadas de lado por equipos de desarrollo ocupados. Tenga en cuenta que aunque el SDLC Seguro podría escribirse como 'SSDLC', casi siempre se escribe como 'SDLC'.
 
-DevOps integrates and automates many of the SDLC phases and implements Continuous Integration (CI)
-and Continuous Delivery/Deployment (CD) pipelines to provide much of the SDLC automation.
+DevOps integra y automatiza muchas de las fases del SDLC e implementa canales(pipelines) de Integración Continua (CI) y Entrega/Despliegue Continuo (CD) para proporcionar gran parte de la automatización del SDLC.
 
-DevOps and pipelines have been successfully exploited with serious large scale consequences
-and so, in a similar manner to the SDLC, much of the DevOps actions have also had security built in to them.
-Secure DevOps, or DevSecOps, builds security practices into the DevOps activities to guard against attack
-and to provide the SDLC with automated security testing.
+DevOps y los canales han sido explotados con éxito con graves consecuencias a gran escala, por lo que, de manera similar al SDLC, muchas de las acciones de DevOps también han incorporado seguridad. DevOps seguro, o DevSecOps, incorpora prácticas de seguridad en las actividades de DevOps para protegerse contra ataques y proporcionar al SDLC pruebas de seguridad automatizadas.
 
-Examples of how DevSecOps is 'building security in' is the provision of
-Interactive, Static and Dynamic Application Security Testing (IAST, SAST & DAST)
-and implementing supply chain security, and there are many other security activities that can be applied.
-Refer to the [CI/CD Security Cheat Sheet][cscicd] for the latest DevSecOps security controls.
+Ejemplos de cómo DevSecOps está "incorporando seguridad" son la provisión de Pruebas de Seguridad de Aplicaciones Interactivas, Estáticas y Dinámicas (IAST, SAST y DAST) y la implementación de seguridad en la cadena de suministro, y hay muchas otras actividades de seguridad que se pueden aplicar. Consulte la [hoja de Referencia de Seguridad CI/CD][cscicd] para conocer los últimos controles de seguridad de DevSecOps.
 
-#### Secure development lifecycle
+#### Ciclo de vida de desarrollo seguro
 
-Referring to the OWASP [Application Security Wayfinder][intstand] development cycle
-there are four iterative phases during application development: Requirements, Design, Implementation and Verification.
-The other phases are done less iteratively in the development cycle but these form an equally important
-part of the SDLC: Gap Analysis, Metrics, Operation and Training & Culture Building.
+Refiriéndonos al ciclo de desarrollo de [Wayfinder para Seguridad de Aplicaciones][intstand] de OWASP, hay cuatro fases iterativas durante el desarrollo de la aplicación: Requerimientos, Diseño, Implementación y Verificación. Las otras fases se realizan de manera menos iterativa en el ciclo de desarrollo, pero forman una parte igualmente importante del SDLC: Análisis de Brechas, Métricas, Operación y también Formación y Construcción de Cultura.
 
-All of these phases of the SDLC should have security activities built into them,
-rather than done as separate activities. If security is built into these phases then the overhead becomes much less
-and the resistance from the development teams decreases. The goal is for the secure SDLC to become as familiar
-a process as before, with the development teams taking ownership of the security activities within each phase.
+Todas estas fases del SDLC deberían tener actividades de seguridad integradas, en lugar de realizarse como actividades separadas. Si la seguridad se integra en estas fases, la sobrecarga se vuelve mucho menor y la resistencia de los equipos de desarrollo disminuye. El objetivo es que el SDLC seguro se convierta en un proceso tan familiar como antes, con los equipos de desarrollo asumiendo plena responsabilidad de las actividades de seguridad dentro de cada fase.
 
-There are many OWASP tools and resources to help build security into the SDLC.
+Hay muchas herramientas y recursos de OWASP para ayudar a integrar la seguridad en el SDLC.
 
-* **Requirements**: this phase determines the functional, non-functional and security requirements for the application.
-    Requirements should be revisited periodically and checked for completeness and validity,
-    and it is worth considering various OWASP tools to help with this;
-  * the [Application Security Verification Standard (ASVS)][asvs] provides developers
-      with a list of requirements for secure development,
-  * the [Mobile Application Security project][masproject] provides a security standard for mobile applications
-      and [SecurityRAT][srat] helps identify an initial set of security requirements.
+* **Requerimientos**: esta fase determina los requisitos funcionales, no funcionales y de seguridad para la aplicación. Los requerimientos deben revisarse periódicamente y verificarse su completitud y validez, y vale la pena considerar varias herramientas de OWASP para ayudar con esto;
+  * el [Estándar de Verificación de Seguridad de Aplicaciones (ASVS)][asvs] proporciona a los desarrolladores una lista de requisitos para el desarrollo seguro,
+  * el [proyecto de Seguridad de Aplicaciones Móviles][masproject] proporciona un estándar de seguridad para aplicaciones móviles y [SecurityRAT][srat] ayuda a identificar un conjunto inicial de requisitos de seguridad.
 
-* **Design**: it is important to design security into the application - it is never too late to do this
-    but the earlier the better and easier to do. OWASP provides two tools, [Pythonic Threat Modeling][pytm]
-    and [Threat Dragon][tdtm], for threat modeling along with security gamification using [Cornucopia][cornucopia].
+* **Diseño**: es importante diseñar la seguridad en la aplicación - nunca es demasiado tarde para hacerlo, pero cuanto antes mejor y más fácil de hacer. OWASP proporciona dos herramientas, [Modelado de Amenazas Pythonico][pytm] y [Threat Dragon][tdtm], para el modelado de amenazas junto con la gamificación de seguridad usando [Cornucopia][cornucopia].
 
-* **Implementation**: the OWASP [Top 10 Proactive Controls][proactive10] project states that they are
-    "the most important control and control categories that every architect and developer should absolutely,
-    100% include in every project" and this is certainly good advice. Implementing these controls can provide
-    a high degree of confidence that the application or system will be reasonably secure.
-    OWASP provides two libraries that can be incorporated in web applications,
-    the [Enterprise Security API (ESAPI)][esapi-project] security control library
-    and [CSRFGuard][csrfguard] to mitigate the risk of [Cross-Site Request Forgery][cscsrf] (CSRF) attacks,
-    that help implement these proactive controls. In addition the OWASP [Cheat Sheet Series][csproject]
-    is a valuable source of information and advice on all aspects of applications security.
+* **Implementación**: el proyecto [Top 10 Controles Proactivos][proactive10] de OWASP afirma que estos son "los controles y categorías de control más importantes que todo arquitecto y desarrollador debería incluir sin duda, al 100% en cada proyecto" y éste ciertamente es un buen consejo. Implementar estos controles puede proporcionar un alto grado de confianza en que la aplicación o sistema será razonablemente seguro. OWASP proporciona dos bibliotecas que se pueden incorporar en aplicaciones web, la librería de control de seguridad [API de Seguridad Empresarial (ESAPI)][esapi-project] y [CSRFGuard][csrfguard] para mitigar el riesgo de ataques de [Falsificación de Solicitudes entre Sitios][cscsrf] (CSRF), que ayudan a implementar estos controles proactivos. Además, la [serie de Hojas de Referencia][csproject] de OWASP es una valiosa fuente de información y consejos sobre todos los aspectos de la seguridad de las aplicaciones.
 
-* **Verification**: OWASP provides a relatively large number of projects that help with testing and verification.
-   This is the subject of a section in this Developer Guide, and the projects are listed at the end of this section.
+* **Verificación**: OWASP proporciona un número relativamente grande de proyectos que ayudan con las pruebas y la verificación. Este es el tema de una sección en esta Guía del Desarrollador, y los proyectos están enumerados al final de esta sección.
 
-* **Training**: development teams continually need security training.
-   Although not part of the inner SDLC iterative loop training should still be factored into the project lifecycle.
-   OWASP provides many training environments and materials - see the list at the end of this section.
+* **Formación**: los equipos de desarrollo necesitan continuamente formación en seguridad. Aunque no forma parte del ciclo iterativo interno del SDLC, la formación todavía debe considerarse en el ciclo de vida del proyecto. OWASP proporciona muchos entornos y materiales de formación - vea la lista al final de esta sección.
 
-* **Culture Building**: a good security culture within a business organization will help greatly in keeping
-   the applications and systems secure. There are many activities that all add up to create the
-   security culture, the OWASP [Security Culture][culture] project goes into more detail on these activities,
-   and a good Security Champion program within the business is foundational to a good security posture.
-   The OWASP [Security Champions Guide][champions] provides guidance and material to create security champions
-   within the development teams - ideally every team should have a security champion that has
-   a special interest in security and has received further training, enabling the team to build security in.
+* **Desarrollo de Cultura**: una buena cultura de seguridad dentro de una organización empresarial ayudará enormemente a mantener seguras las aplicaciones y los sistemas. Hay muchas actividades que en conjunto ayudan a crear la cultura de seguridad, el proyecto [Cultura de Seguridad][culture] de OWASP entra en más detalle sobre estas actividades, y un buen programa de Campeones de Seguridad dentro del negocio es fundamental para una buena postura de seguridad. La [Guía de Defensores de Seguridad][champions] de OWASP proporciona orientación y material para crear defensores de seguridad dentro de los equipos de desarrollo - idealmente cada equipo debería tener un defensor de seguridad que tenga un interés especial en la seguridad y haya recibido formación adicional, permitiendo al equipo integrar la seguridad.
 
-* **Operations**: the OWASP [DevSecOps Guideline][devsecops] explains how to best implement a secure pipeline,
-    using best practices and automation tools to help 'shift-left' security issues.
-    Refer to the DevSecOps Guideline for more information on any of the topics within DevSecOps
-    and in particular sections on Operations.
+* **Operaciones**: la [Guía de DevSecOps][devsecops] de OWASP explica cómo implementar mejor un canal(pipeline) seguro, utilizando mejores prácticas y herramientas de automatización para ayudar a reducir tiempo y costos al resolver los problemas de seguridad ya en etapas tempranas del proyecto(principio shift-left). Consulte la Guía de DevSecOps para obtener más información sobre cualquiera de los temas dentro de DevSecOps y en particular las secciones sobre Operaciones.
 
-* **Supply chain**: attacks that leverage the supply chain can be devastating
-    and there have been several high profile of products being successfully exploited.
-    A Software Bill of Materials (SBOM) is the first step in avoiding these attacks and
-    it is well worth using the OWASP [CycloneDX][cyclone] full-stack Bill of Materials (BOM) standard
-    for [risk reduction in the supply chain][cschain].
-    In addition the OWASP [Dependency-Track][deptrack] project is a Continuous SBOM Analysis Platform
-    which can help prevent these supply chain exploits by providing control of the SBOM.
+* **Cadena de suministro**: los ataques que aprovechan la cadena de suministro pueden ser devastadores y ha habido varios casos de alto perfil de productos que han sido explotados con éxito. Una Lista de Materiales de Software (SBOM-Software Bill of Materials) es el primer paso para evitar estos ataques y vale la pena utilizar el estándar [CycloneDX][cyclone] de OWASP para la Lista de Materiales (BOM-Bill of Materials) estándar para la [reducción de riesgos en la cadena de suministro][cschain]. Además, el proyecto [Dependency-Track][deptrack] de OWASP es una Plataforma de Análisis Continuo de SBOM que puede ayudar a prevenir estas explotaciones de la cadena de suministro proporcionando control del SBOM.
 
-* **Third party dependencies**: keeping track of what third party libraries are included in the application,
-    and what vulnerabilities they have, is easily automated. Many public repositories such as [github][github]
-    and [gitlab][gitlab] offer this service along with some commercial vendors.
-    OWASP provides the [Dependency-Check][depcheck] Software Composition Analysis (SCA) tool
-    to track external libraries.
+* **Dependencias de terceros**: mantener un seguimiento de qué bibliotecas de terceros se incluyen en la aplicación, y qué vulnerabilidades tienen, es fácilmente automatizable. Muchos repositorios públicos como [github][github] y [gitlab][gitlab] ofrecen este servicio junto con algunos proveedores comerciales. OWASP proporciona la herramienta de Análisis de Composición de Software (SCA-Software Composition Analysis) [Dependency-Check][depcheck] para rastrear bibliotecas externas.
 
-* **Application security testing**: there are various types of security testing that can be automated on pull-request,
-   merge or nightlies - or indeed manually but they are most powerful when automated. Commonly there is
-   Static Application Security Testing (SAST), which analyses the code without running it,
-   and Dynamic Application Security Testing (DAST), which applies input to the application while running it in a sandbox
-   or other isolated environments.
-   Interactive Application Security Testing (IAST) is designed to be run manually as well as being automated,
-   and provides instant feedback on the tests as they are run.
+* **Pruebas de seguridad de aplicaciones**: hay varios tipos de pruebas de seguridad que se pueden automatizar en solicitudes de admisión de código (pull-requests), fusiones(merges) o compilaciones nocturnas, o incluso manualmente, pero son más poderosas cuando se automatizan. Comúnmente hay Pruebas de Seguridad de Aplicaciones Estáticas (SAST-Static Application Security Testing), que analizan el código sin ejecutarlo, y Pruebas de Seguridad de Aplicaciones Dinámicas (DAST-Dynamic Application Security Testing), que aplican entrada a la aplicación mientras se ejecuta en un sandbox u otros tipos de entornos aislados. Las Pruebas de Seguridad de Aplicaciones Interactivas (IAST-Interactive Application Security Testing) están diseñadas para ejecutarse manualmente así como automatizadas, y proporcionan retroalimentación instantánea sobre las pruebas mientras se ejecutan.
 
-#### Further reading from OWASP
+#### Lecturas adicionales de OWASP
 
-* [Cheat Sheet Series][csproject]
-* [CI/CD Security Cheat Sheet][cscicd]
+* [Serie de Hojas de Referencia][csproject]
+* [Hoja de Referencia de Seguridad CI/CD][cscicd]
 * [Cornucopia][cornucopia]
-* [CycloneDX][cyclone] Bill of Materials (BOM) standard
-* [DevSecOps Guideline][devsecops]
-* [Security Champions Guide][champions]
-* [Security Culture project][culture]
-* [Top 10 Proactive Controls][proactive10]
+* Estándar de Lista de Materiales (BOM) [CycloneDX][cyclone]
+* [Guía de DevSecOps][devsecops]
+* [Guía de Defensores de Seguridad][champions]
+* [Proyecto de Cultura de Seguridad][culture]
+* [Top 10 Controles Proactivos][proactive10]
 
-#### OWASP verification projects
+#### Proyectos de verificación de OWASP
 
-* [Application Security Verification Standard][asvs] (ASVS)
-* [Amass project][amass]
+* [Estándar de Verificación de Seguridad de Aplicaciones][asvs] (ASVS)
+* [Proyecto Amass][amass]
 * [Code Pulse][pulse]
 * [Defect Dojo][defectdojo]
-* [Mobile Application Security][masproject] (MAS)
+* [Seguridad de Aplicaciones Móviles][masproject] (MAS)
 * [Nettacker][net]
-* [Offensive Web Testing Framework][owtf] (OWTF)
-* [Web Security Testing Guide][wstg] (WSTG)
+* [Framework de Pruebas Web Ofensivas][owtf] (OWTF)
+* [Guía de Pruebas de Seguridad Web][wstg] (WSTG)
 * [Zed Attack Proxy][zap] (ZAP)
 
-#### OWASP training projects
+#### Proyectos de formación de OWASP
 
-* [API Security Project][apisec] (API Top 10)
+* [Proyecto de Seguridad API][apisec] (API Top 10)
 * [Juice Shop][juice]
 * [Mobile Top 10][mobile10]
 * [Security Shepherd][sec-shep]
 * [Snakes And Ladders][snakes]
-* [Top Ten Web Application security risks][top10]
+* [Top 10 de Riesgos de Seguridad en Aplicaciones Web][top10]
 * [WebGoat][webgoat]
 
-#### OWASP resources
+#### Recursos de OWASP
 
-* [CSRFGuard library][csrfguard]
-* [Dependency-Check Software Composition Analysis (SCA)][depcheck]
-* [Dependency-Track Continuous SBOM Analysis Platform][deptrack]
-* [Enterprise Security API][esapi-project] (ESAPI)
-* [Integration Standards project Application Security Wayfinder][intstand]
-* [Mobile Application Security][mas] (MAS)
-* [Pythonic Threat Modeling][pytm]
+* [Biblioteca CSRFGuard][csrfguard]
+* [Análisis de Composición de Software (SCA) Dependency-Check][depcheck]
+* [Plataforma de Análisis Continuo de SBOM Dependency-Track][deptrack]
+* [API de Seguridad Empresarial][esapi-project] (ESAPI)
+* [Proyecto de Estándares de Integración Wayfinder de Seguridad de Aplicaciones][intstand]
+* [Seguridad de Aplicaciones Móviles][mas] (MAS)
+* [Modelado de Amenazas Pythonico][pytm]
 * [Threat Dragon][tdtm]
-* [SecurityRAT][srat] (Requirement Automation Tool)
+* [SecurityRAT][srat] (Herramienta de Automatización de Requisitos)
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0402] or [edit on GitHub][edit0402].
+La Guía para Desarrolladores de OWASP es un esfuerzo comunitario; si hay algo que necesita cambio, [cree un issue][issue0402] o [edítelo en GitHub][edit0402].
 
 [amass]: https://owasp.org/www-project-amass/
 [apisec]: https://owasp.org/API-Security
