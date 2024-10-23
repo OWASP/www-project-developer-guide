@@ -105,7 +105,7 @@ The OWASP Developer Guide is a community effort; if there is something that need
 then [submit an issue][issue060206] or [edit on GitHub][edit060206].
 
 [csproactive-c6]: https://cheatsheetseries.owasp.org/IndexProactiveControls.html#c6-implement-digital-identity
-[control7]: https://top10proactive.owasp.org/the-top-10/c7-implement-digital-identity/
+[control7]: https://top10proactive.owasp.org/the-top-10/c7-secure-digital-identities/
 [csauthn]: https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet
 [csmfa]: https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet
 [cspass]: https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet
