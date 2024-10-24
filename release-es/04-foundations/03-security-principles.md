@@ -1,10 +1,10 @@
 ---
 
-title: Principles of Security
+title: Principios de Seguridad
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors: Roxana Calderon, Jon Gadsden, Johan Sydseter, Andreas Happe
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 44030
 permalink: /release-es/foundations/security_principles/
 
@@ -12,196 +12,118 @@ permalink: /release-es/foundations/security_principles/
 
 {% include breadcrumb.html %}
 
-### 2.3 Principles of security
+### 2.3 Principios de seguridad
 
-This section is a very brief introduction to some concepts used within the software security domain,
-as these may not be familiar to many application developers.
-The OWASP [Cheat Sheet Series][csproject] provides more in depth explanations for these security principles,
-see the further reading at the end of this section.
+Esta sección es una introducción muy breve a algunos conceptos utilizados en el dominio de la seguridad del software, ya que estos pueden no ser familiares para muchos desarrolladores de aplicaciones. La [serie de Hojas de Referencia][csproject] de OWASP proporciona explicaciones más detalladas de estos principios de seguridad, vea las lecturas adicionales al final de esta sección.
 
-#### Overview
+#### Descripción general
 
-There are various concepts and terms used in the security domain that are fundamental
-to the understanding and discussion of application security.
-Security architects and security engineers will be familiar with these terms and development teams
-will also need this understanding to implement secure applications.
+Hay varios conceptos y términos utilizados en el dominio de la seguridad que son fundamentales para la comprensión y discusión de la seguridad de aplicaciones. Los arquitectos de seguridad y los ingenieros de seguridad estarán familiarizados con estos términos, y los equipos de desarrollo también necesitarán esta comprensión para implementar aplicaciones seguras.
 
-#### Security by Design
+#### Seguridad por Diseño
 
-Security should not be an afterthought or add-on. When developing systems, you should begin with identifying relevant
-security requirements and treat them as an integral part of the overall process and system design. Begin with
-establishing and adopting relevant principles and policies as a foundation for your design, then build security
-into your development life cycle. Keep also in mind that the system you are building also will be needing maintenance
-and that system operators will need to securely manage and even shutdown and dispose of the system. Therefore, commit
-to secure operations by developing secure "operational management"[^1] principles and practices.
+La seguridad no debería ser una ocurrencia de último minuto o un complemento. Al desarrollar sistemas, se debe comenzar identificando los requisitos de seguridad relevantes y tratarlos como una parte integral del proceso general y del diseño del sistema. Comience estableciendo y adoptando principios y políticas relevantes como base para su diseño, luego integre la seguridad en su ciclo de vida de desarrollo. Tenga también en cuenta que el sistema que está construyendo también necesitará mantenimiento y que los operadores del sistema necesitarán gestionarlo de manera segura e incluso apagarlo y eliminarlo. Por lo tanto, comprométase con operaciones seguras desarrollando principios y prácticas de "gestión operativa"[^1] seguras.
 
-#### Security by Default
+#### Seguridad por Defecto
 
-Secure by default means that the default configuration settings are the most secure settings possible. This is not
-necessarily the most user-friendly settings. Evaluate what the settings should be, based on both risk analysis and
-usability tests. As a result, the precise meaning is up to you to decide. Nevertheless, configure the system to only
-provide the least functionality and to specifically prohibit and/or restrict the use of all other functions, ports,
-protocols, and/or services. Also configure the defaults to be as restrictive as possible, according to best practices,
-without compromising the "Psychological acceptability" and "Usability and Manageability" of the system.
+Seguro por defecto significa que la configuración predeterminada es la más segura posible. Esta no es necesariamente la configuración más fácil de usar. Evalúe cuáles deberían ser las configuraciones, basándose tanto en el análisis de riesgos como en pruebas de usabilidad. Como resultado, el significado preciso depende solamente de su decisión. Sin embargo, configure el sistema para proporcionar solo la funcionalidad mínima y para prohibir y/o restringir específicamente el uso de todas las demás funciones, puertos, protocolos y/o servicios. También configure los valores predeterminados para que sean lo más restrictivos posible, de acuerdo con las mejores prácticas, sin comprometer la "Aceptabilidad psicológica" y la "Usabilidad y Manejabilidad" del sistema.
 
-#### No security guarantee
+#### Sin garantía de seguridad
 
-One of the most important principles of software security is that no application or system is totally
-100% guaranteed to be secure from all attacks. This may seem an unusually pessimistic starting point
-but it is merely acknowledging the real world; given enough time and enough resources any system can be compromised.
-The goal of software security is not '100% secure' but to make it hard enough and the rewards small enough
-that malicious actors look elsewhere for systems to exploit.
+Uno de los principios más importantes de la seguridad del software es que ninguna aplicación o sistema está 100% garantizado de ser seguro contra todos los ataques. Esto puede parecer un punto de partida inusualmente pesimista, pero simplemente reconoce el mundo real; dado suficiente tiempo y recursos, cualquier sistema puede ser puesto en peligro. El objetivo de la seguridad del software no es '100% seguro', sino hacer que sea lo suficientemente difícil y las recompensas lo suficientemente pequeñas para que los actores malintencionados desistan y busquen en otro lugar sistemas para explotar.
 
-#### Defense in Depth
+#### Defensa en Profundidad
 
-Also known as layered defense, [defense in depth][did] is a security principle where defense against attack
-is provided by multiple security controls.
-The aim is that single points of complete compromise are eliminated or mitigated
-by the incorporation of a series or multiple layers of security safeguards and risk-mitigation countermeasures.
+También conocida como defensa por capas, la [defensa en profundidad][did] es un principio de seguridad donde la defensa contra ataques se proporciona mediante múltiples controles de seguridad. El objetivo es que se eliminen o mitiguen los puntos únicos de compromiso completo mediante la incorporación de una serie o múltiples capas de salvaguardas de seguridad y contramedidas de mitigación de riesgos.
 
-If one layer of defense turns out to be inadequate then, if diverse defensive strategies are in place,
-another layer of defense may prevent a full breach and if that one is circumvented then
-the next layer may block the exploit.
+Si una capa de defensa resulta inadecuada, entonces, si se implementan estrategias defensivas diversas, otra capa de defensa puede prevenir una vulneración completa y si esa es eludida, la siguiente capa puede bloquear la explotación.
 
-#### Fail Safe
+#### Fallar de Forma Segura
 
-This is a security principle that aims to maintain confidentiality, integrity and availability
-when an error condition is detected.
-These error conditions may be a result of an attack, or may be due to design or implementation failures,
-in any case the system / applications should default to a secure state rather than an unsafe state.
+Este es un principio de seguridad que tiene como objetivo mantener la confidencialidad, integridad y disponibilidad cuando se detecta una condición de error. Estas condiciones de error pueden ser resultado de un ataque, o pueden deberse a fallas de diseño o implementación; en cualquier caso, el sistema/aplicaciones debe predeterminar un estado seguro en lugar de un estado inseguro.
 
-For example unless an entity is given explicit access to an object,
-it should be denied access to that object by default.
-This is often described as 'Fail Safe Defaults' or 'Secure by Default'.
+Por ejemplo, a menos que se le dé acceso explícito a un objeto a una entidad, se le debe negar el acceso a ese objeto por defecto. Esto a menudo se describe como 'Valores Predeterminados a Prueba de Fallos' o 'Seguro por Defecto'.
 
-In the context of software security, the term 'fail secure' is commonly used interchangeably with fail safe,
-which comes from physical security terminology.
-Failing safe also helps software resiliency in that the system / application can rapidly recover
-upon design or implementation flaws.
+En el contexto de la seguridad del software, el término 'fallo seguro' se usa comúnmente de manera intercambiable con fallo a prueba de errores, que proviene de la terminología de seguridad física. Fallar de forma segura también ayuda a la resiliencia del software en el sentido de que el sistema/aplicación puede recuperarse rápidamente ante defectos de diseño o implementación.
 
-#### Least Privilege
+#### Mínimo Privilegio
 
-A security principle in which a person or process is given only the minimum level of access rights (privileges)
-that is necessary for that person or process to complete an assigned operation.
-This right must be given only for a minimum amount of time that is necessary to complete the operation.
+Un principio de seguridad en el que a una persona o proceso se le otorga solo el nivel mínimo de derechos de acceso (privilegios) que sea necesario para que esa persona o proceso complete una operación asignada. Este derecho debe otorgarse solo por la cantidad mínima de tiempo necesaria para completar la operación.
 
-This helps to limits the damage when a system is compromised by minimising the ability of an attacker
-to escalate privileges both laterally or vertically.
-In order to apply this [principle of least privilege][elp] proper granularity
-of privileges and permissions should be established.
+Esto ayuda a limitar el daño cuando un sistema es comprometido al minimizar la capacidad de un atacante para escalar privilegios tanto lateral como verticalmente. Para aplicar este [principio de mínimo privilegio][elp], se debe establecer una granularidad adecuada de privilegios y permisos.
 
-#### Compartmentalize
+#### Compartimentar
 
-The principle of least privilege works better if access rights are not an "all or nothing" access model.
-Instead, compartmentalize the access to information on a "need-to-know" basis in order to perform certain tasks.
-The compartmentalization principle helps in minimizing the impact of a security breach in case of a successful
-breach attempt but must be used in moderation in order to prevent the system from becoming unmanageable.
-Therefore, follow also the principle of "Economy of Mechanism".
+El principio de mínimo privilegio funciona mejor si los derechos de acceso no son un modelo de acceso "todo o nada". En su lugar, compartimente el acceso a la información en base a la "necesidad de conocer" para realizar ciertas tareas. El principio de compartimentación ayuda a minimizar el impacto de una brecha de seguridad en caso de un intento de violación exitoso, pero debe usarse con moderación para evitar que el sistema se vuelva inmanejable. Por lo tanto, siga también el principio de "Economía de Mecanismo".
 
-#### Separation of Duties
+#### Separación de Deberes
 
-Also known as [separation of privilege][sop], separation of duties is a security principle which requires that
-the successful completion of a single task
-is dependent upon two or more conditions that are insufficient, individually by themselves, for completing the task.
+También conocida como [separación de privilegios][sop], la separación de deberes es un principio de seguridad que requiere que la finalización exitosa de una sola tarea dependa de dos o más condiciones que son insuficientes, individualmente por sí mismas, para completar la tarea.
 
-There are many applications for this principle,
-for example limiting the damage an aggrieved or malicious insider can do, or by limiting privilege escalation.
+Hay muchas aplicaciones para este principio, por ejemplo, limitar el daño que un empleado molesto o malintencionado puede hacer, o limitando la escalación de privilegios.
 
-#### Economy of Mechanism
+#### Economía de Mecanismo
 
-Also known as 'keep it simple', if there are multiple implementations then the simplest
-and most easily understood implementation should be chosen.
+También conocido como 'mantenlo simple', si hay múltiples implementaciones, se debe elegir la implementación más simple y fácil de entender.
 
-The likelihood of vulnerabilities increases with the complexity of the software architectural design and code,
-and increases further if it is hard to follow or review the code.
-The attack surface of the software is reduced by keeping the software design
-and implementation details simple and understandable.
+La probabilidad de vulnerabilidades aumenta con la complejidad del diseño arquitectónico del software y el código, y aumenta aún más si es difícil seguir o revisar el código. La superficie de ataque del software se reduce manteniendo el diseño del software y los detalles de implementación simples y comprensibles.
 
-#### Complete Mediation
+#### Mediación Completa
 
-A security principle that ensures that authority is not circumvented in subsequent requests of an object by a subject,
-by checking for authorization (rights and privileges) upon every request for the object.
+Un principio de seguridad que asegura que la autoridad no sea eludida en solicitudes consecutivas de un objeto por un sujeto, verificando la autorización (derechos y privilegios) en cada solicitud del objeto.
 
-In other words, the access requests by a subject for an object are completely mediated every time,
-so that all accesses to objects must be checked to ensure that they are allowed.
+En otras palabras, las solicitudes de acceso de un sujeto para un objeto son completamente mediadas cada vez, de modo que todos los accesos a los objetos deben ser verificados para asegurar que están permitidos.
 
-#### Open Design
+#### Diseño Abierto
 
-The open design security principle states that the implementation details of the design
-should be independent of the design itself,
-allowing the design to remain open while the implementation can be kept secret.
-This is in contrast to security by obscurity where the security of the software
-is dependent upon the obscuring of the design itself.
+El principio de seguridad de diseño abierto establece que los detalles de implementación del diseño deben ser independientes del diseño en sí, permitiendo que el diseño permanezca abierto mientras que la implementación puede mantenerse en secreto. Esto contrasta con la seguridad por oscuridad, donde la seguridad del software depende de la oscuridad del diseño en sí.
 
-When software is architected using the open design concept,
-the review of the design itself will not result in the compromise of the safeguards in the software.
+Cuando la arquitectura del software utiliza el concepto de diseño abierto, la revisión del diseño en sí no resultará en perjuicio de los medios de defensa del software.
 
-#### Least Common Mechanism
+#### Mecanismo menos Común
 
-The security principle of least common mechanisms disallows the sharing of mechanisms that are common
-to more than one user or process if the users or processes are at different levels of privilege.
-This is important when defending against privilege escalation.
+El principio de seguridad de los mecanismos menos comunes prohíbe compartir mecanismos que son comunes a más de un usuario o proceso si los usuarios o procesos están en diferentes niveles de privilegio. Esto es importante cuando se defiende contra la escalación de privilegios.
 
-#### Psychological acceptability
+#### Aceptabilidad Psicológica
 
-A security principle that aims at maximizing the usage and adoption of the security functionality in the software
-by ensuring that the security functionality is easy to use and at the same time transparent to the user.
-Ease of use and transparency are essential requirements for this security principle to be effective.
+Un principio de seguridad que tiene como objetivo maximizar el uso y la adopción de la funcionalidad de seguridad en el software asegurando que la funcionalidad de seguridad sea fácil de usar y al mismo tiempo transparente para el usuario. La facilidad de uso y la transparencia son requisitos esenciales para que este principio de seguridad sea efectivo.
 
-Security controls should not make the resource significantly more difficult to access
-than if the security control were not present.
-If a security control provides too much friction for the users then they may look for ways
-to defeat the control and “prop the doors open”.
+Los controles de seguridad no deberían hacer que el recurso sea significativamente más difícil de acceder que si el control de seguridad no estuviera presente. Si un control de seguridad proporciona demasiada fricción para los usuarios, entonces pueden buscar formas de eliminar el control y "mantener las puertas abiertas".
 
-#### Usability and Manageability
+#### Usabilidad y Gestionabilidad
 
-Is a principle related to psychological acceptability, but goes beyond just the perceived psychological
-acceptability to also include the design, implementation and operation of security controls.
-The configuration, administration and integration of security components should not be overly complex or
-obscure. Therefore, always use open standards for portability and interoperability, use common language
-in developing security requirements, design security to allow for regular adoption of new technology,
-ensure a secure and logical upgrade process exist, automate security management activities and strive for
-operational ease of use.
+Es un principio relacionado con la aceptabilidad psicológica, pero va más allá de la mera aceptabilidad psicológica percibida para incluir también el diseño, implementación y operación de los controles de seguridad. La configuración, administración e integración de los componentes de seguridad no debe ser excesivamente compleja u oscura. Por lo tanto, utilice siempre estándares abiertos para la portabilidad e interoperabilidad, use un lenguaje común en el desarrollo de requisitos de seguridad, diseñe la seguridad para permitir la adopción regular de nueva tecnología, asegure que exista un proceso de actualización seguro y lógico, automatice las actividades de gestión de seguridad y esfuércese por proporcionar la facilidad de uso operativa.
 
-#### Secure the Weakest Link
+#### Asegurar el Eslabón más Débil
 
-This security principle states that the resiliency of your software against hacker attempts will depend heavily
-on the protection of its weakest components, be it the code, service or an interface. Therefore, identifying the
-weakest component and addressing the most serious risk first, until an acceptable level of risk is attained, is
-considered good security practice.
+Este principio de seguridad establece que la resiliencia de su software contra intentos de hackers dependerá en gran medida de la protección de sus componentes más débiles, ya sea el código, el servicio o una interfaz. Por lo tanto, identificar el componente más débil y abordar el riesgo más grave primero, hasta alcanzar un nivel aceptable de riesgo, se considera una buena práctica de seguridad.
 
-#### Leveraging Existing Components
+#### Aprovechamiento de Componentes Existentes
 
-This is a security principle that focuses on ensuring that the attack surface is not increased
-and no new vulnerabilities are introduced by promoting the reuse of existing
-software components, code and functionality.
+Este es un principio de seguridad que se enfoca en asegurar que la superficie de ataque no aumente y que no se introduzcan nuevas vulnerabilidades mediante el fomento de la reutilización de componentes de software existentes, código y funcionalidad.
 
-Existing components are more likely to be tried and tested, and hence more secure,
-and also should have security patches available.
-In addition components developed within the open source community have the further benefit of 'many eyes'
-and are therefore likely to be even more secure.
+Es más probable que los componentes existentes hayan sido probados y testeados, y por lo tanto sean más seguros, y también deberían tener parches de seguridad disponibles. Además, los componentes desarrollados dentro de la comunidad de código abierto tienen el beneficio adicional de 'muchos ojos' y por lo tanto es probable que sean aún más seguros.
 
-#### References
+#### Referencias
 
-* OWASP Cheat Sheet series
-  * [Authentication Cheat Sheet][csauthn]
-  * [Authorization Cheat Sheet][csauthz]
-  * [Secure Product Design Cheat Sheet][spdcs]
-* OWASP Top 10 Proactive Controls
-  * [C5: Secure by Default Configurations](https://top10proactive.owasp.org/the-top-10/c5-secure-by-default/)
-* Other
-  * [Compartmentalization (information security)](https://en.wikipedia.org/wiki/Compartmentalization_(information_security)),
+* Serie de Hojas de Referencia de OWASP
+  * [Hoja de Referencia de Autenticación][csauthn]
+  * [Hoja de Referencia de Autorización][csauthz]
+  * [Hoja de Referencia de Diseño de Producto Seguro][spdcs]
+* Top 10 Controles Proactivos de OWASP
+  * [C5: Configuraciones Seguras por Defecto](https://top10proactive.owasp.org/the-top-10/c5-secure-by-default/)
+* Otros
+  * [Compartimentación (seguridad de la información)](https://en.wikipedia.org/wiki/Compartmentalization_(information_security)),
 (Wikipedia)
-  * [Least Functionality](https://csf.tools/reference/nist-sp-800-53/r5/cm/cm-7/), (NIST)
-  * [Security by Design](https://pubs.opengroup.org/security/o-esa/#_Toc291061712), (Open Group)
-  * [Usability and Manageability](https://pubs.opengroup.org/security/o-esa/#_Toc291061714), (Open Group)
+  * [Funcionalidad Mínima](https://csf.tools/reference/nist-sp-800-53/r5/cm/cm-7/), (NIST)
+  * [Seguridad por Diseño](https://pubs.opengroup.org/security/o-esa/#_Toc291061712), (Open Group)
+  * [Usabilidad y Manejabilidad](https://pubs.opengroup.org/security/o-esa/#_Toc291061714), (Open Group)
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0403] or [edit on GitHub][edit0403].
+La Guía para Desarrolladores de OWASP es un esfuerzo comunitario; si hay algo que necesita cambio, entonces [cree un issue][issue0403] o [edítelo en GitHub][edit0403].
 
-[^1]: [Operational Management](https://owaspsamm.org/model/operations/operational-management/), (SAMM)
+[^1]: [Gestión Operativa](https://owaspsamm.org/model/operations/operational-management/), (SAMM)
 
 [csauthn]: https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet
 [csauthz]: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet
