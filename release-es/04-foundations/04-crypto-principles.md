@@ -1,8 +1,8 @@
 ---
 
-title: Principles of Cryptography
+title: Principios de Criptografía
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors: Roxana Calderon, Jon Gadsden
 document: OWASP Developer Guide
 order: 44040
@@ -12,247 +12,247 @@ permalink: /release-es/foundations/crypto_principles/
 
 {% include breadcrumb.html %}
 
-### 2.4 Principles of cryptography
+### 2.4 Principios de criptografía
 
-Cryptography is fundamental to the Confidentiality and Integrity of applications and systems.
-The OWASP [Cheat Sheet][csproject] series describes the use of cryptography and some of these are
-listed in the further reading at the end of this section.
+La criptografía es fundamental para la Confidencialidad e Integridad de las aplicaciones y sistemas.
+La serie de [Hojas de Referencia][csproject] de OWASP describe el uso de la criptografía y algunas de ellas están
+listadas en la lectura adicional al final de esta sección.
 
-#### Overview
+#### Descrición general
 
-This section provides a brief introduction to cryptography (often simply referred to as "crypto") and the terms used.
-Cryptography is a large subject and can get very mathematical,
-but fortunately for the majority of development teams a general understanding of the concepts is sufficient.
-This general understanding, with the guidance of security architects, should allow implementation
-of cryptography by the development team for the application or system.
+Esta sección proporciona una breve introducción a la criptografía (a menudo simplemente referida como "crypto") y los términos utilizados.
+La criptografía es un tema amplio y puede volverse muy matemático,
+pero afortunadamente para la mayoría de los equipos de desarrollo, una comprensión general de los conceptos es suficiente.
+Esta comprensión general, con la guía de arquitectos de seguridad, debería permitir la implementación
+de criptografía por parte del equipo de desarrollo para la aplicación o sistema.
 
-#### Uses of cryptography
+#### Usos de la criptografía
 
-Although cryptography was initially restricted primarily to the military and the realm of academia,
-cryptography has become ubiquitous in securing software applications.
-Common every day uses of cryptography include mobile phones, passwords, SSL VPNs, smart cards, and DVDs.
-Cryptography has permeated through everyday life, and is heavily used by many web applications.
+Aunque la criptografía estaba inicialmente restringida principalmente al ámbito militar y académico,
+se ha vuelto omnipresente en la seguridad de las aplicaciones de software.
+Los usos cotidianos comunes de la criptografía incluyen teléfonos móviles, contraseñas, VPNs SSL, tarjetas inteligentes y DVDs.
+La criptografía ha invadido la vida cotidiana y es muy utilizada por muchas aplicaciones web.
 
-Cryptography is one of the more advanced topics of information security,
-and one whose understanding requires the most schooling and experience.
-It is difficult to get right because there are many approaches to encryption,
-each with advantages and disadvantages that need to be thoroughly understood by solution architects.
+La criptografía es uno de los temas más avanzados de la seguridad de la información,
+y uno cuya comprensión requiere más formación y experiencia.
+Es difícil de implementar correctamente porque hay muchos enfoques para la encriptación,
+cada uno con ventajas y desventajas que deben ser entendidas a fondo por los arquitectos de soluciones.
 
-The proper and accurate implementation of cryptography is extremely critical to its efficacy.
-A small mistake in configuration or coding will result in removing most of the protection
-and rending the crypto implementation useless.
+La implementación correcta y precisa de la criptografía es extremadamente crítica para su eficacia.
+Un pequeño error en la configuración o codificación resultará en la eliminación de la mayoría de la protección
+y hará que la implementación criptográfica sea inútil.
 
-A good understanding of crypto is required to be able to discern between solid products and snake oil.
-The inherent complexity of crypto makes it easy to fall for fantastic claims from vendors about their product.
-Typically, these are "a breakthrough in cryptography" or "unbreakable" or provide "military grade" security.
-If a vendor says "trust us, we have had experts look at this," chances are they weren't experts!
+Se requiere una buena comprensión de la criptografía para poder discernir entre productos sólidos y soluciones engañosas.
+La complejidad inherente de la criptografía hace que sea fácil caer en afirmaciones fantásticas de los proveedores sobre su producto.
+Típicamente, estas son "un avance en criptografía" o "irrompible" o proporcionan seguridad "de grado militar".
+Si un proveedor dice "confíe en nosotros, hemos tenido expertos que lo han revisado", ¡es probable que no fueran expertos!
 
-#### Confidentiality
+#### Confidencialidad
 
-For the purposes of this section, confidentiality is defined as "no unauthorized disclosure of information".
-Cryptography addresses this via encryption of either the data at rest or data in transit by
-protecting the information from all who do not hold the decryption key.
-Cryptographic hashes (secure, one way hashes) to prevent passwords from disclosure.
+Para los propósitos de esta sección, la confidencialidad se define como "ninguna divulgación no autorizada de información".
+La criptografía aborda esto mediante la encriptación de los datos en reposo o datos en tránsito,
+ocultando la información a todos aquellos que no posean la clave de descifrado.
+Los hashes criptográficos (hashes seguros, unidireccionales) previenen la divulgación de contraseñas.
 
-#### Authentication
+#### Autenticación
 
-[Authentication][csauthn] is the process of verifying a claim that a subject is who it says it is
-via some provided corroborating evidence.
-Cryptography is central to authentication:
+La [Autenticación][csauthn] es el proceso de verificar una afirmación de que un sujeto es quien dice ser
+a través de alguna evidencia corroborativa proporcionada.
+La criptografía es primordial para la autenticación:
 
-1. to protect the provided corroborating evidence (for example hashing of passwords for subsequent storage)
-2. in authentication protocols often use cryptography to either directly authenticate entities
-    or to exchange credentials in a secure manner
-3. to verify the identity one or both parties in exchanging messages,
-    for example identity verification within [Transport Layer Security][tls] (TLS)
+1. para proteger la evidencia corroborativa proporcionada (por ejemplo, el hash de contraseñas para su posterior almacenamiento)
+2. en protocolos de autenticación que a menudo usan criptografía para autenticar entidades directamente
+    o para intercambiar credenciales de manera segura
+3. para verificar la identidad de una o ambas partes en el intercambio de mensajes,
+    por ejemplo, la verificación de identidad dentro de la [Seguridad de la Capa de Transporte][tls] (TLS)
 
-OpenID Connect is widely used as an identity layer on top of the OAuth 2.0 protocol,
-see the [OAuth 2.0 Protocol][csoauth] Cheat Sheet.
+OpenID Connect es ampliamente utilizado como una capa de identidad sobre el protocolo OAuth 2.0,
+ver la HOja d Referencia del [Protocolo OAuth 2.0][csoauth].
 
-#### Integrity
+#### Integridad
 
-Integrity ensures that even authorized users have performed no accidental or malicious alternation of information.
-Cryptography can be used to prevent tampering by means of Message Authentication Codes (MACs) or digital signatures.
+La integridad asegura que incluso los usuarios autorizados no hayan realizado alteraciones accidentales o maliciosas de la información.
+La criptografía puede usarse para prevenir la manipulación mediante Códigos de Autenticación de Mensajes (MACs) o firmas digitales.
 
-The term 'message authenticity' refers to ensuring the integrity of information,
-often using symmetric encryption and shared keys,
-but does not authenticate the sending party.
+El término 'autenticidad del mensaje' se refiere a asegurar la integridad de la información,
+a menudo usando encriptación simétrica y claves compartidas,
+pero no autentica a la parte que envía.
 
-The term 'authenticated encryption' also ensures the integrity of information,
-and, if asymmetric encryption is used, can authenticate the sender.
+El término 'encriptación autenticada' también asegura la integridad de la información,
+y, si se usa encriptación asimétrica, puede autenticar al remitente.
 
-#### Non-repudiation
+#### No repudio
 
-Non-repudiation of sender ensures that someone sending a message should not be able to deny later that they have sent it.
-Non-repudiation of receiver means that the receiver of a message should not be able to deny that they have received it.
-Cryptography can be used to provide non-repudiation by providing unforgeable messages or replies to messages.
+El no repudio del remitente asegura que alguien que envía un mensaje no debería poder negar posteriormente que lo ha enviado.
+El no repudio del receptor significa que el receptor de un mensaje no debería poder negar que lo ha recibido.
+La criptografía puede usarse para proporcionar no repudio al proporcionar mensajes o respuestas a mensajes que no se pueden falsificar.
 
-Non-repudiation is useful for financial, e-commerce, and contractual exchanges.
-It can be accomplished by having the sender or recipient digitally sign some unique transactional record.
+El no repudio es útil para intercambios financieros, de comercio electrónico y contractuales.
+Se puede lograr haciendo que el remitente o destinatario firme digitalmente algún registro transaccional único.
 
-#### Attestation
+#### Atestación
 
-Attestation is the act of "bearing witness" or certifying something for a particular use or purpose.
-Attestation is generally discussed in the context of a Trusted Platform Module (TPM),
-Digital Rights Management (DRM), and UEFI Secure Boot.
+La atestación es el acto de "dar testimonio" o certificar algo para un uso o propósito particular.
+La atestación generalmente se discute en el contexto de un Módulo de Plataforma Confiable (TPM),
+Gestión de Derechos Digitales (DRM) y Arranque Seguro UEFI.
 
-For example, Digital Rights Management is interested in attesting that your device
-or system hasn't been compromised with some back-door to allow someone to illegally copy DRM-protected content.
+Por ejemplo, la Gestión de Derechos Digitales está interesada en atestiguar que su dispositivo
+o sistema no ha sido comprometido con alguna puerta trasera para permitir que alguien copie ilegalmente contenido protegido por DRM.
 
-Cryptography can be used to provide a chain of evidence that everything is as it is expected to be,
-to prove to a challenger that everything is in accordance with the challenger's expectations.
-For example, remote attestation can be used to prove to a challenger that
-you are indeed running the software that you claim that you are running.
-Most often attestation is done by providing a chain of digital signatures starting with
-a trusted (digitally signed) boot loader.
+La criptografía puede usarse para proporcionar una cadena de evidencia de que todo está como se espera que esté,
+para probar a un contrincante que todo está de acuerdo con las expectativas del contrincante.
+Por ejemplo, la atestación remota puede usarse para probar a un contrincante que
+realmente está ejecutando el software que afirma estar ejecutando.
+La mayoría de las veces la atestación se realiza proporcionando una cadena de firmas digitales comenzando con
+un cargador de arranque confiable (firmado digitalmente).
 
-#### Cryptographic hashes
+#### Hashes criptográficos
 
-Cryptographic hashes, also known as message digests, are functions that map arbitrary length bit strings
-to some fixed length bit string known as the 'hash value' or 'digest value'.
-These hash functions are many-to-one mappings that are compression functions.
+Los hashes criptográficos, también conocidos como resúmenes de mensaje, son funciones que mapean cadenas de bits de longitud arbitraria
+a una cadena de bits de longitud fija conocida como 'valor hash' o 'valor de resumen'.
+Estas funciones hash son mapeos de muchos a uno que son funciones de compresión.
 
-Cryptographic hash functions are used to provide data integrity (i.e., to detect intentional data tampering),
-to store passwords or pass phrases, and to provide digital signatures in a more efficient manner
-than using asymmetric ciphers.
-Cryptographic hash functions are also used to extend a relatively small bit of entropy
-so that secure random number generators can be constructed.
+Las funciones hash criptográficas se utilizan para proporcionar integridad de datos (es decir, para detectar la manipulación intencional de datos),
+para almacenar contraseñas o frases de paso, y para proporcionar firmas digitales de manera más eficiente
+que usando cifrados asimétricos.
+Las funciones hash criptográficas también se utilizan para extender un pequeño bit de entropía
+para que se puedan construir generadores de números aleatorios seguros.
 
-When used to provide data integrity, cryptographic functions provide two types of integrity:
-keyed hashes, often called 'message authentication codes', and unkeyed hashes called 'message integrity codes'.
+Cuando se utilizan para proporcionar integridad de datos, las funciones criptográficas proporcionan dos tipos de integridad:
+hashes con clave, a menudo llamados 'códigos de autenticación de mensaje', y hashes sin clave llamados 'códigos de integridad de mensaje'.
 
-#### Ciphers
+#### Cifrados
 
-A cipher is an algorithm that performs encryption or decryption.
-Modern ciphers can be categorized in a couple of different ways.
-The most common distinctions between them are:
+Un cifrado es un algoritmo que realiza encriptación o desencriptación.
+Los cifrados modernos se pueden categorizar de varias maneras diferentes.
+Las distinciones más comunes entre ellos son:
 
-* Whether they work on fixed size number of bits (block ciphers) or on a continuous stream of bits (stream ciphers)
-* Whether the same key is used for both encryption and decryption (symmetric ciphers)
-    or separate keys for encryption and decryption (asymmetric ciphers)
+* Si trabajan en un número fijo de bits (cifrados de bloque) o en un flujo continuo de bits (cifrados de flujo)
+* Si se usa la misma clave para encriptación y desencriptación (cifrados simétricos)
+    o claves separadas para encriptación y desencriptación (cifrados asimétricos)
 
-#### Symmetric Ciphers
+#### Cifrados Simétricos
 
-Symmetric ciphers encrypt and decrypt using the same key.
-This implies that if one party encrypts data that a second party must decrypt,
-those two parties must share a common key.
+Los cifrados simétricos encriptan y desencriptan usando la misma clave.
+Esto implica que si una parte encripta datos que una segunda parte debe desencriptar,
+esas dos partes deben compartir una clave común.
 
-Symmetric ciphers come in two main types:
+Los cifrados simétricos vienen en dos tipos principales:
 
-1. Block ciphers, which operate on a block of characters (typically 8 or 16 octets) at a time.
-    An example of a block cipher is AES
-2. Stream ciphers, which operate on a single bit (or occasionally a single byte) at a time.
-    Examples of a stream ciphers are RC4 (aka, ARC4) and Salsa20
+1. Cifrados de bloque, que operan en un bloque de caracteres (típicamente 8 o 16 octetos) a la vez.
+    Un ejemplo de cifrado de bloque es AES
+2. Cifrados de flujo, que operan en un solo bit (u ocasionalmente un solo byte) a la vez.
+    Ejemplos de cifrados de flujo son RC4 (también conocido como ARC4) y Salsa20
 
-Note that all block ciphers can also operate in 'streaming mode' by selecting the appropriate cipher mode.
+Tenga en cuenta que todos los cifrados de bloque también pueden operar en 'modo de transmisión' seleccionando el modo de cifrado apropiado.
 
-#### Cipher Modes
+#### Modos de Cifrado
 
-Block ciphers can function in different modes of operations known as "cipher modes".
-This cipher mode algorithmically describes how a cipher operates to repeatedly
-apply its encryption or decryption mechanism to a given cipher block.
-Cipher modes are important because they have an enormous impact on both the confidentiality
-and the message authenticity of the resulting ciphertext messages.
+Los cifrados de bloque pueden funcionar en diferentes modos de operación conocidos como "modos de cifrado".
+Este modo de cifrado describe algorítmicamente cómo un cifrado opera para aplicar repetidamente
+su mecanismo de encriptación o desencriptación a un bloque de cifrado determinado.
+Los modos de cifrado son importantes porque tienen un impacto enorme tanto en la confidencialidad
+como en la autenticidad del mensaje de los mensajes de texto cifrado resultantes.
 
-Almost all cryptographic libraries support the four original DES cipher modes of ECB, CBC (Cipher Block Chaining)
-OFB (Output Feedback), and CFB (Cipher Feedback). Many also support CTR (Counter) mode.
+Casi todas las bibliotecas criptográficas admiten los cuatro modos de cifrado originales de DES: ECB, CBC (Encadenamiento de Bloques de Cifrado)
+OFB (Retroalimentación de Salida) y CFB (Retroalimentación de Cifrado). Muchas también admiten el modo CTR (Contador).
 
-#### Initialization vector
+#### Vector de inicialización
 
-A cryptographic initialization vector (IV) is a fixed size input to a block cipher's encryption / decryption primitive.
-The IV is recommended (and in many cases, required) to be random or at least pseudo-random.
+Un vector de inicialización criptográfico (IV) es una entrada de tamaño fijo a la primitiva de encriptación / desencriptación de un cifrado de bloque.
+Se recomienda (y en muchos casos, se requiere) que el IV sea aleatorio o al menos pseudo-aleatorio.
 
-#### Padding
+#### Relleno
 
-Except when they are operating in a streaming mode, block ciphers generally operate on fixed size blocks.
-These block ciphers must also operate on messages of any size,
-not just those that are an integral multiple of the cipher's block size,
-and so the message can be padded to fit into the next fixed-size block.
+Excepto cuando operan en modo de transmisión, los cifrados de bloque generalmente operan en bloques de tamaño fijo.
+Estos cifrados de bloque también deben operar en mensajes de cualquier tamaño,
+no solo aquellos que son un múltiplo sin residuo del tamaño del bloque del cifrado,
+por lo que el mensaje puede ser rellenado para ajustarse al siguiente bloque de tamaño fijo.
 
-#### Asymmetric ciphers
+#### Cifrados asimétricos
 
-Asymmetric ciphers  encrypt and decrypt  with two different keys.
-One key generally is designated as the private key and the other is designated as the public key.
-Generally the public key is widely shared and the private key is kept secure.
+Los cifrados asimétricos encriptan y desencriptan con dos claves diferentes.
+Una clave generalmente se designa como la clave privada y la otra se designa como la clave pública.
+Generalmente, la clave pública se comparte ampliamente y la clave privada se mantiene segura.
 
-Asymmetric ciphers are several orders of magnitude slower than symmetric ciphers.
-For this reason they are used frequently in hybrid cryptosystems, which combine asymmetric and symmetric ciphers.
-In such hybrid cryptosystems, a random symmetric session key is generated
-which is only used for the duration of the encrypted communication.
-This random session key is then encrypted using an asymmetric cipher and the recipient's private key.
-The plaintext data itself is encrypted with the session key.
-Then the entire bundle (encrypted session key and encrypted message) is all sent together.
-Both [TLS][tls] and S/MIME are common cryptosystems using hybrid cryptography.
+Los cifrados asimétricos son más lentos que los cifrados simétricos en varios órdenes de magnitud.
+Por esta razón, se utilizan frecuentemente en criptosistemas híbridos, que combinan cifrados asimétricos y simétricos.
+En tales criptosistemas híbridos, se genera una clave de sesión simétrica aleatoria
+que solo se utiliza durante la duración de la comunicación encriptada.
+Esta clave de sesión aleatoria luego se encripta usando un cifrado asimétrico y la clave privada del destinatario.
+Los datos de texto plano en sí se encriptan con la clave de sesión.
+Luego, todo el paquete (clave de sesión encriptada y mensaje encriptado) se envía junto.
+Tanto [TLS][tls] como S/MIME son criptosistemas comunes que utilizan criptografía híbrida.
 
-#### Digital signature
+#### Firma digital
 
-Digital signatures are a cryptographically unique data string that is used to ensure data integrity
-and prove the authenticity of some digital message, and that associates some input message with an originating entity.
-A digital signature generation algorithm is a cryptographically strong algorithm that is used
-to generate a digital signature.
+Las firmas digitales son una cadena de datos criptográficamente única que se utiliza para garantizar la integridad de los datos
+y probar la autenticidad de algún mensaje digital, y que asocia algún mensaje de entrada con una entidad originadora.
+Un algoritmo de generación de firma digital es un algoritmo criptográficamente fuerte que se utiliza
+para generar una firma digital.
 
-#### Key agreement protocol
+#### Protocolo de acuerdo de claves
 
-Key agreement protocols are protocols whereby N parties (usually two) can agree on a common key
-without actually exchanging the key.
-When designed and implemented properly, key agreement protocols prevent adversaries
-from learning the key or forcing their own key choice on the participating parties.
+Los protocolos de acuerdo de claves son protocolos mediante los cuales N partes (generalmente dos) pueden acordar una clave común
+sin intercambiar realmente la clave.
+Cuando se diseñan e implementan correctamente, los protocolos de acuerdo de claves evitan que los adversarios
+aprendan la clave o fuercen su propia elección de clave a las partes participantes.
 
-#### Application level encryption
+#### Encriptación a nivel de aplicación
 
-Application level encryption refers to encryption that is considered part of the application itself;
-it implies nothing about where in the application code the encryption is actually done.
+La encriptación a nivel de aplicación se refiere a la encriptación que se considera parte de la aplicación misma;
+no implica nada sobre dónde en el código de la aplicación se realiza realmente la encriptación.
 
-#### Key derivation
+#### Derivación de claves
 
-A key derivation function (KDF) is a deterministic algorithm to derive a key of a given size from some secret value.
-If two parties use the same shared secret value and the same KDF, they should always derive exactly the same key.
+Una función de derivación de claves (KDF) es un algoritmo determinista para derivar una clave de un tamaño dado a partir de algún valor secreto.
+Si dos partes usan el mismo valor secreto compartido y el mismo KDF, siempre deberían derivar exactamente la misma clave.
 
-#### Key wrapping
+#### Envoltura de claves
 
-Key wrapping is a construction used with symmetric ciphers to protect cryptographic key material
-by encrypting it in a special manner.
-Key wrap algorithms are intended to protect keys while held in untrusted storage
-or while transmitting keys over insecure communications networks.
+La envoltura de claves es una construcción utilizada con cifrados simétricos para proteger material de claves criptográficas
+encriptándolo de una manera especial.
+Los algoritmos de envoltura de claves están destinados a proteger las claves mientras se mantienen en almacenamiento no confiable
+o mientras se transmiten claves a través de redes de comunicación no seguras.
 
-#### Key exchange algorithms
+#### Algoritmos de intercambio de claves
 
-Key exchange algorithms (also referred to as key establishment algorithms) are protocols
-that are used to exchange secret cryptographic keys
-between a sender and receiver in a manner that meets certain security constraints.
-Key exchange algorithms attempt to address the problem of securely sharing a common secret key with two parties
-over an insecure communication channel in a manner that no other party can gain access to a copy of the secret key.
+Los algoritmos de intercambio de claves (también conocidos como algoritmos de establecimiento de claves) son protocolos
+que se utilizan para intercambiar claves criptográficas secretas
+entre un remitente y un receptor de una manera que cumple con ciertas restricciones de seguridad.
+Los algoritmos de intercambio de claves intentan abordar el problema de compartir de manera segura una clave secreta común entre dos partes
+a través de un canal de comunicación inseguro de manera que ninguna otra parte pueda obtener acceso a una copia de la clave secreta.
 
-The most familiar key exchange algorithm is Diffie-Hellman Key Exchange.
-There are also password authenticated key exchange algorithms.
-RSA key exchange using PKI or webs-of-trust or trusted key servers are also commonly used.
+El algoritmo de intercambio de claves más conocido es el Intercambio de Claves Diffie-Hellman.
+También existen algoritmos de intercambio de claves autenticados por contraseña.
+El intercambio de claves RSA usando PKI o redes de confianza o servidores de claves confiables también se usa comúnmente.
 
-#### Key transport protocols
+#### Protocolos de transporte de claves
 
-Key Transport protocols are where one party generates the key and sends it securely to the recipient(s).
+Los protocolos de Transporte de claves son donde una parte genera la clave y la envía de manera segura al(los) destinatario(s).
 
-#### Key agreement protocols
+#### Protocolos de acuerdo de claves
+Los protocolos de Acuerdo de claves son protocolos mediante los cuales N partes (normalmente dos) pueden acordar una clave común
+con todas las partes contribuyendo al valor de la clave.
+Estos protocolos evitan que los adversarios aprendan la clave o fuercen su propia elección de clave a las partes participantes.
+Referencias
 
-Key Agreement protocols are protocols whereby N parties (usually two) can agree on a common key
-with all parties contributing to the key value.
-These protocols prevent adversaries from learning the key or forcing their own key choice on the participating parties.
+* Serie de Hojas de Referencia de OWASP 
 
-#### References
+  * [Autenticación][csauthn]
+  * [Autorización][csauthz]
+  * [Almacenamiento Criptográfico][cscs]
+  * [Gestión de Claves][kmcs]
+  * [Protocolo OAuth 2.0][csoauth]
+  * [Seguridad SAML][sscs]
+  * [Diseño de Producto Seguro][spdcs]
+  * [Protección de Privacidad del Usuario][uppcs]
 
-* OWASP Cheat Sheet series
-  * [Authentication][csauthn]
-  * [Authorization][csauthz]
-  * [Cryptographic Storage][cscs]
-  * [Key Management][kmcs]
-  * [OAuth 2.0 Protocol][csoauth]
-  * [SAML Security][sscs]
-  * [Secure Product Design][spdcs]
-  * [User Privacy Protection][uppcs]
 
-----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0404] or [edit on GitHub][edit0404].
+
+La Guía del Desarrollador OWASP es un esfuerzo comunitario; si hay algo que necesita cambios
+entonces [cree un issue][issue0404] o [edítelo en GitHub][edit0404].
 
 [csauthn]: https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet
 [csauthz]: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet
