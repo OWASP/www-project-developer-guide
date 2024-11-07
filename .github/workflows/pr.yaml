@@ -55,7 +55,7 @@ jobs:
         uses: actions/checkout@v4.2.0
 
       - name: spell_checker
-        uses: rojopolis/spellcheck-github-actions@0.43.0
+        uses: rojopolis/spellcheck-github-actions@0.44.0
 
   export_draft:
     name: Export epub and pdf (Draft)

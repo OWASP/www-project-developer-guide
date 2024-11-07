@@ -47,7 +47,7 @@ OWASP Software Assurance Maturity Model ([SAMM][samm]) and describes the OWASP p
 referenced in the OWASP [Application Security Wayfinder][intstand] project.
 
 This guide does not seek to replicate the many excellent sources on specific security topics;
-it will rarely tries to go into details on a subject and instead provides links for greater depth on these security topics.
+it rarely tries to go into detail on a subject and instead provides links for greater depth on these security topics.
 Instead the content of the Developer Guide aims to be accessible, introducing  practical security concepts
 and providing enough detail to get developers started on various OWASP tools and documents.
 
