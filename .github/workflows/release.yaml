@@ -55,7 +55,7 @@ jobs:
         uses: actions/checkout@v4.2.0
 
       - name: spell_checker
-        uses: rojopolis/spellcheck-github-actions@0.44.0
+        uses: rojopolis/spellcheck-github-actions@0.45.0
 
   create_artifacts:
     name: Create artifacts
