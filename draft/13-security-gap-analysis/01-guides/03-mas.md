@@ -26,13 +26,13 @@ permalink: /draft/security_gap_analysis/guides/mobile_application_security/
 
 ### 11.1.3 Mobile Application Security
 
-The OWASP [Mobile Application Security][masproject] (MAS) flagship project has the mission statement:
-"Define the industry standard for mobile application security".
+The OWASP [Mobile Application Security][masproject] (MAS) flagship project provides
+industry standards for mobile application security.
 
-The MAS project covers the processes, techniques, and tools used for security testing a mobile application,
-as well as an exhaustive set of test cases that enables testers to deliver consistent and complete results.
 The OWASP MAS project provides the [Mobile Application Security Verification Standard][masvs] (MASVS)
 for mobile applications that can be used as a guide for security gap analysis.
+The MAS project covers the processes, techniques, and tools used for security testing a mobile application,
+as well as a set of test cases that enables testers to deliver consistent and complete results.
 
 #### What is MASVS?
 
@@ -52,6 +52,7 @@ The security controls are split into several categories:
 * [MASVS-PLATFORM](https://mas.owasp.org/MASVS/09-MASVS-PLATFORM/)
 * [MASVS-CODE](https://mas.owasp.org/MASVS/10-MASVS-CODE/)
 * [MASVS-RESILIENCE](https://mas.owasp.org/MASVS/11-MASVS-RESILIENCE/)
+* [MASVS-PRIVACY](https://mas.owasp.org/MASVS/12-MASVS-PRIVACY/)
 
 #### Why use MASVS?
 
@@ -62,12 +63,12 @@ given that MASVS is the industry standard for mobile applications, so any omissi
 #### How to use MASVS
 
 The MASVS provides a list of expected security controls for mobile applications,
-and this can be used to identify missing or inadequate controls during the gap analysis.
+and can be used to identify missing or inadequate controls during gap analysis.
 These controls can then be tested using the [MAS Testing Guide][mastg].
 
-MASVS can be [accessed online][masvs] and the links followed for the security controls;
-the mobile application can then be inspected for compliance with each control.
-This provides a starting point for a security gap evaluation for any existing controls.
+The MASVS provides a starting point for a security gap evaluation for any existing controls as well as new ones.
+The MASVS can be [accessed online][masvs] and links followed for each security controls;
+the mobile application can then be inspected for compliance with the relevant controls.
 
 #### References
 
