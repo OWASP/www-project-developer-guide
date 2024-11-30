@@ -73,9 +73,9 @@ but they can be applied at any time during development.
 The Mobile Top 10 was [first released in 2014][mobile10-2014], [updated in 2016][mobile10-2016]
 with the latest version [released in 2024][mobile10-2023].
 
-The list of mobile application [controls][mobile10controls] were originally published in 2011
-as the '[Smartphone Secure Development Guideline][ssdg-2011]'. This was then revised during 2016
-and [released in February 2017][ssdg-2017] to inform the latest set of mobile application controls.
+The list of mobile application [controls][mobile10controls] were originally published in 2011 by [ENISA][enisa]
+as the 'Smartphone Secure Development Guideline'.
+This was then revised during 2016, released in February 2017, to inform the latest set of mobile application controls.
 
 ----
 
@@ -101,7 +101,5 @@ then [submit an issue][issue0906] or [edit on GitHub][edit0906].
 [mobile10-2023]: https://owasp.org/www-project-mobile-top-10/2023-risks/
 [mobile10controls]: https://owasp.org/www-project-mobile-top-10/#div-controls
 [mobile10repo]: https://github.com/OWASP/www-project-mobile-top-10/blob/master/README.md
-[ssdg-2011]: https://www.enisa.europa.eu/publications/smartphone-secure-development-guidelines/at_download/fullReport
-[ssdg-2017]: https://www.enisa.europa.eu/publications/smartphone-secure-development-guidelines-2016
 
 \newpage

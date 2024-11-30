@@ -29,6 +29,8 @@ The deliverables from threat modeling take various forms including system models
 mitigations or assumptions, meeting notes, and more.
 This may be assembled into a single threat model document; a structured representation of all the information
 that affects the security of an application.
+A good overview of this activity is given in the [Security Culture][culturetm] project section on threat modeling.
+
 In essence, it is a view of the application and its environment through security glasses.
 
 Threat modeling is a process for capturing, organizing, and analyzing all of this information
@@ -267,6 +269,7 @@ then [submit an issue][issue060101] or [edit on GitHub][edit060101].
 [corncards]: https://owasp.org/www-project-cornucopia/
 [ccsnet]: https://cheatsheetseries.owasp.org/cheatsheets/Network_Segmentation_Cheat_Sheet
 [cstm]: https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet
+[culturetm]: https://owasp.org/www-project-security-culture/stable/6-Threat_Modelling/
 [eop]: https://shostack.org/games/elevation-of-privilege
 [edit060101]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/01-threat-modeling/01-threat-modeling.md
 [issue060101]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/01-threat-modeling/01-threat-modeling

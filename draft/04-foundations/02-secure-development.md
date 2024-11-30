@@ -26,6 +26,8 @@ permalink: /draft/foundations/secure_development/
 
 Secure development is described in the OWASP Software Assurance Maturity Model [(SAMM)][samm]
 [Design][sammd], [Implementation][sammi] and [Verification][sammv] business functions.
+Also refer to the [Security Culture][culturewhy] for a good explanation
+on why adding security into the software development lifecycle is important.
 
 #### Prelude
 
@@ -204,6 +206,7 @@ then [submit an issue][issue0402] or [edit on GitHub][edit0402].
 [csproject]: https://owasp.org/www-project-cheat-sheets/
 [csrfguard]: https://owasp.org/www-project-csrfguard/
 [culture]: https://owasp.org/www-project-security-culture/
+[culturewhy]: https://owasp.org/www-project-security-culture/stable/2-Why_Add_Security_In_Development_Teams/
 [cyclone]: https://owasp.org/www-project-cyclonedx/
 [depcheck]: https://owasp.org/www-project-dependency-check/
 [deptrack]: https://dependencytrack.org/

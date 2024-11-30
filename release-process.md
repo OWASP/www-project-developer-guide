@@ -8,8 +8,8 @@ The pre-release process is semi-automatic, and triggers when the repo is tagged 
 To trigger the release this process from within a cloned repo use a tag with an `-RCx` suffix,
 where the number is incremented with each release candidate:
 
-1. tag the release, for example for the first release candidate: `git tag 4.1.4-RC1`
-2. push to the repo, for example: `git push origin 4.1.4-RC1`
+1. tag the release, for example for the first release candidate: `git tag 4.1.6-RC1`
+2. push to the repo, for example: `git push origin 4.1.6-RC1`
 
 The github release workflow will then create the pull-request with the proposed modifications to the release area.
 
@@ -24,8 +24,8 @@ When there are no further changes required then move on to the release process.
 The release process is automatic, and triggers when the repo is tagged with a version number.
 To trigger the release this process from within a cloned repo:
 
-1. tag the release, for example: `git tag 4.1.3`
-2. push to the repo, for example: `git push origin 4.1.3`
+1. tag the release, for example: `git tag 4.1.6`
+2. push to the repo, for example: `git push origin 4.1.6`
 
 The github release workflow then creates the pull request
 with modifications to the release area promoted from the draft area.
