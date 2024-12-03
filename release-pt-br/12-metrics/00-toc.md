@@ -45,11 +45,13 @@ The categories of metrics suggested by SAMM are :
 * Environment metrics: the environment where security efforts take place
 
 There are other metrics, perhaps specific to an individual organization, that can also be collected and acted on.
+The [Security Culture][culturemetrics] project provides various examples of metrics that can be considered.
 
 ----
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing then [submit an issue][issue1200].
 
+[culturemetrics]: https://owasp.org/www-project-security-culture/stable/8-Metrics/
 [issue1200]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2012-metrics/00-toc
 [samm]: https://owaspsamm.org/about/
 [sammg]: https://owaspsamm.org/model/governance/
