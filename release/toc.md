@@ -18,7 +18,7 @@ permalink: /release/
 
 #### A Guide to Building Secure Web Applications and Web Services
 
-### Release version 4.1.5
+### Release version 4.1.6-RC1
 
 1 **[Introduction](03-introduction.md)**
 
@@ -72,6 +72,7 @@ permalink: /release/
 5.3.1 [Enterprise Security API library](07-implementation/03-secure-libraries/01-esapi.md)  
 5.3.2 [CSRFGuard library](07-implementation/03-secure-libraries/02-csrf-guard.md)  
 5.3.3 [OWASP Secure Headers Project](07-implementation/03-secure-libraries/03-secure-headers.md)  
+5.4 [Mobile application weakness enumeration](07-implementation/04-maswe.md)  
 
 6 **[Verification](08-verification/toc.md)**  
 6.1 [Guides](08-verification/01-guides/toc.md)  
