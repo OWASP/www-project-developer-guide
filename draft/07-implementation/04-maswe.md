@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 640
+order: 740
 permalink: /draft/implementation/mas_weakness_enumeration/
 
 ---
