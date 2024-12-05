@@ -145,7 +145,7 @@ docs:
 - title: '5.3.3 OWASP Secure Headers Project'
   url: implementation/secure_libraries/secure_headers
 
-- title: '5.4 [Mobile application weakness enumeration'
+- title: '5.4 Mobile application weakness enumeration'
   url: implementation/mas_weakness_enumeration
 
 - title: '6. Verification'
