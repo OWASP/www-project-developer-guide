@@ -62,6 +62,7 @@ Sections:
 5.3.1 [Enterprise Security API library](03-secure-libraries/01-esapi.md)  
 5.3.2 [CSRFGuard library](03-secure-libraries/02-csrf-guard.md)  
 5.3.3 [OWASP Secure Headers Project](03-secure-libraries/03-secure-headers.md)  
+5.4 [Mobile application weakness enumeration](04-maswe.md)  
 
 ----
 

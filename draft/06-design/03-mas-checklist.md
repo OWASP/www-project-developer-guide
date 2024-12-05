@@ -26,8 +26,8 @@ permalink: /draft/design/mas_checklist/
 
 ### 4.3 Mobile application checklist
 
-The OWASP [Mobile Application Security][masproject] (MAS) flagship project has the mission statement:
-"Define the industry standard for mobile application security".
+The OWASP [Mobile Application Security][masproject] (MAS) flagship project provides
+industry standards for mobile application security.
 
 The OWASP MAS project provides the [Mobile Application Security Verification Standard][masvs] (MASVS)
 for mobile applications and a comprehensive [Mobile Application Security Testing Guide][mastg] (MASTG).
@@ -46,6 +46,7 @@ This MAS Checklist is split out into categories that match the MASVS categories:
 * [MASVS-PLATFORM](https://mas.owasp.org/checklists/MASVS-PLATFORM/) interactions with the mobile platform
 * [MASVS-CODE](https://mas.owasp.org/checklists/MASVS-CODE/) platform and data entry points along with third-party software
 * [MASVS-RESILIENCE](https://mas.owasp.org/checklists/MASVS-RESILIENCE/) integrity and running on a trusted platform
+* [MASVS-PRIVACY](https://mas.owasp.org/checklists/MASVS-PRIVACY/) privacy of users, data and resources
 
 In addition to the web links there is a [downloadable spreadsheet][masxls].
 
@@ -69,6 +70,7 @@ This record of test results can be used as evidence for compliance purposes.
 * Mobile Application Security ([MAS][masproject]) project
 * MAS [Checklist][masc]
 * MAS Verification Standard ([MASVS][masvs])
+* MAS Testing Guide ([MASTG][mastg])
 * OWASP [Mobile Application Security][csmas] cheat sheet
 
 ----
