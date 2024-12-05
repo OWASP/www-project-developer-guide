@@ -24,35 +24,35 @@ permalink: /release-pt-br/foundations/
 
 ![Developer guide logo](../../assets/images/dg_logo.png "OWASP Developer Guide"){: .image-right }
 
-## 2. Foundations
+## 2. Fundamentos
 
-There are various foundational concepts and terminology that are commonly used in software security.
-Although many of these concepts are complex to implement and are based on heavy-duty theory,
-the principles are often fairly straight forward and are accessible for every software engineer.
+Existem vários conceitos e terminologias fundamentais que são comumente usados ​​em segurança de software.
+Embora muitos desses conceitos sejam complexos de implementar e sejam baseados em teorias pesadas,
+os princípios são geralmente bastante diretos e acessíveis para todos os engenheiros de software.
 
-A reasonable grasp of these foundational concepts allows development teams to understand and implement
-software security for the application or system under development.
-This Developer Guide can only give a brief overview of these concepts,
-for in-depth knowledge refer to the many texts on security such as the [The Cyber Security Body Of Knowledge][cbok].
+Uma compreensão razoável desses conceitos fundamentais permite que as equipes de desenvolvimento entendam e implementem
+segurança de software para o aplicativo ou sistema em desenvolvimento.
+Este Guia do desenvolvedor oferece apenas uma breve visão geral desses conceitos,
+para conhecimento aprofundado, consulte os diversos textos sobre segurança, como o [The Cyber ​​Security Body Of Knowledge][cbok].
 
-If changes are being introduced to the security culture of an organization
-then make sure there is management buy-in and clear goals to achieve.
-Without these then attempts to improve the security posture will probably fail - see the
-[Security Culture][culturegoal] project for the importance of getting management,
-security and development teams working together.
+Se mudanças estiverem sendo introduzidas na cultura de segurança de uma organização,
+certifique-se de que haja apoio da administração e metas claras a serem alcançadas.
+Sem isso, as tentativas de melhorar a postura de segurança provavelmente falharão - veja o
+projeto [Cultura de Segurança][culturegoal] para a importância de obter gerenciamento,
+equipes de segurança e desenvolvimento trabalhando juntos.
 
-Sections:
+Seções:
 
-2.1 [Security fundamentals](01-security-fundamentals.md)  
-2.2 [Secure development and integration](02-secure-development.md)  
-2.3 [Principles of security](03-security-principles.md)  
-2.4 [Principles of cryptography](04-crypto-principles.md)  
+2.1 [Fundamentos de segurança](01-security-fundamentals.md)  
+2.2 [Desenvolvimento e integração seguros](02-secure-development.md)  
+2.3 [Princípios de segurança](03-security-principles.md)  
+2.4 [Princípios de criptografia](04-crypto-principles.md)  
 2.5 [OWASP Top 10](05-top-ten.md)  
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0400] or [edit on GitHub][edit0400].
+O Guia do Desenvolvedor da OWASP é um trabalho da comunidade; se há algo que precisa ser mudado
+então [submeta uma issue][issue0400] ou [edite no GitHub][edit0400].
 
 [cbok]: https://www.cybok.org/
 [culturegoal]: https://owasp.org/www-project-security-culture/stable/3-Goal_Setting_and_Security_Team_Collaboration/
