@@ -26,8 +26,8 @@ permalink: /release/requirements/mobile_application_security/
 
 ### 3.6 Mobile Application Security
 
-The OWASP [Mobile Application Security][masproject] (MAS) flagship project has the mission statement:
-"Define the industry standard for mobile application security".
+The OWASP [Mobile Application Security][masproject] (MAS) flagship project provides
+industry standards for mobile application security.
 
 The MAS project covers the processes, techniques, and tools used for security testing mobile applications.
 It provides a set of test cases that enables testers to deliver consistent and complete results.
@@ -74,7 +74,7 @@ which can be used as a guide to decide if the category should to be included in 
 * OWASP [Mobile Application Security][mas] (MAS)
 * MAS [project][masproject]
 * MAS [Checklist][masc]
-* MAS Verification Standard ([MASVS][masvs])
+* MAS [Verification Standard][masvs] (MASVS)
 * OWASP [Mobile Application Security][csmas] cheat sheet
 
 ----
