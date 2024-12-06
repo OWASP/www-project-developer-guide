@@ -21,7 +21,7 @@ at each stage of the application security development lifecycle,
 with the aim of creating and nurturing secure development practices throughout the lifecycle.
 
 The Security Culture guide is an [OWASP incubator project][culturerepo]
-and version 1.0 is available as a [web document][culturedoc].
+and the latest stable version is available as a [web document][culturedoc].
 
 #### What is the OWASP Security Culture project
 
@@ -82,15 +82,15 @@ then [submit an issue][issue1001] or [edit on GitHub][edit1001].
 [issue1001]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2010-culture-process/01-security-culture
 [edit1001]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/10-culture-process/01-security-culture.md
 [culture]: https://owasp.org/www-project-security-culture/
-[cultureacts]: https://owasp.org/www-project-security-culture/v10/5-Activities/
+[cultureacts]: https://owasp.org/www-project-security-culture/stable/5-Activities/
 [culturechamps]: https://owasp.org/www-project-security-culture/stable/4-Security_Champions/
 [culturedoc]: https://owasp.org/www-project-security-culture/stable/
-[culturegoal]: https://owasp.org/www-project-security-culture/v10/3-Goal_Setting_and_Security_Team_Collaboration/
-[culturemetrics]: https://owasp.org/www-project-security-culture/v10/8-Metrics/
+[culturegoal]: https://owasp.org/www-project-security-culture/stable/3-Goal_Setting_and_Security_Team_Collaboration/
+[culturemetrics]: https://owasp.org/www-project-security-culture/stable/8-Metrics/
 [culturerepo]: https://github.com/OWASP/www-project-security-culture
-[culturetest]: https://owasp.org/www-project-security-culture/v10/7-Security_Testing/
-[culturetm]: https://owasp.org/www-project-security-culture/v10/6-Threat_Modelling/
-[culturewhy]: https://owasp.org/www-project-security-culture/v10/2-Why_Add_Security_In_Development_Teams/
+[culturetest]: https://owasp.org/www-project-security-culture/stable/7-Security_Testing/
+[culturetm]: https://owasp.org/www-project-security-culture/stable/6-Threat_Modelling/
+[culturewhy]: https://owasp.org/www-project-security-culture/stable/2-Why_Add_Security_In_Development_Teams/
 [dsodast]: https://owasp.org/www-project-devsecops-guideline/latest/02b-Dynamic-Application-Security-Testing
 [dsoiast]: https://owasp.org/www-project-devsecops-guideline/latest/02c-Interactive-Application-Security-Testing
 [dsosast]: https://owasp.org/www-project-devsecops-guideline/latest/02a-Static-Application-Security-Testing

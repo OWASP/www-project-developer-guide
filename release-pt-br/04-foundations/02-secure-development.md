@@ -26,6 +26,8 @@ permalink: /release-pt-br/foundations/secure_development/
 
 Secure development is described in the OWASP Software Assurance Maturity Model [(SAMM)][samm]
 [Design][sammd], [Implementation][sammi] and [Verification][sammv] business functions.
+Also refer to the [Security Culture][culturewhy] for a good explanation
+on why adding security into the software development lifecycle is important.
 
 #### Prelude
 
@@ -165,7 +167,6 @@ There are many OWASP tools and resources to help build security into the SDLC.
 * [Nettacker][net]
 * [Offensive Web Testing Framework][owtf] (OWTF)
 * [Web Security Testing Guide][wstg] (WSTG)
-* [Zed Attack Proxy][zap] (ZAP)
 
 #### OWASP training projects
 
@@ -205,6 +206,7 @@ then [submit an issue][issue0402] or [edit on GitHub][edit0402].
 [csproject]: https://owasp.org/www-project-cheat-sheets/
 [csrfguard]: https://owasp.org/www-project-csrfguard/
 [culture]: https://owasp.org/www-project-security-culture/
+[culturewhy]: https://owasp.org/www-project-security-culture/stable/2-Why_Add_Security_In_Development_Teams/
 [cyclone]: https://owasp.org/www-project-cyclonedx/
 [depcheck]: https://owasp.org/www-project-dependency-check/
 [deptrack]: https://dependencytrack.org/
@@ -237,4 +239,3 @@ then [submit an issue][issue0402] or [edit on GitHub][edit0402].
 [intstand]: https://owasp.org/www-project-integration-standards/
 [webgoat]: https://owasp.org/www-project-webgoat/
 [wstg]: https://owasp.org/www-project-web-security-testing-guide/
-[zap]: https://www.zaproxy.org/
