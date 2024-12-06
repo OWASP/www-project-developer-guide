@@ -24,6 +24,12 @@ software security for the application or system under development.
 This Developer Guide can only give a brief overview of these concepts,
 for in-depth knowledge refer to the many texts on security such as the [The Cyber Security Body Of Knowledge][cbok].
 
+If changes are being introduced to the security culture of an organization
+then make sure there is management buy-in and clear goals to achieve.
+Without these then attempts to improve the security posture will probably fail - see the
+[Security Culture][culturegoal] project for the importance of getting management,
+security and development teams working together.
+
 Sections:
 
 2.1 [Security fundamentals](#security-fundamentals)  
@@ -37,4 +43,5 @@ Sections:
 The OWASP Developer Guide is a community effort; if there is something that needs changing then [submit an issue][issue0400].
 
 [cbok]: https://www.cybok.org/
+[culturegoal]: https://owasp.org/www-project-security-culture/stable/3-Goal_Setting_and_Security_Team_Collaboration/
 [issue0400]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/00-toc

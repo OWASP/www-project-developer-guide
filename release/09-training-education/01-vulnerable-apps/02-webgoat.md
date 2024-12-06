@@ -103,12 +103,13 @@ WebWolf provides:
 
 #### Where to go from here?
 
-Try all the WebGoat lessons, they will certainly inform and educate.
-Use WebGoat in demonstrations of your favourite attack chains.
-Exercise available attack tools against WebGoat.
-
 Try out the WebGoat desktop environment by running `docker run -p 127.0.0.1:3000:3000 webgoat/webgoat-desktop`
 and navigating to `http://localhost:3000/`.
+
+* Try the WebGoat lessons, they will certainly inform and educate
+* Exercise available attack tools against WebGoat
+* Use WebGoat in demonstrations of your favourite attack chains
+* Use WebGoat material in presentations on vulnerabilities
 
 There are various ways of configuring WebGoat, see the [github repo][goatgithub] for more details.
 
