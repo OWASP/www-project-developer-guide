@@ -111,7 +111,7 @@ jobs:
             release/temp/draft.markdown
 
       - name: Store pdf and epub assets
-        uses: actions/upload-artifact@v4.4.0
+        uses: actions/upload-artifact@v4.5.0
         with:
           name: export-docs
           path: publish
