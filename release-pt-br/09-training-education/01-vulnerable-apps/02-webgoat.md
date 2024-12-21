@@ -28,7 +28,7 @@ permalink: /release-pt-br/training_education/vulnerable_applications/webgoat/
 
 The OWASP [WebGoat][webgoat] project is a deliberately insecure web application that can be
 used to attack common application vulnerabilities in a safe environment.
-It can also be used to exercise application security tools, such as [ZAP][zap], to practice
+It can also be used to exercise application security tools to practice
 scanning and identifying the various vulnerabilities built into WebGoat.
 
 WebGoat is a well established OWASP project and achieved Lab Project status many years ago.
@@ -103,12 +103,13 @@ WebWolf provides:
 
 #### Where to go from here?
 
-Try all the WebGoat lessons, they will certainly inform and educate.
-Use WebGoat in demonstrations of your favourite attack chains.
-Exercise Zap and Burp Suite against WebGoat, or other attack tools you have with you.
-
 Try out the WebGoat desktop environment by running `docker run -p 127.0.0.1:3000:3000 webgoat/webgoat-desktop`
 and navigating to `http://localhost:3000/`.
+
+* Try the WebGoat lessons, they will certainly inform and educate
+* Exercise available attack tools against WebGoat
+* Use WebGoat in demonstrations of your favourite attack chains
+* Use WebGoat material in presentations on vulnerabilities
 
 There are various ways of configuring WebGoat, see the [github repo][goatgithub] for more details.
 
@@ -116,7 +117,6 @@ There are various ways of configuring WebGoat, see the [github repo][goatgithub]
 
 * OWASP [WebGoat][webgoat] and WebWolf
 * [Docker][dockerinstall]
-* [ZAP][zap]
 
 ----
 
@@ -130,4 +130,3 @@ then [submit an issue][issue090102] or [edit on GitHub][edit090102].
 [edit090102]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/01-vulnerable-apps/02-webgoat.md
 [issue090102]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2009-training-education/01-vulnerable-apps/02-webgoat
 [webgoat]: https://owasp.org/www-project-webgoat/
-[zap]: https://www.zaproxy.org/
