@@ -22,51 +22,51 @@ permalink: /release-pt-br/foundations/secure_development/
 }
 </style>
 
-### 2.2 Secure development and integration
+### 2.2 Desenvolvimento e integração seguros
 
-Secure development is described in the OWASP Software Assurance Maturity Model [(SAMM)][samm]
-[Design][sammd], [Implementation][sammi] and [Verification][sammv] business functions.
-Also refer to the [Security Culture][culturewhy] for a good explanation
-on why adding security into the software development lifecycle is important.
+Desenvolvimento seguro é descrito nas funções de negócios de [Design][sammd], [Implementação][sammi] e [Verificação][sammv]
+do Modelo de Maturidade de Software Assurance da OWASP [(SAMM)][samm].
+Consulte também [Cultura de Segurança][culturewhy] para obter uma boa explicação
+sobre por que é importante adicionar segurança ao ciclo de vida de desenvolvimento de software.
 
-#### Prelude
+#### Prelúdio
 
-The best introduction to practical secure software development is the
-OWASP [Application Security Fragmentation][sdlc] article :
+A melhor introdução ao desenvolvimento prático de software seguro é o
+artigo OWASP [Fragmentação de segurança de aplicações] [sdlc]:
 
-_Or how I worried less and stood on the shoulders of giants._ - Spyros Gasteratos, Elie Saad
+_Ou como me preocupei menos e fiquei sobre ombros de gigantes._ - Spyros Gasteratos, Elie Saad
 
-Much of the material in this section is drawn from this OWASP [Integration Standards][intstand] project.
+Grande parte do material nesta seção foi extraído do projeto [Integration Standards][intstand] da OWASP.
 
-#### Overview
+#### Visão geral
 
-Almost all modern software is developed in an iterative manner passing through phase to phase,
-such as identifying customer requirements, implementation and test.
-These phases are revisited in a cyclic manner throughout the lifetime of the application.
-A notional Software Development LifeCycle (SDLC) is shown below, in practice there may be more or less phases
-according to the processes adopted by the organization.
+Quase todo software moderno é desenvolvido de maneira iterativa, passando de fase em fase,
+como identificação de requisitos do cliente, implementação e teste.
+Estas fases são revisitadas de forma cíclica ao longo do desenvolvimento da aplicação.
+Um ciclo de desenvolvimento de software (SDLC) nocional é mostrado abaixo; na prática, pode haver mais ou menos fases
+de acordo com os processos adotados pela organização.
 
 ![SDLC Lifecycle](../../../assets/images/sdlc_diag.png "notional SDLC lifecycle"){: .image-right }
 
-With the increasing number and sophistication of exploits against almost every application or business system,
-most companies have adopted a secure Software Development LifeCycle (SDLC).
-The secure SDLC should never be a separate lifecycle from an existing software development lifecycle,
-it must always be the same development lifecycle as before but with security actions built into each phase,
-otherwise security actions may well be set aside by busy development teams.
-Note that although the Secure SDLC could be written as 'SSDLC' it is almost always written as 'SDLC'.
+Com o crescente número e sofisticação de explorações contra quase todas as aplicações ou sistemas de negócios,
+a maioria das empresas adotou um Ciclo de Desenvolvimento de Software (SDLC) seguro.
+O SDLC seguro nunca deve ser um ciclo separado do ciclo de desenvolvimento de software preexistente,
+ele deve ser sempre o mesmo ciclo de desenvolvimento de antes, mas com ações de segurança integradas em cada fase,
+caso contrário, as ações de segurança poderão ser deixadas de lado por equipes de desenvolvimento atarefadas.
+Observe que embora o SDLC Seguro possa ser escrito como 'SSDLC', quase sempre é escrito como 'SDLC'.
 
-DevOps integrates and automates many of the SDLC phases and implements Continuous Integration (CI)
-and Continuous Delivery/Deployment (CD) pipelines to provide much of the SDLC automation.
+DevOps integra e automatiza muitas das fases do SDLC e implementa Integração Contínua (CI)
+e pipelines de entrega/implementação contínua (CD) para fornecer grande parte da automação do SDLC.
 
-DevOps and pipelines have been successfully exploited with serious large scale consequences
-and so, in a similar manner to the SDLC, much of the DevOps actions have also had security built in to them.
-Secure DevOps, or DevSecOps, builds security practices into the DevOps activities to guard against attack
-and to provide the SDLC with automated security testing.
+DevOps e pipelines tem sido explorados com sucesso, com sérias consequências em grande escala
+e assim, de maneira semelhante ao SDLC, muitas das ações de DevOps também tiveram segurança incorporada.
+DevOps Seguro, ou DevSecOps, incorpora práticas de segurança nas atividades de DevOps para proteção contra ataques
+e para fornecer testes de segurança automatizados ao SDLC.
 
-Examples of how DevSecOps is 'building security in' is the provision of
-Interactive, Static and Dynamic Application Security Testing (IAST, SAST & DAST)
-and implementing supply chain security, and there are many other security activities that can be applied.
-Refer to the [CI/CD Security Cheat Sheet][cscicd] for the latest DevSecOps security controls.
+Exemplos de como o DevSecOps é 'segurança embutida' são o fornecimento de
+Testes Interativos, Estáticos e Dinâmicos (IAST, SAST e DAST) de segurança de aplicações
+e a implementação de segurança da cadeia de suprimento de software, e há muitas outras atividades de segurança que podem ser aplicadas.
+Consulte a [folha de dicas de segurança para CI/CD][cscicd] para obter os controles de segurança DevSecOps mais recentes.
 
 #### Secure development lifecycle
 
@@ -192,8 +192,8 @@ There are many OWASP tools and resources to help build security into the SDLC.
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0402] or [edit on GitHub][edit0402].
+O Guia do Desenvolvedor da OWASP é um trabalho da comunidade; se há algo que precisa ser mudado
+então [submeta uma issue][issue0402] ou [edite no GitHub][edit0402].
 
 [amass]: https://owasp.org/www-project-amass/
 [apisec]: https://owasp.org/API-Security
