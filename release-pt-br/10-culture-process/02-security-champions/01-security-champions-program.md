@@ -21,11 +21,12 @@ Organization and Culture activities within the Governance business function of t
 
 #### Overview
 
-Referring to the OWASP [Security Culture project][culturechamps],
-it can be hard to introduce security across development teams using the application security team alone.
-Information security people do not scale across teams of developers.
+It can be hard to introduce a security mindset across development teams using the application security team alone;
+security engineers do not scale well across teams of developers - there is simply not enough of them.
 A good way to scale security and distribute security across development teams is by creating a security champion role
 and providing a Security Champions program to encourage a community spirit within the organization.
+This will help foster a positive security culture within the organization,
+see the [Security Culture project][culturechamps] on how this can be done with security champions.
 
 Security champions are usually individuals within each development team that show special interest in application security.
 The security champion provides a knowledgeable point of contact between the application security team and development,
@@ -82,7 +83,7 @@ increase the effectiveness of the application security team and improve the secu
 
 * [Security Champions Playbook][scplaybook]
 * OWASP [Security Champions Guide][scguide]
-* OWASP [Security Culture project][culturedoc]
+* OWASP [Security Culture][culturedoc] project
 
 ----
 

@@ -37,7 +37,13 @@ development, testing, or auditing of the applications and systems.
 In addition a Learning Management System or equivalent should be in place to track
 the employee training and certification processes.
 
-OWASP provides various resources and environments that can help with this security training and education.
+It is important to provide activities for development teams;
+we are all human and our security knowledge can become stale without a plan for refreshing it.
+The [Security Culture][cultureacts] project describes various activities that can help developers
+keep up to date and motivated.
+
+OWASP provides various resources and environments that can help with this security training and education
+ranging from vulnerable applications, training platforms and gamification.
 
 Sections:  
 
@@ -60,6 +66,7 @@ Sections:
 The OWASP Developer Guide is a community effort; if there is something that needs changing
 then [submit an issue][issue0900] or [edit on GitHub][edit0900].
 
+[cultureacts]: https://owasp.org/www-project-security-culture/stable/5-Activities/
 [edit0900]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/toc.md
 [issue0900]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2009-training-education/00-toc
 [sammg]: https://owaspsamm.org/model/governance/
