@@ -3,7 +3,7 @@
 title: Vulnerable Applications
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Roxana Calderon, Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 49100
 permalink: /release-es/training_education/vulnerable_applications/
@@ -22,25 +22,11 @@ permalink: /release-es/training_education/vulnerable_applications/
 }
 </style>
 
-![Developer guide logo](../../../assets/images/dg_logo_bbd.png "OWASP Developer Guide"){: .image-right }
+![WIP logo](../../../assets/images/dg_wip.png "Work in progress"){: .image-right }
 
 ### 7.1 Vulnerable Applications
 
-Vulnerable applications are useful for the Training and Education activities
-described in the SAMM [Training and Awareness][sammgegta] section,
-which in turn is part of the SAMM [Education & Guidance][sammgeg] security practice
-within the [Governance][sammg] business function.
-
-The vulnerable applications provide a safe environment where various vulnerable targets can be attacked.
-This provides practice in using various penetration tools available to a tester,
-without the risk of attack traffic triggering intrusion detection systems.
-The OWASP [Vulnerable Web Applications Directory Project][vwad] (VWAD) provides a comprehensive list of
-available intentionally-vulnerable web applications:
-
-* Vulnerable [mobile applications][vwad-mobile]
-* [Offline][vwad-offline] vulnerable web applications
-* [Containerized][vwad-containers] vulnerable web applications
-* vulnerable web applications [available Online][vwad-online]
+No hay traducción para esta página, consulte [versión original en inglés][release0910].
 
 Sections:  
 
@@ -51,15 +37,4 @@ Sections:
 
 ----
 
-Traducción de versión [original en inglés][release0910].
-
-[edit0910]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/09-training-education/01-vulnerable-apps/toc.md
-
-[sammg]: https://owaspsamm.org/model/governance/
-[sammgeg]: https://owaspsamm.org/model/governance/education-and-guidance/
-[sammgegta]: https://owaspsamm.org/model/governance/education-and-guidance/stream-a/
-[vwad]: https://owasp.org/www-project-vulnerable-web-applications-directory/
-[vwad-containers]: https://owasp.org/www-project-vulnerable-web-applications-directory/#div-container
-[vwad-mobile]: https://owasp.org/www-project-vulnerable-web-applications-directory/#div-mobile
-[vwad-online]: https://owasp.org/www-project-vulnerable-web-applications-directory/#div-online
-[vwad-offline]: https://owasp.org/www-project-vulnerable-web-applications-directory/#div-offline
+[release0910]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/09-training-education/01-vulnerable-apps/toc.md

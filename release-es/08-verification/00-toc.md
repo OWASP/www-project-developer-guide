@@ -3,7 +3,7 @@
 title: Verification
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Roxana Calderon, Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order:
 
@@ -15,27 +15,7 @@ order:
 
 ## 6. Verification
 
-[Verification][sammv] is one of the business functions described by the [OWASP SAMM][samm].
-
-Verification focuses on the processes and activities related to how an organization checks
-and tests artifacts produced throughout software development.
-This typically includes quality assurance work such as testing, and also includes other review and evaluation activities.
-
-Verification activities should include:
-
-* Architecture assessment, validation and mitigation
-* Requirements-driven testing
-* Security control verification and misuse/abuse testing
-* Automated security testing and baselining
-* Manual security testing and penetration testing
-
-These activities are supported by:
-
-* Security guides
-* Test tools
-* Test frameworks
-* Vulnerability management
-* Checklists
+No hay traducción para esta página, consulte [versión original en inglés][release0800].
 
 Sections:
 
@@ -56,10 +36,6 @@ Sections:
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing then [submit an issue][issue0800].
-
-
-[samm]: https://owaspsamm.org/about/
-[sammv]: https://owaspsamm.org/model/verification/
+[release0800]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/08-verification/toc.md
 
 \newpage

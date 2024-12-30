@@ -3,7 +3,7 @@
 title: Verification Tools
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Roxana Calderon, Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order:
 
@@ -15,15 +15,7 @@ order:
 
 ### 6.2 Verification tools
 
-[Verification][sammv] is one of the business functions described by the [OWASP SAMM][samm].
-
-The SAMM [Security Testing][sammvst] activity describes the use of both
-automated security testing and manual expert security testing to discover security defects.
-This security testing should be automated as part of the development, build and deployment processes;
-and can be complemented with regular manual security penetration tests.
-
-Automated security testing tools are fast and scale well to numerous applications,
-whereas manual security testing of high-risk components requires good knowledge of the application and its business logic.
+No hay traducción para esta página, consulte [versión original en inglés][release0820].
 
 Sections:
 
@@ -35,11 +27,6 @@ Sections:
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing then [submit an issue][issue0820].
-
-
-[samm]: https://owaspsamm.org/about/
-[sammv]: https://owaspsamm.org/model/verification/
-[sammvst]: https://owaspsamm.org/model/verification/security-testing/
+[release0820]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/08-verification/02-tools/toc.md
 
 \newpage

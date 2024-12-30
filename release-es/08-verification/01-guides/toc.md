@@ -3,7 +3,7 @@
 title: Verification Guides
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Roxana Calderon, Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 48100
 permalink: /release-es/verification/guides/
@@ -22,19 +22,11 @@ permalink: /release-es/verification/guides/
 }
 </style>
 
-![Developer guide logo](../../../assets/images/dg_logo_bbd.png "OWASP Developer Guide"){: .image-right }
+![WIP logo](../../../assets/images/dg_wip.png "Work in progress"){: .image-right }
 
 ### 6.1 Verification guides
 
-[Verification][sammv] is one of the business functions described by the [OWASP SAMM][samm].
-The verification activities are wide ranging, and will include:
-
-* Testing of security controls
-* Review of controls and security mechanisms
-* Evaluation and assessment of the security architecture
-* and others
-
-Given the breadth of techniques and knowledge required, guides are an important resource for verification activities.
+No hay traducción para esta página, consulte [versión original en inglés][release0810].
 
 Sections:
 
@@ -44,9 +36,4 @@ Sections:
 
 ----
 
-Traducción de versión [original en inglés][release0810].
-
-[edit0810]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/08-verification/01-guides/toc.md
-
-[samm]: https://owaspsamm.org/about/
-[sammv]: https://owaspsamm.org/model/verification/
+[release0810]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/08-verification/01-guides/toc.md
