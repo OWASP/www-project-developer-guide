@@ -30,6 +30,6 @@ No hay traducción para esta página, consulte [versión original en inglés][re
 
 ----
 
-[es0502]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/05-requirements/02-risk.md
+[release0502]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/05-requirements/02-risk.md
 
 \newpage

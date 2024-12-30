@@ -1,12 +1,12 @@
 ---
 
-title: Security Knowledge Framework
+title: OpenCRE and Integration Standards
 layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 45070
-permalink: /release-es/requirements/security_knowledge_framework/
+order: 45030
+permalink: /release-es/requirements/opencre_integration_standard/
 
 ---
 
@@ -24,12 +24,12 @@ permalink: /release-es/requirements/security_knowledge_framework/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Work in progress"){: .image-right }
 
-### 3.7 Security Knowledge Framework
+### 3.3 OpenCRE
 
-No hay traducción para esta página, consulte [versión original en inglés][release0507].
+No hay traducción para esta página, consulte [versión original en inglés][release0503].
 
 ----
 
-[release0507]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/05-requirements/07-skf.md
+[release0503]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/05-requirements/03-opencre.md
 
 \newpage

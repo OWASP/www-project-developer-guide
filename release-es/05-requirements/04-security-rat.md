@@ -30,6 +30,6 @@ No hay traducción para esta página, consulte [versión original en inglés][re
 
 ----
 
-[es0504]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/05-requirements/04-security-rat.md
+[release0504]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/05-requirements/04-security-rat.md
 
 \newpage

@@ -1,12 +1,12 @@
 ---
 
-title: OpenCRE and Integration Standards
+title: MAS Weakness Enumeration
 layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 45030
-permalink: /release-es/requirements/integration_standard_opencre/
+order: 47400
+permalink: /release-es/implementation/mas_weakness_enumeration/
 
 ---
 
@@ -24,12 +24,12 @@ permalink: /release-es/requirements/integration_standard_opencre/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Work in progress"){: .image-right }
 
-### 3.3 OpenCRE
+### 5.4 Mobile application weakness enumeration
 
-No hay traducción para esta página, consulte [versión original en inglés][release0503].
+No hay traducción para esta página, consulte [versión original en inglés][release0704].
 
 ----
 
-[es0503]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/05-requirements/03-int-stand.md
+[release0704]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/04-maswe.md
 
 \newpage

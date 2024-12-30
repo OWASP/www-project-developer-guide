@@ -3,7 +3,7 @@
 title: Verification Guides
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Roxana Calderon, Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order:
 

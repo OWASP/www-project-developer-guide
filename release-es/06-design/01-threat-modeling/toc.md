@@ -3,7 +3,7 @@
 title: Threat Modeling
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Roxana Calderon, Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 46100
 permalink: /release-es/design/threat_modeling/

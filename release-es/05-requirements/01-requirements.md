@@ -30,6 +30,6 @@ No hay traducción para esta página, consulte [versión original en inglés][re
 
 ----
 
-[es0501]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/05-requirements/01-requirements.md
+[release0501]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/05-requirements/01-requirements.md
 
 \newpage

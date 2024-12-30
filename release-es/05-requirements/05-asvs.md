@@ -30,6 +30,6 @@ No hay traducción para esta página, consulte [versión original en inglés][re
 
 ----
 
-[es0505]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/05-requirements/05-asvs.md
+[release0505]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/05-requirements/05-asvs.md
 
 \newpage
