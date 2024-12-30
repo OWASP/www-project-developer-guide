@@ -73,8 +73,7 @@ which can be used as additional information on implementing the control.
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue070101] or [edit on GitHub][edit070101].
+Traducción de versión [original en inglés][release070101].
 
 [csclick]: https://cheatsheetseries.owasp.org/cheatsheets/Clickjacking_Defense_Cheat_Sheet
 [cscreds]: https://cheatsheetseries.owasp.org/cheatsheets/Credential_Stuffing_Prevention_Cheat_Sheet
@@ -115,8 +114,8 @@ then [submit an issue][issue070101] or [edit on GitHub][edit070101].
 [control8]: https://top10proactive.owasp.org/the-top-10/c8-help-the-browser-defend-the-user/
 [control9]: https://top10proactive.owasp.org/the-top-10/c9-security-logging-and-monitoring/
 [control10]: https://top10proactive.owasp.org/the-top-10/c10-stop-server-side-request-forgery/
-[edit070101]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/01-documentation/01-proactive-controls.md
-[issue070101]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2007-implementation/01-documentation/01-proactive-controls
+[edit070101]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/07-implementation/01-documentation/01-proactive-controls.md
+
 [proactive10]: https://top10proactive.owasp.org/
 [spotlight08]: https://youtu.be/HRtYDCWOSc0
 

@@ -72,8 +72,7 @@ In addition consider the following extra checks for frameworks and libraries.
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue060202] or [edit on GitHub][edit060202].
+Traducción de versión [original en inglés][release060202].
 
 [csajax]: https://cheatsheetseries.owasp.org/cheatsheets/AJAX_Security_Cheat_Sheet
 [cscbased]: https://cheatsheetseries.owasp.org/cheatsheets/C-Based_Toolchain_Hardening_Cheat_Sheet
@@ -101,8 +100,8 @@ then [submit an issue][issue060202] or [edit on GitHub][edit060202].
 [csproactive-c2]: https://cheatsheetseries.owasp.org/IndexProactiveControls.html#c2-leverage-security-frameworks-and-libraries
 [control4]: https://top10proactive.owasp.org/the-top-10/c4-secure-architecture/
 [dependency]: https://owasp.org/www-project-dependency-check/
-[edit060202]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/02-web-app-checklist/02-frameworks-libraries.md
-[issue060202]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/02-web-app-checklist/02-frameworks-libraries
+[edit060202]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/06-design/02-web-app-checklist/02-frameworks-libraries.md
+
 [proactive10]: https://top10proactive.owasp.org/
 
 \newpage

@@ -79,8 +79,8 @@ La Guía para desarrolladores de OWASP es un esfuerzo comunitario; si hay algo q
 entonces [cree un issue][issue03] o [edítelo en GitHub][edit03].
 
 [about]: https://owasp.org/about/
-[edit03]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/03-introduction.md
-[issue03]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2003-introduction
+[edit03]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/03-introduction.md
+
 [samm]: https://owaspsamm.org/about/
 [versions]: https://github.com/OWASP/DevGuide/wiki#old-versions
 [intstand]: https://owasp.org/www-project-integration-standards/

@@ -72,7 +72,7 @@ Sections:
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing then [submit an issue][issue0600].
 
-[issue0600]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/00-toc
+
 [samm]: https://owaspsamm.org/about/
 [sammd]: https://owaspsamm.org/model/design/
 [sammdsa]: https://owaspsamm.org/model/design/secure-architecture/

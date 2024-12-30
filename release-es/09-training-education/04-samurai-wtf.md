@@ -85,11 +85,10 @@ From a command prompt run 'katana' to start configuring SamuraiWTF for your trai
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0904] or [edit on GitHub][edit0904].
+Traducción de versión [original en inglés][release0904].
 
-[edit0904]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/04-samurai-wtf.md
-[issue0904]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2009-training-education/04-samurai-wtf
+[edit0904]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/09-training-education/04-samurai-wtf.md
+
 [kali]: https://www.kali.org/
 [samuraiwtf]: https://www.samuraiwtf.org/
 [samurai-dojo]: https://owasp.org/www-project-samuraiwtf/#div-dojo

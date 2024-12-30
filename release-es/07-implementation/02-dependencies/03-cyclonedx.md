@@ -78,8 +78,7 @@ and [various tools][cyclonedx-tools] can be chosen that are able to export the S
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue070203] or [edit on GitHub][edit070203].
+Traducción de versión [original en inglés][release070203].
 
 [cschain]: https://cheatsheetseries.owasp.org/cheatsheets/Software_Supply_Chain_Security
 [csdisclose]: https://cheatsheetseries.owasp.org/cheatsheets/Vulnerability_Disclosure_Cheat_Sheet
@@ -98,8 +97,8 @@ then [submit an issue][issue070203] or [edit on GitHub][edit070203].
 [cyclonedx-tools]: https://cyclonedx.org/tool-center/
 [cyclonedx-vdr]: https://cyclonedx.org/capabilities/vdr/
 [cyclonedx-vex]: https://cyclonedx.org/capabilities/vex/
-[edit070203]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/02-dependencies/03-cyclonedx.md
-[issue070203]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2007-implementation/02-dependencies/03-cyclonedx
+[edit070203]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/07-implementation/02-dependencies/03-cyclonedx.md
+
 [spotlight21]: https://youtu.be/qEG6cxwl8os
 
 \newpage

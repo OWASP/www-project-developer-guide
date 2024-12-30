@@ -80,8 +80,7 @@ The cheat sheets are continually being updated and are always open to contributi
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue070103] or [edit on GitHub][edit070103].
+Traducción de versión [original en inglés][release070103].
 
 [csproject]: https://owasp.org/www-project-cheat-sheets/
 [cheatsheets]: https://cheatsheetseries.owasp.org/
@@ -90,8 +89,8 @@ then [submit an issue][issue070103] or [edit on GitHub][edit070103].
 [csmasvs]: https://cheatsheetseries.owasp.org/IndexMASVS.html
 [csproactive]: https://cheatsheetseries.owasp.org/IndexProactiveControls.html
 [cstop10]: https://cheatsheetseries.owasp.org/IndexTopTen.html
-[edit070103]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/01-documentation/03-cheatsheets.md
-[issue070103]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2007-implementation/01-documentation/03-cheatsheets
+[edit070103]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/07-implementation/01-documentation/03-cheatsheets.md
+
 [spotlight04]: https://youtu.be/S1cVYRDeiPQ
 
 \newpage

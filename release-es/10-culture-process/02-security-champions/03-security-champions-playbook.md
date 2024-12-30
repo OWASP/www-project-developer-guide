@@ -47,11 +47,10 @@ Use these recommendations to build up a Security Champions program that is tailo
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue1023] or [edit on GitHub][edit1023].
+Traducción de versión [original en inglés][release1023].
 
-[issue1023]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2010-culture-process/02-security-champions/03-security-champions-playbook
-[edit1023]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/10-culture-process/02-security-champions/03-security-champions-playbook.md
+
+[edit1023]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/10-culture-process/02-security-champions/03-security-champions-playbook.md
 [sec-champs]: https://github.com/c0rdis/security-champions-playbook
 
 \newpage

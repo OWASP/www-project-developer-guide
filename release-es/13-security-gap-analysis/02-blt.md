@@ -48,8 +48,7 @@ and encourage users/reporters to use the [BLT app][bltapp] and chrome [extension
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue1302] or [edit on GitHub][edit1302].
+Traducción de versión [original en inglés][release1302].
 
 [blt]: https://owasp.org/www-project-bug-logging-tool/
 [bltchrome]: https://github.com/OWASP/BLT-Extension
@@ -57,7 +56,7 @@ then [submit an issue][issue1302] or [edit on GitHub][edit1302].
 [bltapp]: https://github.com/OWASP/BLT-Flutter
 [bltsite]: https://blt.owasp.org/
 [csdisclose]: https://cheatsheetseries.owasp.org/cheatsheets/Vulnerability_Disclosure_Cheat_Sheet
-[edit1302]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/13-security-gap-analysis/02-blt.md
-[issue1302]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2013-security-gap-analysis/02-blt
+[edit1302]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/13-security-gap-analysis/02-blt.md
+
 
 \newpage

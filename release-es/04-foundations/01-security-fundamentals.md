@@ -151,8 +151,7 @@ La [serie de hojas de referencia][cheatsheets] de OWASP proporciona a los desarr
 
 ----
 
-La Guía del Desarrollador de OWASP es un esfuerzo comunitario; si hay algo que necesita cambio
-entonces [cree un issue][issue0401] o [edítelo en GitHub][edit0401].
+Traducción de versión [original en inglés][release0401].
 
 [cheatsheets]: https://cheatsheetseries.owasp.org/
 [csclick]: https://cheatsheetseries.owasp.org/cheatsheets/Clickjacking_Defense_Cheat_Sheet
@@ -183,8 +182,7 @@ entonces [cree un issue][issue0401] o [edítelo en GitHub][edit0401].
 [csxsleaks]: https://cheatsheetseries.owasp.org/cheatsheets/XS_Leaks_Cheat_Sheet
 [csxssevade]: https://cheatsheetseries.owasp.org/cheatsheets/XSS_Filter_Evasion_Cheat_Sheet
 [csxxe]: https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet
-[issue0401]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/01-security-fundamentals
-[edit0401]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/04-foundations/01-security-fundamentals.md
+[release0401]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/04-foundations/01-security-fundamentals.md
 [htmlliving]: https://html.spec.whatwg.org/multipage/
 [nistvuln]: https://csrc.nist.gov/glossary/term/vulnerability
 [samm]: https://owaspsamm.org/about/

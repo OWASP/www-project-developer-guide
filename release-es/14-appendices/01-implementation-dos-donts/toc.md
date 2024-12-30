@@ -45,8 +45,7 @@ Sections:
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0740] or [edit on GitHub][edit0740].
+Traducción de versión [original en inglés][release0740].
 
-[edit0740]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/14-appendices/01-implementation-dos-donts/toc.md
-[issue0740]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2014-appendices/01-implementation-dos-donts/00-toc
+[edit0740]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/14-appendices/01-implementation-dos-donts/toc.md
+

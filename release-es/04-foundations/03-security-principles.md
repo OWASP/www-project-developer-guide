@@ -121,7 +121,7 @@ Es más probable que los componentes existentes hayan sido probados y testeados,
 
 ----
 
-La Guía para Desarrolladores de OWASP es un esfuerzo comunitario; si hay algo que necesita cambio, entonces [cree un issue][issue0403] o [edítelo en GitHub][edit0403].
+Traducción de versión [original en inglés][release0403].
 
 [^1]: [Gestión Operativa](https://owaspsamm.org/model/operations/operational-management/), (SAMM)
 
@@ -129,9 +129,8 @@ La Guía para Desarrolladores de OWASP es un esfuerzo comunitario; si hay algo q
 [csauthz]: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet
 [csproject]: https://owasp.org/www-project-cheat-sheets/
 [did]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet.html#2-the-principle-of-defense-in-depth
-[issue0403]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/03-security-principles
 [elp]: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html#enforce-least-privileges
-[edit0403]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/04-foundations/03-security-principles.md
+[release0403]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/04-foundations/03-security-principles.md
 [sop]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet.html#1-the-principle-of-least-privilege-and-separation-of-duties
 [spdcs]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet
 

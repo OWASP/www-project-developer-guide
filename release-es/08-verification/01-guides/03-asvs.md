@@ -90,8 +90,7 @@ which can be used as documentation to help decide if a requirements category is 
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue080103] or [edit on GitHub][edit080103].
+Traducción de versión [original en inglés][release080103].
 
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [asvsL123]: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x03-Using-ASVS.md#application-security-verification-levels
@@ -111,8 +110,8 @@ then [submit an issue][issue080103] or [edit on GitHub][edit080103].
 [asvsV13]: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x21-V13-API.md#v13-api-and-web-service
 [asvsV14]: https://github.com/OWASP/ASVS/blob/v4.0.3/4.0/en/0x22-V14-Config.md#v14-configuration
 [csasvs]: https://cheatsheetseries.owasp.org/IndexASVS.html
-[edit080103]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2008-verification/01-guides/05-asvs.md
-[issue080103]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2008-verification/01-guides/03-asvs
+
+
 [spotlight19]: https://youtu.be/3puIavsZfAk
 [srat]: https://owasp.org/www-project-securityrat/
 

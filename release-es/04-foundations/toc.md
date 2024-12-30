@@ -45,9 +45,7 @@ Secciones:
 
 ----
 
-La Guía para desarrolladores de OWASP es un esfuerzo comunitario; si hay algo que necesita cambio
-entonces [cree un issue][issue0400] o [edítelo en GitHub][edit0400]
+Traducción de versión [original en inglés][release0400]
 
 [cbok]: https://www.cybok.org/
-[edit0400]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/04-foundations/toc.md
-[issue0400]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/00-toc
+[release0400]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/04-foundations/toc.md

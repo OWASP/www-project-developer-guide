@@ -33,6 +33,6 @@ order:
 
 The OWASP Developer Guide is a community effort; if there is something that needs changing then [submit an issue][issue1400].
 
-[issue1400]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2014-appendices/00-toc
+
 
 \newpage

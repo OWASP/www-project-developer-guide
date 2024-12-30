@@ -70,14 +70,13 @@ and use the lists below as suggestions for a checklist that has been tailored fo
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue060201] or [edit on GitHub][edit060201].
+Traducción de versión [original en inglés][release060201].
 
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [csproactive-c1]: https://cheatsheetseries.owasp.org/IndexProactiveControls.html#c1-define-security-requirements
 [control4]: https://top10proactive.owasp.org/the-top-10/c4-secure-architecture/
-[edit060201]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/02-web-app-checklist/01-define-security-requirements.md
-[issue060201]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/02-web-app-checklist/01-define-security-requirements
+[edit060201]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/06-design/02-web-app-checklist/01-define-security-requirements.md
+
 [mas]: https://mas.owasp.org/
 [proactive10]: https://top10proactive.owasp.org/
 

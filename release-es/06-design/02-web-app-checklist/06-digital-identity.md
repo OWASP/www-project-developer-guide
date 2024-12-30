@@ -101,8 +101,7 @@ and use the list below as suggestions for a checklist that has been tailored for
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue060206] or [edit on GitHub][edit060206].
+Traducción de versión [original en inglés][release060206].
 
 [csproactive-c6]: https://cheatsheetseries.owasp.org/IndexProactiveControls.html#c6-implement-digital-identity
 [control7]: https://top10proactive.owasp.org/the-top-10/c7-implement-digital-identity/
@@ -112,8 +111,8 @@ then [submit an issue][issue060206] or [edit on GitHub][edit060206].
 [csforgot]: https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet
 [cssession]: https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet
 [csquestions]: https://cheatsheetseries.owasp.org/cheatsheets/Choosing_and_Using_Security_Questions_Cheat_Sheet
-[edit060206]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/02-web-app-checklist/06-digital-identity.md
-[issue060206]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/02-web-app-checklist/06-digital-identity
+[edit060206]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/06-design/02-web-app-checklist/06-digital-identity.md
+
 [proactive10]: https://top10proactive.owasp.org
 [tls]: https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Security_Cheat_Sheet
 

@@ -74,10 +74,9 @@ Some of these are language specific and others have more general applicability.
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue140202] or [edit on GitHub][edit140202].
+Traducción de versión [original en inglés][release140202].
 
-[edit140202]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/14-appendices/02-verification-dos-donts/02-system-hardening.md
-[issue140202]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2014-appendices/02-verification-dos-donts/02-system-hardening
+[edit140202]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/14-appendices/02-verification-dos-donts/02-system-hardening.md
+
 
 \newpage

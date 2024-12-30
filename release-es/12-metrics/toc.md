@@ -59,11 +59,10 @@ There are other metrics, sometimes specific to an individual organization, that 
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue1200] or [edit on GitHub][edit1200].
+Traducción de versión [original en inglés][release1200].
 
-[edit1200]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/12-metrics/toc.md
-[issue1200]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2012-metrics/00-toc
+[edit1200]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/12-metrics/toc.md
+
 [samm]: https://owaspsamm.org/about/
 [sammg]: https://owaspsamm.org/model/governance/
 [sammgsm]: https://owaspsamm.org/model/governance/strategy-and-metrics/

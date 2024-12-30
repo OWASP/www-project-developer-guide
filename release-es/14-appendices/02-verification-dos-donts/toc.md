@@ -39,10 +39,9 @@ Sections:
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue1402] or [edit on GitHub][edit1402].
+Traducción de versión [original en inglés][release1402].
 
-[edit1402]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/14-appendices/02-verification-dos-donts/toc.md
-[issue1402]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2014-appendices/02-verification-dos-donts/00-toc
+[edit1402]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/14-appendices/02-verification-dos-donts/toc.md
+
 [samm]: https://owaspsamm.org/about/
 [sammv]: https://owaspsamm.org/model/verification/

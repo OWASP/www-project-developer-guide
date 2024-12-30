@@ -60,11 +60,10 @@ in a range of languages and frameworks.
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue080205] or [edit on GitHub][edit080205].
+Traducción de versión [original en inglés][release080205].
 
-[edit080205]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/02-tools/05-secure-headers.md
-[issue080205]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2008-verification/02-tools/05-secure-headers
+[edit080205]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/08-verification/02-tools/05-secure-headers.md
+
 [oshp]: https://owasp.org/www-project-secure-headers/
 [oshp-libs]: https://owasp.org/www-project-secure-headers/#development-libraries
 [oshp-tools]: https://owasp.org/www-project-secure-headers/#analysis-tools

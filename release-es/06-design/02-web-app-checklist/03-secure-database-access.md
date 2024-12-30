@@ -54,15 +54,14 @@ and use the list below as suggestions for a checklist that has been tailored for
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue060203] or [edit on GitHub][edit060203].
+Traducción de versión [original en inglés][release060203].
 
 [csproactive-c3]: https://cheatsheetseries.owasp.org/IndexProactiveControls.html#c3-secure-database-access
 [control3]: https://top10proactive.owasp.org/the-top-10/c3-validate-input-and-handle-exceptions/
 [csdb]: https://cheatsheetseries.owasp.org/cheatsheets/Database_Security_Cheat_Sheet
 [csquery]: https://cheatsheetseries.owasp.org/cheatsheets/Query_Parameterization_Cheat_Sheet
-[edit060203]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/02-web-app-checklist/03-secure-database-access.md
-[issue060203]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/02-web-app-checklist/03-secure-database-access
+[edit060203]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/06-design/02-web-app-checklist/03-secure-database-access.md
+
 [proactive10]: https://top10proactive.owasp.org/
 
 \newpage

@@ -44,10 +44,9 @@ Here is a collection of Do's and Don'ts when it comes to file management, gather
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue140107] or [edit on GitHub][edit140107].
+Traducción de versión [original en inglés][release140107].
 
-[edit140107]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/14-appendices/01-implementation-dos-donts/07-file-management.md
-[issue140107]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%20/14-appendices/01-implementation-dos-donts/07-file-management
+[edit140107]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/14-appendices/01-implementation-dos-donts/07-file-management.md
+
 
 \newpage

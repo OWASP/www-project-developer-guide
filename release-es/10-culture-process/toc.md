@@ -50,11 +50,10 @@ Sections:
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue1000] or [edit on GitHub][edit1000].
+Traducción de versión [original en inglés][release1000].
 
-[edit1000]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/10-culture-process/toc.md
-[issue1000]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2010-culture-process/00-toc
+[edit1000]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/10-culture-process/toc.md
+
 [sammg]: https://owaspsamm.org/model/governance/
 [sammgeg]: https://owaspsamm.org/model/governance/education-and-guidance/
 [sammgegoc]: https://owaspsamm.org/model/governance/education-and-guidance/stream-b/

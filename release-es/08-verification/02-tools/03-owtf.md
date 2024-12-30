@@ -57,11 +57,10 @@ and  the [install][owtfinstall] instructions may need adapting to run on MacOS o
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue080203] or [edit on GitHub][edit080203].
+Traducción de versión [original en inglés][release080203].
 
-[edit080203]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/02-tools/03-owtf.md
-[issue080203]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2008-verification/02-tools/03-owtf
+[edit080203]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/08-verification/02-tools/03-owtf.md
+
 [kali]: https://www.kali.org/
 [owtfinstall]: https://owtf.readthedocs.io/en/develop/installation/methods.html
 [owtfdocs]: https://owtf.readthedocs.io/

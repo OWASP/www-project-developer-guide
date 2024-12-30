@@ -28,10 +28,9 @@ Here is a collection of Do's and Don'ts when it comes to memory management, gath
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue140108] or [edit on GitHub][edit140108].
+Traducción de versión [original en inglés][release140108].
 
-[edit140108]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/14-appendices/01-implementation-dos-donts/08-memory-management.md
-[issue140108]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2014-appendices/01-implementation-dos-donts/08-memory-management
+[edit140108]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/14-appendices/01-implementation-dos-donts/08-memory-management.md
+
 
 \newpage

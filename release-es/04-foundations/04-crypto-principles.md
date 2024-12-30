@@ -248,20 +248,17 @@ Referencias
   * [Diseño de Producto Seguro][spdcs]
   * [Protección de Privacidad del Usuario][uppcs]
 
+----
 
-
-
-La Guía del Desarrollador OWASP es un esfuerzo comunitario; si hay algo que necesita cambios
-entonces [cree un issue][issue0404] o [edítelo en GitHub][edit0404].
+Traducción de versión [original en inglés][release0404].
 
 [csauthn]: https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet
 [csauthz]: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet
 [csoauth]: https://cheatsheetseries.owasp.org/cheatsheets/OAuth2_Cheat_Sheet
 [csproject]: https://owasp.org/www-project-cheat-sheets/
 [cscs]: https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet
-[issue0404]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/04-crypto-principles
 [kmcs]: https://cheatsheetseries.owasp.org/cheatsheets/Key_Management_Cheat_Sheet
-[edit0404]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/04-foundations/04-crypto-principles.md
+[release0404]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/04-foundations/04-crypto-principles.md
 [sscs]: https://cheatsheetseries.owasp.org/cheatsheets/SAML_Security_Cheat_Sheet
 [spdcs]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet
 [tls]: https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Security_Cheat_Sheet

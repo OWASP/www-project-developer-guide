@@ -57,13 +57,12 @@ or automatically within a CI/CD environment - and definitely check out the [Head
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue080201] or [edit on GitHub][edit080201].
+Traducción de versión [original en inglés][release080201].
 
 [crash]: https://crashoverride.com/open-source
 [cscicd]: https://cheatsheetseries.owasp.org/cheatsheets/CI_CD_Security_Cheat_Sheet
-[edit080201]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/02-tools/01-zap.md
-[issue080201]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2008-verification/02-tools/01-zap
+[edit080201]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/08-verification/02-tools/01-zap.md
+
 [spotlight12]: https://youtu.be/usIlW8Q-hc4
 [zap]: https://www.zaproxy.org/
 [zapdownload]: https://www.zaproxy.org/download/

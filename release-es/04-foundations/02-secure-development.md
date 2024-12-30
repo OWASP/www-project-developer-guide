@@ -125,7 +125,7 @@ Hay muchas herramientas y recursos de OWASP para ayudar a integrar la seguridad 
 
 ----
 
-La Guía para Desarrolladores de OWASP es un esfuerzo comunitario; si hay algo que necesita cambio, [cree un issue][issue0402] o [edítelo en GitHub][edit0402].
+Traducción de versión [original en inglés][release0402].
 
 [amass]: https://owasp.org/www-project-amass/
 [apisec]: https://owasp.org/API-Security
@@ -143,11 +143,10 @@ La Guía para Desarrolladores de OWASP es un esfuerzo comunitario; si hay algo q
 [deptrack]: https://dependencytrack.org/
 [devsecops]: https://owasp.org/www-project-devsecops-guideline/
 [defectdojo]: https://www.defectdojo.org/
-[edit0402]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/04-foundations/02-secure-development.md
+[release0402]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/04-foundations/02-secure-development.md
 [esapi-project]: https://owasp.org/www-project-enterprise-security-api/
 [github]: https://github.com/
 [gitlab]: https://about.gitlab.com/
-[issue0402]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/02-secure-development
 [juice]: https://owasp.org/www-project-juice-shop/
 [mas]: https://mas.owasp.org/
 [masproject]: https://owasp.org/www-project-mobile-app-security/

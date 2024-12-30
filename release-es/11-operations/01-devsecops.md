@@ -61,8 +61,7 @@ existing 2023 version.
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue1101] or [edit on GitHub][edit1101].
+Traducción de versión [original en inglés][release1101].
 
 [cscicd]: https://cheatsheetseries.owasp.org/cheatsheets/CI_CD_Security_Cheat_Sheet
 [devsecops]: https://owasp.org/www-project-devsecops-guideline/
@@ -76,7 +75,7 @@ then [submit an issue][issue1101] or [edit on GitHub][edit1101].
 [dsopdf]: https://github.com/OWASP/DevSecOpsGuideline/releases
 [dsosast]: https://owasp.org/www-project-devsecops-guideline/latest/02a-Static-Application-Security-Testing
 [dsosca]: https://owasp.org/www-project-devsecops-guideline/latest/02d-Software-Composition-Analysis
-[edit1101]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/11-operations/01-devsecops.md
-[issue1101]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2011-operations/01-devsecops
+[edit1101]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/11-operations/01-devsecops.md
+
 
 \newpage

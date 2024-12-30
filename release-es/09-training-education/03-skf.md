@@ -59,12 +59,11 @@ This will provide access to the practice labs, the training courses and also to 
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0903] or [edit on GitHub][edit0903].
+Traducción de versión [original en inglés][release0903].
 
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
-[edit0903]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/03-skf.md
-[issue0903]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2009-training-education/03-security-knowledge-framework
+[edit0903]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/09-training-education/03-skf.md
+
 [linuxtraining]: https://training.linuxfoundation.org/full-catalog/
 [skf]: https://www.securityknowledgeframework.org/
 [skfdemo]: https://secureby.design/

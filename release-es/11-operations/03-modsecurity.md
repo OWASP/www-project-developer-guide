@@ -47,14 +47,13 @@ along with the documentation on configuring ModSecurity with the [CRS][crs].
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue1103] or [edit on GitHub][edit1103].
+Traducción de versión [original en inglés][release1103].
 
 [coraza]: https://coraza.io/
 [crs]: https://coreruleset.org/
 [cscloud]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Cloud_Architecture_Cheat_Sheet
-[edit1103]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/11-operations/03-modsecurity.md
-[issue1103]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2011-operations/03-modsecurity
+[edit1103]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/11-operations/03-modsecurity.md
+
 [modsec]: https://owasp.org/www-project-modsecurity/
 [modsec-docs]: https://www.modsecurity.org/
 [modsec-press]: https://owasp.org/blog/2024/01/09/ModSecurity.html
