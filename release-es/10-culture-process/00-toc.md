@@ -3,7 +3,7 @@
 title: Culture Building and Process Maturing
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Roxana Calderon, Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order:
 
@@ -11,20 +11,11 @@ order:
 
 {% include breadcrumb.html %}
 
-![Developer guide logo](../../assets/images/dg_logo.png "OWASP Developer Guide"){height=180px}
+![WIP logo](../../../assets/images/dg_wip.png "Work in progress"){height=180px}
 
 ## 8. Culture building and Process maturing
 
-Culture building and Process maturing is described by the SAMM [Organization and Culture][sammgegoc] activity,
-which in turn is part of the SAMM [Education & Guidance][sammgeg] security practice
-within the [Governance][sammg] business function.
-
-The maturity of security processes and culture is wide ranging, with indicators of a mature process and culture including:
-
-* Security champions have been identified for each development team
-* A program is in place to support the security champions
-* Secure coding practices are in place to define standards and improve software development
-* Developers and application security professionals across the organization are able to communicate and share best practice
+No hay traducción para esta página, consulte [versión original en inglés][release1000].
 
 Sections:
 
@@ -39,11 +30,6 @@ Sections:
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing then [submit an issue][issue1000].
-
-
-[sammg]: https://owaspsamm.org/model/governance/
-[sammgeg]: https://owaspsamm.org/model/governance/education-and-guidance/
-[sammgegoc]: https://owaspsamm.org/model/governance/education-and-guidance/stream-b/
+[release1000]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/10-culture-process/toc.md
 
 \newpage

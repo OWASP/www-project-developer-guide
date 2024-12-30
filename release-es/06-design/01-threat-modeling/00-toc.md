@@ -11,7 +11,7 @@ order:
 
 {% include breadcrumb.html %}
 
-![WIP logo](../../../assets/images/dg_wip.png "Work in progress"){: .image-right }
+![WIP logo](../../../assets/images/dg_wip.png "Work in progress"){height=180px}
 
 ### 4.1 Threat modeling
 

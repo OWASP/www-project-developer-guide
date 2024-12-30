@@ -3,7 +3,7 @@
 title: ModSecurity Web Application Firewall
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Roxana Calderon, Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 51030
 permalink: /release-es/operations/modsecurity_waf/
@@ -12,51 +12,24 @@ permalink: /release-es/operations/modsecurity_waf/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![WIP logo](../../../assets/images/dg_wip.png "Work in progress"){: .image-right }
+
 ### 9.3 ModSecurity Web Application Firewall
 
-[ModSecurity][modsec] is an open source Web Application Firewall (WAF) widely deployed on web servers
-that has been in continuous development and widespread use since 2002.
-
-In 2024 it became an OWASP Production project, supported by the existing leadership and contributors.
-
-#### What is ModSecurity?
-
-In January 2024 the [ModSecurity][modsec] Web Application Firewall project was [adopted by OWASP][modsec-press],
-previously [TrustWave][trustwave] had been the custodian of this project.
-ModSecurity itself has a long history as an open source project, the first release was in November 2002,
-and is widely used as a web application firewall for [cloud applications][cscloud] and on-premises web servers.
-
-The ModSecurity WAF needs to be configured in operational deployments,
-and this can be done using the OWASP [CRS][crs].
-
-#### Why use ModSecurity?
-
-Web Application Firewalls are often the first line of defense against HTTP attacks on web applications and servers.
-The ModSecurity WAF is widely used for this purpose along with the [Coraza WAF][coraza], also provided by OWASP.
-
-#### How to use ModSecurity
-
-ModSecurity is a Web Application Firewall, which scans the incoming and outgoing HTTP traffic to a web server.
-The ModSecurity WAF is deployed as a proxy server in front of a web application,
-or deployed within the web server itself, to provide protection against HTTP attacks.
-
-The rules applied to the HTTP traffic are provided as configuration to ModSecurity,
-and these rules allow many different actions to be applied such as blocking traffic, redirecting requests, and many more.
-See the documentation for [deploying and running][modsec-docs] ModSecurity,
-along with the documentation on configuring ModSecurity with the [CRS][crs].
+No hay traducción para esta página, consulte [versión original en inglés][release1103].
 
 ----
 
-Traducción de versión [original en inglés][release1103].
-
-[coraza]: https://coraza.io/
-[crs]: https://coreruleset.org/
-[cscloud]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Cloud_Architecture_Cheat_Sheet
-[edit1103]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/11-operations/03-modsecurity.md
-
-[modsec]: https://owasp.org/www-project-modsecurity/
-[modsec-docs]: https://www.modsecurity.org/
-[modsec-press]: https://owasp.org/blog/2024/01/09/ModSecurity.html
-[trustwave]: https://www.trustwave.com/
+[release1103]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/11-operations/03-modsecurity.md
 
 \newpage

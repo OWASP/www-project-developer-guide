@@ -3,7 +3,7 @@
 title: Verification Do's and Don'ts
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Roxana Calderon, Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 54200
 permalink: /release-es/appendices/verification_dos_donts/
@@ -22,14 +22,11 @@ permalink: /release-es/appendices/verification_dos_donts/
 }
 </style>
 
-![Developer guide logo](../../../assets/images/dg_logo_bbd.png "OWASP Developer Guide"){: .image-right }
+![WIP logo](../../../assets/images/dg_wip.png "Work in progress"){: .image-right }
 
 ## 12.2 Verification Do's and Don'ts
 
-[Verification][sammv] is one of the business functions described by the [OWASP SAMM][samm].
-
-Verification takes skill and experience, so it is important to build on the existing knowledge
-contained in these Do's and Dont's.
+No hay traducción para esta página, consulte [versión original en inglés][release1402].
 
 Sections:
 
@@ -39,9 +36,4 @@ Sections:
 
 ----
 
-Traducción de versión [original en inglés][release1402].
-
-[edit1402]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/14-appendices/02-verification-dos-donts/toc.md
-
-[samm]: https://owaspsamm.org/about/
-[sammv]: https://owaspsamm.org/model/verification/
+[release1402]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/14-appendices/02-verification-dos-donts/toc.md

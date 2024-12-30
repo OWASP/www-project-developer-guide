@@ -11,7 +11,7 @@ order:
 
 {% include breadcrumb.html %}
 
-![Developer guide logo](../../../assets/images/dg_logo_bbd.png "OWASP Developer Guide"){height=180px}
+![WIP logo](../../../assets/images/dg_wip.png "Work in progress"){height=180px}
 
 ### 7.1 Vulnerable Applications
 

@@ -12,17 +12,7 @@ permalink:
 
 {% include breadcrumb.html %}
 
-<style type="text/css">
-.image-right {
-  height: 180px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  float: right;
-}
-</style>
-
-![WIP logo](../../../assets/images/dg_wip.png "Work in progress"){: .image-right }
+![WIP logo](../../../assets/images/dg_wip.png "Work in progress"){height=180px}
 
 ## 3. Requirements
 

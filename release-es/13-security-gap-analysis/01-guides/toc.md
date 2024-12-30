@@ -3,7 +3,7 @@
 title: Guides for Security Gap Analysis
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Roxana Calderon, Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 53100
 permalink: /release-es/security_gap_analysis/guides/
@@ -22,16 +22,11 @@ permalink: /release-es/security_gap_analysis/guides/
 }
 </style>
 
-![Developer guide logo](../../../assets/images/dg_logo_bbd.png "OWASP Developer Guide"){: .image-right }
+![WIP logo](../../../assets/images/dg_wip.png "Work in progress"){: .image-right }
 
 ### 11.1 Security gap analysis guides
 
-Security gap analysis and security gap evaluation are central to Governance, Risk & Compliance activities
-and are used to gain and maintain certification to a management system standard
-such as [ISO 27001][iso27001] 'Information security, cybersecurity and privacy protection'.
-
-Guidance is important for these analysis and evaluation activities, with the OWASP projects [SAMM][samm],
-[MASVS][masvs] and [ASVS][asvs] providing this information and advice.
+No hay traducción para esta página, consulte [versión original en inglés][release1301].
 
 Sections:
 
@@ -41,11 +36,4 @@ Sections:
 
 ----
 
-Traducción de versión [original en inglés][release1301].
-
-[asvs]: https://owasp.org/www-project-application-security-verification-standard/
-[edit1301]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/13-security-gap-analysis/01-guides/toc.md
-[iso27001]: https://www.iso.org/standard/82875.html
-
-[masvs]: https://mas.owasp.org/MASVS/
-[samm]: https://owaspsamm.org/about/
+[release1301]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/13-security-gap-analysis/01-guides/toc.md

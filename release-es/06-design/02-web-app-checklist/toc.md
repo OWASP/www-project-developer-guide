@@ -3,7 +3,7 @@
 title: Web Application Checklist
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Roxana Calderon, Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 46200
 permalink: /release-es/design/web_app_checklist/
@@ -22,22 +22,11 @@ permalink: /release-es/design/web_app_checklist/
 }
 </style>
 
-![Developer guide logo](../../../assets/images/dg_logo_bbd.png "OWASP Developer Guide"){: .image-right }
+![WIP logo](../../../assets/images/dg_wip.png "Work in progress"){: .image-right }
 
 ### 4.2 Web application checklist
 
-Checklists are a valuable resource for development teams.
-They provide structure for establishing good practices and processes
-and are also useful during code reviews and design activities.
-
-The checklists that follow are general lists that are categorised to follow the controls listed in the
-[OWASP Top 10 Proactive Controls][proactive10] project.
-These checklists provide suggestions that certainly should be tailored to
-an individual project's requirements and environment; they are not meant to be followed in their entirety.
-
-Probably the best starting point for a checklist is given by the [Application Security Verification Standard (ASVS)][asvs].
-The ASVS can be used to provide a framework for an initial checklist, according to the security verification level,
-and this initial ASVS checklist can then be expanded using the following checklist sections.
+No hay traducción para esta página, consulte [versión original en inglés][release0602].
 
 Sections:
 
@@ -54,9 +43,4 @@ Sections:
 
 ----
 
-Traducción de versión [original en inglés][release0602].
-
-[asvs]: https://owasp.org/www-project-application-security-verification-standard/
-[edit0602]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/06-design/02-web-app-checklist/toc.md
-
-[proactive10]: https://owasp.org/www-project-proactive-controls/
+[release0602]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/06-design/02-web-app-checklist/toc.md
