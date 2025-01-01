@@ -66,6 +66,7 @@ permalink:
 5.3.1 [Librería de API de seguridad empresarial](#enterprise-security-api-library)  
 5.3.2 [Librería CSRFGuard](#csrfguard-library)  
 5.3.3 [Proyecto OWASP Secure Headers](#owasp-secure-headers-project)  
+5.4 [Mobile application weakness enumeration](#mobile-application-weakness-enumeration)  
 
 6 **[Verificación](#verification)**  
 6.1 [Guías](#verification-guides)  

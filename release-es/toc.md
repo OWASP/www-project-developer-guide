@@ -72,6 +72,7 @@ permalink: /release-es/
 5.3.1 [Librería de API de seguridad empresarial](07-implementation/03-secure-libraries/01-esapi.md)  
 5.3.2 [Librería CSRFGuard](07-implementation/03-secure-libraries/02-csrf-guard.md)  
 5.3.3 [Proyecto OWASP Secure Headers](07-implementation/03-secure-libraries/03-secure-headers.md)  
+5.4 [Mobile application weakness enumeration](07-implementation/04-maswe.md)  
 
 6 **[Verificación](08-verification/toc.md)**  
 6.1 [Guías](08-verification/01-guides/toc.md)  
