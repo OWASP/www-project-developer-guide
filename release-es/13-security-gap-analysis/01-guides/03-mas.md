@@ -26,7 +26,7 @@ permalink: /release-es/security_gap_analysis/guides/mobile_application_security/
 
 ### 11.1.3 Mobile Application Security
 
-No hay traducción para esta página, consulte [versión original en inglés][release130103].
+No hay traducción de esta página, consulte [versión original en inglés][release130103].
 
 ----
 

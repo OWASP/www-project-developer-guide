@@ -26,7 +26,7 @@ permalink: /release-es/training_education/api_top_ten/
 
 ### 7.7 API Top 10
 
-No hay traducción para esta página, consulte [versión original en inglés][release0907].
+No hay traducción de esta página, consulte [versión original en inglés][release0907].
 
 ----
 

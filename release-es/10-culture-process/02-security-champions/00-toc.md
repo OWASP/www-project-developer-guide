@@ -15,7 +15,7 @@ order:
 
 ### 8.2 Security Champions
 
-No hay traducción para esta página, consulte [versión original en inglés][release1020].
+No hay traducción de esta página, consulte [versión original en inglés][release1020].
 
 Sections:
 

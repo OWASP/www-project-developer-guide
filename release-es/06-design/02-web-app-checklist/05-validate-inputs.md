@@ -26,7 +26,7 @@ permalink: /release-es/design/web_app_checklist/validate_inputs/
 
 ### 4.2.5 Checklist: Validate All Inputs
 
-No hay traducción para esta página, consulte [versión original en inglés][release060205].
+No hay traducción de esta página, consulte [versión original en inglés][release060205].
 
 ----
 

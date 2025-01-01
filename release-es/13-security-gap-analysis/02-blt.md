@@ -26,7 +26,7 @@ permalink: /release-es/security_gap_analysis/bug_logging_tool/
 
 ### 11.2 Bug Logging Tool
 
-No hay traducción para esta página, consulte [versión original en inglés][release1302].
+No hay traducción de esta página, consulte [versión original en inglés][release1302].
 
 ----
 

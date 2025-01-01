@@ -26,7 +26,7 @@ permalink: /release-es/implementation/documentation/go_scp/
 
 ### 5.1.2 Go Secure Coding Practices
 
-No hay traducción para esta página, consulte [versión original en inglés][release070102].
+No hay traducción de esta página, consulte [versión original en inglés][release070102].
 
 ----
 

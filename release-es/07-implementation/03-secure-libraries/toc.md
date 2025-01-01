@@ -26,7 +26,7 @@ permalink: /release-es/implementation/secure_libraries/
 
 ### 5.3 Secure libraries
 
-No hay traducción para esta página, consulte [versión original en inglés][release0703].
+No hay traducción de esta página, consulte [versión original en inglés][release0703].
 
 Sections:
 

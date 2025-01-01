@@ -26,7 +26,7 @@ permalink: /release-es/training_education/mobile_top_ten/
 
 ### 7.6 Mobile Top 10
 
-No hay traducción para esta página, consulte [versión original en inglés][release0906].
+No hay traducción de esta página, consulte [versión original en inglés][release0906].
 
 ----
 

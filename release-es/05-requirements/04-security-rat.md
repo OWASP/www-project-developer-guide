@@ -26,7 +26,7 @@ permalink: /release-es/requirements/security_rat/
 
 ### 3.4 SecurityRAT
 
-No hay traducción para esta página, consulte [versión original en inglés][release0504].
+No hay traducción de esta página, consulte [versión original en inglés][release0504].
 
 ----
 

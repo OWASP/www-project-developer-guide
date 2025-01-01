@@ -27,7 +27,7 @@ permalink: /release-es/training_education/snakes_and_ladders/
 
 ### 7.9 OWASP Snakes and Ladders
 
-No hay traducción para esta página, consulte [versión original en inglés][release0909].
+No hay traducción de esta página, consulte [versión original en inglés][release0909].
 
 ----
 

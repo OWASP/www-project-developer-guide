@@ -26,7 +26,7 @@ permalink: /release-es/design/web_app_checklist/handle_errors_and_exceptions/
 
 ### 4.2.10 Checklist: Handle all Errors and Exceptions
 
-No hay traducción para esta página, consulte [versión original en inglés][release060210].
+No hay traducción de esta página, consulte [versión original en inglés][release060210].
 
 ----
 

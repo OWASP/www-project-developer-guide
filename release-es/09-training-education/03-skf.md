@@ -26,7 +26,7 @@ permalink: /release-es/training_education/security_knowledge_framework/
 
 ### 7.3 Security Knowledge Framework training
 
-No hay traducción para esta página, consulte [versión original en inglés][release0903].
+No hay traducción de esta página, consulte [versión original en inglés][release0903].
 
 ----
 

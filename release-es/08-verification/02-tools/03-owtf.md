@@ -26,7 +26,7 @@ permalink: /release-es/verification/tools/offensive_web_testing_framework/
 
 ### 6.2.3 Offensive Web Testing Framework
 
-No hay traducción para esta página, consulte [versión original en inglés][release080203].
+No hay traducción de esta página, consulte [versión original en inglés][release080203].
 
 ----
 

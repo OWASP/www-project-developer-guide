@@ -24,7 +24,7 @@ permalink: /release-es/training_education/wrongsecrets/
 
 ### 7.8 WrongSecrets
 
-No hay traducción para esta página, consulte [versión original en inglés][release0908].
+No hay traducción de esta página, consulte [versión original en inglés][release0908].
 
 ----
 

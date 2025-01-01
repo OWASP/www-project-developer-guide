@@ -26,7 +26,7 @@ permalink: /release-es/design/threat_modeling/linddun-go/
 
 ### 4.1.5 LINDDUN GO
 
-No hay traducción para esta página, consulte [versión original en inglés][release060105].
+No hay traducción de esta página, consulte [versión original en inglés][release060105].
 
 ----
 

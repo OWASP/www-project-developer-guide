@@ -26,7 +26,7 @@ permalink: /release-es/design/web_app_checklist/frameworks_libraries/
 
 ### 4.2.2 Checklist: Leverage Security Frameworks and Libraries
 
-No hay traducción para esta página, consulte [versión original en inglés][release060202].
+No hay traducción de esta página, consulte [versión original en inglés][release060202].
 
 ----
 

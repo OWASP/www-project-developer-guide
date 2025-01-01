@@ -26,7 +26,7 @@ permalink: /release-es/appendices/verification_dos_donts/secure_environment/
 
 ### 12.2.1 Secure environment
 
-No hay traducción para esta página, consulte [versión original en inglés][release140201].
+No hay traducción de esta página, consulte [versión original en inglés][release140201].
 
 ----
 

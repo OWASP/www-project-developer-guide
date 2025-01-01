@@ -26,7 +26,7 @@ permalink: /release-es/culture_building_and_process_maturing/security_culture/
 
 ### 8.1 Security Culture
 
-No hay traducción para esta página, consulte [versión original en inglés][release1001].
+No hay traducción de esta página, consulte [versión original en inglés][release1001].
 
 ----
 

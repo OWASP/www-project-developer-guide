@@ -15,7 +15,7 @@ order:
 
 ### 6.1 Verification guides
 
-No hay traducción para esta página, consulte [versión original en inglés][release0810].
+No hay traducción de esta página, consulte [versión original en inglés][release0810].
 
 Sections:
 

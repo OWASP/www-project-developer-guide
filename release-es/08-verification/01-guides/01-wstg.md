@@ -26,7 +26,7 @@ permalink: /release-es/verification/guides/web_security_testing_guide/
 
 ### 6.1.1 Web Security Testing Guide
 
-No hay traducción para esta página, consulte [versión original en inglés][release080101].
+No hay traducción de esta página, consulte [versión original en inglés][release080101].
 
 ----
 

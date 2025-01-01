@@ -26,7 +26,7 @@ permalink: /release-es/appendices/implementation_dos_donts/
 
 ### 12.1 Implementation Do's and Don'ts
 
-No hay traducción para esta página, consulte [versión original en inglés][release0740].
+No hay traducción de esta página, consulte [versión original en inglés][release0740].
 
 Sections:
 

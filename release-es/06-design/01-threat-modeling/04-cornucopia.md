@@ -26,7 +26,7 @@ permalink: /release-es/design/threat_modeling/cornucopia/
 
 ### 4.1.4 Cornucopia
 
-No hay traducción para esta página, consulte [versión original en inglés][release060104].
+No hay traducción de esta página, consulte [versión original en inglés][release060104].
 
 ----
 

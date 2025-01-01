@@ -26,7 +26,7 @@ permalink: /release-es/training_education/vulnerable_applications/pygoat/
 
 ### 7.1.3 PyGoat
 
-No hay traducción para esta página, consulte [versión original en inglés][release090103].
+No hay traducción de esta página, consulte [versión original en inglés][release090103].
 
 ----
 

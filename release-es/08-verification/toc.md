@@ -26,7 +26,7 @@ permalink: /release-es/verification/
 
 ## 6. Verification
 
-No hay traducción para esta página, consulte [versión original en inglés][release0800].
+No hay traducción de esta página, consulte [versión original en inglés][release0800].
 
 Sections:
 

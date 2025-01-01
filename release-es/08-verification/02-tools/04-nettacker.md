@@ -26,7 +26,7 @@ permalink: /release-es/verification/tools/nettacker/
 
 ### 6.2.4 Nettacker
 
-No hay traducción para esta página, consulte [versión original en inglés][release080204].
+No hay traducción de esta página, consulte [versión original en inglés][release080204].
 
 ----
 

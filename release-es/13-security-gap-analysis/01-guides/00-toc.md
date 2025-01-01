@@ -15,7 +15,7 @@ order:
 
 ### 11.1 Security gap analysis guides
 
-No hay traducción para esta página, consulte [versión original en inglés][release1301].
+No hay traducción de esta página, consulte [versión original en inglés][release1301].
 
 Sections:
 

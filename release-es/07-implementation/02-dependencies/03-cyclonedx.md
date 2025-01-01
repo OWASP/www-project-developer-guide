@@ -26,7 +26,7 @@ permalink: /release-es/implementation/dependencies/cyclonedx/
 
 ### 5.2.3 CycloneDX
 
-No hay traducción para esta página, consulte [versión original en inglés][release070203].
+No hay traducción de esta página, consulte [versión original en inglés][release070203].
 
 ----
 

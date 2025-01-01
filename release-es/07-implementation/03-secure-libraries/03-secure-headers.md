@@ -26,7 +26,7 @@ permalink: /release-es/implementation/secure_libraries/secure_headers/
 
 ### 5.3.3 OWASP Secure Headers Project
 
-No hay traducción para esta página, consulte [versión original en inglés][release070303].
+No hay traducción de esta página, consulte [versión original en inglés][release070303].
 
 ----
 

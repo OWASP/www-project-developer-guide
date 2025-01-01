@@ -26,7 +26,7 @@ permalink: /release-es/operations/devsecops_guideline/
 
 ### 9.1 DevSecOps Guideline
 
-No hay traducción para esta página, consulte [versión original en inglés][release1101].
+No hay traducción de esta página, consulte [versión original en inglés][release1101].
 
 ----
 

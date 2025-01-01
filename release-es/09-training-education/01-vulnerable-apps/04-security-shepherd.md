@@ -26,7 +26,7 @@ permalink: /release-es/training_education/vulnerable_applications/security_sheph
 
 ### 7.1.4 Security Shepherd
 
-No hay traducción para esta página, consulte [versión original en inglés][release090104].
+No hay traducción de esta página, consulte [versión original en inglés][release090104].
 
 ----
 

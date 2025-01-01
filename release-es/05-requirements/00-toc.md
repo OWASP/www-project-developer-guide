@@ -16,7 +16,7 @@ permalink:
 
 ## 3. Requirements
 
-No hay traducción para esta página, consulte [versión original en inglés][release0500].
+No hay traducción de esta página, consulte [versión original en inglés][release0500].
 
 Sections:
 

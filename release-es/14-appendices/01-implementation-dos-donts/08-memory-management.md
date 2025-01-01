@@ -26,7 +26,7 @@ permalink: /release-es/appendices/implementation_dos_donts/memory_management/
 
 ### 12.1.8 Memory Management
 
-No hay traducción para esta página, consulte [versión original en inglés][release140108].
+No hay traducción de esta página, consulte [versión original en inglés][release140108].
 
 ----
 

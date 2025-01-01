@@ -26,7 +26,7 @@ permalink: /release-es/design/threat_modeling/toolkit/
 
 ### 4.1.6 Threat Modeling toolkit
 
-No hay traducción para esta página, consulte [versión original en inglés][release060106].
+No hay traducción de esta página, consulte [versión original en inglés][release060106].
 
 ----
 

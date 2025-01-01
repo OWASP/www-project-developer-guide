@@ -26,7 +26,7 @@ permalink: /release-es/appendices/implementation_dos_donts/cryptographic_practic
 
 ### 12.1.3 Cryptographic practices
 
-No hay traducción para esta página, consulte [versión original en inglés][release140103].
+No hay traducción de esta página, consulte [versión original en inglés][release140103].
 
 ----
 

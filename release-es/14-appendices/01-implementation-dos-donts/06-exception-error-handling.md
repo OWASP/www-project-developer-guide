@@ -26,7 +26,7 @@ permalink: /release-es/appendices/implementation_dos_donts/exception_error_handl
 
 ### 12.1.6 Exception and Error Handling
 
-No hay traducción para esta página, consulte [versión original en inglés][release140106].
+No hay traducción de esta página, consulte [versión original en inglés][release140106].
 
 ----
 

@@ -26,7 +26,7 @@ permalink: /release-es/verification/tools/dast/
 
 ### 6.2.1 DAST tools
 
-No hay traducción para esta página, consulte [versión original en inglés][release080201].
+No hay traducción de esta página, consulte [versión original en inglés][release080201].
 
 ----
 

@@ -26,7 +26,7 @@ permalink: /release-es/appendices/verification_dos_donts/
 
 ## 12.2 Verification Do's and Don'ts
 
-No hay traducción para esta página, consulte [versión original en inglés][release1402].
+No hay traducción de esta página, consulte [versión original en inglés][release1402].
 
 Sections:
 

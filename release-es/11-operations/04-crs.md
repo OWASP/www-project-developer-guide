@@ -26,7 +26,7 @@ permalink: /release-es/operations/crs/
 
 ### 9.4 OWASP CRS
 
-No hay traducción para esta página, consulte [versión original en inglés][release1104].
+No hay traducción de esta página, consulte [versión original en inglés][release1104].
 
 ----
 

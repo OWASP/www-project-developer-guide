@@ -26,7 +26,7 @@ permalink: /release-es/appendices/implementation_dos_donts/content_security_poli
 
 ### 12.1.5 Content Security Policy
 
-No hay traducción para esta página, consulte [versión original en inglés][release140105].
+No hay traducción de esta página, consulte [versión original en inglés][release140105].
 
 ----
 

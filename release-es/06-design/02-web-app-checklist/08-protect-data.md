@@ -26,7 +26,7 @@ permalink: /release-es/design/web_app_checklist/protect_data/
 
 ### 4.2.8 Checklist: Protect Data Everywhere
 
-No hay traducción para esta página, consulte [versión original en inglés][release060208].
+No hay traducción de esta página, consulte [versión original en inglés][release060208].
 
 ----
 

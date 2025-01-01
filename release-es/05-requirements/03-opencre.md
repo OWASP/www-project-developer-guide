@@ -26,7 +26,7 @@ permalink: /release-es/requirements/opencre_integration_standard/
 
 ### 3.3 OpenCRE
 
-No hay traducción para esta página, consulte [versión original en inglés][release0503].
+No hay traducción de esta página, consulte [versión original en inglés][release0503].
 
 ----
 

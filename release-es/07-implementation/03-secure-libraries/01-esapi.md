@@ -26,7 +26,7 @@ permalink: /release-es/implementation/secure_libraries/esapi/
 
 ### 5.3.1 Enterprise Security API library
 
-No hay traducción para esta página, consulte [versión original en inglés][release070301].
+No hay traducción de esta página, consulte [versión original en inglés][release070301].
 
 ----
 

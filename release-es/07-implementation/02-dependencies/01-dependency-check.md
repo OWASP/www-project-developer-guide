@@ -26,7 +26,7 @@ permalink: /release-es/implementation/dependencies/dependency_check/
 
 ### 5.2.1 Dependency-Check
 
-No hay traducción para esta página, consulte [versión original en inglés][release070201].
+No hay traducción de esta página, consulte [versión original en inglés][release070201].
 
 ----
 

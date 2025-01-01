@@ -26,7 +26,7 @@ permalink: /release-es/operations/coraza_waf/
 
 ### 9.2 Coraza Web Application Firewall
 
-No hay traducción para esta página, consulte [versión original en inglés][release1102].
+No hay traducción de esta página, consulte [versión original en inglés][release1102].
 
 ----
 

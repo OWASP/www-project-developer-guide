@@ -26,7 +26,7 @@ permalink: /release-es/verification/frameworks/
 
 ### 6.3 Verification frameworks
 
-No hay traducción para esta página, consulte [versión original en inglés][release0830].
+No hay traducción de esta página, consulte [versión original en inglés][release0830].
 
 Sections:
 

@@ -15,7 +15,7 @@ order:
 
 ### 4.1 Threat modeling
 
-No hay traducción para esta página, consulte [versión original en inglés][release0601].
+No hay traducción de esta página, consulte [versión original en inglés][release0601].
 
 
 Sections:

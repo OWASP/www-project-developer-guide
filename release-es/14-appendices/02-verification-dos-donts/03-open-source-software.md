@@ -26,7 +26,7 @@ permalink: /release-es/appendices/verification_dos_donts/open_source_software/
 
 ### 12.2.3 Open Source software
 
-No hay traducción para esta página, consulte [versión original en inglés][release140203].
+No hay traducción de esta página, consulte [versión original en inglés][release140203].
 
 ----
 

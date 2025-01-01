@@ -26,7 +26,7 @@ permalink: /release-es/design/web_app_checklist/define_security_requirements/
 
 ### 4.2.1 Checklist: Define Security Requirements
 
-No hay traducción para esta página, consulte [versión original en inglés][release060201].
+No hay traducción de esta página, consulte [versión original en inglés][release060201].
 
 ----
 

@@ -26,7 +26,7 @@ permalink: /release-es/appendices/verification_dos_donts/system_hardening/
 
 ### 12.2.2 System hardening
 
-No hay traducción para esta página, consulte [versión original en inglés][release140202].
+No hay traducción de esta página, consulte [versión original en inglés][release140202].
 
 ----
 

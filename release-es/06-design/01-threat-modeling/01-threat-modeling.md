@@ -26,7 +26,7 @@ permalink: /release-es/design/threat_modeling/practical_threat_modeling/
 
 ### 4.1.1 Threat modeling in practice
 
-No hay traducción para esta página, consulte [versión original en inglés][release060101].
+No hay traducción de esta página, consulte [versión original en inglés][release060101].
 
 ----
 

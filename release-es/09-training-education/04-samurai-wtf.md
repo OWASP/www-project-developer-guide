@@ -26,7 +26,7 @@ permalink: /release-es/training_education/samurai_wtf/
 
 ### 7.4 SamuraiWTF
 
-No hay traducción para esta página, consulte [versión original en inglés][release0904].
+No hay traducción de esta página, consulte [versión original en inglés][release0904].
 
 ----
 

@@ -26,7 +26,7 @@ permalink: /release-es/appendices/implementation_dos_donts/application_spoofing/
 
 ### 12.1.4 Application Spoofing
 
-No hay traducción para esta página, consulte [versión original en inglés][release140104].
+No hay traducción de esta página, consulte [versión original en inglés][release140104].
 
 ----
 

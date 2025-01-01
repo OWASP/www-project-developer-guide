@@ -15,7 +15,7 @@ order:
 
 ## 10. Metrics
 
-No hay traducción para esta página, consulte [versión original en inglés][release1200].
+No hay traducción de esta página, consulte [versión original en inglés][release1200].
 
 ----
 

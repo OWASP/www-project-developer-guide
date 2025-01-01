@@ -26,7 +26,7 @@ permalink: /release-es/implementation/documentation/cheatsheets/
 
 ### 5.1.3 Cheat Sheet Series
 
-No hay traducción para esta página, consulte [versión original en inglés][release070103].
+No hay traducción de esta página, consulte [versión original en inglés][release070103].
 
 ----
 

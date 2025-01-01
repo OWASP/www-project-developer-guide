@@ -15,7 +15,7 @@ order:
 
 ### 7.1 Vulnerable Applications
 
-No hay traducción para esta página, consulte [versión original en inglés][release0910].
+No hay traducción de esta página, consulte [versión original en inglés][release0910].
 
 Sections:
 

@@ -26,7 +26,7 @@ permalink: /release-es/verification/guides/application_security_verification_sta
 
 ### 6.1.3 Application Security Verification Standard
 
-No hay traducción para esta página, consulte [versión original en inglés][release080103].
+No hay traducción de esta página, consulte [versión original en inglés][release080103].
 
 ----
 

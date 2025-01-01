@@ -26,7 +26,7 @@ permalink: /release-es/security_gap_analysis/guides/application_security_verific
 
 ### 11.1.2 Application Security Verification Standard
 
-No hay traducción para esta página, consulte [versión original en inglés][release130102].
+No hay traducción de esta página, consulte [versión original en inglés][release130102].
 
 ----
 

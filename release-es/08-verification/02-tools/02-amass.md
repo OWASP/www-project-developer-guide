@@ -26,7 +26,7 @@ permalink: /release-es/verification/tools/amass/
 
 ### 6.2.2 Amass
 
-No hay traducción para esta página, consulte [versión original en inglés][release080202].
+No hay traducción de esta página, consulte [versión original en inglés][release080202].
 
 ----
 

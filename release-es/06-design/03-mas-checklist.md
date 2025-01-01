@@ -26,7 +26,7 @@ permalink: /release-es/design/mas_checklist/
 
 ### 4.3 Mobile application checklist
 
-No hay traducción para esta página, consulte [versión original en inglés][release0603].
+No hay traducción de esta página, consulte [versión original en inglés][release0603].
 
 ----
 

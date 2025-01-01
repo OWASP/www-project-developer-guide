@@ -26,7 +26,7 @@ permalink: /release-es/appendices/implementation_dos_donts/secure_coding/
 
 ### 12.1.2 Secure coding
 
-No hay traducción para esta página, consulte [versión original en inglés][release140102].
+No hay traducción de esta página, consulte [versión original en inglés][release140102].
 
 ----
 

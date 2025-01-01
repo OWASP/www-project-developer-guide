@@ -26,7 +26,7 @@ permalink: /release-es/implementation/documentation/proactive_controls/
 
 ### 5.1.1 Top 10 Proactive Controls
 
-No hay traducción para esta página, consulte [versión original en inglés][release070101].
+No hay traducción de esta página, consulte [versión original en inglés][release070101].
 
 ----
 

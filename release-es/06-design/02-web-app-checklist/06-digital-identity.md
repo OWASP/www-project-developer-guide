@@ -26,7 +26,7 @@ permalink: /release-es/design/web_app_checklist/digital_identity/
 
 ### 4.2.6 Checklist: Implement Digital Identity
 
-No hay traducción para esta página, consulte [versión original en inglés][release060206].
+No hay traducción de esta página, consulte [versión original en inglés][release060206].
 
 ----
 

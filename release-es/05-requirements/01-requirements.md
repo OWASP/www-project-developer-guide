@@ -26,7 +26,7 @@ permalink: /release-es/requirements/requirements_in_practice/
 
 ### 3.1 Requirements in practice
 
-No hay traducción para esta página, consulte [versión original en inglés][release0501].
+No hay traducción de esta página, consulte [versión original en inglés][release0501].
 
 ----
 

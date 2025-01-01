@@ -26,7 +26,7 @@ permalink: /release-es/appendices/implementation_dos_donts/file_management/
 
 ### 12.1.7 File Management
 
-No hay traducción para esta página, consulte [versión original en inglés][release140107].
+No hay traducción de esta página, consulte [versión original en inglés][release140107].
 
 ----
 

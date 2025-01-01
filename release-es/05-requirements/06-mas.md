@@ -26,7 +26,7 @@ permalink: /release-es/requirements/mobile_application_security/
 
 ### 3.6 Mobile Application Security
 
-No hay traducción para esta página, consulte [versión original en inglés][release0506].
+No hay traducción de esta página, consulte [versión original en inglés][release0506].
 
 ----
 

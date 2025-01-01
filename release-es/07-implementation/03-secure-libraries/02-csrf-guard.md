@@ -26,7 +26,7 @@ permalink: /release-es/implementation/secure_libraries/csrf_guard/
 
 ### 5.3.2 CSRFGuard library
 
-No hay traducción para esta página, consulte [versión original en inglés][release070302].
+No hay traducción de esta página, consulte [versión original en inglés][release070302].
 
 ----
 

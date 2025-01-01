@@ -26,7 +26,7 @@ permalink: /release-es/requirements/application_security_verification_standard/
 
 ### 3.5 Application Security Verification Standard
 
-No hay traducción para esta página, consulte [versión original en inglés][release0505].
+No hay traducción de esta página, consulte [versión original en inglés][release0505].
 
 ----
 

@@ -26,7 +26,7 @@ permalink: /release-es/design/threat_modeling/threat_dragon/
 
 ### 4.1.3 Threat Dragon
 
-No hay traducción para esta página, consulte [versión original en inglés][release060103].
+No hay traducción de esta página, consulte [versión original en inglés][release060103].
 
 ----
 

@@ -26,7 +26,7 @@ permalink: /release-es/design/web_app_checklist/access_controls/
 
 ### 4.2.7 Checklist: Enforce Access Controls
 
-No hay traducción para esta página, consulte [versión original en inglés][release060207].
+No hay traducción de esta página, consulte [versión original en inglés][release060207].
 
 ----
 

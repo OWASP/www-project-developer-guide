@@ -26,7 +26,7 @@ permalink: /release-es/culture_building_and_process_maturing/software_assurance_
 
 ### 8.3 Software Assurance Maturity Model
 
-No hay traducción para esta página, consulte [versión original en inglés][release1003].
+No hay traducción de esta página, consulte [versión original en inglés][release1003].
 
 ----
 

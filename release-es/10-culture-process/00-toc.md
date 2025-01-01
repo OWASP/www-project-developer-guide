@@ -15,7 +15,7 @@ order:
 
 ## 8. Culture building and Process maturing
 
-No hay traducción para esta página, consulte [versión original en inglés][release1000].
+No hay traducción de esta página, consulte [versión original en inglés][release1000].
 
 Sections:
 

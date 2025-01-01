@@ -26,7 +26,7 @@ permalink: /release-es/requirements/security_knowledge_framework/
 
 ### 3.7 Security Knowledge Framework
 
-No hay traducción para esta página, consulte [versión original en inglés][release0507].
+No hay traducción de esta página, consulte [versión original en inglés][release0507].
 
 ----
 

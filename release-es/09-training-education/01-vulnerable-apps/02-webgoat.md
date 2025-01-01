@@ -26,7 +26,7 @@ permalink: /release-es/training_education/vulnerable_applications/webgoat/
 
 ### 7.1.2 WebGoat
 
-No hay traducción para esta página, consulte [versión original en inglés][release090102].
+No hay traducción de esta página, consulte [versión original en inglés][release090102].
 
 ----
 

@@ -26,7 +26,7 @@ permalink: /release-es/security_gap_analysis/guides/software_assurance_maturity_
 
 ### 11.1.1 Software Assurance Maturity Model
 
-No hay traducción para esta página, consulte [versión original en inglés][release130101].
+No hay traducción de esta página, consulte [versión original en inglés][release130101].
 
 ----
 

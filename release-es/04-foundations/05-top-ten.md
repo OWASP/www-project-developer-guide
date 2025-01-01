@@ -26,7 +26,7 @@ permalink: /release-es/foundations/owasp_top_ten/
 
 ### 2.5 OWASP Top Ten
 
-No hay traducción para esta página, consulte [versión original en inglés][release0405].
+No hay traducción de esta página, consulte [versión original en inglés][release0405].
 
 ----
 

@@ -26,7 +26,7 @@ permalink: /release-es/culture_building_and_process_maturing/security_champions/
 
 ### 8.2.2 Security Champions Guide
 
-No hay traducción para esta página, consulte [versión original en inglés][release1022].
+No hay traducción de esta página, consulte [versión original en inglés][release1022].
 
 ----
 

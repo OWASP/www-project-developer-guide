@@ -26,7 +26,7 @@ permalink: /release-es/verification/frameworks/secure_codebox/
 
 #### 6.3.1 secureCodeBox
 
-No hay traducción para esta página, consulte [versión original en inglés][release080301].
+No hay traducción de esta página, consulte [versión original en inglés][release080301].
 
 ----
 

@@ -26,7 +26,7 @@ permalink: /release-es/design/web_app_checklist/security_logging_and_monitoring/
 
 ### 4.2.9 Checklist: Implement Security Logging and Monitoring
 
-No hay traducción para esta página, consulte [versión original en inglés][release060209].
+No hay traducción de esta página, consulte [versión original en inglés][release060209].
 
 ----
 

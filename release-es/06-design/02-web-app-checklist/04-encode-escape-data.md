@@ -26,7 +26,7 @@ permalink: /release-es/design/web_app_checklist/encode_escape_data/
 
 ### 4.2.4 Checklist: Encode and Escape Data
 
-No hay traducción para esta página, consulte [versión original en inglés][release060204].
+No hay traducción de esta página, consulte [versión original en inglés][release060204].
 
 ----
 

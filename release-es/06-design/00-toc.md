@@ -15,7 +15,7 @@ order:
 
 ## 4. Design
 
-No hay traducción para esta página, consulte [versión original en inglés][release0600].
+No hay traducción de esta página, consulte [versión original en inglés][release0600].
 
 Sections:
 

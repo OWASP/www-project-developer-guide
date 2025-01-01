@@ -25,7 +25,7 @@ permalink: /release-es/implementation/dependencies/dependency_track/
 ![WIP logo](../../../assets/images/dg_wip.png "Work in progress"){: .image-right }
 ### 5.2.2 Dependency-Track
 
-No hay traducción para esta página, consulte [versión original en inglés][release070202].
+No hay traducción de esta página, consulte [versión original en inglés][release070202].
 
 ----
 

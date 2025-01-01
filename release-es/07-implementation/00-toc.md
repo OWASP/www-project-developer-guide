@@ -15,7 +15,7 @@ order:
 
 ## 5. Implementation
 
-No hay traducción para esta página, consulte [versión original en inglés][release0700].
+No hay traducción de esta página, consulte [versión original en inglés][release0700].
 
 Sections:
 

@@ -15,7 +15,7 @@ order:
 
 ### 6.2 Verification tools
 
-No hay traducción para esta página, consulte [versión original en inglés][release0820].
+No hay traducción de esta página, consulte [versión original en inglés][release0820].
 
 Sections:
 

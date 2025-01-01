@@ -26,7 +26,7 @@ permalink: /release-es/implementation/mas_weakness_enumeration/
 
 ### 5.4 Mobile application weakness enumeration
 
-No hay traducción para esta página, consulte [versión original en inglés][release0704].
+No hay traducción de esta página, consulte [versión original en inglés][release0704].
 
 ----
 

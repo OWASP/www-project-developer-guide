@@ -26,7 +26,7 @@ permalink: /release-es/culture_building_and_process_maturing/mobile_application_
 
 ### 8.5 Mobile Application Security
 
-No hay traducción para esta página, consulte [versión original en inglés][release1005].
+No hay traducción de esta página, consulte [versión original en inglés][release1005].
 
 ----
 

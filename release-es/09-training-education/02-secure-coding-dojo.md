@@ -26,7 +26,7 @@ permalink: /release-es/training_education/secure_coding_dojo/
 
 ### 7.2 Secure Coding Dojo
 
-No hay traducción para esta página, consulte [versión original en inglés][release0902].
+No hay traducción de esta página, consulte [versión original en inglés][release0902].
 
 ----
 

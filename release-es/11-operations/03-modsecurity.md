@@ -26,7 +26,7 @@ permalink: /release-es/operations/modsecurity_waf/
 
 ### 9.3 ModSecurity Web Application Firewall
 
-No hay traducción para esta página, consulte [versión original en inglés][release1103].
+No hay traducción de esta página, consulte [versión original en inglés][release1103].
 
 ----
 

@@ -26,7 +26,7 @@ permalink: /release-es/design/web_app_checklist/secure_database_access/
 
 ### 4.2.3 Checklist: Secure Database Access
 
-No hay traducción para esta página, consulte [versión original en inglés][release060203].
+No hay traducción de esta página, consulte [versión original en inglés][release060203].
 
 ----
 

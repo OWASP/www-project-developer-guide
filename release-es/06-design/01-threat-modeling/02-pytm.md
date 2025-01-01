@@ -26,7 +26,7 @@ permalink: /release-es/design/threat_modeling/pytm/
 
 ### 4.1.2 pytm
 
-No hay traducción para esta página, consulte [versión original en inglés][release060102].
+No hay traducción de esta página, consulte [versión original en inglés][release060102].
 
 ----
 

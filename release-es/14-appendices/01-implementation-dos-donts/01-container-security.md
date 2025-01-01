@@ -26,7 +26,7 @@ permalink: /release-es/appendices/implementation_dos_donts/container_security/
 
 ### 12.1.1 Container security
 
-No hay traducción para esta página, consulte [versión original en inglés][release140101].
+No hay traducción de esta página, consulte [versión original en inglés][release140101].
 
 ----
 

@@ -26,7 +26,7 @@ permalink: /release-es/training_education/vulnerable_applications/juice_shop/
 
 ### 7.1.1 Juice Shop
 
-No hay traducción para esta página, consulte [versión original en inglés][release090101].
+No hay traducción de esta página, consulte [versión original en inglés][release090101].
 
 ----
 

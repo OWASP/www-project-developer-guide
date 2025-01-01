@@ -26,7 +26,7 @@ permalink: /release-es/verification/guides/mas_testing_guide/
 
 ### 6.1.2 MAS testing guide
 
-No hay traducción para esta página, consulte [versión original en inglés][release080102].
+No hay traducción de esta página, consulte [versión original en inglés][release080102].
 
 ----
 
