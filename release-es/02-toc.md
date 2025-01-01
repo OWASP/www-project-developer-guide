@@ -73,7 +73,7 @@ permalink:
 6.1.2 [Guía de testeo MAS](#mas-testing-guide)  
 6.1.3 [Estándar de verificación de seguridad de aplicaciones](#application-security-verification-standard)  
 6.2 [Herramientas](#verification-tools)  
-6.2.1 [Zed Attack Proxy](#zed-attack-proxy)  
+6.2.1 [DAST tools](#dast-tools)  
 6.2.2 [Amass](#amass)  
 6.2.3 [Offensive Web Testing Framework](#offensive-web-testing-framework)  
 6.2.4 [Nettacker](#nettacker)  
