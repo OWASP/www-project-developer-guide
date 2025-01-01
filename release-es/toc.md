@@ -14,11 +14,9 @@ permalink: /release-es/
 
 ![Developer guide logo](../assets/images/dg_logo.png "OWASP Developer Guide"){: height="180px" }
 
-### Guía del desarrollador OWASP(borrador)
+### Guía del desarrollador OWASP
 
 #### Una guía para dessarrollar aplicaciones y servicios web seguros
-
-Ésta version borrador contiene las ultimas contribuciones a la Guía del Desarrollador así que se espera cambios frecuentes en el contenido.
 
 1 **[Introducción](03-introduction.md)**
 
@@ -46,17 +44,17 @@ permalink: /release-es/
 4.1.4 [Cornucopia](06-design/01-threat-modeling/04-cornucopia.md)  
 4.1.5 [LINDDUN GO](06-design/01-threat-modeling/05-linddun-go.md)  
 4.1.6 [Kit de herramientas de modelado de amenazas](06-design/01-threat-modeling/06-toolkit.md)  
-4.2 [ Lista de verificación de aplicaciones web](06-design/02-web-app-checklist/toc.md)  
-4.2.1 [Lista de verificación: Definir requisitos de seguridad](06-design/02-web-app-checklist/01-define-security-requirements.md)  
-4.2.2 [Lista de verificación: Aprovechar los frameworks y bibliotecas de seguridad](06-design/02-web-app-checklist/02-frameworks-libraries.md)  
-4.2.3 [Lista de verificación: Asegurar el acceso a la base de datos](06-design/02-web-app-checklist/03-secure-database-access.md)  
-4.2.4 [Lista de verificación: Codificar y escapar caracteres especiales en datos](06-design/02-web-app-checklist/04-encode-escape-data.md)  
-4.2.5 [Lista de verificación: Validar todas las entradas](06-design/02-web-app-checklist/05-validate-inputs.md)  
-4.2.6 [Lista de verificación: Implementar identidad digital](06-design/02-web-app-checklist/06-digital-identity.md)  
-4.2.7 [Lista de verificación: Hacer respetar los controles de acceso](06-design/02-web-app-checklist/07-access-controls.md)  
-4.2.8 [Lista de verificación: Proteger los datos en todas partes](06-design/02-web-app-checklist/08-protect-data.md)  
-4.2.9 [Lista de verificación: Implementar registro y monitoreo de seguridad](06-design/02-web-app-checklist/09-logging-monitoring.md)  
-4.2.10 [Lista de verificación: Manejar todos los errores y excepciones](06-design/02-web-app-checklist/10-handle-errors-exceptions.md)  
+4.2 [Lista de verificación de aplicaciones web](06-design/02-web-app-checklist/toc.md)  
+4.2.1 [Definir requisitos de seguridad](06-design/02-web-app-checklist/01-define-security-requirements.md)  
+4.2.2 [Aprovechar los frameworks y librerías](06-design/02-web-app-checklist/02-frameworks-libraries.md)  
+4.2.3 [Asegurar el acceso a la base de datos](06-design/02-web-app-checklist/03-secure-database-access.md)  
+4.2.4 [Codificar y escapar caracteres especiales en datos](06-design/02-web-app-checklist/04-encode-escape-data.md)  
+4.2.5 [Validar todas las entradas](06-design/02-web-app-checklist/05-validate-inputs.md)  
+4.2.6 [Implementar identidad digital](06-design/02-web-app-checklist/06-digital-identity.md)  
+4.2.7 [Hacer respetar los controles de acceso](06-design/02-web-app-checklist/07-access-controls.md)  
+4.2.8 [Proteger los datos en todas partes](06-design/02-web-app-checklist/08-protect-data.md)  
+4.2.9 [Implementar registro y monitoreo de seguridad](06-design/02-web-app-checklist/09-logging-monitoring.md)  
+4.2.10 [Manejar todos los errores y excepciones](06-design/02-web-app-checklist/10-handle-errors-exceptions.md)  
 4.3 [Lista de verificación de aplicaciones móviles](06-design/03-mas-checklist.md)  
 
 5 **[Implementación](07-implementation/toc.md)**  

@@ -32,5 +32,4 @@ No hay traducción de esta página, consulte [versión original en inglés][rele
 
 [release140203]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/14-appendices/02-verification-dos-donts/03-open-source-software.md
 
-
 \newpage

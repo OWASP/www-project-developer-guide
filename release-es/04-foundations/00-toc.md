@@ -23,7 +23,8 @@ los principios suelen ser bastante sencillos y accesibles para todos los ingenie
 Una comprensión razonable de estos conceptos fundamentales permite a los equipos de desarrollo entender e implementar
 Seguridad de software para la aplicación o sistema en desarrollo.
 Esta Guía del Desarrollador solo puede brindar una breve descripción general de estos conceptos.
-para lograr un conocimiento más profundo, consulte los numerosos textos sobre seguridad, como [El conjunto de conocimientos sobre seguridad cibernética (The Cyber Security Body Of Knowledge)][cbok].
+para lograr un conocimiento más profundo, consulte los numerosos textos sobre seguridad,
+como [El conjunto de conocimientos sobre seguridad cibernética (The Cyber Security Body Of Knowledge)][cbok].
 
 Secciones:
 

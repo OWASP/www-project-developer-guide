@@ -32,5 +32,4 @@ No hay traducción de esta página, consulte [versión original en inglés][rele
 
 [release140106]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/14-appendices/01-implementation-dos-donts/06-exception-error-handling.md
 
-
 \newpage

@@ -32,5 +32,4 @@ No hay traducción de esta página, consulte [versión original en inglés][rele
 
 [release0907]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/09-training-education/07-api-top-ten.md
 
-
 \newpage

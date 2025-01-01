@@ -32,5 +32,4 @@ No hay traducción de esta página, consulte [versión original en inglés][rele
 
 [release140107]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/14-appendices/01-implementation-dos-donts/07-file-management.md
 
-
 \newpage

@@ -17,7 +17,6 @@ order:
 
 No hay traducción de esta página, consulte [versión original en inglés][release0601].
 
-
 Sections:
 
 4.1.1 [Threat modeling in practice](#threat-modeling-in-practice)  
@@ -30,6 +29,5 @@ Sections:
 ----
 
 [release0601]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/06-design/01-threat-modeling/toc.md
-
 
 \newpage

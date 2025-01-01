@@ -32,5 +32,4 @@ No hay traducción de esta página, consulte [versión original en inglés][rele
 
 [release140201]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/14-appendices/02-verification-dos-donts/01-secure-environment.md
 
-
 \newpage

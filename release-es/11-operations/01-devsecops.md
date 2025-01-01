@@ -32,5 +32,4 @@ No hay traducción de esta página, consulte [versión original en inglés][rele
 
 [release1101]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/11-operations/01-devsecops.md
 
-
 \newpage
