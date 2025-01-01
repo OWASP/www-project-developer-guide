@@ -22,7 +22,7 @@ permalink: /release-es/security_gap_analysis/guides/mobile_application_security/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Work in progress"){: .image-right }
+![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ### 11.1.3 Mobile Application Security
 

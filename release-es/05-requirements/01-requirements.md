@@ -22,7 +22,7 @@ permalink: /release-es/requirements/requirements_in_practice/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Work in progress")
+![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso")
 
 ### 3.1 Requirements in practice
 

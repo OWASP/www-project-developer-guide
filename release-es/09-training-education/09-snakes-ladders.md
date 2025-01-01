@@ -23,7 +23,7 @@ permalink: /release-es/training_education/snakes_and_ladders/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Work in progress"){: .image-right }
+![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ### 7.9 OWASP Snakes and Ladders
 

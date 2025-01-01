@@ -22,7 +22,7 @@ permalink: /release-es/requirements/mobile_application_security/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Work in progress"){: .image-right }
+![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ### 3.6 Mobile Application Security
 

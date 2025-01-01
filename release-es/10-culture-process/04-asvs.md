@@ -22,7 +22,7 @@ permalink: /release-es/culture_building_and_process_maturing/application_securit
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Work in progress"){: .image-right }
+![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ### 8.4 Application Security Verification Standard
 

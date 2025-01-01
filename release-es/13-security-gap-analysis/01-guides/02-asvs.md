@@ -22,7 +22,7 @@ permalink: /release-es/security_gap_analysis/guides/application_security_verific
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Work in progress"){: .image-right }
+![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ### 11.1.2 Application Security Verification Standard
 

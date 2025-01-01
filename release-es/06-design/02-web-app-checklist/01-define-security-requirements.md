@@ -22,7 +22,7 @@ permalink: /release-es/design/web_app_checklist/define_security_requirements/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Work in progress"){: .image-right }
+![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ### 4.2.1 Checklist: Define Security Requirements
 

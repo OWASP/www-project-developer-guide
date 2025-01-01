@@ -22,7 +22,7 @@ permalink: /release-es/implementation/dependencies/dependency_check/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Work in progress"){: .image-right }
+![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ### 5.2.1 Dependency-Check
 

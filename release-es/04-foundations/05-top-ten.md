@@ -22,7 +22,7 @@ permalink: /release-es/foundations/owasp_top_ten/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Work in progress"){: .image-right }
+![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ### 2.5 OWASP Top Ten
 

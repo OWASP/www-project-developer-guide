@@ -22,7 +22,7 @@ permalink: /release-es/design/web_app_checklist/security_logging_and_monitoring/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Work in progress"){: .image-right }
+![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ### 4.2.9 Checklist: Implement Security Logging and Monitoring
 

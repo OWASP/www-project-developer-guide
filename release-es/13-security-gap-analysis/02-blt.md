@@ -22,7 +22,7 @@ permalink: /release-es/security_gap_analysis/bug_logging_tool/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Work in progress"){: .image-right }
+![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ### 11.2 Bug Logging Tool
 

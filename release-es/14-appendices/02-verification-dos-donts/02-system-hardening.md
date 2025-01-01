@@ -22,7 +22,7 @@ permalink: /release-es/appendices/verification_dos_donts/system_hardening/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Work in progress"){: .image-right }
+![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ### 12.2.2 System hardening
 

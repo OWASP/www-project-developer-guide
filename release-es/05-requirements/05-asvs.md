@@ -22,7 +22,7 @@ permalink: /release-es/requirements/application_security_verification_standard/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Work in progress"){: .image-right }
+![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ### 3.5 Application Security Verification Standard
 

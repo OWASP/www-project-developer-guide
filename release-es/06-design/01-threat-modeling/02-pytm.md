@@ -22,7 +22,7 @@ permalink: /release-es/design/threat_modeling/pytm/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Work in progress"){: .image-right }
+![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ### 4.1.2 pytm
 

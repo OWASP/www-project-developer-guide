@@ -12,7 +12,7 @@ permalink:
 
 {% include breadcrumb.html %}
 
-![WIP logo](../../../assets/images/dg_wip.png "Work in progress"){height=180px}
+![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){height=180px}
 
 ## 3. Requirements
 

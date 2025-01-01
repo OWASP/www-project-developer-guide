@@ -22,7 +22,7 @@ permalink: /release-es/implementation/secure_libraries/esapi/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Work in progress"){: .image-right }
+![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ### 5.3.1 Enterprise Security API library
 

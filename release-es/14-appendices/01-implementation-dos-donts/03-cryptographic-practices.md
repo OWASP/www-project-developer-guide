@@ -22,7 +22,7 @@ permalink: /release-es/appendices/implementation_dos_donts/cryptographic_practic
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Work in progress"){: .image-right }
+![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ### 12.1.3 Cryptographic practices
 

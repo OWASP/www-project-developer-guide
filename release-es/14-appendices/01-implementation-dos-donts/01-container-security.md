@@ -22,7 +22,7 @@ permalink: /release-es/appendices/implementation_dos_donts/container_security/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Work in progress"){: .image-right }
+![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ### 12.1.1 Container security
 

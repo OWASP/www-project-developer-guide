@@ -22,7 +22,7 @@ permalink: /release-es/verification/guides/web_security_testing_guide/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Work in progress"){: .image-right }
+![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ### 6.1.1 Web Security Testing Guide
 

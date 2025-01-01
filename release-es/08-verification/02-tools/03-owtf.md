@@ -22,7 +22,7 @@ permalink: /release-es/verification/tools/offensive_web_testing_framework/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Work in progress"){: .image-right }
+![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ### 6.2.3 Offensive Web Testing Framework
 

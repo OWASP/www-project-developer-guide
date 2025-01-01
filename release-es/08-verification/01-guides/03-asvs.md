@@ -22,7 +22,7 @@ permalink: /release-es/verification/guides/application_security_verification_sta
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Work in progress"){: .image-right }
+![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ### 6.1.3 Application Security Verification Standard
 
