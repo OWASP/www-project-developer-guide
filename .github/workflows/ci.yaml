@@ -88,7 +88,7 @@ jobs:
         uses: rojopolis/spellcheck-github-actions@0.45.0
         with:
           config_path: .spellcheck-pt-br.yaml
-          # checks the release-pt-br directory with a pt_BR dictionary
+          # checks release-pt-br with the pt dictionary (pt_BR not present)
 
       - name: Lint PT-BR markdown
         uses: DavidAnson/markdownlint-cli2-action@v19.0.0
