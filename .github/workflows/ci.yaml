@@ -82,13 +82,22 @@ jobs:
       - name: Checkout markdown
         uses: actions/checkout@v4.2.0
 
+      - name: Set up Python 3.7
+        uses: actions/setup-python@v5.3.0
+        with:
+          python-version: '3.7'
+
+      - name: Install pyspelling
+        run: |
+          python -m pip install --upgrade pip setuptools
+          python -m pip install pyspelling
+          sudo apt-get install aspell aspell-pt
+
       - name: Spell check PT-BR release
         # disabled for now, until translation has less English in it
         if: false
-        uses: rojopolis/spellcheck-github-actions@0.45.0
-        with:
-          config_path: .spellcheck-pt-br.yaml
-          # checks the release-pt-br directory with a pt_BR dictionary
+        run: |
+          python -m pyspelling --config .spellcheck-pt-br.yaml
 
       - name: Lint PT-BR markdown
         uses: DavidAnson/markdownlint-cli2-action@v19.0.0
