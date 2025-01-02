@@ -30,7 +30,7 @@ permalink: /release-es/
 3 **[Requerimientos](05-requirements/toc.md)**  
 3.1 [Requerimientos en la práctica](05-requirements/01-requirements.md)  
 3.2 [Perfil de riesgo](05-requirements/02-risk.md)  
-3.3 [OpenCRE](05-requirements/03-int-stand.md)  
+3.3 [OpenCRE](05-requirements/03-opencre.md)  
 3.4 [SecurityRAT](05-requirements/04-security-rat.md)  
 3.5 [Estandard de Verificación de Securidad de Aplicaciones](05-requirements/05-asvs.md)  
 3.6 [Seguridad de aplicaciones móviles](05-requirements/06-mas.md)  
