@@ -1,7 +1,7 @@
 matrix:
 - name: Markdown
   aspell:
-    lang: pt_BR
+    lang: pt
   dictionary:
     wordlists:
     - .wordlist-pt-br.txt

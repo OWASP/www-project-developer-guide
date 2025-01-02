@@ -86,18 +86,18 @@ jobs:
       - name: Checkout markdown
         uses: actions/checkout@v4.2.0
 
-      - name: Check for pt_BR dictionary
-        run: |
-          echo "check dictionary is present"
-          ls -l /usr/lib/aspell/pt*
-
       - name: Spell check PT-BR release
         # disabled for now, until translation has less English in it
         if: false
         uses: rojopolis/spellcheck-github-actions@0.45.0
         with:
           config_path: .spellcheck-pt-br.yaml
-          # checks the release-pt-br directory with a pt_BR dictionary
+          # checks release-pt-br with the pt dictionary (pt_BR not present)
+
+      - name: List dictionaries
+        run: |
+          echo "check pt_BR dictionary is present"
+          ls -l /usr/lib/aspell/
 
       - name: Lint PT-BR markdown
         uses: DavidAnson/markdownlint-cli2-action@v19.0.0
