@@ -57,7 +57,7 @@ In addition consider the following extra checks for frameworks and libraries.
 1. Validate safe functionality for all secondary applications and third party libraries
 1. Create and maintain an inventory catalog of all third party libraries using Software Composition Analysis (SCA)
 1. Proactively keep all third party libraries and components up to date
-1. Reduce the attack surface by encapsulating the library and expose only the required behaviour into your software
+1. Reduce the attack surface by encapsulating the library and expose only the required behavior into your software
 1. Use tested and approved managed code rather than creating new unmanaged code for common tasks
 1. Utilize task specific built-in APIs to conduct operating system tasks
 1. Do not allow the application to issue commands directly to the Operating System

@@ -15,7 +15,7 @@ and also the [developer guide][dgrelease] itself.
 This guide is one of the original documents from OWASP and so has a long history.
 The [original DevGuide repository][devguide] has many of the [previous versions][versions]
 going back to the [original version 1.0][original] from 2002.
-Note that the original DevGuide repository has been deprecated in favour of this one.
+Note that the original DevGuide repository has been deprecated in favor of this one.
 
 The source for the latest draft developer guide can be found under the ['draft'][draft] directory.
 The source is in markdown and is used to create the developer guide HTML, PDF and ePub outputs.

@@ -6,6 +6,7 @@ ARP
 ASVS
 AUTH
 Adoptium
+Analyser
 Andra
 Andreas
 AngularJS
@@ -145,6 +146,8 @@ MASTG
 MASVS
 MASWE
 MBOM
+MITRE
+MITRE's
 MOBI
 MSTG
 MacOS

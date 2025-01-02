@@ -41,7 +41,7 @@ Implementation should include security practices such as :
 Implementation is where the application / system begins to take shape; source code is written and tests are created.
 The implementation of the application follows a secure development lifecycle, with security built in from the start.
 
-The implementation will use a secure method of source code control and storage to fulfil the design security requirements.
+The implementation will use a secure method of source code control and storage to fulfill the design security requirements.
 The development team will be referring to documentation advising them of best practices,
 they will be using secure libraries wherever possible in addition to checking and tracking external dependencies.
 

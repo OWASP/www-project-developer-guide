@@ -76,7 +76,7 @@ The appropriate ASVS level should be chosen from:
 * Level 2: Most applications
 * Level 3: High value, high assurance, or high safety
 
-This is not a judgemental ranking, for example if an application needs only Level 1 protection then that is a valid choice.
+This is not a judgmental ranking, for example if an application needs only Level 1 protection then that is a valid choice.
 Tools such as [SecurityRAT][srat] can then help create a subset of the ASVS security requirements for consideration.
 
 Application developer teams and application owners can then gain familiarity with the appropriate security

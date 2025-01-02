@@ -25,11 +25,11 @@ Some of these are language specific and others have more general applicability.
     * `https://tldrlegal.com/`
     * `https://creativecommons.org/licenses/by/4.0/`
 
-It is important for the organisation to have a policy statement for consumption of open source software.
+It is important for the organization to have a policy statement for consumption of open source software.
 From a licensing perspective and the implication of using a open source software incorrectly,
 maintain a procedure for approval of usage of selected open source software.
 This could be in the form of a workflow or obtaining security approvals for the chosen open source software
-We realise it could be challenging, but if feasible, maintain a list of approved open source software
+We realize it could be challenging, but if feasible, maintain a list of approved open source software
 
 * Address vulnerabilities with: Binaries / pre-compiled code / packages
     where source code sharing is not a part of the license (Examples executables / NuGets)
@@ -38,7 +38,7 @@ We realise it could be challenging, but if feasible, maintain a list of approved
   * Check for vulnerabilities for the selected binaries in vulnerability disclosure databases like
     * CVE database (`https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=bouncy+castle`)
     * VulnDB (`https://vuldb.com/?id.173918`)
-  * If within the budget of your organisation, use an SCA tool to scan for vulnerabilities
+  * If within the budget of your organization, use an SCA tool to scan for vulnerabilities
   * Always vet and perform due-diligence on third-party modules that you install
       in order to confirm their health and credibility.
   * Hold-off on upgrading immediately to new versions; allow new package versions some time to circulate
@@ -55,7 +55,7 @@ We realise it could be challenging, but if feasible, maintain a list of approved
 
 * Address vulnerabilities with: where source code sharing is a part of the license
   * GitHub CodeQL / third party tool
-  * If within the budget of your organisation, use an SCA tool to scan for vulnerabilities
+  * If within the budget of your organization, use an SCA tool to scan for vulnerabilities
 
 * Security Testing: Binaries / pre-compiled code / packages
     where source code sharing is not a part of the license (Examples executables / NuGets)
@@ -102,7 +102,7 @@ We realise it could be challenging, but if feasible, maintain a list of approved
     * Check for vulnerabilities for the selected binaries in vulnerability disclosure databases like
       * CVE database (`https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=bouncy+castle`)
       * VulnDB (`https://vuldb.com/?id.173918`)
-  * If within the budget of your organisation, use an SCA tool to scan for vulnerabilities
+  * If within the budget of your organization, use an SCA tool to scan for vulnerabilities
 
 * Copying source code off public domain (internet)
     For example source code that is on a blog or in discussion forums like stacktrace or snippets of example on writeups
