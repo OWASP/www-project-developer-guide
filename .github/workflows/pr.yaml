@@ -54,8 +54,11 @@ jobs:
       - name: Checkout markdown
         uses: actions/checkout@v4.2.0
 
-      - name: spell_checker
+      - name: Spell check EN draft
         uses: rojopolis/spellcheck-github-actions@0.45.0
+        with:
+          config_path: .spellcheck-en.yml
+          # checks the draft directory with an EN dictionary
 
   export_draft:
     name: Export epub and pdf (Draft)
