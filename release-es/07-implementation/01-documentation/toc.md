@@ -3,7 +3,7 @@
 title: Implementation Documentation
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Roxana Calderon, Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 47100
 permalink: /release-es/implementation/documentation/
@@ -22,17 +22,11 @@ permalink: /release-es/implementation/documentation/
 }
 </style>
 
-![Developer guide logo](../../../assets/images/dg_logo_bbd.png "OWASP Developer Guide"){: .image-right }
+![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ### 5.1 Documentation
 
-Documentation is used here as part of the SAMM [Training and Awareness][sammgegta] activity,
-which in turn is part of the SAMM [Education & Guidance][sammgeg] security practice
-within the [Governance][sammg] business function.
-
-It is important that development teams have good documentation on security techniques, frameworks, tools and threats.
-Documentation helps to promote security awareness for all teams involved in software development,
-and provides guidance on building security into applications and systems.
+No hay traducción de esta página, consulte [versión original en inglés][release0710].
 
 Sections:
 
@@ -42,11 +36,4 @@ Sections:
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0710] or [edit on GitHub][edit0710].
-
-[edit0710]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/01-documentation/toc.md
-[issue0710]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/01-documentation/00-toc
-[sammg]: https://owaspsamm.org/model/governance/
-[sammgeg]: https://owaspsamm.org/model/governance/education-and-guidance/
-[sammgegta]: https://owaspsamm.org/model/governance/education-and-guidance/stream-a/
+[release0710]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/07-implementation/01-documentation/toc.md

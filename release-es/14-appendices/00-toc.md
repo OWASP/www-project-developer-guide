@@ -3,7 +3,7 @@
 title: Appendices
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Roxana Calderon, Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order:
 
@@ -31,8 +31,8 @@ order:
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing then [submit an issue][issue1400].
+Traducción de versión [original en inglés][release1400].
 
-[issue1400]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2014-appendices/00-toc
+[release1400]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/14-appendices/toc.md
 
 \newpage

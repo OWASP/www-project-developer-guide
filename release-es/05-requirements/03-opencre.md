@@ -1,12 +1,12 @@
 ---
 
-title: DefectDojo
+title: OpenCRE and Integration Standards
 layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 48410
-permalink: /release-es/verification/vulnerability_management/defectdojo/
+order: 45030
+permalink: /release-es/requirements/opencre_integration_standard/
 
 ---
 
@@ -24,12 +24,12 @@ permalink: /release-es/verification/vulnerability_management/defectdojo/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 6.4.1 DefectDojo
+### 3.3 OpenCRE
 
-No hay traducción de esta página, consulte [versión original en inglés][release080401].
+No hay traducción de esta página, consulte [versión original en inglés][release0503].
 
 ----
 
-[release080401]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/08-verification/04-vulnerability-management/01-defectdojo.md
+[release0503]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/05-requirements/03-opencre.md
 
 \newpage

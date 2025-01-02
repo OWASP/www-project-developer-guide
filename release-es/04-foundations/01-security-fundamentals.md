@@ -24,14 +24,17 @@ permalink: /release-es/foundations/security_fundamentals/
 
 ### 2.1 Fundamentos de seguridad
 
-Los principios fundamentales de la seguridad de aplicaciones se basan en los conceptos de seguridad a los que se hace referencia en esta Guía del Desarrollador.
-Esta sección tiene como objetivo proporcionar una introducción a los principios fundamentales con los que cualquier equipo de desarrollo debe estar familiarizado.
+Los principios fundamentales de la seguridad de aplicaciones se basan en los conceptos de seguridad
+a los que se hace referencia en esta Guía del Desarrollador.
+Esta sección tiene como objetivo proporcionar una introducción a los principios fundamentales
+con los que cualquier equipo de desarrollo debe estar familiarizado.
 
-#### Modelo de madurez de Seguridad de Software 
+#### Modelo de madurez de Seguridad de Software
 
 ![SAMM logo](../../../assets/images/logos/samm.png "OWASP SAMM"){: .image-right-small }
 
-El modelo de madurez de Aseguramiento de Software ([SAMM][samm]) proporciona contexto para el alcance de la seguridad del software y los fundamentos de las buenas prácticas de seguridad:
+El modelo de madurez de Aseguramiento de Software ([SAMM][samm]) proporciona contexto para el alcance
+de la seguridad del software y los fundamentos de las buenas prácticas de seguridad:
 
 * [Gobernanza][sammg]
 * [Diseño][sammd]
@@ -42,7 +45,8 @@ El modelo de madurez de Aseguramiento de Software ([SAMM][samm]) proporciona con
 El modelo SAMM describe estos fundamentos de seguridad de software como funciones comerciales,
 que a su vez se dividen en Prácticas Comerciales.
 El Modelo de Madurez de Aseguramiento de Software de OWASP ([SAMM][samm]) se utiliza en esta Guía del Desarrollador;
-la mayoría de las secciones de la Guía del desarrollador hacen referencia a al menos una de las funciones o prácticas comerciales de SAMM.
+la mayoría de las secciones de la Guía del desarrollador hacen referencia a al menos una de las funciones
+o prácticas comerciales de SAMM.
 
 #### Tríada CIA
 
@@ -50,8 +54,10 @@ La seguridad consiste simplemente en controlar quién puede interactuar con la i
 qué pueden hacer con ella y cuándo pueden interactuar con ella.
 Estas características de seguridad se pueden describir utilizando la tríada CIA.
 
-CIA significa Confidencialidad, Integridad y Disponibilidad y generalmente se representa como un triángulo que representa los fuertes vínculos entre sus tres principios.
-Esta tríada se considera los pilares de la seguridad de las aplicaciones, a menudo, la confidencialidad, la integridad o la disponibilidad se utilizan como propiedades de los datos o procesos dentro de un sistema determinado.
+CIA significa Confidencialidad, Integridad y Disponibilidad y generalmente se representa como un triángulo
+que representa los fuertes vínculos entre sus tres principios.
+Esta tríada se considera los pilares de la seguridad de las aplicaciones, a menudo, la confidencialidad, la integridad
+o la disponibilidad se utilizan como propiedades de los datos o procesos dentro de un sistema determinado.
 La tríada de la CIA se puede ampliar con la tríada AAA: Autorización, Autenticación y Auditoría.
 
 #### Confidencialidad
@@ -63,22 +69,28 @@ La confidencialidad también está relacionada con el concepto más amplio de pr
 
 #### Integridad
 
-La integridad consiste en proteger los datos contra modificaciones no autorizadas o garantizar la confiabilidad de los datos.
-El concepto contiene la noción de integridad de los datos (los datos no han sido modificados accidental o deliberadamente)
-y la noción de integridad de la fuente (los datos provienen de una fuente legítima o fueron modificados por ella).
+La integridad consiste en proteger los datos contra modificaciones no autorizadas
+o garantizar la confiabilidad de los datos.
+El concepto contiene la noción de integridad de los datos (los datos no han sido modificados accidental
+o deliberadamente) y la noción de integridad de la fuente (los datos provienen de una fuente legítima
+o fueron modificados por ella).
 
 #### Disponibilidad
 
 La disponibilidad consiste en garantizar la presencia de información o recursos.
-Este concepto se basa no sólo en la disponibilidad de los datos en sí, por ejemplo mediante el uso de replicación de datos,
-sino también sobre la protección de los servicios que proporcionan acceso a los datos, por ejemplo mediante el uso del equilibrio de carga.
+Este concepto se basa no sólo en la disponibilidad de los datos en sí,
+por ejemplo mediante el uso de replicación de datos,
+sino también sobre la protección de los servicios que proporcionan acceso a los datos,
+por ejemplo mediante el uso del equilibrio de carga.
 
 #### Tríada AAA
 
-La tríada de la CIA a menudo se amplía con Autenticación, Autorización y Auditoría, ya que están estrechamente vinculadas a los conceptos de la CIA.
+La tríada de la CIA a menudo se amplía con Autenticación, Autorización y Auditoría,
+ya que están estrechamente vinculadas a los conceptos de la CIA.
 La CIA tiene una fuerte dependencia de la autenticación y la autorización;
 la confidencialidad y la integridad de los datos sensibles no pueden garantizarse sin ellos.
-Se agrega la auditoría, ya que puede proporcionar el mecanismo para garantizar pruebas de cualquier interacción con el sistema.
+Se agrega la auditoría, ya que puede proporcionar el mecanismo para garantizar pruebas de cualquier interacción
+con el sistema.
 
 #### Autenticación
 
@@ -88,26 +100,29 @@ en cualquier caso, se requiere autenticación para una aplicación segura.
 
 #### Autorización
 
-La [autorización][csauthz] consiste en especificar derechos de acceso a recursos seguros (datos, servicios, archivos, aplicaciones, etc.).
+La [autorización][csauthz] consiste en especificar derechos de acceso a recursos seguros
+(datos, servicios, archivos, aplicaciones, etc.).
 Estos derechos describen los privilegios o niveles de acceso relacionados con los recursos que se están protegiendo.
 La autorización suele ir precedida de una autenticación exitosa.
 
 #### Auditoría
 
-La auditoría consiste en realizar un seguimiento de los eventos a nivel de implementación, así como de los eventos a nivel de dominio que tienen lugar en un sistema.
+La auditoría consiste en realizar un seguimiento de los eventos a nivel de implementación,
+así como de los eventos a nivel de dominio que tienen lugar en un sistema.
 Esto ayuda a proporcionar no repudio, lo que significa que los cambios o acciones en el sistema protegido son innegables.
 La auditoría puede proporcionar no sólo información técnica sobre el sistema en ejecución,
 pero también prueba de que se han realizado acciones particulares.
 Las preguntas típicas que se responden mediante la auditoría son "¿Quién hizo Qué, Cuándo y potencialmente Cómo?"
 
-
 #### Vulnerabilidades
 
-NIST define una [vulnerabilidad][nistvuln] como 'Debilidad en un sistema de información, procedimientos de seguridad del sistema,
-controles internos o implementación que podría ser explotada o activada por una fuente de amenaza.'
+NIST define una [vulnerabilidad][nistvuln] como 'Debilidad en un sistema de información,
+procedimientos de seguridad del sistema, controles internos o implementación que podría ser explotada
+o activada por una fuente de amenaza.'
 
 Hay muchas debilidades o errores en toda aplicación grande, pero el término vulnerabilidad generalmente está reservado.
-para aquellas debilidades o errores en los que existe el riesgo de que un actor de amenazas pueda explotarlos utilizando un vector de amenazas.
+para aquellas debilidades o errores en los que existe el riesgo de que un actor de amenazas pueda explotarlos utilizando
+un vector de amenazas.
 
 Las vulnerabilidades de seguridad más conocidas son:
 
@@ -128,10 +143,14 @@ Las vulnerabilidades de seguridad más conocidas son:
 #### HTTP y HTML
 
 Aunque no son un elemento fundamental de seguridad como tal, las aplicaciones web dependen de comunicaciones HTTP y HTML.
-Tanto los desarrolladores de aplicaciones como los ingenieros de seguridad deben tener un buen conocimiento de HTTP y del lenguaje HTML junto con sus diversos controles de seguridad.
+Tanto los desarrolladores de aplicaciones como los ingenieros de seguridad deben tener un buen conocimiento de HTTP
+y del lenguaje HTML junto con sus diversos controles de seguridad.
 
-La mayoría de los equipos de desarrollo de aplicaciones estarán familiarizados con las comunicaciones HTTP y el estándar HTML, pero si es necesario consulte la formación del [Consorcio W3][w3consortium] o de las [Escuelas W3][w3schools].
-La [serie de hojas de referencia][cheatsheets] de OWASP proporciona a los desarrolladores de aplicaciones web la información necesario para producir software seguro:
+La mayoría de los equipos de desarrollo de aplicaciones estarán familiarizados con las comunicaciones HTTP
+y el estándar HTML, pero si es necesario consulte la formación del [Consorcio W3][w3consortium]
+o de las [Escuelas W3][w3schools].
+La [serie de hojas de referencia][cheatsheets] de OWASP proporciona a los desarrolladores de aplicaciones web
+la información necesario para producir software seguro:
 
 * La hoja de referencia [Seguridad HTML5][cshtml5] describe una amplia gama de controles,
   alineado con el actual [Estándar de vida HTML][htmlliving]
@@ -139,8 +158,9 @@ La [serie de hojas de referencia][cheatsheets] de OWASP proporciona a los desarr
 * Los encabezados HTTP deben ser seguros; consulte la hoja de referencia [HTTP Security Response Headers][csheaders]
 * Considere seriamente [Seguridad estricta de transporte HTTP][csstrict]
 * Si la aplicación tiene una función de carga de archivos, siga la hoja de referencia de [Carga de archivos][csfile]
-* Asegúrese de que la política de seguridad de contenido esté implementada con la hoja de referencia [Política de seguridad de contenido][cscsp]
-* ¿Utiliza JWT para una aplicación Java? Consulte la hoja de referencia de [JSON Web Token][csjwt] 
+* Asegúrese de que la política de seguridad de contenido esté implementada con la hoja de referencia
+  [Política de seguridad de contenido][cscsp]
+* ¿Utiliza JWT para una aplicación Java? Consulte la hoja de referencia de [JSON Web Token][csjwt]
 * ¿Almacenar o enviar objetos? Consulte la hoja de referencia [Deserialización][csserial]
 
 #### Referencias
@@ -151,8 +171,7 @@ La [serie de hojas de referencia][cheatsheets] de OWASP proporciona a los desarr
 
 ----
 
-La Guía del Desarrollador de OWASP es un esfuerzo comunitario; si hay algo que necesita cambio
-entonces [cree un issue][issue0401] o [edítelo en GitHub][edit0401].
+Traducción de versión [original en inglés][release0401].
 
 [cheatsheets]: https://cheatsheetseries.owasp.org/
 [csclick]: https://cheatsheetseries.owasp.org/cheatsheets/Clickjacking_Defense_Cheat_Sheet
@@ -183,8 +202,7 @@ entonces [cree un issue][issue0401] o [edítelo en GitHub][edit0401].
 [csxsleaks]: https://cheatsheetseries.owasp.org/cheatsheets/XS_Leaks_Cheat_Sheet
 [csxssevade]: https://cheatsheetseries.owasp.org/cheatsheets/XSS_Filter_Evasion_Cheat_Sheet
 [csxxe]: https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet
-[issue0401]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/01-security-fundamentals
-[edit0401]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/04-foundations/01-security-fundamentals.md
+[release0401]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/04-foundations/01-security-fundamentals.md
 [htmlliving]: https://html.spec.whatwg.org/multipage/
 [nistvuln]: https://csrc.nist.gov/glossary/term/vulnerability
 [samm]: https://owaspsamm.org/about/

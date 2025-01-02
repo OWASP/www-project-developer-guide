@@ -1,12 +1,12 @@
 ---
 
-title: DefectDojo
+title: MAS Weakness Enumeration
 layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 48410
-permalink: /release-es/verification/vulnerability_management/defectdojo/
+order: 47400
+permalink: /release-es/implementation/mas_weakness_enumeration/
 
 ---
 
@@ -24,12 +24,12 @@ permalink: /release-es/verification/vulnerability_management/defectdojo/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 6.4.1 DefectDojo
+### 5.4 Mobile application weakness enumeration
 
-No hay traducción de esta página, consulte [versión original en inglés][release080401].
+No hay traducción de esta página, consulte [versión original en inglés][release0704].
 
 ----
 
-[release080401]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/08-verification/04-vulnerability-management/01-defectdojo.md
+[release0704]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/04-maswe.md
 
 \newpage

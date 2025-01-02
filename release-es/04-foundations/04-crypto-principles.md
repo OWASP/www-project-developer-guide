@@ -20,9 +20,11 @@ listadas en la lectura adicional al final de esta sección.
 
 #### Descrición general
 
-Esta sección proporciona una breve introducción a la criptografía (a menudo simplemente referida como "crypto") y los términos utilizados.
+Esta sección proporciona una breve introducción a la criptografía (a menudo simplemente referida como "crypto")
+y los términos utilizados.
 La criptografía es un tema amplio y puede volverse muy matemático,
-pero afortunadamente para la mayoría de los equipos de desarrollo, una comprensión general de los conceptos es suficiente.
+pero afortunadamente para la mayoría de los equipos de desarrollo,
+una comprensión general de los conceptos es suficiente.
 Esta comprensión general, con la guía de arquitectos de seguridad, debería permitir la implementación
 de criptografía por parte del equipo de desarrollo para la aplicación o sistema.
 
@@ -30,7 +32,8 @@ de criptografía por parte del equipo de desarrollo para la aplicación o sistem
 
 Aunque la criptografía estaba inicialmente restringida principalmente al ámbito militar y académico,
 se ha vuelto omnipresente en la seguridad de las aplicaciones de software.
-Los usos cotidianos comunes de la criptografía incluyen teléfonos móviles, contraseñas, VPNs SSL, tarjetas inteligentes y DVDs.
+Los usos cotidianos comunes de la criptografía incluyen teléfonos móviles, contraseñas,
+VPNs SSL, tarjetas inteligentes y DVDs.
 La criptografía ha invadido la vida cotidiana y es muy utilizada por muchas aplicaciones web.
 
 La criptografía es uno de los temas más avanzados de la seguridad de la información,
@@ -43,13 +46,15 @@ Un pequeño error en la configuración o codificación resultará en la eliminac
 y hará que la implementación criptográfica sea inútil.
 
 Se requiere una buena comprensión de la criptografía para poder discernir entre productos sólidos y soluciones engañosas.
-La complejidad inherente de la criptografía hace que sea fácil caer en afirmaciones fantásticas de los proveedores sobre su producto.
+La complejidad inherente de la criptografía hace que sea fácil caer en afirmaciones fantásticas
+de los proveedores sobre su producto.
 Típicamente, estas son "un avance en criptografía" o "irrompible" o proporcionan seguridad "de grado militar".
 Si un proveedor dice "confíe en nosotros, hemos tenido expertos que lo han revisado", ¡es probable que no fueran expertos!
 
 #### Confidencialidad
 
-Para los propósitos de esta sección, la confidencialidad se define como "ninguna divulgación no autorizada de información".
+Para los propósitos de esta sección, la confidencialidad se define como
+"ninguna divulgación no autorizada de información".
 La criptografía aborda esto mediante la encriptación de los datos en reposo o datos en tránsito,
 ocultando la información a todos aquellos que no posean la clave de descifrado.
 Los hashes criptográficos (hashes seguros, unidireccionales) previenen la divulgación de contraseñas.
@@ -60,7 +65,8 @@ La [Autenticación][csauthn] es el proceso de verificar una afirmación de que u
 a través de alguna evidencia corroborativa proporcionada.
 La criptografía es primordial para la autenticación:
 
-1. para proteger la evidencia corroborativa proporcionada (por ejemplo, el hash de contraseñas para su posterior almacenamiento)
+1. para proteger la evidencia corroborativa proporcionada (por ejemplo,
+    el hash de contraseñas para su posterior almacenamiento)
 2. en protocolos de autenticación que a menudo usan criptografía para autenticar entidades directamente
     o para intercambiar credenciales de manera segura
 3. para verificar la identidad de una o ambas partes en el intercambio de mensajes,
@@ -71,8 +77,10 @@ ver la HOja d Referencia del [Protocolo OAuth 2.0][csoauth].
 
 #### Integridad
 
-La integridad asegura que incluso los usuarios autorizados no hayan realizado alteraciones accidentales o maliciosas de la información.
-La criptografía puede usarse para prevenir la manipulación mediante Códigos de Autenticación de Mensajes (MACs) o firmas digitales.
+La integridad asegura que incluso los usuarios autorizados no hayan realizado alteraciones accidentales
+o maliciosas de la información.
+La criptografía puede usarse para prevenir la manipulación mediante Códigos de Autenticación de Mensajes (MACs)
+o firmas digitales.
 
 El término 'autenticidad del mensaje' se refiere a asegurar la integridad de la información,
 a menudo usando encriptación simétrica y claves compartidas,
@@ -83,9 +91,11 @@ y, si se usa encriptación asimétrica, puede autenticar al remitente.
 
 #### No repudio
 
-El no repudio del remitente asegura que alguien que envía un mensaje no debería poder negar posteriormente que lo ha enviado.
+El no repudio del remitente asegura que alguien que envía un mensaje no debería poder negar posteriormente
+que lo ha enviado.
 El no repudio del receptor significa que el receptor de un mensaje no debería poder negar que lo ha recibido.
-La criptografía puede usarse para proporcionar no repudio al proporcionar mensajes o respuestas a mensajes que no se pueden falsificar.
+La criptografía puede usarse para proporcionar no repudio al proporcionar mensajes
+o respuestas a mensajes que no se pueden falsificar.
 
 El no repudio es útil para intercambios financieros, de comercio electrónico y contractuales.
 Se puede lograr haciendo que el remitente o destinatario firme digitalmente algún registro transaccional único.
@@ -97,7 +107,8 @@ La atestación generalmente se discute en el contexto de un Módulo de Plataform
 Gestión de Derechos Digitales (DRM) y Arranque Seguro UEFI.
 
 Por ejemplo, la Gestión de Derechos Digitales está interesada en atestiguar que su dispositivo
-o sistema no ha sido comprometido con alguna puerta trasera para permitir que alguien copie ilegalmente contenido protegido por DRM.
+o sistema no ha sido comprometido con alguna puerta trasera para permitir
+que alguien copie ilegalmente contenido protegido por DRM.
 
 La criptografía puede usarse para proporcionar una cadena de evidencia de que todo está como se espera que esté,
 para probar a un contrincante que todo está de acuerdo con las expectativas del contrincante.
@@ -108,18 +119,22 @@ un cargador de arranque confiable (firmado digitalmente).
 
 #### Hashes criptográficos
 
-Los hashes criptográficos, también conocidos como resúmenes de mensaje, son funciones que mapean cadenas de bits de longitud arbitraria
+Los hashes criptográficos, también conocidos como resúmenes de mensaje,
+son funciones que mapean cadenas de bits de longitud arbitraria
 a una cadena de bits de longitud fija conocida como 'valor hash' o 'valor de resumen'.
 Estas funciones hash son mapeos de muchos a uno que son funciones de compresión.
 
-Las funciones hash criptográficas se utilizan para proporcionar integridad de datos (es decir, para detectar la manipulación intencional de datos),
+Las funciones hash criptográficas se utilizan para proporcionar integridad de datos (es decir,
+para detectar la manipulación intencional de datos),
 para almacenar contraseñas o frases de paso, y para proporcionar firmas digitales de manera más eficiente
 que usando cifrados asimétricos.
 Las funciones hash criptográficas también se utilizan para extender un pequeño bit de entropía
 para que se puedan construir generadores de números aleatorios seguros.
 
-Cuando se utilizan para proporcionar integridad de datos, las funciones criptográficas proporcionan dos tipos de integridad:
-hashes con clave, a menudo llamados 'códigos de autenticación de mensaje', y hashes sin clave llamados 'códigos de integridad de mensaje'.
+Cuando se utilizan para proporcionar integridad de datos,
+las funciones criptográficas proporcionan dos tipos de integridad:
+hashes con clave, a menudo llamados 'códigos de autenticación de mensaje',
+y hashes sin clave llamados 'códigos de integridad de mensaje'.
 
 #### Cifrados
 
@@ -144,7 +159,8 @@ Los cifrados simétricos vienen en dos tipos principales:
 2. Cifrados de flujo, que operan en un solo bit (u ocasionalmente un solo byte) a la vez.
     Ejemplos de cifrados de flujo son RC4 (también conocido como ARC4) y Salsa20
 
-Tenga en cuenta que todos los cifrados de bloque también pueden operar en 'modo de transmisión' seleccionando el modo de cifrado apropiado.
+Tenga en cuenta que todos los cifrados de bloque también pueden operar en 'modo de transmisión'
+seleccionando el modo de cifrado apropiado.
 
 #### Modos de Cifrado
 
@@ -154,12 +170,14 @@ su mecanismo de encriptación o desencriptación a un bloque de cifrado determin
 Los modos de cifrado son importantes porque tienen un impacto enorme tanto en la confidencialidad
 como en la autenticidad del mensaje de los mensajes de texto cifrado resultantes.
 
-Casi todas las bibliotecas criptográficas admiten los cuatro modos de cifrado originales de DES: ECB, CBC (Encadenamiento de Bloques de Cifrado)
+Casi todas las bibliotecas criptográficas admiten los cuatro modos de cifrado originales de DES:
+ECB, CBC (Encadenamiento de Bloques de Cifrado)
 OFB (Retroalimentación de Salida) y CFB (Retroalimentación de Cifrado). Muchas también admiten el modo CTR (Contador).
 
 #### Vector de inicialización
 
-Un vector de inicialización criptográfico (IV) es una entrada de tamaño fijo a la primitiva de encriptación / desencriptación de un cifrado de bloque.
+Un vector de inicialización criptográfico (IV) es una entrada de tamaño fijo a la primitiva de encriptación /
+desencriptación de un cifrado de bloque.
 Se recomienda (y en muchos casos, se requiere) que el IV sea aleatorio o al menos pseudo-aleatorio.
 
 #### Relleno
@@ -186,15 +204,16 @@ Tanto [TLS][tls] como S/MIME son criptosistemas comunes que utilizan criptograf�
 
 #### Firma digital
 
-Las firmas digitales son una cadena de datos criptográficamente única que se utiliza para garantizar la integridad de los datos
-y probar la autenticidad de algún mensaje digital, y que asocia algún mensaje de entrada con una entidad originadora.
+Las firmas digitales son una cadena de datos criptográficamente única que se utiliza
+para garantizar la integridad de los datos y probar la autenticidad de algún mensaje digital,
+y que asocia algún mensaje de entrada con una entidad originadora.
 Un algoritmo de generación de firma digital es un algoritmo criptográficamente fuerte que se utiliza
 para generar una firma digital.
 
 #### Protocolo de acuerdo de claves
 
-Los protocolos de acuerdo de claves son protocolos mediante los cuales N partes (generalmente dos) pueden acordar una clave común
-sin intercambiar realmente la clave.
+Los protocolos de acuerdo de claves son protocolos mediante los cuales N partes (generalmente dos)
+pueden acordar una clave común sin intercambiar realmente la clave.
 Cuando se diseñan e implementan correctamente, los protocolos de acuerdo de claves evitan que los adversarios
 aprendan la clave o fuercen su propia elección de clave a las partes participantes.
 
@@ -205,23 +224,25 @@ no implica nada sobre dónde en el código de la aplicación se realiza realment
 
 #### Derivación de claves
 
-Una función de derivación de claves (KDF) es un algoritmo determinista para derivar una clave de un tamaño dado a partir de algún valor secreto.
+Una función de derivación de claves (KDF) es un algoritmo determinista para
+derivar una clave de un tamaño dado a partir de algún valor secreto.
 Si dos partes usan el mismo valor secreto compartido y el mismo KDF, siempre deberían derivar exactamente la misma clave.
 
 #### Envoltura de claves
 
-La envoltura de claves es una construcción utilizada con cifrados simétricos para proteger material de claves criptográficas
-encriptándolo de una manera especial.
-Los algoritmos de envoltura de claves están destinados a proteger las claves mientras se mantienen en almacenamiento no confiable
-o mientras se transmiten claves a través de redes de comunicación no seguras.
+La envoltura de claves es una construcción utilizada con cifrados simétricos para proteger material
+de claves criptográficas encriptándolo de una manera especial.
+Los algoritmos de envoltura de claves están destinados a proteger las claves mientras se mantienen
+en almacenamiento no confiable o mientras se transmiten claves a través de redes de comunicación no seguras.
 
 #### Algoritmos de intercambio de claves
 
 Los algoritmos de intercambio de claves (también conocidos como algoritmos de establecimiento de claves) son protocolos
 que se utilizan para intercambiar claves criptográficas secretas
 entre un remitente y un receptor de una manera que cumple con ciertas restricciones de seguridad.
-Los algoritmos de intercambio de claves intentan abordar el problema de compartir de manera segura una clave secreta común entre dos partes
-a través de un canal de comunicación inseguro de manera que ninguna otra parte pueda obtener acceso a una copia de la clave secreta.
+Los algoritmos de intercambio de claves intentan abordar el problema de compartir de manera segura
+una clave secreta común entre dos partes a través de un canal de comunicación inseguro de manera
+que ninguna otra parte pueda obtener acceso a una copia de la clave secreta.
 
 El algoritmo de intercambio de claves más conocido es el Intercambio de Claves Diffie-Hellman.
 También existen algoritmos de intercambio de claves autenticados por contraseña.
@@ -229,15 +250,19 @@ El intercambio de claves RSA usando PKI o redes de confianza o servidores de cla
 
 #### Protocolos de transporte de claves
 
-Los protocolos de Transporte de claves son donde una parte genera la clave y la envía de manera segura al(los) destinatario(s).
+Los protocolos de Transporte de claves son donde una parte genera la clave
+y la envía de manera segura al(los) destinatario(s).
 
 #### Protocolos de acuerdo de claves
-Los protocolos de Acuerdo de claves son protocolos mediante los cuales N partes (normalmente dos) pueden acordar una clave común
-con todas las partes contribuyendo al valor de la clave.
-Estos protocolos evitan que los adversarios aprendan la clave o fuercen su propia elección de clave a las partes participantes.
+
+Los protocolos de Acuerdo de claves son protocolos mediante los cuales N partes (normalmente dos)
+pueden acordar una clave común con todas las partes contribuyendo al valor de la clave.
+Estos protocolos evitan que los adversarios aprendan la clave
+o fuercen su propia elección de clave a las partes participantes.
+
 Referencias
 
-* Serie de Hojas de Referencia de OWASP 
+* Serie de Hojas de Referencia de OWASP
 
   * [Autenticación][csauthn]
   * [Autorización][csauthz]
@@ -248,20 +273,17 @@ Referencias
   * [Diseño de Producto Seguro][spdcs]
   * [Protección de Privacidad del Usuario][uppcs]
 
+----
 
-
-
-La Guía del Desarrollador OWASP es un esfuerzo comunitario; si hay algo que necesita cambios
-entonces [cree un issue][issue0404] o [edítelo en GitHub][edit0404].
+Traducción de versión [original en inglés][release0404].
 
 [csauthn]: https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet
 [csauthz]: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet
 [csoauth]: https://cheatsheetseries.owasp.org/cheatsheets/OAuth2_Cheat_Sheet
 [csproject]: https://owasp.org/www-project-cheat-sheets/
 [cscs]: https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet
-[issue0404]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/04-crypto-principles
 [kmcs]: https://cheatsheetseries.owasp.org/cheatsheets/Key_Management_Cheat_Sheet
-[edit0404]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/04-foundations/04-crypto-principles.md
+[release0404]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/04-foundations/04-crypto-principles.md
 [sscs]: https://cheatsheetseries.owasp.org/cheatsheets/SAML_Security_Cheat_Sheet
 [spdcs]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet
 [tls]: https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Security_Cheat_Sheet

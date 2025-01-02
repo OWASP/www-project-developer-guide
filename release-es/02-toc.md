@@ -42,14 +42,14 @@ permalink:
 4.1.6 [Kit de herramientas de modelado de amenazas](#threat-modeling-toolkit)  
 4.2 [Lista de verificación de aplicaciones web](#web-application-checklist)  
 4.2.1 [Lista de verificación: Definir requisitos de seguridad](#checklist-define-security-requirements)  
-4.2.2 [Lista de verificación: Aprovechar los frameworks y bibliotecas de seguridad](#checklist-leverage-security-frameworks-and-libraries)  
+4.2.2 [Lista de verificación: Aprovechar los frameworks y librerías](#checklist-leverage-security-frameworks-and-libraries)  
 4.2.3 [Lista de verificación: Asegurar el acceso a la base de datos](#checklist-secure-database-access)  
 4.2.4 [Lista de verificación: Codificar y escapar caracteres especiales en datos](#checklist-encode-and-escape-data)  
 4.2.5 [Lista de verificación: Validar todas las entradas](#checklist-validate-all-inputs)  
 4.2.6 [Lista de verificación: Implementar identidad digital](#checklist-implement-digital-identity)  
 4.2.7 [Lista de verificación: Hacer respetar los controles de acceso](#checklist-enforce-access-controls)  
 4.2.8 [Lista de verificación: Proteger los datos en todas partes](#checklist-protect-data-everywhere)  
-4.2.9 [Lista de verificación: Implementar registro y monitoreo de seguridad](#checklist-implement-security-logging-and-monitoring)  
+4.2.9 [Lista de verificación: Implementar registro y monitoreo](#checklist-implement-security-logging-and-monitoring)  
 4.2.10 [Lista de verificación: Manejar todos los errores y excepciones](#checklist-handle-all-errors-and-exceptions)  
 4.3 [Lista de verificación de aplicaciones móviles](#mobile-application-checklist)  
 
@@ -66,6 +66,7 @@ permalink:
 5.3.1 [Librería de API de seguridad empresarial](#enterprise-security-api-library)  
 5.3.2 [Librería CSRFGuard](#csrfguard-library)  
 5.3.3 [Proyecto OWASP Secure Headers](#owasp-secure-headers-project)  
+5.4 [Mobile application weakness enumeration](#mobile-application-weakness-enumeration)  
 
 6 **[Verificación](#verification)**  
 6.1 [Guías](#verification-guides)  
@@ -73,7 +74,7 @@ permalink:
 6.1.2 [Guía de testeo MAS](#mas-testing-guide)  
 6.1.3 [Estándar de verificación de seguridad de aplicaciones](#application-security-verification-standard)  
 6.2 [Herramientas](#verification-tools)  
-6.2.1 [Zed Attack Proxy](#zed-attack-proxy)  
+6.2.1 [DAST tools](#dast-tools)  
 6.2.2 [Amass](#amass)  
 6.2.3 [Offensive Web Testing Framework](#offensive-web-testing-framework)  
 6.2.4 [Nettacker](#nettacker)  

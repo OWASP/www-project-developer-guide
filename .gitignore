@@ -87,6 +87,22 @@
 !release-pt-br/1*/1*/
 !release-pt-br/1*/1*/*.md
 
+# release língua espanol
+!release-es/
+!release-es/title*.yaml
+!release-es/0*/
+!release-es/0*/*.md
+!release-es/0*/0*/
+!release-es/0*/0*/*.md
+!release-es/0*/1*/
+!release-es/0*/1*/*.md
+!release-es/1*/
+!release-es/1*/*.md
+!release-es/1*/0*/
+!release-es/1*/0*/*.md
+!release-es/1*/1*/
+!release-es/1*/1*/*.md
+
 # pages markdown
 !*.md
 !assets/

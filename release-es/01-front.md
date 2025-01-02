@@ -18,7 +18,7 @@ permalink:
 
 #### Una Guía para desarrollar Aplicaciones Web y Servicios Web Seguros
 
-Esta versión borrador contiene las últimas contribuciones a la Guía del Desarrollador así que se espera cambios frecuentes en el contenido.
-
+Esta versión borrador contiene las últimas contribuciones a la Guía del Desarrollador
+así que se espera cambios frecuentes en el contenido.
 
 \newpage

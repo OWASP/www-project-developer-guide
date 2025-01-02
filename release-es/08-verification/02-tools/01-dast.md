@@ -1,12 +1,12 @@
 ---
 
-title: DefectDojo
+title: DAST
 layout: col-document
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
-order: 48410
-permalink: /release-es/verification/vulnerability_management/defectdojo/
+order: 48210
+permalink: /release-es/verification/tools/dast/
 
 ---
 
@@ -24,12 +24,12 @@ permalink: /release-es/verification/vulnerability_management/defectdojo/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 6.4.1 DefectDojo
+### 6.2.1 DAST tools
 
-No hay traducción de esta página, consulte [versión original en inglés][release080401].
+No hay traducción de esta página, consulte [versión original en inglés][release080201].
 
 ----
 
-[release080401]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/08-verification/04-vulnerability-management/01-defectdojo.md
+[release080201]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/08-verification/02-tools/01-dast.md
 
 \newpage

@@ -33,7 +33,8 @@ los principios suelen ser bastante sencillos y accesibles para todos los ingenie
 Una comprensión razonable de estos conceptos fundamentales permite a los equipos de desarrollo entender e implementar
 Seguridad de software para la aplicación o sistema en desarrollo.
 Esta Guía para desarrolladores solo puede brindar una breve descripción general de estos conceptos.
-para obtener conocimientos más profundos, consulte los numerosos textos sobre seguridad, como [El conjunto de conocimientos sobre seguridad cibernética][cbok].
+para obtener conocimientos más profundos, consulte los numerosos textos sobre seguridad,
+como [El conjunto de conocimientos sobre seguridad cibernética][cbok].
 
 Secciones:
 
@@ -45,9 +46,7 @@ Secciones:
 
 ----
 
-La Guía para desarrolladores de OWASP es un esfuerzo comunitario; si hay algo que necesita cambio
-entonces [cree un issue][issue0400] o [edítelo en GitHub][edit0400]
+Traducción de versión [original en inglés][release0400]
 
 [cbok]: https://www.cybok.org/
-[edit0400]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/04-foundations/toc.md
-[issue0400]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/00-toc
+[release0400]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/04-foundations/toc.md

@@ -3,7 +3,7 @@
 title: Implementation Do's and Don'ts
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Roxana Calderon, Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 54100
 permalink: /release-es/appendices/implementation_dos_donts/
@@ -22,15 +22,11 @@ permalink: /release-es/appendices/implementation_dos_donts/
 }
 </style>
 
-![Developer guide logo](../../../assets/images/dg_logo_bbd.png "OWASP Developer Guide"){: .image-right }
+![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ### 12.1 Implementation Do's and Don'ts
 
-Implementation demands technical knowledge, skill and experience.
-There is no substitute for experience, but learning from past mistakes and the experience of others can go a long way.
-This section of the Developer Guide is a collection of Do's and Don'ts,
-some of which may be directly relevant to any given project and some of which will be less so.
-It is worth considering all of these Do's and Don'ts and picking out the ones that will be of most use.
+No hay traducción de esta página, consulte [versión original en inglés][release0740].
 
 Sections:
 
@@ -45,8 +41,4 @@ Sections:
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0740] or [edit on GitHub][edit0740].
-
-[edit0740]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/14-appendices/01-implementation-dos-donts/toc.md
-[issue0740]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2014-appendices/01-implementation-dos-donts/00-toc
+[release0740]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/14-appendices/01-implementation-dos-donts/toc.md

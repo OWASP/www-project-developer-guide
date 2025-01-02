@@ -3,7 +3,7 @@
 title: Verification
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Roxana Calderon, Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 48000
 permalink: /release-es/verification/
@@ -22,31 +22,11 @@ permalink: /release-es/verification/
 }
 </style>
 
-![Developer guide logo](../../assets/images/dg_logo.png "OWASP Developer Guide"){: .image-right }
+![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ## 6. Verification
 
-[Verification][sammv] is one of the business functions described by the [OWASP SAMM][samm].
-
-Verification focuses on the processes and activities related to how an organization checks
-and tests artifacts produced throughout software development.
-This typically includes quality assurance work such as testing, and also includes other review and evaluation activities.
-
-Verification activities should include:
-
-* Architecture assessment, validation and mitigation
-* Requirements-driven testing
-* Security control verification and misuse/abuse testing
-* Automated security testing and baselining
-* Manual security testing and penetration testing
-
-These activities are supported by:
-
-* Security guides
-* Test tools
-* Test frameworks
-* Vulnerability management
-* Checklists
+No hay traducción de esta página, consulte [versión original en inglés][release0800].
 
 Sections:
 
@@ -55,7 +35,7 @@ Sections:
 6.1.2 [MAS Testing Guide](01-guides/02-mastg.md)  
 6.1.3 [Application Security Verification Standard](01-guides/03-asvs.md)  
 6.2 [Tools](02-tools/toc.md)  
-6.2.1 [Zed Attack Proxy](02-tools/01-zap.md)  
+6.2.1 [DAST tools](02-tools/01-dast.md)  
 6.2.2 [Amass](02-tools/02-amass.md)  
 6.2.3 [Offensive Web Testing Framework](02-tools/03-owtf.md)  
 6.2.4 [Nettacker](02-tools/04-nettacker.md)  
@@ -67,10 +47,4 @@ Sections:
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0800] or [edit on GitHub][edit0800].
-
-[edit0800]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/toc.md
-[issue0800]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2008-verification/00-toc
-[samm]: https://owaspsamm.org/about/
-[sammv]: https://owaspsamm.org/model/verification/
+[release0800]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/08-verification/toc.md
