@@ -57,8 +57,21 @@ jobs:
       - name: Spell check EN draft
         uses: rojopolis/spellcheck-github-actions@0.45.0
         with:
-          config_path: .spellcheck-en.yml
+          config_path: .spellcheck-en.yaml
           # checks the draft directory with an EN dictionary
+
+  check_translations:
+    name: Check translations 
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout markdown
+        uses: actions/checkout@v4.2.0
+
+      - name: Spell check ES draft
+        uses: rojopolis/spellcheck-github-actions@0.45.0
+        with:
+          config_path: .spellcheck-es.yaml
+          # checks the release-es directory with an ES dictionary
 
   export_draft:
     name: Export epub and pdf (Draft)

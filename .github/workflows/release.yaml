@@ -57,7 +57,7 @@ jobs:
       - name: Spell check EN release
         uses: rojopolis/spellcheck-github-actions@0.45.0
         with:
-          config_path: .spellcheck-en.yml
+          config_path: .spellcheck-en.yaml
           # checks the draft directory with an EN dictionary
 
   create_artifacts:
