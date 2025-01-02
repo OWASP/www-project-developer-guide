@@ -60,6 +60,25 @@ jobs:
           config_path: .spellcheck-en.yaml
           # checks the draft directory with an EN dictionary
 
+  check_es:
+    name: Check ES translation
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout markdown
+        uses: actions/checkout@v4.2.0
+
+      - name: Spell check ES release
+        uses: rojopolis/spellcheck-github-actions@0.45.0
+        with:
+          config_path: .spellcheck-es.yaml
+          # checks the release-es directory with an ES dictionary
+
+      - name: Lint ES markdown
+        uses: DavidAnson/markdownlint-cli2-action@v19.0.0
+        with:
+          config: '.markdownlint.yaml'
+          globs: 'release-es/**/*.md'
+
   create_artifacts:
     name: Create artifacts
     runs-on: ubuntu-24.04
