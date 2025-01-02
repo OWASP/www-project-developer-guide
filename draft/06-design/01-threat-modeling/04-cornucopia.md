@@ -64,7 +64,7 @@ To provide context the Cornucopia Website App cards reference other projects:
 * OWASP Application Security Verification Standard ([ASVS][asvs])
 * OWASP Secure Coding Practices ([SCP][scp-v21]]) quick reference guide
 * OWASP [AppSensor][appsensor]
-* Mitre's Common Attack Pattern Enumeration and Classification ([CAPEC][capec])
+* MITRE's Common Attack Pattern Enumeration and Classification ([CAPEC][capec])
 * [SAFEcode][safecode]
 
 The SCP quick reference guide has now been incorporated as part of this [Developer Guide](../02-web-app-checklist/toc.md).
@@ -85,7 +85,7 @@ For context the Cornucopia Mobile App cards reference these other projects:
 
 * OWASP Mobile Application Security Verification Standard ([MASVS][masvs])
 * OWASP Mobile Application Security Testing Guide ([MASTG][mastg])
-* Mitre's Common Attack Pattern Enumeration and Classification ([CAPEC][capec])
+* MITRE's Common Attack Pattern Enumeration and Classification ([CAPEC][capec])
 * [SAFEcode][safecode]
 
 #### Ecommerce Website Edition

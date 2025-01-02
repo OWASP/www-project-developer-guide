@@ -39,7 +39,7 @@ to web applications and seeks to rank them in importance and severity.
 
 The list has changed over time, with some threat types becoming more of a problem to web applications
 and other threats becoming less of a risk as technologies change.
-The [latest version][top10] was issued in 2021 and each category is summarised below.
+The [latest version][top10] was issued in 2021 and each category is summarized below.
 
 Note that there are various 'OWASP Top Ten' projects, for example the 'OWASP Top 10 for Large Language Model Applications',
 so to avoid confusion the context should be noted when referring to these lists.
@@ -109,7 +109,7 @@ a common example of misconfiguration where default accounts and their passwords 
 These passwords and accounts are usually well-known and provide an easy way for malicious actors to compromise applications.
 
 Both the [OWASP Top 10 A05:2021][a05] and the linked [OWASP Cheat Sheets][a05cs] provide strategies to establish
-a concerted, repeatable application security configuration process to minimise misconfiguration.
+a concerted, repeatable application security configuration process to minimize misconfiguration.
 
 #### A06:2021 Vulnerable and Outdated Components
 
@@ -123,7 +123,7 @@ making it easy for vulnerable third party software dependencies to be exploited 
 Risk [A06 Vulnerable and Outdated Components][a06] underlines the importance of this activity,
 and recommends that fixes and upgrades to the underlying platform, frameworks, and dependencies
 are based on a risk assessment and done in a 'timely fashion'.
-Several tools can used to analyse dependencies and flag vulnerabilities, refer to the [Cheat Sheets][a06cs] for these.
+Several tools can used to analyze dependencies and flag vulnerabilities, refer to the [Cheat Sheets][a06cs] for these.
 
 #### A07:2021 Identification and Authentication Failures
 

@@ -16,7 +16,7 @@ permalink: /draft/implementation/dependencies/dependency_track/
 
 OWASP Dependency-Track is an intelligent platform for Component Analysis including Third Party Software.
 It allows organizations to identify and reduce risk in the [software supply chain][cschain]
-using its ability to analyse a Software Bill of Materials (SBOM).
+using its ability to analyze a Software Bill of Materials (SBOM).
 
 The [Dependency-Track][deptrack-project] is an OWASP Flagship project
 and can be installed using a docker-compose file from the Dependency-Track [website][deptrack].

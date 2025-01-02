@@ -64,7 +64,7 @@ or a single project such as the OWASP 'Threat Dragon' Builder/Tool project.
 
 Sub-sections that describe an individual project should follow the same structure:
 
-1. Introduction, summarising the project at a very high level:
+1. Introduction, summarizing the project at a very high level:
   _supply a couple of sentences on the project including its status as an OWASP project and where to find it_
 2. The 'What', explaining what the project is to a general level:
   _go into more detail about the project so that a developer can gain an overview of what this project can provide for them_
@@ -89,7 +89,7 @@ The pull requests have checks applied to them:
 
 1. Link checker for any broken links; if there is an imperative for a broken link then add it to `.lycheeignore`
 2. Markdown lint that ensures the markdown is consistent and valid
-3. Spell checker; new words that are not recognised can be added to `/.wordlist.txt`
+3. Spell checker; new words that are not recognized can be added to `/.wordlist.txt`
 
 if all these checks pass then both the PDF and ePub versions of the guide are provided as github artifacts.
 

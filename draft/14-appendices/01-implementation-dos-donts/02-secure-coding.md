@@ -21,25 +21,25 @@ Some of these are language specific and others have more general applicability.
   * User
     * Require authentication for all pages and resources, except those specifically intended to be public
     * Perform all authentication on server side. Send credentials only on encrypted channel (HTTPS)
-    * Use a centralised implementation for all authentication controls, including libraries that call external
+    * Use a centralized implementation for all authentication controls, including libraries that call external
         authentication services. Use security vetted libraries for federation (Okta / PING / etc).
         If using third party code for authentication, inspect the code carefully to ensure it is not affected
         by any malicious code
     * Segregate authentication logic from the resource being requested and use redirection to and from
-        the centralised authentication control
+        the centralized authentication control
     * Validate the authentication data only on completion of all data input,
         especially for sequential authentication implementations
     * Authentication failure responses should not indicate which part of the authentication data was incorrect.
         For example, instead of "Invalid username" or "Invalid password",
         just use "Invalid username and/or password" for both.
         Error responses must be truly identical in both display and source code
-    * Utilise authentication for connections to external systems that involve sensitive information or functions
+    * Utilize authentication for connections to external systems that involve sensitive information or functions
     * Authentication credentials for accessing services external to the application should be encrypted
         and  stored in a protected location on a trusted system (e.g., Secrets Manager).
         The source code is NOT a secure location.
     * Do not store passwords in code or in configuration files. Use Secrets Manager to store passwords
     * Use only HTTP POST requests to transmit authentication credentials
-    * Implement monitoring to identify attacks against multiple user accounts, utilising the same password.
+    * Implement monitoring to identify attacks against multiple user accounts, utilizing the same password.
         This attack pattern is used to bypass standard lockouts, when user IDs can be harvested or guessed
     * Re-authenticate users prior to performing critical operations
     * Use Multi-Factor Authentication for highly sensitive or high value transactional accounts
@@ -51,7 +51,7 @@ Some of these are language specific and others have more general applicability.
     * Restrict authentication cookies to HTTPS connections
     * If the application has any design to persist passwords in the database, hash and salt the password
         before storing in database. Compare hashes to validate password
-    * Authenticate the user before authorising access to hidden directories
+    * Authenticate the user before authorizing access to hidden directories
     * Ensure registration, credential recovery, and API pathways are hardened against account enumeration attacks
         by using the same messages for all outcomes.
   * Server
@@ -105,41 +105,41 @@ Some of these are language specific and others have more general applicability.
         may require more frequent changes. The time between resets must be administratively controlled
     * Disable "remember me" functionality for password fields
     * Avoid sending authentication information through E-mail, particularly for existing users.
-* Authorisation
+* Authorization
   * Access control
-    * Build authorisation on rules based access control.
+    * Build authorization on rules based access control.
         Persist the rules as a matrix (for example as a list of strings which is passed as a parameter to a method
         that is run when the user first access the page, based on which access is granted).
         Most frameworks today, support this kind of matrix.
     * Check if the user is authenticated before checking the access matrix.
         If the user is not authenticated, direct the user to the login page.
-        Alternatively, use a single site-wide component to check access authorisation.
-        This includes libraries that call external authorisation services
+        Alternatively, use a single site-wide component to check access authorization.
+        This includes libraries that call external authorization services
     * Ensure that the application has clearly defined the user types and the privileges for the users.
     * Ensure there is a least privilege stance in operation. Add users to groups and assign privileges to groups
     * Scan the code for development/debug backdoors before deploying the code to production.
-    * Re-Authenticate the user before authorising the user to perform business critical activities
-    * Re-Authenticate the user before authorising the user to admin section of the application
-    * Do not include authorisation in the query string. Direct the user to the page via a hyperlink on a page.
+    * Re-Authenticate the user before authorizing the user to perform business critical activities
+    * Re-Authenticate the user before authorizing the user to admin section of the application
+    * Do not include authorization in the query string. Direct the user to the page via a hyperlink on a page.
         Authenticate the user before granting access. For example if `admin.php` is the admin page for `www.example.com`
         do not create a query string like `www.example.com/admin.php`.
-        Instead include a hyperlink to `admin.php` on a page and control authorisation to the page
+        Instead include a hyperlink to `admin.php` on a page and control authorization to the page
     * Prevent forced browsing with role based access control matrix
     * Ensure Lookup IDs are not accessible even when guessed and lookup IDs cannot be tampered with
-    * Enforce authorisation controls on every request, including those made by server side scripts,
+    * Enforce authorization controls on every request, including those made by server side scripts,
         "includes" and requests from rich client-side technologies like AJAX and Flash
     * Server side implementation and presentation layer representations of access control rules must match
     * Implement access controls for POST, PUT and DELETE especially when building an API
-    * Use the "referer" header as a supplemental check only, it should never be the sole authorisation check,
+    * Use the "referer" header as a supplemental check only, it should never be the sole authorization check,
         as it is can be spoofed
-    * Ensure it is not possible to access sensitive URLs without proper authorisation.
+    * Ensure it is not possible to access sensitive URLs without proper authorization.
         Resources like images, videos should not be accessed directly by simply specifying the correct path
-    * Test all URLs on administrator pages to ensure that authorisation requirements are met.
+    * Test all URLs on administrator pages to ensure that authorization requirements are met.
         If verbs are sent cross domain, pin the OPTIONS request for non-GET verbs to the IP address of
         subsequent requests. This will be a first step toward mitigating DNS Rebinding and TOCTOU attacks.
   * Session management
     * Creation of session: Use the server or framework’s session management controls.
-        The application should only recognise these session identifiers as valid
+        The application should only recognize these session identifiers as valid
     * Creation of session: Session identifier creation must always be done on a trusted system (e.g., The server)
     * Creation of session: If a session was established before login,
         close that session and establish a new session after a successful login
@@ -157,7 +157,7 @@ Some of these are language specific and others have more general applicability.
         Session identifiers should only be located in the HTTP cookie header. For example,
         do not pass session identifiers as GET parameters
     * Session ID: Supplement standard session management for sensitive server-side operations, like account management,
-        by utilising per-session strong random tokens or parameters.
+        by utilizing per-session strong random tokens or parameters.
         This method can be used to prevent Cross Site Request Forgery attacks
   * JWT
     * Reject tokens set with ‘none’ algorithm when a private key was used to issue them (`alg: ""none""`).
@@ -181,11 +181,11 @@ Some of these are language specific and others have more general applicability.
     * Always check that the `aud` field of the JWT matches the expected value,
         usually the domain or the URL of your APIs. If possible, check the "sub" (client ID) - make sure that
         this is a known client. This may not be feasible however in a public API situation
-        (e.g., we trust all clients authorised by Google).
-    * Validate the issuer's URL (`iss`) of the token. It must match your authorisation server.
-    * If an authorisation server provides X509 certificates as part of its JWT,
+        (e.g., we trust all clients authorized by Google).
+    * Validate the issuer's URL (`iss`) of the token. It must match your authorization server.
+    * If an authorization server provides X509 certificates as part of its JWT,
         validate the public key using a regular PKIX mechanism
-    * Make sure that the keys are frequently refreshed/rotated by the authorisation server.
+    * Make sure that the keys are frequently refreshed/rotated by the authorization server.
     * Make sure that the algorithms you use are sanctioned by JWA ([RFC7518][rfc7518])
     * There is no built in mechanism to revoke a token manually, before it expires.
         One way to ensure that the token is force expired build a service that can be called on log out.
@@ -208,7 +208,7 @@ Some of these are language specific and others have more general applicability.
       These layers are usually in the form of a library or a package. Ensure to add
       these libraries  / dependencies / packages to the project file such that they are not missed out.
   * Use a security vetted library for input data validation. Try not to use hard coded allow-list of characters.
-      Validate all data from a centralised function / routine.
+      Validate all data from a centralized function / routine.
       In order to add a variable to a HTML context safely, use HTML entity encoding
       for that variable as you add it to a web template.
     * Validate HTTP headers. Dependencies that perform HTTP headers validation are available in technologies.
@@ -228,14 +228,14 @@ Some of these are language specific and others have more general applicability.
       * Check for “dot-dot-slash" `../` or `..\` path alterations characters.
           In cases where UTF-8 extended character set encoding is supported, address alternate representation like:
           `%c0%ae%c0%ae/`
-          (Utilise canonicalization to address double encoding or other forms of obfuscation attacks)
+          (Utilize canonicalization to address double encoding or other forms of obfuscation attacks)
     * Client-side storage (`localStorage`, `SessionStorage`, `IndexedDB`, WebSQL):
         If you use client-side storage for persistence of any variables,
         validate the date before consuming it in the application
     * Reject all input data that has failed validation.
     * If used, don’t involve user parameters in calculating the destination. This can usually be done.
         If destination parameters can’t be avoided, ensure that the supplied value is valid,
-        and authorised for the user.
+        and authorized for the user.
         It is recommended that any such destination parameters be a mapping value,
         rather than the actual URL or portion of the URL,
         and that server side code translate this mapping to the target URL.
@@ -252,13 +252,13 @@ Some of these are language specific and others have more general applicability.
       Use quotation marks like " or ' to surround your variables.
       Quoting makes it difficult to change the context a variable operates in, which helps prevent XSS
   * Conduct all encoding on a trusted system (e.g., The server)
-      Utilise a standard, tested routine for each type of outbound encoding
+      Utilize a standard, tested routine for each type of outbound encoding
       Contextually output encode all data returned to the client
       that originated outside the application's trust boundary.
       HTML entity encoding is one example, but does not work in all cases
       Encode all characters unless they are known to be safe for the intended interpreter
-      Contextually sanitise all output of untrusted data to queries for SQL, XML, and LDAP
-      Sanitise all output of untrusted data to operating system commands
+      Contextually sanitize all output of untrusted data to queries for SQL, XML, and LDAP
+      Sanitize all output of untrusted data to operating system commands
   * Output encoding is not always perfect. It will not always prevent XSS. Some contexts are not secure. These include:
       Callback functions
       Where URLs are handled in code such as this CSS `{ background-url : “javascript:alert(test)”; }`
@@ -284,8 +284,8 @@ Some of these are language specific and others have more general applicability.
     Be careful that this doesn't introduce an enumeration vulnerability where
     a user could cycle through IDs to find all possible redirect targets
     If user input can’t be avoided, ensure that the supplied value is valid, appropriate for the application,
-    and is authorised for the user.
-    Sanitise input by creating a list of trusted URLs (lists of hosts or a regex).
+    and is authorized for the user.
+    Sanitize input by creating a list of trusted URLs (lists of hosts or a regex).
     This should be based on an allow-list approach, rather than a block list.
     Force all redirects to first go through a page notifying users that they are going off of your site,
     with the destination clearly displayed, and have them click a link to confirm.
@@ -299,11 +299,11 @@ Some of these are language specific and others have more general applicability.
     Truncating may break sanitization routines for multi-parser applications."
 * Produce errors when handling integers or floating-point numbers that cannot be represented faithfully
 * Do not use `eval()` with JSON. This opens up for JSON injection attacks. Use JSON.parse() instead
-    Data from an untrusted source is not sanitised by the server and written directly to a JSON stream.
+    Data from an untrusted source is not sanitized by the server and written directly to a JSON stream.
     This is referred to as server-side JSON injection.
-    Data from an untrusted source is not sanitised and parsed directly using the JavaScript `eval` function.
+    Data from an untrusted source is not sanitized and parsed directly using the JavaScript `eval` function.
     This is referred to as client-side JSON injection.
-    To prevent server-side JSON injections, sanitise all data before serialising it to JSON
+    To prevent server-side JSON injections, sanitize all data before serializing it to JSON
     Escape characters like ":", "\", "@", "'”", "%", "?", "--", ">", "<", "&"
 
 #### JSON Vulnerability Protection

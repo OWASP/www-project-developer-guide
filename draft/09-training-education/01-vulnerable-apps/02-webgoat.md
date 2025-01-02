@@ -58,7 +58,7 @@ Reasons to use WebGoat:
 * Practical learning how to exploit web applications
 * Ready made target during talks and demonstration on penetration testing
 * Evaluating dynamic application security testing (DAST) tools; they should identify the known vulnerabilities
-* Practising penetration testing skills
+* Practicing penetration testing skills
 * and there will be more
 
 #### How to use WebGoat
@@ -108,7 +108,7 @@ and navigating to `http://localhost:3000/`.
 
 * Try the WebGoat lessons, they will certainly inform and educate
 * Exercise available attack tools against WebGoat
-* Use WebGoat in demonstrations of your favourite attack chains
+* Use WebGoat in demonstrations of your favorite attack chains
 * Use WebGoat material in presentations on vulnerabilities
 
 There are various ways of configuring WebGoat, see the [github repo][goatgithub] for more details.

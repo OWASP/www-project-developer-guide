@@ -27,7 +27,7 @@ permalink: /draft/verification/tools/offensive_web_testing_framework/
 ### 6.2.3 Offensive Web Testing Framework
 
 OWASP Offensive Web Testing Framework ([OWTF][owtf]) is a penetration test tool
-that provides pen-testers with a framework for organising and running security test suites.
+that provides pen-testers with a framework for organizing and running security test suites.
 It also helps align the pen-testing to various standards and security guides,
 allowing the testing to be more creative and comprehensive.
 
@@ -36,7 +36,7 @@ and can be downloaded from the project's github repository [release area][owtfdo
 
 #### What is OWTF?
 
-The [OWTF][owtf]tool is a penetration test framework used to organise and run suites of security and pen-testing tools.
+The [OWTF][owtf]tool is a penetration test framework used to organize and run suites of security and pen-testing tools.
 It is designed to be run on [Kali Linux][kali]; it can also be run on MacOS but with some modification of scripts and paths.
 
 OWTF is very much a penetration tester's tool; there is an expectation that the
