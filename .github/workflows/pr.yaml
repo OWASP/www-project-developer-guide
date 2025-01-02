@@ -54,8 +54,51 @@ jobs:
       - name: Checkout markdown
         uses: actions/checkout@v4.2.0
 
-      - name: spell_checker
+      - name: Spell check EN draft
         uses: rojopolis/spellcheck-github-actions@0.45.0
+        with:
+          config_path: .spellcheck-en.yaml
+          # checks the draft directory with an EN dictionary
+
+  check_es:
+    name: Check ES translation
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout markdown
+        uses: actions/checkout@v4.2.0
+
+      - name: Spell check ES release
+        uses: rojopolis/spellcheck-github-actions@0.45.0
+        with:
+          config_path: .spellcheck-es.yaml
+          # checks the release-es directory with an ES dictionary
+
+      - name: Lint ES markdown
+        uses: DavidAnson/markdownlint-cli2-action@v19.0.0
+        with:
+          config: '.markdownlint.yaml'
+          globs: 'release-es/**/*.md'
+
+  check_pt-br:
+    name: Check PT-BR translation
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout markdown
+        uses: actions/checkout@v4.2.0
+
+      - name: Spell check PT-BR release
+        # disabled for now, until translation has less English in it
+        if: false
+        uses: rojopolis/spellcheck-github-actions@0.45.0
+        with:
+          config_path: .spellcheck-pt-br.yaml
+          # checks the release-pt-br directory with a pt_BR dictionary
+
+      - name: Lint PT-BR markdown
+        uses: DavidAnson/markdownlint-cli2-action@v19.0.0
+        with:
+          config: '.markdownlint.yaml'
+          globs: 'release-pt-br/**/*.md'
 
   export_draft:
     name: Export epub and pdf (Draft)
@@ -100,4 +143,94 @@ jobs:
         uses: actions/upload-artifact@v4.5.0
         with:
           name: export-draft
+          path: publish
+
+  export_es:
+    name: Export epub and pdf (ES)
+    runs-on: ubuntu-24.04
+    needs: check_es
+    steps:
+      - name: Checkout markdown
+        uses: actions/checkout@v4.2.0
+
+      - name: Combine ES markdown
+        run: |
+          mkdir publish
+          mkdir assets/images/logos/publish
+          mkdir release/temp
+          tail --lines=+14 -q $(find release-es -name "*[0-9]*.md" | sort) > release/temp/release.markdown
+          sed -i "s/{: .image-right }/{height=180px}/g" release/temp/release.markdown
+          sed -i "s/{: .image-right-small }/{height=26px}/g" release/temp/release.markdown
+
+      - name: Export to pdf
+        uses: docker://pandoc/latex:3.1
+        with:
+          args: >-
+            --from=markdown
+            --output=publish/OWASP_Developer_Guide.ES.pdf
+            --resource-path=${{ env.RESOURCE_PATH }}
+            -fmarkdown-implicit_figures
+            release-es/title.pdf.yaml
+            release/temp/release.markdown
+
+      - name: Export to epub
+        uses: docker://pandoc/latex:3.1
+        with:
+          args: >-
+            --from=markdown
+            --output=publish/OWASP_Developer_Guide.ES.epub
+            --resource-path=${{ env.RESOURCE_PATH }}
+            -fmarkdown-implicit_figures
+            release-es/title.yaml
+            release/temp/release.markdown
+
+      - name: Save pdfs and epubs
+        uses: actions/upload-artifact@v4.5.0
+        with:
+          name: export-es
+          path: publish
+
+  export_pt-br:
+    name: Export epub and pdf (PT-BR)
+    runs-on: ubuntu-24.04
+    needs: check_pt-br
+    steps:
+      - name: Checkout markdown
+        uses: actions/checkout@v4.2.0
+
+      - name: Combine PT-BR markdown
+        run: |
+          mkdir publish
+          mkdir assets/images/logos/publish
+          mkdir release/temp
+          tail --lines=+14 -q $(find release-pt-br -name "*[0-9]*.md" | sort) > release/temp/release.markdown
+          sed -i "s/{: .image-right }/{height=180px}/g" release/temp/release.markdown
+          sed -i "s/{: .image-right-small }/{height=26px}/g" release/temp/release.markdown
+
+      - name: Export to pdf
+        uses: docker://pandoc/latex:3.1
+        with:
+          args: >-
+            --from=markdown
+            --output=publish/OWASP_Developer_Guide.PT-BR.pdf
+            --resource-path=${{ env.RESOURCE_PATH }}
+            -fmarkdown-implicit_figures
+            release-pt-br/title.pdf.yaml
+            release/temp/release.markdown
+
+      - name: Export to epub
+        uses: docker://pandoc/latex:3.1
+        with:
+          args: >-
+            --from=markdown
+            --output=publish/OWASP_Developer_Guide.PT-BR.epub
+            --resource-path=${{ env.RESOURCE_PATH }}
+            -fmarkdown-implicit_figures
+            release-pt-br/title.yaml
+            release/temp/release.markdown
+
+      - name: Save pdfs and epubs
+        uses: actions/upload-artifact@v4.5.0
+        with:
+          name: export-pt-br
           path: publish

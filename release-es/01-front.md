@@ -14,11 +14,8 @@ permalink:
 
 ## ![Guía del Desarrollador](../assets/images/dg_logo.png)
 
-### OWASP Guía del Desarrollador(Borrador)
+### OWASP Guía del Desarrollador
 
 #### Una Guía para desarrollar Aplicaciones Web y Servicios Web Seguros
-
-Esta versión borrador contiene las últimas contribuciones a la Guía del Desarrollador
-así que se espera cambios frecuentes en el contenido.
 
 \newpage

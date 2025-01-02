@@ -1,9 +1,9 @@
 ---
 lang: es-LA
-title: Developer Guide
+title: Guía del Desarrollador
 author: Open Worldwide Application Security Project (OWASP)
-version: Draft
-date: February 2023 onwards
+version: Español
+date: Después de febrero de 2023
 rights:  Creative Commons Attribution ShareAlike 4.0 International (CC BY-SA 4.0)
 geometry: "left=3cm,right=2.5cm,top=2cm,bottom=2cm"
 header-includes: |

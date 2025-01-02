@@ -12,8 +12,8 @@
 !.lintcheck.yaml
 !.lycheeignore
 !.markdownlint.yaml
-!.spellcheck.yaml
-!.wordlist.txt
+!.spellcheck*.yaml
+!.wordlist*.txt
 
 # allow jekyll build files
 !404.html

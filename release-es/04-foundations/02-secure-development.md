@@ -196,7 +196,7 @@ y proporcionan retroalimentación instantánea sobre las pruebas mientras se eje
 
 #### Recursos de OWASP
 
-* [Biblioteca CSRFGuard][csrfguard]
+* [Librería CSRFGuard][csrfguard]
 * [Análisis de Composición de Software (SCA) Dependency-Check][depcheck]
 * [Plataforma de Análisis Continuo de SBOM Dependency-Track][deptrack]
 * [API de Seguridad Empresarial][esapi-project] (ESAPI)
