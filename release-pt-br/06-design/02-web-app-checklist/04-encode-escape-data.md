@@ -1,63 +1,33 @@
 ---
 
-title: Encode and Escape Data Checklist
+title: Codifique e Escape Dados
 layout: col-document
 tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 26240
-permalink: /release-pt-br/design/web_app_checklist/encode_escape_data/
+permalink: /release-pt-br/design/lista_verificacao_web/codifique_escape_dados/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 4.2.4 Checklist: Encode and Escape Data
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
 
-Encoding and escaping of output data are defensive techniques meant to stop injection attacks
-on a target system or application which is receiving the output data.
+![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
-The target system may be another software component or it may be reflected back to the initial system,
-such as operating system commands,
-so encoding and escaping output data helps to provide defense in depth for the system as a whole.
+### 4.2.4 Codifique e Escape Dados
 
-Refer to proactive control [C3: Validate all Input & Handle Exceptions][control3] and its [cheatsheets][csproactive-c4]
-for more context from the OWASP Top 10 Proactive Controls project,
-and use the list below as suggestions for a checklist that has been tailored for the individual project.
-
-#### 1. Character encoding and canonicalization
-
-1. Apply output encoding just before the content is passed to the target system
-1. Conduct all output encoding on a trusted system
-1. Utilize a standard, tested routine for each type of outbound encoding
-1. Specify character sets, such as UTF-8, for all outputs
-1. Apply canonicalization to convert unicode data into a standard form
-1. Ensure the output encoding is safe for all target systems
-1. In particular sanitize all output used for operating system commands
-
-#### 2. Contextual output encoding
-
-Contextual output encoding of data is based on how it will be utilized by the target.
-The specific methods vary depending on the way the output data is used, such as HTML entity encoding.
-
-1. Contextually encode all data returned to the client from untrusted sources
-1. Contextually encode all output of untrusted data to queries for SQL, XML, and LDAP
-
-#### References
-
-* OWASP [Cheat Sheet: Injection Prevention][ipcs]
-* OWASP [Java Encoder Project][encoder]
-* OWASP [Top 10 Proactive Controls][proactive10]
+Não há tradução para esta página, consulte a [versão original em inglês][release060204].
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue060204] or [edit on GitHub][edit060204].
-
-[csproactive-c4]: https://cheatsheetseries.owasp.org/IndexProactiveControls.html#c4-encode-and-escape-data
-[control3]: https://top10proactive.owasp.org/the-top-10/c3-validate-input-and-handle-exceptions/
-[edit060204]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/02-web-app-checklist/04-encode-escape-data.md
-[encoder]: https://www.owasp.org/index.php/OWASP_Java_Encoder_Project
-[ipcs]: https://cheatsheetseries.owasp.org/cheatsheets/Injection_Prevention_Cheat_Sheet
-[issue060204]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/02-web-app-checklist/04-encode-escape-data
-[proactive10]: https://top10proactive.owasp.org/
+[release060204]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/02-web-app-checklist/04-encode-escape-data.md
