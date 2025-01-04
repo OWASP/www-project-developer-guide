@@ -2,9 +2,9 @@
 
 title: Mobile Application Security
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guia do Desenvolvedor do OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guia do Desenvolvedor do OWASP
 order: 25060
 permalink: /release-pt-br/requirements/mobile_application_security/
 

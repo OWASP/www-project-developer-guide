@@ -2,9 +2,9 @@
 
 title: Leverage Security Frameworks and Libraries Checklist
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guia do Desenvolvedor do OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guia do Desenvolvedor do OWASP
 order: 26220
 permalink: /release-pt-br/design/web_app_checklist/frameworks_libraries/
 

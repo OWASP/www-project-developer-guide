@@ -2,9 +2,9 @@
 
 title: Threat Dragon
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guia do Desenvolvedor do OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guia do Desenvolvedor do OWASP
 order: 26130
 permalink: /release-pt-br/design/threat_modeling/threat_dragon/
 

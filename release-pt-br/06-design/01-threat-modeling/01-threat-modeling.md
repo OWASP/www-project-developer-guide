@@ -2,9 +2,9 @@
 
 title: Threat Modeling in Practice
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guia do Desenvolvedor do OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guia do Desenvolvedor do OWASP
 order: 26110
 permalink: /release-pt-br/design/threat_modeling/practical_threat_modeling/
 

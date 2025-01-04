@@ -2,9 +2,9 @@
 
 title: Bug Logging Tool
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guia do Desenvolvedor do OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guia do Desenvolvedor do OWASP
 order: 33200
 permalink: /release-pt-br/security_gap_analysis/bug_logging_tool/
 

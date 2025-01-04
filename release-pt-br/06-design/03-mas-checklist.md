@@ -2,9 +2,9 @@
 
 title: Mobile Application Checklist
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guia do Desenvolvedor do OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guia do Desenvolvedor do OWASP
 order: 26400
 permalink: /release-pt-br/design/mas_checklist/
 

@@ -2,9 +2,9 @@
 
 title: Software Assurance Maturity Model
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guia do Desenvolvedor do OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guia do Desenvolvedor do OWASP
 order: 33110
 permalink: /release-pt-br/security_gap_analysis/guides/software_assurance_maturity_model/
 

@@ -2,9 +2,9 @@
 
 title: DAST
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guia do Desenvolvedor do OWASP
 contributors: Johan Sydseter, Jon Gadsden
-document: OWASP Developer Guide
+document: Guia do Desenvolvedor do OWASP
 order: 28210
 permalink: /release-pt-br/verification/tools/dast/
 

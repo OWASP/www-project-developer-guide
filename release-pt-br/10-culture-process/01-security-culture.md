@@ -2,9 +2,9 @@
 
 title: Security Culture
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guia do Desenvolvedor do OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guia do Desenvolvedor do OWASP
 order: 30010
 permalink: /release-pt-br/culture_building_and_process_maturing/security_culture/
 

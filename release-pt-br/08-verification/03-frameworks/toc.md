@@ -2,9 +2,9 @@
 
 title: Verification Frameworks
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guia do Desenvolvedor do OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guia do Desenvolvedor do OWASP
 order: 28300
 permalink: /release-pt-br/verification/frameworks/
 

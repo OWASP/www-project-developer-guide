@@ -2,9 +2,9 @@
 
 title: Handle all Errors and Exceptions Checklist
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guia do Desenvolvedor do OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guia do Desenvolvedor do OWASP
 order: 26300
 permalink: /release-pt-br/design/web_app_checklist/handle_errors_and_exceptions/
 

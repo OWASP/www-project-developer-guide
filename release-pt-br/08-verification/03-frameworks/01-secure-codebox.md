@@ -2,9 +2,9 @@
 
 title: secureCodeBox
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guia do Desenvolvedor do OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guia do Desenvolvedor do OWASP
 order: 28310
 permalink: /release-pt-br/verification/frameworks/secure_codebox/
 

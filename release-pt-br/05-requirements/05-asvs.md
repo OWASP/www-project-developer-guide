@@ -2,9 +2,9 @@
 
 title: Application Security Verification Standard
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guia do Desenvolvedor do OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guia do Desenvolvedor do OWASP
 order: 25050
 permalink: /release-pt-br/requirements/application_security_verification_standard/
 

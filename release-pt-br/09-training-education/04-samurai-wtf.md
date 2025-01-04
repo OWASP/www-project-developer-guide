@@ -2,9 +2,9 @@
 
 title: SamuraiWTF
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guia do Desenvolvedor do OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guia do Desenvolvedor do OWASP
 order: 29220
 permalink: /release-pt-br/training_education/samurai_wtf/
 

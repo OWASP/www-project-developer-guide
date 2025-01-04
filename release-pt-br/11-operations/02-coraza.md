@@ -2,9 +2,9 @@
 
 title: Coraza Web Application Firewall
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guia do Desenvolvedor do OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guia do Desenvolvedor do OWASP
 order: 31020
 permalink: /release-pt-br/operations/coraza_waf/
 

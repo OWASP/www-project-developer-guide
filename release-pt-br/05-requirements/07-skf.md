@@ -2,9 +2,9 @@
 
 title: Security Knowledge Framework
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guia do Desenvolvedor do OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guia do Desenvolvedor do OWASP
 order: 25070
 permalink: /release-pt-br/requirements/security_knowledge_framework/
 

@@ -2,9 +2,9 @@
 
 title: OWASP Secure Headers Project
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guia do Desenvolvedor do OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guia do Desenvolvedor do OWASP
 order: 27330
 permalink: /release-pt-br/implementation/secure_libraries/secure_headers/
 

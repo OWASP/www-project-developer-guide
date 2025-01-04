@@ -2,9 +2,9 @@
 
 title: Encode and Escape Data Checklist
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guia do Desenvolvedor do OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guia do Desenvolvedor do OWASP
 order: 26240
 permalink: /release-pt-br/design/web_app_checklist/encode_escape_data/
 

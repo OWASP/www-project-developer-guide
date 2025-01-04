@@ -2,9 +2,9 @@
 
 title: Security Champions Guide
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guia do Desenvolvedor do OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guia do Desenvolvedor do OWASP
 order: 30220
 permalink: /release-pt-br/culture_building_and_process_maturing/security_champions/security_champions_guide/
 

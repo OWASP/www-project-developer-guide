@@ -2,9 +2,9 @@
 
 title: Secure Coding
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guia do Desenvolvedor do OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guia do Desenvolvedor do OWASP
 order: 34120
 permalink: /release-pt-br/appendices/implementation_dos_donts/secure_coding/
 

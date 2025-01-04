@@ -2,9 +2,9 @@
 
 title: Open Source Software
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guia do Desenvolvedor do OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guia do Desenvolvedor do OWASP
 order: 34230
 permalink: /release-pt-br/appendices/verification_dos_donts/open_source_software/
 

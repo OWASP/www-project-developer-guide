@@ -2,9 +2,9 @@
 
 title:  Web Security Testing Guide
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guia do Desenvolvedor do OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guia do Desenvolvedor do OWASP
 order: 28110
 permalink: /release-pt-br/verification/guides/web_security_testing_guide/
 

@@ -2,9 +2,9 @@
 
 title: Enforce Access Controls Checklist
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guia do Desenvolvedor do OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guia do Desenvolvedor do OWASP
 order: 26270
 permalink: /release-pt-br/design/web_app_checklist/access_controls/
 

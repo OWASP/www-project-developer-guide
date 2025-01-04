@@ -2,9 +2,9 @@
 
 title: Top 10 Proactive Controls
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guia do Desenvolvedor do OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guia do Desenvolvedor do OWASP
 order: 27110
 permalink: /release-pt-br/implementation/documentation/proactive_controls/
 
