@@ -47,7 +47,7 @@ Sections:
 7.1.3 [PyGoat](01-vulnerable-apps/03-pygoat.md)  
 7.1.4 [Security Shepherd](01-vulnerable-apps/04-security-shepherd.md)  
 7.2 [Secure Coding Dojo](02-secure-coding-dojo.md)  
-7.3 [Security Knowledge Framework](03-skf.md)  
+7.3 [SKF (Framework de Conhecimento de Segurança)](03-skf.md)  
 7.4 [SamuraiWTF](04-samurai-wtf.md)  
 7.5 [OWASP Top 10 project](05-top-ten.md)  
 7.6 [Mobile Top 10](06-mobile-top-ten.md)  

@@ -14,23 +14,23 @@ permalink:
 
 ## Table of contents
 
-1 **[Introduction](#introduction)**  
+1 **[Introdução](#introduction)**  
 
-2 **[Foundations](#foundations)**  
-2.1 [Security fundamentals](#security-fundamentals)  
-2.2 [Secure development and integration](#secure-development-and-integration)  
-2.3 [Principles of security](#principles-of-security)  
-2.4 [Principles of cryptography](#principles-of-cryptography)  
+2 **[Fundamentos](#foundations)**  
+2.1 [Fundamentos de segurança](#security-fundamentals)  
+2.2 [Desenvolvimento e integração seguros](#secure-development-and-integration)  
+2.3 [Princípios de segurança](#principles-of-security)  
+2.4 [Princípios de criptografia](#principles-of-cryptography)  
 2.5 [OWASP Top 10](#owasp-top-ten)  
 
-3 **[Requirements](#requirements)**  
-3.1 [Requirements in practice](#requirements-in-practice)  
-3.2 [Risk profile](#risk-profile)  
+3 **[Requisitos](#requirements)**  
+3.1 [Requisitos em prática](#requirements-in-practice)  
+3.2 [Perfil de risco](#risk-profile)  
 3.3 [OpenCRE](#opencre)  
 3.4 [SecurityRAT](#security-rat)  
-3.5 [Application Security Verification Standard](#application-security-verification-standard)  
-3.6 [Mobile Application Security](#mobile-application-security)  
-3.7 [Security Knowledge Framework](#security-knowledge-framework)  
+3.5 [ASVS (Padrão de Verificação de Segurança de Aplicações)](#application-security-verification-standard)  
+3.6 [MAS (Segurança de Aplicativos Móveis](#mobile-application-security)  
+3.7 [SKF (Framework de Conhecimento de Segurança)](#security-knowledge-framework)  
 
 4 **[Design](#design)**  
 4.1 [Threat modeling](#threat-modeling)  
@@ -90,7 +90,7 @@ permalink:
 7.1.3 [PyGoat](#pygoat)  
 7.1.4 [Security Shepherd](#security-shepherd)  
 7.2 [Secure Coding Dojo](#secure-coding-dojo)  
-7.3 [Security Knowledge Framework](#security-knowledge-framework-training)  
+7.3 [SKF training](#security-knowledge-framework-training)  
 7.4 [SamuraiWTF](#samuraiwtf)  
 7.5 [OWASP Top 10 project](#owasp-top-ten-project)  
 7.6 [Mobile Top 10](#mobile-top-ten)  

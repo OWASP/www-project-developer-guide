@@ -20,23 +20,23 @@ permalink: /release-pt-br/
 
 ### Release version 4.1.4
 
-1 **[Introduction](03-introduction.md)**
+1 **[Introdução](03-introduction.md)**
 
-2 **[Foundations](04-foundations/toc.md)**  
-2.1 [Security fundamentals](04-foundations/01-security-fundamentals.md)  
-2.2 [Secure development and integration](04-foundations/02-secure-development.md)  
-2.3 [Principles of security](04-foundations/03-security-principles.md)  
-2.4 [Principles of cryptography](04-foundations/04-crypto-principles.md)  
+2 **[Fundamentos](04-foundations/toc.md)**  
+2.1 [Fundamentos de segurança](04-foundations/01-security-fundamentals.md)  
+2.2 [Desenvolvimento e integração seguros](04-foundations/02-secure-development.md)  
+2.3 [Princípios de segurança](04-foundations/03-security-principles.md)  
+2.4 [Princípios de criptografia](04-foundations/04-crypto-principles.md)  
 2.5 [OWASP Top 10](04-foundations/05-top-ten.md)  
 
-3 **[Requirements](05-requirements/toc.md)**  
-3.1 [Requirements in practice](05-requirements/01-requirements.md)  
-3.2 [Risk profile](05-requirements/02-risk.md)  
+3 **[Requisitos](05-requirements/toc.md)**  
+3.1 [Requisitos em prática](05-requirements/01-requirements.md)  
+3.2 [Perfil de risco](05-requirements/02-risk.md)  
 3.3 [OpenCRE](05-requirements/03-opencre.md)  
 3.4 [SecurityRAT](05-requirements/04-security-rat.md)  
-3.5 [Application Security Verification Standard](05-requirements/05-asvs.md)  
-3.6 [Mobile Application Security](05-requirements/06-mas.md)  
-3.7 [Security Knowledge Framework](05-requirements/07-skf.md)  
+3.5 [ASVS (Padrão de Verificação de Segurança de Aplicações)](05-requirements/05-asvs.md)  
+3.6 [MAS (Segurança de Aplicativos Móveis)](05-requirements/06-mas.md)  
+3.7 [SKF (Framework de Conhecimento de Segurança)](05-requirements/07-skf.md)  
 
 4 **[Design](06-design/toc.md)**  
 4.1 [Threat modeling](06-design/01-threat-modeling/toc.md)  
@@ -96,7 +96,7 @@ permalink: /release-pt-br/
 7.1.3 [PyGoat](09-training-education/01-vulnerable-apps/03-pygoat.md)  
 7.1.4 [Security Shepherd](09-training-education/01-vulnerable-apps/04-security-shepherd.md)  
 7.2 [Secure Coding Dojo](09-training-education/02-secure-coding-dojo.md)  
-7.3 [Security Knowledge Framework](09-training-education/03-skf.md)  
+7.3 [SKF training](09-training-education/03-skf.md)  
 7.4 [SamuraiWTF](09-training-education/04-samurai-wtf.md)  
 7.5 [OWASP Top 10 project](09-training-education/05-top-ten.md)  
 7.6 [Mobile Top 10](09-training-education/06-mobile-top-ten.md)  
