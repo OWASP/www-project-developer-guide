@@ -73,24 +73,24 @@ permalink: /release-pt-br/
 5.3.2 [CSRFGuard](07-implementation/03-secure-libraries/02-csrf-guard.md)  
 5.3.3 [OSHP (Projeto de Cabeçalhos Seguros OWASP)](07-implementation/03-secure-libraries/03-secure-headers.md)  
 
-6 **[Verification](08-verification/toc.md)**  
-6.1 [Guides](08-verification/01-guides/toc.md)  
-6.1.1 [Web Security Testing Guide](08-verification/01-guides/01-wstg.md)  
-6.1.2 [MAS Testing Guide](08-verification/01-guides/02-mastg.md)  
-6.1.3 [Application Security Verification Standard](08-verification/01-guides/03-asvs.md)  
-6.2 [Tools](08-verification/02-tools/toc.md)  
-6.2.1 [DAST tools](08-verification/02-tools/01-dast.md)  
+6 **[Verificação](08-verification/toc.md)**  
+6.1 [Guias](08-verification/01-guides/toc.md)  
+6.1.1 [WSTG (Guia de Testes de Segurança para Aplicações Web)](08-verification/01-guides/01-wstg.md)  
+6.1.2 [MASTG (Guia de Tests MAS)](08-verification/01-guides/02-mastg.md)  
+6.1.3 [ASVS (Padrão de Verificação de Segurança de Aplicações)](08-verification/01-guides/03-asvs.md)  
+6.2 [Ferramentas verificação](08-verification/02-tools/toc.md)  
+6.2.1 [Ferramentas DAST](08-verification/02-tools/01-dast.md)  
 6.2.2 [Amass](08-verification/02-tools/02-amass.md)  
-6.2.3 [Offensive Web Testing Framework](08-verification/02-tools/03-owtf.md)  
+6.2.3 [OWTF (Framework de Teste Ofensivo de Web)](08-verification/02-tools/03-owtf.md)  
 6.2.4 [Nettacker](08-verification/02-tools/04-nettacker.md)  
-6.2.5 [OWASP Secure Headers Project](08-verification/02-tools/05-secure-headers.md)  
-6.3 [Frameworks](08-verification/03-frameworks/toc.md)  
+6.2.5 [OSHP (Projeto de Cabeçalhos Seguros OWASP)](08-verification/02-tools/05-secure-headers.md)  
+6.3 [Verificacao frameworks](08-verification/03-frameworks/toc.md)  
 6.3.1 [secureCodeBox](08-verification/03-frameworks/01-secure-codebox.md)  
-6.4 [Vulnerability management](08-verification/04-vulnerability-management/toc.md)  
+6.4 [Gerenciamento de vulnerabilidades](08-verification/04-vulnerability-management/toc.md)  
 6.4.1 [DefectDojo](08-verification/04-vulnerability-management/01-defectdojo.md)  
 
-7 **[Training and Education](09-training-education/toc.md)**  
-7.1 [Vulnerable Applications](09-training-education/01-vulnerable-apps/toc.md)  
+7 **[Treinamento e Educação](09-training-education/toc.md)**  
+7.1 [Aplicações Vulneráveis](09-training-education/01-vulnerable-apps/toc.md)  
 7.1.1 [Juice Shop](09-training-education/01-vulnerable-apps/01-juice-shop.md)  
 7.1.2 [WebGoat](09-training-education/01-vulnerable-apps/02-webgoat.md)  
 7.1.3 [PyGoat](09-training-education/01-vulnerable-apps/03-pygoat.md)  

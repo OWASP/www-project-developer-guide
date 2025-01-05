@@ -1,12 +1,12 @@
 ---
 
-title: Verification Guides
+title: Guias
 layout: col-document
 tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 28100
-permalink: /release-pt-br/verification/guides/
+permalink: /release-pt-br/verificacao/guias/
 
 ---
 
@@ -22,32 +22,18 @@ permalink: /release-pt-br/verification/guides/
 }
 </style>
 
-![Developer guide logo](../../../assets/images/dg_logo_bbd.png "OWASP Developer Guide"){: .image-right }
+![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
-### 6.1 Verification guides
+### 6.1 Guias
 
-[Verification][sammv] is one of the business functions described by the [OWASP SAMM][samm].
-The verification activities are wide ranging, and will include:
-
-* Testing of security controls
-* Review of controls and security mechanisms
-* Evaluation and assessment of the security architecture
-* and others
-
-Given the breadth of techniques and knowledge required, guides are an important resource for verification activities.
+Não há tradução para esta página, consulte a [versão original em inglês][release0810].
 
 Sections:
 
-6.1.1 [Web Security Testing Guide](01-wstg.md)  
-6.1.2 [MAS Testing Guide](02-mastg.md)  
-6.1.3 [Application Security Verification Standard](03-asvs.md)  
+6.1.1 [WSTG (Guia de Testes de Segurança para Aplicações Web)](01-wstg.md)  
+6.1.2 [MASTG (Guia de Tests MAS)](02-mastg.md)  
+6.1.3 [ASVS (Padrão de Verificação de Segurança de Aplicações)](03-asvs.md)  
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0810] or [edit on GitHub][edit0810].
-
-[edit0810]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/01-guides/toc.md
-[issue0810]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2008-verification/01-guides/00-toc
-[samm]: https://owaspsamm.org/about/
-[sammv]: https://owaspsamm.org/model/verification/
+[release0810]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/01-guides/toc.md

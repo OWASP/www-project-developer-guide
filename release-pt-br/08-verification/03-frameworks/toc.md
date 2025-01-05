@@ -1,12 +1,12 @@
 ---
 
-title: Verification Frameworks
+title: Verificacao Frameworks
 layout: col-document
 tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 28300
-permalink: /release-pt-br/verification/frameworks/
+permalink: /release-pt-br/verificacao/frameworks/
 
 ---
 
@@ -22,20 +22,11 @@ permalink: /release-pt-br/verification/frameworks/
 }
 </style>
 
-![Developer guide logo](../../../assets/images/dg_logo_bbd.png "OWASP Developer Guide"){: .image-right }
+![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
-### 6.3 Verification frameworks
+### 6.3 Verificacao frameworks
 
-[Verification][sammv] is one of the business functions described by the [OWASP SAMM][samm]
-and both [Security Testing][sammvst] and [Requirements-driven Testing][sammvrt] are an important part of verification.
-
-Verification testing can benefit from using frameworks to support continuous and automated security testing.
-Use of a framework can provide:
-
-* automation of a security analysis pipeline
-* flexibility to run a series of tools in a pipeline
-* scalability for multiple security scanners
-* control interfaces
+Não há tradução para esta página, consulte a [versão original em inglês][release0830].
 
 Sections:
 
@@ -43,12 +34,4 @@ Sections:
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0830] or [edit on GitHub][edit0830].
-
-[edit0830]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/03-frameworks/toc.md
-[issue0830]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2008-verification/03-frameworks/00-toc
-[samm]: https://owaspsamm.org/about/
-[sammv]: https://owaspsamm.org/model/verification/
-[sammvrt]: https://owaspsamm.org/model/verification/requirements-driven-testing/
-[sammvst]: https://owaspsamm.org/model/verification/security-testing/
+[release0830]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/03-frameworks/toc.md

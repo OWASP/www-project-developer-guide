@@ -1,6 +1,6 @@
 ---
 
-title: Verification Guides
+title: Guias
 layout: col-document
 tags: Guia do Desenvolvedor do OWASP
 contributors:
@@ -11,30 +11,18 @@ order:
 
 {% include breadcrumb.html %}
 
-![Developer guide logo](../../../assets/images/dg_logo_bbd.png "OWASP Developer Guide"){height=180px}
+![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){height=180px}
 
-### 6.1 Verification guides
+### 6.1 Guias
 
-[Verification][sammv] is one of the business functions described by the [OWASP SAMM][samm].
-The verification activities are wide ranging, and will include:
-
-* Testing of security controls
-* Review of controls and security mechanisms
-* Evaluation and assessment of the security architecture
-* and others
-
-Given the breadth of techniques and knowledge required, guides are an important resource for verification activities.
+Não há tradução para esta página, consulte a [versão original em inglês][release0810].
 
 Sections:
 
-6.1.1 [Web Security Testing Guide](#web-security-testing-guide)  
-6.1.2 [MAS Testing Guide](#mas-testing-guide)  
-6.1.3 [Application Security Verification Standard](#application-security-verification-standard)  
+6.1.1 [WSTG (Guia de Testes de Segurança para Aplicações Web)](#web-security-testing-guide)  
+6.1.2 [MASTG (Guia de Tests MAS)](#mas-testing-guide)  
+6.1.3 [ASVS (Padrão de Verificação de Segurança de Aplicações)](#application-security-verification-standard)  
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing then [submit an issue][issue0810].
-
-[issue0810]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2008-verification/01-guides/00-toc
-[samm]: https://owaspsamm.org/about/
-[sammv]: https://owaspsamm.org/model/verification/
+[release0810]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/08-verification/01-guides/toc.md

@@ -42,7 +42,6 @@ Sections:
 5.3.1 [ESAPI (Biblioteca de API de Segurança Corporative)](03-secure-libraries/01-esapi.md)  
 5.3.2 [CSRFGuard](03-secure-libraries/02-csrf-guard.md)  
 5.3.3 [OSHP (Projeto de Cabeçalhos Seguros OWASP)](03-secure-libraries/03-secure-headers.md)  
-  
 
 ----
 

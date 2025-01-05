@@ -7,7 +7,7 @@ contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 29270
 
-permalink: /release-pt-br/training_education/snakes_and_ladders/
+permalink: /release-pt-br/treinamento_educacao/snakes_and_ladders/
 
 ---
 

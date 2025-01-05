@@ -5,7 +5,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 29260
-permalink: /release-pt-br/training_education/wrongsecrets/
+permalink: /release-pt-br/treinamento_educacao/wrongsecrets/
 ---
 
 {% include breadcrumb.html %}
