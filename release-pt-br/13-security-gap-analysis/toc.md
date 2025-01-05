@@ -33,7 +33,7 @@ Sections:
 11.1 [Guias](01-guides/toc.md)  
 11.1.1 [Software Assurance Maturity Model](01-guides/01-samm.md)  
 11.1.2 [ASVS (adrão de Verificação de Segurança de Aplicações)](01-guides/02-asvs.md)  
-11.1.3 [MAS (Segurança de Aplicativos Móveis)](01-guides/03-mas.md) 
+11.1.3 [MAS (Segurança de Aplicativos Móveis)](01-guides/03-mas.md)  
 11.2 [BLT (Ferramenta de registro de bugs)](02-blt.md)  
 
 ----

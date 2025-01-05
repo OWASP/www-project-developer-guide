@@ -1,35 +1,33 @@
 ---
 
-title: Memory Management
+title: Gerenciamento de memória
 layout: col-document
 tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 34180
-permalink: /release-pt-br/appendices/implementation_dos_donts/memory_management/
+permalink: /release-pt-br/appendices/implementacao//gerenciamento_memoria/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 12.1.8 Memory Management
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
 
-Here is a collection of Do's and Don'ts when it comes to memory management, gathered from practical experiences.
+![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
-* Check that the buffer is as large as specified
-* When using functions that accept a number of bytes to copy, such as `strncpy()`,
-    be aware that if the destination buffer size is equal to the source buffer size,
-    it may not NULL-terminate the string
-* Check buffer boundaries if calling the function in a loop and make sure there is no danger
-    of writing past the allocated space
-* Truncate all input strings to a reasonable length before passing them to the copy and concatenation functions
-* Specifically close resources, do not rely on garbage collection. (for example connection objects, file handles, etc.)
-* Properly free allocated memory upon the completion of functions and at all exit points.
+### 12.1.8 Gerenciamento de memória
+
+Não há tradução para esta página, consulte a [versão original em inglês][release140108].
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue140108] or [edit on GitHub][edit140108].
-
-[edit140108]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/14-appendices/01-implementation-dos-donts/08-memory-management.md
-[issue140108]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2014-appendices/01-implementation-dos-donts/08-memory-management
+[release140108]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/14-appendices/01-implementation-dos-donts/08-memory-management.md

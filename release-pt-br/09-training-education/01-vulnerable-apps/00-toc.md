@@ -27,4 +27,3 @@ Sections:
 ----
 
 [release0910]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/01-vulnerable-apps/toc.md
-

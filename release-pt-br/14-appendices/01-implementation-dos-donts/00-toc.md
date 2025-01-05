@@ -1,6 +1,6 @@
 ---
 
-title: Implementation Do's and Don'ts
+title: O que fazer e o que não fazer na Implementação
 layout: col-document
 tags: Guia do Desenvolvedor do OWASP
 contributors:
@@ -11,29 +11,23 @@ order:
 
 {% include breadcrumb.html %}
 
-![Developer guide logo](../../../assets/images/dg_logo_bbd.png "OWASP Developer Guide"){height=180px}
+![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento")
 
-### 12.1 Implementation Do's and Don'ts
+### 12.1 O que fazer e o que não fazer na Implementação
 
-Implementation demands technical knowledge, skill and experience.
-There is no substitute for experience, but learning from past mistakes and the experience of others can go a long way.
-This section of the Developer Guide is a collection of Do's and Don'ts,
-some of which may be directly relevant to any given project and some of which will be less so.
-It is worth considering all of these Do's and Don'ts and picking out the ones that will be of most use.
+Não há tradução para esta página, consulte a [versão original em inglês][release0740].
 
 Sections:
 
-12.1.1 [Container security](#container-security)  
-12.1.2 [Secure coding](#secure-coding)  
-12.1.3 [Cryptographic practices](#cryptographic-practices)  
-12.1.4 [Application spoofing](#application-spoofing)  
-12.1.5 [Content Security Policy (CSP)](#content-security-policy)  
-12.1.6 [Exception and error handling](#exception-and-error-handling)  
-12.1.7 [File management](#file-management)  
-12.1.8 [Memory management](#memory-management)  
+12.1.1 [Segurança de containers](#container-security)  
+12.1.2 [Codificação segura](#secure-coding)  
+12.1.3 [Práticas de criptografia](#cryptographic-practices)  
+12.1.4 [Spoofing de Applicação](#application-spoofing)  
+12.1.5 [Política de Segurança de Conteúdo (CSP)](#content-security-policy)  
+12.1.6 [Tratamento de erros e exceções](#exception-and-error-handling)  
+12.1.7 [Gerenciamento de arquivos](#file-management)  
+12.1.8 [Gerenciamento de memória](#memory-management)  
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing then [submit an issue][issue0740].
-
-[issue0740]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2014-appendices/01-implementation-dos-donts/00-toc
+[release0740]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/14-appendices/01-implementation-dos-donts/toc.md

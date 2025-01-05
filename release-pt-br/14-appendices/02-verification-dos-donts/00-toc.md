@@ -1,6 +1,6 @@
 ---
 
-title: Verification Do's and Don'ts
+title: O que fazer e o que não fazer na Verificação
 layout: col-document
 tags: Guia do Desenvolvedor do OWASP
 contributors:
@@ -11,25 +11,18 @@ order:
 
 {% include breadcrumb.html %}
 
-![Developer guide logo](../../../assets/images/dg_logo_bbd.png "OWASP Developer Guide"){height=180px}
+![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){height=180px}
 
-### 12.2 Verification Do's and Don'ts
+### 12.2 O que fazer e o que não fazer na Verificação
 
-[Verification][sammv] is one of the business functions described by the [OWASP SAMM][samm].
-
-Verification takes skill and knowledge, so it is important to build on the existing experience
-contained in these Do's and Dont's.
+Não há tradução para esta página, consulte a [versão original em inglês][release1402].
 
 Sections:
 
-12.2.1 [Secure environment](#secure-environment)  
-12.2.2 [System hardening](#system-hardening)  
-12.2.3 [Open Source software](#open-source-software)  
+12.2.1 [Ambiente seguro](#secure-environment)  
+12.2.2 [Hardening de sistemas](#system-hardening)  
+12.2.3 [Software de Código Aberto](#open-source-software)  
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing then [submit an issue][issue1402].
-
-[issue1402]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2014-appendices/02-verification-dos-donts/00-toc
-[samm]: https://owaspsamm.org/about/
-[sammv]: https://owaspsamm.org/model/verification/
+[release1402]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/14-appendices/02-verification-dos-donts/toc.md
