@@ -30,7 +30,7 @@ permalink: /release-pt-br/appendices/
 12.1.1 [Segurança de containers](01-implementation-dos-donts/01-container-security.md)  
 12.1.2 [Codificação segura](01-implementation-dos-donts/02-secure-coding.md)  
 12.1.3 [Práticas de criptografia](01-implementation-dos-donts/03-cryptographic-practices.md)  
-12.1.4 [Spoofing de Applicação](01-implementation-dos-donts/04-application-spoofing.md)  
+12.1.4 [Spoofing de Aplicação](01-implementation-dos-donts/04-application-spoofing.md)  
 12.1.5 [Política de Segurança de Conteúdo (CSP)](01-implementation-dos-donts/05-content-security-policy.md)  
 12.1.6 [Tratamento de erros e exceções](01-implementation-dos-donts/06-exception-error-handling.md)  
 12.1.7 [Gerenciamento de arquivos](01-implementation-dos-donts/07-file-management.md)  

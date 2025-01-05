@@ -20,7 +20,7 @@ Não há tradução para esta página, consulte a [versão original em inglês][
 Sections:
 
 11.1.1 [SAMM (Modelo de Maturidade de Software Assurance)](#software-assurance-maturity-model)  
-11.1.2 [ASVS (adrão de Verificação de Segurança de Aplicações)](#application-security-verification-standard)  
+11.1.2 [ASVS (Padrão de Verificação de Segurança de Aplicações)](#application-security-verification-standard)  
 11.1.3 [MAS (Segurança de Aplicativos Móveis)](#mobile-application-security)  
 
 ----

@@ -33,7 +33,7 @@ Sections:
 12.1.1 [Segurança de containers](01-container-security.md)  
 12.1.2 [Codificação segura](02-secure-coding.md)  
 12.1.3 [Práticas de criptografia](03-cryptographic-practices.md)  
-12.1.4 [Spoofing de Applicação](04-application-spoofing.md)  
+12.1.4 [Spoofing de Aplicação](04-application-spoofing.md)  
 12.1.5 [Política de Segurança de Conteúdo (CSP)](05-content-security-policy.md)  
 12.1.6 [Tratamento de erros e exceções](06-exception-error-handling.md)  
 12.1.7 [Gerenciamento de arquivos](07-file-management.md)  

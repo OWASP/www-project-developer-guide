@@ -125,7 +125,7 @@ permalink: /release-pt-br/
 11 **[Security gap analysis](13-security-gap-analysis/01-guides/toc.md)**  
 11.1 [Guias](13-security-gap-analysis/01-guides/toc.md)  
 11.1.1 [Software Assurance Maturity Model](13-security-gap-analysis/01-guides/01-samm.md)  
-11.1.2 [ASVS (adrão de Verificação de Segurança de Aplicações)](13-security-gap-analysis/01-guides/02-asvs.md)  
+11.1.2 [ASVS (Padrão de Verificação de Segurança de Aplicações)](13-security-gap-analysis/01-guides/02-asvs.md)  
 11.1.3 [MAS (Segurança de Aplicativos Móveis)](13-security-gap-analysis/01-guides/03-mas.md)  
 11.2 [BLT (Ferramenta de registro de bugs)](13-security-gap-analysis/02-blt.md)  
 
@@ -134,7 +134,7 @@ permalink: /release-pt-br/
 12.1.1 [Segurança de containers](14-appendices/01-implementation-dos-donts/01-container-security.md)  
 12.1.2 [Codificação segura](14-appendices/01-implementation-dos-donts/02-secure-coding.md)  
 12.1.3 [Práticas de criptografia](14-appendices/01-implementation-dos-donts/03-cryptographic-practices.md)  
-12.1.4 [Spoofing de Applicação](14-appendices/01-implementation-dos-donts/04-application-spoofing.md)  
+12.1.4 [Spoofing de Aplicação](14-appendices/01-implementation-dos-donts/04-application-spoofing.md)  
 12.1.5 [Política de Segurança de Conteúdo (CSP)](14-appendices/01-implementation-dos-donts/05-content-security-policy.md)  
 12.1.6 [Tratamento de erros e exceções](14-appendices/01-implementation-dos-donts/06-exception-error-handling.md)  
 12.1.7 [Gerenciamento de arquivos](14-appendices/01-implementation-dos-donts/07-file-management.md)  

@@ -22,7 +22,7 @@ Sections:
 12.1.1 [Segurança de containers](#container-security)  
 12.1.2 [Codificação segura](#secure-coding)  
 12.1.3 [Práticas de criptografia](#cryptographic-practices)  
-12.1.4 [Spoofing de Applicação](#application-spoofing)  
+12.1.4 [Spoofing de Aplicação](#application-spoofing)  
 12.1.5 [Política de Segurança de Conteúdo (CSP)](#content-security-policy)  
 12.1.6 [Tratamento de erros e exceções](#exception-and-error-handling)  
 12.1.7 [Gerenciamento de arquivos](#file-management)  

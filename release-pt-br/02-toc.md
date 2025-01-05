@@ -119,7 +119,7 @@ permalink:
 11 **[Análise de lacunas de segurança](#security-gap-analysis)**  
 11.1 [Guias](#security-gap-analysis-guides)  
 11.1.1 [SAMM (Modelo de Maturidade de Software Assurance)](#software-assurance-maturity-model)  
-11.1.2 [ASVS (adrão de Verificação de Segurança de Aplicações)](#application-security-verification-standard)  
+11.1.2 [ASVS (Padrão de Verificação de Segurança de Aplicações)](#application-security-verification-standard)  
 11.1.3 [MAS (Segurança de Aplicativos Móveis)](#mobile-application-security)  
 11.2 [BLT (Ferramenta de registro de bugs)](#bug-logging-tool)  
 
@@ -128,7 +128,7 @@ permalink:
 12.1.1 [Segurança de containers](#container-security)  
 12.1.2 [Codificação segura](#secure-coding)  
 12.1.3 [Práticas de criptografia](#cryptographic-practices)  
-12.1.4 [Spoofing de Applicação](#application-spoofing)  
+12.1.4 [Spoofing de Aplicação](#application-spoofing)  
 12.1.5 [Política de Segurança de Conteúdo (CSP)](#content-security-policy)  
 12.1.6 [Tratamento de erros e exceções](#exception-and-error-handling)  
 12.1.7 [Gerenciamento de arquivos](#file-management)  
