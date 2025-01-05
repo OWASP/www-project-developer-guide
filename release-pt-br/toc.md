@@ -98,36 +98,36 @@ permalink: /release-pt-br/
 7.2 [Secure Coding Dojo](09-training-education/02-secure-coding-dojo.md)  
 7.3 [SKF training](09-training-education/03-skf.md)  
 7.4 [SamuraiWTF](09-training-education/04-samurai-wtf.md)  
-7.5 [OWASP Top 10 project](09-training-education/05-top-ten.md)  
+7.5 [Projeto OWASP Top 10](09-training-education/05-top-ten.md)  
 7.6 [Mobile Top 10](09-training-education/06-mobile-top-ten.md)  
 7.7 [API Top 10](09-training-education/07-api-top-ten.md)  
 7.8 [WrongSecrets](09-training-education/08-wrongsecrets.md)  
 7.9 [OWASP Snakes and Ladders](09-training-education/09-snakes-ladders.md)  
 
-8 **[Culture building and Process maturing](10-culture-process/toc.md)**  
-8.1 [Security Culture](10-culture-process/01-security-culture.md)  
-8.2 [Security Champions](10-culture-process/02-security-champions/toc.md)  
-8.2.1 [Security champions program](10-culture-process/02-security-champions/01-security-champions-program.md)  
-8.2.2 [Security Champions Guide](10-culture-process/02-security-champions/02-security-champions-guide.md)  
+8 **[Construção de cultura e Amadurecimento de processos](10-culture-process/toc.md)**  
+8.1 [Cultura de Segurança](10-culture-process/01-security-culture.md)  
+8.2 [Campeões de Segurança](10-culture-process/02-security-champions/toc.md)  
+8.2.1 [Programa de Campeões de Segurança](10-culture-process/02-security-champions/01-security-champions-program.md)  
+8.2.2 [Guia de Campeões de Segurança](10-culture-process/02-security-champions/02-security-champions-guide.md)  
 8.2.3 [Security Champions Playbook](10-culture-process/02-security-champions/03-security-champions-playbook.md)  
-8.3 [Software Assurance Maturity Model](10-culture-process/03-samm.md)  
-8.4 [Application Security Verification Standard](10-culture-process/04-asvs.md)  
-8.5 [Mobile Application Security](10-culture-process/05-mas.md)  
+8.3 [SAMM (Modelo de Maturidade de Software Assurance)](10-culture-process/03-samm.md)  
+8.4 [ASVS (Padrão de Verificação de Segurança de Aplicações)](10-culture-process/04-asvs.md)  
+8.5 [MAS (Segurança de Aplicativos Móveis)](10-culture-process/05-mas.md)  
 
-9 **[Operations](11-operations/toc.md)**  
-9.1 [DevSecOps Guideline](11-operations/01-devsecops.md)  
+9 **[Operações](11-operations/toc.md)**  
+9.1 [Diretriz de DevSecOps](11-operations/01-devsecops.md)  
 9.2 [Coraza Web Application Firewall](11-operations/02-coraza.md)  
 9.3 [ModSecurity Web Application Firewall](11-operations/03-modsecurity.md)  
 9.4 [OWASP CRS](11-operations/04-crs.md)  
 
-10 **[Metrics](12-metrics/toc.md)**  
+10 **[Métricas](12-metrics/toc.md)**  
 
 11 **[Security gap analysis](13-security-gap-analysis/01-guides/toc.md)**  
-11.1 [Guides](13-security-gap-analysis/01-guides/toc.md)  
+11.1 [Guias](13-security-gap-analysis/01-guides/toc.md)  
 11.1.1 [Software Assurance Maturity Model](13-security-gap-analysis/01-guides/01-samm.md)  
-11.1.2 [Application Security Verification Standard](13-security-gap-analysis/01-guides/02-asvs.md)  
-11.1.3 [Mobile Application Security](13-security-gap-analysis/01-guides/03-mas.md)  
-11.2 [Bug Logging Tool](13-security-gap-analysis/02-blt.md)  
+11.1.2 [ASVS (adrão de Verificação de Segurança de Aplicações)](13-security-gap-analysis/01-guides/02-asvs.md)  
+11.1.3 [MAS (Segurança de Aplicativos Móveis)](13-security-gap-analysis/01-guides/03-mas.md)  
+11.2 [BLT (Ferramenta de registro de bugs)](13-security-gap-analysis/02-blt.md)  
 
 12 **[Appendices](14-appendices/toc.md)**  
 12.1 [Implementation Do's and Don'ts](14-appendices/01-implementation-dos-donts/toc.md)  

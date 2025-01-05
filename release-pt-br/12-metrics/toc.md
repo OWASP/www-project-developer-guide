@@ -1,12 +1,12 @@
 ---
 
-title: Metrics
+title: Métricas
 layout: col-document
 tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 32000
-permalink: /release-pt-br/metrics/
+permalink: /release-pt-br/metricas/
 
 ---
 
@@ -22,53 +22,14 @@ permalink: /release-pt-br/metrics/
 }
 </style>
 
-![Developer Guide](../../assets/images/dg_alt.png "OWASP Developer Guide"){: .image-right }
+![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
-## 10. Metrics
+## 10. Métricas
 
-Metrics are important in an organization for various reasons, and in software security they can be used to:
-
-* measure the effectiveness of security controls
-* determine security posture
-* provide justification for security programs
-* and others
-
-At present the OWASP [Integration Standards project Application Wayfinder][intstand] project
-does not identify any OWASP projects that gather or process metrics; this may change in the future.
-
-### Strategy and Metrics
-
-The software security program is foundational to the strategic planning an organizations security posture.
-Metrics keep track of the security activities within the plan and provide the information for gap analysis.
-
-The [Software Assurance Maturity Model][samm] (SAMM) provides descriptions and definitions
-for the [Strategy and Metrics][sammgsm] business practices within the [Governance][sammg] business function.
-It provides two streams for achieving organizational maturity:
-
-* [Create and Promote][sammgsma]
-  which concerns the risks identified within an organization and what level of risk is acceptable
-* [Measure and Improve][sammgsmb] which describes monitoring the security strategy through metrics
-
-The categories of metrics suggested by SAMM are :
-
-* Effort metrics: the effort spent on security
-* Result metrics: the results of security efforts
-* Environment metrics: the environment where security efforts take place
-
-There are other metrics, sometimes specific to an individual organization, that can also be collected and acted on.
+Não há tradução para esta página, consulte a [versão original em inglês][release1200].
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue1200] or [edit on GitHub][edit1200].
-
-[edit1200]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/12-metrics/toc.md
-[issue1200]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2012-metrics/00-toc
-[samm]: https://owaspsamm.org/about/
-[sammg]: https://owaspsamm.org/model/governance/
-[sammgsm]: https://owaspsamm.org/model/governance/strategy-and-metrics/
-[sammgsma]: https://owaspsamm.org/model/governance/strategy-and-metrics/stream-a/
-[sammgsmb]: https://owaspsamm.org/model/governance/strategy-and-metrics/stream-b/
-[intstand]: https://owasp.org/www-project-integration-standards/
+[release1200]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/12-metrics/toc.md
 
 Sections:

@@ -92,36 +92,36 @@ permalink:
 7.2 [Secure Coding Dojo](#secure-coding-dojo)  
 7.3 [SKF training](#security-knowledge-framework-training)  
 7.4 [SamuraiWTF](#samuraiwtf)  
-7.5 [OWASP Top 10 project](#owasp-top-ten-project)  
+7.5 [Projeto OWASP Top 10](#owasp-top-ten-project)  
 7.6 [Mobile Top 10](#mobile-top-ten)  
 7.7 [API Top 10](#api-top-ten)  
 7.8 [WrongSecrets](#wrongsecrets)  
 7.9 [OWASP Snakes and Ladders](#owasp-snakes-and-ladders)  
 
-8 **[Culture building and Process maturing](#culture-building-and-process-maturing)**  
-8.1 [Security Culture](#security-culture)  
-8.2 [Security Champions](#security-champions)  
-8.2.1 [Security champions program](#security-champions-program)  
-8.2.2 [Security Champions Guide](#security-champions-guide)  
+8 **[Construção de cultura e Amadurecimento de processos](#culture-building-and-process-maturing)**  
+8.1 [Cultura de Segurança](#security-culture)  
+8.2 [Campeões de Segurança](#security-champions)  
+8.2.1 [Programa de Campeões de Segurança](#security-champions-program)  
+8.2.2 [Guia de Campeões de Segurança](#security-champions-guide)  
 8.2.3 [Security Champions Playbook](#security-champions-playbook)  
-8.3 [Software Assurance Maturity Model](#software-assurance-maturity-model)  
-8.4 [Application Security Verification Standard](#application-security-verification-standard)  
-8.5 [Mobile Application Security](#mobile-application-security)  
+8.3 [SAMM (Modelo de Maturidade de Software Assurance)](#software-assurance-maturity-model)  
+8.4 [ASVS (Padrão de Verificação de Segurança de Aplicações)](#application-security-verification-standard)  
+8.5 [MAS (Segurança de Aplicativos Móveis)](#mobile-application-security)  
 
-9 **[Operations](#operations)**  
-9.1 [DevSecOps Guideline](#devsecops-guideline)  
+9 **[Operações](#operations)**  
+9.1 [Diretriz de DevSecOps](#devsecops-guideline)  
 9.2 [Coraza Web Application Firewall](#coraza-web-application-firewall)  
 9.3 [ModSecurity Web Application Firewall](#modsecurity-web-application-firewall)  
 9.4 [OWASP CRS](#owasp-crs)  
 
-10 **[Metrics](#metrics)**  
+10 **[Métricas](#metricas)**  
 
-11 **[Security gap analysis](#security-gap-analysis)**  
-11.1 [Guides](#security-gap-analysis-guides)  
-11.1.1 [Software Assurance Maturity Model](#software-assurance-maturity-model)  
-11.1.2 [Application Security Verification Standard](#application-security-verification-standard)  
-11.1.3 [Mobile Application Security](#mobile-application-security)  
-11.2 [Bug Logging Tool](#bug-logging-tool)  
+11 **[Análise de lacunas de segurança](#security-gap-analysis)**  
+11.1 [Guias](#security-gap-analysis-guides)  
+11.1.1 [SAMM (Modelo de Maturidade de Software Assurance)](#software-assurance-maturity-model)  
+11.1.2 [ASVS (adrão de Verificação de Segurança de Aplicações)](#application-security-verification-standard)  
+11.1.3 [MAS (Segurança de Aplicativos Móveis)](#mobile-application-security)  
+11.2 [BLT (Ferramenta de registro de bugs)](#bug-logging-tool)  
 
 12 **[Appendices](#appendices)**  
 12.1 [Implementation Do's and Don'ts](#implementation-dos-and-donts)  
