@@ -3,7 +3,7 @@
 title: Security Fundamentals
 layout: col-document
 tags: OWASP Developer Guide
-contributors:
+contributors: Amauri Bizerra
 document: OWASP Developer Guide
 order: 24010
 permalink: /release-pt-br/foundations/security_fundamentals/
@@ -22,142 +22,143 @@ permalink: /release-pt-br/foundations/security_fundamentals/
 }
 </style>
 
-### 2.1 Security fundamentals
+### 2.1 Fundamentos de segurança
 
-The fundamental principles of application security rely on the security concepts referenced in this developer guide.
-This section aims to provide an introduction to fundamental principles that any development team must be familiar with.
+Os princípios fundamentais da segurança de aplicativos baseiam-se nos conceitos de segurança mencionados neste guia do desenvolvedor.
+Esta seção tem como objetivo fornecer uma introdução aos princípios fundamentais com os quais qualquer equipe de desenvolvimento deve estar familiarizada.
 
-#### Software Assurance Maturity Model
+#### Modelo de Maturidade de Software Assurance
 
 ![SAMM logo](../../../assets/images/logos/samm.png "OWASP SAMM"){: .image-right-small }
 
-The Software Assurance Maturity Model ([SAMM][samm]) provides context for the scope of software security
-and the foundations of good security practice:
+O Modelo de Maturidade de Software Assurance ([SAMM][samm]) fornece contexto para o escopo da segurança de software
+e os fundamentos das boas práticas de segurança:
 
-* [Governance][sammg]
+* [Governança][sammg]
 * [Design][sammd]
-* [Implementation][sammi]
-* [Verification][sammv]
-* [Operations][sammo]
+* [Implementação][sammi]
+* [Verificação][sammv]
+* [Operações][sammo]
 
-The SAMM model describes these foundations of software security as Business Functions,
-which are further divided into Business Practices.
-The OWASP Software Assurance Maturity Model ([SAMM][samm]) is used throughout this Developer Guide;
-most of the sections in the Developer Guide reference at least one of the Business Functions or Practices from SAMM.
+O modelo SAMM descreve esses fundamentos de segurança de software como Funções de Negócio,
+que são subdivididos em Práticas de Negócio.
+O Modelo de Maturidade de Software Assurance OWASP ([SAMM][samm]) é usado ao longo deste Guia do Desenvolvedor;
+a maioria das seções do Guia do desenvolvedor faz referência a pelo menos uma das funções ou práticas de negócios do SAMM.
 
-#### CIA triad
+#### Tríade CID
 
-Security is simply about controlling who can interact with your information,
-what they can do with it, and when they can interact with it.
-These characteristics of security can be described using the CIA triad.
+Segurança é simplesmente controlar quem pode interagir com sua informação,
+o que eles podem fazer com ela e quando podem interagir com ela.
+Estas características de segurança podem ser descritas utilizando a tríade CID.
 
-CIA stands for Confidentiality, Integrity and Availability,
-and it is usually depicted as a triangle representing the strong bonds between its three tenets.
-This triad is considered the pillars of application security,
-often Confidentiality, Integrity or Availability are used as a properties of data or processes within a given system.
-The CIA triad can be extended with the AAA triad: Authorization, Authentication and Auditing.
+CID significa Confidencialidade, Integridade e Disponibilidade,
+e geralmente é retratada como um triângulo que representa os fortes laços entre seus três princípios.
+Esta tríade é considerada os pilares de segurança de aplicações,
+frequentemente Confidencialidade, Integridade ou Disponibilidade são usadas como propriedades de dados ou processos dentro de um determinado sistema.
+A tríade CID pode ser ampliada com a tríade AAA: Autorização, Autenticação e Auditoria.
 
-#### Confidentiality
+#### Confidencialidade
 
-Confidentiality is the protection of data against unauthorized disclosure;
-it is about ensuring that only those with the correct authorization can access the data
-and applies to both data at rest and to data in transit.
-Confidentiality is also related to the broader concept of data privacy.
+Confidencialidade é a proteção dos dados contra a divulgação não autorizada;
+trata-se de garantir que apenas aqueles com a autorização correta possam acessar os dados
+e se aplica tanto aos dados em repouso quanto aos dados em trânsito.
+Confidencialidade também está relacionada ao conceito mais amplo de privacidade de dados.
 
-#### Integrity
+#### Integridade
 
-Integrity is about protecting data against unauthorized modification, or assuring data trustworthiness.
-The concept contains the notion of data integrity (data has not been changed accidentally or deliberately)
-and the notion of source integrity (data came from or was changed by a legitimate source).
+Integridade refere-se à proteção os dados contra modificações não autorizadas ou garantir a confiabilidade dos dados.
+O conceito contém a noção de integridade de dados (os dados não foram alterados acidental ou deliberadamente)
+e a noção de integridade da fonte (os dados vieram ou foram alterados por uma fonte legítima).
 
-#### Availability
+#### Disponibilidade
 
-Availability is about ensuring the presence of information or resources.
-This concept relies not just on the availability of the data itself, for example by using replication of data,
-but also on the protection of the services that provide access to the data, for example by using load balancing.
+Disponibilidade refere-se à garantia da presença de informação ou recursos.
+Este conceito não se baseia apenas na disponibilidade dos dados em si, por exemplo, através da utilização da replicação de dados,
+mas também na proteção dos serviços que fornecem acesso aos dados, por exemplo, através da utilização de balanceamento de carga.
 
-#### AAA triad
+#### Tríade AAA
 
-The CIA triad is often extended with Authentication, Authorization and Auditing as these are closely linked to CIA concepts.
-CIA has a strong dependency on Authentication and Authorization;
-the confidentiality and integrity of sensitive data can not be assured without them.
-Auditing is added as it can provide the mechanism to ensure proof of any interaction with the system.
+A tríade CID é frequentemente ampliada com Autenticação, Autorização e Auditoria, uma vez que estas estão intimamente ligadas aos conceitos da CID.
+A CID depende fortemente da autenticação e autorização;
+a confidencialidade e a integridade de dados sensíveis não podem ser garantidas sem elas.
+A auditoria é adicionada porque pode fornecer o mecanismo para garantir a prova de qualquer interação com o sistema.
 
-#### Authentication
+#### Autenticação
 
-[Authentication][csauthn] is about confirming the identity of the entity that wants to interact with a secure system.
-For example the entity could be an automated client or a human actor;
-in either case authentication is required for a secure application.
+[Autenticação][csauthn] consiste em confirmar a identidade da entidade que deseja interagir com um sistema seguro.
+Por exemplo, a entidade poderia ser um cliente automatizado ou um ator humano;
+em ambos os casos, a autenticação é necessária para um aplicativo seguro.
 
-#### Authorization
+#### Autorização
 
-[Authorization][csauthz] is about specifying access rights to secure resources (data, services, files, applications, etc).
-These rights describe the privileges or access levels related to the resources that are being secured.
-Authorization is usually preceded by successful authentication.
+[Autorização][csauthz] consiste em especificar direitos de acesso a recursos seguros (dados, serviços, arquivos, aplicativos, etc.).
+Esses direitos descrevem os privilégios ou níveis de acesso relacionados aos recursos que estão sendo protegidos.
+Autorização geralmente é precedida por uma autenticação bem-sucedida.
 
-#### Auditing
+#### Auditoria
 
-Auditing is about keeping track of implementation-level events, as well as domain-level events taking place in a system.
-This helps to provide non-repudiation, which means that changes or actions on the protected system are undeniable.
-Auditing can provide not only technical information about the running system,
-but also proof that particular actions have been performed.
-The typical questions that are answered by auditing are "Who did What, When and potentially How?"
+Auditoria trata-se do registro de eventos em nível de implementação, bem como eventos em nível de domínio que ocorrem em um sistema.
+Isso ajuda a proporcionar o não repúdio, o que significa que as alterações ou ações no sistema protegido são inegáveis.
+Auditoria pode fornecer não apenas informações técnicas sobre o sistema em execução,
+mas também prova de que ações específicas foram realizadas.
+As perguntas típicas respondidas pela auditoria são "Quem fez o quê, Quando e potencialmente Como?"
 
-#### Vulnerabilities
+#### Vulnerabilidades
 
-NIST defines a [vulnerability][nistvuln] as 'Weakness in an information system, system security procedures,
-internal controls, or implementation that could be exploited or triggered by a threat source.'
+O NIST define [vulnerabilidade][nistvuln] como 'Fragilidade em um sistema de informação, procedimentos de segurança do sistema,
+controles internos ou implementação que possa ser explorada ou desencadeada por uma fonte de ameaça.'
 
-There are many weaknesses or bugs in every large application, but the term vulnerability is generally reserved
-for those weaknesses or bugs where there is a risk that a threat actor could exploit it using a threat vector.
+Existem muitas fragilidades ou bugs em todas as aplicações grandes, mas o termo vulnerabilidade é geralmente reservado
+para aquelas fragilidades ou bugs onde existe o risco de um agente de ameaça poder explorá-las usando um vetor de ameaça.
 
-Well known security vulnerabilities are :
+Vulnerabilidades de segurança bem conhecidas:
 
 * [Clickjacking][csclick]
 * [Credential Stuffing][cscreds]
 * [Cross-site leaks][csxsleaks]
-* [Denial of Service][csdos] (DoS) attacks
-* DOM based [XSS attacks][csdom] including [DOM Clobbering][csdomclub]
-* [IDOR][csidor] (Insecure Direct Object Reference)
-* [Injection][csinjection] including [OS Command injection][csosinjection] and [XXE][csxxe]
-* LDAP specific [injection attacks][csldap]
-* [Prototype pollution][csproto]
-* [SSRF][csssrf] attacks
-* [SQL injection][cssql] and the use of [Query Parameterization][csquery]
-* [Unvalidated redirects and forwards][csredirect]
-* [XSS attacks][csxss] and [XSS Filter Evasion][csxssevade]
+* Ataques de [Negação de Serviço][csdos] (DoS)
+* [Ataque de XSS][csdom] baseado em DOM incluindo [DOM Clobbering][csdomclub]
+* [IDOR][csidor] (Referência Direta Insegura a Objetos)
+* [Injeção][csinjection] incluindo [Injeção de Comando do OS][csosinjection] e [XXE][csxxe]
+* [Ataques de injeção][csldap] específicos de LDAP
+* [Poluição de protótipos][csproto]
+* Ataques de [SSRF][csssrf]
+* [Injeção de SQL][cssql] e o uso de [Parametrização de queries][csquery]
+* [Redirecionamentos e encaminhamentos não validados][csredirect]
+* [Ataques de XSS][csxss] e [Evasão de Filtro XSS][csxssevade]
 
 #### HTTP and HTML
 
-Although not a security fundamental as such, web applications rely on HTTP communications and HTML.
-Both application developers and security engineers should have a good understanding of HTTP
-and the HTML language along with their various security controls.
+Embora não seja uma segurança fundamental como tal, as aplicações web dependem de comunicações HTTP e HTML.
+Tanto os desenvolvedores de aplicações quanto os engenheiros de segurança devem ter um bom entendimento de HTTP
+e a linguagem HTML juntamente com seus vários controles de segurança.
 
-Most application development teams will be familiar with HTTP communications and the HTML standard,
-but if necessary refer to the training from the [W3 Consortium][w3consortium] or the [W3 Schools][w3schools].
-The OWASP [Cheat Sheet Series][cheatsheets] provide web application developers with the information
-needed to produce secure software :
 
-* The [HTML5 Security][cshtml5] cheat sheet describes a wide range of controls,
-  aligned with the current [HTML Living Standard][htmlliving]
-* Refer to the [Securing Cascading Style Sheets][cscss] cheat sheet for CSS
-* The HTTP headers need to be secure, see the [HTTP Security Response Headers][csheaders] cheat sheet
-* Strongly consider [HTTP Strict Transport Security][csstrict]
-* If the application has a file upload feature, follow the [File Upload][csfile] cheat sheet
-* Ensure content security policy is in place with the [Content Security Policy][cscsp] cheat sheet
-* Using JWTs for a Java application? Refer to the [JSON Web Token][csjwt] cheat sheet
-* Storing or sending objects? Check out the [Deserialization][csserial] cheat sheet
+A maioria das equipes de desenvolvimento de aplicações estará familiarizada com as comunicações HTTP e o padrão HTML
+mas, se necessário, consulte o treinamento do [W3 Consortium][w3consortium] ou da [W3 Schools][w3schools].
+O OWASP [Cheat Sheet Series][cheatsheets] fornece aos desenvolvedores de aplicações web as informações
+necessárias para produzir software seguro:
 
-#### References
+* A folha de dicas [HTML5 Security][cshtml5] descreve uma grande variedade de controles,
+  alinhados com o atual [HTML Living Standard][htmlliving]
+* Consulte a folha de dicas para CSS [Securing Cascading Style Sheets][cscss]
+* Os cabeçalhos HTTP precisam sem seguros, veja a folha de dicas [HTTP Security Response Headers][csheaders]
+* Considere fortemente [HTTP Strict Transport Security][csstrict]
+* Se a aplicação tem uma funcionalidade de upload de arquivo, siga a folha de dicas [File Upload][csfile]
+* Certifique-se de que a política de segurança de conteúdo esteja em vigor usando a folha de dicas [Content Security Policy][cscsp]
+* Usando JWTs para uma aplicação Java? Consulte a folha de dicas [JSON Web Token][csjwt]
+* Armazenando our enviando objetos? Confira a folha de dicas [Deserialization][csserial]
+
+#### Referências
 
 * [WHATWG][whatwg] [HTML Living Standard][htmlliving]
 * OWASP [Cheat Sheet Series][cheatsheets]
-* OWASP [Software Assurance Maturity Model][samm] (SAMM)
+* OWASP [Modelo de Maturidade de Software Assurance][samm] (SAMM)
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0401] or [edit on GitHub][edit0401].
+O Guia do Desenvolvedor da OWASP é um trabalho da comunidade; se há algo que precisa ser mudado
+então [submeta uma issue][issue0401] ou [edite no GitHub][edit0401].
 
 [cheatsheets]: https://cheatsheetseries.owasp.org/
 [csclick]: https://cheatsheetseries.owasp.org/cheatsheets/Clickjacking_Defense_Cheat_Sheet
