@@ -91,7 +91,7 @@ docs:
 - title: '4.2.6 Lista de verificação: Implemente Identidade Digital'
   url: design/web_app_checklist/digital_identity
 
-- title: '4.2.7 Lista de verificação: Enforce Controles de Accesso'
+- title: '4.2.7 Lista de verificação: Imponha Controles de Accesso'
   url: design/web_app_checklist/access_controls
 
 - title: '4.2.8 Lista de verificação: Proteja Dados em Todos os Lugares'
