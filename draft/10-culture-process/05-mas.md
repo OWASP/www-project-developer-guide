@@ -1,12 +1,12 @@
 ---
 
-title: Mobile Application Security
+title: MAS
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 1050
-permalink: /draft/culture_building_and_process_maturing/mobile_application_security/
+permalink: /draft/culture_building_and_process_maturing/mas/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /draft/culture_building_and_process_maturing/mobile_application_secur
 
 ![MAS logo](../../../assets/images/logos/mas.png "OWASP MAS"){: .image-right }
 
-### 8.5 Mobile Application Security
+### 8.5 MAS process
 
 The [MAS Verification Standard][masvs] (MASVS) explains the processes, techniques
 and tools used for security testing a mobile application.

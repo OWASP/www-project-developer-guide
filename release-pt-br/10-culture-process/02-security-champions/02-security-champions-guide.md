@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
 order: 30220
-permalink: /release-pt-br/culture_building_and_process_maturing/security_champions/security_champions_guide/
+permalink: /release-pt-br/culture_building_and_process_maturing/security_champions/guide/
 
 ---
 

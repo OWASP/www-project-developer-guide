@@ -1,18 +1,18 @@
 ---
 
-title: Security Knowledge Framework training
+title: SKF education
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 921
-permalink: /draft/training_education/security_knowledge_framework/
+permalink: /draft/training_education/skf_education/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 7.3 Security Knowledge Framework training
+### 7.3 SKF education
 
 The [Security Knowledge Framework][skf] (SKF) is an expert system application that uses various open source projects
 to support development teams and security architects in building secure applications.

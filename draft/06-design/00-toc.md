@@ -66,7 +66,7 @@ Sections:
 4.2.8 [Checklist: Protect Data Everywhere](#checklist-protect-data-everywhere)  
 4.2.9 [Checklist: Implement Security Logging and Monitoring](#checklist-implement-security-logging-and-monitoring)  
 4.2.10 [Checklist: Handle all Errors and Exceptions](#checklist-handle-all-errors-and-exceptions)  
-4.3 [Mobile application checklist](#mobile-application-checklist)  
+4.3 [MAS checklist](#mas-checklist)  
 
 ----
 

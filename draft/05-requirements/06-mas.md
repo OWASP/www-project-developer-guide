@@ -1,12 +1,12 @@
 ---
 
-title: Mobile Application Security
+title: MAS requirements
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 506
-permalink: /draft/requirements/mobile_application_security/
+permalink: /draft/requirements/mas/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /draft/requirements/mobile_application_security/
 
 ![MAS logo](../../../assets/images/logos/mas.png "OWASP MAS"){: .image-right }
 
-### 3.6 Mobile Application Security
+### 3.6 MAS requirements
 
 The OWASP [Mobile Application Security][masproject] (MAS) flagship project provides
 industry standards for mobile application security.

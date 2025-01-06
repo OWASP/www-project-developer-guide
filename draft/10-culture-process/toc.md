@@ -44,9 +44,9 @@ Sections:
 8.2.1 [Security champions program](02-security-champions/01-security-champions-program.md)  
 8.2.2 [Security Champions Guide](02-security-champions/02-security-champions-guide.md)  
 8.2.3 [Security Champions Playbook](02-security-champions/03-security-champions-playbook.md)  
-8.3 [Software Assurance Maturity Model](03-samm.md)  
-8.4 [Application Security Verification Standard](04-asvs.md)  
-8.5 [Mobile Application Security](05-mas.md)  
+8.3 [SAMM](03-samm.md)  
+8.4 [ASVS process](04-asvs.md)  
+8.5 [MAS process](05-mas.md)  
 
 ----
 

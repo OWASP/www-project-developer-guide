@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 740
-permalink: /draft/implementation/mas_weakness_enumeration/
+permalink: /draft/implementation/maswe/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /draft/implementation/mas_weakness_enumeration/
 
 ![MAS checklist logo](../../../assets/images/logos/mas.png "OWASP MASWE"){: .image-right }
 
-### 5.4 Mobile application weakness enumeration
+### 5.4 MASWE
 
 The OWASP [Mobile Application Security][masproject] (MAS) flagship project provides
 industry standards for mobile application security.

@@ -1,18 +1,18 @@
 ---
 
-title: Application Security Verification Standard
+title: ASVS process
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 1040
-permalink: /draft/culture_building_and_process_maturing/application_security_verification_standard/
+permalink: /draft/culture_building_and_process_maturing/asvs/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 8.4 Application Security Verification Standard
+### 8.4 ASVS process
 
 The [Application Security Verification Standard][asvs] (ASVS) is a long established OWASP flagship project,
 and is widely used to build a culture of security as well as verification of web applications.

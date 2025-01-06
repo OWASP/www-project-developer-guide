@@ -1,18 +1,18 @@
 ---
 
-title: Secure Headers Project
+title: OSHP
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 825
-permalink: /draft/verification/tools/secure_headers/
+permalink: /draft/verification/tools/oshp/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 6.2.5 Secure Headers Project
+### 6.2.5 OSHP verification
 
 The OWASP Secure Headers Project ([OSHP][oshp]) provides information on HTTP response headers
 to increase the security of a web application.
