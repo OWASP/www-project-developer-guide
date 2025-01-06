@@ -324,6 +324,7 @@ backdoors
 backend
 backrefs
 baselining
+blt
 br
 bracex
 bruteforcing
@@ -348,6 +349,7 @@ cryptographically
 cryptosystems
 csp
 csrf
+csrfguard
 customizable
 cyber
 cybersecurity
@@ -428,6 +430,8 @@ linux
 localhost
 lxml
 lychee
+mastg
+maswe
 misconfiguration
 mitigations
 modsecurity
@@ -440,7 +444,9 @@ nightlies
 nist
 npm
 opencre
+oshp
 owasp
+owtf
 pandoc
 parameterization
 parsers
@@ -464,6 +470,8 @@ repo
 roadmap
 runtime
 runtimes
+samm
+samuraiwtf
 sanitization
 sbates
 scalability
@@ -474,6 +482,7 @@ seclang
 secureCodeBox
 serializer
 sexualized
+skf
 socio
 soupsieve
 stacktrace
@@ -504,6 +513,7 @@ webgoat
 weightage
 writeups
 wrongsecrets
+wstg
 wtf
 www
 xsaero
