@@ -1,10 +1,10 @@
 ---
 
-title: OWASP Top Ten
+title: OWASP Top Dez
 layout: col-document
-tags: OWASP Developer Guide
-contributors:
-document: OWASP Developer Guide
+tags: Guia do Desenvolvedor do OWASP
+contributors: Amauri Bizerra
+document: Guia do Desenvolvedor do OWASP
 order: 24050
 permalink: /release-pt-br/foundations/owasp_top_ten/
 
@@ -24,157 +24,157 @@ permalink: /release-pt-br/foundations/owasp_top_ten/
 
 ![Top 10 logo](../../../assets/images/logos/top10.png "OWASP Top 10"){: .image-right }
 
-### 2.5 OWASP Top Ten
+### 2.5 OWASP Top Dez
 
-The OWASP Top Ten is a very well known list of web application security risks,
-and is included by the OWASP Software Assurance Maturity Model [(SAMM)][samm]
-in the Education & Guidance practice within the Governance business function.
+O OWASP Top Dez é uma lista muito conhecida de riscos de segurança de aplicações web,
+e está incluído no Modelo de Maturidade de Software Assurance do OWASP [(SAMM)][samm]
+na prática de Educação e Orientação dentro da função de negócios de Governança.
 
-#### Overview
+#### Visão geral
 
-The OWASP [Top 10 Web Application Security Risks][top10project] project is probably the most well known security concept
-within the security community, achieving wide spread acceptance and fame soon after its release in 2003.
-Often referred to as just the 'OWASP Top Ten', it is a list that identifies the most important threats
-to web applications and seeks to rank them in importance and severity.
+O projeto [Top 10 Riscos de Segurança de Aplicações Web][top10project] do OWASP é provavelmente o conceito de segurança mais conhecido
+dentro da comunidade de segurança, alcançando ampla aceitação e fama logo após seu lançamento em 2003.
+Muitas vezes referida apenas como 'OWASP Top Dez', é uma lista que identifica as ameaças mais importantes
+para aplicações web e busca classificá-las de acordo com sua importância e gravidade.
 
-The list has changed over time, with some threat types becoming more of a problem to web applications
-and other threats becoming less of a risk as technologies change.
-The [latest version][top10] was issued in 2021 and each category is summarised below.
+A lista mudou ao longo do tempo, com alguns tipos de ameaças se tornando um problema maior para aplicações web
+e outras ameaças passando a ter um grau menor de risco à medida que as tecnologias mudam.
+A [versão mais recente][top10] foi lançada em 2021 e cada categoria está resumida abaixo.
 
-Note that there are various 'OWASP Top Ten' projects, for example the 'OWASP Top 10 for Large Language Model Applications',
-so to avoid confusion the context should be noted when referring to these lists.
+Observe que existem vários projetos 'OWASP Top Dez', por exemplo, o 'OWASP Top 10 para Applicações de Modelos de Linguagem de Grande Escala',
+portanto, para evitar confusão, o contexto deve ser observado ao se referir a essas listas.
 
-#### A01:2021 Broken Access Control
+#### A01:2021 Controle de Acesso Quebrado
 
-Access control involves the use of protection mechanisms that can be categorized as:
+Controle de acesso envolve a utilização de mecanismos de proteção que podem ser categorizados como:
 
-* Authentication (proving the identity of an actor)
-* Authorization (ensuring that a given actor can access a resource)
-* Accountability (tracking of activities that were performed)
+* Autenticação (comprovando a identidade de um ator)
+* Autorização (assegurando-se de que um determinado ator pode acessar um recurso)
+* Prestação de contas (registro de atividades realizadas)
 
-Broken Access Control is where the product does not restrict, or incorrectly restricts, access to a resource
-from an unauthorized or malicious actor.
-When a security control fails or is not applied then attackers can compromise the security of the product
-by gaining privileges, reading sensitive information, executing commands, evading detection, etc.
+Controle de acesso quebrado é quando o produto não restringe ou restringe incorretamente o acesso a um recurso
+de um ator não autorizado ou malicioso.
+Quando um controle de segurança falha ou não é aplicado, invasores podem comprometer a segurança do produto
+ganhando privilégios, lendo informações confidenciais, executando comandos, evitando detecção, etc.
 
-Broken Access Control can take many forms, such as path traversal or elevation of privilege,
-so refer to both the [Common Weakness Enumeration CWE-284][cwe284] and [A01 Broken Access Control][a01]
-and also follow the various [OWASP Cheat Sheets][a01cs] related to access controls.
+Controle de Acesso Quebrado pode assumir muitas formas, tais como path traversal ou elevação de privilégio,
+portanto, consulte a [Enumeração de Fraqueza Comum CWE-284][cwe284] e o [Controle de Acesso Quebrado A01][a01]
+e também siga as diversas [Folhas de Dicas do OWASP][a01cs] relacionadas a controles de acesso.
 
-#### A02:2021 Cryptographic Failures
+#### A02:2021 Falhas Criptográficas
 
-Referring to [OWASP Top 10 A02:2021][a02], sensitive data should be protected when at rest and in transit.
-Cryptographic failures occur when the cryptographic security control is either broken or not applied,
-and the data is exposed to unauthorized actors - malicious or not.
+De acordo com [OWASP Top 10 A02:2021][a02], dados confidenciais devem ser protegidos quando em repouso e em trânsito.
+Falhas criptográficas ocorrem quando o controle de segurança criptográfica é quebrado ou não aplicado,
+e os dados são expostos a atores não autorizados – maliciosos ou não.
 
-It is important to protect data both at rest, when it is stored in an area  of memory,
-and also when it is in transit such as being transmitted across a communication channel or being transformed.
-A good example of protecting data transformation is given by [A02 Cryptographic Failures][a02]
-where sensitive data is properly encrypted in a database, but the export function automatically
-decrypts the data leading to sensitive data exposure.
+É importante proteger dados tanto em repouso, quando armazenados em uma área da memória,
+quanto em trânsito, como sendo transmitido através de um canal de comunicação ou sendo transformado.
+Um bom exemplo de proteção na transformação de dados é dado na categoria [A02 Falhas Criptográficas][a02]
+onde os dados confidenciais são criptografados adequadamente em um banco de dados, mas a função de exportação descriptografa
+os dados automaticamente, levando à exposição de dados confidenciais.
 
-Crypto failures can take many forms and may be subtle - a security control that looks secure may be easily broken.
-Follow the crypto [OWASP Cheat Sheets][a02cs] to get the basic crypto controls in place
-and consider putting a crypto audit in place.
+Falhas de criptografia podem assumir muitas formas e podem ;ser sutis – um controle de segurança que parece seguro pode ser facilmente quebrado.
+Siga as [Folhas de Dicas do OWASP][a02cs] de criptografia para pôr os controles básicos de criptografia em vigor
+e considere implementar uma auditoria de criptografia.
 
-#### A03:2021 Injection
+#### A03:2021 Injeção
 
-A lack of input validation and sanitization can lead to injection exploits,
-and this risk has been a constant feature of the OWASP Top Ten since the first version was published in 2003.
-These vulnerabilities occur when hostile data is directly used within the application
-and can result in malicious data being used to subvert the application; see [A03 Injection][a03] for further explanations.
+A falta de validação e sanitização de entrada pode levar a exploits de injeção,
+e esse risco tem sido uma característica constante do OWASP Top Dez desde que a primeira versão foi publicada em 2003.
+Essas vulnerabilidades ocorrem quando dados hostis são usados ​​diretamente na aplicação
+e podem resultar em dados maliciosos sendo usados ​​para subverter a aplicação; veja [A03 Injeção][a03] para mais explicações.
 
-The security control is straight forward: all input from untrusted sources should be sanitized and validated.
-See the [Injection Cheat Sheets][a03cs] for the various types of input and their controls.
+O controle de segurança é direto: todas as entradas de fontes não confiáveis ​​devem ser sanitizadas e validadas.
+Veja as [Injection Cheat Sheets][a03cs] para os vários tipos de entrada e seus controles.
 
-#### A04:2021 Insecure Design
+#### A04:2021 Design Inseguro
 
-It is important that security is built into applications from the beginning and not applied as an afterthought.
-The [A04 Insecure Design][a04] category recognizes this and advises that
-the use of threat modeling, secure design patterns, and reference architectures
-should be incorporated within the application design and architecture activities.
+É importante que segurança seja incorporada em aplicações desde o início e não aplicada como uma reflexão tardia.
+A categoria [A04 Design Inseguro][a04] reconhece isso e aconselha que
+o uso de modelagem de ameaças, padrões de design seguros e arquiteturas de referência
+deve ser incorporado às atividades de design e arquitetura da aplicação.
 
-In practice this involves establishing a secure development lifecycle that encourages
-the identification of security requirements, the periodic use of threat modeling
-and consideration of existing secure libraries and frameworks.
-This category was introduced in the 2021 version and for now the supporting cheat sheets only cover [threat modeling][cstm];
-as this category becomes more established it is expected that more supporting information will become available.
+Na prática, isso envolve estabelecer um ciclo de desenvolvimento seguro que incentive
+a identificação de requisitos de segurança, o uso periódico de modelagem de ameaças
+e a consideração de bibliotecas e frameworks seguros existentes.
+Esta categoria foi introduzida na versão de 2021 e, por enquanto, as folhas de dicas de suporte cobrem apenas [modelagem de ameaças][cstm];
+à medida que esta categoria se torna mais estabelecida, espera-se que mais informação de suporte se torne disponível.
 
-#### A05:2021 Security Misconfiguration
+#### A05:2021 Configuração Incorreta de Segurança
 
-Systems and large applications can be configurable, and this configuration is often used to secure the system/application.
-If this configuration is misapplied then the application may no longer be secure,
-and instead be vulnerable to well-known exploits. The [A05 Security Misconfiguration][a05] page contains
-a common example of misconfiguration where default accounts and their passwords are still enabled and unchanged.
-These passwords and accounts are usually well-known and provide an easy way for malicious actors to compromise applications.
+Sistemas e aplicações grandes podem ser configuráveis, e essa configuração é frequentemente usada para proteger o sistema/aplicação.
+Se essa configuração for mal aplicada, a aplicação pode não ser mais segura
+e, em vez disso, ficar vulnerável a exploits bem conhecidos. A página [A05 Configuração Incorreta de Segurança][a05] contém
+um exemplo comum de configuração incorreta em que contas padrão e suas senhas ainda estão habilitadas e inalteradas.
+Essas senhas e contas são geralmente bem conhecidas e fornecem uma maneira fácil para agentes maliciosos comprometerem aplicações.
 
-Both the [OWASP Top 10 A05:2021][a05] and the linked [OWASP Cheat Sheets][a05cs] provide strategies to establish
-a concerted, repeatable application security configuration process to minimise misconfiguration.
+Tanto o [OWASP Top 10 A05:2021][a05] quanto as [Folhas de Dicas do OWASP][a05cs] vinculadas fornecem estratégias para estabelecer
+um processo de configuração de segurança de aplicação repetível e coordenado para minimizar configuração incorreta.
 
-#### A06:2021 Vulnerable and Outdated Components
+#### A06:2021 Componentes Vulneráveis e Desatualizados
 
-Perhaps one of the easiest and most effective security activities
-is keeping all the third party software dependencies up to date.
-If a vulnerable dependency is identified by a malicious actor during the reconnaissance phase of an attack
-then there are databases available, such as [Exploit Database][exploit], that will provide a description of any exploit.
-These databases can also provide ready made scripts and techniques for attacking a given vulnerability,
-making it easy for vulnerable third party software dependencies to be exploited .
+Talvez uma das atividades de segurança mais fáceis e eficazes
+seja manter todas as dependências de software de terceiros atualizadas.
+Se uma dependência vulnerável for identificada por um agente malicioso durante a fase de reconhecimento de um ataque
+então há bancos de dados disponíveis, como o [Exploit Database][exploit], que fornecerão uma descrição de qualquer exploração.
+Esses bancos de dados também podem fornecer scripts e técnicas prontos para atacar uma determinada vulnerabilidade,
+fazendo que dependências vulneráveis ​​de software de terceiros sejam mais facilmente exploradas.
 
-Risk [A06 Vulnerable and Outdated Components][a06] underlines the importance of this activity,
-and recommends that fixes and upgrades to the underlying platform, frameworks, and dependencies
-are based on a risk assessment and done in a 'timely fashion'.
-Several tools can used to analyse dependencies and flag vulnerabilities, refer to the [Cheat Sheets][a06cs] for these.
+O risco [A06 Componentes Vulneráveis ​​e Desatualizados][a06] destaca a importância dessa atividade,
+e recomenda que correções e atualizações para a plataforma, estruturas e dependências subjacentes
+sejam baseadas em uma avaliação de risco e feitas de forma 'oportuna'.
+Várias ferramentas podem ser usadas para analisar dependências e sinalizar vulnerabilidades, consulte as [Folhas de Dicas][a06cs] para elas.
 
-#### A07:2021 Identification and Authentication Failures
+#### A07:2021 Falhas de Identificação e Autenticação
 
-Confirmation of the user's identity, authentication, and session management is critical
-to protect the system or application against authentication related attacks.
-Referring to risk [A07 Identification and Authentication Failures][a07], authorization can fail in several ways
-that often involve other OWASP Top Ten risks:
+Confirmação da identidade do usuário, autenticação e gerenciamento de sessão é essencial
+para proteger o sistema ou aplicação contra ataques relacionados à autenticação.
+De acordo com o risco [A07 Falhas de Identificação e Autenticação][a07], a autorização pode falhar de várias maneiras
+que frequentemente envolvem outros riscos do OWASP Top Ten:
 
-* broken access controls (A01)
-* cryptographic failure (A02)
-* default passwords (A05)
-* out-dated libraries (A06)
+* controles de acesso quebrados (A01)
+* falha criptográfica (A02)
+* senhas padrão (A05)
+* bibliotecas desatualizadas (A06)
 
-Refer to the [Cheat Sheets][a07cs] for the several good practices that are needed for secure authorization.
-There are also third party suppliers of Identity and Access Management (IAM) that will provide this as a service,
-consider the cost / benefit of using these (often commercial) suppliers.
+Consulte as [Folhas de Dicas][a07cs] para as várias boas práticas necessárias para autorização segura.
+Há também fornecedores terceirizados de Gerenciamento de Identidade e Acesso (IAM) que fornecerão isso como um serviço,
+considere o custo/benefício de usar esses fornecedores (geralmente comerciais).
 
-#### A08:2021 Software and Data Integrity Failures
+#### A08:2021 Falhas de Integridade de Software e de Dados
 
-Software and data integrity failures relate to code and infrastructure that does not protect against integrity violations.
-This is a wide ranging category that describes [supply chain attacks][cschain],
-compromised auto-update and use of untrusted components for example.
-[A07 Software and Data Integrity Failures][a08] was a new category introduced in 2021
-so there is little information available from the [Cheat Sheets][a08cs],
-but this is sure to change for such an important threat.
+Falhas de integridade de software e de dados estão relacionadas a código e infraestrutura que não protegem contra violações de integridade.
+Esta é uma categoria abrangente que descreve [ataques à cadeia de suprimento][cschain],
+atualização automática comprometida e uso de componentes não confiáveis, por exemplo.
+[A07 Falhas de Integridade de Software e de Dados][a08] foi uma nova categoria introduzida em 2021
+então há pouca informação disponível nas [Folhas de Dicas][a08cs],
+mas isso certamente mudará para uma ameaça tão importante.
 
-#### A09:2021 Security Logging and Monitoring Failures
+#### A09:2021 Falhas de Registro e Monitoramento de Segurança
 
-Logging and monitoring helps detect, escalate, and respond to active breaches; without it breaches will not be detected.
-[A09 Security Logging and Monitoring Failures][a09] lists various logging and monitoring techniques that should be familiar,
-but also others that may not be so common;
-for example monitoring the DevOps supply chain may be just as important as monitoring the application or system.
-The [Cheat Sheets][a09cs] provide guidance on sufficient logging and also provide for a common logging vocabulary.
-The aim of this common vocabulary is to provide logging that uses a common set of terms, formats and key words;
-and this allows for easier monitoring, analysis and alerting.
+Registro e o monitoramento ajudam a detectar, escalar e responder a violações ativas; sem isso, as violações não serão detectadas.
+[A09 Falhas de registro e monitoramento de segurança][a09] lista várias técnicas de registro e monitoramento que devem ser familiares,
+mas também outras que podem não ser tão comuns;
+por exemplo, monitorar a cadeia de suprimento de DevOps pode ser tão importante quanto monitorar a aplicação ou sistema.
+As [Folhas de Dicas][a09cs] fornecem orientação sobre registro adequado e também fornecem um vocabulário comum de registro.
+O objetivo deste vocabulário comum é fornecer registro que use um conjunto comum de termos, formatos e palavras-chave;
+e isso permite monitoramento, análise e alerta mais fáceis.
 
-#### A10:2021 Server-Side Request Forgery
+#### A10:2021 Falsificação de Solicitação do Lado do Servidor
 
-Referring to [A10 Server-Side Request Forgery (SSRF)][a10], these vulnerabilities can occur
-whenever a web application is fetching a remote resource without validating the user-supplied URL.
-These exploits allow an attacker to coerce the application to send a crafted request to an unexpected destination,
-even when protected by a firewall, VPN, or another type of network access control list.
-Fetching a URL has become a common scenario for modern web applications and as a result the incidence of SSRF is increasing,
-especially for [cloud services][cscloud] and more complex application architectures.
+Referindo-se a [A10 Falsificação de Solicitação do Lado do Servidor (SSRF)][a10], essas vulnerabilidades podem ocorrer
+sempre que uma aplicação web estiver buscando um recurso remoto sem validar a URL fornecida pelo usuário.
+Esses exploits permitem que um invasor coaja a aplicação a enviar uma requisição elaborada para um destino inesperado,
+mesmo quando protegido por um firewall, VPN ou outro tipo de lista de controle de acesso à rede.
+A solicitação de recursos de URLs se tornou um cenário comum para aplicações web modernas, como resultado, a incidência de SSRF está aumentando,
+especialmente para [serviços na nuvem][cscloud] e arquiteturas de aplicações mais complexas.
 
-This is a new category introduced in 2021 with a single (for now) [Cheat Sheet][a10cs] that deals with SSRF.
+Esta é uma nova categoria introduzida em 2021 com uma única (por enquanto) [Folha de Dicas][a10cs] que lida com SSRF.
 
-#### OWASP top tens
+#### OWASP top dez
 
-There are various 'Top 10' projects created by OWASP that, depending on the context,
-may also be referred to as 'OWASP Top 10'. Here is a list of the stable 'OWASP Top 10' projects:
+Existem vários projetos 'Top 10' criados pelo OWASP que, dependendo do contexto,
+também podem ser referidos como 'OWASP Top 10'. Aqui está uma lista dos projetos 'OWASP Top 10' estáveis:
 
 * [API Security Top 10][apisec]
 * [Data Security Top 10][data10]
@@ -187,12 +187,12 @@ may also be referred to as 'OWASP Top 10'. Here is a list of the stable 'OWASP T
 * [Top 10 Proactive Controls][proactive10]
 * [Top 10 Web Application Security Risks][top10]
 
-Other OWASP Top 10s are 'incubator' projects, which are work in progress, so this list will change over time.
+Outros Top 10 do OWASP são projetos de “incubadoras”, que estão em andamento, portanto esta lista mudará com o tempo.
 
 ----
 
-The OWASP Developer Guide is a community effort; if you see something that needs changing
-then [submit an issue][issue0405] or [edit on GitHub][edit0405].
+O Guia do Desenvolvedor do OWASP é um trabalho da comunidade; se há algo que precisa ser mudado
+então [submeta uma issue][issue0405] ou [edite no GitHub][edit0405].
 
 [a01]: https://owasp.org/Top10/A01_2021-Broken_Access_Control/
 [a01cs]: https://cheatsheetseries.owasp.org/IndexTopTen.html#a012021-broken-access-control
