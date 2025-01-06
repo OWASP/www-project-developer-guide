@@ -1,18 +1,18 @@
 ---
 
-title: Application Security Verification Standard
+title: ASVS gap analysis
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 1312
-permalink: /draft/security_gap_analysis/guides/application_security_verification_standard/
+permalink: /draft/security_gap_analysis/guides/asvs_gap_analysis/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 11.1.2 Application Security Verification Standard
+### 11.1.2 ASVS gap analysis
 
 The [Application Security Verification Standard][asvs] (ASVS) is a long established OWASP flagship project,
 and is widely used to identify gaps in security as well as the verification of web applications.
@@ -25,8 +25,7 @@ the [github markdown][asvsmd] pages directly - this will ensure that the latest 
 
 The ASVS is an open standard that sets out the coverage and 'level of rigor' expected when it comes to
 performing web application security verification.
-The standard also provides a basis for testing any technical security controls
-that are relied on to protect against vulnerabilities in the application.
+For this reason it can be used to identify gaps in the security of web applications.
 
 The ASVS is split into various sections:
 
@@ -45,20 +44,9 @@ The ASVS is split into various sections:
 * V13 [API and Web Service][asvsV13]
 * V14 [Configuration][asvsV14]
 
-The ASVS defines three [levels of security verification][asvsL123]:
-
-1. applications that only need low assurance levels; these applications are completely penetration testable
-2. applications which contain sensitive data that require protection; the recommended level for most applications
-3. the most critical applications that require the highest level of trust
-
-Most applications will aim for Level 2, with only those applications that perform high value transactions,
-or contain sensitive medical data, aiming for the highest level of trust at level 3.
-
 #### How to use it
 
-The ASVS is a list of verification requirements that is used by many organizations
-as a basis for the verification of their web applications.
-For this reason it can be used to identify gaps in the security of web applications.
+The ASVS is a list of verification requirements that can be used to identify gaps in the security of web applications.
 If the ASVS suggests using a control then that control should be considered for the application security,
 it may be not applicable but at least the control should have been considered at some point in the development process.
 

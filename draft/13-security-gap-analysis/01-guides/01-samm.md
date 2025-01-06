@@ -1,12 +1,12 @@
 ---
 
-title: Software Assurance Maturity Model
+title: SAMM
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 1311
-permalink: /draft/security_gap_analysis/guides/software_assurance_maturity_model/
+permalink: /draft/security_gap_analysis/guides/samm/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /draft/security_gap_analysis/guides/software_assurance_maturity_model
 
 ![SAMM logo](../../../../assets/images/logos/samm.png "OWASP SAMM"){: .image-right-small }
 
-### 11.1.1 Software Assurance Maturity Model
+### 11.1.1 SAMM gap analysis
 
 The [Software Assurance Maturity Model][samm] (SAMM) project provides an effective and measurable way for
 an organization to analyze their secure development lifecycle, and identify any gaps or improvements.

@@ -1,6 +1,6 @@
 ---
 
-title: Enterprise Security API library
+title: ESAPI
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
@@ -24,7 +24,7 @@ permalink: /draft/implementation/secure_libraries/esapi/
 
 ![ESAPI logo](../../../../assets/images/logos/esapi.png "OWASP ESAPI"){: .image-right }
 
-### 5.3.1 Enterprise Security API library
+### 5.3.1 ESAPI
 
 The OWASP Enterprise Security API (ESAPI) [library][esapi-docs] is a security control library
 for web applications written in Java.

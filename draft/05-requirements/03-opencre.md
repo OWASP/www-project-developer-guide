@@ -1,12 +1,12 @@
 ---
 
-title: OpenCRE and Integration Standards
+title: OpenCRE
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 503
-permalink: /draft/requirements/opencre_integration_standard/
+permalink: /draft/requirements/opencre/
 
 ---
 

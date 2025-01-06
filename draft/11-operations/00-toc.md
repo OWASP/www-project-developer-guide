@@ -33,8 +33,8 @@ which are widely used for data and system management.
 Sections:
 
 9.1 [DevSecOps Guideline](#devsecops-guideline)  
-9.2 [Coraza Web Application Firewall](#coraza-web-application-firewall)  
-9.3 [ModSecurity Web Application Firewall](#modsecurity-web-application-firewall)  
+9.2 [Coraza WAF](#coraza-waf)  
+9.3 [ModSecurity WAF](#modsecurity-waf)  
 9.4 [OWASP CRS](#owasp-crs)  
 
 ----
