@@ -14,12 +14,12 @@ permalink:
 
 ## Table of contents
 
-1 **[Introdução](#introduction)**  
+1 **[Introdução](#introdução)**  
 
-2 **[Fundamentos](#foundations)**  
-2.1 [Fundamentos de segurança](#fundamentos_de_seguranca)  
+2 **[Fundamentos](#fundamentos)**  
+2.1 [Fundamentos de segurança](#fundamentos-de-seguranca)  
 2.2 [Desenvolvimento e integração seguros](#secure-development-and-integration)  
-2.3 [Princípios de segurança](#principles-of-security)  
+2.3 [Princípios de segurança](#princípios-de-segurança)  
 2.4 [Princípios de criptografia](#principles-of-cryptography)  
 2.5 [OWASP Top 10](#owasp-top-ten)  
 
@@ -28,9 +28,9 @@ permalink:
 3.2 [Perfil de risco](#risk-profile)  
 3.3 [OpenCRE](#opencre)  
 3.4 [SecurityRAT](#security-rat)  
-3.5 [ASVS (Padrão de Verificação de Segurança de Aplicações)](#application-security-verification-standard)  
-3.6 [MAS (Segurança de Aplicativos Móveis](#mobile-application-security)  
-3.7 [SKF (Framework de Conhecimento de Segurança)](#security-knowledge-framework)  
+3.5 [ASVS Requisitos](#application-security-verification-standard)  
+3.6 [MAS Requisitos](#mobile-application-security)  
+3.7 [SKF Requisitos](#security-knowledge-framework)  
 
 4 **[Design](#design)**  
 4.1 [Modelagem de ameaças](#threat-modeling)  
