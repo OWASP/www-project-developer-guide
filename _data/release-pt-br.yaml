@@ -65,7 +65,7 @@ docs:
   url: design/threat_modeling/cornucopia
 
 - title: '4.1.5 LINDDUN GO'
-  url: design/threat_modeling/linddun-go
+  url: design/threat_modeling/linddun_go
 
 - title: '4.1.6 Threat Modeling toolkit'
   url: design/threat_modeling/toolkit

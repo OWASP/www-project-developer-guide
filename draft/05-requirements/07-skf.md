@@ -1,18 +1,18 @@
 ---
 
-title: Security Knowledge Framework
+title: SKF requirements
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 507
-permalink: /draft/requirements/security_knowledge_framework/
+permalink: /draft/requirements/skf/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 3.7 Security Knowledge Framework
+### 3.7 SKF requirements
 
 The [Security Knowledge Framework][skf] (SKF) is an expert system application that uses various open source projects
 to support development teams and security architects in building secure applications.

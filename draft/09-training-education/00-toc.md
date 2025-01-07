@@ -42,7 +42,7 @@ Sections:
 7.1.3 [PyGoat](#pygoat)  
 7.1.4 [Security Shepherd](#security-shepherd)  
 7.2 [Secure Coding Dojo](#secure-coding-dojo)  
-7.3 [Security Knowledge Framework](#security-knowledge-framework-training)  
+7.3 [SKF education](#skf-education)  
 7.4 [SamuraiWTF](#samuraiwtf)  
 7.5 [OWASP Top 10 project](#owasp-top-ten-project)  
 7.6 [Mobile Top 10](#mobile-top-ten)  

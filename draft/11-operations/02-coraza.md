@@ -1,6 +1,6 @@
 ---
 
-title: Coraza Web Application Firewall
+title: Coraza WAF
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
@@ -14,7 +14,7 @@ permalink: /draft/operations/coraza_waf/
 
 ![Coraza logo](../../../assets/images/logos/coraza.png "OWASP Coraza"){: height="160px" }
 
-### 9.2 Coraza Web Application Firewall
+### 9.2 Coraza WAF
 
 The [OWASP Coraza][coraza-project] project provides a golang enterprise-grade Web Application Firewall framework
 that supports the [ModSecurity][modsec] seclang language and is completely compatible with OWASP [CRS][crs].

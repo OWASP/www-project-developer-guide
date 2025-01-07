@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 30230
-permalink: /release-pt-br/construcao_cultura_amadurecimento_processos/campeoes_seguranca/security_champions_playbook/
+permalink: /release-pt-br/construcao_cultura_amadurecimento_processos/campeoes_seguranca/playbook/
 
 ---
 

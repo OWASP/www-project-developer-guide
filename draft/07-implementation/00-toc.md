@@ -48,10 +48,10 @@ Sections:
 5.2.2 [Dependency-Track](#dependency-track)  
 5.2.3 [CycloneDX](#cyclonedx)  
 5.3 [Secure Libraries](#secure-libraries)  
-5.3.1 [Enterprise Security API library](#enterprise-security-api-library)  
-5.3.2 [CSRFGuard library](#csrfguard-library)  
-5.3.3 [OWASP Secure Headers Project](#owasp-secure-headers-project)  
-5.4 [Mobile application weakness enumeration](#mobile-application-weakness-enumeration)  
+5.3.1 [ESAPI](#esapi)  
+5.3.2 [CSRFGuard](#csrfguard)  
+5.3.3 [OSHP](#oshp)  
+5.4 [MASWE](#maswe)  
 
 ----
 

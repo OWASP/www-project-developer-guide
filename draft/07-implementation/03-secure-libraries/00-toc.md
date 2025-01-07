@@ -25,9 +25,9 @@ which in turn is part of the [Design][sammd] business function.
 
 Sections:
 
-5.3.1 [Enterprise Security API library](#enterprise-security-api-library)  
-5.3.2 [CSRFGuard library](#csrfguard-library)  
-5.3.3 [OWASP Secure Headers Project](#owasp-secure-headers-project)  
+5.3.1 [ESAPI](#esapi)  
+5.3.2 [CSRFGuard](#csrfguard)  
+5.3.3 [OSHP](#oshp)  
 
 ----
 
