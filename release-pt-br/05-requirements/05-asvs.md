@@ -1,6 +1,6 @@
 ---
 
-title: ASVS
+title: Padrão de Verificação de Segurança de Aplicações (ASVS)
 layout: col-document
 tags: Guia do Desenvolvedor do OWASP
 contributors:
@@ -12,7 +12,9 @@ permalink: /release-pt-br/requisitos/asvs/
 
 {% include breadcrumb.html %}
 
-### 3.5 ASVS (Padrão de Verificação de Segurança de Aplicações)
+### 3.5 ASVS Requisitos
+
+Padrão de Verificação de Segurança de Aplicações (ASVS)
 
 Não há tradução para esta página, consulte a [versão original em inglês][release0505].
 

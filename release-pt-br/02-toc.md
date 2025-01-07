@@ -17,14 +17,14 @@ permalink:
 1 **[Introdução](#introduction)**  
 
 2 **[Fundamentos](#foundations)**  
-2.1 [Fundamentos de segurança](#security-fundamentals)  
+2.1 [Fundamentos de segurança](#fundamentos_de_seguranca)  
 2.2 [Desenvolvimento e integração seguros](#secure-development-and-integration)  
 2.3 [Princípios de segurança](#principles-of-security)  
 2.4 [Princípios de criptografia](#principles-of-cryptography)  
 2.5 [OWASP Top 10](#owasp-top-ten)  
 
 3 **[Requisitos](#requirements)**  
-3.1 [Requisitos em prática](#requirements-in-practice)  
+3.1 [Requisitos na prática](#requirements-in-practice)  
 3.2 [Perfil de risco](#risk-profile)  
 3.3 [OpenCRE](#opencre)  
 3.4 [SecurityRAT](#security-rat)  

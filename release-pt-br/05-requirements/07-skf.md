@@ -1,6 +1,6 @@
 ---
 
-title: SKF
+title: Framework de Conhecimento de Segurança (SKF)
 layout: col-document
 tags: Guia do Desenvolvedor do OWASP
 contributors:
@@ -24,7 +24,9 @@ permalink: /release-pt-br/requisitos/skf/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
-### 3.7 SKF (Framework de Conhecimento de Segurança)
+### 3.7 SKF Requisitos
+
+Framework de Conhecimento de Segurança (SKF)
 
 Não há tradução para esta página, consulte a [versão original em inglês][release0507].
 

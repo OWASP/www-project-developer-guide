@@ -34,9 +34,9 @@ Sections:
 3.2 [Perfil de risco](02-risk.md)  
 3.3 [OpenCRE](03-opencre.md)  
 3.4 [SecurityRAT](04-security-rat.md)  
-3.5 [ASVS (Padrão de Verificação de Segurança de Aplicações)](05-asvs.md)  
-3.6 [MAS (Segurança de Aplicativos Móveis)](06-mas.md)  
-3.7 [SKF (Framework de Conhecimento de Segurança)](07-skf.md)  
+3.5 [ASVS Requisitos](05-asvs.md)  
+3.6 [MAS Requisitos](06-mas.md)  
+3.7 [SKF Requisitos](07-skf.md)  
 
 ----
 

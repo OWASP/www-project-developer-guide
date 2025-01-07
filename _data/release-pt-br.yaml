@@ -23,28 +23,28 @@ docs:
   url: foundations/owasp_top_ten
 
 - title: '3. Requisitos'
-  url: requirements
+  url: requisitos
 
 - title: '3.1 Requisitos na prática'
-  url: requirements/requirements_in_practice
+  url: requisitos/requirements_in_practice
 
 - title: '3.2 Perfil de risco'
-  url: requirements/risk_profile
+  url: requisitos/risk_profile
 
-- title: '3.3 OpenCRE e Padrões de Integração'
-  url: requirements/opencre_integration_standard
+- title: '3.3 OpenCRE'
+  url: requisitos/opencre
 
 - title: '3.4 SecurityRAT'
-  url: requirements/security_rat
+  url: requisitos/security_rat
 
-- title: '3.5 Padrão de Verificação de Segurança de Aplicações (ASVS)'
-  url: requirements/application_security_verification_standard
+- title: '3.5 ASVS Requisitos'
+  url: requisitos/asvs
 
-- title: '3.6 Segurança de Aplicativos Móveis'
-  url: requirements/mobile_application_security
+- title: '3.6 MAS Requisitos'
+  url: requisitos/mas
 
-- title: '3.7 Framework de Conhecimento de Segurança (SKF)'
-  url: requirements/security_knowledge_framework
+- title: '3.7 SKF Requisitos'
+  url: requisitos/skf
 
 - title: '4. Design'
   url: /design
