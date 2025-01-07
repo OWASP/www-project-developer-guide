@@ -12,9 +12,9 @@ permalink: /release-pt-br/
 
 {% include breadcrumb.html %}
 
-![Developer guide logo](../assets/images/dg_logo.png "OWASP Developer Guide"){: height="180px" }
+![Guia do Desenvolvedor logo](../assets/images/dg_logo.png "Guia do Desenvolvedor do OWASP"){: height="180px" }
 
-### OWASP Developer Guide
+### Guia do Desenvolvedor do OWASP
 
 #### A Guide to Building Secure Web Applications and Web Services
 

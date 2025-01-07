@@ -5,13 +5,13 @@ docs:
   url: introduction
 
 - title: '2. Fundamentos'
-  url: foundations
+  url: fundamentos
 
 - title: '2.1 Fundamentos de segurança'
   url: foundations/security_fundamentals
 
 - title: '2.2 Desenvolvimento e integração seguros'
-  url: foundations/secure_development
+  url: fundamentos/desenvolvimento_integracao_seguros
 
 - title: '2.3 Princípios de segurança'
   url: foundations/security_principles

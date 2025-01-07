@@ -12,7 +12,7 @@ permalink:
 
 {% include breadcrumb.html %}
 
-## ![Developer Guide](../assets/images/dg_logo.png)
+## ![Guia do Desenvolvedor](../assets/images/dg_logo.png)
 
 ### Guia do Desenvolvedor do OWASP
 
