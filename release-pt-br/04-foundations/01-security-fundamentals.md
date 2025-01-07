@@ -24,8 +24,10 @@ permalink: /release-pt-br/foundations/security_fundamentals/
 
 ### 2.1 Fundamentos de segurança
 
-Os princípios fundamentais da segurança de aplicativos baseiam-se nos conceitos de segurança mencionados neste guia do desenvolvedor.
-Esta seção tem como objetivo fornecer uma introdução aos princípios fundamentais com os quais qualquer equipe de desenvolvimento deve estar familiarizada.
+Os princípios fundamentais da segurança de aplicativos baseiam-se nos conceitos
+de segurança mencionados neste guia do desenvolvedor.
+Esta seção tem como objetivo fornecer uma introdução aos princípios fundamentais
+com os quais qualquer equipe de desenvolvimento deve estar familiarizada.
 
 #### Modelo de Maturidade de Software Assurance
 
@@ -54,7 +56,8 @@ Estas características de segurança podem ser descritas utilizando a tríade CI
 CID significa Confidencialidade, Integridade e Disponibilidade,
 e geralmente é retratada como um triângulo que representa os fortes laços entre seus três princípios.
 Esta tríade é considerada os pilares de segurança de aplicações,
-frequentemente Confidencialidade, Integridade ou Disponibilidade são usadas como propriedades de dados ou processos dentro de um determinado sistema.
+frequentemente Confidencialidade, Integridade ou Disponibilidade são usadas como propriedades
+de dados ou processos dentro de um determinado sistema.
 A tríade CID pode ser ampliada com a tríade AAA: Autorização, Autenticação e Auditoria.
 
 #### Confidencialidade
@@ -73,12 +76,15 @@ e a noção de integridade da fonte (os dados vieram ou foram alterados por uma 
 #### Disponibilidade
 
 Disponibilidade refere-se à garantia da presença de informação ou recursos.
-Este conceito não se baseia apenas na disponibilidade dos dados em si, por exemplo, através da utilização da replicação de dados,
-mas também na proteção dos serviços que fornecem acesso aos dados, por exemplo, através da utilização de balanceamento de carga.
+Este conceito não se baseia apenas na disponibilidade dos dados em si, por exemplo,
+através da utilização da replicação de dados,
+mas também na proteção dos serviços que fornecem acesso aos dados, por exemplo,
+através da utilização de balanceamento de carga.
 
 #### Tríade AAA
 
-A tríade CID é frequentemente ampliada com Autenticação, Autorização e Auditoria, uma vez que estas estão intimamente ligadas aos conceitos da CID.
+A tríade CID é frequentemente ampliada com Autenticação, Autorização e Auditoria,
+uma vez que estas estão intimamente ligadas aos conceitos da CID.
 A CID depende fortemente da autenticação e autorização;
 a confidencialidade e a integridade de dados sensíveis não podem ser garantidas sem elas.
 A auditoria é adicionada porque pode fornecer o mecanismo para garantir a prova de qualquer interação com o sistema.
@@ -91,13 +97,15 @@ em ambos os casos, a autenticação é necessária para um aplicativo seguro.
 
 #### Autorização
 
-[Autorização][csauthz] consiste em especificar direitos de acesso a recursos seguros (dados, serviços, arquivos, aplicativos, etc.).
+[Autorização][csauthz] consiste em especificar direitos de acesso a recursos
+seguros (dados, serviços, arquivos, aplicativos, etc.).
 Esses direitos descrevem os privilégios ou níveis de acesso relacionados aos recursos que estão sendo protegidos.
 Autorização geralmente é precedida por uma autenticação bem-sucedida.
 
 #### Auditoria
 
-Auditoria trata-se do registro de eventos em nível de implementação, bem como eventos em nível de domínio que ocorrem em um sistema.
+Auditoria trata-se do registro de eventos em nível de implementação,
+bem como eventos em nível de domínio que ocorrem em um sistema.
 Isso ajuda a proporcionar o não repúdio, o que significa que as alterações ou ações no sistema protegido são inegáveis.
 Auditoria pode fornecer não apenas informações técnicas sobre o sistema em execução,
 mas também prova de que ações específicas foram realizadas.
@@ -105,8 +113,8 @@ As perguntas típicas respondidas pela auditoria são "Quem fez o quê, Quando e
 
 #### Vulnerabilidades
 
-O NIST define [vulnerabilidade][nistvuln] como 'Fragilidade em um sistema de informação, procedimentos de segurança do sistema,
-controles internos ou implementação que possa ser explorada ou desencadeada por uma fonte de ameaça.'
+O NIST define [vulnerabilidade][nistvuln] como 'Fragilidade em um sistema de informação, procedimentos de
+segurança do sistema, controles internos ou implementação que possa ser explorada ou desencadeada por uma fonte de ameaça.'
 
 Existem muitas fragilidades ou bugs em todas as aplicações grandes, mas o termo vulnerabilidade é geralmente reservado
 para aquelas fragilidades ou bugs onde existe o risco de um agente de ameaça poder explorá-las usando um vetor de ameaça.
@@ -133,7 +141,6 @@ Embora não seja uma segurança fundamental como tal, as aplicações web depend
 Tanto os desenvolvedores de aplicações quanto os engenheiros de segurança devem ter um bom entendimento de HTTP
 e a linguagem HTML juntamente com seus vários controles de segurança.
 
-
 A maioria das equipes de desenvolvimento de aplicações estará familiarizada com as comunicações HTTP e o padrão HTML
 mas, se necessário, consulte o treinamento do [W3 Consortium][w3consortium] ou da [W3 Schools][w3schools].
 O OWASP [Cheat Sheet Series][cheatsheets] fornece aos desenvolvedores de aplicações web as informações
@@ -145,7 +152,8 @@ necessárias para produzir software seguro:
 * Os cabeçalhos HTTP precisam sem seguros, veja a folha de dicas [HTTP Security Response Headers][csheaders]
 * Considere fortemente [HTTP Strict Transport Security][csstrict]
 * Se a aplicação tem uma funcionalidade de upload de arquivo, siga a folha de dicas [File Upload][csfile]
-* Certifique-se de que a política de segurança de conteúdo esteja em vigor usando a folha de dicas [Content Security Policy][cscsp]
+* Certifique-se de que a política de segurança de conteúdo esteja em vigor usando
+  a folha de dicas [Content Security Policy][cscsp]
 * Usando JWTs para uma aplicação Java? Consulte a folha de dicas [JSON Web Token][csjwt]
 * Armazenando our enviando objetos? Confira a folha de dicas [Deserialization][csserial]
 

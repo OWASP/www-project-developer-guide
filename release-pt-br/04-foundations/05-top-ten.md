@@ -32,8 +32,8 @@ na prática de Educação e Orientação dentro da função de negócios de Gove
 
 #### Visão geral
 
-O projeto [Top 10 Riscos de Segurança de Aplicações Web][top10project] do OWASP é provavelmente o conceito de segurança mais conhecido
-dentro da comunidade de segurança, alcançando ampla aceitação e fama logo após seu lançamento em 2003.
+O projeto [Top 10 Riscos de Segurança de Aplicações Web][top10project] do OWASP é provavelmente o conceito de segurança
+mais conhecido dentro da comunidade de segurança, alcançando ampla aceitação e fama logo após seu lançamento em 2003.
 Muitas vezes referida apenas como 'OWASP Top Dez', é uma lista que identifica as ameaças mais importantes
 para aplicações web e busca classificá-las de acordo com sua importância e gravidade.
 
@@ -41,8 +41,8 @@ A lista mudou ao longo do tempo, com alguns tipos de ameaças se tornando um pro
 e outras ameaças passando a ter um grau menor de risco à medida que as tecnologias mudam.
 A [versão mais recente][top10] foi lançada em 2021 e cada categoria está resumida abaixo.
 
-Observe que existem vários projetos 'OWASP Top Dez', por exemplo, o 'OWASP Top 10 para Applicações de Modelos de Linguagem de Grande Escala',
-portanto, para evitar confusão, o contexto deve ser observado ao se referir a essas listas.
+Observe que existem vários projetos 'OWASP Top Dez', por exemplo, o 'OWASP Top 10 para Applicações de Modelos de
+Linguagem de Grande Escala', portanto, para evitar confusão, o contexto deve ser observado ao se referir a essas listas.
 
 #### A01:2021 Controle de Acesso Quebrado
 
@@ -73,7 +73,8 @@ Um bom exemplo de proteção na transformação de dados é dado na categoria [A
 onde os dados confidenciais são criptografados adequadamente em um banco de dados, mas a função de exportação descriptografa
 os dados automaticamente, levando à exposição de dados confidenciais.
 
-Falhas de criptografia podem assumir muitas formas e podem ;ser sutis – um controle de segurança que parece seguro pode ser facilmente quebrado.
+Falhas de criptografia podem assumir muitas formas e podem ser sutis – um controle de
+segurança que parece seguro pode ser facilmente quebrado.
 Siga as [Folhas de Dicas do OWASP][a02cs] de criptografia para pôr os controles básicos de criptografia em vigor
 e considere implementar uma auditoria de criptografia.
 
@@ -81,8 +82,8 @@ e considere implementar uma auditoria de criptografia.
 
 A falta de validação e sanitização de entrada pode levar a exploits de injeção,
 e esse risco tem sido uma característica constante do OWASP Top Dez desde que a primeira versão foi publicada em 2003.
-Essas vulnerabilidades ocorrem quando dados hostis são usados ​​diretamente na aplicação
-e podem resultar em dados maliciosos sendo usados ​​para subverter a aplicação; veja [A03 Injeção][a03] para mais explicações.
+Essas vulnerabilidades ocorrem quando dados hostis são usados ​​diretamente na aplicação e podem resultar
+em dados maliciosos sendo usados ​​para subverter a aplicação; veja [A03 Injeção][a03] para mais explicações.
 
 O controle de segurança é direto: todas as entradas de fontes não confiáveis ​​devem ser sanitizadas e validadas.
 Veja as [Injection Cheat Sheets][a03cs] para os vários tipos de entrada e seus controles.
@@ -97,33 +98,39 @@ deve ser incorporado às atividades de design e arquitetura da aplicação.
 Na prática, isso envolve estabelecer um ciclo de desenvolvimento seguro que incentive
 a identificação de requisitos de segurança, o uso periódico de modelagem de ameaças
 e a consideração de bibliotecas e frameworks seguros existentes.
-Esta categoria foi introduzida na versão de 2021 e, por enquanto, as folhas de dicas de suporte cobrem apenas [modelagem de ameaças][cstm];
+Esta categoria foi introduzida na versão de 2021 e, por enquanto,
+as folhas de dicas de suporte cobrem apenas [modelagem de ameaças][cstm];
 à medida que esta categoria se torna mais estabelecida, espera-se que mais informação de suporte se torne disponível.
 
 #### A05:2021 Configuração Incorreta de Segurança
 
-Sistemas e aplicações grandes podem ser configuráveis, e essa configuração é frequentemente usada para proteger o sistema/aplicação.
+Sistemas e aplicações grandes podem ser configuráveis, e essa configuração é
+frequentemente usada para proteger o sistema/aplicação.
 Se essa configuração for mal aplicada, a aplicação pode não ser mais segura
 e, em vez disso, ficar vulnerável a exploits bem conhecidos. A página [A05 Configuração Incorreta de Segurança][a05] contém
 um exemplo comum de configuração incorreta em que contas padrão e suas senhas ainda estão habilitadas e inalteradas.
-Essas senhas e contas são geralmente bem conhecidas e fornecem uma maneira fácil para agentes maliciosos comprometerem aplicações.
+Essas senhas e contas são geralmente bem conhecidas e fornecem uma maneira
+fácil para agentes maliciosos comprometerem aplicações.
 
-Tanto o [OWASP Top 10 A05:2021][a05] quanto as [Folhas de Dicas do OWASP][a05cs] vinculadas fornecem estratégias para estabelecer
-um processo de configuração de segurança de aplicação repetível e coordenado para minimizar configuração incorreta.
+Tanto o [OWASP Top 10 A05:2021][a05] quanto as [Folhas de Dicas do OWASP][a05cs] vinculadas fornecem estratégias para
+estabelecer um processo de configuração de segurança de aplicação repetível
+e coordenado para minimizar configuração incorreta.
 
 #### A06:2021 Componentes Vulneráveis e Desatualizados
 
 Talvez uma das atividades de segurança mais fáceis e eficazes
 seja manter todas as dependências de software de terceiros atualizadas.
 Se uma dependência vulnerável for identificada por um agente malicioso durante a fase de reconhecimento de um ataque
-então há bancos de dados disponíveis, como o [Exploit Database][exploit], que fornecerão uma descrição de qualquer exploração.
+então há bancos de dados disponíveis, como o [Exploit Database][exploit],
+que fornecerão uma descrição de qualquer exploração.
 Esses bancos de dados também podem fornecer scripts e técnicas prontos para atacar uma determinada vulnerabilidade,
 fazendo que dependências vulneráveis ​​de software de terceiros sejam mais facilmente exploradas.
 
 O risco [A06 Componentes Vulneráveis ​​e Desatualizados][a06] destaca a importância dessa atividade,
 e recomenda que correções e atualizações para a plataforma, estruturas e dependências subjacentes
 sejam baseadas em uma avaliação de risco e feitas de forma 'oportuna'.
-Várias ferramentas podem ser usadas para analisar dependências e sinalizar vulnerabilidades, consulte as [Folhas de Dicas][a06cs] para elas.
+Várias ferramentas podem ser usadas para analisar dependências e sinalizar vulnerabilidades,
+consulte as [Folhas de Dicas][a06cs] para elas.
 
 #### A07:2021 Falhas de Identificação e Autenticação
 
@@ -143,7 +150,8 @@ considere o custo/benefício de usar esses fornecedores (geralmente comerciais).
 
 #### A08:2021 Falhas de Integridade de Software e de Dados
 
-Falhas de integridade de software e de dados estão relacionadas a código e infraestrutura que não protegem contra violações de integridade.
+Falhas de integridade de software e de dados estão relacionadas a código e
+infraestrutura que não protegem contra violações de integridade.
 Esta é uma categoria abrangente que descreve [ataques à cadeia de suprimento][cschain],
 atualização automática comprometida e uso de componentes não confiáveis, por exemplo.
 [A07 Falhas de Integridade de Software e de Dados][a08] foi uma nova categoria introduzida em 2021
@@ -152,9 +160,10 @@ mas isso certamente mudará para uma ameaça tão importante.
 
 #### A09:2021 Falhas de Registro e Monitoramento de Segurança
 
-Registro e o monitoramento ajudam a detectar, escalar e responder a violações ativas; sem isso, as violações não serão detectadas.
-[A09 Falhas de registro e monitoramento de segurança][a09] lista várias técnicas de registro e monitoramento que devem ser familiares,
-mas também outras que podem não ser tão comuns;
+Registro e o monitoramento ajudam a detectar, escalar e responder a violações ativas;
+sem isso, as violações não serão detectadas.
+[A09 Falhas de registro e monitoramento de segurança][a09] lista várias técnicas de registro e monitoramento que devem ser
+familiares, mas também outras que podem não ser tão comuns;
 por exemplo, monitorar a cadeia de suprimento de DevOps pode ser tão importante quanto monitorar a aplicação ou sistema.
 As [Folhas de Dicas][a09cs] fornecem orientação sobre registro adequado e também fornecem um vocabulário comum de registro.
 O objetivo deste vocabulário comum é fornecer registro que use um conjunto comum de termos, formatos e palavras-chave;
@@ -166,8 +175,8 @@ Referindo-se a [A10 Falsificação de Solicitação do Lado do Servidor (SSRF)][
 sempre que uma aplicação web estiver buscando um recurso remoto sem validar a URL fornecida pelo usuário.
 Esses exploits permitem que um invasor coaja a aplicação a enviar uma requisição elaborada para um destino inesperado,
 mesmo quando protegido por um firewall, VPN ou outro tipo de lista de controle de acesso à rede.
-A solicitação de recursos de URLs se tornou um cenário comum para aplicações web modernas, como resultado, a incidência de SSRF está aumentando,
-especialmente para [serviços na nuvem][cscloud] e arquiteturas de aplicações mais complexas.
+A solicitação de recursos de URLs se tornou um cenário comum para aplicações web modernas, como resultado, a incidência de
+SSRF está aumentando, especialmente para [serviços na nuvem][cscloud] e arquiteturas de aplicações mais complexas.
 
 Esta é uma nova categoria introduzida em 2021 com uma única (por enquanto) [Folha de Dicas][a10cs] que lida com SSRF.
 

@@ -33,7 +33,8 @@ os princípios são geralmente bastante diretos e acessíveis para todos os enge
 Uma compreensão razoável desses conceitos fundamentais permite que as equipes de desenvolvimento entendam e implementem
 segurança de software para o aplicativo ou sistema em desenvolvimento.
 Este Guia do desenvolvedor oferece apenas uma breve visão geral desses conceitos,
-para conhecimento aprofundado, consulte os diversos textos sobre segurança, como o [The Cyber ​​Security Body Of Knowledge][cbok].
+para conhecimento aprofundado, consulte os diversos textos sobre segurança,
+como o [The Cyber ​​Security Body Of Knowledge][cbok].
 
 Se mudanças estiverem sendo introduzidas na cultura de segurança de uma organização,
 certifique-se de que haja apoio da administração e metas claras a serem alcançadas.
