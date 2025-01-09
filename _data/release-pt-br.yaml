@@ -2,22 +2,22 @@ docs_list_title: Guia do Desenvolvedor
 docs:
 
 - title: '1. Introdução'
-  url: introduction
+  url: Introdução
 
 - title: '2. Fundamentos'
   url: fundamentos
 
 - title: '2.1 Fundamentos de segurança'
-  url: foundations/security_fundamentals
+  url: foundations/fundamentos_segurança
 
 - title: '2.2 Desenvolvimento e integração seguros'
   url: fundamentos/desenvolvimento_integracao_seguros
 
 - title: '2.3 Princípios de segurança'
-  url: foundations/security_principles
+  url: foundations/princípios_segurança
 
 - title: '2.4 Princípios de criptografia'
-  url: foundations/crypto_principles
+  url: foundations/princípios_criptografia
 
 - title: '2.5 OWASP Top 10'
   url: foundations/owasp_top_ten
@@ -26,16 +26,16 @@ docs:
   url: requisitos
 
 - title: '3.1 Requisitos na prática'
-  url: requisitos/requirements_in_practice
+  url: requisitos/requisitos_prática
 
 - title: '3.2 Perfil de risco'
-  url: requisitos/risk_profile
+  url: requisitos/perfil_risco
 
 - title: '3.3 OpenCRE'
   url: requisitos/opencre
 
 - title: '3.4 SecurityRAT'
-  url: requisitos/security_rat
+  url: requisitos/securityrat
 
 - title: '3.5 ASVS Requisitos'
   url: requisitos/asvs
@@ -50,103 +50,104 @@ docs:
   url: /design
 
 - title: '4.1 Modelagem de ameaças'
-  url: design/threat_modeling
+  url: design/modelagem_ameaças
 
 - title: '4.1.1 Modelagem de ameaças na prática'
-  url: design/threat_modeling/practical_threat_modeling
+  url: design/threat_modeling/modelagem_ameaças_prática
 
 - title: '4.1.2 pytm'
-  url: design/threat_modeling/pytm
+  url: design/modelagem_ameaças/pytm
 
 - title: '4.1.3 Threat Dragon'
-  url: design/threat_modeling/threat_dragon
+  url: design/modelagem_ameaças/threat_dragon
 
 - title: '4.1.4 Cornucopia'
-  url: design/threat_modeling/cornucopia
+  url: design/modelagem_ameaças/cornucopia
 
 - title: '4.1.5 LINDDUN GO'
-  url: design/threat_modeling/linddun_go
+  url: design/modelagem_ameaças/linddun_go
 
 - title: '4.1.6 Toolkit para Modelagem de Ameaças'
-  url: design/threat_modeling/toolkit
+  url: design/modelagem_ameaças/toolkit
 
 - title: '4.2 Lista de verificação para aplicação web'
-  url: design/web_app_checklist
+  url: design/lista_verificação_web
 
-- title: '4.2.1 Lista de verificação: Defina Requisitos de Segurança'
-  url: design/web_app_checklist/define_security_requirements
+- title: '4.2.1 Defina Requisitos de Segurança'
+  url: design/lista_verificação_web/define_security_requirements
 
-- title: '4.2.2 Lista de verificação: Utilize Frameworks e Bibliotecas de Segurança'
-  url: design/web_app_checklist/frameworks_libraries
+- title: '4.2.2 Utilize Frameworks e Bibliotecas de Segurança'
+  url: design/lista_verificação_web/frameworks_libraries
 
-- title: '4.2.3 Lista de verificação: Proteja Acesso ao Banco de Dados'
-  url: design/web_app_checklist/secure_database_access
+- title: '4.2.3 Proteja Acesso ao Banco de Dados'
+  url: design/lista_verificação_web/secure_database_access
 
-- title: '4.2.4 Lista de verificação: Codifique e Escape Dados'
-  url: design/web_app_checklist/encode_escape_data
+- title: '4.2.4 Codifique e Escape Dados'
+  url: design/lista_verificação_web/encode_escape_data
 
-- title: '4.2.5 Lista de verificação: Valide todas as entradas'
-  url: design/web_app_checklist/validate_inputs
+- title: '4.2.5 Valide todas as entradas'
+  url: design/lista_verificação_web/validate_inputs
 
-- title: '4.2.6 Lista de verificação: Implemente Identidade Digital'
-  url: design/web_app_checklist/digital_identity
+- title: '4.2.6 Implemente Identidade Digital'
+  url: design/lista_verificação_web/digital_identity
 
-- title: '4.2.7 Lista de verificação: Imponha Controles de Accesso'
-  url: design/web_app_checklist/access_controls
+- title: '4.2.7 Imponha Controles de Accesso'
+  url: design/lista_verificação_web/access_controls
 
-- title: '4.2.8 Lista de verificação: Proteja Dados em Todos os Lugares'
-  url: design/web_app_checklist/protect_data
+- title: '4.2.8 Proteja Dados em Todos os Lugares'
+  url: design/lista_verificação_web/protect_data
 
-- title: '4.2.9 Lista de verificação: Implemente Registro e Monitoramento de Segurança'
-  url: design/web_app_checklist/security_logging_and_monitoring
+- title: '4.2.9 Implemente Registro e Monitoramento de Segurança'
+  url: design/lista_verificação_web/security_logging_and_monitoring
 
-- title: '4.2.10 Lista de verificação: Trate todos os Errors e Exceções'
-  url: design/web_app_checklist/handle_errors_and_exceptions
+- title: '4.2.10 Trate todos os Errors e Exceções'
+  url: design/lista_verificação_web/handle_errors_and_exceptions
 
-- title: '4.3 Lista de verificação de aplicativos móveis'
-  url: design/mas_checklist
+- title: '4.3 MAS Lista de verificação'
+  url: design/mas_lista_verificação
 
 - title: '5. Implementação'
-  url: implementation
+  url: Implementação
 
 - title: '5.1 Documentação'
-  url: implementation/documentation
+  url: implementação/documentação
 
 - title: '5.1.1 Top 10 Controles Proativos'
-  url: implementation/documentation/proactive_controls
+  url: implementação/documentação/proactive_controls
 
-- title: '5.1.2 Práticas de Codificação Segura em Go'
-  url: implementation/documentation/go_scp
+- title: '5.1.2 GoSCP (Práticas de Codificação Segura em Go)'
+  url: implementação/documentação/go_scp
 
 - title: '5.1.3 Série de Folha de dicas'
-  url: implementation/documentation/cheatsheets
+  url: implementação/documentação/série_folha_dicas
 
 - title: '5.2 Dependências'
-  url: implementation/dependencies
+  url: implementação/dependências
 
 - title: '5.2.1 Dependency_Check'
-  url: implementation/dependencies/dependency_check
+  url: implementação/dependências/dependency_check
 
 - title: '5.2.2 Dependency_Track'
-  url: implementation/dependencies/dependency_track
+  url: implementação/dependências/dependency_track
 
 - title: '5.2.3 CycloneDX'
-  url: implementation/dependencies/cyclonedx
+  url: implementação/dependências/cyclonedx
 
 - title: '5.3 Bibliotecas Seguras'
-  url: implementation/secure_libraries
+  url: implementação/bibliotecas_seguras
 
-- title: '5.3.1 Biblioteca de API de Segurança Corporative'
-  url: implementation/secure_libraries/esapi
+- title: '5.3.1 ESAPI'
+  url: implementação/bibliotecas_seguras/esapi
 
-- title: '5.3.2 CSRFGuard library'
-  url: implementation/secure_libraries/csrf_guard
+- title: '5.3.2 CSRFGuard'
+  url: implementação/bibliotecas_seguras/csrfguard
 
-- title: '5.3.3 Projeto de Cabeçalhos Seguros do OWASP (OSHP)'
-  url: implementation/secure_libraries/secure_headers
+- title: '5.3.3 OSHP'
+  url: implementação/bibliotecas_seguras/oshp
 
-- title: '5.4 Enumeração de pontos fracos de aplicativos móveis'
-  url: implementation/mas_weakness_enumeration
+- title: '5.4 MASWE'
+  url: implementação/maswe
+
 
 - title: '6. Verificação'
   url: verification
