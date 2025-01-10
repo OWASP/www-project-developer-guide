@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 28310
-permalink: /release-pt-br/verificacao/frameworks/secure_codebox/
+permalink: /release-pt-br/verificação/frameworks/secure_codebox/
 
 ---
 

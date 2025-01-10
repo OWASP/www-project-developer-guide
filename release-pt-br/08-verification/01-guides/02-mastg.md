@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 28120
-permalink: /release-pt-br/verificacao/guias/mastg/
+permalink: /release-pt-br/verificação/guias/mastg/
 
 ---
 

@@ -32,7 +32,7 @@ Sections:
 
 5.1.1 [Top 10 Controles Proativos](01-proactive-controls.md)  
 5.1.2 [GoSCP (Práticas de Codificação Segura em Go)](02-go-scp.md)  
-5.1.3 [Série de Cheatsheet](03-cheatsheets.md)  
+5.1.3 [Série de Folha de dicas](03-cheatsheets.md)  
 
 ----
 

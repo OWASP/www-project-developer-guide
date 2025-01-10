@@ -19,19 +19,20 @@ Não há tradução para esta página, consulte a [versão original em inglês][
 
 Sections:
 
-6.1 [Guias](#verification-guides)  
-6.1.1 [WSTG (Guia de Testes de Segurança para Aplicações Web)](#web-security-testing-guide)  
-6.1.2 [MASTG (Guia de Tests MAS)](#mas-testing-guide)  
-6.1.3 [ASVS (Padrão de Verificação de Segurança de Aplicações)](#application-security-verification-standard)  
-6.2 [Ferramentas verificação](#verification-tools)  
-6.2.1 [Ferramentas DAST](#dast-tools)  
+6.1 [Guias](#guias)  
+6.1.1 [WSTG](#wstg)  
+6.1.2 [MASTG](#mastg)  
+6.1.3 [ASVS verificação](#asvs-verificação)  
+6.2 [Ferramentas](#ferramentas)  
+6.2.1 [Ferramentas DAST](#ferramentas-dast)  
 6.2.2 [Amass](#amass)  
-6.2.3 [OWTF (Framework de Teste Ofensivo de Web)](#offensive-web-testing-framework)  
+6.2.3 [OWTF](#owtf)  
 6.2.4 [Nettacker](#nettacker)  
-6.2.5 [OSHP (Projeto de Cabeçalhos Seguros OWASP)](#secure-headers-project)  
-6.3 [Verificacao frameworks](#verification-frameworks)  
+6.2.5 [OSHP verificação](#oshp-verificação)  
+6.3 [Frameworks](#frameworks)  
 6.3.1 [secureCodeBox](#securecodebox)  
-6.4 [Gerenciamento de vulnerabilidades](#verification-vulnerability-management)  
+6.4 [Gerenciamento de vulnerabilidades](#gerenciamento-de-vulnerabilidades)  
+6.4.1 [DefectDojo](#defectdojo)  
 
 ----
 

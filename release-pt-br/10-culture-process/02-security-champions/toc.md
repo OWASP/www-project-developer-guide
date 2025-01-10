@@ -31,7 +31,7 @@ Não há tradução para esta página, consulte a [versão original em inglês][
 Sections:  
 
 8.2.1 [Programa de Campeões de Segurança](01-security-champions-program.md)  
-8.2.2 [Guia de Campeões de Segurança](02-security-champions-guide.md)  
+8.2.2 [Security Champions Guide](02-security-champions-guide.md)  
 8.2.3 [Security Champions Playbook](03-security-champions-playbook.md)  
 
 ----

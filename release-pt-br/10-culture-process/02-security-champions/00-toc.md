@@ -20,7 +20,7 @@ Não há tradução para esta página, consulte a [versão original em inglês][
 Sections:
 
 8.2.1 [Programa de Campeões de Segurança](#security-champions-program)  
-8.2.2 [Guia de Campeões de Segurança](#security-champions-guide)  
+8.2.2 [Security Champions Guide](#security-champions-guide)  
 8.2.3 [Security Champions Playbook](#security-champions-playbook)  
 
 ----

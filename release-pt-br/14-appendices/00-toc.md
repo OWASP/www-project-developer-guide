@@ -15,19 +15,19 @@ order:
 
 ## 12. Appendices
 
-12.1 [O que fazer e o que não fazer na Implementação](#implementation-dos-and-donts)  
-12.1.1 [Segurança de containers](#container-security)  
-12.1.2 [Codificação segura](#secure-coding)  
-12.1.3 [Práticas de criptografia](#cryptographic-practices)  
-12.1.4 [Spoofing de Aplicação](#application-spoofing)  
-12.1.5 [Política de Segurança de Conteúdo (CSP)](#content-security-policy)  
-12.1.6 [Tratamento de erros e exceções](#exception-and-error-handling)  
-12.1.7 [Gerenciamento de arquivos](#file-management)  
-12.1.8 [Gerenciamento de memória](#memory-management)  
-12.2 [O que fazer e o que não fazer na Verificação](#verification-dos-and-donts)  
-12.2.1 [Ambiente seguro](#secure-environment)  
-12.2.2 [Hardening de sistemas](#system-hardening)  
-12.2.3 [Software de Código Aberto](#open-source-software)  
+12.1 [O que fazer e o que não fazer na Implementação](#o-que-fazer-e-o-que-não-fazer-na-implementação)  
+12.1.1 [Segurança de containers](#segurança-de-containers)  
+12.1.2 [Codificação segura](#codificação-segura)  
+12.1.3 [Práticas de criptografia](#práticas-de-criptografia)  
+12.1.4 [Spoofing de Aplicação](#spoofing-de-aplicação)  
+12.1.5 [Política de Segurança de Conteúdo (CSP)](#política-de-segurança-de-conteúdo-csp)  
+12.1.6 [Tratamento de erros e exceções](#tratamento-de-erros-e-exceções)  
+12.1.7 [Gerenciamento de arquivos](#gerenciamento-de-arquivos)  
+12.1.8 [Gerenciamento de memória](#gerenciamento-de-memória)  
+12.2 [O que fazer e o que não fazer na Verificação](#vo-que-fazer-e-o-que-não-fazer-na-verificação)  
+12.2.1 [Ambiente seguro](#ambiente-seguro)  
+12.2.2 [Hardening de sistemas](#hardening-de-sistemas)  
+12.2.3 [Software de Código Aberto](#software-de -código-aberto)  
 
 ----
 

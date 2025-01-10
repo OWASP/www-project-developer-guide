@@ -30,9 +30,9 @@ Não há tradução para esta página, consulte a [versão original em inglês][
 
 Sections:
 
-5.3.1 [ESAPI (Biblioteca de API de Segurança Corporative)](01-esapi.md)  
+5.3.1 [ESAPI](01-esapi.md)  
 5.3.2 [CSRFGuard](02-csrf-guard.md)  
-5.3.3 [OWASP Secure Headers Project](03-secure-headers.md)  
+5.3.3 [OSHP](03-secure-headers.md)  
 
 ----
 

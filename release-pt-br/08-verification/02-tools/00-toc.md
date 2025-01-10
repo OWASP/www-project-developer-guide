@@ -19,11 +19,11 @@ Não há tradução para esta página, consulte a [versão original em inglês][
 
 Sections:
 
-6.2.1 [Ferramentas DAST](#dast-tools)  
+6.2.1 [Ferramentas DAST](#ferramentas-dast)  
 6.2.2 [Amass](#amass)  
-6.2.3 [OWTF (Framework de Teste Ofensivo de Web)](#offensive-web-testing-framework)  
+6.2.3 [OWTF](#owtf)  
 6.2.4 [Nettacker](#nettacker)  
-6.2.5 [OSHP (Projeto de Cabeçalhos Seguros OWASP](#secure-headers-project)  
+6.2.5 [OSHP verificação](#oshp-verificação)  
 
 ----
 

@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 28100
-permalink: /release-pt-br/verificacao/guias/
+permalink: /release-pt-br/verificação/guias/
 
 ---
 
@@ -30,9 +30,9 @@ Não há tradução para esta página, consulte a [versão original em inglês][
 
 Sections:
 
-6.1.1 [WSTG (Guia de Testes de Segurança para Aplicações Web)](01-wstg.md)  
-6.1.2 [MASTG (Guia de Tests MAS)](02-mastg.md)  
-6.1.3 [ASVS (Padrão de Verificação de Segurança de Aplicações)](03-asvs.md)  
+6.1.1 [WSTG](01-wstg.md)  
+6.1.2 [MASTG)](02-mastg.md)  
+6.1.3 [ASVS verificação](03-asvs.md)  
 
 ----
 

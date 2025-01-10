@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 28000
-permalink: /release-pt-br/verificacao/
+permalink: /release-pt-br/verificação/
 
 ---
 
@@ -31,16 +31,16 @@ Não há tradução para esta página, consulte a [versão original em inglês][
 Sections:
 
 6.1 [Guias](01-guides/toc.md)  
-6.1.1 [WSTG (Guia de Testes de Segurança para Aplicações Web)](01-guides/01-wstg.md)  
-6.1.2 [MASTG (Guia de Tests MAS)](01-guides/02-mastg.md)  
-6.1.3 [ASVS (Padrão de Verificação de Segurança de Aplicações)](01-guides/03-asvs.md)  
-6.2 [Ferramentas verificação](02-tools/toc.md)  
+6.1.1 [WSTG](01-guides/01-wstg.md)  
+6.1.2 [MASTG)](01-guides/02-mastg.md)  
+6.1.3 [ASVS verificação](01-guides/03-asvs.md)  
+6.2 [Ferramentas](02-tools/toc.md)  
 6.2.1 [Ferramentas DAST](02-tools/01-dast.md)  
 6.2.2 [Amass](02-tools/02-amass.md)  
-6.2.3 [OWTF (Framework de Teste Ofensivo de Web)](02-tools/03-owtf.md)  
+6.2.3 [OWTF](02-tools/03-owtf.md)  
 6.2.4 [Nettacker](02-tools/04-nettacker.md)  
-6.2.5 [OSHP (Projeto de Cabeçalhos Seguros OWASP)](02-tools/05-secure-headers.md)  
-6.3 [Verificacao frameworks](03-frameworks/toc.md)  
+6.2.5 [OSHP verificação](02-tools/05-secure-headers.md)  
+6.3 [Frameworks](03-frameworks/toc.md)  
 6.3.1 [secureCodeBox](03-frameworks/01-secure-codebox.md)  
 6.4 [Gerenciamento de vulnerabilidades](04-vulnerability-management/toc.md)  
 6.4.1 [DefectDojo](04-vulnerability-management/01-defectdojo.md)  

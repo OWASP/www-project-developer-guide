@@ -30,9 +30,9 @@ Não há tradução para esta página, consulte a [versão original em inglês][
 
 Sections:
 
-14.2.1 [Ambiente seguro](01-secure-environment.md)  
-14.2.2 [Hardening de sistemas](02-system-hardening.md)  
-14.2.3 [Software de Código Aberto](03-open-source-software.md)  
+12.2.1 [Ambiente seguro](01-secure-environment.md)  
+12.2.2 [Hardening de sistemas](02-system-hardening.md)  
+12.2.3 [Software de Código Aberto](03-open-source-software.md)  
 
 ----
 

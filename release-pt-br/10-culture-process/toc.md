@@ -33,11 +33,11 @@ Sections:
 8.1 [Cultura de Segurança](01-security-culture.md)  
 8.2 [Campeões de Segurança](02-security-champions/toc.md)  
 8.2.1 [Programa de Campeões de Segurança](02-security-champions/01-security-champions-program.md)  
-8.2.2 [Guia de Campeões de Segurança](02-security-champions/02-security-champions-guide.md)  
+8.2.2 [Security Champions Guide](02-security-champions/02-security-champions-guide.md)  
 8.2.3 [Security Champions Playbook](02-security-champions/03-security-champions-playbook.md)  
-8.3 [SAMM (Modelo de Maturidade de Software Assurance)](03-samm.md)  
-8.4 [ASVS (Padrão de Verificação de Segurança de Aplicações)](04-asvs.md)  
-8.5 [MAS (Segurança de Aplicativos Móveis)](05-mas.md)  
+8.3 [SAMM](03-samm.md)  
+8.4 [ASVS processos](04-asvs.md)  
+8.5 [MAS processos](05-mas.md)  
 
 ----
 

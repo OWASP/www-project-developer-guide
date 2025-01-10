@@ -19,9 +19,9 @@ Não há tradução para esta página, consulte a [versão original em inglês][
 
 Sections:
 
-12.2.1 [Ambiente seguro](#secure-environment)  
-12.2.2 [Hardening de sistemas](#system-hardening)  
-12.2.3 [Software de Código Aberto](#open-source-software)  
+12.2.1 [Ambiente seguro](#ambiente-seguro)  
+12.2.2 [Hardening de sistemas](#hardening-de-sistemas)  
+12.2.3 [Software de Código Aberto](#software-de -código-aberto)  
 
 ----
 

@@ -30,9 +30,9 @@ Não há tradução para esta página, consulte a [versão original em inglês][
 
 Sections:
 
-11.1.1 [SAMM (Modelo de Maturidade de Software Assurance)](01-samm.md)  
-11.1.2 [ASVS (Padrão de Verificação de Segurança de Aplicações)](02-asvs.md)  
-11.1.3 [MAS (Segurança de Aplicativos Móveis)](03-mas.md)  
+11.1.1 [SAMM análise](01-samm.md)  
+11.1.2 [ASVS análise](02-asvs.md)  
+11.1.3 [MAS análise](03-mas.md)  
 
 ----
 

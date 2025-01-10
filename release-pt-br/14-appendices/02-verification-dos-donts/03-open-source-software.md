@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 34230
-permalink: /release-pt-br/appendices/verificacao/software_codigo_aberto/
+permalink: /release-pt-br/appendices/verificação/software_codigo_aberto/
 
 ---
 

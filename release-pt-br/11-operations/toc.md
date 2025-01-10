@@ -31,8 +31,8 @@ Não há tradução para esta página, consulte a [versão original em inglês][
 Sections:
 
 9.1 [Diretriz de DevSecOps](01-devsecops.md)  
-9.2 [Coraza Web Application Firewall](02-coraza.md)  
-9.3 [ModSecurity Web Application Firewall](03-modsecurity.md)  
+9.2 [Coraza WAF](02-coraza.md)  
+9.3 [ModSecurity WAF](03-modsecurity.md)  
 9.4 [OWASP CRS](04-crs.md)  
 
 ----

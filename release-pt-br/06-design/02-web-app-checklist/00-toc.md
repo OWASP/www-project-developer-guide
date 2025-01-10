@@ -19,16 +19,16 @@ Não há tradução para esta página, consulte a [versão original em inglês][
 
 Sections:
 
-4.2.1 [Defina Requisitos de Segurança](#checklist-define-security-requirements)  
-4.2.2 [Leverage Security Frameworks and Libraries](#checklist-leverage-security-frameworks-and-libraries)  
-4.2.3 [Secure Database Access](#checklist-secure-database-access)  
-4.2.4 [Codifique e Escape Dados](#checklist-encode-and-escape-data)  
-4.2.5 [Valide todas as entradas](#checklist-validate-all-inputs)  
-4.2.6 [Implement Digital Identity](#checklist-implement-digital-identity)  
-4.2.7 [Enforce Access Controls](#checklist-enforce-access-controls)  
-4.2.8 [Protect Data Everywhere](#checklist-protect-data-everywhere)  
-4.2.9 [Implemente Registro e Monitoramento de Segurança](#checklist-implement-security-logging-and-monitoring)  
-4.2.10 [Handle all Errors and Exceptions](#checklist-handle-all-errors-and-exceptions)  
+4.2.1 [Defina Requisitos de Segurança](#defina-requisitos-de-segurança)  
+4.2.2 [Utilize Frameworks e Bibliotecas de Segurança](#utilize-frameworks-e-bibliotecas-de-segurança)  
+4.2.3 [Proteja Acesso ao Banco de Dados](#proteja-acesso-ao-banco-de-dados)  
+4.2.4 [Codifique e Escape Dados](#codifique-e-escape-dados)  
+4.2.5 [Valide todas as entradas](#valide-todas-as-entradas)  
+4.2.6 [Implemente Identidade Digital](#implemente-identidade-digital)  
+4.2.7 [Imponha Controles de Accesso](#imponha-controles-de-accesso)  
+4.2.8 [Proteja Dados em Todos os Lugares](#proteja-dados-em-todos-os-lugares)  
+4.2.9 [Implemente Registro e Monitoramento de Segurança](#implemente-registro-e-monitoramento-de-segurança)  
+4.2.10 [Trate todos os Errors e Exceções](#trate todos-os-errors-e-exceções)  
 
 ----
 

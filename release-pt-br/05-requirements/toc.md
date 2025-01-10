@@ -30,13 +30,13 @@ Não há tradução para esta página, consulte a [versão original em inglês][
 
 Sections:
 
-3.1 [Requisitos em prática](01-requirements.md)  
+3.1 [Requisitos na prática](01-requirements.md)  
 3.2 [Perfil de risco](02-risk.md)  
 3.3 [OpenCRE](03-opencre.md)  
 3.4 [SecurityRAT](04-security-rat.md)  
-3.5 [ASVS Requisitos](05-asvs.md)  
-3.6 [MAS Requisitos](06-mas.md)  
-3.7 [SKF Requisitos](07-skf.md)  
+3.5 [ASVS requisitos](05-asvs.md)  
+3.6 [MAS requisitos)](06-mas.md)  
+3.7 [SKF requisitos](07-skf.md)  
 
 ----
 

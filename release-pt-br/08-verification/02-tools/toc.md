@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 28200
-permalink: /release-pt-br/verificacao/ferramentas/
+permalink: /release-pt-br/verificação/ferramentas/
 
 ---
 
@@ -32,9 +32,9 @@ Sections:
 
 6.2.1 [Ferramentas DAST](01-dast.md)  
 6.2.2 [Amass](02-amass.md)  
-6.2.3 [OWTF (Framework de Teste Ofensivo de Web)](03-owtf.md)  
+6.2.3 [OWTF](03-owtf.md)  
 6.2.4 [Nettacker](04-nettacker.md)  
-6.2.5 [OSHP (Projeto de Cabeçalhos Seguros OWASP](05-secure-headers.md)  
+6.2.5 [OSHP verificação](05-secure-headers.md)  
 
 ----
 

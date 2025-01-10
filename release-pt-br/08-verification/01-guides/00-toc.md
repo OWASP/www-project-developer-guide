@@ -19,9 +19,9 @@ Não há tradução para esta página, consulte a [versão original em inglês][
 
 Sections:
 
-6.1.1 [WSTG (Guia de Testes de Segurança para Aplicações Web)](#web-security-testing-guide)  
-6.1.2 [MASTG (Guia de Tests MAS)](#mas-testing-guide)  
-6.1.3 [ASVS (Padrão de Verificação de Segurança de Aplicações)](#application-security-verification-standard)  
+6.1.1 [WSTG](#wstg)  
+6.1.2 [MASTG](#mastg)  
+6.1.3 [ASVS verificação](#asvs-verificação)  
 
 ----
 

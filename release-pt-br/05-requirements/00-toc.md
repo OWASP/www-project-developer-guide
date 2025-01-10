@@ -20,13 +20,13 @@ Não há tradução para esta página, consulte a [versão original em inglês][
 
 Sections:
 
-3.1 [Requisitos em prática](#requirements-in-practice)  
-3.2 [Perfil de risco](#risk-profile)  
+3.1 [Requisitos na prática](#requisitos-na-prática)  
+3.2 [Perfil de risco](#perfil-de-risco)  
 3.3 [OpenCRE](#opencre)  
-3.4 [SecurityRAT](#security-rat)  
-3.5 [ASVS (Padrão de Verificação de Segurança de Aplicações](#application-security-verification-standard)  
-3.6 [MAS (Segurança de Aplicativos Móveis)](#mobile-application-security)  
-3.7 [SKF (Framework de Conhecimento de Segurança)](#security-knowledge-framework)  
+3.4 [SecurityRAT](#securityrat)  
+3.5 [ASVS requisitos](#asvs-requisitos)  
+3.6 [MAS requisitos](#mas-requisitos)  
+3.7 [SKF requisitos](#skf-requisitos)  
 
 ----
 

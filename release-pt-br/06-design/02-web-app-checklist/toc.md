@@ -31,15 +31,15 @@ Não há tradução para esta página, consulte a [versão original em inglês][
 Sections:
 
 4.2.1 [Defina Requisitos de Segurança](01-define-security-requirements.md)  
-4.2.2 [Leverage Security Frameworks and Libraries](02-frameworks-libraries.md)  
-4.2.3 [Secure Database Access](03-secure-database-access.md)  
+4.2.2 [Utilize Frameworks e Bibliotecas de Segurança](02-frameworks-libraries.md)  
+4.2.3 [Proteja Acesso ao Banco de Dados](03-secure-database-access.md)  
 4.2.4 [Codifique e Escape Dados](04-encode-escape-data.md)  
 4.2.5 [Valide todas as entradas](05-validate-inputs.md)  
-4.2.6 [Implement Digital Identity](06-digital-identity.md)  
-4.2.7 [Enforce Access Controls](07-access-controls.md)  
-4.2.8 [Protect Data Everywhere](08-protect-data.md)  
+4.2.6 [Implemente Identidade Digital](06-digital-identity.md)  
+4.2.7 [Imponha Controles de Accesso](07-access-controls.md)  
+4.2.8 [Proteja Dados em Todos os Lugares](08-protect-data.md)  
 4.2.9 [Implemente Registro e Monitoramento de Segurança](09-logging-monitoring.md)  
-4.2.10 [Handle all Errors and Exceptions](10-handle-errors-exceptions.md)  
+4.2.10 [Trate todos os Errors e Exceções](10-handle-errors-exceptions.md)  
 
 ----
 

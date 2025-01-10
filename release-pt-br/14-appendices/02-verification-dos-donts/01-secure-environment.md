@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 34210
-permalink: /release-pt-br/appendices/verificacao/ambiente_seguro/
+permalink: /release-pt-br/appendices/verificação/ambiente_seguro/
 
 ---
 

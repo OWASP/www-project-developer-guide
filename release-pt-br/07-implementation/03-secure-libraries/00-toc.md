@@ -19,9 +19,9 @@ Não há tradução para esta página, consulte a [versão original em inglês][
 
 Sections:
 
-5.3.1 [ESAPI (Biblioteca de API de Segurança Corporative)](#enterprise-security-api-library)  
+5.3.1 [ESAPI](#esapi)  
 5.3.2 [CSRFGuard](#csrfguard)  
-5.3.3 [OSHP (Projeto de Cabeçalhos Seguros OWASP)](#owasp-secure-headers-project)  
+5.3.3 [OSHP](#oshp)  
 
 ----
 

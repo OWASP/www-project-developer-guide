@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 28230
-permalink: /release-pt-br/verificacao/ferramentas/owtf/
+permalink: /release-pt-br/verificação/ferramentas/owtf/
 
 ---
 

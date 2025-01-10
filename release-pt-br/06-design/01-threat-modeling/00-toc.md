@@ -19,12 +19,12 @@ Não há tradução para esta página, consulte a [versão original em inglês][
 
 Sections:
 
-4.1.1 [Modelagem de ameaças em prática](#threat-modeling-in-practice)  
+4.1.1 [Modelagem de ameaças na prática](#modelagem-de-ameaças-na-prática)  
 4.1.2 [pytm](#pytm)  
 4.1.3 [Threat Dragon](#threat-dragon)  
 4.1.4 [Cornucopia](#cornucopia)  
 4.1.5 [LINDDUN GO](#linddun-go)  
-4.1.6 [Toolkit para Modelagem de Ameaças](#threat-modeling-toolkit)  
+4.1.6 [Toolkit para Modelagem de Ameaças](#toolkit-para-modelagem-de-ameaças)  
 
 ----
 

@@ -37,7 +37,7 @@ Sections:
 12.1.5 [Política de Segurança de Conteúdo (CSP)](05-content-security-policy.md)  
 12.1.6 [Tratamento de erros e exceções](06-exception-error-handling.md)  
 12.1.7 [Gerenciamento de arquivos](07-file-management.md)  
-12.1.8 [Gerenciamento de memória](08-memory-management.md)
+12.1.8 [Gerenciamento de memória](08-memory-management.md)  
 
 ----
 

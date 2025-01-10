@@ -19,14 +19,14 @@ Não há tradução para esta página, consulte a [versão original em inglês][
 
 Sections:
 
-8.1 [Cultura de Segurança](#security-culture)  
-8.2 [Campeões de Segurança](#security-champions)  
+8.1 [Cultura de Segurança](#cultura-de-segurança)  
+8.2 [Campeões de Segurança](#campeões-de-segurança)  
 8.2.1 [Programa de Campeões de Segurança](#security-champions-program)  
-8.2.2 [Guia de Campeões de Segurança](#security-champions-guide)  
+8.2.2 [Security Champions Guide](#security-champions-guide)  
 8.2.3 [Security Champions Playbook](#security-champions-playbook)  
-8.3 [SAMM (Modelo de Maturidade de Software Assurance)](#software-assurance-maturity-model)  
-8.4 [ASVS (Padrão de Verificação de Segurança de Aplicações)](#application-security-verification-standard)  
-8.5 [MAS (Segurança de Aplicativos Móveis)](#mobile-application-security)  
+8.3 [SAMM](#samm)  
+8.4 [ASVS processos](#asvs-processos)  
+8.5 [MAS processos](#mas-processos)  
 
 ----
 

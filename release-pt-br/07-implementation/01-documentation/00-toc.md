@@ -19,9 +19,9 @@ Não há tradução para esta página, consulte a [versão original em inglês][
 
 Sections:
 
-5.1.1 [Top 10 Controles Proativos](#top-proactive-controls)  
-5.1.2 [GoSCP (Práticas de Codificação Segura em Go)](#go-secure-coding-practices)  
-5.1.3 [Série de Cheatsheet](#cheatsheet-series)  
+5.1.1 [Top 10 Controles Proativos](#top-controles-proativos)  
+5.1.2 [GoSCP (Práticas de Codificação Segura em Go)](#goscp-práticas-de-codificação-segura-em-go)  
+5.1.3 [Série de Folha de dicas](#série-de-folha-de-dicas)  
 
 ----
 
