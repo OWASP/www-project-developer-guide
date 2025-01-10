@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 26150
-permalink: /release-pt-br/design/modelagem_ameacas/linddun-go/
+permalink: /release-pt-br/design/modelagem_ameaças/linddun-go/
 
 ---
 

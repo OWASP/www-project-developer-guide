@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 31020
-permalink: /release-pt-br/operacoes/coraza_waf/
+permalink: /release-pt-br/operações/coraza/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-pt-br/operacoes/coraza_waf/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
-### 9.2 Coraza Web Application Firewall
+### 9.2 Coraza WAF
 
 Não há tradução para esta página, consulte a [versão original em inglês][release1102].
 

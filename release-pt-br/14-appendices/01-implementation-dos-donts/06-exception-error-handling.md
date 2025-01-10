@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 34160
-permalink: /release-pt-br/appendices/implementacao/tratamento_erros_excecoes/
+permalink: /release-pt-br/appendices/implementação/tratamento_erros_exceções/
 
 ---
 

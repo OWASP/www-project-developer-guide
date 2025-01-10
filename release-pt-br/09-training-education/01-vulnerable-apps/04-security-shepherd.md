@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 29140
-permalink: /release-pt-br/treinamento_educacao/aplicacoes_vulneraveis/security_shepherd/
+permalink: /release-pt-br/treinamento_educação/aplicações_vulneráveis/security_shepherd/
 
 ---
 

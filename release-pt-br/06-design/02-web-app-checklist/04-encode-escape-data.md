@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 26240
-permalink: /release-pt-br/design/lista_verificacao_web/codifique_escape_dados/
+permalink: /release-pt-br/design/lista_verificação_web/codifique_escape_dados/
 
 ---
 

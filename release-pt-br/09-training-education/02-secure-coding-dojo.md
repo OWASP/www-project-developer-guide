@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 29200
-permalink: /release-pt-br/treinamento_educacao/secure_coding_dojo/
+permalink: /release-pt-br/treinamento_educação/secure_coding_dojo/
 
 ---
 

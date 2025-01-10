@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 25040
-permalink: /release-pt-br/requisitos/security_rat/
+permalink: /release-pt-br/requisitos/securityrat/
 
 ---
 

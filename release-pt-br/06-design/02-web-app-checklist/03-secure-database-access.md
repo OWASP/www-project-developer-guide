@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 26230
-permalink: /release-pt-br/design/lista_verificacao_web/secure_database_access/
+permalink: /release-pt-br/design/lista_verificação_web/proteja_acesso_banco_dados/
 
 ---
 

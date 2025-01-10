@@ -2,25 +2,25 @@ docs_list_title: Guia do Desenvolvedor
 docs:
 
 - title: '1. Introdução'
-  url: Introdução
+  url: introdução
 
 - title: '2. Fundamentos'
   url: fundamentos
 
 - title: '2.1 Fundamentos de segurança'
-  url: foundations/fundamentos_segurança
+  url: fundamentos/fundamentos_segurança
 
 - title: '2.2 Desenvolvimento e integração seguros'
   url: fundamentos/desenvolvimento_integracao_seguros
 
 - title: '2.3 Princípios de segurança'
-  url: foundations/princípios_segurança
+  url: fundamentos/princípios_segurança
 
 - title: '2.4 Princípios de criptografia'
-  url: foundations/princípios_criptografia
+  url: fundamentos/princípios_criptografia
 
 - title: '2.5 OWASP Top 10'
-  url: foundations/owasp_top_ten
+  url: fundamentos/owasp_top_ten
 
 - title: '3. Requisitos'
   url: requisitos
@@ -53,7 +53,7 @@ docs:
   url: design/modelagem_ameaças
 
 - title: '4.1.1 Modelagem de ameaças na prática'
-  url: design/threat_modeling/modelagem_ameaças_prática
+  url: design/modelagem_ameaças/prática
 
 - title: '4.1.2 pytm'
   url: design/modelagem_ameaças/pytm
@@ -74,46 +74,46 @@ docs:
   url: design/lista_verificação_web
 
 - title: '4.2.1 Defina Requisitos de Segurança'
-  url: design/lista_verificação_web/define_security_requirements
+  url: design/lista_verificação_web/defina_requisitos_segurança
 
 - title: '4.2.2 Utilize Frameworks e Bibliotecas de Segurança'
-  url: design/lista_verificação_web/frameworks_libraries
+  url: design/lista_verificação_web/frameworks_bibliotecas
 
 - title: '4.2.3 Proteja Acesso ao Banco de Dados'
-  url: design/lista_verificação_web/secure_database_access
+  url: design/lista_verificação_web/proteja_acesso_banco_dados
 
 - title: '4.2.4 Codifique e Escape Dados'
-  url: design/lista_verificação_web/encode_escape_data
+  url: design/lista_verificação_web/codifique_escape_dados
 
 - title: '4.2.5 Valide todas as entradas'
-  url: design/lista_verificação_web/validate_inputs
+  url: design/lista_verificação_web/valide_entradas
 
 - title: '4.2.6 Implemente Identidade Digital'
-  url: design/lista_verificação_web/digital_identity
+  url: design/lista_verificação_web/implemente_identidade_digital
 
 - title: '4.2.7 Imponha Controles de Accesso'
-  url: design/lista_verificação_web/access_controls
+  url: design/lista_verificação_web/imponha_controles_accesso
 
 - title: '4.2.8 Proteja Dados em Todos os Lugares'
-  url: design/lista_verificação_web/protect_data
+  url: design/lista_verificação_web/proteja_dados
 
 - title: '4.2.9 Implemente Registro e Monitoramento de Segurança'
-  url: design/lista_verificação_web/security_logging_and_monitoring
+  url: design/lista_verificação_web/registro_monitoramento_segurança
 
 - title: '4.2.10 Trate todos os Errors e Exceções'
-  url: design/lista_verificação_web/handle_errors_and_exceptions
+  url: design/lista_verificação_web/trate_todos_errors_exceções
 
 - title: '4.3 MAS Lista de verificação'
   url: design/mas_lista_verificação
 
 - title: '5. Implementação'
-  url: Implementação
+  url: implementação
 
 - title: '5.1 Documentação'
   url: implementação/documentação
 
 - title: '5.1.1 Top 10 Controles Proativos'
-  url: implementação/documentação/proactive_controls
+  url: implementação/documentação/controles_proativos
 
 - title: '5.1.2 GoSCP (Práticas de Codificação Segura em Go)'
   url: implementação/documentação/go_scp
@@ -245,13 +245,13 @@ docs:
   url: construção_cultura_amadurecimento_processos/campeões_segurança
 
 - title: '8.2.1 Programa de Campeões de Segurança'
-  url: construção_cultura_amadurecimento_processos/campeões_segurança/programa_campeões_segurança
+  url: construção_cultura_amadurecimento_processos/campeões_segurança/programa
 
 - title: '8.2.2 Guia de Campeões de Segurança'
-  url: construção_cultura_amadurecimento_processos/campeões_segurança/security_champions_guide
+  url: construção_cultura_amadurecimento_processos/campeões_segurança/guia
 
 - title: '8.2.3 Security Champions Playbook'
-  url: construção_cultura_amadurecimento_processos/campeões_segurança/security_champions_playbook
+  url: construção_cultura_amadurecimento_processos/campeões_segurança/playbook
 
 - title: '8.3 SAMM'
   url: construção_cultura_amadurecimento_processos/samm

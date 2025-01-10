@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 26400
-permalink: /release-pt-br/design/mas_lista_verificacao/
+permalink: /release-pt-br/design/mas_lista_verificação/
 
 ---
 

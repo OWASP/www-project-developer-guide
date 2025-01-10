@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 27000
-permalink: /release-pt-br/implementacao/
+permalink: /release-pt-br/implementação/
 
 ---
 

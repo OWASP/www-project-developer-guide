@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 26220
-permalink: /release-pt-br/design/lista_verificacao_web/frameworks_libraries/
+permalink: /release-pt-br/design/lista_verificação_web/frameworks_bibliotecas/
 
 ---
 

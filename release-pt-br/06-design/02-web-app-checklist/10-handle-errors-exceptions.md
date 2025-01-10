@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 26300
-permalink: /release-pt-br/design/lista_verificacao_web/handle_errors_and_exceptions/
+permalink: /release-pt-br/design/lista_verificação_web/trate_todos_errors_exceções/
 
 ---
 

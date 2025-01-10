@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 26210
-permalink: /release-pt-br/design/lista_verificacao_web/defina_requisitos_seguranca/
+permalink: /release-pt-br/design/lista_verificação_web/defina_requisitos_segurança/
 
 ---
 

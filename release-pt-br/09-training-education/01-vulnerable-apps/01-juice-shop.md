@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 29110
-permalink: /release-pt-br/treinamento_educacao/aplicacoes_vulneraveis/juice_shop/
+permalink: /release-pt-br/treinamento_educação/aplicações_vulneráveis/juice_shop/
 
 ---
 

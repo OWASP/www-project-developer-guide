@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 26110
-permalink: /release-pt-br/design/modelagem_ameacas/pratica/
+permalink: /release-pt-br/design/modelagem_ameaças/prática
 
 ---
 

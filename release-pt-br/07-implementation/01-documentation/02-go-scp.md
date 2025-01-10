@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 27120
-permalink: /release-pt-br/implementacao/documentacao/go_scp/
+permalink: /release-pt-br/implementação/documentação/go_scp/
 
 ---
 

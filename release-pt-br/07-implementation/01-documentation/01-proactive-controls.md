@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 27110
-permalink: /release-pt-br/implementacao/documentacao/controles_proativos/
+permalink: /release-pt-br/implementação/documentação/controles_proativos/
 
 ---
 

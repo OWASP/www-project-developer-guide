@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 29130
-permalink: /release-pt-br/treinamento_educacao/aplicacoes_vulneraveis/pygoat/
+permalink: /release-pt-br/treinamento_educação/aplicações_vulneráveis/pygoat/
 
 ---
 

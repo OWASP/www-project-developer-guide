@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 34140
-permalink: /release-pt-br/appendices/implementacao/spoofing_applicacao/
+permalink: /release-pt-br/appendices/implementação/spoofing_applicação/
 
 ---
 

@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 34180
-permalink: /release-pt-br/appendices/implementacao/gerenciamento_memoria/
+permalink: /release-pt-br/appendices/implementação/gerenciamento_memória/
 
 ---
 

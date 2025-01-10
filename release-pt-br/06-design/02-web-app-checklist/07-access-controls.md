@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 26270
-permalink: /release-pt-br/design/lista_verificacao_web/access_controls/
+permalink: /release-pt-br/design/lista_verificação_web/imponha_controles_accesso/
 
 ---
 

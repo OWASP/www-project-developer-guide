@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 27330
-permalink: /release-pt-br/implementacao/bibliotecas_seguras/cabecalhos_seguros/
+permalink: /release-pt-br/implementação/bibliotecas_seguras/oshp/
 
 ---
 

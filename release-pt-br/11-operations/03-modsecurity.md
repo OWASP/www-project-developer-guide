@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 31030
-permalink: /release-pt-br/operacoes/modsecurity_waf/
+permalink: /release-pt-br/operações/modsecurity/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-pt-br/operacoes/modsecurity_waf/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
-### 9.3 ModSecurity Web Application Firewall
+### 9.3 ModSecurity WAF
 
 Não há tradução para esta página, consulte a [versão original em inglês][release1103].
 

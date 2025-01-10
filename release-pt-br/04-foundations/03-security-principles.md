@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 24030
-permalink: /release-pt-br/fundamentos/principios_seguranca/
+permalink: /release-pt-br/fundamentos/princípios_segurança/
 
 ---
 

@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 32000
-permalink: /release-pt-br/metricas/
+permalink: /release-pt-br/métricas/
 
 ---
 

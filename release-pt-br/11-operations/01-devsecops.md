@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 31010
-permalink: /release-pt-br/operacoes/diretriz_devsecops/
+permalink: /release-pt-br/operações/diretriz_devsecops/
 
 ---
 

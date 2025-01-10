@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Amauri Bizerra
 document: OWASP Developer Guide
 order: 24010
-permalink: /release-pt-br/foundations/security_fundamentals/
+permalink: /release-pt-br/fundamentos/fundamentos_segurança/
 
 ---
 

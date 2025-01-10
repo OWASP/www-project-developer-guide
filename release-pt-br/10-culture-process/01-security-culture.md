@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 30010
-permalink: /release-pt-br/construcao_cultura_amadurecimento_processos/cultura_seguranca/
+permalink: /release-pt-br/construção_cultura_amadurecimento_processos/cultura_segurança/
 
 ---
 

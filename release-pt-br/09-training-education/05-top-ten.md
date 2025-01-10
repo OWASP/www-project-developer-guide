@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 29230
-permalink: /release-pt-br/treinamento_educacao/owasp_top_ten/
+permalink: /release-pt-br/treinamento_educação/owasp_top_ten/
 
 ---
 

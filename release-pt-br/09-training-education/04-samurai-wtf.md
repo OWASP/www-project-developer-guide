@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 29220
-permalink: /release-pt-br/treinamento_educacao/samurai_wtf/
+permalink: /release-pt-br/treinamento_educação/samuraiwtf/
 
 ---
 

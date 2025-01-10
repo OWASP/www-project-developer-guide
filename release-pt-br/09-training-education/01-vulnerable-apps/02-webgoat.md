@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 29120
-permalink: /release-pt-br/treinamento_educacao/aplicacoes_vulneraveis/webgoat/
+permalink: /release-pt-br/treinamento_educação/aplicações_vulneráveis/webgoat/
 
 ---
 

@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 26130
-permalink: /release-pt-br/design/modelagem_ameacas/threat_dragon/
+permalink: /release-pt-br/design/modelagem_ameaças/threat_dragon/
 
 ---
 

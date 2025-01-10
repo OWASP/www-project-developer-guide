@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 27210
-permalink: /release-pt-br/implementacao/dependencias/dependency_check/
+permalink: /release-pt-br/implementação/dependências/dependency_check/
 
 ---
 

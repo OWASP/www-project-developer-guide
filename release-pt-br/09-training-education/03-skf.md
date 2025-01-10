@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 29210
-permalink: /release-pt-br/treinamento_educacao/skf/
+permalink: /release-pt-br/treinamento_educação/skf/
 
 ---
 

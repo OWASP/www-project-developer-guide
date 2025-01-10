@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 27230
-permalink: /release-pt-br/implementacao/dependencias/cyclonedx/
+permalink: /release-pt-br/implementação/dependências/cyclonedx/
 
 ---
 

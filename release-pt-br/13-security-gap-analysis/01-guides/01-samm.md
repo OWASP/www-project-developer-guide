@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 33110
-permalink: /release-pt-br/analise_lacunas_seguranca/guides/samm/
+permalink: /release-pt-br/análise_lacunas_segurança/guias/samm/
 
 ---
 

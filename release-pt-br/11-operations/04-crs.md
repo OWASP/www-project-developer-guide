@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 31040
-permalink: /release-pt-br/operacoes/crs/
+permalink: /release-pt-br/operações/crs/
 
 ---
 

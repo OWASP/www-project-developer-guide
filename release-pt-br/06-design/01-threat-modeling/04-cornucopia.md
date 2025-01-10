@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 26140
-permalink: /release-pt-br/design/modelagem_ameacas/cornucopia/
+permalink: /release-pt-br/design/modelagem_ameaças/cornucopia/
 
 ---
 
