@@ -94,8 +94,6 @@ jobs:
           sudo apt-get install aspell aspell-pt
 
       - name: Spell check PT-BR release
-        # disabled for now, until translation has less English in it
-        if: false
         run: |
           python -m pyspelling --config .spellcheck-pt-br.yaml
 

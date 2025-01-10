@@ -1,6 +1,6 @@
 ---
 
-title: Verificacao Frameworks
+title: Verificação Frameworks
 layout: col-document
 tags: Guia do Desenvolvedor do OWASP
 contributors:
@@ -24,7 +24,7 @@ permalink: /release-pt-br/verificação/frameworks/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
-### 6.3 Verificacao frameworks
+### 6.3 Verificação frameworks
 
 Não há tradução para esta página, consulte a [versão original em inglês][release0830].
 
