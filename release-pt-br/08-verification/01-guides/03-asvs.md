@@ -1,6 +1,6 @@
 ---
 
-title: ASVS (Padrão de Verificação de Segurança de Aplicações)
+title: ASVS verificação
 layout: col-document
 tags: Guia do Desenvolvedor do OWASP
 contributors:
@@ -24,7 +24,9 @@ permalink: /release-pt-br/verificacao/guias/asvs/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
-### 6.1.3 ASVS (Padrão de Verificação de Segurança de Aplicações)
+### 6.1.3 ASVS verificação
+
+Padrão de Verificação de Segurança de Aplicações (ASVS)
 
 Não há tradução para esta página, consulte a [versão original em inglês][release080103].
 

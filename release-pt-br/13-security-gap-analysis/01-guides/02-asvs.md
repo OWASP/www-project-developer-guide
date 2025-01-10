@@ -24,7 +24,9 @@ permalink: /release-pt-br/analise_lacunas_seguranca/guides/asvs/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
-### 11.1.2 ASVS (Padrão de Verificação de Segurança de Aplicações)
+### 11.1.2 ASVS análise
+
+Padrão de Verificação de Segurança de Aplicações (ASVS)
 
 Não há tradução para esta página, consulte a [versão original em inglês][release130102].
 

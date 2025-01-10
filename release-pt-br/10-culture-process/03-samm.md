@@ -24,7 +24,9 @@ permalink: /release-pt-br/construcao_cultura_amadurecimento_processos/samm/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
-### 8.3 SAMM (Modelo de Maturidade de Software Assurance)
+### 8.3 SAMM
+
+Modelo de Maturidade de Software Assurance (SAMM)
 
 Não há tradução para esta página, consulte a [versão original em inglês][release1003].
 

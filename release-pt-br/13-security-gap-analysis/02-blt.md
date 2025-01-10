@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 33200
-permalink: /release-pt-br/analise_lacunas_seguranca/bug_logging_tool/
+permalink: /release-pt-br/análise_lacunas_segurança/blt/
 
 ---
 
@@ -24,7 +24,9 @@ permalink: /release-pt-br/analise_lacunas_seguranca/bug_logging_tool/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
-### 11.2 BLT (Ferramenta de registro de bugs)
+### 11.2 BLT
+
+Ferramenta de registro de bugs (BLT)
 
 Não há tradução para esta página, consulte a [versão original em inglês][release1302].
 

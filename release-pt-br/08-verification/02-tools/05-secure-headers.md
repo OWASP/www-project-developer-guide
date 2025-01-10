@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 28250
-permalink: /release-pt-br/verificacao/ferramentas/secure_headers/
+permalink: /release-pt-br/verificacao/ferramentas/oshp/
 
 ---
 
@@ -24,7 +24,9 @@ permalink: /release-pt-br/verificacao/ferramentas/secure_headers/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
-### 6.2.5 OSHP (Projeto de Cabeçalhos Seguros OWASP)
+### 6.2.5 OSHP verificação
+
+Projeto de Cabeçalhos Seguros OWASP (OSHP)
 
 Não há tradução para esta página, consulte a [versão original em inglês][release080205].
 

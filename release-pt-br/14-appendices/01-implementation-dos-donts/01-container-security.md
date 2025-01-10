@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 34110
-permalink: /release-pt-br/appendices/implementacao//seguranca_containers/
+permalink: /release-pt-br/appendices/implementacao/seguranca_containers/
 
 ---
 

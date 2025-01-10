@@ -1,6 +1,6 @@
 ---
 
-title: Guia de Campeões de Segurança
+title: Security Champions Guide
 layout: col-document
 tags: Guia do Desenvolvedor do OWASP
 contributors:
@@ -24,7 +24,9 @@ permalink: /release-pt-br/construcao_cultura_amadurecimento_processos/campeoes_s
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
-### 8.2.2 Guia de Campeões de Segurança
+### 8.2.2 Security Champions Guide
+
+Guia de Campeões de Segurança
 
 Não há tradução para esta página, consulte a [versão original em inglês][release1022].
 

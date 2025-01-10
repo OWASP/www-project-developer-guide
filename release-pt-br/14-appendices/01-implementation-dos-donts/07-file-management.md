@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 34170
-permalink: /release-pt-br/appendices/implementacao//gerenciamento_arquivos/
+permalink: /release-pt-br/appendices/implementacao/gerenciamento_arquivos/
 
 ---
 

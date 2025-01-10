@@ -34,9 +34,9 @@ permalink: /release-pt-br/
 3.2 [Perfil de risco](05-requirements/02-risk.md)  
 3.3 [OpenCRE](05-requirements/03-opencre.md)  
 3.4 [SecurityRAT](05-requirements/04-security-rat.md)  
-3.5 [ASVS Requisitos](05-requirements/05-asvs.md)  
-3.6 [MAS Requisitos)](05-requirements/06-mas.md)  
-3.7 [SKF Requisitos](05-requirements/07-skf.md)  
+3.5 [ASVS requisitos](05-requirements/05-asvs.md)  
+3.6 [MAS requisitos)](05-requirements/06-mas.md)  
+3.7 [SKF requisitos](05-requirements/07-skf.md)  
 
 4 **[Design](06-design/toc.md)**  
 4.1 [Modelagem de ameaças](06-design/01-threat-modeling/toc.md)  
@@ -76,16 +76,16 @@ permalink: /release-pt-br/
 
 6 **[Verificação](08-verification/toc.md)**  
 6.1 [Guias](08-verification/01-guides/toc.md)  
-6.1.1 [WSTG (Guia de Testes de Segurança para Aplicações Web)](08-verification/01-guides/01-wstg.md)  
-6.1.2 [MASTG (Guia de Tests MAS)](08-verification/01-guides/02-mastg.md)  
-6.1.3 [ASVS (Padrão de Verificação de Segurança de Aplicações)](08-verification/01-guides/03-asvs.md)  
-6.2 [Ferramentas verificação](08-verification/02-tools/toc.md)  
+6.1.1 [WSTG](08-verification/01-guides/01-wstg.md)  
+6.1.2 [MASTG)](08-verification/01-guides/02-mastg.md)  
+6.1.3 [ASVS verificação](08-verification/01-guides/03-asvs.md)  
+6.2 [Ferramentas](08-verification/02-tools/toc.md)  
 6.2.1 [Ferramentas DAST](08-verification/02-tools/01-dast.md)  
 6.2.2 [Amass](08-verification/02-tools/02-amass.md)  
-6.2.3 [OWTF (Framework de Teste Ofensivo de Web)](08-verification/02-tools/03-owtf.md)  
+6.2.3 [OWTF](08-verification/02-tools/03-owtf.md)  
 6.2.4 [Nettacker](08-verification/02-tools/04-nettacker.md)  
-6.2.5 [OSHP (Projeto de Cabeçalhos Seguros OWASP)](08-verification/02-tools/05-secure-headers.md)  
-6.3 [Verificacao frameworks](08-verification/03-frameworks/toc.md)  
+6.2.5 [OSHP verificação](08-verification/02-tools/05-secure-headers.md)  
+6.3 [Frameworks](08-verification/03-frameworks/toc.md)  
 6.3.1 [secureCodeBox](08-verification/03-frameworks/01-secure-codebox.md)  
 6.4 [Gerenciamento de vulnerabilidades](08-verification/04-vulnerability-management/toc.md)  
 6.4.1 [DefectDojo](08-verification/04-vulnerability-management/01-defectdojo.md)  
@@ -97,7 +97,7 @@ permalink: /release-pt-br/
 7.1.3 [PyGoat](09-training-education/01-vulnerable-apps/03-pygoat.md)  
 7.1.4 [Security Shepherd](09-training-education/01-vulnerable-apps/04-security-shepherd.md)  
 7.2 [Secure Coding Dojo](09-training-education/02-secure-coding-dojo.md)  
-7.3 [SKF training](09-training-education/03-skf.md)  
+7.3 [SKF](09-training-education/03-skf.md)  
 7.4 [SamuraiWTF](09-training-education/04-samurai-wtf.md)  
 7.5 [Projeto OWASP Top 10](09-training-education/05-top-ten.md)  
 7.6 [Mobile Top 10](09-training-education/06-mobile-top-ten.md)  
@@ -109,26 +109,26 @@ permalink: /release-pt-br/
 8.1 [Cultura de Segurança](10-culture-process/01-security-culture.md)  
 8.2 [Campeões de Segurança](10-culture-process/02-security-champions/toc.md)  
 8.2.1 [Programa de Campeões de Segurança](10-culture-process/02-security-champions/01-security-champions-program.md)  
-8.2.2 [Guia de Campeões de Segurança](10-culture-process/02-security-champions/02-security-champions-guide.md)  
+8.2.2 [Security Champions Guide](10-culture-process/02-security-champions/02-security-champions-guide.md)  
 8.2.3 [Security Champions Playbook](10-culture-process/02-security-champions/03-security-champions-playbook.md)  
-8.3 [SAMM (Modelo de Maturidade de Software Assurance)](10-culture-process/03-samm.md)  
-8.4 [ASVS (Padrão de Verificação de Segurança de Aplicações)](10-culture-process/04-asvs.md)  
-8.5 [MAS (Segurança de Aplicativos Móveis)](10-culture-process/05-mas.md)  
+8.3 [SAMM](10-culture-process/03-samm.md)  
+8.4 [ASVS processos](10-culture-process/04-asvs.md)  
+8.5 [MAS processos](10-culture-process/05-mas.md)  
 
 9 **[Operações](11-operations/toc.md)**  
 9.1 [Diretriz de DevSecOps](11-operations/01-devsecops.md)  
-9.2 [Coraza Web Application Firewall](11-operations/02-coraza.md)  
-9.3 [ModSecurity Web Application Firewall](11-operations/03-modsecurity.md)  
+9.2 [Coraza WAF](11-operations/02-coraza.md)  
+9.3 [ModSecurity WAF](11-operations/03-modsecurity.md)  
 9.4 [OWASP CRS](11-operations/04-crs.md)  
 
 10 **[Métricas](12-metrics/toc.md)**  
 
 11 **[Security gap analysis](13-security-gap-analysis/01-guides/toc.md)**  
 11.1 [Guias](13-security-gap-analysis/01-guides/toc.md)  
-11.1.1 [Software Assurance Maturity Model](13-security-gap-analysis/01-guides/01-samm.md)  
-11.1.2 [ASVS (Padrão de Verificação de Segurança de Aplicações)](13-security-gap-analysis/01-guides/02-asvs.md)  
-11.1.3 [MAS (Segurança de Aplicativos Móveis)](13-security-gap-analysis/01-guides/03-mas.md)  
-11.2 [BLT (Ferramenta de registro de bugs)](13-security-gap-analysis/02-blt.md)  
+11.1.1 [SAMM análise](13-security-gap-analysis/01-guides/01-samm.md)  
+11.1.2 [ASVS análise](13-security-gap-analysis/01-guides/02-asvs.md)  
+11.1.3 [MAS análise](13-security-gap-analysis/01-guides/03-mas.md)  
+11.2 [BLT](13-security-gap-analysis/02-blt.md)  
 
 12 **[Appendices](14-appendices/toc.md)**  
 12.1 [O que fazer e o que não fazer na Implementação](14-appendices/01-implementation-dos-donts/toc.md)  

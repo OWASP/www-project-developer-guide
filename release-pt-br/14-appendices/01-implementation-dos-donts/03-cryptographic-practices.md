@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 34130
-permalink: /release-pt-br/appendices/implementacao//praticas_criptografia/
+permalink: /release-pt-br/appendices/implementacao/praticas_criptografia/
 
 ---
 

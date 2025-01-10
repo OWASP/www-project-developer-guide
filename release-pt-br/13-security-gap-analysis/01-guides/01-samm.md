@@ -24,7 +24,9 @@ permalink: /release-pt-br/analise_lacunas_seguranca/guides/samm/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
-### 11.1.1 SAMM (Modelo de Maturidade de Software Assurance)
+### 11.1.1 SAMM análise
+
+Modelo de Maturidade de Software Assurance (SAMM)
 
 Não há tradução para esta página, consulte a [versão original em inglês][release130101].
 
