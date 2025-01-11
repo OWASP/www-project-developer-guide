@@ -33,7 +33,7 @@ Sections:
 4.2.4 [Codifique e Escape Dados](#codifique-e-escape-dados)  
 4.2.5 [Valide todas as entradas](#valide-todas-as-entradas)  
 4.2.6 [Implemente Identidade Digital](#implemente-identidade-digital)  
-4.2.7 [Imponha Controles de Accesso](#imponha-controles-de-accesso)  
+4.2.7 [Imponha Controles de Acesso](#imponha-controles-de-acesso)  
 4.2.8 [Proteja Dados em Todos os Lugares](#proteja-dados-em-todos-os-lugares)  
 4.2.9 [Implemente Registro e Monitoramento de Segurança](#implemente-registro-e-monitoramento-de-segurança)  
 4.2.10 [Trate todos os Errors e Exceções](#trate todos-os-errors-e-exceções)  

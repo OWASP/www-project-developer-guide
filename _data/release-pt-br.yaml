@@ -19,8 +19,8 @@ docs:
 - title: '2.4 Princípios de criptografia'
   url: fundamentos/princípios_criptografia
 
-- title: '2.5 OWASP Top 10'
-  url: fundamentos/owasp_top_ten
+- title: '2.5 OWASP Top Dez'
+  url: fundamentos/owasp_top_dez
 
 - title: '3. Requisitos'
   url: requisitos
@@ -91,8 +91,8 @@ docs:
 - title: '4.2.6 Implemente Identidade Digital'
   url: design/lista_verificação_web/implemente_identidade_digital
 
-- title: '4.2.7 Imponha Controles de Accesso'
-  url: design/lista_verificação_web/imponha_controles_accesso
+- title: '4.2.7 Imponha Controles de Acesso'
+  url: design/lista_verificação_web/imponha_controles_acesso
 
 - title: '4.2.8 Proteja Dados em Todos os Lugares'
   url: design/lista_verificação_web/proteja_dados
@@ -214,7 +214,7 @@ docs:
 - title: '7.2 Secure Coding Dojo'
   url: treinamento_educação/secure_coding_dojo
 
-- title: '7.3 SKF'
+- title: '7.3 SKF treinamento'
   url: treinamento_educação/SKF
 
 - title: '7.4 SamuraiWTF'

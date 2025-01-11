@@ -37,7 +37,7 @@ Seções:
 2.2 [Desenvolvimento e integração seguros](#desenvolvimento-e-integração-seguros)  
 2.3 [Princípios de segurança](#princípios-de-segurança)  
 2.4 [Princípios de criptografia](#princípios-de-criptografia)  
-2.5 [OWASP Top 10](#owasp-top-ten)  
+2.5 [OWASP Top Dez](#owasp-top-dez)  
 
 ----
 

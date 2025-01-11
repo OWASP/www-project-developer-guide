@@ -1,12 +1,12 @@
 ---
 
-title: Enforce Access Controls
+title: Imponha Controles de Acesso
 layout: col-document
 tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 26270
-permalink: /release-pt-br/design/lista_verificação_web/imponha_controles_accesso/
+permalink: /release-pt-br/design/lista_verificação_web/imponha_controles_acesso/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-pt-br/design/lista_verificação_web/imponha_controles_acces
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
-### 4.2.7 Enforce Access Controls
+### 4.2.7 Imponha Controles de Acesso
 
 Não há tradução para esta página, consulte a [versão original em inglês][release060207].
 

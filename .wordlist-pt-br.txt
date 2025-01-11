@@ -1,8 +1,6 @@
 AAA
 API
 ASVS
-Access
-Accesso
 Amass
 Appendices
 Application
@@ -26,7 +24,6 @@ Clobbering
 Coding
 Consortium
 Content
-Contents
 Controls
 Coraza
 Cornucopia
@@ -48,24 +45,17 @@ DoS
 Dragon
 ESAPI
 Enforce
-Errors
-Everywhere
-Exceptions
 Exploit
 Firewall
 Framework
-Frameworks
 Front
 Fundamentals
 GitHub
 Go
 GoSCP
 HTML
-Handle
 Hardening
 Headers
-Identity
-Implement
 Injection
 JSON
 JWTs
@@ -76,8 +66,6 @@ LINDDUN
 Ladders
 Language
 Large
-Leverage
-Libraries
 Living
 Low-Code
 MASTG
@@ -97,7 +85,6 @@ Playbook
 Policy
 Privacy
 Proactive
-Protect
 PyGoat
 Release
 Risks
@@ -109,7 +96,6 @@ SamuraiWTF
 Schools
 Sections
 Securing
-Security
 SecurityRAT
 Serverless
 Services
@@ -122,7 +108,6 @@ Standard
 Strict
 Stuffing
 Style
-Table
 Ten
 Tests
 The
@@ -141,11 +126,9 @@ WebWolf
 WrongSecrets
 XSS
 XXE
-accesso
-all
 amass
-analysis
 and
+analysis
 api
 appendices
 applicação
@@ -197,7 +180,6 @@ modsecurity
 navigation
 nettacker
 newpage
-of
 opencre
 order
 oshp

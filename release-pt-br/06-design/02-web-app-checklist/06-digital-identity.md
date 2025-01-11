@@ -1,6 +1,6 @@
 ---
 
-title: Implement Digital Identity
+title: Implemente Identidade Digital
 layout: col-document
 tags: Guia do Desenvolvedor do OWASP
 contributors:
@@ -24,7 +24,7 @@ permalink: /release-pt-br/design/lista_verificação_web/implemente_identidade_d
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
-### 4.2.6 Implement Digital Identity
+### 4.2.6 Implemente Identidade Digital
 
 Não há tradução para esta página, consulte a [versão original em inglês][release060206].
 

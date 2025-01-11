@@ -24,7 +24,9 @@ permalink: /release-pt-br/verificação/ferramentas/owtf/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
-### 6.2.3 OWTF (Framework de Teste Ofensivo de Web)
+### 6.2.3 OWTF
+
+Framework de Teste Ofensivo de Web (OWTF)
 
 Não há tradução para esta página, consulte a [versão original em inglês][release080203].
 

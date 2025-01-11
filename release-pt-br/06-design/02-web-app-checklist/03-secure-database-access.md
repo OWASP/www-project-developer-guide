@@ -1,6 +1,6 @@
 ---
 
-title: Secure Database Access
+title: Proteja Acesso ao Banco de Dados
 layout: col-document
 tags: Guia do Desenvolvedor do OWASP
 contributors:
@@ -24,7 +24,7 @@ permalink: /release-pt-br/design/lista_verificação_web/proteja_acesso_banco_da
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
-### 4.2.3 Secure Database Access
+### 4.2.3 Proteja Acesso ao Banco de Dados
 
 Não há tradução para esta página, consulte a [versão original em inglês][release060203].
 

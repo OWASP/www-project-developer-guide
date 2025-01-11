@@ -1,6 +1,6 @@
 ---
 
-title: Leverage Security Frameworks and Libraries
+title: Utilize Frameworks e Bibliotecas de Segurança
 layout: col-document
 tags: Guia do Desenvolvedor do OWASP
 contributors:
@@ -24,7 +24,7 @@ permalink: /release-pt-br/design/lista_verificação_web/frameworks_bibliotecas/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
-### 4.2.2 Leverage Security Frameworks and Libraries
+### 4.2.2 Utilize Frameworks e Bibliotecas de Segurança
 
 Não há tradução para esta página, consulte a [versão original em inglês][release060202].
 

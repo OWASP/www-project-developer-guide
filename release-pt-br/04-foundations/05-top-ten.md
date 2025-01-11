@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors: Amauri Bizerra
 document: Guia do Desenvolvedor do OWASP
 order: 24050
-permalink: /release-pt-br/foundations/owasp_top_ten/
+permalink: /release-pt-br/foundations/owasp_top_dez/
 
 ---
 

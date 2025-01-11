@@ -24,7 +24,9 @@ permalink: /release-pt-br/implementação/bibliotecas_seguras/oshp/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
-### 5.3.3 OSHP (Projeto de Cabeçalhos Seguros OWASP)
+### 5.3.3 OSHP
+
+Projeto de Cabeçalhos Seguros OWASP (OSHP)
 
 Não há tradução para esta página, consulte a [versão original em inglês][release070303].
 

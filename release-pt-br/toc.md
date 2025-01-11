@@ -1,6 +1,6 @@
 ---
 
-title: Table of Contents
+title: Índice
 layout: col-document
 tags: Guia do Desenvolvedor do OWASP
 contributors:
@@ -27,7 +27,7 @@ permalink: /release-pt-br/
 2.2 [Desenvolvimento e integração seguros](04-foundations/02-secure-development.md)  
 2.3 [Princípios de segurança](04-foundations/03-security-principles.md)  
 2.4 [Princípios de criptografia](04-foundations/04-crypto-principles.md)  
-2.5 [OWASP Top 10](04-foundations/05-top-ten.md)  
+2.5 [OWASP Top Dez](04-foundations/05-top-ten.md)  
 
 3 **[Requisitos](05-requirements/toc.md)**  
 3.1 [Requisitos na prática](05-requirements/01-requirements.md)  
@@ -53,7 +53,7 @@ permalink: /release-pt-br/
 4.2.4 [Codifique e Escape Dados](06-design/02-web-app-checklist/04-encode-escape-data.md)  
 4.2.5 [Valide todas as entradas](06-design/02-web-app-checklist/05-validate-inputs.md)  
 4.2.6 [Implemente Identidade Digital](06-design/02-web-app-checklist/06-digital-identity.md)  
-4.2.7 [Imponha Controles de Accesso](06-design/02-web-app-checklist/07-access-controls.md)  
+4.2.7 [Imponha Controles de Acesso](06-design/02-web-app-checklist/07-access-controls.md)  
 4.2.8 [Proteja Dados em Todos os Lugares](06-design/02-web-app-checklist/08-protect-data.md)  
 4.2.9 [Implemente Registro e Monitoramento de Segurança](06-design/02-web-app-checklist/09-logging-monitoring.md)  
 4.2.10 [Trate todos os Errors e Exceções](06-design/02-web-app-checklist/10-handle-errors-exceptions.md)  
@@ -97,7 +97,7 @@ permalink: /release-pt-br/
 7.1.3 [PyGoat](09-training-education/01-vulnerable-apps/03-pygoat.md)  
 7.1.4 [Security Shepherd](09-training-education/01-vulnerable-apps/04-security-shepherd.md)  
 7.2 [Secure Coding Dojo](09-training-education/02-secure-coding-dojo.md)  
-7.3 [SKF](09-training-education/03-skf.md)  
+7.3 [SKF treinamento](09-training-education/03-skf.md)  
 7.4 [SamuraiWTF](09-training-education/04-samurai-wtf.md)  
 7.5 [Projeto OWASP Top 10](09-training-education/05-top-ten.md)  
 7.6 [Mobile Top 10](09-training-education/06-mobile-top-ten.md)  

@@ -44,7 +44,7 @@ Sections:
 4.2.4 [Codifique e Escape Dados](02-web-app-checklist/04-encode-escape-data.md)  
 4.2.5 [Valide todas as entradas](02-web-app-checklist/05-validate-inputs.md)  
 4.2.6 [Implemente Identidade Digital](02-web-app-checklist/06-digital-identity.md)  
-4.2.7 [Imponha Controles de Accesso](02-web-app-checklist/07-access-controls.md)  
+4.2.7 [Imponha Controles de Acesso](02-web-app-checklist/07-access-controls.md)  
 4.2.8 [Proteja Dados em Todos os Lugares](02-web-app-checklist/08-protect-data.md)  
 4.2.9 [Implemente Registro e Monitoramento de Segurança](02-web-app-checklist/09-logging-monitoring.md)  
 4.2.10 [Trate todos os Errors e Exceções](02-web-app-checklist/10-handle-errors-exceptions.md)  

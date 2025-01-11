@@ -24,7 +24,7 @@ permalink: /release-pt-br/treinamento_educação/skf/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
-### 7.3 SKF training
+### 7.3 SKF treinamento
 
 Não há tradução para esta página, consulte a [versão original em inglês][release0903].
 

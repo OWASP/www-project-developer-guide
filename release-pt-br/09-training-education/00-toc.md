@@ -25,7 +25,7 @@ Sections:
 7.1.3 [PyGoat](#pygoat)  
 7.1.4 [Security Shepherd](#security-shepherd)  
 7.2 [Secure Coding Dojo](#secure-coding-dojo)  
-7.3 [SKF](#skf)  
+7.3 [SKF treinamento](#skf-treinamento)  
 7.4 [SamuraiWTF](#samuraiwtf)  
 7.5 [Projeto OWASP Top 10](#projeto-owasp-top-ten)  
 7.6 [Mobile Top 10](#mobile-top-ten)  

@@ -1,6 +1,6 @@
 ---
 
-title: Table of Contents
+title: Índice
 layout: col-document
 tags: Guia do Desenvolvedor do OWASP
 contributors:
@@ -12,7 +12,7 @@ permalink:
 
 {% include breadcrumb.html %}
 
-## Table of contents
+## Índice
 
 1 **[Introdução](#introdução)**  
 
@@ -21,7 +21,7 @@ permalink:
 2.2 [Desenvolvimento e integração seguros](#desenvolvimento-e-integração-seguros)  
 2.3 [Princípios de segurança](#princípios-de-segurança)  
 2.4 [Princípios de criptografia](#princípios-de-criptografia)  
-2.5 [OWASP Top 10](#owasp-top-ten)  
+2.5 [OWASP Top Dez](#owasp-top-dez)  
 
 3 **[Requisitos](#requisitos)**  
 3.1 [Requisitos na prática](#requisitos-na-prática)  
@@ -47,7 +47,7 @@ permalink:
 4.2.4 [Codifique e Escape Dados](#codifique-e-escape-dados)  
 4.2.5 [Valide todas as entradas](#valide-todas-as-entradas)  
 4.2.6 [Implemente Identidade Digital](#implemente-identidade-digital)  
-4.2.7 [Imponha Controles de Accesso](#imponha-controles-de-accesso)  
+4.2.7 [Imponha Controles de Acesso](#imponha-controles-de-acesso)  
 4.2.8 [Proteja Dados em Todos os Lugares](#proteja-dados-em-todos-os-lugares)  
 4.2.9 [Implemente Registro e Monitoramento de Segurança](#implemente-registro-e-monitoramento-de-segurança)  
 4.2.10 [Trate todos os Errors e Exceções](#trate todos-os-errors-e-exceções)  
@@ -91,7 +91,7 @@ permalink:
 7.1.3 [PyGoat](#pygoat)  
 7.1.4 [Security Shepherd](#security-shepherd)  
 7.2 [Secure Coding Dojo](#secure-coding-dojo)  
-7.3 [SKF](#skf)  
+7.3 [SKF treinamento](#skf-treinamento)  
 7.4 [SamuraiWTF](#samuraiwtf)  
 7.5 [Projeto OWASP Top 10](#projeto-owasp-top-ten)  
 7.6 [Mobile Top 10](#mobile-top-ten)  
