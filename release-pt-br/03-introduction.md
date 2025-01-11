@@ -1,12 +1,12 @@
 ---
 
-title: Introduction
+title: Introdução
 layout: col-document
-tags: OWASP Developer Guide
-contributors:
-document: OWASP Developer Guide
+tags: Guia do Desenvolvedor do OWASP
+contributors: Amauri Bizerra
+document: Guia do Desenvolvedor do OWASP
 order: 23000
-permalink: /release-pt-br/introduction/
+permalink: /release-pt-br/introdução/
 
 ---
 
@@ -24,67 +24,70 @@ permalink: /release-pt-br/introduction/
 
 ![Developer guide logo](../../assets/images/dg_logo.png "OWASP Developer Guide"){: .image-right }
 
-### 1. Introduction
+### 1. Introdução
 
-Welcome to the OWASP Development Guide.
+Bem-vindo ao Guia de Desenvolvimento do OWASP.
 
-The Open Worldwide Application Security Project ([OWASP][about]) is a nonprofit foundation
-that works to improve the security of software.
-It is an open community dedicated to enabling organizations to
-conceive, develop, acquire, operate, and maintain applications that can be trusted.
+O Open Worldwide Application Security Project ([OWASP][about]) é uma fundação sem fins lucrativos
+que trabalha para melhorar a segurança de software.
+Ela é uma comunidade aberta dedicada a possibilitar que organizações
+concebam, desenvolvam, adquiram, operem e mantenham aplicações confiáveis.
 
-Along with the OWASP Top Ten, the Developer Guide is one of the original resources
-published soon after the OWASP foundation was formed in 2001.
-Version 1.0 of the Developer Guide was released in 2002
-and since then there have been various [releases][versions] culminating in version 2.0 in 2005.
-Since then the guide has been revised extensively to bring it up to date.
-The latest versions are 4.x because version 3.0 was never released.
+Juntamente com o OWASP Top Dez, o Guia do Desenvolvedor é um dos recursos originais
+publicado logo após a fundação OWASP ser formada em 2001.
+A versão 1.0 do Guia do desenvolvedor foi lançada em 2002
+e desde então houve vários [lançamentos][versions] culminando na versão 2.0 em 2005.
+Desde então, o guia foi extensivamente revisado para que mantenha-se atualizado.
+As versões mais recentes são 4.x porque a versão 3.0 nunca foi lançada.
 
-The purpose of this guide is to provide an introduction to security concepts
-and a handy reference for application / system developers.
-Generally it describes security practices using the advice given in the
-OWASP Software Assurance Maturity Model ([SAMM][samm]) and describes the OWASP projects
-referenced in the OWASP [Application Security Wayfinder][intstand] project.
+O propósito deste guia é fornecer uma introdução aos conceitos de segurança
+e uma referência útil para desenvolvedores de aplicações/sistemas.
+Ele geralmente descreve práticas de segurança usando os conselhos dados no
+Modelo de Maturidade de Software Assurance do OWASP ([SAMM][samm]) e descreve os projetos do OWASP
+referenciados no projeto [Application Security Wayfinder][intstand] do OWASP.
 
-This guide does not seek to replicate the many excellent sources on specific security topics;
-it will rarely tries to go into details on a subject and instead provides links for greater depth on these security topics.
-Instead the content of the Developer Guide aims to be accessible, introducing  practical security concepts
-and providing enough detail to get developers started on various OWASP tools and documents.
+Este guia não procura replicar as muitas fontes excelentes sobre tópicos específicos de segurança;
+ele raramente tentará entrar em detalhes sobre um assunto e, em vez disso, fornecerá links com maior
+profundidade nesses tópicos de segurança.
+Em vez disso, o conteúdo do Guia do Desenvolvedor tem por finalidade ser acessível,
+introduzindo conceitos práticos de segurança e fornecendo detalhes suficientes para que desenvolvedores
+comecem a usar várias ferramentas e documentos do OWASP.
 
-All of the OWASP projects and tools described in this guide are free to download and use.
-All OWASP projects are open source; please do get involved if you are interested in improving application security.
+Todos os projetos e ferramentas do OWASP descritos neste guia são gratuitos para download e uso.
+Todos os projetos do OWASP são de código aberto; participe se estiver interessado em melhorar a segurança de aplicações.
 
-#### Audience
+#### Público-alvo
 
-Developers should use this OWASP Developer Guide to help write applications that are more secure.
-The guide has been written by the security community to help software developers write solid,
-safe and secure applications.
-Most of the contributors to this guide are also software developers as well as security engineers,
-and this helps to keep the focus developer centric.
+Desenvolvedores devem usar este Guia do Desenvolvedor do OWASP para ajudar a escrever aplicações mais seguras.
+O guia foi escrito pela comunidade de segurança para ajudar desenvolvedores de software a escreverem aplicações sólidas,
+seguras e protegidas.
+A maioria dos colaboradores deste guia também são desenvolvedores de software e engenheiros de segurança,
+e isso ajuda a manter o foco centrado no desenvolvedor.
 
-If you are in a hurry and want information on a specific subject then
-try the [OpenCRE chat][opencrechat] LLM for immediate answers.
+Se você está com pressa e deseja informações sobre um assunto específico, então
+experimente o LLM do [OpenCRE chat][opencrechat] para respostas imediatas.
 
-#### What is the Developer Guide?
+#### O que é o Guia do Desenvolvedor?
 
-You can think of this guide as a cross-reference source to the many tools and documents that OWASP provide for developers.
+Você pode pensar neste guia como uma fonte de referência cruzada para as diversas ferramentas e documentos
+que o OWASP fornece aos desenvolvedores.
 
-Or you can regard the purpose of this guide as answering the question:
- “I am a developer and I need a reference guide to navigate the numerous security tools
- and security activities that I know I should be doing.
+Ou você pode considerar que o objetivo deste guia seja de responder à pergunta:
+ “Sou desenvolvedor e preciso de um guia de referência para navegar as inúmeras ferramentas de segurança
+ e atividades de segurança que eu sei que deveria realizar.
 
-Or think of it as a collection of articles that introduce developers to the wide domain of application security.
+Ou pense nele como uma coleção de artigos que apresentam aos desenvolvedores o amplo domínio da segurança de aplicações.
 
-Or you can regard this guide as a companion document to the OWASP [Integration Standards][intstand] project:
-the Application Security Wayfinder maps out the many tools,
-projects and documents within OWASP and the Developer Guide provides some 'wordy' context.
+Ou você pode considerar este guia como um documento complementar ao projeto [Padrões de Integração][intstand] do OWASP:
+o Application Security Wayfinder mapeia as muitas ferramentas,
+projetos e documentos dentro do OWASP, e o Guia do Desenvolvedor fornece um contexto 'verboso'.
 
 [![AppSec Wayfinder](../../assets/images/owasp-wayfinder.png "OWASP Application Security Wayfinder")][intstand]
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue03] or [edit on GitHub][edit03].
+O Guia do Desenvolvedor do OWASP é um trabalho da comunidade; se há algo que precisa ser mudado
+então [submeta uma issue][issue03] ou [edite no GitHub][edit03].
 
 [about]: https://owasp.org/about/
 [edit03]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/03-introduction.md
