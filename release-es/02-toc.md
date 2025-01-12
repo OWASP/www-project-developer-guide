@@ -1,10 +1,10 @@
 ---
 
-title: Table of Contents
+title: Tabla de contenido
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del desarrollador OWASP
 contributors: Roxana Calderon
-document: OWASP Developer Guide
+document: Guía del desarrollador OWASP
 order:
 permalink:
 
@@ -14,14 +14,14 @@ permalink:
 
 ## Tabla de contenido
 
-1 **[Introducción](#introduction)**  
+1 **[Introducción](#introducción)**  
 
-2 **[Fundamentos](#foundations)**  
-2.1 [Fundamentos de Seguridad](#security-fundamentals)  
-2.2 [Desarrollo e integración Segura](#secure-development-and-integration)  
-2.3 [Principios de Seguridad](#principles-of-security)  
-2.4 [Principios de Criptografía](#principles-of-cryptography)  
-2.5 [Top 10 de OWASP](#owasp-top-ten)  
+2 **[Fundamentos](#fundamentos)**  
+2.1 [Fundamentos de Seguridad](#fundamentos-de-seguridad)  
+2.2 [Desarrollo e integración Segura](#desarrollo-e-integración-segura)  
+2.3 [Principios de Seguridad](#principios-de-seguridad)  
+2.4 [Principios de Criptografía](#principios-de-criptografía)  
+2.5 [OWASP Top 10](#owasp-top-ten)  
 
 3 **[Requerimientos](#requirements)**  
 3.1 [Requerimientos en la práctica](#requirements-in-practice)  

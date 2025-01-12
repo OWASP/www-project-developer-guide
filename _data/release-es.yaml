@@ -1,26 +1,26 @@
-docs_list_title: Developer Guide
+docs_list_title: Guía del desarrollador OWASP
 docs:
 
-- title: '1. Introduction'
-  url: introduction
+- title: '1. Introducción'
+  url: introducción
 
-- title: '2. Foundations'
-  url: foundations
+- title: '2. Fundamentos'
+  url: fundamentos
 
-- title: '2.1 Security fundamentals'
-  url: foundations/security_fundamentals
+- title: '2.1 Fundamentos de Seguridad'
+  url: fundamentos/fundamentos_seguridad
 
-- title: '2.2 Secure development and integration'
-  url: foundations/secure_development
+- title: '2.2 Desarrollo e integración Segura'
+  url: fundamentos/desarrollo_segura
 
-- title: '2.3 Principles of security'
-  url: foundations/security_principles
+- title: '2.3 Principios de Seguridad'
+  url: fundamentos/principios_seguridad
 
-- title: '2.4 Principles of cryptography'
-  url: foundations/crypto_principles
+- title: '2.4 Principios de Criptografía'
+  url: fundamentos/principios_criptografía
 
 - title: '2.5 OWASP Top 10'
-  url: foundations/owasp_top_ten
+  url: fundamentos/owasp_top_ten
 
 - title: '3. Requirements'
   url: requirements

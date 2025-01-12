@@ -2,9 +2,9 @@
 
 title: Tabla de contenido
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del desarrollador OWASP
 contributors: Roxana Calderon
-document: OWASP Developer Guide
+document: Guía del desarrollador OWASP
 order: 42000
 permalink: /release-es/
 
@@ -25,7 +25,7 @@ permalink: /release-es/
 2.2 [Desarrollo e integración Segura](04-foundations/02-secure-development.md)  
 2.3 [Principios de Seguridad](04-foundations/03-security-principles.md)  
 2.4 [Principios de Criptografía](04-foundations/04-crypto-principles.md)  
-2.5 [Top 10 de OWASP](04-foundations/05-top-ten.md)  
+2.5 [OWASP Top 10](04-foundations/05-top-ten.md)  
 
 3 **[Requerimientos](05-requirements/toc.md)**  
 3.1 [Requerimientos en la práctica](05-requirements/01-requirements.md)  
