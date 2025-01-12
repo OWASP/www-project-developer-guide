@@ -147,7 +147,7 @@ jobs:
             draft/temp/draft.markdown
 
       - name: Save pdfs and epubs
-        uses: actions/upload-artifact@v4.5.0
+        uses: actions/upload-artifact@v4.6.0
         with:
           name: export-draft
           path: publish
@@ -192,7 +192,7 @@ jobs:
             release/temp/release.markdown
 
       - name: Save pdfs and epubs
-        uses: actions/upload-artifact@v4.5.0
+        uses: actions/upload-artifact@v4.6.0
         with:
           name: export-es
           path: publish
@@ -237,7 +237,7 @@ jobs:
             release/temp/release.markdown
 
       - name: Save pdfs and epubs
-        uses: actions/upload-artifact@v4.5.0
+        uses: actions/upload-artifact@v4.6.0
         with:
           name: export-pt-br
           path: publish
