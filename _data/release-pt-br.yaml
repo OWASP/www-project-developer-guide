@@ -47,7 +47,7 @@ docs:
   url: requisitos/skf
 
 - title: '4. Design'
-  url: /design
+  url: design
 
 - title: '4.1 Modelagem de ameaças'
   url: design/modelagem_ameaças
@@ -124,10 +124,10 @@ docs:
 - title: '5.2 Dependências'
   url: implementação/dependências
 
-- title: '5.2.1 Dependency_Check'
+- title: '5.2.1 Dependency-Check'
   url: implementação/dependências/dependency_check
 
-- title: '5.2.2 Dependency_Track'
+- title: '5.2.2 Dependency-Track'
   url: implementação/dependências/dependency_track
 
 - title: '5.2.3 CycloneDX'
