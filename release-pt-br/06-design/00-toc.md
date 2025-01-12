@@ -2,80 +2,43 @@
 
 title: Design
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guia do Desenvolvedor do OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guia do Desenvolvedor do OWASP
 order:
 
 ---
 
 {% include breadcrumb.html %}
 
-![Developer guide logo](../../assets/images/dg_logo.png "OWASP Developer Guide"){height=180px}
+![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){height=180px}
 
 ## 4. Design
 
-Referring to the [Secure Product Design Cheat Sheet][spdcs], the purpose of secure architecture and design is to ensure
-that all products meet or exceed the security requirements laid down by the organization,
-focusing on the security linked to components and technologies used during the development of the application.
-
-Secure Architecture Design looks at the selection and composition of components that form the foundation of the solution.
-Technology Management looks at the security of supporting technologies used during development, deployment and operations,
-such as development stacks and tooling, deployment tooling, and operating systems and tooling.
-
-A secure design will help establish secure defaults, minimise the attack surface area
-and fail securely to well-defined and understood defaults.
-It will also consider and follow various principles, such as:
-
-* Least Privilege and Separation of Duties
-* Defense-in-Depth
-* Zero Trust
-* Security in the Open
-
-A Secure Development Lifecycle (SDLC) helps to ensure that all security decisions made about the product being developed
-are explicit choices and result in the correct level of security for the product design.
-Various secure development lifecycles can be used and they generally include threat modeling in the design process.
-
-Checklists and Cheat Sheets are an important tool during the design process;
-they provide an easy reference of knowledge and help avoid repeating design errors and mistakes.
-
-Software application [Design][sammd] is one of the major business functions described in
-the [Software Assurance Maturity Model (SAMM)][samm], and includes security practices:
-
-* [Threat Assessment][sammdta]
-* [Security Requirements][sammdsr]
-* [Security Architecture][sammdsa]
+Não há tradução para esta página, consulte a [versão original em inglês][release0600].
 
 Sections:
 
-4.1 [Threat modeling](#threat-modeling)  
-4.1.1 [Threat modeling in practice](#threat-modeling-in-practice)  
+4.1 [Modelagem de ameaças](#modelagem-de-ameaças)  
+4.1.1 [Modelagem de ameaças na prática](#modelagem-de-ameaças-na-prática)  
 4.1.2 [pytm](#pytm)  
 4.1.3 [Threat Dragon](#threat-dragon)  
 4.1.4 [Cornucopia](#cornucopia)  
 4.1.5 [LINDDUN GO](#linddun-go)  
-4.1.6 [Threat Modeling toolkit](#threat-modeling-toolkit)  
-4.2 [Web application checklist](#web-application-checklist)  
-4.2.1 [Checklist: Define Security Requirements](#checklist-define-security-requirements)  
-4.2.2 [Checklist: Leverage Security Frameworks and Libraries](#checklist-leverage-security-frameworks-and-libraries)  
-4.2.3 [Checklist: Secure Database Access](#checklist-secure-database-access)  
-4.2.4 [Checklist: Encode and Escape Data](#checklist-encode-and-escape-data)  
-4.2.5 [Checklist: Validate All Inputs](#checklist-validate-all-inputs)  
-4.2.6 [Checklist: Implement Digital Identity](#checklist-implement-digital-identity)  
-4.2.7 [Checklist: Enforce Access Controls](#checklist-enforce-access-controls)  
-4.2.8 [Checklist: Protect Data Everywhere](#checklist-protect-data-everywhere)  
-4.2.9 [Checklist: Implement Security Logging and Monitoring](#checklist-implement-security-logging-and-monitoring)  
-4.2.10 [Checklist: Handle all Errors and Exceptions](#checklist-handle-all-errors-and-exceptions)  
-4.3 [Mobile application checklist](#mobile-application-checklist)  
+4.1.6 [Toolkit para Modelagem de Ameaças](#toolkit-para-modelagem-de-ameaças)  
+4.2 [Lista de verificação para aplicação web](#lista-de-verificação-para-aplicação-web)  
+4.2.1 [Defina Requisitos de Segurança](#defina-requisitos-de-segurança)  
+4.2.2 [Utilize Frameworks e Bibliotecas de Segurança](#utilize-frameworks-e-bibliotecas-de-segurança)  
+4.2.3 [Proteja Acesso ao Banco de Dados](#proteja-acesso-ao-banco-de-dados)  
+4.2.4 [Codifique e Escape Dados](#codifique-e-escape-dados)  
+4.2.5 [Valide todas as entradas](#valide-todas-as-entradas)  
+4.2.6 [Implemente Identidade Digital](#implemente-identidade-digital)  
+4.2.7 [Imponha Controles de Acesso](#imponha-controles-de-acesso)  
+4.2.8 [Proteja Dados em Todos os Lugares](#proteja-dados-em-todos-os-lugares)  
+4.2.9 [Implemente Registro e Monitoramento de Segurança](#implemente-registro-e-monitoramento-de-segurança)  
+4.2.10 [Trate todos os Errors e Exceções](#trate todos-os-errors-e-exceções)  
+4.3 [MAS Lista de verificação](#mas-lista-de-verificação)  
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing then [submit an issue][issue0600].
-
-[issue0600]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/00-toc
-[samm]: https://owaspsamm.org/about/
-[sammd]: https://owaspsamm.org/model/design/
-[sammdsa]: https://owaspsamm.org/model/design/secure-architecture/
-[sammdsr]: https://owaspsamm.org/model/design/security-requirements/
-[sammdta]: https://owaspsamm.org/model/design/threat-assessment/
-[spdcs]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet
+[release0600]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/toc.md

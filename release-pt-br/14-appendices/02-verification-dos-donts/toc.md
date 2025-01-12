@@ -1,12 +1,12 @@
 ---
 
-title: Verification Do's and Don'ts
+title: O que fazer e o que não fazer na Verificação
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guia do Desenvolvedor do OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guia do Desenvolvedor do OWASP
 order: 34200
-permalink: /release-pt-br/appendices/verification_dos_donts/
+permalink: /release-pt-br/appendices/verificação/
 
 ---
 
@@ -22,27 +22,18 @@ permalink: /release-pt-br/appendices/verification_dos_donts/
 }
 </style>
 
-![Developer guide logo](../../../assets/images/dg_logo_bbd.png "OWASP Developer Guide"){: .image-right }
+![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
-## 12.2 Verification Do's and Don'ts
+## 12.2 O que fazer e o que não fazer na Verificação
 
-[Verification][sammv] is one of the business functions described by the [OWASP SAMM][samm].
-
-Verification takes skill and experience, so it is important to build on the existing knowledge
-contained in these Do's and Dont's.
+Não há tradução para esta página, consulte a [versão original em inglês][release1402].
 
 Sections:
 
-14.2.1 [Secure environment](01-secure-environment.md)  
-14.2.2 [System hardening](02-system-hardening.md)  
-14.2.3 [Open Source software](03-open-source-software.md)  
+12.2.1 [Ambiente seguro](01-secure-environment.md)  
+12.2.2 [Hardening de sistemas](02-system-hardening.md)  
+12.2.3 [Software de Código Aberto](03-open-source-software.md)  
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue1402] or [edit on GitHub][edit1402].
-
-[edit1402]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/14-appendices/02-verification-dos-donts/toc.md
-[issue1402]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2014-appendices/02-verification-dos-donts/00-toc
-[samm]: https://owaspsamm.org/about/
-[sammv]: https://owaspsamm.org/model/verification/
+[release1402]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/14-appendices/02-verification-dos-donts/toc.md

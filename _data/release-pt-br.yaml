@@ -2,340 +2,340 @@ docs_list_title: Guia do Desenvolvedor
 docs:
 
 - title: '1. Introdução'
-  url: introduction
+  url: introdução
 
 - title: '2. Fundamentos'
-  url: foundations
+  url: fundamentos
 
 - title: '2.1 Fundamentos de segurança'
-  url: foundations/security_fundamentals
+  url: fundamentos/fundamentos_segurança
 
 - title: '2.2 Desenvolvimento e integração seguros'
-  url: foundations/secure_development
+  url: fundamentos/desenvolvimento_integracao_seguros
 
 - title: '2.3 Princípios de segurança'
-  url: foundations/security_principles
+  url: fundamentos/princípios_segurança
 
 - title: '2.4 Princípios de criptografia'
-  url: foundations/crypto_principles
+  url: fundamentos/princípios_criptografia
 
-- title: '2.5 OWASP Top 10'
-  url: foundations/owasp_top_ten
+- title: '2.5 OWASP Top Dez'
+  url: fundamentos/owasp_top_dez
 
 - title: '3. Requisitos'
-  url: requirements
+  url: requisitos
 
 - title: '3.1 Requisitos na prática'
-  url: requirements/requirements_in_practice
+  url: requisitos/requisitos_prática
 
 - title: '3.2 Perfil de risco'
-  url: requirements/risk_profile
+  url: requisitos/perfil_risco
 
-- title: '3.3 OpenCRE e Padrões de Integração'
-  url: requirements/opencre_integration_standard
+- title: '3.3 OpenCRE'
+  url: requisitos/opencre
 
 - title: '3.4 SecurityRAT'
-  url: requirements/security_rat
+  url: requisitos/securityrat
 
-- title: '3.5 Padrão de Verificação de Segurança de Aplicações (ASVS)'
-  url: requirements/application_security_verification_standard
+- title: '3.5 ASVS requisitos'
+  url: requisitos/asvs
 
-- title: '3.6 Segurança de Aplicativos Móveis'
-  url: requirements/mobile_application_security
+- title: '3.6 MAS requisitos'
+  url: requisitos/mas
 
-- title: '3.7 Framework de Conhecimento de Segurança (SKF)'
-  url: requirements/security_knowledge_framework
+- title: '3.7 SKF requisitos'
+  url: requisitos/skf
 
 - title: '4. Design'
   url: /design
 
 - title: '4.1 Modelagem de ameaças'
-  url: design/threat_modeling
+  url: design/modelagem_ameaças
 
 - title: '4.1.1 Modelagem de ameaças na prática'
-  url: design/threat_modeling/practical_threat_modeling
+  url: design/modelagem_ameaças/prática
 
 - title: '4.1.2 pytm'
-  url: design/threat_modeling/pytm
+  url: design/modelagem_ameaças/pytm
 
 - title: '4.1.3 Threat Dragon'
-  url: design/threat_modeling/threat_dragon
+  url: design/modelagem_ameaças/threat_dragon
 
 - title: '4.1.4 Cornucopia'
-  url: design/threat_modeling/cornucopia
+  url: design/modelagem_ameaças/cornucopia
 
 - title: '4.1.5 LINDDUN GO'
-  url: design/threat_modeling/linddun_go
+  url: design/modelagem_ameaças/linddun_go
 
 - title: '4.1.6 Toolkit para Modelagem de Ameaças'
-  url: design/threat_modeling/toolkit
+  url: design/modelagem_ameaças/toolkit
 
 - title: '4.2 Lista de verificação para aplicação web'
-  url: design/web_app_checklist
+  url: design/lista_verificação_web
 
-- title: '4.2.1 Lista de verificação: Defina Requisitos de Segurança'
-  url: design/web_app_checklist/define_security_requirements
+- title: '4.2.1 Defina Requisitos de Segurança'
+  url: design/lista_verificação_web/defina_requisitos_segurança
 
-- title: '4.2.2 Lista de verificação: Utilize Frameworks e Bibliotecas de Segurança'
-  url: design/web_app_checklist/frameworks_libraries
+- title: '4.2.2 Utilize Frameworks e Bibliotecas de Segurança'
+  url: design/lista_verificação_web/frameworks_bibliotecas
 
-- title: '4.2.3 Lista de verificação: Proteja Acesso ao Banco de Dados'
-  url: design/web_app_checklist/secure_database_access
+- title: '4.2.3 Proteja Acesso ao Banco de Dados'
+  url: design/lista_verificação_web/proteja_acesso_banco_dados
 
-- title: '4.2.4 Lista de verificação: Codifique e Escape Dados'
-  url: design/web_app_checklist/encode_escape_data
+- title: '4.2.4 Codifique e Escape Dados'
+  url: design/lista_verificação_web/codifique_escape_dados
 
-- title: '4.2.5 Lista de verificação: Valide todas as entradas'
-  url: design/web_app_checklist/validate_inputs
+- title: '4.2.5 Valide todas as entradas'
+  url: design/lista_verificação_web/valide_entradas
 
-- title: '4.2.6 Lista de verificação: Implemente Identidade Digital'
-  url: design/web_app_checklist/digital_identity
+- title: '4.2.6 Implemente Identidade Digital'
+  url: design/lista_verificação_web/implemente_identidade_digital
 
-- title: '4.2.7 Lista de verificação: Imponha Controles de Accesso'
-  url: design/web_app_checklist/access_controls
+- title: '4.2.7 Imponha Controles de Acesso'
+  url: design/lista_verificação_web/imponha_controles_acesso
 
-- title: '4.2.8 Lista de verificação: Proteja Dados em Todos os Lugares'
-  url: design/web_app_checklist/protect_data
+- title: '4.2.8 Proteja Dados em Todos os Lugares'
+  url: design/lista_verificação_web/proteja_dados
 
-- title: '4.2.9 Lista de verificação: Implemente Registro e Monitoramento de Segurança'
-  url: design/web_app_checklist/security_logging_and_monitoring
+- title: '4.2.9 Implemente Registro e Monitoramento de Segurança'
+  url: design/lista_verificação_web/registro_monitoramento_segurança
 
-- title: '4.2.10 Lista de verificação: Trate todos os Errors e Exceções'
-  url: design/web_app_checklist/handle_errors_and_exceptions
+- title: '4.2.10 Trate todos os Errors e Exceções'
+  url: design/lista_verificação_web/trate_todos_errors_exceções
 
-- title: '4.3 Lista de verificação de aplicativos móveis'
-  url: design/mas_checklist
+- title: '4.3 MAS Lista de verificação'
+  url: design/mas_lista_verificação
 
 - title: '5. Implementação'
-  url: implementation
+  url: implementação
 
 - title: '5.1 Documentação'
-  url: implementation/documentation
+  url: implementação/documentação
 
 - title: '5.1.1 Top 10 Controles Proativos'
-  url: implementation/documentation/proactive_controls
+  url: implementação/documentação/controles_proativos
 
-- title: '5.1.2 Práticas de Codificação Segura em Go'
-  url: implementation/documentation/go_scp
+- title: '5.1.2 GoSCP (Práticas de Codificação Segura em Go)'
+  url: implementação/documentação/go_scp
 
 - title: '5.1.3 Série de Folha de dicas'
-  url: implementation/documentation/cheatsheets
+  url: implementação/documentação/série_folha_dicas
 
 - title: '5.2 Dependências'
-  url: implementation/dependencies
+  url: implementação/dependências
 
 - title: '5.2.1 Dependency_Check'
-  url: implementation/dependencies/dependency_check
+  url: implementação/dependências/dependency_check
 
 - title: '5.2.2 Dependency_Track'
-  url: implementation/dependencies/dependency_track
+  url: implementação/dependências/dependency_track
 
 - title: '5.2.3 CycloneDX'
-  url: implementation/dependencies/cyclonedx
+  url: implementação/dependências/cyclonedx
 
 - title: '5.3 Bibliotecas Seguras'
-  url: implementation/secure_libraries
+  url: implementação/bibliotecas_seguras
 
-- title: '5.3.1 Biblioteca de API de Segurança Corporative'
-  url: implementation/secure_libraries/esapi
+- title: '5.3.1 ESAPI'
+  url: implementação/bibliotecas_seguras/esapi
 
-- title: '5.3.2 CSRFGuard library'
-  url: implementation/secure_libraries/csrf_guard
+- title: '5.3.2 CSRFGuard'
+  url: implementação/bibliotecas_seguras/csrfguard
 
-- title: '5.3.3 Projeto de Cabeçalhos Seguros do OWASP (OSHP)'
-  url: implementation/secure_libraries/secure_headers
+- title: '5.3.3 OSHP'
+  url: implementação/bibliotecas_seguras/oshp
 
-- title: '5.4 Enumeração de pontos fracos de aplicativos móveis'
-  url: implementation/mas_weakness_enumeration
+- title: '5.4 MASWE'
+  url: implementação/maswe
 
 - title: '6. Verificação'
-  url: verification
+  url: verificação
 
 - title: '6.1 Guias'
-  url: verification/guides
+  url: verificação/guias
 
-- title: '6.1.1 Guia de Testes de Segurança para Aplicações Web'
-  url: verification/guides/web_security_testing_guide
+- title: '6.1.1 WSTG'
+  url: verificação/guias/wstg
 
-- title: '6.1.2 Guia de Tests MAS'
-  url: verification/guides/mas_testing_guide
+- title: '6.1.2 MASTG'
+  url: verificação/guias/mastg
 
-- title: '6.1.3 Padrão de Verificação de Segurança de Aplicações (ASVS)'
-  url: verification/guides/application_security_verification_standard
+- title: '6.1.3 ASVS'
+  url: verificação/guias/asvs
 
 - title: '6.2 Ferramentas'
-  url: verification/tools
+  url: verificação/ferramentas
 
 - title: '6.2.1 Ferramentas DAST'
-  url: verification/tools/dast
+  url: verificação/ferramentas/dast
 
 - title: '6.2.2 Amass'
-  url: verification/tools/amass
+  url: verificação/ferramentas/amass
 
-- title: '6.2.3 Framework de Teste Ofensivo de Web (OWTF)'
-  url: verification/tools/offensive_web_testing_framework
+- title: '6.2.3 OWTF'
+  url: verificação/ferramentas/owtf
 
 - title: '6.2.4 Nettacker'
-  url: verification/tools/nettacker
+  url: verificação/ferramentas/nettacker
 
-- title: '6.2.5 Projeto de Cabeçalhos Seguros OWASP (OSHP)'
-  url: verification/tools/secure_headers
+- title: '6.2.5 OSHP verificação'
+  url: verificação/ferramentas/oshp
 
 - title: '6.3 Frameworks'
-  url: verification/frameworks
+  url: verificação/frameworks
 
 - title: '6.3.1 secureCodeBox'
-  url: verification/frameworks/secure_codebox
+  url: verificação/frameworks/secure_codebox
 
 - title: '6.4 Gerenciamento de vulnerabilidades'
-  url: verification/vulnerability_management
+  url: verificação/gerenciamento_vulnerabilidades
 
 - title: '6.4.1 DefectDojo'
-  url: verification/vulnerability_management/defectdojo
+  url: verificação/gerenciamento_vulnerabilidades/defectdojo
 
 - title: '7. Treinamento e Educação'
-  url: training_education
+  url: treinamento_educação
 
 - title: '7.1 Aplicações Vulneráveis'
-  url: training_education/vulnerable_applications
+  url: treinamento_educação/aplicações_vulneráveis
 
 - title: '7.1.1 Juice Shop'
-  url: training_education/vulnerable_applications/juice_shop
+  url: treinamento_educação/aplicações_vulneráveis/juice_shop
 
 - title: '7.1.2 WebGoat'
-  url: training_education/vulnerable_applications/webgoat
+  url: treinamento_educação/aplicações_vulneráveis/webgoat
 
 - title: '7.1.3 PyGoat'
-  url: training_education/vulnerable_applications/pygoat
+  url: treinamento_educação/aplicações_vulneráveis/pygoat
 
 - title: '7.1.4 Security Shepherd'
-  url: training_education/vulnerable_applications/security_shepherd
+  url: treinamento_educação/aplicações_vulneráveis/security_shepherd
 
 - title: '7.2 Secure Coding Dojo'
-  url: training_education/secure_coding_dojo
+  url: treinamento_educação/secure_coding_dojo
 
-- title: '7.3 Framework de Conhecimento de Segurança'
-  url: training_education/security_knowledge_framework
+- title: '7.3 SKF treinamento'
+  url: treinamento_educação/SKF
 
 - title: '7.4 SamuraiWTF'
-  url: training_education/samurai_wtf
+  url: treinamento_educação/samuraiwtf
 
 - title: '7.5 Projeto OWASP Top 10'
-  url: training_education/owasp_top_ten
+  url: treinamento_educação/owasp_top_ten
 
 - title: '7.6 Mobile Top 10'
-  url: training_education/mobile_top_ten
+  url: treinamento_educação/mobile_top_ten
 
 - title: '7.7 API Top 10'
-  url: training_education/api_top_ten
+  url: treinamento_educação/api_top_ten
 
 - title: '7.8 WrongSecrets'
-  url: training_education/wrongsecrets
+  url: treinamento_educação/wrongsecrets
 
 - title: '7.9 OWASP Snakes and Ladders'
-  url: training_education/snakes_and_ladders
+  url: treinamento_educação/snakes_and_ladders
 
 - title: '8. Construção de cultura e Amadurecimento de processos'
-  url: culture_building_and_process_maturing
+  url: construção_cultura_amadurecimento_processos
 
 - title: '8.1 Cultura de Segurança'
-  url: culture_building_and_process_maturing/security_culture
+  url: construção_cultura_amadurecimento_processos/cultura_segurança
 
 - title: '8.2 Campeões de Segurança'
-  url: culture_building_and_process_maturing/security_champions
+  url: construção_cultura_amadurecimento_processos/campeões_segurança
 
 - title: '8.2.1 Programa de Campeões de Segurança'
-  url: culture_building_and_process_maturing/security_champions/security_champions_program
+  url: construção_cultura_amadurecimento_processos/campeões_segurança/programa
 
 - title: '8.2.2 Guia de Campeões de Segurança'
-  url: culture_building_and_process_maturing/security_champions/security_champions_guide
+  url: construção_cultura_amadurecimento_processos/campeões_segurança/guia
 
 - title: '8.2.3 Security Champions Playbook'
-  url: culture_building_and_process_maturing/security_champions/security_champions_playbook
+  url: construção_cultura_amadurecimento_processos/campeões_segurança/playbook
 
-- title: '8.3 Modelo de Maturidade de Software Assurance (SAMM)'
-  url: culture_building_and_process_maturing/software_assurance_maturity_model
+- title: '8.3 SAMM'
+  url: construção_cultura_amadurecimento_processos/samm
 
-- title: '8.4 Padrão de Verificação de Segurança de Aplicações (ASVS)'
-  url: culture_building_and_process_maturing/application_security_verification_standard
+- title: '8.4 ASVS processos'
+  url: construção_cultura_amadurecimento_processos/asvs
 
-- title: '8.5 Segurança de Aplicativos Móveis'
-  url: culture_building_and_process_maturing/mobile_application_security
+- title: '8.5 MAS processos'
+  url: culture_building_and_process_maturing/mas
 
 - title: '9. Operações'
-  url: operation
+  url: operações
 
 - title: '9.1 Diretriz de DevSecOps'
-  url: operations/devsecops_guideline
+  url: operações/diretriz_devsecOps
 
-- title: '9.2 Coraza Web Application Firewall'
-  url: operations/coraza_waf
+- title: '9.2 Coraza WAF'
+  url: operações/coraza
 
-- title: '9.3 ModSecurity Web Application Firewall'
-  url: operations/modsecurity_waf/
+- title: '9.3 ModSecurity WAF'
+  url: operações/modsecurity
 
 - title: '9.4 OWASP CRS'
-  url: operations/crs
+  url: operações/crs
 
 - title: '10. Métricas'
-  url: metrics
+  url: métricas
 
 - title: '11. Análise de lacunas de segurança'
-  url: security_gap_analysis
+  url: análise_lacunas_segurança
 
 - title: '11.1 Guias'
-  url: security_gap_analysis/guides
+  url: análise_lacunas_segurança/guias
 
-- title: '11.1.1 Modelo de Maturidade de Software Assurance (SAMM)'
-  url: security_gap_analysis/guides/software_assurance_maturity_model
+- title: '11.1.1 SAMM análise'
+  url: análise_lacunas_segurança/guias/samm
 
-- title: '11.1.2 Padrão de Verificação de Segurança de Aplicações (ASVS)'
-  url: security_gap_analysis/guides/application_security_verification_standard
+- title: '11.1.2 ASVS análise'
+  url: análise_lacunas_segurança/guias/asvs
 
-- title: '11.1.3 Segurança de Aplicativos Móveis'
-  url: security_gap_analysis/guides/mobile_application_security
+- title: '11.1.3 MAS análise'
+  url: análise_lacunas_segurança/guias/mas
 
-- title: '11.2 Ferramenta de registro de bugs'
-  url: security_gap_analysis/bug_logging_tool
+- title: '11.2 BLT'
+  url: análise_lacunas_segurança/blt
 
 - title: '12. Appendices'
   url: appendices
 
 - title: '12.1 O que fazer e o que não fazer na Implementação'
-  url: appendices/implementation_dos_donts
+  url: appendices/implementação
 
 - title: '12.1.1 Segurança de containers'
-  url: appendices/implementation_dos_donts/container_security
+  url: appendices/implementação/segurança_containers
 
 - title: '12.1.2 Codificação segura'
-  url: appendices/implementation_dos_donts/secure_coding
+  url: appendices/implementação/codificação_segura
 
 - title: '12.1.3 Práticas de criptografia'
-  url: appendices/implementation_dos_donts/cryptographic_practices
+  url: appendices/implementação/práticas_criptografia
 
 - title: '12.1.4 Spoofing de Applicação'
-  url: appendices/implementation_dos_donts/application_spoofing
+  url: appendices/implementação/spoofing_applicação
 
 - title: '12.1.5 Política de Segurança de Conteúdo (CSP)'
-  url: appendices/implementation_dos_donts/content_security_policy
+  url: appendices/implementação/csp
 
 - title: '12.1.6 Tratamento de erros e exceções'
-  url: appendices/implementation_dos_donts/exception_error_handling
+  url: appendices/implementação/tratamento_erros_exceções
 
 - title: '12.1.7 Gerenciamento de arquivos'
-  url: appendices/implementation_dos_donts/file_management
+  url: appendices/implementação/gerenciamento_arquivos
 
 - title: '12.1.8 Gerenciamento de memória'
-  url: appendices/implementation_dos_donts/memory_management
+  url: appendices/implementação/gerenciamento_memória
 
 - title: '12.2 O que fazer e o que não fazer na Verificação'
-  url: appendices/verification_dos_donts
+  url: appendices/verificação
 
 - title: '12.2.1 Ambiente seguro'
-  url: appendices/verification_dos_donts/secure_environment
+  url: appendices/verificação/ambiente_seguro
 
 - title: '12.2.2 Hardening de sistemas'
-  url: appendices/verification_dos_donts/system_hardening
+  url: appendices/verificação/hardening_sistemas
 
 - title: '12.2.3 Software de Código Aberto'
-  url: appendices/verification_dos_donts/open_source_software
+  url: appendices/verificação/software_código_aberto

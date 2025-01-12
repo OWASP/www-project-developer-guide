@@ -33,11 +33,11 @@ equipes de segurança e desenvolvimento trabalhando juntos.
 
 Seções:
 
-2.1 [Fundamentos de segurança](#security-fundamentals)  
-2.2 [Desenvolvimento e integração seguros](#secure-development-and-integration)  
-2.3 [Princípios de segurança](#principles-of-security)  
-2.4 [Princípios de criptografia](#principles-of-cryptography)  
-2.5 [OWASP Top 10](#owasp-top-ten)  
+2.1 [Fundamentos de segurança](#fundamentos-de-segurança)  
+2.2 [Desenvolvimento e integração seguros](#desenvolvimento-e-integração-seguros)  
+2.3 [Princípios de segurança](#princípios-de-segurança)  
+2.4 [Princípios de criptografia](#princípios-de-criptografia)  
+2.5 [OWASP Top Dez](#owasp-top-dez)  
 
 ----
 

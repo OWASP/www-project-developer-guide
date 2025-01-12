@@ -1,12 +1,12 @@
 ---
 
-title: Web Application Checklist
+title: Lista de verificação para aplicação web
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guia do Desenvolvedor do OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guia do Desenvolvedor do OWASP
 order: 26200
-permalink: /release-pt-br/design/web_app_checklist/
+permalink: /release-pt-br/design/lista_verificação_web/
 
 ---
 
@@ -22,42 +22,25 @@ permalink: /release-pt-br/design/web_app_checklist/
 }
 </style>
 
-![Developer guide logo](../../../assets/images/dg_logo_bbd.png "OWASP Developer Guide"){: .image-right }
+![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
-### 4.2 Web application checklist
+### 4.2 Lista de verificação para aplicação web
 
-Checklists are a valuable resource for development teams.
-They provide structure for establishing good practices and processes
-and are also useful during code reviews and design activities.
-
-The checklists that follow are general lists that are categorised to follow the controls listed in the
-[OWASP Top 10 Proactive Controls][proactive10] project.
-These checklists provide suggestions that certainly should be tailored to
-an individual project's requirements and environment; they are not meant to be followed in their entirety.
-
-Probably the best starting point for a checklist is given by the [Application Security Verification Standard (ASVS)][asvs].
-The ASVS can be used to provide a framework for an initial checklist, according to the security verification level,
-and this initial ASVS checklist can then be expanded using the following checklist sections.
+Não há tradução para esta página, consulte a [versão original em inglês][release0602].
 
 Sections:
 
-4.2.1 [Checklist: Define Security Requirements](01-define-security-requirements.md)  
-4.2.2 [Checklist: Leverage Security Frameworks and Libraries](02-frameworks-libraries.md)  
-4.2.3 [Checklist: Secure Database Access](03-secure-database-access.md)  
-4.2.4 [Checklist: Encode and Escape Data](04-encode-escape-data.md)  
-4.2.5 [Checklist: Validate All Inputs](05-validate-inputs.md)  
-4.2.6 [Checklist: Implement Digital Identity](06-digital-identity.md)  
-4.2.7 [Checklist: Enforce Access Controls](07-access-controls.md)  
-4.2.8 [Checklist: Protect Data Everywhere](08-protect-data.md)  
-4.2.9 [Checklist: Implement Security Logging and Monitoring](09-logging-monitoring.md)  
-4.2.10 [Checklist: Handle all Errors and Exceptions](10-handle-errors-exceptions.md)  
+4.2.1 [Defina Requisitos de Segurança](01-define-security-requirements.md)  
+4.2.2 [Utilize Frameworks e Bibliotecas de Segurança](02-frameworks-libraries.md)  
+4.2.3 [Proteja Acesso ao Banco de Dados](03-secure-database-access.md)  
+4.2.4 [Codifique e Escape Dados](04-encode-escape-data.md)  
+4.2.5 [Valide todas as entradas](05-validate-inputs.md)  
+4.2.6 [Implemente Identidade Digital](06-digital-identity.md)  
+4.2.7 [Imponha Controles de Acesso](07-access-controls.md)  
+4.2.8 [Proteja Dados em Todos os Lugares](08-protect-data.md)  
+4.2.9 [Implemente Registro e Monitoramento de Segurança](09-logging-monitoring.md)  
+4.2.10 [Trate todos os Errors e Exceções](10-handle-errors-exceptions.md)  
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue0602] or [edit on GitHub][edit0602].
-
-[asvs]: https://owasp.org/www-project-application-security-verification-standard/
-[edit0602]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/02-web-app-checklist/toc.md
-[issue0602]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/02-web-app-checklist/00-toc
-[proactive10]: https://owasp.org/www-project-proactive-controls/
+[release0602]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/02-web-app-checklist/toc.md

@@ -1,12 +1,12 @@
 ---
 
-title: Requisitos na prática
+title: MASWE
 layout: col-document
 tags: Guia do Desenvolvedor do OWASP
-contributors:
+contributors: 
 document: Guia do Desenvolvedor do OWASP
-order: 25010
-permalink: /release-pt-br/requisitos/requisitos_prática/
+order: 27400
+permalink: /release-pt-br/implementação/maswe/
 
 ---
 
@@ -24,10 +24,12 @@ permalink: /release-pt-br/requisitos/requisitos_prática/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
-### 3.1 Requisitos na prática
+### 5.4 MASWE
 
-Não há tradução para esta página, consulte a [versão original em inglês][release0501].
+Enumeração de pontos fracos de aplicativos móveis
+
+Não há tradução para esta página, consulte a [versão original em inglês][release0704].
 
 ----
 
-[release0501]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/05-requirements/01-requirements.md
+[release0704]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/04-maswe.md

@@ -1,12 +1,12 @@
 ---
 
-title: Culture Building and Process Maturing
+title: Construção de cultura e Amadurecimento de processos
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guia do Desenvolvedor do OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guia do Desenvolvedor do OWASP
 order: 30000
-permalink: /release-pt-br/culture_building_and_process_maturing/
+permalink: /release-pt-br/construção_cultura_amadurecimento_processos/
 
 ---
 
@@ -22,39 +22,23 @@ permalink: /release-pt-br/culture_building_and_process_maturing/
 }
 </style>
 
-![Developer guide logo](../../assets/images/dg_logo.png "OWASP Developer Guide"){: .image-right }
+![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
-## 8. Culture building and Process maturing
+## 8. Construção de cultura e Amadurecimento de processos
 
-Culture building and Process maturing is described by the SAMM [Organization and Culture][sammgegoc] activity,
-which in turn is part of the SAMM [Education & Guidance][sammgeg] security practice
-within the [Governance][sammg] business function.
-
-The maturity of security processes and culture is wide ranging, with indicators of a mature process and culture including:
-
-* Security champions have been identified for each development team
-* A program is in place to support the security champions
-* Secure coding practices are in place to define standards and improve software development
-* Developers and application security professionals across the organization are able to communicate and share best practice
+Não há tradução para esta página, consulte a [versão original em inglês][release1000].
 
 Sections:
 
-8.1 [Security Culture](01-security-culture.md)  
-8.2 [Security Champions](02-security-champions/toc.md)  
-8.2.1 [Security champions program](02-security-champions/01-security-champions-program.md)  
+8.1 [Cultura de Segurança](01-security-culture.md)  
+8.2 [Campeões de Segurança](02-security-champions/toc.md)  
+8.2.1 [Programa de Campeões de Segurança](02-security-champions/01-security-champions-program.md)  
 8.2.2 [Security Champions Guide](02-security-champions/02-security-champions-guide.md)  
 8.2.3 [Security Champions Playbook](02-security-champions/03-security-champions-playbook.md)  
-8.3 [Software Assurance Maturity Model](03-samm.md)  
-8.4 [Application Security Verification Standard](04-asvs.md)  
-8.5 [Mobile Application Security](05-mas.md)  
+8.3 [SAMM](03-samm.md)  
+8.4 [ASVS processos](04-asvs.md)  
+8.5 [MAS processos](05-mas.md)  
 
 ----
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue1000] or [edit on GitHub][edit1000].
-
-[edit1000]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/10-culture-process/toc.md
-[issue1000]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2010-culture-process/00-toc
-[sammg]: https://owaspsamm.org/model/governance/
-[sammgeg]: https://owaspsamm.org/model/governance/education-and-guidance/
-[sammgegoc]: https://owaspsamm.org/model/governance/education-and-guidance/stream-b/
+[release1000]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/10-culture-process/toc.md

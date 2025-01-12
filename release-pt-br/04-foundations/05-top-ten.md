@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors: Amauri Bizerra
 document: Guia do Desenvolvedor do OWASP
 order: 24050
-permalink: /release-pt-br/foundations/owasp_top_ten/
+permalink: /release-pt-br/foundations/owasp_top_dez/
 
 ---
 
@@ -41,7 +41,7 @@ A lista mudou ao longo do tempo, com alguns tipos de ameaças se tornando um pro
 e outras ameaças passando a ter um grau menor de risco à medida que as tecnologias mudam.
 A [versão mais recente][top10] foi lançada em 2021 e cada categoria está resumida abaixo.
 
-Observe que existem vários projetos 'OWASP Top Dez', por exemplo, o 'OWASP Top 10 para Applicações de Modelos de
+Observe que existem vários projetos 'OWASP Top Dez', por exemplo, o 'OWASP Top 10 para Aplicações de Modelos de
 Linguagem de Grande Escala', portanto, para evitar confusão, o contexto deve ser observado ao se referir a essas listas.
 
 #### A01:2021 Controle de Acesso Quebrado
