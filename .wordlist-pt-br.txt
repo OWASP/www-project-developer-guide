@@ -63,6 +63,7 @@ Juice
 Knowledge
 LDAP
 LINDDUN
+LLM
 Ladders
 Language
 Large
@@ -79,12 +80,14 @@ OSHP
 OWASP
 OWTF
 Of
+Open
 OpenCRE
 Page
 Playbook
 Policy
 Privacy
 Proactive
+Project
 PyGoat
 Release
 Risks
@@ -119,10 +122,12 @@ URLs
 Upload
 VPN
 WAF
+Wayfinder
 WHATWG
 WSTG
 WebGoat
 WebWolf
+Worldwide
 WrongSecrets
 XSS
 XXE
