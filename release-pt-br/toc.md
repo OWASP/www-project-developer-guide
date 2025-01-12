@@ -72,7 +72,7 @@ permalink: /release-pt-br/
 5.3.1 [ESAPI](07-implementation/03-secure-libraries/01-esapi.md)  
 5.3.2 [CSRFGuard](07-implementation/03-secure-libraries/02-csrf-guard.md)  
 5.3.3 [OSHP](07-implementation/03-secure-libraries/03-secure-headers.md)  
-5.4 [MASWE](07-implementation/03-secure-libraries/04-maswe.md)
+5.4 [MASWE](07-implementation/04-maswe.md)
 
 6 **[Verificação](08-verification/toc.md)**  
 6.1 [Guias](08-verification/01-guides/toc.md)  
