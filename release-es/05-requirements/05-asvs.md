@@ -26,7 +26,7 @@ permalink: /release-es/requerimientos/asvs/
 
 ### 3.5 ASVS requerimientos
 
-Estandard de Verificación de Securidad de Aplicaciones (ASVS)
+Estandard de Verificación de Seguridad de Aplicaciones (ASVS)
 
 No hay traducción de esta página, consulte [versión original en inglés][release0505].
 
