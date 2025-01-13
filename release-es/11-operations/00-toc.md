@@ -1,10 +1,10 @@
 ---
 
-title: Operation
+title: Operaciones
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order:
 
 ---
@@ -13,15 +13,15 @@ order:
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){height=180px}
 
-## 9. Operations
+## 9. Operaciones
 
 No hay traducción de esta página, consulte [versión original en inglés][release1100].
 
 Sections:
 
-9.1 [DevSecOps Guideline](#devsecops-guideline)  
-9.2 [Coraza Web Application Firewall](#coraza-web-application-firewall)  
-9.3 [ModSecurity Web Application Firewall](#modsecurity-web-application-firewall)  
+9.1 [Directriz DevSecOps](#directriz-devsecops)  
+9.2 [Coraza WAF](#coraza-waf)  
+9.3 [ModSecurity WAF](#modsecurity-waf)  
 9.4 [OWASP CRS](#owasp-crs)  
 
 ----

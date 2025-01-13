@@ -1,10 +1,10 @@
 ---
 
-title: Implementation
+title: Implementación
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order:
 
 ---
@@ -13,25 +13,25 @@ order:
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){height=180px}
 
-## 5. Implementation
+## 5. Implementación
 
 No hay traducción de esta página, consulte [versión original en inglés][release0700].
 
 Sections:
 
-5.1 [Documentation](#documentation)  
-5.1.1 [Top 10 Proactive Controls](#top-proactive-controls)  
-5.1.2 [Go Secure Coding Practices](#go-secure-coding-practices)  
-5.1.3 [Cheatsheet Series](#cheatsheet-series)  
-5.2 [Dependencies](#dependencies)
+5.1 [Documentación](#documentación)  
+5.1.1 [Los Top 10 controles proactivos](#los-Top-10-controles-proactivos)  
+5.1.2 [GoSCP (Prácticas de codificación seguras de Go)](#goscp-prácticas-de-codificación-seguras-de-go)  
+5.1.3 [Serie de hojas de referencia](#cheatsheet-series)  
+5.2 [Dependencias](#dependencias)
 5.2.1 [Dependency-Check](#dependency-check)  
 5.2.2 [Dependency-Track](#dependency-track)  
 5.2.3 [CycloneDX](#cyclonedx)  
-5.3 [Secure Libraries](#secure-libraries)  
-5.3.1 [Enterprise Security API library](#enterprise-security-api-library)  
-5.3.2 [CSRFGuard library](#csrfguard-library)  
-5.3.3 [OWASP Secure Headers Project](#owasp-secure-headers-project)  
-5.4 [Mobile application weakness enumeration](#mobile-application-weakness-enumeration)  
+5.3 [Librerías seguras](#librerías-seguras)  
+5.3.1 [ESAPI](#esapi)  
+5.3.2 [CSRFGuard](#csrfguard)  
+5.3.3 [OSHP](#oshp)  
+5.4 [MASWE](#maswe)  
 
 ----
 

@@ -1,12 +1,12 @@
 ---
 
-title: Mobile Application Security
+title: MAS procesos
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 50500
-permalink: /release-es/culture_building_and_process_maturing/mobile_application_security/
+permalink: /release-es/desarrollo_cultura_maduración_procesos/mas/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/culture_building_and_process_maturing/mobile_application_
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 8.5 Mobile Application Security
+### 8.5 MAS procesos
 
 No hay traducción de esta página, consulte [versión original en inglés][release1005].
 

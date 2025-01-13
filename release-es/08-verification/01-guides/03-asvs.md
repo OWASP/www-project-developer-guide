@@ -1,12 +1,12 @@
 ---
 
-title: Application Security Verification Standard
+title: ASVS
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 48130
-permalink: /release-es/verification/guides/application_security_verification_standard/
+permalink: /release-es/verificación/guías/asvs/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/verification/guides/application_security_verification_sta
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 6.1.3 Application Security Verification Standard
+### 6.1.3 ASVS
 
 No hay traducción de esta página, consulte [versión original en inglés][release080103].
 

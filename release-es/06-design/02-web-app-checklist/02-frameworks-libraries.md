@@ -1,12 +1,12 @@
 ---
 
-title: Leverage Security Frameworks and Libraries Checklist
+title: Aprovechar los frameworks y librerías
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 46220
-permalink: /release-es/design/web_app_checklist/frameworks_libraries/
+permalink: /release-es/diseño/lista_verificación_web/aprovechar_frameworks_librerías/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/design/web_app_checklist/frameworks_libraries/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 4.2.2 Checklist: Leverage Security Frameworks and Libraries
+### 4.2.2 Aprovechar los frameworks y librerías
 
 No hay traducción de esta página, consulte [versión original en inglés][release060202].
 

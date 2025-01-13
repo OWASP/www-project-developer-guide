@@ -1,12 +1,12 @@
 ---
 
-title: Implementation Dependencies
+title: Dependencias
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 47200
-permalink: /release-es/implementation/dependencies/
+permalink: /release-es/implementación/dependencias/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/implementation/dependencies/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 5.2 Dependencies
+### 5.2 Dependencias
 
 No hay traducción de esta página, consulte [versión original en inglés][release0702].
 

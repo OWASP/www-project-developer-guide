@@ -1,12 +1,12 @@
 ---
 
-title: Go Secure Coding Practices
+title: GoSCP
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 47120
-permalink: /release-es/implementation/documentation/go_scp/
+permalink: /release-es/implementación/documentación/goscp/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/implementation/documentation/go_scp/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 5.1.2 Go Secure Coding Practices
+### 5.1.2 GoSCP (Prácticas de codificación seguras de Go)
 
 No hay traducción de esta página, consulte [versión original en inglés][release070102].
 

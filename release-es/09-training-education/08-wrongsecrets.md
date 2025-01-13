@@ -1,11 +1,11 @@
 ---
 title: WrongSecrets
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 49260
-permalink: /release-es/training_education/wrongsecrets/
+permalink: /release-es/capacitación_educación/wrongsecrets/
 ---
 
 {% include breadcrumb.html %}

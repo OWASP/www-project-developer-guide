@@ -1,12 +1,12 @@
 ---
 
-title: ModSecurity Web Application Firewall
+title: ModSecurity WAF
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 51030
-permalink: /release-es/operations/modsecurity_waf/
+permalink: /release-es/operaciones/modsecurity_waf/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/operations/modsecurity_waf/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 9.3 ModSecurity Web Application Firewall
+### 9.3 ModSecurity WAF
 
 No hay traducción de esta página, consulte [versión original en inglés][release1103].
 

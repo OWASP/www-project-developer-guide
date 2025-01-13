@@ -2,11 +2,11 @@
 
 title: CycloneDX
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 47230
-permalink: /release-es/implementation/dependencies/cyclonedx/
+permalink: /release-es/implementación/dependencias/cyclonedx/
 
 ---
 

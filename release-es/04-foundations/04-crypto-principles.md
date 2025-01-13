@@ -3,10 +3,10 @@
 title: Principios de Criptografía
 layout: col-document
 tags: Guía del Desarrollador OWASP
-contributors: Roxana Calderon, Jon Gadsden
-document: OWASP Developer Guide
+contributors: Roxana Calderon
+document: Guía del Desarrollador OWASP
 order: 44040
-permalink: /release-es/foundations/crypto_principles/
+permalink: /release-es/fundamentos/principios_criptografía/
 
 ---
 
@@ -18,7 +18,7 @@ La criptografía es fundamental para la Confidencialidad e Integridad de las apl
 La serie de [Hojas de Referencia][csproject] de OWASP describe el uso de la criptografía y algunas de ellas están
 listadas en la lectura adicional al final de esta sección.
 
-#### Descrición general
+#### Descripción general
 
 Esta sección proporciona una breve introducción a la criptografía (a menudo simplemente referida como "crypto")
 y los términos utilizados.

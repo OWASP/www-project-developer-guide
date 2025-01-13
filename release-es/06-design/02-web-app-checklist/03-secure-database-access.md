@@ -1,12 +1,12 @@
 ---
 
-title: Secure Database Access Checklist
+title: Asegurar el acceso a la base de datos
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 46230
-permalink: /release-es/design/web_app_checklist/secure_database_access/
+permalink: /release-es/diseño/lista_verificación_web/asegurar_base_datos/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/design/web_app_checklist/secure_database_access/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 4.2.3 Checklist: Secure Database Access
+### 4.2.3 Asegurar el acceso a la base de datos
 
 No hay traducción de esta página, consulte [versión original en inglés][release060203].
 

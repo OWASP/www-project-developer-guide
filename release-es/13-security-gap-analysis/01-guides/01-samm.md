@@ -1,12 +1,12 @@
 ---
 
-title: Software Assurance Maturity Model
+title: SAMM
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 53110
-permalink: /release-es/security_gap_analysis/guides/software_assurance_maturity_model/
+permalink: /release-es/análisis_brechas_seguridad/guías/samm/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/security_gap_analysis/guides/software_assurance_maturity_
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 11.1.1 Software Assurance Maturity Model
+### 11.1.1 SAMM análisis
 
 No hay traducción de esta página, consulte [versión original en inglés][release130101].
 

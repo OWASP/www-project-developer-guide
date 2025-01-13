@@ -1,12 +1,12 @@
 ---
 
-title: Pythonic Threat Modeling
+title: Pytm
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 46120
-permalink: /release-es/design/threat_modeling/pytm/
+permalink: /release-es/diseño/modelado_amenazas/pytm/
 
 ---
 

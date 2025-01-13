@@ -1,12 +1,12 @@
 ---
 
-title: Enforce Access Controls Checklist
+title: Hacer respetar los controles de acceso
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 46270
-permalink: /release-es/design/web_app_checklist/access_controls/
+permalink: /release-es/diseño/lista_verificación_web/controles_acceso/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/design/web_app_checklist/access_controls/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 4.2.7 Checklist: Enforce Access Controls
+### 4.2.7 Hacer respetar los controles de acceso
 
 No hay traducción de esta página, consulte [versión original en inglés][release060207].
 

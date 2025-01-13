@@ -1,12 +1,12 @@
 ---
 
-title: DevSecOps Guideline
+title: Directriz DevSecOps
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 51010
-permalink: /release-es/operations/devsecops_guideline/
+permalink: /release-es/operaciones/directriz_devsecops/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/operations/devsecops_guideline/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 9.1 DevSecOps Guideline
+### 9.1 Directriz DevSecOps
 
 No hay traducción de esta página, consulte [versión original en inglés][release1101].
 

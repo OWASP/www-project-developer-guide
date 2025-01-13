@@ -1,12 +1,12 @@
 ---
 
-title: Threat Modeling in Practice
+title: Modelado de amenazas en la práctica
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 46110
-permalink: /release-es/design/threat_modeling/practical_threat_modeling/
+permalink: /release-es/diseño/modelado_amenazas/modelado_amenazas_práctica/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/design/threat_modeling/practical_threat_modeling/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 4.1.1 Threat modeling in practice
+### 4.1.1 Modelado de amenazas en la práctica
 
 No hay traducción de esta página, consulte [versión original en inglés][release060101].
 

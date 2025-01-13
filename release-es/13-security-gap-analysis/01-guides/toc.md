@@ -1,12 +1,12 @@
 ---
 
-title: Guides for Security Gap Analysis
+title: Guías
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 53100
-permalink: /release-es/security_gap_analysis/guides/
+permalink: /release-es/análisis_brechas_seguridad/guías/
 
 ---
 
@@ -24,15 +24,15 @@ permalink: /release-es/security_gap_analysis/guides/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 11.1 Security gap analysis guides
+### 11.1 Guías
 
 No hay traducción de esta página, consulte [versión original en inglés][release1301].
 
 Sections:
 
-11.1.1 [Software Assurance Maturity Model](01-samm.md)  
-11.1.2 [Application Security Verification Standard](02-asvs.md)  
-11.1.3 [Mobile Application Security](03-mas.md)  
+11.1.1 [SAMM análisis](01-samm.md)  
+11.1.2 [ASVS análisis](02-asvs.md)  
+11.1.3 [MAS análisis](03-mas.md)  
 
 ----
 

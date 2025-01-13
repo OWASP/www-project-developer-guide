@@ -1,12 +1,12 @@
 ---
 
-title: Risk Profile
+title: Perfil de riesgo
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 45020
-permalink: /release-es/requirements/risk_profile/
+permalink: /release-es/requerimientos/perfil_riesgo/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/requirements/risk_profile/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 3.2 Risk profile
+### 3.2 Perfil de riesgo
 
 No hay traducción de esta página, consulte [versión original en inglés][release0502].
 

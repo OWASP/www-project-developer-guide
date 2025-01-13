@@ -1,10 +1,10 @@
 ---
 
-title: Threat Modeling
+title: Modelado de amenazas
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 46100
 permalink: /release-es/design/threat_modeling/
 
@@ -24,18 +24,18 @@ permalink: /release-es/design/threat_modeling/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 4.1 Threat modeling
+### 4.1 Modelado de amenazas
 
 No hay traducción de esta página, consulte [versión original en inglés][release0601].
 
 Sections:
 
-4.1.1 [Threat modeling in practice](01-threat-modeling.md)  
+4.1.1 [Modelado de amenazas en la práctica](01-threat-modeling.md)  
 4.1.2 [pytm](02-pytm.md)  
 4.1.3 [Threat Dragon](03-threat-dragon.md)  
 4.1.4 [Cornucopia](04-cornucopia.md)  
 4.1.5 [LINDDUN GO](05-linddun-go.md)  
-4.1.6 [Threat Modeling toolkit](06-toolkit.md)  
+4.1.6 [Kit de herramientas de modelado de amenazas](06-toolkit.md)  
 
 ----
 

@@ -1,12 +1,12 @@
 ---
 
-title: Mobile Application Security
+title: MASTG
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 48120
-permalink: /release-es/verification/guides/mas_testing_guide/
+permalink: /release-es/verificación/guías/mastg/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/verification/guides/mas_testing_guide/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 6.1.2 MAS testing guide
+### 6.1.2 MASTG
 
 No hay traducción de esta página, consulte [versión original en inglés][release080102].
 

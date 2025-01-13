@@ -47,7 +47,7 @@ docs:
   url: requirements/security_knowledge_framework
 
 - title: '4. Design'
-  url: /design
+  url: design
 
 - title: '4.1 Threat modeling'
   url: design/threat_modeling
@@ -124,10 +124,10 @@ docs:
 - title: '5.2 Dependencies'
   url: implementation/dependencies
 
-- title: '5.2.1 Dependency_Check'
+- title: '5.2.1 Dependency-Check'
   url: implementation/dependencies/dependency_check
 
-- title: '5.2.2 Dependency_Track'
+- title: '5.2.2 Dependency-Track'
   url: implementation/dependencies/dependency_track
 
 - title: '5.2.3 CycloneDX'

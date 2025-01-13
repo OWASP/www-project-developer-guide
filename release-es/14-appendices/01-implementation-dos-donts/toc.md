@@ -1,12 +1,12 @@
 ---
 
-title: Implementation Do's and Don'ts
+title: Qué hacer y qué no hacer en la implementación
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 54100
-permalink: /release-es/appendices/implementation_dos_donts/
+permalink: /release-es/apéndices/qué_hacer_implementación/
 
 ---
 
@@ -24,20 +24,20 @@ permalink: /release-es/appendices/implementation_dos_donts/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 12.1 Implementation Do's and Don'ts
+### 12.1 Qué hacer y qué no hacer en la implementación
 
 No hay traducción de esta página, consulte [versión original en inglés][release0740].
 
 Sections:
 
-12.1.1 [Container security](01-container-security.md)  
-12.1.2 [Secure coding](02-secure-coding.md)  
-12.1.3 [Cryptographic practices](03-cryptographic-practices.md)  
-12.1.4 [Application spoofing](04-application-spoofing.md)  
-12.1.5 [Content Security Policy (CPS)](05-content-security-policy.md)  
-12.1.6 [Exception and error handling](06-exception-error-handling.md)  
-12.1.7 [File management](07-file-management.md)  
-12.1.8 [Memory management](08-memory-management.md)
+12.1.1 [Seguridad de Contenedores](01-container-security.md)  
+12.1.2 [Codificación segura](02-secure-coding.md)  
+12.1.3 [Prácticas criptográficas](03-cryptographic-practices.md)  
+12.1.4 [Suplantación de aplicaciones](04-application-spoofing.md)  
+12.1.5 [Política de seguridad de contenido (CSP)](05-content-security-policy.md)  
+12.1.6 [Manejo de excepciones y errores](06-exception-error-handling.md)  
+12.1.7 [Administración de archivos](07-file-management.md)  
+12.1.8 [Administración de memoria](08-memory-management.md)  
 
 ----
 

@@ -1,12 +1,12 @@
 ---
 
-title: Verification Do's and Don'ts
+title: Qué hacer y qué no hacer en la verificación
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 54200
-permalink: /release-es/appendices/verification_dos_donts/
+permalink: /release-es/apéndices/qué_hacer_verificación/
 
 ---
 
@@ -24,15 +24,15 @@ permalink: /release-es/appendices/verification_dos_donts/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-## 12.2 Verification Do's and Don'ts
+## 12.2 Qué hacer y qué no hacer en la verificación
 
 No hay traducción de esta página, consulte [versión original en inglés][release1402].
 
 Sections:
 
-14.2.1 [Secure environment](01-secure-environment.md)  
-14.2.2 [System hardening](02-system-hardening.md)  
-14.2.3 [Open Source software](03-open-source-software.md)  
+12.2.1 [Entorno seguro](01-secure-environment.md)  
+12.2.2 [Refuerzo de seguridad del sistema](02-system-hardening.md)  
+12.2.3 [Software de código abierto](03-open-source-software.md)  
 
 ----
 

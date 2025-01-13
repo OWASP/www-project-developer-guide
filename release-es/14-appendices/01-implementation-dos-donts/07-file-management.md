@@ -1,12 +1,12 @@
 ---
 
-title: File Management
+title: Administración de archivos
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 54170
-permalink: /release-es/appendices/implementation_dos_donts/file_management/
+permalink: /release-es/apéndices/qué_hacer_implementación/administración_archivos/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/appendices/implementation_dos_donts/file_management/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 12.1.7 File Management
+### 12.1.7 Administración de archivos
 
 No hay traducción de esta página, consulte [versión original en inglés][release140107].
 

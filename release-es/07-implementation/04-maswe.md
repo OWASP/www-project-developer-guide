@@ -1,12 +1,12 @@
 ---
 
-title: MAS Weakness Enumeration
+title: MASWE
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 47400
-permalink: /release-es/implementation/mas_weakness_enumeration/
+permalink: /release-es/implementación/maswe/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/implementation/mas_weakness_enumeration/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 5.4 Mobile application weakness enumeration
+### 5.4 MASWE
 
 No hay traducción de esta página, consulte [versión original en inglés][release0704].
 

@@ -1,10 +1,10 @@
 ---
 
-title: Front Page
+title: OWASP DevGuide
 layout: col-document
-tags: OWASP Developer Guide
-contributors: Roxana Calderon, Shruti Kulkarni, Jon Gadsden, Johan Sydseter
-document: OWASP Developer Guide
+tags: Guía del desarrollador OWASP
+contributors: Roxana Calderon
+document: Guía del desarrollador OWASP
 order:
 permalink:
 

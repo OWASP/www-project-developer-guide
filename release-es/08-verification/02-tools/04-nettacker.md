@@ -2,11 +2,11 @@
 
 title: Nettacker
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 48240
-permalink: /release-es/verification/tools/nettacker/
+permalink: /release-es/verificación/herramientas/nettacker/
 
 ---
 

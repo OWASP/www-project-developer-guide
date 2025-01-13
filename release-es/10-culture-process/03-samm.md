@@ -1,12 +1,12 @@
 ---
 
-title: Software Assurance Maturity Model
+title: SAMM
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 50300
-permalink: /release-es/culture_building_and_process_maturing/software_assurance_maturity_model/
+permalink: /release-es/desarrollo_cultura_maduración_procesos/samm/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/culture_building_and_process_maturing/software_assurance_
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 8.3 Software Assurance Maturity Model
+### 8.3 SAMM
 
 No hay traducción de esta página, consulte [versión original en inglés][release1003].
 

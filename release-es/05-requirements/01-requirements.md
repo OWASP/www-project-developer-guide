@@ -1,12 +1,12 @@
 ---
 
-title: Requirements in Practice
+title: Requerimientos en la práctica
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 45010
-permalink: /release-es/requirements/requirements_in_practice/
+permalink: /release-es/requerimientos/requerimientos_práctica/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/requirements/requirements_in_practice/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso")
 
-### 3.1 Requirements in practice
+### 3.1 Requerimientos en la práctica
 
 No hay traducción de esta página, consulte [versión original en inglés][release0501].
 
