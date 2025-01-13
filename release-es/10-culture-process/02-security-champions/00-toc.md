@@ -19,7 +19,7 @@ No hay traducción de esta página, consulte [versión original en inglés][rele
 
 Sections:
 
-8.2.1 [Security champions program](#security-champions-program)  
+8.2.1 [Programa de Defensores de seguridad](#programa-de-defensores-de-seguridad)  
 8.2.2 [Security Champions Guide](#security-champions-guide)  
 8.2.3 [Security Champions Playbook](#security-champions-playbook)  
 

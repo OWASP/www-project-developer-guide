@@ -19,10 +19,10 @@ No hay traducción de esta página, consulte [versión original en inglés][rele
 
 Sections:
 
-7.1 [Juice Shop](#juice-shop)  
-7.2 [WebGoat](#webgoat)  
-7.3 [PyGoat](#pygoat)  
-7.4 [Security Shepherd](#security-shepherd)  
+7.1.1 [Juice Shop](#juice-shop)  
+7.1.2 [WebGoat](#webgoat)  
+7.1.3 [PyGoat](#pygoat)  
+7.1.4 [Security Shepherd](#security-shepherd)  
 
 ----
 

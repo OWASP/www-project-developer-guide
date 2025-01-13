@@ -19,7 +19,7 @@ No hay traducción de esta página, consulte [versión original en inglés][rele
 
 Sections:
 
-6.3.1 [secureCodeBox](#securecodebox)  
+6.3.1 [SecureCodeBox](#securecodebox)  
 
 ----
 

@@ -38,11 +38,11 @@ como [El conjunto de conocimientos sobre seguridad cibernética][cbok].
 
 Secciones:
 
-2.1 [Fundamentos de seguridad](01-security-fundamentals.md)  
-2.2 [Desarrollo e integración seguros](02-secure-development.md)  
-2.3 [Principios de seguridad](03-security-principles.md)  
-2.4 [Principios de criptografía](04-crypto-principles.md)  
-2.5 [Top 10 de OWASP](05-top-ten.md)  
+2.1 [Fundamentos de Seguridad](01-security-fundamentals.md)  
+2.2 [Desarrollo e integración Segura](02-secure-development.md)  
+2.3 [Principios de Seguridad](03-security-principles.md)  
+2.4 [Principios de Criptografía](04-crypto-principles.md)  
+2.5 [OWASP Top 10](05-top-ten.md)  
 
 ----
 

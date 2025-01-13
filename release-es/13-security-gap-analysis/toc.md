@@ -30,11 +30,11 @@ No hay traducción de esta página, consulte [versión original en inglés][rele
 
 Sections:
 
-11.1 [Guides](01-guides/toc.md)  
-11.1.1 [Software Assurance Maturity Model](01-guides/01-samm.md)  
-11.1.2 [Application Security Verification Standard](01-guides/02-asvs.md)  
-11.1.3 [Mobile Application Security](01-guides/03-mas.md)  
-11.2 [Bug Logging Tool](02-blt.md)  
+11.1 [Guías](01-guides/toc.md)  
+11.1.1 [SAMM análisis](01-guides/01-samm.md)  
+11.1.2 [ASVS análisis](01-guides/02-asvs.md)  
+11.1.3 [MAS análisis](01-guides/03-mas.md)  
+11.2 [BLT](02-blt.md)  
 
 ----
 

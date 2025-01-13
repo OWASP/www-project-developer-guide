@@ -28,10 +28,10 @@ como [El conjunto de conocimientos sobre seguridad cibernética (The Cyber Secur
 
 Secciones:
 
-2.1 [Fundamentos de seguridad](#security-fundamentals)  
-2.2 [Desarrollo e integración seguros](#secure-development-and-integration)  
-2.3 [Principios de seguridad](#principles-of-security)  
-2.4 [Principios de criptografía](#principles-of-cryptography)  
+2.1 [Fundamentos de Seguridad](#fundamentos-de-seguridad)  
+2.2 [Desarrollo e integración Segura](#desarrollo-e-integración-segura)  
+2.3 [Principios de Seguridad](#principios-de-seguridad)  
+2.4 [Principios de Criptografía](#principios-de-criptografía)  
 2.5 [OWASP Top 10](#owasp-top-ten)  
 
 ----

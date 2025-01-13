@@ -30,9 +30,9 @@ No hay traducción de esta página, consulte [versión original en inglés][rele
 
 Sections:
 
-6.1.1 [Web Security Testing Guide](01-wstg.md)  
-6.1.2 [MAS Testing Guide](02-mastg.md)  
-6.1.3 [Application Security Verification Standard](03-asvs.md)  
+6.1.1 [WSTG](01-wstg.md)  
+6.1.2 [MAS](02-mastg.md)  
+6.1.3 [ASVS](03-asvs.md)  
 
 ----
 

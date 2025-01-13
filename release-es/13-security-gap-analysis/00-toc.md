@@ -19,11 +19,11 @@ No hay traducción de esta página, consulte [versión original en inglés][rele
 
 Sections:
 
-11.1 [Guides](#security-gap-analysis-guides)  
-11.1.1 [Software Assurance Maturity Model](#software-assurance-maturity-model)  
-11.1.2 [Application Security Verification Standard](#application-security-verification-standard)  
-11.1.3 [Mobile Application Security](#mobile-application-security)  
-11.2 [Bug Logging Tool](#bug-logging-tool)  
+11.1 [Guías](#guías)  
+11.1.1 [SAMM análisis](#samm-análisis)  
+11.1.2 [ASVS análisis](#asvs-análisis)  
+11.1.3 [MAS análisis](#mas-análisis)  
+11.2 [BLT](#blt)  
 
 ----
 

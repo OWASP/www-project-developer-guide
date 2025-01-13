@@ -19,14 +19,14 @@ No hay traducción de esta página, consulte [versión original en inglés][rele
 
 Sections:
 
-12.1.1 [Container security](#container-security)  
-12.1.2 [Secure coding](#secure-coding)  
-12.1.3 [Cryptographic practices](#cryptographic-practices)  
-12.1.4 [Application spoofing](#application-spoofing)  
-12.1.5 [Content Security Policy (CSP)](#content-security-policy)  
-12.1.6 [Exception and error handling](#exception-and-error-handling)  
-12.1.7 [File management](#file-management)  
-12.1.8 [Memory management](#memory-management)  
+12.1.1 [Seguridad de Contenedores](#seguridad-de-contenedores)  
+12.1.2 [Codificación segura](#codificación-segura)  
+12.1.3 [Prácticas criptográficas](#prácticas-criptográficas)  
+12.1.4 [Suplantación de aplicaciones](#suplantación-de-aplicaciones)  
+12.1.5 [Política de seguridad de contenido (CSP)](#política-de-seguridad-de-contenido-csp)  
+12.1.6 [Manejo de excepciones y errores](#manejo-de-excepciones-y-errores)  
+12.1.7 [Administración de archivos](#administración-de-archivos)  
+12.1.8 [Administración de memoria](#administración-de-memoria)  
 
 ----
 

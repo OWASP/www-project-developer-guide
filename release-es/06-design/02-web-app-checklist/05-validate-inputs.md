@@ -1,6 +1,6 @@
 ---
 
-title: VValidar todas las entradas
+title: Validar todas las entradas
 layout: col-document
 tags: Guía del Desarrollador OWASP
 contributors:

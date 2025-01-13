@@ -6,7 +6,7 @@ tags: Guía del Desarrollador OWASP
 contributors:
 document: Guía del Desarrollador OWASP
 order: 46290
-permalink: /release-es/diseño/lista_verificación_web/egistro_monitoreo/
+permalink: /release-es/diseño/lista_verificación_web/registro_monitoreo/
 
 ---
 

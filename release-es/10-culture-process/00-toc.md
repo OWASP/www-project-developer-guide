@@ -19,14 +19,14 @@ No hay traducción de esta página, consulte [versión original en inglés][rele
 
 Sections:
 
-8.1 [Security Culture](#security-culture)  
-8.2 [Security Champions](#security-champions)  
-8.2.1 [Security champions program](#security-champions-program)  
+8.1 [Cultura de seguridad](#cultura-de-seguridad)  
+8.2 [Defensores de Seguridad](#defensores-de-seguridad)  
+8.2.1 [Programa de Defensores de seguridad](#programa-de-defensores-de-seguridad)  
 8.2.2 [Security Champions Guide](#security-champions-guide)  
 8.2.3 [Security Champions Playbook](#security-champions-playbook)  
-8.3 [Software Assurance Maturity Model](#software-assurance-maturity-model)  
-8.4 [Application Security Verification Standard](#application-security-verification-standard)  
-8.5 [Mobile Application Security](#mobile-application-security)  
+8.3 [SAMM](#samm)  
+8.4 [ASVS procesos](#asvs-procesos)  
+8.5 [MAS procesos](#mas-procesos)  
 
 ----
 

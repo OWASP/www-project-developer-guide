@@ -30,13 +30,13 @@ No hay traducción de esta página, consulte [versión original en inglés][rele
 
 Sections:
 
-3.1 [Requirements in practice](01-requirements.md)  
-3.2 [Risk profile](02-risk.md)  
+3.1 [Requerimientos en la práctica](01-requirements.md)  
+3.2 [Perfil de riesgo](02-risk.md)  
 3.3 [OpenCRE](03-opencre.md)  
 3.4 [SecurityRAT](04-security-rat.md)  
-3.5 [Application Security Verification Standard](05-asvs.md)  
-3.6 [Mobile Application Security](06-mas.md)  
-3.7 [Security Knowledge Framework](07-skf.md)
+3.5 [ASVS requerimientos](05-asvs.md)  
+3.6 [MAS requerimientos](06-mas.md)  
+3.7 [SKF requerimientos](07-skf.md)  
 
 ----
 

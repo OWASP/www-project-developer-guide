@@ -98,7 +98,7 @@ docs:
   url: diseño/lista_verificación_web/proteger_datos
 
 - title: '4.2.9 Implementar registro y monitoreo'
-  url: diseño/lista_verificación_web/egistro_monitoreo
+  url: diseño/lista_verificación_web/registro_monitoreo
 
 - title: '4.2.10 Manejar todos los errores y excepciones'
   url: diseño/lista_verificación_web/errores_excepciones

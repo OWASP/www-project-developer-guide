@@ -30,10 +30,10 @@ No hay traducción de esta página, consulte [versión original en inglés][rele
 
 Sections:  
 
-7.1 [Juice Shop](01-juice-shop.md)  
-7.2 [WebGoat](02-webgoat.md)  
-7.3 [PyGoat](03-pygoat.md)  
-7.4 [Security Shepherd](04-security-shepherd.md)  
+7.1.1 [Juice Shop](01-juice-shop.md)  
+7.1.2 [WebGoat](02-webgoat.md)  
+7.1.3 [PyGoat](03-pygoat.md)  
+7.1.4 [Security Shepherd](04-security-shepherd.md)  
 
 ----
 

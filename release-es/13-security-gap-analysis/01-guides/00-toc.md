@@ -19,9 +19,9 @@ No hay traducción de esta página, consulte [versión original en inglés][rele
 
 Sections:
 
-11.1.1 [Software Assurance Maturity Model](#software-assurance-maturity-model)  
-11.1.2 [Application Security Verification Standard](#application-security-verification-standard)  
-11.1.3 [Mobile Application Security](#mobile-application-security)  
+11.1.1 [SAMM análisis](#samm-análisis)  
+11.1.2 [ASVS análisis](#asvs-análisis)  
+11.1.3 [MAS análisis](#mas-análisis)  
 
 ----
 

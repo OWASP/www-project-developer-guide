@@ -30,9 +30,9 @@ No hay traducción de esta página, consulte [versión original en inglés][rele
 
 Sections:
 
-5.1.1 [Top 10 Proactive Controls](01-proactive-controls.md)  
-5.1.2 [Go Secure Coding Practices](02-go-scp.md)  
-5.1.3 [Cheatsheet Series](03-cheatsheets.md)  
+5.1.1 [Los Top 10 controles proactivos](01-proactive-controls.md)  
+5.1.2 [Prácticas de codificación seguras de Go](02-go-scp.md)  
+5.1.3 [Serie de hojas de referencia](03-cheatsheets.md)  
 
 ----
 
