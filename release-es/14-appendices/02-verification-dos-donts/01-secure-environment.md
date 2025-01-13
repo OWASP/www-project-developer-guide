@@ -1,12 +1,12 @@
 ---
 
-title: Secure Environment
+title: Entorno seguro
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 54210
-permalink: /release-es/appendices/verification_dos_donts/secure_environment/
+permalink: /release-es/apéndices/qué_hacer_verificación/entorno_seguro/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/appendices/verification_dos_donts/secure_environment/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 12.2.1 Secure environment
+### 12.2.1 Entorno seguro
 
 No hay traducción de esta página, consulte [versión original en inglés][release140201].
 

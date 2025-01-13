@@ -38,13 +38,13 @@ docs:
   url: requerimientos/securityrat
 
 - title: '3.5 ASVS requerimientos'
-  url: requerimientos/asvs_requerimientos
+  url: requerimientos/asvs
 
 - title: '3.6 MAS requerimientos'
-  url: requerimientos/mas_requerimientos
+  url: requerimientos/mas
 
 - title: '3.7 SKF requerimientos'
-  url: requerimientos/skf_requerimientos
+  url: requerimientos/skf
 
 - title: '4. Diseño'
   url: diseño
@@ -74,34 +74,34 @@ docs:
   url: diseño/lista_verificación_web
 
 - title: '4.2.1 Definir requisitos de seguridad'
-  url: diseño /lista_verificación_web/definir_requisitos_seguridad
+  url: diseño/lista_verificación_web/definir_requisitos_seguridad
 
 - title: '4.2.2 Aprovechar los frameworks y librerías'
-  url: diseño /lista_verificación_web/aprovechar_frameworks_librerías
+  url: diseño/lista_verificación_web/aprovechar_frameworks_librerías
 
 - title: '4.2.3 Asegurar el acceso a la base de datos'
-  url: diseño /lista_verificación_web/asegurar_base_datos
+  url: diseño/lista_verificación_web/asegurar_base_datos
 
 - title: '4.2.4 Codificar y escapar caracteres especiales en datos'
-  url: diseño /lista_verificación_web/codificar_escapar_datos
+  url: diseño/lista_verificación_web/codificar_escapar_datos
 
 - title: '4.2.5 Validar todas las entradas'
-  url: diseño /lista_verificación_web/validar_entradas
+  url: diseño/lista_verificación_web/validar_entradas
 
 - title: '4.2.6 Implementar identidad digital'
-  url: diseño /lista_verificación_web/identidad_digital
+  url: diseño/lista_verificación_web/identidad_digital
 
 - title: '4.2.7 Hacer respetar los controles de acceso'
-  url: diseño /lista_verificación_web/controles_acceso
+  url: diseño/lista_verificación_web/controles_acceso
 
 - title: '4.2.8 Proteger los datos en todas partes'
-  url: diseño /lista_verificación_web/proteger_datos
+  url: diseño/lista_verificación_web/proteger_datos
 
 - title: '4.2.9 Implementar registro y monitoreo'
-  url: diseño /lista_verificación_web/egistro_monitoreo
+  url: diseño/lista_verificación_web/egistro_monitoreo
 
 - title: '4.2.10 Manejar todos los errores y excepciones'
-  url: diseño /lista_verificación_web/errores_excepciones
+  url: diseño/lista_verificación_web/errores_excepciones
 
 - title: '4.3 MAS lista de verificación'
   url: diseño/mas_lista_verificación
@@ -163,7 +163,7 @@ docs:
 - title: '6.1.3 ASVS'
   url: verificación/guías/svs
 
-- title: '6.2 Tools'
+- title: '6.2 Herramientas'
   url: verificación/herramientas
 
 - title: '6.2.1 DAST'
@@ -266,7 +266,7 @@ docs:
   url: operaciones
 
 - title: '9.1 Directriz DevSecOps'
-  url: operaciones/devsecops_guideline
+  url: operaciones/directriz_devsecops
 
 - title: '9.2 Coraza WAF'
   url: operaciones/coraza_waf

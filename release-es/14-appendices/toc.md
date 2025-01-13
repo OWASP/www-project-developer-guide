@@ -1,12 +1,12 @@
 ---
 
-title: Appendices
+title: Apéndices
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 54000
-permalink: /release-es/appendices/
+permalink: /release-es/apéndices/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/appendices/
 
 ![Developer guide logo](../../assets/images/dg_logo.png "OWASP Developer Guide"){: .image-right }
 
-## 12. Appendices
+## 12. Apéndices
 
 12.1 [Implementation Do's and Don'ts](01-implementation-dos-donts/toc.md)  
 12.1.1 [Container security](01-implementation-dos-donts/01-container-security.md)  

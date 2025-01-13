@@ -1,12 +1,12 @@
 ---
 
-title: Application Security Verification Standard
+title: ASVS procesos
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 50400
-permalink: /release-es/culture_building_and_process_maturing/application_security_verification_standard/
+permalink: /release-es/desarrollo_cultura_maduración_procesos/asvs/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/culture_building_and_process_maturing/application_securit
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 8.4 Application Security Verification Standard
+### 8.4 ASVS procesos
 
 No hay traducción de esta página, consulte [versión original en inglés][release1004].
 

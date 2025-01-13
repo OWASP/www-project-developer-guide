@@ -1,12 +1,12 @@
 ---
 
-title: Bug Logging Tool
+title: BLT
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 53200
-permalink: /release-es/security_gap_analysis/bug_logging_tool/
+permalink: /release-es/análisis_brechas_seguridad/blt/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/security_gap_analysis/bug_logging_tool/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 11.2 Bug Logging Tool
+### 11.2 BLT
 
 No hay traducción de esta página, consulte [versión original en inglés][release1302].
 

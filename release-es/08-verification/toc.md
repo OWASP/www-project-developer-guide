@@ -1,12 +1,12 @@
 ---
 
-title: Verification
+title: Verificación
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 48000
-permalink: /release-es/verification/
+permalink: /release-es/verificación/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/verification/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-## 6. Verification
+## 6. Verificación
 
 No hay traducción de esta página, consulte [versión original en inglés][release0800].
 

@@ -2,11 +2,11 @@
 
 title: Mobile Top 10
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 49240
-permalink: /release-es/training_education/mobile_top_ten/
+permalink: /release-es/capacitación_educación/mobile_top_ten/
 
 ---
 

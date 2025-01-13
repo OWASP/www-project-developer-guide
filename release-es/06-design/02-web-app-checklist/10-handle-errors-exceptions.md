@@ -1,12 +1,12 @@
 ---
 
-title: Handle all Errors and Exceptions Checklist
+title: Manejar todos los errores y excepciones
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 46300
-permalink: /release-es/design/web_app_checklist/handle_errors_and_exceptions/
+permalink: /release-es/diseño/lista_verificación_web/errores_excepciones/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/design/web_app_checklist/handle_errors_and_exceptions/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 4.2.10 Checklist: Handle all Errors and Exceptions
+### 4.2.10 Manejar todos los errores y excepciones
 
 No hay traducción de esta página, consulte [versión original en inglés][release060210].
 

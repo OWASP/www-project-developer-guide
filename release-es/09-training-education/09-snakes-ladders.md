@@ -2,12 +2,12 @@
 
 title: OWASP Snakes & Ladders
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 49270
 
-permalink: /release-es/training_education/snakes_and_ladders/
+permalink: /release-es/capacitación_educación/snakes_and_ladders/
 
 ---
 

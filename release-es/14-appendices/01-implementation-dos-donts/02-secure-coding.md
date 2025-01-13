@@ -1,12 +1,12 @@
 ---
 
-title: Secure Coding
+title: Codificación segura
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 54120
-permalink: /release-es/appendices/implementation_dos_donts/secure_coding/
+permalink: /release-es/apéndices/qué_hacer_implementación/codificación_segura/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/appendices/implementation_dos_donts/secure_coding/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 12.1.2 Secure coding
+### 12.1.2 Codificación segura
 
 No hay traducción de esta página, consulte [versión original en inglés][release140102].
 

@@ -1,12 +1,12 @@
 ---
 
-title: Top 10 Proactive Controls
+title: Los Top 10 controles proactivos
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 47110
-permalink: /release-es/implementation/documentation/proactive_controls/
+permalink: /release-es/implementación/documentación/controles_proactivos/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/implementation/documentation/proactive_controls/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 5.1.1 Top 10 Proactive Controls
+### 5.1.1 Los Top 10 controles proactivos
 
 No hay traducción de esta página, consulte [versión original en inglés][release070101].
 

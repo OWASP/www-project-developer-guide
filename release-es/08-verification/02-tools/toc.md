@@ -1,12 +1,12 @@
 ---
 
-title: Verification Tools
+title: Herramientas
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 48200
-permalink: /release-es/verification/tools/
+permalink: /release-es/verificación/herramientas/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/verification/tools/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 6.2 Verification tools
+### 6.2 Herramientas
 
 No hay traducción de esta página, consulte [versión original en inglés][release0820].
 

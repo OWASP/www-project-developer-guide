@@ -1,12 +1,12 @@
 ---
 
-title: Validate All Inputs Checklist
+title: VValidar todas las entradas
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 46250
-permalink: /release-es/design/web_app_checklist/validate_inputs/
+permalink: /release-es/diseño/lista_verificación_web/validar_entradas/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/design/web_app_checklist/validate_inputs/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 4.2.5 Checklist: Validate All Inputs
+### 4.2.5 Validar todas las entradas
 
 No hay traducción de esta página, consulte [versión original en inglés][release060205].
 

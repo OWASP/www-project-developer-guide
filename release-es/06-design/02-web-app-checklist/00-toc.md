@@ -1,10 +1,10 @@
 ---
 
-title: Web Application Checklist
+title: Lista de verificación de aplicaciones web
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order:
 
 ---
@@ -13,7 +13,7 @@ order:
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){height=180px}
 
-### 4.2 Web application checklist
+### 4.2 Lista de verificación de aplicaciones web
 
 No hay traducción de esta página, consulte [versión original en inglés][release0602].
 

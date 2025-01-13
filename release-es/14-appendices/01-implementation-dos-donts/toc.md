@@ -1,12 +1,12 @@
 ---
 
-title: Implementation Do's and Don'ts
+title: Qué hacer y qué no hacer en la implementación
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 54100
-permalink: /release-es/appendices/implementation_dos_donts/
+permalink: /release-es/apéndices/qué_hacer_implementación/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/appendices/implementation_dos_donts/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 12.1 Implementation Do's and Don'ts
+### 12.1 Qué hacer y qué no hacer en la implementación
 
 No hay traducción de esta página, consulte [versión original en inglés][release0740].
 

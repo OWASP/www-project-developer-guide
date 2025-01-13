@@ -1,12 +1,12 @@
 ---
 
-title: Verification Guides
+title: Guías
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 48100
-permalink: /release-es/verification/guides/
+permalink: /release-es/verificación/guías/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/verification/guides/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 6.1 Verification guides
+### 6.1 Guías
 
 No hay traducción de esta página, consulte [versión original en inglés][release0810].
 

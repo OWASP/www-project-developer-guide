@@ -3,10 +3,10 @@
 title: Desarrollo e Integración Seguros
 layout: col-document
 tags: Guía del Desarrollador OWASP
-contributors: Roxana Calderon, Jon Gadsden
+contributors: Roxana Calderon
 document: Guía del Desarrollador  OWASP
 order: 44020
-permalink: /release-es/foundations/secure_development/
+permalink: /release-es/fundamentos/desarrollo_segura/
 
 ---
 
@@ -241,8 +241,8 @@ Traducción de versión [original en inglés][release0402].
 [pytm]: https://owasp.org/www-project-pytm/
 [samm]: https://owaspsamm.org/about/
 [sammd]: https://owaspsamm.org/model/design/
-[sammi]: https://owaspsamm.org/model/implementation/
-[sammv]: https://owaspsamm.org/model/verification/
+[sammi]: https://owaspsamm.org/model/implementación/
+[sammv]: https://owaspsamm.org/model/verificación/
 [sdlc]: https://owasp.org/www-project-integration-standards/writeups/owasp_in_sdlc/
 [sec-shep]: https://owasp.org/www-project-security-shepherd/
 [snakes]: https://owasp.org/www-project-snakes-and-ladders/

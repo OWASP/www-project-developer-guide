@@ -1,12 +1,12 @@
 ---
 
-title: Operation
+title: Operaciones
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 51000
-permalink: /release-es/operations/
+permalink: /release-es/operaciones/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/operations/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-## 9. Operations
+## 9. Operaciones
 
 No hay traducción de esta página, consulte [versión original en inglés][release1100].
 

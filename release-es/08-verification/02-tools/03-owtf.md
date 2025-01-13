@@ -1,12 +1,12 @@
 ---
 
-title: Offensive Web Testing Framework
+title: OWTF
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 48230
-permalink: /release-es/verification/tools/offensive_web_testing_framework/
+permalink: /release-es/verificación/herramientas/owtf/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/verification/tools/offensive_web_testing_framework/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 6.2.3 Offensive Web Testing Framework
+### 6.2.3 OWTF
 
 No hay traducción de esta página, consulte [versión original en inglés][release080203].
 

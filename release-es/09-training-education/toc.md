@@ -1,12 +1,12 @@
 ---
 
-title: Training and Education
+title: Capacitación y Educación
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 49000
-permalink: /release-es/training_education/
+permalink: /release-es/capacitación_educación/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/training_education/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-## 7. Training and Education
+## 7. Capacitación y Educación
 
 No hay traducción de esta página, consulte [versión original en inglés][release0900].
 

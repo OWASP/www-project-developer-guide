@@ -1,12 +1,12 @@
 ---
 
-title: Implementation Secure Libraries
+title: Librerías seguras
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 47300
-permalink: /release-es/implementation/secure_libraries/
+permalink: /release-es/implementación/librerías_seguras/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/implementation/secure_libraries/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 5.3 Secure libraries
+### 5.3 Librerías seguras
 
 No hay traducción de esta página, consulte [versión original en inglés][release0703].
 

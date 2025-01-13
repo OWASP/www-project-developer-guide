@@ -1,12 +1,12 @@
 ---
 
-title: Secure Headers Project
+title: OSHP
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 48250
-permalink: /release-es/verification/tools/secure_headers/
+permalink: /release-es/verificación/herramientas/oshp/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/verification/tools/secure_headers/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 6.2.5 Secure Headers Project
+### 6.2.5 OSHP verificación
 
 No hay traducción de esta página, consulte [versión original en inglés][release080205].
 

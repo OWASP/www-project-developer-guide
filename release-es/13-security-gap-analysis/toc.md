@@ -1,12 +1,12 @@
 ---
 
-title: Security Gap Analysis
+title: Análisis de brechas de seguridad
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 53000
-permalink: /release-es/security_gap_analysis/
+permalink: /release-es/análisis_brechas_seguridad/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/security_gap_analysis/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-## 11. Security gap analysis
+## 11. Análisis de brechas de seguridad
 
 No hay traducción de esta página, consulte [versión original en inglés][release1300].
 

@@ -1,12 +1,12 @@
 ---
 
-title: Implement Security Logging and Monitoring Checklist
+title: Implementar registro y monitoreo
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 46290
-permalink: /release-es/design/web_app_checklist/security_logging_and_monitoring/
+permalink: /release-es/diseño/lista_verificación_web/egistro_monitoreo/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/design/web_app_checklist/security_logging_and_monitoring/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 4.2.9 Checklist: Implement Security Logging and Monitoring
+### 4.2.9 Implementar registro y monitoreo
 
 No hay traducción de esta página, consulte [versión original en inglés][release060209].
 

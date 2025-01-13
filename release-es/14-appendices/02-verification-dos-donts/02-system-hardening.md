@@ -1,12 +1,12 @@
 ---
 
-title: System Hardening
+title: Refuerzo de seguridad del sistema
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 54220
-permalink: /release-es/appendices/verification_dos_donts/system_hardening/
+permalink: /release-es/apéndices/qué_hacer_verificación/refuerzo_sistema/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/appendices/verification_dos_donts/system_hardening/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 12.2.2 System hardening
+### 12.2.2 Refuerzo de seguridad del sistema
 
 No hay traducción de esta página, consulte [versión original en inglés][release140202].
 

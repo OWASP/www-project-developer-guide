@@ -1,10 +1,10 @@
 ---
 
-title: Culture Building and Process Maturing
+title: Desarrollo de cultura y maduración de procesos
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order:
 
 ---
@@ -13,7 +13,7 @@ order:
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){height=180px}
 
-## 8. Culture building and Process maturing
+## 8. Desarrollo de cultura y maduración de procesos
 
 No hay traducción de esta página, consulte [versión original en inglés][release1000].
 

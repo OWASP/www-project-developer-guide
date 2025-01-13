@@ -1,12 +1,12 @@
 ---
 
-title: Design
+title: Diseño
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 46000
-permalink: /release-es/design/
+permalink: /release-es/diseño/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/design/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-## 4. Design
+## 4. Diseño
 
 No hay traducción de esta página, consulte [versión original en inglés][release0600].
 Sections:

@@ -1,12 +1,12 @@
 ---
 
-title: Application Spoofing
+title: Suplantación de aplicaciones
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 54140
-permalink: /release-es/appendices/implementation_dos_donts/application_spoofing/
+permalink: /release-es/apéndices/qué_hacer_implementación/suplantación_aplicaciones/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/appendices/implementation_dos_donts/application_spoofing/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 12.1.4 Application Spoofing
+### 12.1.4 Suplantación de aplicaciones
 
 No hay traducción de esta página, consulte [versión original en inglés][release140104].
 

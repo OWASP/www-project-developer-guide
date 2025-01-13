@@ -1,10 +1,10 @@
 ---
 
-title: Appendices
+title: Apéndices
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order:
 
 ---
@@ -13,7 +13,7 @@ order:
 
 ![Developer guide logo](../../assets/images/dg_logo.png "OWASP Developer Guide"){height=180px}
 
-## 12. Appendices
+## 12. Apéndices
 
 12.1 [Implementation Do's and Don'ts](#implementation-dos-and-donts)  
 12.1.1 [Container security](#container-security)  

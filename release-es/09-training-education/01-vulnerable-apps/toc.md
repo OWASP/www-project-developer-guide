@@ -1,12 +1,12 @@
 ---
 
-title: Vulnerable Applications
+title: Aplicaciones vulnerables
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 49100
-permalink: /release-es/training_education/vulnerable_applications/
+permalink: /release-es/capacitación_educación/aplicaciones_vulnerables/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/training_education/vulnerable_applications/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 7.1 Vulnerable Applications
+### 7.1 Aplicaciones vulnerables
 
 No hay traducción de esta página, consulte [versión original en inglés][release0910].
 

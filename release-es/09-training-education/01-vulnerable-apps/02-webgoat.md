@@ -2,11 +2,11 @@
 
 title: WebGoat and WebWolf
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 49120
-permalink: /release-es/training_education/vulnerable_applications/webgoat/
+permalink: /release-es/capacitación_educación/aplicaciones_vulnerables/webgoat/
 
 ---
 

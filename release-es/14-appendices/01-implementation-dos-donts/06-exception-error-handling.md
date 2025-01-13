@@ -1,12 +1,12 @@
 ---
 
-title: Exception and Error Handling
+title: Manejo de excepciones y errores
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 54160
-permalink: /release-es/appendices/implementation_dos_donts/exception_error_handling/
+permalink: /release-es/apéndices/qué_hacer_implementación/excepciones_errores/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/appendices/implementation_dos_donts/exception_error_handl
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 12.1.6 Exception and Error Handling
+### 12.1.6 Manejo de excepciones y errores
 
 No hay traducción de esta página, consulte [versión original en inglés][release140106].
 

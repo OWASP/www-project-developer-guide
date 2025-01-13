@@ -1,12 +1,12 @@
 ---
 
-title: Requirements
+title: Requerimientos
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 45000
-permalink: /release-es/requirements/
+permalink: /release-es/requerimientos/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/requirements/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-## 3. Requirements
+## 3. Requerimientos
 
 No hay traducción de esta página, consulte [versión original en inglés][release0500].
 

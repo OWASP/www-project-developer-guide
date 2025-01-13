@@ -1,12 +1,12 @@
 ---
 
-title: Security Champions Program
+title: Programa de Defensores de seguridad
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 50210
-permalink: /release-es/culture_building_and_process_maturing/security_champions/security_champions_program/
+permalink: /release-es/desarrollo_cultura_maduración_procesos/defensores_seguridad/programa/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/culture_building_and_process_maturing/security_champions/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 8.2.1 Security champions program
+### 8.2.1 Programa de Defensores de seguridad
 
 No hay traducción de esta página, consulte [versión original en inglés][release1021].
 

@@ -1,12 +1,12 @@
 ---
 
-title: Open Source Software
+title: Software de código abierto
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 54230
-permalink: /release-es/appendices/verification_dos_donts/open_source_software/
+permalink: /release-es/apéndices/qué_hacer_verificación/software_abierto/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/appendices/verification_dos_donts/open_source_software/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 12.2.3 Open Source software
+### 12.2.3 Software de código abierto
 
 No hay traducción de esta página, consulte [versión original en inglés][release140203].
 

@@ -3,7 +3,7 @@
 title: Fundamentos
 layout: col-document
 tags: Guía del Desarrollador OWASP
-contributors: Roxana Calderon, Jon Gadsden
+contributors: Roxana Calderon
 document: Guía del Desarrollador OWASP
 order:
 

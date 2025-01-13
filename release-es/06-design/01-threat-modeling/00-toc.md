@@ -1,10 +1,10 @@
 ---
 
-title: Threat Modeling
+title: Modelado de amenazas
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order:
 
 ---
@@ -13,7 +13,7 @@ order:
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){height=180px}
 
-### 4.1 Threat modeling
+### 4.1 Modelado de amenazas
 
 No hay traducción de esta página, consulte [versión original en inglés][release0601].
 

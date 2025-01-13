@@ -1,12 +1,12 @@
 ---
 
-title: Protect Data Everywhere Checklist
+title: Proteger los datos en todas partes
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 46280
-permalink: /release-es/design/web_app_checklist/protect_data/
+permalink: /release-es/diseño/lista_verificación_web/proteger_datos/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/design/web_app_checklist/protect_data/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 4.2.8 Checklist: Protect Data Everywhere
+### 4.2.8 Proteger los datos en todas partes
 
 No hay traducción de esta página, consulte [versión original en inglés][release060208].
 

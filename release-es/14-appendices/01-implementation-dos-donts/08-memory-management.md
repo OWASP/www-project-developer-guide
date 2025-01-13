@@ -1,12 +1,12 @@
 ---
 
-title: Memory Management
+title: Administración de memoria
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 54180
-permalink: /release-es/appendices/implementation_dos_donts/memory_management/
+permalink: /release-es/apéndices/qué_hacer_implementación/administración_memoria/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/appendices/implementation_dos_donts/memory_management/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 12.1.8 Memory Management
+### 12.1.8 Administración de memoria
 
 No hay traducción de esta página, consulte [versión original en inglés][release140108].
 

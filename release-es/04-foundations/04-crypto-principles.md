@@ -3,10 +3,10 @@
 title: Principios de Criptografía
 layout: col-document
 tags: Guía del Desarrollador OWASP
-contributors: Roxana Calderon, Jon Gadsden
-document: OWASP Developer Guide
+contributors: Roxana Calderon
+document: Guía del Desarrollador OWASP
 order: 44040
-permalink: /release-es/foundations/crypto_principles/
+permalink: /release-es/fundamentos/principios_criptografía/
 
 ---
 

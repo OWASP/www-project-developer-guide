@@ -1,12 +1,12 @@
 ---
 
-title: Cryptographic Practices
+title: Prácticas criptográficas
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 54130
-permalink: /release-es/appendices/implementation_dos_donts/cryptographic_practices/
+permalink: /release-es/apéndices/qué_hacer_implementación/prácticas_criptográficas/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/appendices/implementation_dos_donts/cryptographic_practic
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 12.1.3 Cryptographic practices
+### 12.1.3 Prácticas criptográficas
 
 No hay traducción de esta página, consulte [versión original en inglés][release140103].
 

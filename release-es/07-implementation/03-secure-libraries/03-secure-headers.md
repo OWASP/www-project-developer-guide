@@ -1,12 +1,12 @@
 ---
 
-title: OWASP Secure Headers Project
+title: OSHP
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 47330
-permalink: /release-es/implementation/secure_libraries/secure_headers/
+permalink: /release-es/implementación/librerías_seguras/oshp/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/implementation/secure_libraries/secure_headers/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 5.3.3 OWASP Secure Headers Project
+### 5.3.3 OSHP
 
 No hay traducción de esta página, consulte [versión original en inglés][release070303].
 

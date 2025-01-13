@@ -2,11 +2,11 @@
 
 title: DAST
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 48210
-permalink: /release-es/verification/tools/dast/
+permalink: /release-es/verificación/herramientas/dast/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/verification/tools/dast/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 6.2.1 DAST tools
+### 6.2.1 DAST
 
 No hay traducción de esta página, consulte [versión original en inglés][release080201].
 

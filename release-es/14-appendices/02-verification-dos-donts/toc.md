@@ -1,12 +1,12 @@
 ---
 
-title: Verification Do's and Don'ts
+title: Qué hacer y qué no hacer en la verificación
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 54200
-permalink: /release-es/appendices/verification_dos_donts/
+permalink: /release-es/apéndices/qué_hacer_verificación/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/appendices/verification_dos_donts/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-## 12.2 Verification Do's and Don'ts
+## 12.2 Qué hacer y qué no hacer en la verificación
 
 No hay traducción de esta página, consulte [versión original en inglés][release1402].
 
