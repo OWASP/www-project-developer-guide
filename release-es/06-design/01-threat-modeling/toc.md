@@ -36,7 +36,6 @@ Sections:
 4.1.4 [Cornucopia](04-cornucopia.md)  
 4.1.5 [LINDDUN GO](05-linddun-go.md)  
 4.1.6 [Kit de herramientas de modelado de amenazas](06-toolkit.md)  
- 
 
 ----
 

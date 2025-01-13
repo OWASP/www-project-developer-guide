@@ -43,7 +43,6 @@ Sections:
 7.7 [API Top 10](07-api-top-ten.md)  
 7.8 [WrongSecrets](08-wrongsecrets.md)  
 7.9 [OWASP Snakes and Ladders](09-training-education/09-snakes-ladders.md)  
-  
 
 ----
 
