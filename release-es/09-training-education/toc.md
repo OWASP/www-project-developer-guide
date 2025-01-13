@@ -42,7 +42,7 @@ Sections:
 7.6 [Mobile Top 10](06-mobile-top-ten.md)  
 7.7 [API Top 10](07-api-top-ten.md)  
 7.8 [WrongSecrets](08-wrongsecrets.md)  
-7.9 [OWASP Snakes and Ladders](09-training-education/09-snakes-ladders.md)  
+7.9 [OWASP Snakes and Ladders](09-snakes-ladders.md)  
 
 ----
 

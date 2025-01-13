@@ -208,9 +208,9 @@ Traducción de versión [original en inglés][release0401].
 [samm]: https://owaspsamm.org/about/
 [sammd]: https://owaspsamm.org/model/design/
 [sammg]: https://owaspsamm.org/model/governance/
-[sammi]: https://owaspsamm.org/model/implementación/
-[sammo]: https://owaspsamm.org/model/operaciones/
-[sammv]: https://owaspsamm.org/model/verificación/
+[sammi]: https://owaspsamm.org/model/implementation/
+[sammo]: https://owaspsamm.org/model/operations/
+[sammv]: https://owaspsamm.org/model/verification/
 [w3consortium]: https://www.w3.org/
 [w3schools]: https://www.w3schools.com/html/
 [whatwg]: https://whatwg.org/

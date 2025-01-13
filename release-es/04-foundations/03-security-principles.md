@@ -212,7 +212,7 @@ de 'muchos ojos' y por lo tanto es probable que sean aún más seguros.
 
 Traducción de versión [original en inglés][release0403].
 
-[^1]: [Gestión Operativa](https://owaspsamm.org/model/operaciones/operational-management/), (SAMM)
+[^1]: [Gestión Operativa](https://owaspsamm.org/model/operations/operational-management/), (SAMM)
 
 [csauthn]: https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet
 [csauthz]: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet
