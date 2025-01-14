@@ -35,9 +35,9 @@ Guidance is important for these analysis and evaluation activities, with the OWA
 
 Sections:
 
-11.1.1 [Software Assurance Maturity Model](01-samm.md)  
-11.1.2 [Application Security Verification Standard](02-asvs.md)  
-11.1.3 [Mobile Application Security](03-mas.md)  
+11.1.1 [SAMM gap analysis](01-samm.md)  
+11.1.2 [ASVS gap analysis](02-asvs.md)  
+11.1.3 [MAS gap analysis](03-mas.md)  
 
 ----
 

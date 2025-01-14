@@ -33,9 +33,9 @@ contained in these Do's and Dont's.
 
 Sections:
 
-14.2.1 [Secure environment](01-secure-environment.md)  
-14.2.2 [System hardening](02-system-hardening.md)  
-14.2.3 [Open Source software](03-open-source-software.md)  
+12.2.1 [Secure environment](01-secure-environment.md)  
+12.2.2 [System hardening](02-system-hardening.md)  
+12.2.3 [Open Source software](03-open-source-software.md)  
 
 ----
 

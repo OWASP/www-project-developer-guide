@@ -140,7 +140,7 @@ There are many OWASP tools and resources to help build security into the SDLC.
 
 * **Application security testing**: there are various types of security testing that can be automated on pull-request,
    merge or nightlies - or indeed manually but they are most powerful when automated. Commonly there is
-   Static Application Security Testing (SAST), which analyses the code without running it,
+   Static Application Security Testing (SAST), which analyzes the code without running it,
    and Dynamic Application Security Testing (DAST), which applies input to the application while running it in a sandbox
    or other isolated environments.
    Interactive Application Security Testing (IAST) is designed to be run manually as well as being automated,

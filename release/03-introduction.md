@@ -70,8 +70,8 @@ try the [OpenCRE chat][opencrechat] LLM for immediate answers.
 You can think of this guide as a cross-reference source to the many tools and documents that OWASP provide for developers.
 
 Or you can regard the purpose of this guide as answering the question:
- “I am a developer and I need a reference guide to navigate the numerous security tools
- and security activities that I know I should be doing.
+“I am a developer and I need a reference guide to navigate the numerous security tools
+and security activities that I know I should be doing.
 
 Or think of it as a collection of articles that introduce developers to the wide domain of application security.
 

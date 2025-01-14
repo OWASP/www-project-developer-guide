@@ -1,12 +1,12 @@
 ---
 
-title: Mobile Application Security
+title: MASTG
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 8120
-permalink: /release/verification/guides/mas_testing_guide/
+permalink: /release/verification/guides/mastg/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release/verification/guides/mas_testing_guide/
 
 ![MAS logo](../../../../assets/images/logos/mas.png "OWASP MAS"){: .image-right }
 
-### 6.1.2 MAS testing guide
+### 6.1.2 MASTG
 
 The [MAS Verification Standard][masvs] (MASVS) explains the processes, techniques
 and tools used for security testing a mobile application.

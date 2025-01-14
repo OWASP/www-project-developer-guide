@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 7400
-permalink: /release/implementation/mas_weakness_enumeration/
+permalink: /release/implementation/maswe/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release/implementation/mas_weakness_enumeration/
 
 ![MAS checklist logo](../../../assets/images/logos/mas.png "OWASP MASWE"){: .image-right }
 
-### 5.4 Mobile application weakness enumeration
+### 5.4 MASWE
 
 The OWASP [Mobile Application Security][masproject] (MAS) flagship project provides
 industry standards for mobile application security.
@@ -59,7 +59,7 @@ The MASWE is a valuable list of what can go wrong with mobile applications along
 
 #### How to use it
 
-The Common Weakness Enumeration ([CWE][cwe]), published by Mitre, can be used by security architects
+The Common Weakness Enumeration ([CWE][cwe]), published by MITRE, can be used by security architects
 so they are aware of what weaknesses and potential vulnerabilities that could be present in an application.
 Development teams can use the CWE as a reference to these weaknesses and to help understanding of any mitigations.
 These are just two examples of how the CWE is widely used.
@@ -77,7 +77,7 @@ This list is just a starting point; there are many uses for the MASWE.
 
 * Mobile Application Security ([MAS][masproject]) project
 * MAS Weakness Enumeration ([MASWE][maswe])
-* Mitre Common Weakness Enumeration ([CWE][cwe])
+* MITRE Common Weakness Enumeration ([CWE][cwe])
 * MAS Verification Standard ([MASVS][masvs])
 * MAS [Checklist][masc]
 * MAS Testing Guide ([MASTG][mastg])

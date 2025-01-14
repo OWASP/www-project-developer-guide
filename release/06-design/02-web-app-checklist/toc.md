@@ -30,7 +30,7 @@ Checklists are a valuable resource for development teams.
 They provide structure for establishing good practices and processes
 and are also useful during code reviews and design activities.
 
-The checklists that follow are general lists that are categorised to follow the controls listed in the
+The checklists that follow are general lists that are categorized to follow the controls listed in the
 [OWASP Top 10 Proactive Controls][proactive10] project.
 These checklists provide suggestions that certainly should be tailored to
 an individual project's requirements and environment; they are not meant to be followed in their entirety.

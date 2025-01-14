@@ -1,18 +1,18 @@
 ---
 
-title:  Web Security Testing Guide
+title:  WSTG
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 8110
-permalink: /release/verification/guides/web_security_testing_guide/
+permalink: /release/verification/guides/wstg/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 6.1.1 Web Security Testing Guide
+### 6.1.1 WSTG
 
 The OWASP [Web Security Testing Guide][wstg] (WSTG) is a comprehensive guide to testing the security of
 web applications and web services.

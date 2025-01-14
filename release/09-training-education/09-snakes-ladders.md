@@ -38,7 +38,7 @@ This documentation project is an OWASP Lab project, aimed at security builders a
 Yes, it really is the snakes & ladders game, but for web and [mobile application security][csmas].
 [It is played][snakeshowto] by two competing teams, possibly accompanied by beer and pretzels.
 
-In the board game for web applications, the virtuous behaviours (ladders) are secure coding practices
+In the board game for web applications, the virtuous behaviors (ladders) are secure coding practices
 (using the OWASP [Proactive Controls][proactive10]) and the vices (snakes)
 are application security risks from the [OWASP Top Ten][top102017] 2017 version.
 
@@ -53,7 +53,7 @@ The web application version can be downloaded for various languages:
 * [Chinese](https://github.com/OWASP/www-project-snakes-and-ladders/tree/master/assets/files/web/ZH) (ZH)
 
 The board game for mobile applications uses the mobile controls
-detailed in the [OWASP Mobile Top 10][mobile10controls] as the virtuous behaviours.
+detailed in the [OWASP Mobile Top 10][mobile10controls] as the virtuous behaviors.
 The vices are the [Mobile Top 10 risks][mobile10-2014] from the 2014 version of the project.
 
 The mobile application version is available as a download in
@@ -65,12 +65,12 @@ and [Japanese](https://github.com/OWASP/www-project-snakes-and-ladders/tree/mast
 This board game was created so that it could be used as an ice-breaker in application security training.
 It also has wider appeal as learning materials for developers or simply as a promotional hand-out.
 
-To cover all of that, the Snakes & Ladders project team summarise it as:
+To cover all of that, the Snakes & Ladders project team summarize it as:
 
 "OWASP Snakes and Ladders is meant to be used by software programmers, big and small"
 
 The game is quite lightweight; so it is meant to be just some fun with some learning attached,
-and is not intended to have the same rigour or depth as the card game [Cornucopia][cornucopia].
+and is not intended to have the same rigor or depth as the card game [Cornucopia][cornucopia].
 
 When the project was first created there was a print run of the game on heavy duty paper.
 These were available at conferences and meetings - they were also available to be purchased online

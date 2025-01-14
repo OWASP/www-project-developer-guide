@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 9220
-permalink: /release/training_education/samurai_wtf/
+permalink: /release/training_education/samuraiwtf/
 
 ---
 
