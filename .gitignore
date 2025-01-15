@@ -39,22 +39,6 @@
 !draft/1*/1*/
 !draft/1*/1*/*.md
 
-# draft portuguese version
-!draft-pt/
-!draft-pt/title*.yaml
-!draft-pt/0*/
-!draft-pt/0*/*.md
-!draft-pt/0*/0*/
-!draft-pt/0*/0*/*.md
-!draft-pt/0*/1*/
-!draft-pt/0*/1*/*.md
-!draft-pt/1*/
-!draft-pt/1*/*.md
-!draft-pt/1*/0*/
-!draft-pt/1*/0*/*.md
-!draft-pt/1*/1*/
-!draft-pt/1*/1*/*.md
-
 # release version
 !release/
 !release/title*.yaml
@@ -102,6 +86,22 @@
 !release-es/1*/0*/*.md
 !release-es/1*/1*/
 !release-es/1*/1*/*.md
+
+# release japanese translation
+!release-ja/
+!release-ja/title*.yaml
+!release-ja/0*/
+!release-ja/0*/*.md
+!release-ja/0*/0*/
+!release-ja/0*/0*/*.md
+!release-ja/0*/1*/
+!release-ja/0*/1*/*.md
+!release-ja/1*/
+!release-ja/1*/*.md
+!release-ja/1*/0*/
+!release-ja/1*/0*/*.md
+!release-ja/1*/1*/
+!release-ja/1*/1*/*.md
 
 # pages markdown
 !*.md
