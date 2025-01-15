@@ -1,12 +1,12 @@
 ---
 
-title:  Web Security Testing Guide
+title:  WSTG
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 48110
-permalink: /release-es/verification/guides/web_security_testing_guide/
+permalink: /release-es/verificación/guías/wstg/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/verification/guides/web_security_testing_guide/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 6.1.1 Web Security Testing Guide
+### 6.1.1 WSTG
 
 No hay traducción de esta página, consulte [versión original en inglés][release080101].
 

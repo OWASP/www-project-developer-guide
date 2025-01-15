@@ -6,13 +6,13 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 13200
-permalink: /release/security_gap_analysis/bug_logging_tool/
+permalink: /release/security_gap_analysis/blt/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 11.2 Bug Logging Tool
+### 11.2 BLT
 
 The OWASP [Bug Logging Tool][blt] (BLT) is a community database of bugs found in an organization's web site or application.
 BLT is an OWASP Production tool project and has its own [bug recording site][bltsite].

@@ -1,12 +1,12 @@
 ---
 
-title: Content Security Policy
+title: Política de seguridad de contenido (CSP)
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 54150
-permalink: /release-es/appendices/implementation_dos_donts/content_security_policy/
+permalink: /release-es/apéndices/qué_hacer_implementación/csp/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/appendices/implementation_dos_donts/content_security_poli
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 12.1.5 Content Security Policy
+### 12.1.5 Política de seguridad de contenido (CSP)
 
 No hay traducción de esta página, consulte [versión original en inglés][release140105].
 

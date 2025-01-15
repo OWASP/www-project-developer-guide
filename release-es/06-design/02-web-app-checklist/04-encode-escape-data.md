@@ -1,12 +1,12 @@
 ---
 
-title: Encode and Escape Data Checklist
+title: Codificar y escapar caracteres especiales en datos
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 46240
-permalink: /release-es/design/web_app_checklist/encode_escape_data/
+permalink: /release-es/diseño/lista_verificación_web/codificar_escapar_datos/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/design/web_app_checklist/encode_escape_data/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 4.2.4 Checklist: Encode and Escape Data
+### 4.2.4 Codificar y escapar caracteres especiales en datos
 
 No hay traducción de esta página, consulte [versión original en inglés][release060204].
 

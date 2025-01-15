@@ -3,10 +3,10 @@
 title: Desarrollo e Integración Seguros
 layout: col-document
 tags: Guía del Desarrollador OWASP
-contributors: Roxana Calderon, Jon Gadsden
+contributors: Roxana Calderon
 document: Guía del Desarrollador  OWASP
 order: 44020
-permalink: /release-es/foundations/secure_development/
+permalink: /release-es/fundamentos/desarrollo_segura/
 
 ---
 

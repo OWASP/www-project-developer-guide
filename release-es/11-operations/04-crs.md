@@ -2,11 +2,11 @@
 
 title: OWASP CRS
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 51040
-permalink: /release-es/operations/crs/
+permalink: /release-es/operaciones/crs/
 
 ---
 

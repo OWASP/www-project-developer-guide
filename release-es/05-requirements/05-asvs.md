@@ -1,12 +1,12 @@
 ---
 
-title: Application Security Verification Standard
+title: ASVS requerimientos
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 45050
-permalink: /release-es/requirements/application_security_verification_standard/
+permalink: /release-es/requerimientos/asvs/
 
 ---
 
@@ -24,7 +24,9 @@ permalink: /release-es/requirements/application_security_verification_standard/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 3.5 Application Security Verification Standard
+### 3.5 ASVS requerimientos
+
+Estandard de Verificación de Seguridad de Aplicaciones (ASVS)
 
 No hay traducción de esta página, consulte [versión original en inglés][release0505].
 

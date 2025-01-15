@@ -1,10 +1,10 @@
 ---
 
-title: Verification Guides
+title: Guías
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order:
 
 ---
@@ -13,15 +13,15 @@ order:
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){height=180px}
 
-### 6.1 Verification guides
+### 6.1 Guías
 
 No hay traducción de esta página, consulte [versión original en inglés][release0810].
 
 Sections:
 
-6.1.1 [Web Security Testing Guide](#web-security-testing-guide)  
-6.1.2 [MAS Testing Guide](#mas-testing-guide)  
-6.1.3 [Application Security Verification Standard](#application-security-verification-standard)  
+6.1.1 [WSTG](#wstg)  
+6.1.2 [MASTG](#mastg)  
+6.1.3 [ASVS](#asvs)  
 
 ----
 

@@ -1,12 +1,12 @@
 ---
 
-title: Container security
+title: Seguridad de Contenedores
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 54110
-permalink: /release-es/appendices/implementation_dos_donts/container_security/
+permalink: /release-es/apéndices/qué_hacer_implementación/seguridad_contenedores/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/appendices/implementation_dos_donts/container_security/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 12.1.1 Container security
+### 12.1.1 Seguridad de Contenedores
 
 No hay traducción de esta página, consulte [versión original en inglés][release140101].
 

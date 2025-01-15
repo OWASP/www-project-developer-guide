@@ -1,12 +1,12 @@
 ---
 
-title: Mobile Application Security
+title: MAS
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 13130
-permalink: /release/security_gap_analysis/guides/mobile_application_security/
+permalink: /release/security_gap_analysis/guides/mas/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release/security_gap_analysis/guides/mobile_application_security/
 
 ![MAS logo](../../../../assets/images/logos/mas.png "OWASP MAS"){: .image-right }
 
-### 11.1.3 Mobile Application Security
+### 11.1.3 MAS gap analysis
 
 The OWASP [Mobile Application Security][masproject] (MAS) flagship project provides
 industry standards for mobile application security.

@@ -1,18 +1,18 @@
 ---
 
-title: Application Security Verification Standard
+title: ASVS process
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 10400
-permalink: /release/culture_building_and_process_maturing/application_security_verification_standard/
+permalink: /release/culture_building_and_process_maturing/asvs/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 8.4 Application Security Verification Standard
+### 8.4 ASVS process
 
 The [Application Security Verification Standard][asvs] (ASVS) is a long established OWASP flagship project,
 and is widely used to build a culture of security as well as verification of web applications.
@@ -76,7 +76,7 @@ The appropriate ASVS level should be chosen from:
 * Level 2: Most applications
 * Level 3: High value, high assurance, or high safety
 
-This is not a judgemental ranking, for example if an application needs only Level 1 protection then that is a valid choice.
+This is not a judgmental ranking, for example if an application needs only Level 1 protection then that is a valid choice.
 Tools such as [SecurityRAT][srat] can then help create a subset of the ASVS security requirements for consideration.
 
 Application developer teams and application owners can then gain familiarity with the appropriate security

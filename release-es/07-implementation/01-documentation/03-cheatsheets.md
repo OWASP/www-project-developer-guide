@@ -1,12 +1,12 @@
 ---
 
-title: Cheat Sheet Series
+title: Serie de hojas de referencia
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 47130
-permalink: /release-es/implementation/documentation/cheatsheets/
+permalink: /release-es/implementación/documentación/serie_referencia/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/implementation/documentation/cheatsheets/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 5.1.3 Cheat Sheet Series
+### 5.1.3 Serie de hojas de referencia
 
 No hay traducción de esta página, consulte [versión original en inglés][release070103].
 

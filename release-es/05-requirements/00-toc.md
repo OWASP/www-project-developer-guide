@@ -1,10 +1,10 @@
 ---
 
-title: Requirements
+title: Requerimientos
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order:
 permalink:
 
@@ -14,19 +14,19 @@ permalink:
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){height=180px}
 
-## 3. Requirements
+## 3. Requerimientos
 
 No hay traducción de esta página, consulte [versión original en inglés][release0500].
 
 Sections:
 
-3.1 [Requirements in practice](#requirements-in-practice)  
-3.2 [Risk profile](#risk-profile)  
+3.1 [Requerimientos en la práctica](#requerimientos-en-la-práctica)  
+3.2 [Perfil de riesgo](#perfil de riesgo)  
 3.3 [OpenCRE](#opencre)  
-3.4 [SecurityRAT](#security-rat)  
-3.5 [Application Security Verification Standard](#application-security-verification-standard)  
-3.6 [Mobile Application Security](#mobile-application-security)  
-3.7 [Security Knowledge Framework](#security-knowledge-framework)  
+3.4 [SecurityRAT](#securityrat)  
+3.5 [ASVS requerimientos](#asvs-requerimientos)  
+3.6 [MAS requerimientos](#mas-requerimientos)  
+3.7 [SKF requerimientos](#skf-requerimientos)  
 
 ----
 

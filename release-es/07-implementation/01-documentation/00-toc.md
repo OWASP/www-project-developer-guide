@@ -1,10 +1,10 @@
 ---
 
-title: Implementation Documentation
+title: Documentación
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order:
 
 ---
@@ -13,15 +13,15 @@ order:
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){height=180px}
 
-### 5.1 Documentation
+### 5.1 Documentación
 
 No hay traducción de esta página, consulte [versión original en inglés][release0710].
 
 Sections:
 
-5.1.1 [Top 10 Proactive Controls](#top-proactive-controls)  
-5.1.2 [Go Secure Coding Practices](#go-secure-coding-practices)  
-5.1.3 [Cheatsheet Series](#cheatsheet-series)  
+5.1.1 [Los Top 10 controles proactivos](#los-Top-10-controles-proactivos)  
+5.1.2 [GoSCP (Prácticas de codificación seguras de Go)](#goscp-prácticas-de-codificación-seguras-de-go)  
+5.1.3 [Serie de hojas de referencia](#cheatsheet-series)  
 
 ----
 

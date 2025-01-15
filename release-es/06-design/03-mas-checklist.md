@@ -1,12 +1,12 @@
 ---
 
-title: Mobile Application Checklist
+title: MAS lista de verificación
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 46400
-permalink: /release-es/design/mas_checklist/
+permalink: /release-es/diseño/mas_lista_verificación/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/design/mas_checklist/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 4.3 Mobile application checklist
+### 4.3 MAS lista de verificación
 
 No hay traducción de esta página, consulte [versión original en inglés][release0603].
 

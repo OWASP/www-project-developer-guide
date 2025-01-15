@@ -1,12 +1,12 @@
 ---
 
-title: Security Culture
+title: Cultura de seguridad
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 50010
-permalink: /release-es/culture_building_and_process_maturing/security_culture/
+permalink: /release-es/desarrollo_cultura_maduración_procesos/cultura_seguridad/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/culture_building_and_process_maturing/security_culture/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 8.1 Security Culture
+### 8.1 Cultura de seguridad
 
 No hay traducción de esta página, consulte [versión original en inglés][release1001].
 

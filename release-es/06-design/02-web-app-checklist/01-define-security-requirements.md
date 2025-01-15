@@ -1,12 +1,12 @@
 ---
 
-title: Define Security Requirements Checklist
+title: Definir requisitos de seguridad
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 46210
-permalink: /release-es/design/web_app_checklist/define_security_requirements/
+permalink: /release-es/diseño/lista_verificación_web/definir_requisitos_seguridad/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/design/web_app_checklist/define_security_requirements/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 4.2.1 Checklist: Define Security Requirements
+### 4.2.1 Definir requisitos de seguridad
 
 No hay traducción de esta página, consulte [versión original en inglés][release060201].
 

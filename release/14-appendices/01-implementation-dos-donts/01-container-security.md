@@ -42,7 +42,7 @@ Container image security, host security, client security, daemon security, runti
 * Use tagging keys associated with a registry.
     Such that a poisoned image from a different registry cannot be pushed into a registry.
 * Use offline keys to sign the tagging keys.
-* Offline keys are owned by the organisation and secured in an out-of-band location.
+* Offline keys are owned by the organization and secured in an out-of-band location.
 * Scan images frequently for any vulnerabilities. Rebuilt all images to include patches
     and instantiate new containers from them
 * Remove `setuid` and `setgid` permissions from the images.
@@ -54,7 +54,7 @@ Container image security, host security, client security, daemon security, runti
 * Mount files on a separate partition to address any situation where the mount becomes full,
     but the host still remains usable
 * Mark registries as private and only use signed images.
-* Pass commands through the authorization plugin to ensure that only authorised client connects to the daemon
+* Pass commands through the authorization plugin to ensure that only authorized client connects to the daemon
 * TLS authentication is configured to restrict access to the Docker daemon
 * Namespaces are enabled to ensure that
 * Leave control groups (cgroups) at default setting to ensure that tampering does not take place

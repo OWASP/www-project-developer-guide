@@ -1,12 +1,12 @@
 ---
 
-title: CSRFGuard library
+title: CSRFGuard
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 47320
-permalink: /release-es/implementation/secure_libraries/csrf_guard/
+permalink: /release-es/implementación/librerías_seguras/csrfguard/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/implementation/secure_libraries/csrf_guard/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 5.3.2 CSRFGuard library
+### 5.3.2 CSRFGuard
 
 No hay traducción de esta página, consulte [versión original en inglés][release070302].
 

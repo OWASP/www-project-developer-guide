@@ -3,10 +3,10 @@
 title: Principios de Seguridad
 layout: col-document
 tags: Guía del Desarrollador OWASP
-contributors: Roxana Calderon, Jon Gadsden, Johan Sydseter, Andreas Happe
+contributors: Roxana Calderon
 document: Guía del Desarrollador OWASP
 order: 44030
-permalink: /release-es/foundations/security_principles/
+permalink: /release-es/fundamentos/principios_seguridad/
 
 ---
 

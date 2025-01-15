@@ -1,10 +1,10 @@
 ---
 
-title: Web Application Checklist
+title: Lista de verificación de aplicaciones web
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order:
 
 ---
@@ -13,22 +13,22 @@ order:
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){height=180px}
 
-### 4.2 Web application checklist
+### 4.2 Lista de verificación de aplicaciones web
 
 No hay traducción de esta página, consulte [versión original en inglés][release0602].
 
 Sections:
 
-4.2.1 [Checklist: Define Security Requirements](#checklist-define-security-requirements)  
-4.2.2 [Checklist: Leverage Security Frameworks and Libraries](#checklist-leverage-security-frameworks-and-libraries)  
-4.2.3 [Checklist: Secure Database Access](#checklist-secure-database-access)  
-4.2.4 [Checklist: Encode and Escape Data](#checklist-encode-and-escape-data)  
-4.2.5 [Checklist: Validate All Inputs](#checklist-validate-all-inputs)  
-4.2.6 [Checklist: Implement Digital Identity](#checklist-implement-digital-identity)  
-4.2.7 [Checklist: Enforce Access Controls](#checklist-enforce-access-controls)  
-4.2.8 [Checklist: Protect Data Everywhere](#checklist-protect-data-everywhere)  
-4.2.9 [Checklist: Implement Security Logging and Monitoring](#checklist-implement-security-logging-and-monitoring)  
-4.2.10 [Checklist: Handle all Errors and Exceptions](#checklist-handle-all-errors-and-exceptions)  
+4.2.1 [Definir requisitos de seguridad](#definir-requisitos-de-seguridad)  
+4.2.2 [Aprovechar los frameworks y librerías](#aprovechar-los-frameworks-y-librerías)  
+4.2.3 [Asegurar el acceso a la base de datos](#asegurar-el-acceso-a-la-base-de-datos)  
+4.2.4 [Codificar y escapar caracteres especiales en datos](#codificar-y-escapar-caracteres-especiales-en-datos)  
+4.2.5 [Validar todas las entradas](#validar-todas-las-entradas)  
+4.2.6 [Implementar identidad digital](#implementar-identidad-digital)  
+4.2.7 [Hacer respetar los controles de acceso](#hacer-respetar-los-controles-de-acceso)  
+4.2.8 [Proteger los datos en todas partes](#proteger-los-datos-en-todas-partes)  
+4.2.9 [Implementar registro y monitoreo](#implementar-registro-y-monitoreo)  
+4.2.10 [Manejar todos los errores y excepciones](#cmanejar-todos-los-errores-y-excepciones)  
 
 ----
 

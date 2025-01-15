@@ -15,7 +15,7 @@ order:
 
 ### 5.3 Secure libraries
 
-The use of secure libraries is part of the technology management that helps to fulfil security requirements.
+The use of secure libraries is part of the technology management that helps to fulfill security requirements.
 Standard libraries enable the adoption of common design patterns and security solutions,
 and provide standardized technologies and frameworks that can be used throughout different applications.
 
@@ -25,9 +25,9 @@ which in turn is part of the [Design][sammd] business function.
 
 Sections:
 
-5.3.1 [Enterprise Security API library](#enterprise-security-api-library)  
-5.3.2 [CSRFGuard library](#csrfguard-library)  
-5.3.3 [OWASP Secure Headers Project](#owasp-secure-headers-project)  
+5.3.1 [ESAPI](#esapi)  
+5.3.2 [CSRFGuard](#csrfguard)  
+5.3.3 [OSHP](#oshp)  
 
 ----
 

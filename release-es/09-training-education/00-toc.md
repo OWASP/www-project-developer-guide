@@ -1,10 +1,10 @@
 ---
 
-title: Training and Education
+title: Capacitación y Educación
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order:
 
 ---
@@ -13,23 +13,23 @@ order:
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){height=180px}
 
-## 7. Training and Education
+## 7. Capacitación y Educación
 
 No hay traducción de esta página, consulte [versión original en inglés][release0900].
 
 Sections:
 
-7.1 [Vulnerable Applications](#vulnerable-applications)  
+7.1 [Aplicaciones vulnerables](#aplicaciones-vulnerables)  
 7.1.1 [Juice Shop](#juice-shop)  
 7.1.2 [WebGoat](#webgoat)  
 7.1.3 [PyGoat](#pygoat)  
 7.1.4 [Security Shepherd](#security-shepherd)  
 7.2 [Secure Coding Dojo](#secure-coding-dojo)  
-7.3 [Security Knowledge Framework](#security-knowledge-framework-training)  
+7.3 [SKF capacitación](#skf-capacitación)  
 7.4 [SamuraiWTF](#samuraiwtf)  
-7.5 [OWASP Top 10 project](#owasp-top-ten-project)  
-7.6 [Mobile Top 10](#mobile-top-ten)  
-7.7 [API Top 10](#api-top-ten)  
+7.5 [Proyecto OWASP Top 10](#proyecto-owasp-top-10)  
+7.6 [Mobile Top 10](#mobile-top-10)  
+7.7 [API Top 10](#api-top-10)  
 7.8 [WrongSecrets](#wrongsecrets)  
 7.9 [OWASP Snakes and Ladders](#owasp-snakes-and-ladders)  
 

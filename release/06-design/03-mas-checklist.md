@@ -1,6 +1,6 @@
 ---
 
-title: Mobile Application Checklist
+title: MAS Checklist
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
@@ -24,7 +24,7 @@ permalink: /release/design/mas_checklist/
 
 ![MAS checklist logo](../../../assets/images/logos/mas.png "OWASP MAS checklist"){: .image-right }
 
-### 4.3 Mobile application checklist
+### 4.3 MAS checklist
 
 The OWASP [Mobile Application Security][masproject] (MAS) flagship project provides
 industry standards for mobile application security.

@@ -1,12 +1,12 @@
 ---
 
-title: Threat Modeling Toolkit
+title: Kit de herramientas de modelado de amenazas
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 46160
-permalink: /release-es/design/threat_modeling/toolkit/
+permalink: /release-es/diseño/modelado_amenazas/toolkit/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/design/threat_modeling/toolkit/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 4.1.6 Threat Modeling toolkit
+### 4.1.6 Kit de herramientas de modelado de amenazas
 
 No hay traducción de esta página, consulte [versión original en inglés][release060106].
 

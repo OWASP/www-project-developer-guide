@@ -2,11 +2,11 @@
 
 title: Dependency-Check
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 47210
-permalink: /release-es/implementation/dependencies/dependency_check/
+permalink: /release-es/implementación/dependencias/dependency_check/
 
 ---
 

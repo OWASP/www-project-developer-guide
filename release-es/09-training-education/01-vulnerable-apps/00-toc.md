@@ -1,10 +1,10 @@
 ---
 
-title: Vulnerable Applications
+title: Aplicaciones vulnerables
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order:
 
 ---
@@ -13,16 +13,16 @@ order:
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){height=180px}
 
-### 7.1 Vulnerable Applications
+### 7.1 Aplicaciones vulnerables
 
 No hay traducción de esta página, consulte [versión original en inglés][release0910].
 
 Sections:
 
-7.1 [Juice Shop](#juice-shop)  
-7.2 [WebGoat](#webgoat)  
-7.3 [PyGoat](#pygoat)  
-7.4 [Security Shepherd](#security-shepherd)  
+7.1.1 [Juice Shop](#juice-shop)  
+7.1.2 [WebGoat](#webgoat)  
+7.1.3 [PyGoat](#pygoat)  
+7.1.4 [Security Shepherd](#security-shepherd)  
 
 ----
 

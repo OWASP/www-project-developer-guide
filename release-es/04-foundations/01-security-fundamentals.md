@@ -3,10 +3,10 @@
 title: Fundamentos de Seguridad
 layout: col-document
 tags: Guía del Desarrollador OWASP
-contributors: Roxana Calderon, Jon Gadsden
+contributors: Roxana Calderon
 document: Guía del Desarrollador OWASP
 order: 44010
-permalink: /release-es/foundations/security_fundamentals/
+permalink: /release-es/fundamentos/fundamentos_seguridad/
 
 ---
 

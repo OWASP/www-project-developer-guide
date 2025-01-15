@@ -2,11 +2,11 @@
 
 title: Cornucopia
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 46140
-permalink: /release-es/design/threat_modeling/cornucopia/
+permalink: /release-es/diseño/modelado_amenazas/cornucopia/
 
 ---
 

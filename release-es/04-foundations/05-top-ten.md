@@ -1,12 +1,12 @@
 ---
 
-title: OWASP Top Ten
+title: OWASP Top 10
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 44050
-permalink: /release-es/foundations/owasp_top_ten/
+permalink: /release-es/fundamentos/owasp_top_ten/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/foundations/owasp_top_ten/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 2.5 OWASP Top Ten
+### 2.5 OWASP Top 10
 
 No hay traducción de esta página, consulte [versión original en inglés][release0405].
 

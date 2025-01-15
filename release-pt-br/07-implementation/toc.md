@@ -42,7 +42,7 @@ Sections:
 5.3.1 [ESAPI](03-secure-libraries/01-esapi.md)  
 5.3.2 [CSRFGuard](03-secure-libraries/02-csrf-guard.md)  
 5.3.3 [OSHP](03-secure-libraries/03-secure-headers.md)  
-5.4 [MASWE](03-secure-libraries/04-maswe.md)
+5.4 [MASWE](04-maswe.md)
 
 ----
 

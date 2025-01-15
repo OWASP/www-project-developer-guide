@@ -1,12 +1,12 @@
 ---
 
-title: Security Knowledge Framework
+title: SKF requerimientos
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 45070
-permalink: /release-es/requirements/security_knowledge_framework/
+permalink: /release-es/requerimientos/skf/
 
 ---
 
@@ -24,7 +24,9 @@ permalink: /release-es/requirements/security_knowledge_framework/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 3.7 Security Knowledge Framework
+### 3.7 SKF requerimientos
+
+Framework de Conocimiento de Seguridad (SKF)
 
 No hay traducción de esta página, consulte [versión original en inglés][release0507].
 

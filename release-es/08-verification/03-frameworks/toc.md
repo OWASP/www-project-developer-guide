@@ -1,12 +1,12 @@
 ---
 
-title: Verification Frameworks
+title: Frameworks
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 48300
-permalink: /release-es/verification/frameworks/
+permalink: /release-es/verificación/frameworks/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/verification/frameworks/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 6.3 Verification frameworks
+### 6.3 Frameworks
 
 No hay traducción de esta página, consulte [versión original en inglés][release0830].
 

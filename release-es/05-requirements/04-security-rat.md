@@ -2,11 +2,11 @@
 
 title: SecurityRAT
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 45040
-permalink: /release-es/requirements/security_rat/
+permalink: /release-es/requerimientos/securityrat/
 
 ---
 

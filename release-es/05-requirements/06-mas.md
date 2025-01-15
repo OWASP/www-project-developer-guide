@@ -1,12 +1,12 @@
 ---
 
-title: Mobile Application Security
+title: MAS requerimientos
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 45060
-permalink: /release-es/requirements/mobile_application_security/
+permalink: /release-es/requerimientos/mas/
 
 ---
 
@@ -24,7 +24,9 @@ permalink: /release-es/requirements/mobile_application_security/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 3.6 Mobile Application Security
+### 3.6 MAS requerimientos
+
+Seguridad de aplicaciones móviles (MAS)
 
 No hay traducción de esta página, consulte [versión original en inglés][release0506].
 

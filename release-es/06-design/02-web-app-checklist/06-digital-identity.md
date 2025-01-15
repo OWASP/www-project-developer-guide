@@ -1,12 +1,12 @@
 ---
 
-title: Implement Digital Identity Checklist
+title: Implementar identidad digital
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 46260
-permalink: /release-es/design/web_app_checklist/digital_identity/
+permalink: /release-es/diseño/lista_verificación_web/identidad_digital/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/design/web_app_checklist/digital_identity/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 4.2.6 Checklist: Implement Digital Identity
+### 4.2.6 Implementar identidad digital
 
 No hay traducción de esta página, consulte [versión original en inglés][release060206].
 

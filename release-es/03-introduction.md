@@ -2,11 +2,11 @@
 
 title: Introducción
 layout: col-document
-tags: OWASP Developer Guide
-contributors: Roxana Calderon, Jon Gadsden
-document: OWASP Developer Guide
+tags: Guía del desarrollador OWASP
+contributors: Roxana Calderon
+document: Guía del desarrollador OWASP
 order: 43000
-permalink: /release-es/introduction/
+permalink: /release-es/introducción/
 
 ---
 
@@ -22,7 +22,7 @@ permalink: /release-es/introduction/
 }
 </style>
 
-![Developer guide logo](../../assets/images/dg_logo.png "OWASP Developer Guide"){: .image-right }
+![Guía del desarrollador](../../assets/images/dg_logo.png "Guía del desarrollador OWASP"){: .image-right }
 
 ### 1. Introducción
 

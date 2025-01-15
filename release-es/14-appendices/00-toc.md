@@ -1,10 +1,10 @@
 ---
 
-title: Appendices
+title: Apéndices
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order:
 
 ---
@@ -13,21 +13,21 @@ order:
 
 ![Developer guide logo](../../assets/images/dg_logo.png "OWASP Developer Guide"){height=180px}
 
-## 12. Appendices
+## 12. Apéndices
 
-12.1 [Implementation Do's and Don'ts](#implementation-dos-and-donts)  
-12.1.1 [Container security](#container-security)  
-12.1.2 [Secure coding](#secure-coding)  
-12.1.3 [Cryptographic practices](#cryptographic-practices)  
-12.1.4 [Application spoofing](#application-spoofing)  
-12.1.5 [Content Security Policy (CSP)](#content-security-policy)  
-12.1.6 [Exception and error handling](#exception-and-error-handling)  
-12.1.7 [File management](#file-management)  
-12.1.8 [Memory management](#memory-management)  
-12.2 [Verification Do's and Don'ts](#verification-dos-and-donts)
-12.2.1 [Secure environment](#secure-environment)  
-12.2.2 [System hardening](#system-hardening)  
-12.2.3 [Open Source software](#open-source-software)  
+12.1 [Qué hacer y qué no hacer en la implementación](#qué-hacer-y-qué-no-hacer-en-la-implementación)  
+12.1.1 [Seguridad de Contenedores](#seguridad-de-contenedores)  
+12.1.2 [Codificación segura](#codificación-segura)  
+12.1.3 [Prácticas criptográficas](#prácticas-criptográficas)  
+12.1.4 [Suplantación de aplicaciones](#suplantación-de-aplicaciones)  
+12.1.5 [Política de seguridad de contenido (CSP)](#política-de-seguridad-de-contenido-csp)  
+12.1.6 [Manejo de excepciones y errores](#manejo-de-excepciones-y-errores)  
+12.1.7 [Administración de archivos](#administración-de-archivos)  
+12.1.8 [Administración de memoria](#administración-de-memoria)  
+12.2 [Qué hacer y qué no hacer en la verificación](#verification-dos-and-donts)  
+12.2.1 [Entorno seguro](#entorno-seguro)  
+12.2.2 [Refuerzo de seguridad del sistema](#refuerzo-de-seguridad-del-sistema)  
+12.2.3 [Software de código abierto](#software-de-código-abierto)  
 
 ----
 

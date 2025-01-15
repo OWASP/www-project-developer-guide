@@ -28,7 +28,7 @@ Here is a collection of Do's and Don'ts when it comes to cryptographic practices
 * Do not hard-code cryptographic keys in the application
 * Persist secret keys in a secure vault like HSM, KMS, Secrets Manager
 * Manage encryption keys through the lifecycle, including key retirement/replacement
-    when someone who has access leaves the organisation
+    when someone who has access leaves the organization
 * Rotate keys on a regular basis. However this depends on the key strength and the algorithm used.
     If the key strength is low, the rotation period will be smaller
 * Maintain a contingency plan to recover data in the event of an encrypted key being lost
@@ -49,7 +49,7 @@ Here is a collection of Do's and Don'ts when it comes to cryptographic practices
 * Do not use custom cryptographic algorithms that have not been vetted by cryptography community
 * Do not hardcode cryptographic keys in applications?
 * Issue keys using a secure means.
-* Maintain a key lifecycle for the organisation (Creation, Storage, Distribution and installation, Use,
+* Maintain a key lifecycle for the organization (Creation, Storage, Distribution and installation, Use,
     Rotation, Backup, Recovery, Revocation, Suspension, Destruction)
 * Lock and unlock symmetric secret keys securely
 * Maintain CRL (Certificate Revocation Lists) maintained on a real-time basis

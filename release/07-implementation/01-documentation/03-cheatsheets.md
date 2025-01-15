@@ -61,7 +61,7 @@ The OWASP Spotlight series provides a good overview of using this documentation:
 
 There are many cheat sheets in the OWASP Cheat Sheet Series;
 91 of them as of March 2024 and this number is set to increase.
-The OWASP community recognises that this may become overwhelming at first, and so has arranged them in various ways:
+The OWASP community recognizes that this may become overwhelming at first, and so has arranged them in various ways:
 
 * [Alphabetically][cheatsheet-alpha]
 * Indexed to follow the [ASVS project][csasvs] or the [MASVS project][csmasvs]

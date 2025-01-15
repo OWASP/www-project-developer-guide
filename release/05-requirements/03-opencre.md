@@ -1,12 +1,12 @@
 ---
 
-title: OpenCRE and Integration Standards
+title: OpenCRE
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 5030
-permalink: /release/requirements/opencre_integration_standard/
+permalink: /release/requirements/opencre/
 
 ---
 
@@ -24,7 +24,7 @@ and the Application Security Wayfinder, it is an OWASP documentation project wit
 
 #### What is the Integration Standards project?
 
-The [Integration Standards][intstand] project is at the centre of the OWASP project community;
+The [Integration Standards][intstand] project is at the center of the OWASP project community;
 it provides guidance on how to navigate and use the many projects within OWASP.
 It does this in two ways, first is the [Application Security Wayfinder][intstand] which provides a visual map
 of the most important OWASP projects - as of August 2024 there are 345 [OWASP projects][projects]

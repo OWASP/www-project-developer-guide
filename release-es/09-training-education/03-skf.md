@@ -1,12 +1,12 @@
 ---
 
-title: Security Knowledge Framework training
+title: SKF
 layout: col-document
-tags: OWASP Developer Guide
+tags: Guía del Desarrollador OWASP
 contributors:
-document: OWASP Developer Guide
+document: Guía del Desarrollador OWASP
 order: 49210
-permalink: /release-es/training_education/security_knowledge_framework/
+permalink: /release-es/capacitación_educación/skf/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release-es/training_education/security_knowledge_framework/
 
 ![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
-### 7.3 Security Knowledge Framework training
+### 7.3 SKF capacitación
 
 No hay traducción de esta página, consulte [versión original en inglés][release0903].
 

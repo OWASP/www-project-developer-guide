@@ -188,9 +188,9 @@ then [submit an issue][issue0401] or [edit on GitHub][edit0401].
 [csxsleaks]: https://cheatsheetseries.owasp.org/cheatsheets/XS_Leaks_Cheat_Sheet
 [csxssevade]: https://cheatsheetseries.owasp.org/cheatsheets/XSS_Filter_Evasion_Cheat_Sheet
 [csxxe]: https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet
-[issue0401]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/01-security-fundamentals
 [edit0401]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/04-foundations/01-security-fundamentals.md
 [htmlliving]: https://html.spec.whatwg.org/multipage/
+[issue0401]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/01-security-fundamentals
 [nistvuln]: https://csrc.nist.gov/glossary/term/vulnerability
 [samm]: https://owaspsamm.org/about/
 [sammd]: https://owaspsamm.org/model/design/
