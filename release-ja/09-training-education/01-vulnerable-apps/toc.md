@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 9100
+order: 69100
 permalink: /release/training_education/vulnerable_applications/
 
 ---

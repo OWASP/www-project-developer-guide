@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 9210
+order: 69210
 permalink: /release/training_education/skf_education/
 
 ---

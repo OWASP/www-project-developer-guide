@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 7300
+order: 67300
 permalink: /release/implementation/secure_libraries/
 
 ---

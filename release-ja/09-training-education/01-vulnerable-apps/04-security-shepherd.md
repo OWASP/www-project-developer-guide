@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 9140
+order: 69140
 permalink: /release/training_education/vulnerable_applications/security_shepherd/
 
 ---

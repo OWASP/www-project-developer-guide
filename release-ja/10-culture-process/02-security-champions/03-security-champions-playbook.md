@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 10230
+order: 70230
 permalink: /release/culture_building_and_process_maturing/security_champions/security_champions_playbook/
 
 ---

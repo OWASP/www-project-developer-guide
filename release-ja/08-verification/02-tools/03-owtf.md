@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 8230
+order: 68230
 permalink: /release/verification/tools/owtf/
 
 ---

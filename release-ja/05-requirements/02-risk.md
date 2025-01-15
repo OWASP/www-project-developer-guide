@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 5020
+order: 65020
 permalink: /release/requirements/risk_profile/
 
 ---

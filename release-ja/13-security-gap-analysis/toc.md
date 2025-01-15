@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 13000
+order: 73000
 permalink: /release/security_gap_analysis/
 
 ---

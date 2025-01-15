@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 13120
+order: 73120
 permalink: /release/security_gap_analysis/guides/asvs_gap_analysis/
 
 ---

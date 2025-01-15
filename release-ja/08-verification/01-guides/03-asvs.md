@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 8130
+order: 68130
 permalink: /release/verification/guides/asvs/
 
 ---

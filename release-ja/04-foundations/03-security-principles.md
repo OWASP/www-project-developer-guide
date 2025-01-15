@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden, Johan Sydseter, Andreas Happe
 document: OWASP Developer Guide
-order: 4030
+order: 64030
 permalink: /release/foundations/security_principles/
 
 ---

@@ -5,7 +5,7 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 13110
+order: 73110
 permalink: /release/security_gap_analysis/guides/samm/
 
 ---
