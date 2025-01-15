@@ -30,7 +30,7 @@ Implementation should include security practices such as :
 Implementation is where the application / system begins to take shape; source code is written and tests are created.
 The implementation of the application follows a secure development lifecycle, with security built in from the start.
 
-The implementation will use a secure method of source code control and storage to fulfil the design security requirements.
+The implementation will use a secure method of source code control and storage to fulfill the design security requirements.
 The development team will be referring to documentation advising them of best practices,
 they will be using secure libraries wherever possible in addition to checking and tracking external dependencies.
 
@@ -48,10 +48,10 @@ Sections:
 5.2.2 [Dependency-Track](#dependency-track)  
 5.2.3 [CycloneDX](#cyclonedx)  
 5.3 [Secure Libraries](#secure-libraries)  
-5.3.1 [Enterprise Security API library](#enterprise-security-api-library)  
-5.3.2 [CSRFGuard library](#csrfguard-library)  
-5.3.3 [OWASP Secure Headers Project](#owasp-secure-headers-project)  
-5.4 [Mobile application weakness enumeration](#mobile-application-weakness-enumeration)  
+5.3.1 [ESAPI](#esapi)  
+5.3.2 [CSRFGuard](#csrfguard)  
+5.3.3 [OSHP](#oshp)  
+5.4 [MASWE](#maswe)  
 
 ----
 

@@ -48,7 +48,7 @@ and goes into detail on each concept :
 * Remediation for threats / vulnerabilities
 
 The OWASP [Threat Modeling Playbook][tmpb] (OTMP) is an OWASP Incubator project that describes how to
-create and nurture a good threat modeling culture within the organisation itself.
+create and nurture a good threat modeling culture within the organization itself.
 
 #### Cheat Sheets for Threat Modeling
 

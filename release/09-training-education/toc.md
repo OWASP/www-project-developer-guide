@@ -32,7 +32,7 @@ within the [Governance][sammg] business function.
 
 The goal of security training and education is to increase the awareness of application security threats and risks
 along with security best practices and secure software design principles.
-The security awareness training should be customised for all roles currently involved in the management,
+The security awareness training should be customized for all roles currently involved in the management,
 development, testing, or auditing of the applications and systems.
 In addition a Learning Management System or equivalent should be in place to track
 the employee training and certification processes.
@@ -53,7 +53,7 @@ Sections:
 7.1.3 [PyGoat](01-vulnerable-apps/03-pygoat.md)  
 7.1.4 [Security Shepherd](01-vulnerable-apps/04-security-shepherd.md)  
 7.2 [Secure Coding Dojo](02-secure-coding-dojo.md)  
-7.3 [Security Knowledge Framework](03-skf.md)  
+7.3 [SKF education](03-skf.md)  
 7.4 [SamuraiWTF](04-samurai-wtf.md)  
 7.5 [OWASP Top 10 project](05-top-ten.md)  
 7.6 [Mobile Top 10](06-mobile-top-ten.md)  

@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 10210
-permalink: /release/culture_building_and_process_maturing/security_champions/security_champions_program/
+permalink: /release/culture_building_and_process_maturing/security_champions/program/
 
 ---
 
@@ -43,11 +43,11 @@ and are seen as the first point of contact between developers and a central secu
 There is no universally defined role for a security champion, but the [Security Culture project][culturechamps]
 provides various suggestions:
 
-* Evangelise security: promoting security best practice in their team,
+* Evangelize security: promoting security best practice in their team,
     imparting security knowledge and helping to uplift security awareness in their team
-* Contribute to security standards: provide input into organisational security standards and procedures
+* Contribute to security standards: provide input into organizational security standards and procedures
 * Help run activities: promote activities such as Capture the Flag events or secure coding training
-* Oversee threat modelling: threat modelling consists of a security review on a product in the design phase
+* Oversee threat modeling: threat modeling consists of a security review on a product in the design phase
 * Oversee secure code reviews: raise issues of risk in the code base that arise from peer group code reviews
 * Use security testing tools: provide support to their team for the use of security testing tools
 
@@ -68,7 +68,7 @@ The OWASP [Security Champions Guide][scguide] identifies ten key principles for 
 * Be passionate about security - identify the members of the teams that show interest in security
 * Start with a clear vision for your program - be practical but ambitious, after if it works then it will work well
 * Secure management support - as always, going it alone without management support is never going to work
-* Nominate a dedicated captain - the program will take organisation and maintaining, so find someone willing to do that
+* Nominate a dedicated captain - the program will take organization and maintaining, so find someone willing to do that
 * Trust your champions - they are usually highly motivated when it comes to the security of their own applications
 * Create a community - it can be lonely, so provide a support network
 * Promote knowledge sharing - if the community is in place, then encourage discussions and meet-ups

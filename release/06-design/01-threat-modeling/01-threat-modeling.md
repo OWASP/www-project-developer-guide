@@ -165,16 +165,16 @@ Finally, carry out a retrospective activity over the work identified to check
 quality, feasibility, progress, or planning.
 
 The OWASP [Threat Modeling Playbook][tmpb] goes into these practicalities in more detail
-and provides strategies for maintaining threat modeling within an organisation.
+and provides strategies for maintaining threat modeling within an organization.
 
 #### How to do it
 
 There is no one process for threat modeling.
-How it is done in practice will vary according to the organisation's culture,
+How it is done in practice will vary according to the organization's culture,
 according to what type of system / application is being modeled
 and according to preferences of the development team itself.
 The various techniques and concepts are discussed in the [Threat Modeling Cheat Sheet][cstm]
-and can be summarised:
+and can be summarized:
 
 1. Terminology: try to use standard terms such as actors, trust boundaries, etc as this will help convey these concepts
 2. Scope: be clear what is being modeled and keep within this scope
@@ -182,7 +182,7 @@ and can be summarised:
 4. Decompose: break the system being modeled into manageable pieces
 5. Trust: identify your trust boundaries, consider [network segmentation][ccsnet]
 6. Agents: identify who the actors are (malicious or otherwise) and what they can do
-7. Categorise: prioritise the threats taking into account probability, impact and any other factors
+7. Categorize: prioritize the threats taking into account probability, impact and any other factors
 8. Remediation: be sure to decide what to do about any threats identified, the whole reason for threat modeling
 
 It is worth saying this again: there are many ways to do threat modeling,
@@ -209,7 +209,7 @@ at the very least the changes should not make the security worse - and ideally t
 
 **Tools are secondary**:
 
-It is good to standardise threat modeling tools across an organisation,
+It is good to standardize threat modeling tools across an organization,
 but also allow teams to choose how they record their threat models.
 If one team decides to use Threat Dragon, for example, and another wants to use a drawing board,
 then that is usually fine.
@@ -227,7 +227,7 @@ malicious actors (external or internal) trying to subvert your system.
 
 **Choose your methodology**:
 
-It is a good strategy to choose a threat categorisation methodology for the whole organisation
+It is a good strategy to choose a threat categorization methodology for the whole organization
 and then try and keep to it.
 For example this could be [STRIDE][stride] or [LINDDUN][linddun], but if the CIA triad provides enough granularity
 then that is also a perfectly good choice.
@@ -254,7 +254,7 @@ then that is also a perfectly good choice.
 * [Threagile](https://threagile.io), an open source project that provides for Agile threat modeling
 * Microsoft [Threat Modeling Tool][TMT], a widely used tool throughout the security community and free to download
 * [threatspec](https://github.com/threatspec/threatspec), an open source tool based on comments inline with code
-* Mitre's Common Attack Pattern Enumeration and Classification ([CAPEC][capec])
+* MITRE's Common Attack Pattern Enumeration and Classification ([CAPEC][capec])
 * NIST [Common Vulnerability Scoring System Calculator][nist-cvss]
 
 ----

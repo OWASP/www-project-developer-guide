@@ -1,18 +1,18 @@
 ---
 
-title: Application Security Verification Standard
+title: ASVS requirements
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 5050
-permalink: /release/requirements/application_security_verification_standard/
+permalink: /release/requirements/asvs/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 3.5 Application Security Verification Standard
+### 3.5 ASVS requirements
 
 The [Application Security Verification Standard][asvs] (ASVS) is a long established OWASP flagship project,
 and is widely used to suggest security requirements as well as the core verification of web applications.
