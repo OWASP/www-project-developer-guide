@@ -85,7 +85,7 @@ A security principle in which a person or process is given only the minimum leve
 that is necessary for that person or process to complete an assigned operation.
 This right must be given only for a minimum amount of time that is necessary to complete the operation.
 
-This helps to limits the damage when a system is compromised by minimising the ability of an attacker
+This helps to limits the damage when a system is compromised by minimizing the ability of an attacker
 to escalate privileges both laterally or vertically.
 In order to apply this [principle of least privilege][elp] proper granularity
 of privileges and permissions should be established.

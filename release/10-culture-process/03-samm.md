@@ -1,12 +1,12 @@
 ---
 
-title: Software Assurance Maturity Model
+title: SAMM
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 10300
-permalink: /release/culture_building_and_process_maturing/software_assurance_maturity_model/
+permalink: /release/culture_building_and_process_maturing/samm/
 
 ---
 
@@ -24,7 +24,7 @@ permalink: /release/culture_building_and_process_maturing/software_assurance_mat
 
 ![SAMM logo](../../../assets/images/logos/samm.png "OWASP SAMM"){: .image-right-small }
 
-### 8.3 Software Assurance Maturity Model
+### 8.3 SAMM
 
 The [Software Assurance Maturity Model][samm] (SAMM) project provides an effective and measurable way for
 an organization to analyze and improve their secure development lifecycle processes.

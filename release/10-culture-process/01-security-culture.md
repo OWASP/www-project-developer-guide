@@ -33,7 +33,7 @@ arranged under various topic headings.
 * [Security team collaboration][culturegoal]
 * [Security champions][culturechamps]
 * [Activities][cultureacts]
-* [Threat modelling][culturetm]
+* [Threat modeling][culturetm]
 * [Security testing][culturetest]
 * [Security related metrics][culturemetrics]
 
@@ -57,11 +57,11 @@ management and development teams all working together - all are necessary for a 
 
 Security Champions are an important way of encouraging security within an organization - an organization can have a
 healthy security culture without security champions but it is a lot easier with a security champion program in place.
-Selecting and nurturing [security champions][culturechamps] has to be tailored to the individual organisation,
+Selecting and nurturing [security champions][culturechamps] has to be tailored to the individual organization,
 no security champion program will be the same as another one and close reference should be made to
 the [Security Champions Playbook][scplaybook].
 
-[Threat modelling][culturetm] is an activity that in itself is important within an organization,
+[Threat modeling][culturetm] is an activity that in itself is important within an organization,
 and it also has the benefit of helping communication between the security teams and development teams.
 [Security testing][culturetest] (such as [SAST][dsosast], [DAST][dsodast] and [IAST][dsoiast])
 is another area where close collaboration is required within the organization:

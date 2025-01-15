@@ -28,9 +28,9 @@ permalink:
 3.2 [Risk profile](#risk-profile)  
 3.3 [OpenCRE](#opencre)  
 3.4 [SecurityRAT](#security-rat)  
-3.5 [Application Security Verification Standard](#application-security-verification-standard)  
-3.6 [Mobile Application Security](#mobile-application-security)  
-3.7 [Security Knowledge Framework](#security-knowledge-framework)  
+3.5 [ASVS requirements](#asvs-requirements)  
+3.6 [MAS requirements](#mas-requirements)  
+3.7 [SKF requirements](#skf-requirements)  
 
 4 **[Design](#design)**  
 4.1 [Threat modeling](#threat-modeling)  
@@ -51,7 +51,7 @@ permalink:
 4.2.8 [Checklist: Protect Data Everywhere](#checklist-protect-data-everywhere)  
 4.2.9 [Checklist: Implement Security Logging and Monitoring](#checklist-implement-security-logging-and-monitoring)  
 4.2.10 [Checklist: Handle all Errors and Exceptions](#checklist-handle-all-errors-and-exceptions)  
-4.3 [Mobile application checklist](#mobile-application-checklist)  
+4.3 [MAS checklist](#mas-checklist)  
 
 5 **[Implementation](#implementation)**  
 5.1 [Documentation](#documentation)  
@@ -63,22 +63,22 @@ permalink:
 5.2.2 [Dependency-Track](#dependency-track)  
 5.2.3 [CycloneDX](#cyclonedx)  
 5.3 [Secure Libraries](#secure-libraries)  
-5.3.1 [Enterprise Security API library](#enterprise-security-api-library)  
-5.3.2 [CSRFGuard library](#csrfguard-library)  
-5.3.3 [OWASP Secure Headers Project](#owasp-secure-headers-project)  
-5.4 [Mobile application weakness enumeration](#mobile-application-weakness-enumeration)  
+5.3.1 [ESAPI](#esapi)  
+5.3.2 [CSRFGuard](#csrfguard)  
+5.3.3 [OSHP](#oshp)  
+5.4 [MASWE](#maswe)  
 
 6 **[Verification](#verification)**  
 6.1 [Guides](#verification-guides)  
-6.1.1 [Web Security Testing Guide](#web-security-testing-guide)  
-6.1.2 [MAS Testing Guide](#mas-testing-guide)  
-6.1.3 [Application Security Verification Standard](#application-security-verification-standard)  
+6.1.1 [WSTG](#wstg)  
+6.1.2 [MASTG](#mastg)  
+6.1.3 [ASVS](#asvs)  
 6.2 [Tools](#verification-tools)  
 6.2.1 [DAST tools](#dast-tools)  
 6.2.2 [Amass](#amass)  
-6.2.3 [Offensive Web Testing Framework](#offensive-web-testing-framework)  
+6.2.3 [OWTF](#owtf)  
 6.2.4 [Nettacker](#nettacker)  
-6.2.5 [OWASP Secure Headers Project](#secure-headers-project)  
+6.2.5 [OSHP verification](#oshp-verification)  
 6.3 [Frameworks](#verification-frameworks)  
 6.3.1 [secureCodeBox](#securecodebox)  
 6.4 [Vulnerability management](#verification-vulnerability-management)  
@@ -91,7 +91,7 @@ permalink:
 7.1.3 [PyGoat](#pygoat)  
 7.1.4 [Security Shepherd](#security-shepherd)  
 7.2 [Secure Coding Dojo](#secure-coding-dojo)  
-7.3 [Security Knowledge Framework](#security-knowledge-framework-training)  
+7.3 [SKF education](#skf-education)  
 7.4 [SamuraiWTF](#samuraiwtf)  
 7.5 [OWASP Top 10 project](#owasp-top-ten-project)  
 7.6 [Mobile Top 10](#mobile-top-ten)  
@@ -105,24 +105,24 @@ permalink:
 8.2.1 [Security champions program](#security-champions-program)  
 8.2.2 [Security Champions Guide](#security-champions-guide)  
 8.2.3 [Security Champions Playbook](#security-champions-playbook)  
-8.3 [Software Assurance Maturity Model](#software-assurance-maturity-model)  
-8.4 [Application Security Verification Standard](#application-security-verification-standard)  
-8.5 [Mobile Application Security](#mobile-application-security)  
+8.3 [SAMM](#samm)  
+8.4 [ASVS process](#asvs-process)  
+8.5 [MAS process](#mas-process)  
 
 9 **[Operations](#operations)**  
 9.1 [DevSecOps Guideline](#devsecops-guideline)  
-9.2 [Coraza Web Application Firewall](#coraza-web-application-firewall)  
-9.3 [ModSecurity Web Application Firewall](#modsecurity-web-application-firewall)  
+9.2 [Coraza WAF](#coraza-waf)  
+9.3 [ModSecurity WAF](#modsecurity-waf)  
 9.4 [OWASP CRS](#owasp-crs)  
 
 10 **[Metrics](#metrics)**  
 
 11 **[Security gap analysis](#security-gap-analysis)**  
 11.1 [Guides](#security-gap-analysis-guides)  
-11.1.1 [Software Assurance Maturity Model](#software-assurance-maturity-model)  
-11.1.2 [Application Security Verification Standard](#application-security-verification-standard)  
-11.1.3 [Mobile Application Security](#mobile-application-security)  
-11.2 [Bug Logging Tool](#bug-logging-tool)  
+11.1.1 [SAMM gap analysis](#samm-gap-analysis)  
+11.1.2 [ASVS gap analysis](#asvs-gap-analysis)  
+11.1.3 [Mobile gap analysis](#mas-gap-analysis)  
+11.2 [BLT](#blt)  
 
 12 **[Appendices](#appendices)**  
 12.1 [Implementation Do's and Don'ts](#implementation-dos-and-donts)  

@@ -23,7 +23,7 @@ Secure Architecture Design looks at the selection and composition of components 
 Technology Management looks at the security of supporting technologies used during development, deployment and operations,
 such as development stacks and tooling, deployment tooling, and operating systems and tooling.
 
-A secure design will help establish secure defaults, minimise the attack surface area
+A secure design will help establish secure defaults, minimize the attack surface area
 and fail securely to well-defined and understood defaults.
 It will also consider and follow various principles, such as:
 
@@ -66,7 +66,7 @@ Sections:
 4.2.8 [Checklist: Protect Data Everywhere](#checklist-protect-data-everywhere)  
 4.2.9 [Checklist: Implement Security Logging and Monitoring](#checklist-implement-security-logging-and-monitoring)  
 4.2.10 [Checklist: Handle all Errors and Exceptions](#checklist-handle-all-errors-and-exceptions)  
-4.3 [Mobile application checklist](#mobile-application-checklist)  
+4.3 [MAS checklist](#mas-checklist)  
 
 ----
 

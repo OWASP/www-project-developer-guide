@@ -1,6 +1,6 @@
 ---
 
-title: ModSecurity Web Application Firewall
+title: ModSecurity WAF
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
@@ -12,7 +12,7 @@ permalink: /release/operations/modsecurity_waf/
 
 {% include breadcrumb.html %}
 
-### 9.3 ModSecurity Web Application Firewall
+### 9.3 ModSecurity WAF
 
 [ModSecurity][modsec] is an open source Web Application Firewall (WAF) widely deployed on web servers
 that has been in continuous development and widespread use since 2002.

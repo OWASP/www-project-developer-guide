@@ -1,18 +1,18 @@
 ---
 
-title: CSRFGuard library
+title: CSRFGuard
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 7320
-permalink: /release/implementation/secure_libraries/csrf_guard/
+permalink: /release/implementation/secure_libraries/csrfguard/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 5.3.2 CSRFGuard library
+### 5.3.2 CSRFGuard
 
 OWASP [CSRFGuard][csrfguard] is a security control that helps protect Java applications
 against [Cross-Site Request Forgery][cscsrf] (CSRF) attacks.
