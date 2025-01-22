@@ -1,9 +1,9 @@
 ---
 
-title: Front Page
+title: Capa
 layout: col-document
 tags: Guia do Desenvolvedor do OWASP
-contributors:
+contributors: Amauri Bizerra
 document: Guia do Desenvolvedor do OWASP
 order:
 permalink:
@@ -16,6 +16,6 @@ permalink:
 
 ### Guia do Desenvolvedor do OWASP
 
-#### A Guide to Building Secure Web Applications and Web Services
+#### Um Guia para a Construção de Aplicações e Serviços Web Seguros
 
-### Release version 4.1.4
+### Versão de Lançamento 4.1.7
