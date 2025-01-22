@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 69250
-permalink: /release/training_education/api_top_ten/
+permalink: /release-ja/training_education/api_top_ten/
 
 ---
 

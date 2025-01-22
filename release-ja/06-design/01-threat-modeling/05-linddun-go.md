@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 66150
-permalink: /release/design/threat_modeling/linddun_go/
+permalink: /release-ja/design/threat_modeling/linddun_go/
 
 ---
 

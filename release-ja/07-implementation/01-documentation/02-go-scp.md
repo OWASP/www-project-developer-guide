@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 67120
-permalink: /release/implementation/documentation/go_scp/
+permalink: /release-ja/implementation/documentation/go_scp/
 
 ---
 

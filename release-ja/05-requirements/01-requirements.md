@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden, Andreas Happe
 document: OWASP Developer Guide
 order: 65010
-permalink: /release/requirements/requirements_in_practice/
+permalink: /release-ja/requirements/requirements_in_practice/
 
 ---
 

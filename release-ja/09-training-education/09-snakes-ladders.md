@@ -7,7 +7,7 @@ contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 69270
 
-permalink: /release/training_education/snakes_and_ladders/
+permalink: /release-ja/training_education/snakes_and_ladders/
 
 ---
 

@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Matteo Pace, Jon Gadsden
 document: OWASP Developer Guide
 order: 71040
-permalink: /release/operations/crs/
+permalink: /release-ja/operations/crs/
 
 ---
 

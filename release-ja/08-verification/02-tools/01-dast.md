@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Johan Sydseter, Jon Gadsden
 document: OWASP Developer Guide
 order: 68210
-permalink: /release/verification/tools/dast/
+permalink: /release-ja/verification/tools/dast/
 
 ---
 

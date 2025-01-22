@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 67230
-permalink: /release/implementation/dependencies/cyclonedx/
+permalink: /release-ja/implementation/dependencies/cyclonedx/
 
 ---
 

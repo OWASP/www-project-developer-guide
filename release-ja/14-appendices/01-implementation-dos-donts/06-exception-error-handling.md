@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
 document: OWASP Developer Guide
 order: 74160
-permalink: /release/appendices/implementation_dos_donts/exception_error_handling/
+permalink: /release-ja/appendices/implementation_dos_donts/exception_error_handling/
 
 ---
 

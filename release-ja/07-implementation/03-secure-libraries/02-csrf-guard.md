@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 67320
-permalink: /release/implementation/secure_libraries/csrfguard/
+permalink: /release-ja/implementation/secure_libraries/csrfguard/
 
 ---
 

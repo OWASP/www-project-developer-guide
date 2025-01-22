@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 68310
-permalink: /release/verification/frameworks/secure_codebox/
+permalink: /release-ja/verification/frameworks/secure_codebox/
 
 ---
 

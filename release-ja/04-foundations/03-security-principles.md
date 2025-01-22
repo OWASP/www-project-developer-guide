@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden, Johan Sydseter, Andreas Happe
 document: OWASP Developer Guide
 order: 64030
-permalink: /release/foundations/security_principles/
+permalink: /release-ja/foundations/security_principles/
 
 ---
 

@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 71020
-permalink: /release/operations/coraza_waf/
+permalink: /release-ja/operations/coraza_waf/
 
 ---
 

@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
 document: OWASP Developer Guide
 order: 74110
-permalink: /release/appendices/implementation_dos_donts/container_security/
+permalink: /release-ja/appendices/implementation_dos_donts/container_security/
 
 ---
 

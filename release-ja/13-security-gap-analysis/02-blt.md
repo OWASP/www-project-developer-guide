@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 73200
-permalink: /release/security_gap_analysis/blt/
+permalink: /release-ja/security_gap_analysis/blt/
 
 ---
 

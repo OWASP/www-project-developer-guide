@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 69210
-permalink: /release/training_education/skf_education/
+permalink: /release-ja/training_education/skf_education/
 
 ---
 

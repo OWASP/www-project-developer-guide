@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 66200
-permalink: /release/design/web_app_checklist/
+permalink: /release-ja/design/web_app_checklist/
 
 ---
 

@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 74100
-permalink: /release/appendices/implementation_dos_donts/
+permalink: /release-ja/appendices/implementation_dos_donts/
 
 ---
 

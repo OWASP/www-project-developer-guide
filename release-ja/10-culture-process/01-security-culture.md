@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 70010
-permalink: /release/culture_building_and_process_maturing/security_culture/
+permalink: /release-ja/culture_building_and_process_maturing/security_culture/
 
 ---
 

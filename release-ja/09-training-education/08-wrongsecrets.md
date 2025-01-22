@@ -5,7 +5,7 @@ tags: OWASP Developer Guide
 contributors: Ben de Haan 
 document: OWASP Developer Guide
 order: 69260
-permalink: /release/training_education/wrongsecrets/
+permalink: /release-ja/training_education/wrongsecrets/
 ---
 
 {% include breadcrumb.html %}

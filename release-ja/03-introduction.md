@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 63000
-permalink: /release/introduction/
+permalink: /release-ja/introduction/
 
 ---
 

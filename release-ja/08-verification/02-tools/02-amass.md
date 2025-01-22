@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 68220
-permalink: /release/verification/tools/amass/
+permalink: /release-ja/verification/tools/amass/
 
 ---
 

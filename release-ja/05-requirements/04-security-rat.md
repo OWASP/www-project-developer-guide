@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 65040
-permalink: /release/requirements/security_rat/
+permalink: /release-ja/requirements/security_rat/
 
 ---
 

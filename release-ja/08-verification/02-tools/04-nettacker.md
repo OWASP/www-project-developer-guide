@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 68240
-permalink: /release/verification/tools/nettacker/
+permalink: /release-ja/verification/tools/nettacker/
 
 ---
 

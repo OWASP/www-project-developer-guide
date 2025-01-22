@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide
 order: 62000
-permalink: /release/
+permalink: /release-ja/
 
 ---
 

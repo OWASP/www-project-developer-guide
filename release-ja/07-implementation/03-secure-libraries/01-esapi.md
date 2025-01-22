@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 67310
-permalink: /release/implementation/secure_libraries/esapi/
+permalink: /release-ja/implementation/secure_libraries/esapi/
 
 ---
 

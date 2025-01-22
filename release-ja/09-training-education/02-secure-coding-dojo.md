@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 69200
-permalink: /release/training_education/secure_coding_dojo/
+permalink: /release-ja/training_education/secure_coding_dojo/
 
 ---
 

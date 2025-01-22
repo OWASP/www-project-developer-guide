@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 64040
-permalink: /release/foundations/crypto_principles/
+permalink: /release-ja/foundations/crypto_principles/
 
 ---
 

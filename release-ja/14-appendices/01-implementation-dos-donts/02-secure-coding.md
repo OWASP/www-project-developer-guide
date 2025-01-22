@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
 document: OWASP Developer Guide
 order: 74120
-permalink: /release/appendices/implementation_dos_donts/secure_coding/
+permalink: /release-ja/appendices/implementation_dos_donts/secure_coding/
 
 ---
 

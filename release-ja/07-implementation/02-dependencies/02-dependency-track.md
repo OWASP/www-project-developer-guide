@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 67220
-permalink: /release/implementation/dependencies/dependency_track/
+permalink: /release-ja/implementation/dependencies/dependency_track/
 
 ---
 

@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
 document: OWASP Developer Guide
 order: 74210
-permalink: /release/appendices/verification_dos_donts/secure_environment/
+permalink: /release-ja/appendices/verification_dos_donts/secure_environment/
 
 ---
 

@@ -6,7 +6,7 @@ tags: OWASP Developer Guide
 contributors: Andreas Happe, Jon Gadsden
 document: OWASP Developer Guide
 order: 67110
-permalink: /release/implementation/documentation/proactive_controls/
+permalink: /release-ja/implementation/documentation/proactive_controls/
 
 ---
 
