@@ -81,8 +81,8 @@ increase the effectiveness of the application security team and improve the secu
 
 #### References
 
-* [Security Champions Playbook][scplaybook]
 * OWASP [Security Champions Guide][scguide]
+* [Security Champions Playbook][scplaybook]
 * OWASP [Security Culture][culturedoc] project
 
 ----

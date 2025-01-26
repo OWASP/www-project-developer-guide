@@ -59,7 +59,7 @@ Security Champions are an important way of encouraging security within an organi
 healthy security culture without security champions but it is a lot easier with a security champion program in place.
 Selecting and nurturing [security champions][culturechamps] has to be tailored to the individual organization,
 no security champion program will be the same as another one and close reference should be made to
-the [Security Champions Playbook][scplaybook].
+the [Security Champions Guide][scguide].
 
 [Threat modeling][culturetm] is an activity that in itself is important within an organization,
 and it also has the benefit of helping communication between the security teams and development teams.
@@ -94,4 +94,4 @@ then [submit an issue][issue1001] or [edit on GitHub][edit1001].
 [dsodast]: https://owasp.org/www-project-devsecops-guideline/latest/02b-Dynamic-Application-Security-Testing
 [dsoiast]: https://owasp.org/www-project-devsecops-guideline/latest/02c-Interactive-Application-Security-Testing
 [dsosast]: https://owasp.org/www-project-devsecops-guideline/latest/02a-Static-Application-Security-Testing
-[scplaybook]: https://github.com/c0rdis/security-champions-playbook
+[scguide]: https://owasp.org/www-project-security-champions-guidebook/
