@@ -22,7 +22,7 @@ permalink: /release-pt-br/requisitos/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
+![WIP logo](../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
 ## 3. Requisitos
 

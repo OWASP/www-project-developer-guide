@@ -22,7 +22,7 @@ permalink: /release-pt-br/verificação/guias/wstg/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
+![WIP logo](../../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
 ### 6.1.1 WSTG
 

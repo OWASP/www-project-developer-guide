@@ -22,7 +22,7 @@ permalink: /release-pt-br/verificação/ferramentas/nettacker/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
+![WIP logo](../../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
 ### 6.2.4 Nettacker
 

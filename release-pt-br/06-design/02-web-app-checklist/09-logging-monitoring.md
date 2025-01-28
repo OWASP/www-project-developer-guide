@@ -22,7 +22,7 @@ permalink: /release-pt-br/design/lista_verificação_web/registro_monitoramento_
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
+![WIP logo](../../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
 ### 4.2.9 Implemente Registro e Monitoramento de Segurança
 

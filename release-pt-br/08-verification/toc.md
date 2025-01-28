@@ -22,7 +22,7 @@ permalink: /release-pt-br/verificação/
 }
 </style>
 
-![Developer guide logo](../../assets/images/dg_logo.png "OWASP Developer Guide"){: .image-right }
+![WIP logo](../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
 ## 6. Verificação
 

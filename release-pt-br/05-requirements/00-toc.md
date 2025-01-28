@@ -12,7 +12,7 @@ permalink:
 
 {% include breadcrumb.html %}
 
-![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){height=180px}
+![WIP logo](../../assets/images/dg_wip.png "Trabalho em andamento"){height=180px}
 
 ## 3. Requisitos
 
