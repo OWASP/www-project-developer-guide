@@ -22,7 +22,7 @@ permalink: /release-pt-br/design/lista_verificação_web/frameworks_bibliotecas/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
+![WIP logo](../../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
 ### 4.2.2 Utilize Frameworks e Bibliotecas de Segurança
 

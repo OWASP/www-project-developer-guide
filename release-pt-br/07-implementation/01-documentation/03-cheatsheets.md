@@ -22,7 +22,7 @@ permalink: /release-pt-br/implementação/documentação/série_folha_dicas/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
+![WIP logo](../../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
 ### 5.1.3 Série de Cheatsheet
 

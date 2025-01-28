@@ -22,7 +22,7 @@ permalink: /release-pt-br/implementação/documentação/go_scp/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
+![WIP logo](../../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
 ### 5.1.2 GoSCP (Práticas de Codificação Segura em Go)
 

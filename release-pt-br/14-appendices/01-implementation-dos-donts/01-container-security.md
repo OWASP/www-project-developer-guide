@@ -22,7 +22,7 @@ permalink: /release-pt-br/appendices/implementação/segurança_containers/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
+![WIP logo](../../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
 ### 12.1.1 Segurança de containers
 

@@ -22,7 +22,7 @@ permalink: /release-pt-br/appendices/implementação/tratamento_erros_exceções
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
+![WIP logo](../../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
 ### 12.1.6 Tratamento de erros e exceções
 

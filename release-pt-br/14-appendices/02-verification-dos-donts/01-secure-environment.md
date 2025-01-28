@@ -22,7 +22,7 @@ permalink: /release-pt-br/appendices/verificação/ambiente_seguro/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
+![WIP logo](../../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
 ### 12.2.1 Ambiente seguro
 

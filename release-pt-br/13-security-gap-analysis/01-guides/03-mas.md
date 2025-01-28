@@ -22,7 +22,7 @@ permalink: /release-pt-br/análise_lacunas_segurança/guias/mas/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
+![WIP logo](../../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
 ### 11.1.3 MAS análise
 

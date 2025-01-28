@@ -22,7 +22,7 @@ permalink: /release-pt-br/treinamento_educação/aplicações_vulneráveis/juice
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
+![WIP logo](../../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
 ### 7.1.1 Juice Shop
 
