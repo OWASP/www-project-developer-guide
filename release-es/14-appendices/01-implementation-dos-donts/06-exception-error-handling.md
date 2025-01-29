@@ -22,7 +22,7 @@ permalink: /release-es/apéndices/qué_hacer_implementación/excepciones_errores
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
+![WIP logo](../../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ### 12.1.6 Manejo de excepciones y errores
 

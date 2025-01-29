@@ -22,7 +22,7 @@ permalink: /release-es/desarrollo_cultura_maduración_procesos/defensores_seguri
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
+![WIP logo](../../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ### 8.2.1 Programa de Defensores de seguridad
 

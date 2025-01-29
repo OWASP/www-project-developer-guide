@@ -22,7 +22,7 @@ permalink: /release-es/diseño/lista_verificación_web/asegurar_base_datos/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
+![WIP logo](../../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ### 4.2.3 Asegurar el acceso a la base de datos
 

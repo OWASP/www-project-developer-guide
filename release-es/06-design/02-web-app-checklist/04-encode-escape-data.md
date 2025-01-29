@@ -22,7 +22,7 @@ permalink: /release-es/diseño/lista_verificación_web/codificar_escapar_datos/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
+![WIP logo](../../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ### 4.2.4 Codificar y escapar caracteres especiales en datos
 

@@ -22,7 +22,7 @@ permalink: /release-es/implementación/documentación/serie_referencia/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
+![WIP logo](../../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ### 5.1.3 Serie de hojas de referencia
 

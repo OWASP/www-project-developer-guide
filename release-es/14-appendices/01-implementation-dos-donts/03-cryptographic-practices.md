@@ -22,7 +22,7 @@ permalink: /release-es/apéndices/qué_hacer_implementación/prácticas_criptogr
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
+![WIP logo](../../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ### 12.1.3 Prácticas criptográficas
 

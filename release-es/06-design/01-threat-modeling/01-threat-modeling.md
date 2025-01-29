@@ -22,7 +22,7 @@ permalink: /release-es/diseño/modelado_amenazas/modelado_amenazas_práctica/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
+![WIP logo](../../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ### 4.1.1 Modelado de amenazas en la práctica
 
