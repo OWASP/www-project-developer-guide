@@ -22,7 +22,7 @@ permalink: /release-es/diseño/lista_verificación_web/errores_excepciones/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
+![WIP logo](../../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ### 4.2.10 Manejar todos los errores y excepciones
 

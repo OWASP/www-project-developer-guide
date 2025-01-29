@@ -22,7 +22,7 @@ permalink: /release-es/capacitación_educación/aplicaciones_vulnerables/pygoat/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
+![WIP logo](../../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ### 7.1.3 PyGoat
 

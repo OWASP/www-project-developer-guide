@@ -22,7 +22,7 @@ permalink: /release-es/verificación/frameworks/secure_codebox/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
+![WIP logo](../../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 #### 6.3.1 secureCodeBox
 

@@ -22,7 +22,7 @@ permalink: /release-es/análisis_brechas_seguridad/guías/samm/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
+![WIP logo](../../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ### 11.1.1 SAMM análisis
 

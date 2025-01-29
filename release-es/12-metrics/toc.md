@@ -22,7 +22,7 @@ permalink: /release-es/métricas/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
+![WIP logo](../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ## 10. Métricas
 

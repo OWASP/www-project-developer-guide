@@ -22,7 +22,7 @@ permalink: /release-es/verificación/guías/mastg/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
+![WIP logo](../../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ### 6.1.2 MASTG
 

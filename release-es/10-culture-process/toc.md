@@ -22,7 +22,7 @@ permalink: /release-es/desarrollo_cultura_maduración_procesos/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
+![WIP logo](../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ## 8. Desarrollo de cultura y maduración de procesos
 
