@@ -5,8 +5,8 @@ layout: col-document
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide
-order: 4040
-permalink: /release/foundations/crypto_principles/
+order: 404
+permalink: /draft/foundations/crypto_principles/
 
 ---
 
@@ -270,3 +270,5 @@ then [submit an issue][issue0404] or [edit on GitHub][edit0404].
 [tls]: https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Security_Cheat_Sheet
 [uppcs]: https://cheatsheetseries.owasp.org/cheatsheets/User_Privacy_Protection_Cheat_Sheet
 [cstorage]: https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html
+
+\newpage
