@@ -30,7 +30,8 @@ of cryptography by the development team for the application or system.
 
 Although cryptography was initially restricted primarily to the military and the realm of academia,
 cryptography has become ubiquitous in securing software applications.
-Common every day uses of cryptography include mobile phones, passwords, SSL VPNs, smart cards, and DVDs.
+Common every day uses of cryptography include cloud storage, passwords,
+SSL VPNs, smart cards, and end-to-end encrypted messaging apps.
 Cryptography has permeated through everyday life, and is heavily used by many web applications.
 
 Cryptography is one of the more advanced topics of information security,
@@ -40,7 +41,7 @@ each with advantages and disadvantages that need to be thoroughly understood by 
 
 The proper and accurate implementation of cryptography is extremely critical to its efficacy.
 A small mistake in configuration or coding will result in removing most of the protection
-and rending the crypto implementation useless.
+and rendering the crypto implementation useless.
 
 A good understanding of crypto is required to be able to discern between solid products and snake oil.
 The inherent complexity of crypto makes it easy to fall for fantastic claims from vendors about their product.
@@ -50,8 +51,8 @@ If a vendor says "trust us, we have had experts look at this," chances are they 
 #### Confidentiality
 
 For the purposes of this section, confidentiality is defined as "no unauthorized disclosure of information".
-Cryptography addresses this via encryption of either the data at rest or data in transit by
-protecting the information from all who do not hold the decryption key.
+Cryptography addresses this via encryption of either the [data at rest][cstorage] or data
+in transit by protecting the information from all who do not hold the decryption key.
 Cryptographic hashes (secure, one way hashes) to prevent passwords from disclosure.
 
 #### Authentication
@@ -63,7 +64,7 @@ Cryptography is central to authentication:
 1. to protect the provided corroborating evidence (for example hashing of passwords for subsequent storage)
 2. in authentication protocols often use cryptography to either directly authenticate entities
     or to exchange credentials in a secure manner
-3. to verify the identity one or both parties in exchanging messages,
+3. to verify the identity of one or both parties in exchanging messages,
     for example identity verification within [Transport Layer Security][tls] (TLS)
 
 OpenID Connect is widely used as an identity layer on top of the OAuth 2.0 protocol,
@@ -71,7 +72,7 @@ see the [OAuth 2.0 Protocol][csoauth] Cheat Sheet.
 
 #### Integrity
 
-Integrity ensures that even authorized users have performed no accidental or malicious alternation of information.
+Integrity ensures that even authorized users have performed no accidental or malicious alteration of information.
 Cryptography can be used to prevent tampering by means of Message Authentication Codes (MACs) or digital signatures.
 
 The term 'message authenticity' refers to ensuring the integrity of information,
@@ -83,7 +84,7 @@ and, if asymmetric encryption is used, can authenticate the sender.
 
 #### Non-repudiation
 
-Non-repudiation of sender ensures that someone sending a message should not be able to deny later that they have sent it.
+Non-repudiation ensures that a sender cannot later deny having sent a message.
 Non-repudiation of receiver means that the receiver of a message should not be able to deny that they have received it.
 Cryptography can be used to provide non-repudiation by providing unforgeable messages or replies to messages.
 
@@ -142,13 +143,13 @@ Symmetric ciphers come in two main types:
 1. Block ciphers, which operate on a block of characters (typically 8 or 16 octets) at a time.
     An example of a block cipher is AES
 2. Stream ciphers, which operate on a single bit (or occasionally a single byte) at a time.
-    Examples of a stream ciphers are RC4 (aka, ARC4) and Salsa20
+    Examples of stream ciphers are ChaCha20 (often paired with Poly1305) and Salsa20
 
 Note that all block ciphers can also operate in 'streaming mode' by selecting the appropriate cipher mode.
 
 #### Cipher Modes
 
-Block ciphers can function in different modes of operations known as "cipher modes".
+Block ciphers can function in different modes of operation known as "cipher modes".
 This cipher mode algorithmically describes how a cipher operates to repeatedly
 apply its encryption or decryption mechanism to a given cipher block.
 Cipher modes are important because they have an enormous impact on both the confidentiality
@@ -156,6 +157,11 @@ and the message authenticity of the resulting ciphertext messages.
 
 Almost all cryptographic libraries support the four original DES cipher modes of ECB, CBC (Cipher Block Chaining)
 OFB (Output Feedback), and CFB (Cipher Feedback). Many also support CTR (Counter) mode.
+
+Note that the DES modes are insecure and aren't used today.
+Modern standards indicate the use of AEAD (Authenticated Encryption with Associated Data) modes.
+
+These work on both block ciphers and stream ciphers, such as GCM, CCM, OCB and EAX.
 
 #### Initialization vector
 
@@ -248,6 +254,7 @@ These protocols prevent adversaries from learning the key or forcing their own k
   * [SAML Security][sscs]
   * [Secure Product Design][spdcs]
   * [User Privacy Protection][uppcs]
+  * [Cryptographic storage][cstorage]
 
 ----
 
@@ -266,5 +273,6 @@ then [submit an issue][issue0404] or [edit on GitHub][edit0404].
 [spdcs]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet
 [tls]: https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Security_Cheat_Sheet
 [uppcs]: https://cheatsheetseries.owasp.org/cheatsheets/User_Privacy_Protection_Cheat_Sheet
+[cstorage]: https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html
 
 \newpage
