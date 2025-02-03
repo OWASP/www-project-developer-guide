@@ -30,7 +30,8 @@ of cryptography by the development team for the application or system.
 
 Although cryptography was initially restricted primarily to the military and the realm of academia,
 cryptography has become ubiquitous in securing software applications.
-Common every day uses of cryptography include cloud storage, passwords, SSL VPNs, smart cards, and end-to-end encrypted messaging apps.
+Common every day uses of cryptography include cloud storage, passwords, SSL VPNs
+smart card and end-to-end encrypted messaging apps.
 Cryptography has permeated through everyday life, and is heavily used by many web applications.
 
 Cryptography is one of the more advanced topics of information security,
@@ -154,10 +155,13 @@ apply its encryption or decryption mechanism to a given cipher block.
 Cipher modes are important because they have an enormous impact on both the confidentiality
 and the message authenticity of the resulting ciphertext messages.
 
-Almost all cryptographic libraries support the four original DES cipher modes of ECB (Electronic Code Book), CBC (Cipher Block Chaining)
-OFB (Output Feedback), and CFB (Cipher Feedback). Many also support CTR (Counter) mode.
+Almost all cryptographic libraries support the four original DES cipher modes of ECB, CBC (Cipher Block Chaining)
 
-Note that the DES modes are insecure and aren't used today. Modern standards indicate the use of AEAD (Authenticated Encryption with Associated Data) modes that work on both block ciphers and stream ciphers, such as GCM (Galois Counter Mode), CCM (Counter with CBC-MAC), OCB (Offset Codebook Mode) and EAX (Encrypt-Then-Authenticate-and-Translate).
+They support OFB (Output Feedback), and CFB (Cipher Feedback). Many also support CTR (Counter) mode.
+
+Note that the DES modes are insecure and aren't used today. 
+Modern standards indicate the use of AEAD modes.
+These are GCM (Galois Counter Mode) and CCM (Counter with CBC-MAC) to name a few.
 
 #### Initialization vector
 
