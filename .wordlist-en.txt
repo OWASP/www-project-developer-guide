@@ -1,4 +1,5 @@
 AES
+AEAD
 APIT
 APIs
 APK
@@ -21,7 +22,9 @@ BOV
 BetterEm
 Brømsø
 CAPEC
+CCM
 CFB
+ChaCha
 CISO
 CMS
 CMSeeK
@@ -82,6 +85,7 @@ EscapeAll
 Exploitability
 FIPS
 Flaxman
+GCM
 GCP
 GDPR
 GHSL

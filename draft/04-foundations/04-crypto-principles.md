@@ -64,7 +64,7 @@ Cryptography is central to authentication:
 2. in authentication protocols often use cryptography to either directly authenticate entities
     or to exchange credentials in a secure manner
 3. to verify the identity of one or both parties in exchanging messages,
-    for example identity verification within [Transport Layer Security v1.3][tls] (TLS)
+    for example identity verification within [Transport Layer Security v][tls] (TLS)
 
 OpenID Connect is widely used as an identity layer on top of the OAuth 2.0 protocol,
 see the [OAuth 2.0 Protocol][csoauth] Cheat Sheet.
@@ -159,7 +159,7 @@ Almost all cryptographic libraries support the four original DES cipher modes of
 
 They support OFB (Output Feedback), and CFB (Cipher Feedback). Many also support CTR (Counter) mode.
 
-Note that the DES modes are insecure and aren't used today. 
+Note that the DES modes are insecure and aren't used today.
 Modern standards indicate the use of AEAD modes.
 These are GCM (Galois Counter Mode) and CCM (Counter with CBC-MAC) to name a few.
 
@@ -188,7 +188,7 @@ which is only used for the duration of the encrypted communication.
 This random session key is then encrypted using an asymmetric cipher and the recipient's private key.
 The plaintext data itself is encrypted with the session key.
 Then the entire bundle (encrypted session key and encrypted message) is all sent together.
-Both [TLS 1.3][tls] and S/MIME are common cryptosystems using hybrid cryptography today.
+Both [TLS][tls] and S/MIME are common cryptosystems using hybrid cryptography today.
 
 #### Digital signature
 
