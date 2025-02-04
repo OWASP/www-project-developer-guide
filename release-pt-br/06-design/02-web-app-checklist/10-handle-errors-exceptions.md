@@ -22,7 +22,7 @@ permalink: /release-pt-br/design/lista_verificação_web/trate_todos_errors_exce
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
+![WIP logo](../../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
 ### 4.2.10 Trate todos os Errors e Exceções
 

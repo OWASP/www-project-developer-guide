@@ -22,7 +22,7 @@ permalink: /release-es/implementación/documentación/controles_proactivos/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
+![WIP logo](../../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ### 5.1.1 Los Top 10 controles proactivos
 

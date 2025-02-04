@@ -22,7 +22,7 @@ permalink: /release-pt-br/design/lista_verificação_web/proteja_acesso_banco_da
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
+![WIP logo](../../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
 ### 4.2.3 Proteja Acesso ao Banco de Dados
 

@@ -22,7 +22,7 @@ permalink: /release-es/diseño/modelado_amenazas/toolkit/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
+![WIP logo](../../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ### 4.1.6 Kit de herramientas de modelado de amenazas
 

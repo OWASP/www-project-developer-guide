@@ -22,7 +22,7 @@ permalink: /release-es/análisis_brechas_seguridad/guías/mas/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
+![WIP logo](../../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ### 11.1.3 MAS análisis
 

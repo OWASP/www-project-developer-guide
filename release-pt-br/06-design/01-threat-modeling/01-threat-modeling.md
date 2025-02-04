@@ -6,7 +6,7 @@ tags: Guia do Desenvolvedor do OWASP
 contributors:
 document: Guia do Desenvolvedor do OWASP
 order: 26110
-permalink: /release-pt-br/design/modelagem_ameaças/prática
+permalink: /release-pt-br/design/modelagem_ameaças/prática/
 
 ---
 
@@ -22,7 +22,7 @@ permalink: /release-pt-br/design/modelagem_ameaças/prática
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
+![WIP logo](../../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
 ### 4.1.1 Modelagem de ameaças em prática
 

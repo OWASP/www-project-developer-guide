@@ -22,7 +22,7 @@ permalink: /release-pt-br/implementação/bibliotecas_seguras/csrfguard/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
+![WIP logo](../../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
 ### 5.3.2 CSRFGuard
 

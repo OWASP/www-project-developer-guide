@@ -22,7 +22,7 @@ permalink: /release-es/diseño/lista_verificación_web/identidad_digital/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
+![WIP logo](../../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ### 4.2.6 Implementar identidad digital
 

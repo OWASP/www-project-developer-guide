@@ -22,7 +22,7 @@ permalink: /release-es/análisis_brechas_seguridad/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
+![WIP logo](../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ## 11. Análisis de brechas de seguridad
 

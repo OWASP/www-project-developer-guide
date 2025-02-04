@@ -22,7 +22,7 @@ permalink: /release-pt-br/design/lista_verificação_web/imponha_controles_acess
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
+![WIP logo](../../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
 
 ### 4.2.7 Imponha Controles de Acesso
 

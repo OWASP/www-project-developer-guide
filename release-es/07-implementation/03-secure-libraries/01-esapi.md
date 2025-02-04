@@ -22,7 +22,7 @@ permalink: /release-es/implementación/librerías_seguras/esapi/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
+![WIP logo](../../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ### 5.3.1 ESAPI
 

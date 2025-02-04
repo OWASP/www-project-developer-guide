@@ -22,7 +22,7 @@ permalink: /release-es/diseño/lista_verificación_web/controles_acceso/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
+![WIP logo](../../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ### 4.2.7 Hacer respetar los controles de acceso
 

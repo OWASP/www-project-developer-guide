@@ -22,7 +22,7 @@ permalink: /release-es/apéndices/qué_hacer_implementación/codificación_segur
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
+![WIP logo](../../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ### 12.1.2 Codificación segura
 

@@ -22,7 +22,7 @@ permalink: /release-es/implementación/documentación/goscp/
 }
 </style>
 
-![WIP logo](../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
+![WIP logo](../../../../assets/images/dg_wip.png "Trabajo en curso"){: .image-right }
 
 ### 5.1.2 GoSCP (Prácticas de codificación seguras de Go)
 

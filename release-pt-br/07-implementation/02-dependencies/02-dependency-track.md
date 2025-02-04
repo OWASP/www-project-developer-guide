@@ -12,6 +12,18 @@ permalink: /release-pt-br/implementação/dependências/dependency_track/
 
 {% include breadcrumb.html %}
 
+<style type="text/css">
+.image-right {
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
+![WIP logo](../../../../assets/images/dg_wip.png "Trabalho em andamento"){: .image-right }
+
 ### 5.2.2 Dependency-Track
 
 Não há tradução para esta página, consulte a [versão original em inglês][release070202].
