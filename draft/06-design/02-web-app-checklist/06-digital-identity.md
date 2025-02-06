@@ -85,7 +85,7 @@ and use the list below as suggestions for a checklist that has been tailored for
 1. Generate a new session identifier and deactivate the old one periodically
 1. Generate a new session identifier if the connection security changes from HTTP to HTTPS,
     as can occur during authentication
-1. Set the `secure` attribute for cookies transmitted over an [TLS][tls] connection
+1. Set the `secure` attribute for cookies transmitted over an [TLS][cstls] connection
 1. Set cookies with the `HttpOnly` attribute,
     unless you specifically require client-side scripts within your application to read or set a cookie value
 
@@ -110,11 +110,11 @@ then [submit an issue][issue060206] or [edit on GitHub][edit060206].
 [csmfa]: https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet
 [cspass]: https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet
 [csforgot]: https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet
-[cssession]: https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet
 [csquestions]: https://cheatsheetseries.owasp.org/cheatsheets/Choosing_and_Using_Security_Questions_Cheat_Sheet
+[cssession]: https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet
+[cstls]: https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Security_Cheat_Sheet
 [edit060206]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/02-web-app-checklist/06-digital-identity.md
 [issue060206]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/02-web-app-checklist/06-digital-identity
 [proactive10]: https://top10proactive.owasp.org
-[tls]: https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Security_Cheat_Sheet
 
 \newpage
