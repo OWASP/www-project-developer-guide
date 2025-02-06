@@ -3,7 +3,7 @@
 title: Pythonic Threat Modeling
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 66120
 permalink: /release-ja/design/threat_modeling/pytm/

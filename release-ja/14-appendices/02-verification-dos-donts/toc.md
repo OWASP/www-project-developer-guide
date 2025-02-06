@@ -3,7 +3,7 @@
 title: Verification Do's and Don'ts
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 74200
 permalink: /release-ja/appendices/verification_dos_donts/

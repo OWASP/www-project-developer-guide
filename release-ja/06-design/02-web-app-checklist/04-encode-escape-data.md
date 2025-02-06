@@ -3,7 +3,7 @@
 title: Encode and Escape Data Checklist
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden, Andreas Happe
+contributors:
 document: OWASP Developer Guide
 order: 66240
 permalink: /release-ja/design/web_app_checklist/encode_escape_data/

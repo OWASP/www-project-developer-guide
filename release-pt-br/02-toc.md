@@ -3,7 +3,7 @@
 title: Índice
 layout: col-document
 tags: Guia do Desenvolvedor do OWASP
-contributors:
+contributors: Amauri Bizerra
 document: Guia do Desenvolvedor do OWASP
 order:
 permalink:

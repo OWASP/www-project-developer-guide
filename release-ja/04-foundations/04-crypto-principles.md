@@ -3,7 +3,7 @@
 title: Principles of Cryptography
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 64040
 permalink: /release-ja/foundations/crypto_principles/

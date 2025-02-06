@@ -3,7 +3,7 @@
 title: Threat Dragon
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 66130
 permalink: /release-ja/design/threat_modeling/threat_dragon/

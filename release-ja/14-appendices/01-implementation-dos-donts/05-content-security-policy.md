@@ -3,7 +3,7 @@
 title: Content Security Policy
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Shruti Kulkarni
+contributors:
 document: OWASP Developer Guide
 order: 74150
 permalink: /release-ja/appendices/implementation_dos_donts/content_security_policy/

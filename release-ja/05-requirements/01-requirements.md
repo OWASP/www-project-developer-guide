@@ -3,7 +3,7 @@
 title: Requirements in Practice
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden, Andreas Happe
+contributors:
 document: OWASP Developer Guide
 order: 65010
 permalink: /release-ja/requirements/requirements_in_practice/

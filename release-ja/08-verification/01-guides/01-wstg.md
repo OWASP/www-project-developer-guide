@@ -3,7 +3,7 @@
 title:  WSTG
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 68110
 permalink: /release-ja/verification/guides/wstg/

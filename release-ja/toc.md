@@ -3,7 +3,7 @@
 title: 目次
 layout: col-document
 tags: OWASP Developer Guide
-contributors:
+contributors: Yuuki Ebihara
 document: OWASP 開発者ガイド
 order: 62000
 permalink: /release-ja/

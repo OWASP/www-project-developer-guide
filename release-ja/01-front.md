@@ -3,7 +3,7 @@
 title: OWASP 開発者ガイド
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Shruti Kulkarni, Jon Gadsden, Johan Sydseter
+contributors: Yuuki Ebihara
 document: OWASP 開発者ガイド
 order:
 permalink:

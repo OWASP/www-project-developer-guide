@@ -3,7 +3,7 @@
 title: ASVS gap analysis
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 73120
 permalink: /release-ja/security_gap_analysis/guides/asvs_gap_analysis/

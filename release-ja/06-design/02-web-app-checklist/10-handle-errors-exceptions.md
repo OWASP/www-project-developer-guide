@@ -3,7 +3,7 @@
 title: Handle all Errors and Exceptions Checklist
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden, Andreas Happe
+contributors:
 document: OWASP Developer Guide
 order: 66300
 permalink: /release-ja/design/web_app_checklist/handle_errors_and_exceptions/

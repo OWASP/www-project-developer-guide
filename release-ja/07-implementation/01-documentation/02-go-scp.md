@@ -3,7 +3,7 @@
 title: Go Secure Coding Practices
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 67120
 permalink: /release-ja/implementation/documentation/go_scp/

@@ -3,7 +3,7 @@
 title: Principles of Security
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden, Johan Sydseter, Andreas Happe
+contributors:
 document: OWASP Developer Guide
 order: 64030
 permalink: /release-ja/foundations/security_principles/

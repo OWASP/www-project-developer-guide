@@ -3,7 +3,7 @@
 title: OWTF
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 68230
 permalink: /release-ja/verification/tools/owtf/

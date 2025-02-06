@@ -3,7 +3,7 @@
 title: Coraza WAF
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 71020
 permalink: /release-ja/operations/coraza_waf/

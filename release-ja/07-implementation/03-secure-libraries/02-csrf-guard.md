@@ -3,7 +3,7 @@
 title: CSRFGuard
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 67320
 permalink: /release-ja/implementation/secure_libraries/csrfguard/

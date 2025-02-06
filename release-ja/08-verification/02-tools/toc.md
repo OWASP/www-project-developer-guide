@@ -3,7 +3,7 @@
 title: Verification Tools
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 68200
 permalink: /release-ja/verification/tools/

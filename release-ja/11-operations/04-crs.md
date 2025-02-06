@@ -3,7 +3,7 @@
 title: OWASP CRS
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Matteo Pace, Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 71040
 permalink: /release-ja/operations/crs/

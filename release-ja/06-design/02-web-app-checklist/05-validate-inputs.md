@@ -3,7 +3,7 @@
 title: Validate All Inputs Checklist
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden, Andreas Happe
+contributors:
 document: OWASP Developer Guide
 order: 66250
 permalink: /release-ja/design/web_app_checklist/validate_inputs/

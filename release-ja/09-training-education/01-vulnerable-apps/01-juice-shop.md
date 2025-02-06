@@ -3,7 +3,7 @@
 title: Juice Shop
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 69110
 permalink: /release-ja/training_education/vulnerable_applications/juice_shop/

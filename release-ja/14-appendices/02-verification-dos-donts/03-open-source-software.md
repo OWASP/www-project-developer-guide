@@ -3,7 +3,7 @@
 title: Open Source Software
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Shruti Kulkarni
+contributors:
 document: OWASP Developer Guide
 order: 74230
 permalink: /release-ja/appendices/verification_dos_donts/open_source_software/

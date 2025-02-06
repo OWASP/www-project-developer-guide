@@ -3,7 +3,7 @@
 title: SecurityRAT
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 65040
 permalink: /release-ja/requirements/security_rat/

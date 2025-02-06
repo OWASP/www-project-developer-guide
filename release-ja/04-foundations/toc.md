@@ -3,7 +3,7 @@
 title: Foundations
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 64000
 permalink: /release-ja/foundations/
