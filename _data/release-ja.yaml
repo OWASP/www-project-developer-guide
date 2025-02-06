@@ -1,34 +1,34 @@
-docs_list_title: Developer Guide
+docs_list_title: 開発者ガイド
 docs:
 
-- title: '1. Introduction'
+- title: '1. はじめに'
   url: introduction
 
-- title: '2. Foundations'
+- title: '2. 基礎'
   url: foundations
 
-- title: '2.1 Security fundamentals'
+- title: '2.1 セキュリティの基本'
   url: foundations/security_fundamentals
 
-- title: '2.2 Secure development and integration'
+- title: '2.2 セキュアな開発と統合'
   url: foundations/secure_development
 
-- title: '2.3 Principles of security'
+- title: '2.3 セキュリティの原則'
   url: foundations/security_principles
 
-- title: '2.4 Principles of cryptography'
+- title: '2.4 暗号化の原則'
   url: foundations/crypto_principles
 
 - title: '2.5 OWASP Top 10'
   url: foundations/owasp_top_ten
 
-- title: '3. Requirements'
+- title: '3. 要件'
   url: requirements
 
-- title: '3.1 Requirements in practice'
+- title: '3.1 実践における要件'
   url: requirements/requirements_in_practice
 
-- title: '3.2 Risk profile'
+- title: '3.2 リスクプロファイル'
   url: requirements/risk_profile
 
 - title: '3.3 OpenCRE'
@@ -37,22 +37,22 @@ docs:
 - title: '3.4 SecurityRAT'
   url: requirements/security_rat
 
-- title: '3.5 ASVS requirements'
+- title: '3.5 ASVS の要件'
   url: requirements/asvs
 
-- title: '3.6 MAS requirements'
+- title: '3.6 MAS の要件'
   url: requirements/mas
 
-- title: '3.7 SKF requirements'
+- title: '3.7 SKF の要件'
   url: requirements/skf
 
-- title: '4. Design'
+- title: '4. 設計'
   url: design
 
-- title: '4.1 Threat modeling'
+- title: '4.1 脅威モデリング'
   url: design/threat_modeling
 
-- title: '4.1.1 Threat modeling in practice'
+- title: '4.1.1 脅威モデリングの実践'
   url: design/threat_modeling/practical_threat_modeling
 
 - title: '4.1.2 pytm'
@@ -70,46 +70,46 @@ docs:
 - title: '4.1.6 Threat Modeling toolkit'
   url: design/threat_modeling/toolkit
 
-- title: '4.2 Web application checklist'
+- title: '4.2 Web アプリケーションチェックリスト'
   url: design/web_app_checklist
 
-- title: '4.2.1 Checklist: Define Security Requirements'
+- title: '4.2.1 チェックリスト: セキュリティ要件を定義する'
   url: design/web_app_checklist/define_security_requirements
 
-- title: '4.2.2 Checklist: Leverage Security Frameworks and Libraries'
+- title: '4.2.2 チェックリスト: セキュリティフレームワークおよびライブラリを活用する'
   url: design/web_app_checklist/frameworks_libraries
 
-- title: '4.2.3 Checklist: Secure Database Access'
+- title: '4.2.3 チェックリスト: 安全なデータベースへのアクセス'
   url: design/web_app_checklist/secure_database_access
 
-- title: '4.2.4 Checklist: Encode and Escape Data'
+- title: '4.2.4 チェックリスト: データのエンコードおよびエスケープ処理'
   url: design/web_app_checklist/encode_escape_data
 
-- title: '4.2.5 Checklist: Validate All Inputs'
+- title: '4.2.5 チェックリスト: すべての入力を検証する'
   url: design/web_app_checklist/validate_inputs
 
-- title: '4.2.6 Checklist: Implement Digital Identity'
+- title: '4.2.6 チェックリスト: デジタルアイデンティティを実装する'
   url: design/web_app_checklist/digital_identity
 
-- title: '4.2.7 Checklist: Enforce Access Controls'
+- title: '4.2.7 チェックリスト: アクセス制御を強制する'
   url: design/web_app_checklist/access_controls
 
-- title: '4.2.8 Checklist: Protect Data Everywhere'
+- title: '4.2.8 チェックリスト: どこでもデータを保護'
   url: design/web_app_checklist/protect_data
 
-- title: '4.2.9 Checklist: Implement Security Logging and Monitoring'
+- title: '4.2.9 チェックリスト: セキュリティログの記録と監視を実施する'
   url: design/web_app_checklist/security_logging_and_monitoring
 
-- title: '4.2.10 Checklist: Handle all Errors and Exceptions'
+- title: '4.2.10 チェックリスト: すべてのエラーおよび例外を処理する'
   url: design/web_app_checklist/handle_errors_and_exceptions
 
-- title: '4.3 MAS checklist'
+- title: '4.3 MAS チェックリスト'
   url: design/mas_checklist
 
-- title: '5. Implementation'
+- title: '5. 実装'
   url: implementation
 
-- title: '5.1 Documentation'
+- title: '5.1 ドキュメンテーション'
   url: implementation/documentation
 
 - title: '5.1.1 Top 10 Proactive Controls'
@@ -121,7 +121,7 @@ docs:
 - title: '5.1.3 Cheatsheet Series'
   url: implementation/documentation/cheatsheets
 
-- title: '5.2 Dependencies'
+- title: '5.2 依存関係'
   url: implementation/dependencies
 
 - title: '5.2.1 Dependency-Check'
@@ -133,7 +133,7 @@ docs:
 - title: '5.2.3 CycloneDX'
   url: implementation/dependencies/cyclonedx
 
-- title: '5.3 Secure Libraries'
+- title: '5.3 安全なライブラリ'
   url: implementation/secure_libraries
 
 - title: '5.3.1 ESAPI'
@@ -148,10 +148,10 @@ docs:
 - title: '5.4 MASWE'
   url: implementation/maswe
 
-- title: '6. Verification'
+- title: '6. 検証'
   url: verification
 
-- title: '6.1 Guides'
+- title: '6.1 ガイド'
   url: verification/guides
 
 - title: '6.1.1 WSTG'
@@ -163,10 +163,10 @@ docs:
 - title: '6.1.3 ASVS'
   url: verification/guides/asvs
 
-- title: '6.2 Tools'
+- title: '6.2 ツールによる検証'
   url: verification/tools
 
-- title: '6.2.1 DAST tools'
+- title: '6.2.1 DAST ツール'
   url: verification/tools/dast
 
 - title: '6.2.2 Amass'
@@ -178,25 +178,25 @@ docs:
 - title: '6.2.4 Nettacker'
   url: verification/tools/nettacker
 
-- title: '6.2.5 OSHP verification'
+- title: '6.2.5 OSHP による検証'
   url: verification/tools/oshp_verification
 
-- title: '6.3 Frameworks'
+- title: '6.3 フレームワークによる検証'
   url: verification/frameworks
 
 - title: '6.3.1 secureCodeBox'
   url: verification/frameworks/secure_codebox
 
-- title: '6.4 Vulnerability management'
+- title: '6.4 脆弱性管理による検証'
   url: verification/vulnerability_management
 
 - title: '6.4.1 DefectDojo'
   url: verification/vulnerability_management/defectdojo
 
-- title: '7. Training and Education'
+- title: '7. セキュリティの研修と教育'
   url: training_education
 
-- title: '7.1 Vulnerable Applications'
+- title: '7.1 脆弱性のあるアプリケーション'
   url: training_education/vulnerable_applications
 
 - title: '7.1.1 Juice Shop'
@@ -214,13 +214,13 @@ docs:
 - title: '7.2 Secure Coding Dojo'
   url: training_education/secure_coding_dojo
 
-- title: '7.3 SKF education'
+- title: '7.3 SKF を使用した教育'
   url: training_education/skf_education
 
 - title: '7.4 SamuraiWTF'
   url: training_education/samuraiwtf
 
-- title: '7.5 OWASP Top 10 project'
+- title: '7.5 OWASP Top 10 プロジェクト'
   url: training_education/owasp_top_ten
 
 - title: '7.6 Mobile Top 10'
@@ -235,34 +235,34 @@ docs:
 - title: '7.9 OWASP Snakes and Ladders'
   url: training_education/snakes_and_ladders
 
-- title: '8. Culture building and Process maturing'
+- title: '8. セキュリティ文化の構築とセキュリティプロセスの確立'
   url: culture_building_and_process_maturing
 
-- title: '8.1 Security Culture'
+- title: '8.1 セキュリティ文化'
   url: culture_building_and_process_maturing/security_culture
 
-- title: '8.2 Security Champions'
+- title: '8.2 セキュリティチャンピオン'
   url: culture_building_and_process_maturing/security_champions
 
-- title: '8.2.1 Security champions program'
+- title: '8.2.1 セキュリティチャンピオンプログラム'
   url: culture_building_and_process_maturing/security_champions/program
 
-- title: '8.2.2 Security Champions Guide'
+- title: '8.2.2 セキュリティチャンピオンガイド'
   url: culture_building_and_process_maturing/security_champions/guide
 
-- title: '8.2.3 Security Champions Playbook'
+- title: '8.2.3 セキュリティチャンピオンプレイブック'
   url: culture_building_and_process_maturing/security_champions/playbook
 
 - title: '8.3 SAMM'
   url: culture_building_and_process_maturing/samm
 
-- title: '8.4 ASVS process'
+- title: '8.4 ASVS のプロセス'
   url: culture_building_and_process_maturing/asvs
 
-- title: '8.5 MAS process'
+- title: '8.5 MAS のプロセス'
   url: culture_building_and_process_maturing/mas
 
-- title: '9. Operations'
+- title: '9. セキュリティ運用'
   url: operation
 
 - title: '9.1 DevSecOps Guideline'
@@ -277,65 +277,65 @@ docs:
 - title: '9.4 OWASP CRS'
   url: operations/crs
 
-- title: '10. Metrics'
+- title: '10. メトリクス'
   url: metrics
 
-- title: '11. Security gap analysis'
+- title: '11. セキュリティギャップ分析'
   url: security_gap_analysis
 
-- title: '11.1 Guides'
+- title: '11.1 ガイド'
   url: security_gap_analysis/guides
 
-- title: '11.1.1 SAMM gap analysis'
+- title: '11.1.1 SAMM におけるギャップ分析'
   url: security_gap_analysis/guides/samm
 
-- title: '11.1.2 ASVS gap analysis'
+- title: '11.1.2 ASVS におけるギャップ分析'
   url: security_gap_analysis/guides/asvs
 
-- title: '11.1.3 MAS gap analysis'
+- title: '11.1.3 MAS におけるギャップ分析'
   url: security_gap_analysis/guides/mas
 
 - title: '11.2 BLT'
   url: security_gap_analysis/blt
 
-- title: '12. Appendices'
+- title: '12. 付録'
   url: appendices
 
-- title: '12.1 Implementation Do''s and Don''ts'
+- title: '12.1 実装における「すべきこと」と「すべきでないこと」'
   url: appendices/implementation_dos_donts
 
-- title: '12.1.1 Container security'
+- title: '12.1.1 コンテナセキュリティ'
   url: appendices/implementation_dos_donts/container_security
 
-- title: '12.1.2 Secure coding'
+- title: '12.1.2 セキュアコーディング'
   url: appendices/implementation_dos_donts/secure_coding
 
-- title: '12.1.3 Cryptographic practices'
+- title: '12.1.3 暗号化のプラクティス'
   url: appendices/implementation_dos_donts/cryptographic_practices
 
-- title: '12.1.4 Application spoofing'
+- title: '12.1.4 アプリケーションスプーフィング'
   url: appendices/implementation_dos_donts/application_spoofing
 
-- title: '12.1.5 Content Security Policy (CSP)'
+- title: '12.1.5 コンテンツセキュリティポリシー (CSP)'
   url: appendices/implementation_dos_donts/content_security_policy
 
-- title: '12.1.6 Exception and error handling'
+- title: '12.1.6 例外とエラーハンドリング'
   url: appendices/implementation_dos_donts/exception_error_handling
 
-- title: '12.1.7 File management'
+- title: '12.1.7 ファイル管理'
   url: appendices/implementation_dos_donts/file_management
 
-- title: '12.1.8 Memory management'
+- title: '12.1.8 メモリ管理'
   url: appendices/implementation_dos_donts/memory_management
 
-- title: '12.2 Verification Do''s and Don''ts'
+- title: '12.2 検証における「すべきこと」と「すべきでないこと」'
   url: appendices/verification_dos_donts
 
-- title: '12.2.1 Secure environment'
+- title: '12.2.1 セキュアな環境'
   url: appendices/verification_dos_donts/secure_environment
 
-- title: '12.2.2 System hardening'
+- title: '12.2.2 システムの堅牢化'
   url: appendices/verification_dos_donts/system_hardening
 
-- title: '12.2.3 Open Source software'
+- title: '12.2.3 オープンソースソフトウェア'
   url: appendices/verification_dos_donts/open_source_software

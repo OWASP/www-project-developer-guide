@@ -1,10 +1,10 @@
 ---
 
-title: Front Page
+title: OWASP 開発者ガイド
 layout: col-document
 tags: OWASP Developer Guide
 contributors: Shruti Kulkarni, Jon Gadsden, Johan Sydseter
-document: OWASP Developer Guide
+document: OWASP 開発者ガイド
 order:
 permalink:
 
@@ -14,8 +14,8 @@ permalink:
 
 ## ![Developer Guide](../assets/images/dg_logo.png)
 
-### OWASP Developer Guide
+### OWASP 開発者ガイド
 
-#### A Guide to Building Secure Web Applications and Web Services
+#### 安全な Web アプリケーションと Web サービスの構築ガイド
 
-### Release version 4.1.7
+### リリースバージョン 4.1.7
