@@ -32,6 +32,7 @@ Although cryptography was initially restricted primarily to the military and the
 cryptography has become ubiquitous in securing software applications.
 Common every day uses of cryptography include cloud storage, passwords,
 SSL VPNs, smart cards, and end-to-end encrypted messaging apps.
+
 Cryptography has permeated through everyday life, and is heavily used by many web applications.
 
 Cryptography is one of the more advanced topics of information security,
@@ -86,6 +87,7 @@ and, if asymmetric encryption is used, can authenticate the sender.
 
 Non-repudiation ensures that a sender cannot later deny having sent a message.
 Non-repudiation of receiver means that the receiver of a message should not be able to deny that they have received it.
+
 Cryptography can be used to provide non-repudiation by providing unforgeable messages or replies to messages.
 
 Non-repudiation is useful for financial, e-commerce, and contractual exchanges.
@@ -156,7 +158,12 @@ Cipher modes are important because they have an enormous impact on both the conf
 and the message authenticity of the resulting ciphertext messages.
 
 Almost all cryptographic libraries support the four original DES cipher modes of ECB, CBC (Cipher Block Chaining)
-OFB (Output Feedback), and CFB (Cipher Feedback). Many also support CTR (Counter) mode.
+
+They support OFB (Output Feedback), and CFB (Cipher Feedback). Many also support CTR (Counter) mode.
+
+Note that the DES modes are insecure and aren't used today.
+Modern standards indicate the use of AEAD modes.
+These are GCM (Galois Counter Mode) and CCM (Counter with CBC-MAC) to name a few.
 
 Note that the DES modes are insecure and aren't used today.
 Modern standards indicate the use of AEAD (Authenticated Encryption with Associated Data) modes.
@@ -188,6 +195,7 @@ which is only used for the duration of the encrypted communication.
 This random session key is then encrypted using an asymmetric cipher and the recipient's private key.
 The plaintext data itself is encrypted with the session key.
 Then the entire bundle (encrypted session key and encrypted message) is all sent together.
+
 Both [TLS][cstls] and S/MIME are common cryptosystems using hybrid cryptography.
 
 #### Digital signature

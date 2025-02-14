@@ -3,7 +3,7 @@
 title: Verification Frameworks
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 68300
 permalink: /release-ja/verification/frameworks/

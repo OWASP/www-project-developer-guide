@@ -3,7 +3,7 @@
 title: Cornucopia
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 66140
 permalink: /release-ja/design/threat_modeling/cornucopia/

@@ -3,7 +3,7 @@
 title: SKF education
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 69210
 permalink: /release-ja/training_education/skf_education/

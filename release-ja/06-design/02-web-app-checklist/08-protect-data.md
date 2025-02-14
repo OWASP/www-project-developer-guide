@@ -3,7 +3,7 @@
 title: Protect Data Everywhere Checklist
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden, Andreas Happe
+contributors:
 document: OWASP Developer Guide
 order: 66280
 permalink: /release-ja/design/web_app_checklist/protect_data/

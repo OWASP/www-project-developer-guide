@@ -3,7 +3,7 @@
 title: Secure Development and Integration
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 64020
 permalink: /release-ja/foundations/secure_development/

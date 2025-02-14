@@ -3,7 +3,7 @@
 title: Amass
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 68220
 permalink: /release-ja/verification/tools/amass/

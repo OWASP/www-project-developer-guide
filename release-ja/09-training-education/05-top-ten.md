@@ -3,7 +3,7 @@
 title: OWASP Top 10
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 69230
 permalink: /release-ja/training_education/owasp_top_ten/

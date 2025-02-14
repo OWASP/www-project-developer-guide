@@ -3,7 +3,7 @@
 title: Secure Database Access Checklist
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden, Andreas Happe
+contributors:
 document: OWASP Developer Guide
 order: 66230
 permalink: /release-ja/design/web_app_checklist/secure_database_access/

@@ -3,7 +3,7 @@
 title: Security Gap Analysis
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 73000
 permalink: /release-ja/security_gap_analysis/

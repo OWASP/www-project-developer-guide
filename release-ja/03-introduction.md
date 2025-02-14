@@ -3,7 +3,7 @@
 title: Introduction
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 63000
 permalink: /release-ja/introduction/

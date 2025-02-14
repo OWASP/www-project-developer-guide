@@ -3,7 +3,7 @@
 title: OWASP Secure Headers Project
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 67330
 permalink: /release-ja/implementation/secure_libraries/oshp/

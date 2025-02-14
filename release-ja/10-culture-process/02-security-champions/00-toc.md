@@ -3,7 +3,7 @@
 title: Security Champions
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order:
 

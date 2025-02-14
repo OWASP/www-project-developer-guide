@@ -3,7 +3,7 @@
 title: Appendices
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 74000
 permalink: /release-ja/appendices/

@@ -3,7 +3,7 @@
 title: MAS
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 70500
 permalink: /release-ja/culture_building_and_process_maturing/mas/

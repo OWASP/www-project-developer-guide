@@ -3,7 +3,7 @@
 title: MASTG
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 68120
 permalink: /release-ja/verification/guides/mastg/

@@ -3,7 +3,7 @@
 title: LINDDUN GO
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 66150
 permalink: /release-ja/design/threat_modeling/linddun_go/

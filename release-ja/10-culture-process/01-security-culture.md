@@ -3,7 +3,7 @@
 title: Security Culture
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 70010
 permalink: /release-ja/culture_building_and_process_maturing/security_culture/

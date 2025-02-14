@@ -100,7 +100,7 @@ To run these checks locally before pushing a commit, run these commands from the
 
 1. Link checker: `lychee --max-retries 5 --exclude-path './_includes/*.html' './**/*.md'`
 2. Markdown linter: `markdownlint-cli2  **/*.md`
-3. Spell checker: `pyspelling --config .spellcheck.yaml`
+3. Spell checker: `pyspelling --config .spellcheck-en.yaml` (for english)
 4. commands to set up the environment for PDF and ePub export
 
 ```text

@@ -3,7 +3,7 @@
 title: Threat Modeling in Practice
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Adam Shostack, Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 66110
 permalink: /release-ja/design/threat_modeling/practical_threat_modeling/

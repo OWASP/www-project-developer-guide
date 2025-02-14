@@ -3,7 +3,7 @@
 title: WebGoat and WebWolf
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 69120
 permalink: /release-ja/training_education/vulnerable_applications/webgoat/

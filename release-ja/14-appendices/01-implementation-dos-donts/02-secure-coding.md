@@ -3,7 +3,7 @@
 title: Secure Coding
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Shruti Kulkarni
+contributors:
 document: OWASP Developer Guide
 order: 74120
 permalink: /release-ja/appendices/implementation_dos_donts/secure_coding/

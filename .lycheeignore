@@ -28,5 +28,5 @@ www-project-developer-guide/assets/images/
 # Google drive tends to need permissions that the link checker does not have
 https://drive.google.com/
 
-# SKF site is having certificate issues
-https://secureby.design
+# SAMM training site blocks automated access
+https://owaspsamm.thinkific.com/courses/samm

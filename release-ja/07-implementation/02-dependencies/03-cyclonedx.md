@@ -3,7 +3,7 @@
 title: CycloneDX
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 67230
 permalink: /release-ja/implementation/dependencies/cyclonedx/

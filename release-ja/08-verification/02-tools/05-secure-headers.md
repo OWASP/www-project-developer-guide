@@ -3,7 +3,7 @@
 title: OSHP
 layout: col-document
 tags: OWASP Developer Guide
-contributors: Jon Gadsden
+contributors:
 document: OWASP Developer Guide
 order: 68250
 permalink: /release-ja/verification/tools/oshp/
