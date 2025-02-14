@@ -21,63 +21,43 @@ Organization and Culture activities within the Governance business function of t
 
 #### Overview
 
-It can be hard to introduce a security mindset across development teams using the application security team alone;
-security engineers do not scale well across teams of developers - there is simply not enough of them.
-A good way to scale security and distribute security across development teams is by creating a security champion role
-and providing a Security Champions program to encourage a community spirit within the organization.
-This will help foster a positive security culture within the organization,
-see the [Security Culture project][culturechamps] on how this can be done with security champions.
+The problem with development and security teams is their imbalance in numbers. There are usually less members in
+the application security teams and thus a good way to scale and distribute security across the developement
+teams is through a security champion role. The [Security Culture project][culturechamps] describes how this
+can be implemented.
 
-Security champions are usually individuals within each development team that show special interest in application security.
-The security champion provides a knowledgeable point of contact between the application security team and development,
-and in addition they can ensure that the development lifecycle has security built in.
-Often the security champion carries on with their original role within the development team, in addition to their new role,
-and so a Security Champions program is important for providing support and training and avoiding burn-out.
+### Security champion role
 
-#### Security champion role
+The Security Champion is an individual of each developement team who shows special interest in application security.
+They have knowledge and experience in both the aspects and hence can ensure that the development lifecycle has 
+security built into it.
 
-Security champions are active members of a development team that act as the "voice" of security within their team.
-Security champions also provide visibility of their team's security activities to the application security team,
-and are seen as the first point of contact between developers and a central security team.
+The general role for a security champion is to oversee threats and ensure secure coding practises are being
+followed by their dev teams.
 
-There is no universally defined role for a security champion, but the [Security Culture project][culturechamps]
-provides various suggestions:
+The [Security Culture project][culturechamps] provides a few more suggestions for what the role of a security champion
+should look like. A few of these points are:
 
-* Evangelize security: promoting security best practice in their team,
-    imparting security knowledge and helping to uplift security awareness in their team
-* Contribute to security standards: provide input into organizational security standards and procedures
-* Help run activities: promote activities such as Capture the Flag events or secure coding training
-* Oversee threat modeling: threat modeling consists of a security review on a product in the design phase
-* Oversee secure code reviews: raise issues of risk in the code base that arise from peer group code reviews
-* Use security testing tools: provide support to their team for the use of security testing tools
-
-The security champion role requires a passion and interest in application security,
-and so arbitrarily assigning this role is unlikely to work in practice.
-A better strategy is to provide a security champions program, so that developers who are interested can come forward;
-in effect they should self-select.
+* Evangelize security: They **voice** for the best security practises in their team
+* Contribute to standards: Provide inputs for the organization's security standards
+* Engagement with security: Promote competitions such as Capture the Flag to instill
+    security aspects into their teams (devs only learn when they break the apps they make)
 
 #### Security champions program
 
-It can be tough being a security champion: usually they are still expected to do their 'day job' but in addition
-they are expected to be knowledgeable on security matters and to take extra training.
-Relying on good will and cheerful interest will only go so far, and a Security Champions program should be put in place
-to identify, nurture, support and train the security champions.
+The Security Champions program itself is to ensure that the right individuals are selected for the role and to
+help them by providing support and training while also ensuring that they do not suffer from burn outs.
+It is therefore important to select passionate individuals for this role.
 
-The OWASP [Security Champions Guide][scguide] identifies ten key principles for a successful Security Champions program:
+For a successful program there are a few things an organisation needs to keep in mind:
 
-* Be passionate about security - identify the members of the teams that show interest in security
-* Start with a clear vision for your program - be practical but ambitious, after if it works then it will work well
-* Secure management support - as always, going it alone without management support is never going to work
-* Nominate a dedicated captain - the program will take organization and maintaining, so find someone willing to do that
+* Passion towards security - identify the members of the teams that show interest in security
 * Trust your champions - they are usually highly motivated when it comes to the security of their own applications
-* Create a community - it can be lonely, so provide a support network
-* Promote knowledge sharing - if the community is in place, then encourage discussions and meet-ups
-* Reward responsibility - they are putting extra work, so appreciate them
-* Invest in your champions - the knowledge gained through extra training will pay for itself many times over
-* Anticipate personnel changes - the security champion may move on, be alert to this and plan for it
+* Create a community - it can be lonely, so provide a support network to these individuals
+* Have a clear vision - be pragmatic but ambitious, make it work, then make it work well
 
-A successful security champions program will increase the security of the applications / systems, allay developer's fears,
-increase the effectiveness of the application security team and improve the security posture of the organization as a whole.
+The OWASP [Security Champions Guide][scguide] identifies more principles that are important in this aspect
+and will be a good read for an organisation that plans to go through this with this undertaking.
 
 #### References
 
