@@ -48,8 +48,7 @@ A few of these points are:
 * Evangelize security: They **voice** for the best security practices in their team
 * Contribute to standards: Provide inputs for the organization's security standards
 * Engagement with security: Promote competitions such as Capture the Flag to instill
-    security aspects into their teams
-    (developers only learn when they break the apps they make)
+    security aspects into their teams.
 
 #### Security champions program
 
