@@ -82,7 +82,7 @@ ways of subverting their system.
 To provide some structure it is useful to start with Shostack's [Four Question Framework][4QFW]
 as described briefly below:
 
-**1 What to work on**?
+**1 What are we working on?'**?
 
 The first step is to understand the application through architecture diagrams,
 data flows, and classifications. This step is enhanced when people from different roles
@@ -125,7 +125,7 @@ wants to carry it out. However, a good set of procedures are defined in the
 * Use standard terminology throughout the document
 * Categorize the threat with respect to probability of occurrence
     and impact.
-* Have an [incident response][IR] idea in mind for each threat.
+* Have a remediation planned for each threat.
 
 #### Final advice
 
@@ -201,7 +201,6 @@ then [submit an issue][issue060101] or [edit on GitHub][edit060101].
 [culturetm]: https://owasp.org/www-project-security-culture/stable/6-Threat_Modelling/
 [eop]: https://shostack.org/games/elevation-of-privilege
 [edit060101]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/01-threat-modeling/01-threat-modeling.md
-[IR]: https://www.ibm.com/think/topics/incident-response
 [issue060101]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/01-threat-modeling/01-threat-modeling
 [linddun]: https://linddun.org/
 [nist-cvss]: https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator
