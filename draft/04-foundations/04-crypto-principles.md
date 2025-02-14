@@ -30,8 +30,9 @@ of cryptography by the development team for the application or system.
 
 Although cryptography was initially restricted primarily to the military and the realm of academia,
 cryptography has become ubiquitous in securing software applications.
-Common every day uses of cryptography include cloud storage, passwords, SSL VPNs
-smart card and end-to-end encrypted messaging apps.
+Common every day uses of cryptography include cloud storage, passwords,
+SSL VPNs, smart cards, and end-to-end encrypted messaging apps.
+
 Cryptography has permeated through everyday life, and is heavily used by many web applications.
 
 Cryptography is one of the more advanced topics of information security,
@@ -51,8 +52,9 @@ If a vendor says "trust us, we have had experts look at this," chances are they 
 #### Confidentiality
 
 For the purposes of this section, confidentiality is defined as "no unauthorized disclosure of information".
-Cryptography addresses this via encryption of either the [data at rest][cstorage] or data in transit by
-protecting the information from all who do not hold the decryption key.
+Cryptography addresses this via encryption of either the [data at rest][cstorage] or data
+in transit by protecting the information from all who do not hold the decryption key.
+Cryptographic hashes (secure, one way hashes) to prevent passwords from disclosure.
 
 #### Authentication
 
@@ -64,7 +66,7 @@ Cryptography is central to authentication:
 2. in authentication protocols often use cryptography to either directly authenticate entities
     or to exchange credentials in a secure manner
 3. to verify the identity of one or both parties in exchanging messages,
-    for example identity verification within [Transport Layer Security v][tls] (TLS)
+    for example identity verification within [Transport Layer Security][cstls] (TLS)
 
 OpenID Connect is widely used as an identity layer on top of the OAuth 2.0 protocol,
 see the [OAuth 2.0 Protocol][csoauth] Cheat Sheet.
@@ -163,6 +165,11 @@ Note that the DES modes are insecure and aren't used today.
 Modern standards indicate the use of AEAD modes.
 These are GCM (Galois Counter Mode) and CCM (Counter with CBC-MAC) to name a few.
 
+Note that the DES modes are insecure and aren't used today.
+Modern standards indicate the use of AEAD (Authenticated Encryption with Associated Data) modes.
+
+These work on both block ciphers and stream ciphers, such as GCM, CCM, OCB and EAX.
+
 #### Initialization vector
 
 A cryptographic initialization vector (IV) is a fixed size input to a block cipher's encryption / decryption primitive.
@@ -188,7 +195,8 @@ which is only used for the duration of the encrypted communication.
 This random session key is then encrypted using an asymmetric cipher and the recipient's private key.
 The plaintext data itself is encrypted with the session key.
 Then the entire bundle (encrypted session key and encrypted message) is all sent together.
-Both [TLS][tls] and S/MIME are common cryptosystems using hybrid cryptography today.
+
+Both [TLS][cstls] and S/MIME are common cryptosystems using hybrid cryptography.
 
 #### Digital signature
 
@@ -266,12 +274,12 @@ then [submit an issue][issue0404] or [edit on GitHub][edit0404].
 [csoauth]: https://cheatsheetseries.owasp.org/cheatsheets/OAuth2_Cheat_Sheet
 [csproject]: https://owasp.org/www-project-cheat-sheets/
 [cscs]: https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet
+[cstls]: https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Security_Cheat_Sheet
 [issue0404]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2004-foundations/04-crypto-principles
 [kmcs]: https://cheatsheetseries.owasp.org/cheatsheets/Key_Management_Cheat_Sheet
 [edit0404]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/04-foundations/04-crypto-principles.md
 [sscs]: https://cheatsheetseries.owasp.org/cheatsheets/SAML_Security_Cheat_Sheet
 [spdcs]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet
-[tls]: https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Security_Cheat_Sheet
 [uppcs]: https://cheatsheetseries.owasp.org/cheatsheets/User_Privacy_Protection_Cheat_Sheet
 [cstorage]: https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html
 

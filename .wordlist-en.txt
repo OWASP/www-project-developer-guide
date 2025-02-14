@@ -76,6 +76,7 @@ Dont's
 DotNet
 DrHEADer
 Dracon
+EAX
 ECB
 ENISA
 ESAPI
@@ -176,6 +177,7 @@ NodeJS
 NuGets
 OAuth
 OBOM
+OCB
 ODF
 OFB
 OOXML

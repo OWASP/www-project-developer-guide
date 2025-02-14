@@ -1,4 +1,5 @@
 AAA
+AEAD
 AES
 API
 ARC
@@ -13,8 +14,10 @@ BLT
 BOM
 Bill
 CBC
+CCM
 CD
 CFB
+ChaCha
 CI
 CIA
 CRS
@@ -52,6 +55,7 @@ DoS
 Dojo
 Dragon
 Dynamic
+EAX
 ECB
 ESAPI
 Elie
@@ -59,6 +63,7 @@ Encriptación
 Estandard
 Framework
 Frameworks
+GCM
 GO
 Gasteratos
 Gestionabilidad
@@ -242,6 +247,7 @@ monitoreo
 navigation
 nettacker
 newpage
+OCB
 of
 opencre
 order
