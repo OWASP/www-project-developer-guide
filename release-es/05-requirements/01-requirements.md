@@ -2,7 +2,7 @@
 
 title: Requisitos en la Práctica
 layout: col-document
-tags: Guía de Desarrollador OWASP
+tags: Guía del Desarrollador OWASP
 contributors: Jon Gadsden, Andreas Happe, Roxana Calderon
 document: Guía del Desarrollador OWASP
 order: 45010

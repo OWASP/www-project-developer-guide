@@ -2,7 +2,7 @@
 
 title: Requisitos
 layout: col-document
-tags: Guía de Desarrollador OWASP
+tags: Guía del Desarrollador OWASP
 contributors: Roxana Calderon, Jon Gadsden, Andreas Happe
 document: Guía del Desarrollador OWASP
 order:
