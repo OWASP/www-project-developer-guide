@@ -98,10 +98,12 @@ _La guía es un recurso valioso para desarrolladores que quieren crear aplicacio
 * [Comprendiendo la Cadena Completa de Seguridad de Aplicaciones Usando OpenCRE org][opencretalk]
 
 ----
+Traducción de versión [original en inglés][release0503].
 
 La Guía de Desarrollador OWASP es un esfuerzo comunitario; si hay algo que necesite cambios
 entonces [cree un issue][issue0503] o [edítelo en GitHub][edit0503].
 
+[release0503]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/05-requirements/03-opencre.md
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [capecocre]: https://opencre.org/search/CAPEC
 [csocre]: https://opencre.org/search/OWASP%20Cheat%20Sheets

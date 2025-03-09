@@ -108,10 +108,12 @@ por lo que este puede ser un desarrollo futuro de SecurityRAT.
 * [Estándar de Verificación de Seguridad de Aplicaciones][asvs] (ASVS) de OWASP
 
 ----
+Traducción de versión [original en inglés][release0504].
 
 La Guía de Desarrollador OWASP es un esfuerzo comunitario; si hay algo que necesite cambios
 entonces [cree un issue][issue0504] o [edítelo en GitHub][edit0504].
 
+[release0504]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/05-requirements/04-security-rat.md
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [edit0504]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/05-requirements/04-security-rat.md
 [issue0504]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2005-requirements/04-security-rat

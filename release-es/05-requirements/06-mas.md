@@ -78,10 +78,12 @@ que pueden utilizarse como guía para decidir si la categoría debe incluirse en
 * Hojas de Referencia de [Seguridad de Aplicaciones Móviles][csmas] de OWASP 
 
 ----
+Traducción de versión [original en inglés][release0506].
 
 La Guía del Desarrollador de OWASP es un esfuerzo comunitario; si hay algo que necesita cambiar
 entonces [cree un issue][issue0506] o [edítelo en GitHub][edit0506].
 
+[release0506]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/05-requirements/06-mas.md
 [csmas]: https://cheatsheetseries.owasp.org/cheatsheets/Mobile_Application_Security_Cheat_Sheet
 [csmasvs]: https://cheatsheetseries.owasp.org/IndexMASVS
 [edit0506]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/05-requirements/06-mas.md

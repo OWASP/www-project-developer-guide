@@ -108,10 +108,12 @@ ambos pueden tener un impacto directo en la aplicación.
   * [Seguridad de Aplicaciones Móviles][mas]
 
 ----
+Traducción de versión [original en inglés][release0501].
 
 La Guía del Desarrollador OWASP es un esfuerzo comunitario; si hay algo que necesite cambios
 entonces [cree un issue][issue0501] o [edítelo en GitHub][edit0501].
 
+[release0501]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/05-requirements/01-requirements.md
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [csabuse]: https://cheatsheetseries.owasp.org/cheatsheets/Abuse_Case_Cheat_Sheet
 [issue0501]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-requirements/01-requirements

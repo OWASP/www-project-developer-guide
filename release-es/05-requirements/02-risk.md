@@ -96,9 +96,11 @@ Ejemplos:
 
 ----
 
+Traducción de versión [original en inglés][release0502].
 La Guía de Desarrollador OWASP es un esfuerzo comunitario; si hay algo que necesite cambios
 entonces [cree un issue][issue0502] o [edítelo en GitHub][edit0502].
 
+[release0502]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/05-requirements/02-risk.md
 [cvss]: https://www.first.org/cvss/
 [issue0502]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-requirements/02-risk
 [nist]: https://csrc.nist.gov/publications/detail/sp/800-30/rev-1/final

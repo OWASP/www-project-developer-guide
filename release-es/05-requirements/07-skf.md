@@ -74,10 +74,12 @@ La serie OWASP Spotlight proporciona una visión general del SKF: 'Proyecto 7 - 
 * OWASP [Estándar de Verificación de Seguridad de Aplicaciones][asvs] (ASVS)
 
 ----
+Traducción de versión [original en inglés][release0507].
 
 La Guía del Desarrollador de OWASP es un esfuerzo comunitario; si hay algo que necesita cambiar
 entonces [cree un issue][issue0507] o [edítelo en GitHub][edit0507].
 
+[release0507]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/05-requirements/07-skf.md
 [asvs]: https://owasp.org/www-project-application-security-verification-standard/
 [edit0507]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/05-requirements/07-skf.md
 [issue0507]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-requirements/07-skf

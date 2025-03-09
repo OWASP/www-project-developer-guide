@@ -45,9 +45,10 @@ Secciones:
 3.7 [Requisitos SKF](#skf-requirements)  
 
 ----
-
+Traducción de versión [original en inglés][release0500].
 La Guía de Desarrollador OWASP es un esfuerzo comunitario; si hay algo que necesite cambios, [cree un issue][issue0500].
 
+[release0500]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/05-requirements/00-toc.md
 [issue0500]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2005-requirements/00-toc
 [samm]: https://owaspsamm.org/about/
 [sammd]: https://owaspsamm.org/model/design/

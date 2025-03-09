@@ -46,7 +46,7 @@ Secciones:
 
 ----
 
-Traducción de versión [original en inglés][release0400]
+Traducción de versión [original en inglés][release0400].
 
 [cbok]: https://www.cybok.org/
 [release0400]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/04-foundations/toc.md

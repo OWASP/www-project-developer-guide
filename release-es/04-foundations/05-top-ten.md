@@ -126,6 +126,9 @@ Otros Top 10 de OWASP son proyectos 'incubadora', que están en progreso, por lo
 
 La Guía del Desarrollador de OWASP es un esfuerzo comunitario; si ve algo que necesita cambios, entonces [cree un issue][issue0405] o [edítelo en GitHub][edit0405].
 
+Traducción de versión [original en inglés][release0405].
+
+[release0405]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/04-foundations/05-top-ten.md
 [a01]: https://owasp.org/Top10/A01_2021-Broken_Access_Control/
 [a01cs]: https://cheatsheetseries.owasp.org/IndexTopTen.html#a012021-broken-access-control
 [a02]: https://owasp.org/Top10/A02_2021-Cryptographic_Failures/
