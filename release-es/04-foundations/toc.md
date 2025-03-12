@@ -6,7 +6,7 @@ tags: Guía del Desarrollador OWASP
 contributors: Roxana Calderon
 document: Guía del Desarrollador OWASP
 order: 44000
-permalink: /release-es/foundations/
+permalink: /release-es/fundamentos/
 
 ---
 

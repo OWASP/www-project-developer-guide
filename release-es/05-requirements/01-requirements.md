@@ -3,10 +3,10 @@
 title: Requisitos en la Práctica
 layout: col-document
 tags: Guía del Desarrollador OWASP
-contributors: Jon Gadsden, Andreas Happe, Roxana Calderon
+contributors: Andreas Happe, Roxana Calderon
 document: Guía del Desarrollador OWASP
 order: 45010
-permalink: /release-es/requirements/requirements_in_practice/
+permalink: /release-es/requisitos/requisitos_práctica/
 
 ---
 
@@ -14,7 +14,8 @@ permalink: /release-es/requirements/requirements_in_practice/
 
 ### 3.1 Requisitos en la práctica
 
-Esta sección trata sobre los Requisitos de Seguridad, que es una práctica de seguridad en la sección de función empresarial de Diseño del Modelo de Madurez de Garantía de Software de OWASP ([SAMM][samm]).
+Esta sección trata sobre los Requisitos de Seguridad, que es una práctica de seguridad
+en la sección de función empresarial de Diseño del Modelo de Madurez de Garantía de Software de OWASP ([SAMM][samm]).
 Esta práctica de requisitos de seguridad tiene dos actividades: Requisitos de Software y Seguridad de Proveedores,
 siendo los requisitos regulatorios y estatutarios un subconjunto importante de ambas actividades.
 
@@ -42,7 +43,8 @@ pero es completamente aceptable expresar estos requisitos en lenguaje cotidiano.
 Por ejemplo, un requisito de seguridad podría escribirse como "Identificar al usuario de la aplicación en todo momento"
 y esto es ciertamente suficiente para requerir que la autenticación se incluya en el diseño.
 
-La práctica de [Requisitos de Seguridad][sammdsr] de SAMM enumera los niveles de madurez de los requisitos de seguridad de software
+La práctica de [Requisitos de Seguridad][sammdsr] de SAMM enumera los niveles de madurez
+de los requisitos de seguridad de software
 que especifican objetivos y expectativas.
 Elija el nivel apropiado para la organización y el equipo de desarrollo,
 con la comprensión de que cualquiera de estos niveles es completamente aceptable.
@@ -55,29 +57,34 @@ Los niveles de madurez de los requisitos de seguridad de software son:
 
 OWASP proporciona proyectos que pueden ayudar a identificar requisitos de seguridad
 que protegerán el servicio y los datos en el núcleo de la aplicación.
-El [Estándar de Verificación de Seguridad de Aplicaciones][asvs] proporciona una lista de requisitos para el desarrollo seguro,
+El [Estándar de Verificación de Seguridad de Aplicaciones][asvs] proporciona una lista de requisitos
+para el desarrollo seguro,
 y puede usarse como punto de partida para los requisitos de seguridad.
-La [Seguridad de Aplicaciones Móviles][mas] proporciona un conjunto similar de requisitos de seguridad estándar para aplicaciones móviles.
+La [Seguridad de Aplicaciones Móviles][mas] proporciona un conjunto similar de requisitos de seguridad estándar
+para aplicaciones móviles.
 
 Considere usar [Casos de Abuso][csabuse] para identificar posibles ataques y los controles necesarios para mitigarlos.
 Esto puede luego formar parte de los requisitos de seguridad de software.
 
 #### Seguridad de proveedores
 
-Los proveedores externos involucrados en el proceso de desarrollo deben ser evaluados por sus prácticas de seguridad y cumplimiento.
-Dependiendo de su nivel de participación, estos proveedores pueden tener un impacto significativo en la seguridad de la aplicación,
+Los proveedores externos involucrados en el proceso de desarrollo deben ser
+evaluados por sus prácticas de seguridad y cumplimiento.
+Dependiendo de su nivel de participación, estos proveedores pueden tener
+un impacto significativo en la seguridad de la aplicación,
 por lo que será necesario negociar con ellos un conjunto de requisitos de seguridad.
 
 [SAMM][sammdsr] enumera los niveles de madurez para los requisitos de seguridad
 que aclararán las fortalezas y debilidades de sus proveedores.
-Tenga en cuenta que la seguridad de los proveedores es distinta de la seguridad de software y bibliotecas de terceros,
-y se trata el uso de software de terceros y de código abierto 
+Tenga en cuenta que la seguridad de los proveedores es distinta de la seguridad de software
+y bibliotecas de terceros, y se trata el uso de software de terceros y de código abierto
 en su propia sección sobre verificación y seguimiento de dependencias.
 
 Los niveles de madurez de los requisitos de seguridad de proveedores son:
 
 1. Evaluar al proveedor según los requisitos de seguridad organizacionales
-2. Incorporar la seguridad en los acuerdos con proveedores para garantizar el cumplimiento de los requisitos organizacionales
+2. Incorporar la seguridad en los acuerdos con proveedores para garantizar
+    el cumplimiento de los requisitos organizacionales
 3. Asegurar una cobertura de seguridad adecuada para proveedores externos proporcionando objetivos claros
 
 #### Requisitos regulatorios y reglamentarios

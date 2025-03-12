@@ -3,10 +3,10 @@
 title: Requisitos ASVS
 layout: col-document
 tags: Guía del desarrollador de OWASP 
-contributors: Jon Gadsden, Roxana Calderon
+contributors: Roxana Calderon
 document: Guía del Desarrollador OWASP
 order: 45050
-permalink: /release-es/requirements/asvs/
+permalink: /release-es/requisitos/asvs/
 
 ---
 
@@ -14,8 +14,10 @@ permalink: /release-es/requirements/asvs/
 
 ### 3.5 Requisitos ASVS
 
-El [Estándar de Verificación de Seguridad de Aplicaciones][asvs] (ASVS) es un proyecto insignia de OWASP establecido desde hace tiempo,
-y es ampliamente utilizado para sugerir requisitos de seguridad, así como para la verificación central de aplicaciones web.
+El [Estándar de Verificación de Seguridad de Aplicaciones][asvs] (ASVS) es un proyecto insignia de OWASP
+establecido desde hace tiempo,
+y es ampliamente utilizado para sugerir requisitos de seguridad, así como
+para la verificación central de aplicaciones web.
 
 Se puede descargar desde la [página del proyecto OWASP][asvs] en varios idiomas y formatos:
 PDF, Word, CSV, XML y JSON. Dicho esto, la forma recomendada de consumir el ASVS es acceder
@@ -47,21 +49,26 @@ El ASVS se divide en varias secciones:
 
 El ASVS define tres [niveles de verificación de seguridad][asvsL123]:
 
-1. aplicaciones que solo necesitan niveles bajos de garantía; estas aplicaciones son completamente comprobables mediante pruebas de penetración
-2. aplicaciones que contienen datos sensibles que requieren protección; el nivel recomendado para la mayoría de las aplicaciones
+1. aplicaciones que solo necesitan niveles bajos de garantía; estas aplicaciones
+  son completamente comprobables mediante pruebas de penetración
+2. aplicaciones que contienen datos sensibles que requieren protección;
+  el nivel recomendado para la mayoría de las aplicaciones
 3. las aplicaciones más críticas que requieren el más alto nivel de confianza
 
-La mayoría de las aplicaciones apuntarán al Nivel 2, y solo aquellas aplicaciones que realizan transacciones de alto valor,
+La mayoría de las aplicaciones apuntarán al Nivel 2, y solo aquellas aplicaciones
+que realizan transacciones de alto valor,
 o contienen datos médicos sensibles, aspirarán al más alto nivel de confianza en el nivel 3.
 
 #### ¿Por qué usarlo?
 
 El ASVS es utilizado por muchas organizaciones como base para la verificación de sus aplicaciones web.
-Está bien establecido, las versiones anteriores fueron escritas en 2008, y ha sido continuamente respaldado desde entonces.
+Está bien establecido, las versiones anteriores fueron escritas en 2008,
+y ha sido continuamente respaldado desde entonces.
 El ASVS es exhaustivo, por ejemplo, la versión 4.0.3 tiene una lista de 286 requisitos de verificación,
 y estos requisitos de verificación han sido creados y acordados por una amplia comunidad de seguridad.
 
-Por estas razones, el ASVS es un buen punto de partida para crear y actualizar requisitos de seguridad para aplicaciones web.
+Por estas razones, el ASVS es un buen punto de partida para crear
+y actualizar requisitos de seguridad para aplicaciones web.
 El uso generalizado de este estándar abierto significa que los equipos de desarrollo y proveedores
 pueden ya estar familiarizados con los requisitos, lo que facilita la adopción de los requisitos de seguridad.
 
@@ -76,11 +83,13 @@ Se debe elegir el nivel apropiado de verificación de los niveles ASVS:
 * Nivel 2: La mayoría de las aplicaciones
 * Nivel 3: Alto valor, alta garantía o alta seguridad
 
-Herramientas como [SecurityRAT][srat] pueden ayudar a crear un subconjunto más manejable de los requisitos de seguridad ASVS,
+Herramientas como [SecurityRAT][srat] pueden ayudar a crear un subconjunto más manejable de
+los requisitos de seguridad ASVS,
 permitiendo el enfoque y las decisiones sobre si cada uno es aplicable a la aplicación web o no.
 
 Las Hojas de Referencia (Cheat Sheets) de OWASP han sido indexadas específicamente para [cada sección del ASVS][csasvs],
-que pueden usarse como documentación para ayudar a decidir si una categoría de requisitos debe incluirse en el esquema de pruebas.
+que pueden usarse como documentación para ayudar a decidir si una categoría de requisitos
+debe incluirse en el esquema de pruebas.
 
 #### Referencias
 
