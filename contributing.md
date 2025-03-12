@@ -9,7 +9,7 @@ The project has a team of leaders that oversee the project
 and contributions from members of the security community are positively encouraged.
 
 All contributions and suggestions are certainly welcome, and we ask that
-you follow the [contributing code of conduct][conduct].
+you follow the [contributing Code of Conduct][conduct].
 Contributors can [make suggestions][issues] and provide changes via a [pull request][request].
 
 Feel free to discuss topics in the [project wiki][wiki] and create new discussions.
@@ -17,6 +17,12 @@ Feel free to discuss topics in the [project wiki][wiki] and create new discussio
 Note that the [draft][draft] version provides the content for the released version of Developer Guide,
 in the ['release'][release] directory, promoted during the automated release process.
 Therefore any manual changes under the release directory are likely to be over-written.
+
+### Ground rules
+
+* follow our [Code of Conduct](code_of_conduct.md)
+* ensure that all contributions meet the [license](../license.txt)
+* the use of generative AI is not prohibited but must be declared in the pull request
 
 ### Philosophy
 
