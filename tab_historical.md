@@ -3,7 +3,7 @@
 title: Historical
 layout: null
 tab: true
-order: 2
+order: 3
 tags: dev-guide, developer guide
 
 ---
@@ -70,6 +70,10 @@ which discusses the history and future of the project.
 
 We are still looking for the original Word documents for versions 1.x (1.0, 1.1 and 1.1.1),
 if you have any of these then please get in touch.
+
+----
+
+OWASP DevGuide: _accessible security for developers_
 
 [guide-1v0]: https://github.com/OWASP/DevGuide/tree/1d24d140de3724b6f95655e53b8d0cc6689fbfd8/DevGuide1.0
 [guide-pdf-en-1v0]: https://github.com/OWASP/DevGuide/blob/1d24d140de3724b6f95655e53b8d0cc6689fbfd8/DevGuide1.0/OWASPBuildingSecureWebApplicationsAndWebServices-V1.0.pdf

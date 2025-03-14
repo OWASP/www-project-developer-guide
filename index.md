@@ -33,8 +33,10 @@ pitch: The Developer Guide allows businesses, developers, designers
 
 The [OWASP Developer Guide](release) provides an introduction to security concepts
 and a handy reference for application and system developers.
+
 This guide does not seek to replicate the many excellent sources on specific security topics;
 it rarely tries to go into detail on a subject and instead provides links for greater depth on these security topics.
+
 The content of the Developer Guide aims to be accessible, introducing practical security concepts
 and providing enough detail to get developers started on various OWASP tools and documents.
 
@@ -65,7 +67,7 @@ is via the OWASP Slack [#project-developer-guide][project] project channel (you 
 
 ----
 
-OWASP Developer Guide: _accessible security for developers_
+OWASP DevGuide: _accessible security for developers_
 
 [conduct]: code_of_conduct.md
 [contribution]: contributing.md

@@ -37,4 +37,6 @@ using the wording from the previous releases as a guide to the release notes.
 
 ----
 
+OWASP DevGuide: _accessible security for developers_
+
 [release]: https://github.com/OWASP/www-project-developer-guide/releases
