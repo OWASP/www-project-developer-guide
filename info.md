@@ -14,6 +14,12 @@
 * Released [PDF][pdf] and [e-book][epub]
 * [Draft version](draft)
 
+### Translations (in progress)
+
+* [Brazilian Portuguese](release-pt-br)
+* [Spanish](release-es)
+* [Japanese](release-ja)
+
 ### License
 
 * [![Creative Commons License][license-image]](https://creativecommons.org/licenses/by-sa/4.0/ "CC BY-SA 4.0")
