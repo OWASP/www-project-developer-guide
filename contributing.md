@@ -21,7 +21,7 @@ Therefore any manual changes under the release directory are likely to be over-w
 ### Ground rules
 
 * follow our [Code of Conduct](code_of_conduct.md)
-* ensure that all contributions meet the [license](../license.txt)
+* ensure that all contributions meet the [license](license.txt)
 * the use of generative AI is not prohibited but must be declared in the pull request
 
 ### Philosophy
