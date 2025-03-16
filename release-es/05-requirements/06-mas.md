@@ -3,10 +3,10 @@
 title: Requisitos MAS
 layout: col-document
 tags: Guía del Desarrollador OWASP
-contributors: Jon Gadsden, Roxana Calderon
+contributors: Roxana Calderon
 document: Guía del Desarrollador OWASP
 order: 45060
-permalink: /release-es/requirements/mas/
+permalink: /release-es/requisitos/mas/
 
 ---
 

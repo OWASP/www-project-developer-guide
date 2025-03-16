@@ -3,10 +3,10 @@
 title: Requisitos ASVS
 layout: col-document
 tags: Guía del desarrollador de OWASP 
-contributors: Jon Gadsden, Roxana Calderon
+contributors: Roxana Calderon
 document: Guía del Desarrollador OWASP
 order: 45050
-permalink: /release-es/requirements/asvs/
+permalink: /release-es/requisitos/asvs/
 
 ---
 

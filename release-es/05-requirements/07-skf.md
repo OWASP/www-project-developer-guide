@@ -3,10 +3,10 @@
 title: Requisitos SKF
 layout: col-document
 tags: Guía del Desarrollador OWASP
-contributors: Jon Gadsden, Roxana Calderon
+contributors: Roxana Calderon
 document: Guía del Desarrollador OWASP
 order: 45070
-permalink: /release-es/requirements/skf/
+permalink: /release-es/requisitos/skf/
 
 ---
 

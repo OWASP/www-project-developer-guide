@@ -6,7 +6,7 @@ tags: Guía del Desarrollador OWASP
 contributors: Roxana Calderon
 document: Guía del Desarrollador OWASP
 order: 44040
-permalink: /release-es/foundations/crypto_principles/
+permalink: /release-es/fundamentos/principios_criptografía/
 
 ---
 

@@ -3,10 +3,10 @@
 title: SecurityRAT
 layout: col-document
 tags: Guía del Desarrollador OWASP
-contributors: Jon Gadsden, Roxana Calderon
+contributors: Roxana Calderon
 document: Guía del Desarrollador OWASP
 order: 45040
-permalink: /release-es/requirements/security_rat/
+permalink: /release-es/requisitos/securityrat/
 
 ---
 
