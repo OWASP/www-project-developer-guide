@@ -19,7 +19,8 @@ permalink: /release-es/requisitos/opencre/
 El [Enumeración Común Abierta de Requisitos][opencre] (OpenCRE) es un catálogo de requisitos de seguridad:
 enumerando temas de seguridad y proporcionando enlaces a varios estándares, hojas de referencia y guías.
 
-El proyecto de [Estándares de Integración][intstand] de OWASP incluye tanto OpenCRE como Seguridad y el Navegador de Seguridad de Aplicaciones, es un proyecto de documentación de OWASP con estado de producción.
+El proyecto de [Estándares de Integración][intstand] de OWASP incluye tanto OpenCRE como Seguridad
+y el Navegador de Seguridad de Aplicaciones, es un proyecto de documentación de OWASP con estado de producción.
 
 #### ¿Qué es el proyecto de Estándares de Integración?
 
@@ -28,10 +29,12 @@ proporciona orientación sobre cómo navegar y utilizar los numerosos proyectos 
 Lo hace de dos maneras, primero está el [Navegador de Seguridad de Aplicaciones][intstand] que proporciona un mapa visual
 de los proyectos de OWASP más importantes - a agosto de 2024 hay 345 [proyectos OWASP][projects]
 por lo que esta es una visualización realmente útil.
-La segunda es la Enumeración Común Abierta de Requisitos ([OpenCRE][opencre]) que proporciona una referencia consolidada de
+La segunda es la Enumeración Común Abierta de Requisitos ([OpenCRE][opencre])
+que proporciona una referencia consolidada de
 estándares, hojas de referencias, herramientas y otras enumeraciones (como [CWE][cwe]).
 
-El proyecto de Estándares de Integración también ha producido un informe sobre [Fragmentación de Seguridad de Aplicaciones][sdlc] de OWASP
+El proyecto de Estándares de Integración también ha producido un informe
+sobre [Fragmentación de Seguridad de Aplicaciones][sdlc] de OWASP
 sobre OWASP y el Ciclo de Vida de Desarrollo de Software (SDLC) seguro.
 Esto proporciona una visión general de herramientas y técnicas utilizadas en la mayoría de los SDLC.
 
@@ -58,19 +61,22 @@ El objetivo de este proyecto es 'Vincular todas las cosas con OpenCRE', lo que:
 
 OpenCRE: 'Todo organizado'
 
-[OpenCRE][opencre] es una herramienta poderosa que puede proporcionar a los desarrolladores enlaces a muchos recursos, y es fácil de usar.
+[OpenCRE][opencre] es una herramienta poderosa que puede proporcionar a los desarrolladores enlaces a muchos recursos,
+y es fácil de usar.
 Proporciona un conjunto consolidado de referencias sobre varios términos y dominios de seguridad,
 y lo crucial es que se mantienen automáticamente actualizados.
 Proporciona un práctico catálogo de seguridad que se puede buscar para diversos estándares o términos de seguridad.
 
 Además de ser útil para preguntas cotidianas de seguridad,
 OpenCRE también puede usarse como sección de referencias en documentación;
-vincular a OpenCRE en lugar de proporcionar una lista de referencias significa que los enlaces se mantienen automáticamente actualizados.
+vincular a OpenCRE en lugar de proporcionar una lista de referencias significa
+que los enlaces se mantienen automáticamente actualizados.
 
 #### Cómo usar OpenCRE
 
 El catálogo de [OpenCRE][opencre] se puede acceder de formas tradicionales como usar búsquedas o vincular directamente.
-Por ejemplo, las referencias de OpenCRE a la Enumeración de Debilidades Comunes pueden accederse usando la [función de búsqueda][cweocre]
+Por ejemplo, las referencias de OpenCRE a la Enumeración de Debilidades Comunes pueden accederse
+usando la [función de búsqueda][cweocre]
 o vinculando directamente a un [Requisito Común Abierto específico][cwe1002].
 
 OpenCRE también es útil al proporcionar referencias en documentación.
@@ -85,15 +91,17 @@ Respuestas inmediatas a preguntas de seguridad o búsquedas pueden proporcionars
 Por ejemplo, en respuesta a la pregunta "_¿De qué sirve la Guía de Desarrollador de OWASP?_"
 OpenCRE Chat proporciona la siguiente respuesta:
 
-_"La Guía de Desarrollador de OWASP proporciona una visión general completa de los riesgos de seguridad de aplicaciones y cómo mitigarlos._
-_Cubre temas como validación de entrada, codificación de salida, prácticas de codificación segura y principios de diseño seguro._
+_"La Guía de Desarrollador de OWASP proporciona una visión general completa de los riesgos de seguridad de aplicaciones_
+_y cómo mitigarlos._
+_Cubre temas como validación de entrada, codificación de salida, prácticas de codificación segura_
+_y principios de diseño seguro._
 _La guía es un recurso valioso para desarrolladores que quieren crear aplicaciones seguras."_
 
 #### Referencias
 
 * OWASP [OpenCRE][opencre]
 * [Spotlight sobre OpenCRE][spotlight28]
-*  [Fragmentación de Seguridad de Aplicaciones][sdlc] de OWASP
+* [Fragmentación de Seguridad de Aplicaciones][sdlc] de OWASP
 * Proyecto de [Estándares de Integración][intstand] de OWASP
 * [Comprendiendo la Cadena Completa de Seguridad de Aplicaciones Usando OpenCRE org][opencretalk]
 

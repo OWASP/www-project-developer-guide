@@ -3,7 +3,7 @@
 title: Perfil de Riesgo
 layout: col-document
 tags: Guía del Desarrollador OWASP
-contributors: Jon Gadsden, Roxana Calderon
+contributors: Roxana Calderon
 document: Guía del Desarrollador OWASP
 order: 45020
 permalink: /release-es/requisitos/perfil_de_riesgo/
@@ -25,7 +25,8 @@ El objetivo de la gestión de riesgos es garantizar que la incertidumbre no desv
 de los objetivos empresariales.
 
 La remediación es la estrategia elegida en respuesta a un riesgo para el sistema empresarial,
-y estos riesgos se identifican utilizando diversas técnicas como modelado de amenazas y análisis de requisitos de seguridad.
+y estos riesgos se identifican utilizando diversas técnicas como modelado de amenazas
+y análisis de requisitos de seguridad.
 
 La gestión de riesgos puede dividirse en dos fases. Primero, crear un perfil de riesgo para la aplicación
 y luego proporcionar soluciones (remediar) a esos riesgos de la manera que mejor convenga al negocio;
@@ -35,11 +36,14 @@ la gestión de riesgos siempre debe estar orientada por los objetivos el negocio
 
 El perfil de riesgo de la aplicación se crea para comprender la probabilidad y el impacto de un ataque.
 Con el tiempo, se podrían crear varios perfiles que deberían almacenarse en un inventario de perfiles de riesgo,
-e idealmente, los perfiles de riesgo deberían revisarse como parte de la estrategia de desarrollo seguro de la organización.
+e idealmente, los perfiles de riesgo deberían revisarse como parte de la estrategia
+de desarrollo seguro de la organización.
 
 Cuantificar los riesgos es a menudo difícil y hay muchas formas de abordar esto;
-consulte la lista de lectura a continuación para conocer diversas estrategias para crear un modelo de calificación de riesgos.
-La página de OWASP sobre [Metodología de Calificación de Riesgos][rrm] describe algunos pasos para identificar y cuantificar riesgos:
+consulte la lista de lectura a continuación para conocer diversas estrategias
+para crear un modelo de calificación de riesgos.
+La página de OWASP sobre [Metodología de Calificación de Riesgos][rrm] describe
+algunos pasos para identificar y cuantificar riesgos:
 
 1. Identificar un riesgo
 2. Factores para estimar la probabilidad
@@ -50,11 +54,13 @@ La página de OWASP sobre [Metodología de Calificación de Riesgos][rrm] descri
 
 Las actividades involucradas en la creación de un perfil de riesgo dependen mucho de los procesos
 y el nivel de madurez de la organización, lo cual está más allá del alcance de esta
-Guía del Desarrollador, por lo que consulte la lectura adicional que se lista a continuación para obtener orientación y ejemplos.
+Guía del Desarrollador, por lo que consulte la lectura adicional que se lista a continuación
+para obtener orientación y ejemplos.
 
 #### Remediación
 
-Los riesgos identificados durante la evaluación de amenazas, por ejemplo, a través del perfil de riesgo o mediante modelado de amenazas,
+Los riesgos identificados durante la evaluación de amenazas, por ejemplo,
+a través del perfil de riesgo o mediante modelado de amenazas,
 deben tener soluciones o remedios aplicados.
 
 Hay cuatro formas comunes de manejar el riesgo, a menudo representadas por el acrónimo TAME:
@@ -80,8 +86,8 @@ Ejemplos:
     un ejemplo podría ser cuando se muestra la versión de software y esto es aceptable (o incluso deseable)
 
 3. Mitigar: es común implementar un control de seguridad para mitigar el impacto de un riesgo, por ejemplo,
-    la sanitización de entrada o la codificación de salida pueden usarse para información proporcionada por una fuente no confiable,
-    o el uso de canales de comunicación cifrados para transferir información de alto riesgo
+    la sanitización de entrada o la codificación de salida pueden usarse para información proporcionada
+    por una fuente no confiable, o el uso de canales de comunicación cifrados para transferir información de alto riesgo
 
 4. Eliminar: un ejemplo puede ser que una aplicación implemente funcionalidad heredada que ya no se usa,
     si hay un riesgo de que sea explotada, el riesgo puede eliminarse quitando esta funcionalidad heredada
@@ -110,4 +116,3 @@ entonces [cree un issue][issue0502] o [edítelo en GitHub][edit0502].
 [rrs]: https://infosec.mozilla.org/guidelines/assessing_security_risk
 [samm]: https://owaspsamm.org/about/
 [tra]: https://cyber.gc.ca/en/guidance/harmonized-tra-methodology-tra-1
-

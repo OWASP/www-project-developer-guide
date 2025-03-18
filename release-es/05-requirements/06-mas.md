@@ -29,14 +29,16 @@ permalink: /release-es/requisitos/mas/
 El proyecto insignia de OWASP [Seguridad de Aplicaciones Móviles][masproject] (MAS) proporciona
 estándares de la industria para la seguridad de aplicaciones móviles.
 
-El proyecto MAS cubre los procesos, técnicas y herramientas utilizados para las pruebas de seguridad de aplicaciones móviles.
+El proyecto MAS cubre los procesos, técnicas y herramientas utilizados
+para las pruebas de seguridad de aplicaciones móviles.
 Proporciona un conjunto de casos de prueba que permite a los testeadores entregar resultados consistentes y completos.
 El proyecto OWASP MAS proporciona tanto el [Estándar de Verificación de Seguridad de Aplicaciones Móviles][masvs] (MASVS)
 para aplicaciones móviles como la [Guía de Pruebas de Seguridad de Aplicaciones Móviles][mastg] (MASTG).
 
 #### ¿Qué es MASVS?
 
-El [OWASP MASVS][mas] es utilizado por arquitectos y desarrolladores de software móvil para desarrollar aplicaciones móviles seguras,
+El [OWASP MASVS][mas] es utilizado por arquitectos y desarrolladores de software móvil
+para desarrollar aplicaciones móviles seguras,
 así como por evaluadores de seguridad para garantizar la integridad y consistencia de los resultados de las pruebas.
 El proyecto MAS tiene varios usos; cuando se trata de definir requisitos,
 el MASVS contiene una lista de controles de seguridad para aplicaciones móviles.
@@ -75,7 +77,7 @@ que pueden utilizarse como guía para decidir si la categoría debe incluirse en
 * [Proyecto][masproject] MAS
 * [Lista de verificación][masc] MAS
 * [Estándar de Verificación][masvs] MAS (MASVS)
-* Hojas de Referencia de [Seguridad de Aplicaciones Móviles][csmas] de OWASP 
+* Hojas de Referencia de [Seguridad de Aplicaciones Móviles][csmas] de OWASP
 
 ----
 Traducción de versión [original en inglés][release0506].

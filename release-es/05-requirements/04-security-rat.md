@@ -14,7 +14,8 @@ permalink: /release-es/requisitos/securityrat/
 
 ### 3.4 SecurityRAT
 
-La Herramienta de Automatización de Requisitos[SecurityRAT][srat] de OWASP se utiliza para generar y gestionar requisitos de seguridad
+La Herramienta de Automatización de Requisitos[SecurityRAT][srat] de OWASP se utiliza
+para generar y gestionar requisitos de seguridad
 usando información del proyecto [OWASP ASVS][asvs].
 También proporciona un enfoque automatizado para la gestión de requisitos
 durante el desarrollo de aplicaciones frontend, de servidor y móviles.
@@ -35,10 +36,11 @@ Para generar la lista inicial de requisitos, SecurityRAT necesita que se le prop
 * Autenticación - si se utiliza autenticación de inicio de sesión único (SSO) o no
 
 SecurityRAT genera entonces una lista inicial de requisitos recomendados.
-Esta lista puede almacenarse en una base de datos de SecurityRAT que permite el seguimiento y actualización del conjunto de requisitos.
+Esta lista puede almacenarse en una base de datos de SecurityRAT que permite el seguimiento y actualización
+del conjunto de requisitos.
 SecurityRAT también proporciona integración con JIRA de Atlassian para la creación y seguimiento de problemas de software.
 
-La serie Spotlight de OWASP proporciona una visión general de lo que puede hacer SecurityRat y cómo usarlo:
+La serie Spotlight de OWASP proporciona una visión general de lo que puede hacer SecurityRAT y cómo usarlo:
 'Proyecto 5 - [OWASP SecurityRAT][spotlight05]'.
 
 #### ¿Por qué usarlo?
@@ -49,13 +51,15 @@ son aplicables o no a un proyecto de desarrollo determinado.
 
 El uso de SecurityRAT para crear un subconjunto más manejable de los requisitos de ASVS es un beneficio directo tanto para
 arquitectos de seguridad como para el equipo de desarrollo.
-Además, SecurityRAT permite el seguimiento y actualización de este conjunto de requisitos durante todo el ciclo de desarrollo,
+Además, SecurityRAT permite el seguimiento y actualización de este conjunto de requisitos
+durante todo el ciclo de desarrollo,
 añadiendo seguridad a la aplicación al ayudar a garantizar que se cumplan los requisitos de seguridad.
 
 #### Cómo usar SecurityRAT
 
-Instale las aplicaciones de SecurityRAT de Producción y Desarrollo descargando una versión e instalándola en el Kit de Desarrollo Java JDK11.
-Alternativamente, descargue y ejecute la [imagen docker][sratdocker] desde DockerHub.
+Instale las aplicaciones de SecurityRAT de Producción y Desarrollo descargando una versión e instalándola
+en el Kit de Desarrollo Java JDK11.
+Alternativamente, descargue y ejecute la [imagen Docker][sratdocker] desde DockerHub.
 Configure SecurityRAT consultando la [documentación de implementación][sratdeploy]; esto no es muy sencillo,
 por lo que para comenzar hay una [demostración en línea][sratdemo] disponible.
 
@@ -90,12 +94,15 @@ Seleccione el nivel usando los niveles de cumplimiento de seguridad definidos po
 Finalmente, seleccione si se está utilizando autenticación SSO y genere una lista de requisitos.
 Este artefacto de requisitos se almacena ahora en SecurityRAT y puede recuperarse en sesiones posteriores.
 
-SecurityRAT presenta entonces una pantalla de administración que permite el seguimiento y edición de los requisitos de verificación de ASVS.
-Consulte el [Spotlight de OWASP sobre SecurityRAT][spotlight05] para obtener una explicación de cómo integrarlo con JIRA de Atlassian.
+SecurityRAT presenta entonces una pantalla de administración que permite el seguimiento
+y edición de los requisitos de verificación de ASVS.
+Consulte el [Spotlight de OWASP sobre SecurityRAT][spotlight05] para obtener una explicación
+de cómo integrarlo con JIRA de Atlassian.
 
 #### ¿Qué es SecurityCAT?
 
-[SecurityCAT][scat] (Herramienta de Automatización de Cumplimiento) es una extensión de SecurityRAT destinada a la prueba automática de requisitos.
+[SecurityCAT][scat] (Herramienta de Automatización de Cumplimiento) es una extensión
+de SecurityRAT destinada a la prueba automática de requisitos.
 No existe una implementación real de SecurityCAT,
 SecurityRAT proporciona una API que permite crear una herramienta de cumplimiento,
 por lo que este puede ser un desarrollo futuro de SecurityRAT.
@@ -124,4 +131,3 @@ entonces [cree un issue][issue0504] o [edítelo en GitHub][edit0504].
 [sratdeploy]: https://securityrat.github.io/depl_production.html
 [sratdocker]: https://hub.docker.com/r/securityrat/securityrat
 [sratdocs]: https://securityrat.github.io/
-
