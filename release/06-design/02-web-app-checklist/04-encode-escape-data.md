@@ -28,12 +28,12 @@ and use the list below as suggestions for a checklist that has been tailored for
 #### 1. Character encoding and canonicalization
 
 1. Apply output encoding just before the content is passed to the target system
-1. Conduct all output encoding on a trusted system
-1. Utilize a standard, tested routine for each type of outbound encoding
-1. Specify character sets, such as UTF-8, for all outputs
-1. Apply canonicalization to convert unicode data into a standard form
-1. Ensure the output encoding is safe for all target systems
-1. In particular sanitize all output used for operating system commands
+2. Conduct all output encoding on a trusted system
+3. Utilize a standard, tested routine for each type of outbound encoding
+4. Specify character sets, such as UTF-8, for all outputs
+5. Apply canonicalization to convert unicode data into a standard form
+6. Ensure the output encoding is safe for all target systems
+7. In particular sanitize all output used for operating system commands
 
 #### 2. Contextual output encoding
 
@@ -41,7 +41,7 @@ Contextual output encoding of data is based on how it will be utilized by the ta
 The specific methods vary depending on the way the output data is used, such as HTML entity encoding.
 
 1. Contextually encode all data returned to the client from untrusted sources
-1. Contextually encode all output of untrusted data to queries for SQL, XML, and LDAP
+2. Contextually encode all output of untrusted data to queries for SQL, XML, and LDAP
 
 #### References
 

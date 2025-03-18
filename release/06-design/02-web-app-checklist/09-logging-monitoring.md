@@ -24,25 +24,25 @@ and use the list below as suggestions for a checklist that has been tailored for
 #### 1. Security logging
 
 1. Log submitted data that is outside of an expected numeric range.
-1. Log submitted data that involves changes to data that should not be modifiable
-1. Log requests that violate server-side access control rules
-1. Encode and validate any dangerous characters before logging to prevent log injection attacks
-1. Do not log sensitive information
-1. Logging controls should support both success and failure of specified security events
-1. Do not store sensitive information in logs, including unnecessary system details, session identifiers or passwords
-1. Use a cryptographic hash function to validate log entry integrity
+2. Log submitted data that involves changes to data that should not be modifiable
+3. Log requests that violate server-side access control rules
+4. Encode and validate any dangerous characters before logging to prevent log injection attacks
+5. Do not log sensitive information
+6. Logging controls should support both success and failure of specified security events
+7. Do not store sensitive information in logs, including unnecessary system details, session identifiers or passwords
+8. Use a cryptographic hash function to validate log entry integrity
 
 #### 2. Security logging design
 
 1. Protect log integrity
-1. Ensure log entries that include untrusted data will not execute as code in the intended log viewing interface or software
-1. Restrict access to logs to only authorized individuals
-1. Utilize a central routine for all logging operations
-1. Forward logs from distributed systems to a central, secure logging service
-1. Follow a common logging format and approach within the system and across systems of an organization
-1. Synchronize across nodes to ensure that timestamps are consistent
-1. All logging controls should be implemented on a trusted system
-1. Ensure that a mechanism exists to conduct log analysis
+2. Ensure log entries that include untrusted data will not execute as code in the intended log viewing interface or software
+3. Restrict access to logs to only authorized individuals
+4. Utilize a central routine for all logging operations
+5. Forward logs from distributed systems to a central, secure logging service
+6. Follow a common logging format and approach within the system and across systems of an organization
+7. Synchronize across nodes to ensure that timestamps are consistent
+8. All logging controls should be implemented on a trusted system
+9. Ensure that a mechanism exists to conduct log analysis
 
 #### References
 

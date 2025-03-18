@@ -25,18 +25,18 @@ and use the list below as suggestions for a checklist that has been tailored for
 #### 1. Errors and exceptions
 
 1. Manage exceptions in a centralized manner to avoid duplicated try/catch blocks in the code
-1. Ensure that all unexpected behavior is correctly handled inside the application
-1. Ensure that error messages displayed to users do not leak critical data,
+2. Ensure that all unexpected behavior is correctly handled inside the application
+3. Ensure that error messages displayed to users do not leak critical data,
     but are still verbose enough to enable the proper user response
-1. Ensure that exceptions logs give enough information for support, QA, forensics or incident response teams
-1. Carefully test and verify error handling code
-1. Do not disclose sensitive information in error responses, for example
+4. Ensure that exceptions logs give enough information for support, QA, forensics or incident response teams
+5. Carefully test and verify error handling code
+6. Do not disclose sensitive information in error responses, for example
     system details, session identifiers or account information
-1. Use error handlers that do not display debugging or stack trace information
-1. Implement generic error messages and use custom error pages
-1. The application should handle application errors and not rely on the server configuration
-1. Properly free allocated memory when error conditions occur
-1. Error handling logic associated with security controls should deny access by default
+7. Use error handlers that do not display debugging or stack trace information
+8. Implement generic error messages and use custom error pages
+9. The application should handle application errors and not rely on the server configuration
+10. Properly free allocated memory when error conditions occur
+11. Error handling logic associated with security controls should deny access by default
 
 #### References
 

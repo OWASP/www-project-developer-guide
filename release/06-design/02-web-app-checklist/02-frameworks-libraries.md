@@ -52,18 +52,18 @@ In addition consider the following extra checks for frameworks and libraries.
 #### 1. Security Frameworks and Libraries
 
 1. Ensure servers, frameworks and system components are running the latest approved versions and patches
-1. Use libraries and frameworks from trusted sources that are actively maintained and widely used
-1. Review all secondary applications and third party libraries to determine business necessity
-1. Validate safe functionality for all secondary applications and third party libraries
-1. Create and maintain an inventory catalog of all third party libraries using Software Composition Analysis (SCA)
-1. Proactively keep all third party libraries and components up to date
-1. Reduce the attack surface by encapsulating the library and expose only the required behavior into your software
-1. Use tested and approved managed code rather than creating new unmanaged code for common tasks
-1. Utilize task specific built-in APIs to conduct operating system tasks
-1. Do not allow the application to issue commands directly to the Operating System
-1. Use checksums or hashes to verify the integrity of interpreted code, libraries, executables, and configuration files
-1. Restrict users from generating new code or altering existing code
-1. Implement safe updates using encrypted channels
+2. Use libraries and frameworks from trusted sources that are actively maintained and widely used
+3. Review all secondary applications and third party libraries to determine business necessity
+4. Validate safe functionality for all secondary applications and third party libraries
+5. Create and maintain an inventory catalog of all third party libraries using Software Composition Analysis (SCA)
+6. Proactively keep all third party libraries and components up to date
+7. Reduce the attack surface by encapsulating the library and expose only the required behavior into your software
+8. Use tested and approved managed code rather than creating new unmanaged code for common tasks
+9. Utilize task specific built-in APIs to conduct operating system tasks
+10. Do not allow the application to issue commands directly to the Operating System
+11. Use checksums or hashes to verify the integrity of interpreted code, libraries, executables, and configuration files
+12. Restrict users from generating new code or altering existing code
+13. Implement safe updates using encrypted channels
 
 #### References
 
