@@ -3,7 +3,7 @@
 title: Requisitos
 layout: col-document
 tags: Guía del Desarrollador OWASP
-contributors: Roxana Calderon, Andreas Happe
+contributors: Roxana Calderon
 document: Guía del Desarrollador OWASP
 order:
 permalink:
@@ -48,6 +48,7 @@ Secciones:
 
 ----
 Traducción de versión [original en inglés][release0500].
+
 La Guía de Desarrollador OWASP es un esfuerzo comunitario; si hay algo que necesite cambios, [cree un issue][issue0500].
 
 [release0500]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/05-requirements/00-toc.md

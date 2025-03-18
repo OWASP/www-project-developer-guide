@@ -3,7 +3,7 @@
 title: Requisitos
 layout: col-document
 tags: Guía del desarrollador OWASP
-contributors: Andreas Happe, Roxana Calderon
+contributors: Roxana Calderon
 document: Guía del desarrollador OWASP
 order: 45000
 permalink: /release-es/requisitos/

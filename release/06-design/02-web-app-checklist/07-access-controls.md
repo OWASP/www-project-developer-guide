@@ -24,24 +24,24 @@ and use the list below as suggestions for a checklist that has been tailored for
 #### 1. Authorization
 
 1. Design access control / authorization thoroughly up-front
-1. Force all requests to go through access control checks unless public
-1. Deny by default; if a request is not specifically allowed then it is denied
-1. Apply least privilege, providing the least access as is necessary
-1. Log all authorization events
+2. Force all requests to go through access control checks unless public
+3. Deny by default; if a request is not specifically allowed then it is denied
+4. Apply least privilege, providing the least access as is necessary
+5. Log all authorization events
 
 #### 2. Access control
 
 1. Enforce authorization controls on every request
-1. Use only trusted system objects for making access authorization decisions
-1. Use a single site-wide component to check access authorization
-1. Access controls should fail securely
-1. Deny all access if the application cannot access its security configuration information
-1. Segregate privileged logic from other application code
-1. Limit the number of transactions a single user or device can perform in a given period of time,
+2. Use only trusted system objects for making access authorization decisions
+3. Use a single site-wide component to check access authorization
+4. Access controls should fail securely
+5. Deny all access if the application cannot access its security configuration information
+6. Segregate privileged logic from other application code
+7. Limit the number of transactions a single user or device can perform in a given period of time,
     low enough to deter automated attacks but above the actual business requirement
-1. If long authenticated sessions are allowed, periodically re-validate a user's authorization
-1. Implement account auditing and enforce the disabling of unused accounts
-1. The application must support termination of sessions when authorization ceases
+8. If long authenticated sessions are allowed, periodically re-validate a user's authorization
+9. Implement account auditing and enforce the disabling of unused accounts
+10. The application must support termination of sessions when authorization ceases
 
 #### References
 

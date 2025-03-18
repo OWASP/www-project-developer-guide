@@ -3,7 +3,7 @@
 title: Requisitos en la Práctica
 layout: col-document
 tags: Guía del Desarrollador OWASP
-contributors: Andreas Happe, Roxana Calderon
+contributors: Roxana Calderon
 document: Guía del Desarrollador OWASP
 order: 45010
 permalink: /release-es/requisitos/requisitos_práctica/

@@ -23,28 +23,28 @@ and use the list below as suggestions for a checklist that has been tailored for
 #### 1. Secure queries
 
 1. Use Query Parameterization to prevent untrusted input being interpreted as part of a SQL command
-1. Use strongly typed parameterized queries
-1. Utilize input validation and output encoding and be sure to address meta characters
-1. Do not run the database command if input validation fails
-1. Ensure that variables are strongly typed
-1. Connection strings should not be hard coded within the application
-1. Connection strings should be stored in a separate configuration file on a trusted system and they should be encrypted
+2. Use strongly typed parameterized queries
+3. Utilize input validation and output encoding and be sure to address meta characters
+4. Do not run the database command if input validation fails
+5. Ensure that variables are strongly typed
+6. Connection strings should not be hard coded within the application
+7. Connection strings should be stored in a separate configuration file on a trusted system and they should be encrypted
 
 #### 2. Secure configuration
 
 1. The application should use the lowest possible level of privilege when accessing the database
-1. Use stored procedures to abstract data access and allow for the removal of permissions to the base tables in the database
-1. Close the database connection as soon as possible
-1. Turn off all unnecessary database functionality
-1. Remove unnecessary default vendor content, for example sample schemas
-1. Disable any default accounts that are not required to support business requirements
+2. Use stored procedures to abstract data access and allow for the removal of permissions to the base tables in the database
+3. Close the database connection as soon as possible
+4. Turn off all unnecessary database functionality
+5. Remove unnecessary default vendor content, for example sample schemas
+6. Disable any default accounts that are not required to support business requirements
 
 #### 3. Secure authentication
 
 1. Remove or change all default database administrative passwords
-1. The application should connect to the database with different credentials for every trust distinction
+2. The application should connect to the database with different credentials for every trust distinction
     (for example user, read-only user, guest, administrators)
-1. Use secure credentials for database access
+3. Use secure credentials for database access
 
 #### References
 
