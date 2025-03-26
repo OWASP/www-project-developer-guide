@@ -14,7 +14,7 @@ for inclusion in the change log
 **Declaration**:
 
 - [ ] content meets the [license](../license.txt) for this project
-- [ ] any use of AI has been declared in this pull request
+- [ ] AI has not been used, or has been declared, in this pull request
 
 **Other info** :  
 <!-- Add here any other information that may be of help to the reviewer -->
