@@ -37,7 +37,7 @@ They are ordered by order of importance, with control number 1 being the most im
 
 The Proactive Controls are a well established list of security controls, first published in 2014
 and revised in 2018, so considering these controls can be seen as best practice.
-Following best practice is always encouraged: at the very least an organization should avoid the avoidable exploits.
+Following best practices is always encouraged: at the very least an organization should avoid the avoidable exploits.
 
 Putting these proactive controls in place can help remediate common security vulnerabilities, for example:
 

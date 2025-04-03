@@ -33,7 +33,7 @@ The OSHP documentation project is an OWASP Lab Project and raises awareness  of 
 
 #### What is OSHP?
 
-The [OSHP project][oshp]) provides explanations for the HTTP response headers that an application can use
+The [OSHP project][oshp] provides explanations for the HTTP response headers that an application can use
 to increase the security of the application.
 Once set the HTTP response headers can restrict modern browsers from running into easily preventable vulnerabilities.
 
