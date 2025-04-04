@@ -6,7 +6,7 @@ tags: Guía del Desarrollador OWASP
 contributors: Roxana Calderon
 document: Guía del Desarrollador OWASP
 order: 45060
-permalink: /release-es/requisitos/mas/
+permalink: /release-es/requerimientos/mas
 
 ---
 
