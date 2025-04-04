@@ -1,12 +1,12 @@
 ---
 
-title: Desarrollo e Integración Seguros
+title: Desarrollo e Integración Segura
 layout: col-document
 tags: Guía del Desarrollador OWASP
 contributors: Roxana Calderon
 document: Guía del Desarrollador OWASP
 order: 44020
-permalink: /release-es/fundamentos/desarrollo_seguro/
+permalink: /release-es/fundamentos/desarrollo_segura/
 
 ---
 
@@ -22,7 +22,7 @@ permalink: /release-es/fundamentos/desarrollo_seguro/
 }
 </style>
 
-### 2.2 Desarrollo e integración seguros
+### 2.2 Desarrollo e integración segura
 
 El desarrollo seguro se describe en las funciones de negocio de [Diseño][sammd], [Implementación][sammi]
 y [Verificación][sammv] del Modelo de Madurez de Aseguramiento de Software
