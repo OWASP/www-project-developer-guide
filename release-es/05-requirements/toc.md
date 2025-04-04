@@ -1,12 +1,12 @@
 ---
 
-title: Requerimientos
+title: Requisitos
 layout: col-document
 tags: Guía del desarrollador OWASP
 contributors: Roxana Calderon
 document: Guía del desarrollador OWASP
 order: 45000
-permalink: /release-es/requerimientos/
+permalink: /release-es/requisitos/
 
 ---
 
@@ -26,17 +26,23 @@ permalink: /release-es/requerimientos/
 
 ## 3. Requisitos
 
-Los requisitos de seguridad también proporcionan una base de funcionalidad de seguridad minuciosamente verificada para una aplicación.
+Los requisitos de seguridad también proporcionan una base de funcionalidad de seguridad minuciosamente verificada
+para una aplicación.
 En lugar de crear un enfoque personalizado de seguridad para cada aplicación,
-los requisitos de seguridad estándar permiten a los desarrolladores reutilizar la definición de controles de seguridad y mejores prácticas;
-esos mismos requisitos de seguridad verificados proporcionan soluciones para problemas de seguridad que han ocurrido en el pasado.
+los requisitos de seguridad estándar permiten a los desarrolladores reutilizar
+la definición de controles de seguridad y mejores prácticas;
+esos mismos requisitos de seguridad verificados proporcionan soluciones para problemas de seguridad
+que han ocurrido en el pasado.
 
-La importancia de comprender los requisitos clave de seguridad se describe en la práctica de [Requisitos de Seguridad][sammdsr]
+La importancia de comprender los requisitos clave de seguridad se describe en
+la práctica de [Requisitos de Seguridad][sammdsr]
 que forma parte de la sección de función empresarial [Diseño][sammd] dentro del [modelo SAMM][samm] de OWASP.
-Idealmente, los requisitos de seguridad de software estructurados están disponibles dentro de un marco de requisitos de seguridad,
+Idealmente, los requisitos de seguridad de software estructurados están disponibles dentro de
+un marco de requisitos de seguridad,
 y estos son utilizados tanto por los equipos de desarrolladores como por los equipos de producto.
 Además, los proveedores de la organización deben cumplir con los requisitos de seguridad;
-incorporar la seguridad en los acuerdos con proveedores para garantizar el cumplimiento de los requisitos de seguridad organizacionales.
+incorporar la seguridad en los acuerdos con proveedores para garantizar el cumplimiento de
+los requisitos de seguridad organizacionales.
 
 En resumen, los requisitos de seguridad existen para prevenir la repetición de fallos de seguridad pasados.
 
