@@ -1,81 +1,83 @@
 ---
 
-title: Top 10 Proactive Controls
+title: Top 10 Controles Proactivos
 layout: col-document
-tags: OWASP Developer Guide
-contributors: Andreas Happe, Jon Gadsden
-document: OWASP Developer Guide
-order: 7110
-permalink: /release/implementation/documentation/proactive_controls/
+tags: Guía del Desarrollador OWASP
+contributors: Roxana Calderon
+document: Guía del Desarrollador OWASP
+order: 47110
+permalink: /release-es/implementación/documentación/controles_proactivos/
 
 ---
 
 {% include breadcrumb.html %}
 
-### 5.1.1 Top 10 Proactive Controls
+### 5.1.1 Top 10 Controles Proactivos
 
-The OWASP [Top 10 Proactive Controls][proactive10] describes the most important controls and control categories
-that security architects and development teams should consider in web application projects.
+Los [Top 10 Controles Proactivos][proactive10] de OWASP describen los controles y categorías de control más importantes
+que los arquitectos de seguridad y los equipos de desarrollo deberían considerar en proyectos de aplicaciones web.
 
-#### What are the Top 10 Proactive Controls?
+#### ¿Qué son los Top 10 Controles Proactivos?
 
-The OWASP Top 10 Proactive Controls is a list of security techniques that should be considered for web applications.
-They are ordered by order of importance, with control number 1 being the most important:
+Los Top 10 Controles Proactivos de OWASP es una lista de técnicas de seguridad que deberían considerarse para aplicaciones web.
+Están ordenados por orden de importancia, siendo el control número 1 el más importante:
 
-* C1: [Implement Access Control][control1], ref [Cheat Sheets][csproactive-c1]
-* C2: [Use Cryptography the proper way][control2], ref [Cheat Sheets][csproactive-c2]
-* C3: [Validate all Input & Handle Exceptions][control3], ref [Cheat Sheets][csproactive-c3]
-* C4: [Address Security from the Start][control4], ref [Cheat Sheets][csproactive-c4]
-* C5: [Secure By Default Configurations][control5], ref [Cheat Sheets][csproactive-c5]
-* C6: [Keep your Components Secure][control6], ref [Cheat Sheets][csproactive-c6]
-* C7: [Implement Digital Identity][control7], ref [Cheat Sheets][csproactive-c7]
-* C8: [Leverage Browser Security Features][control8], ref [Cheat Sheets][csproactive-c8]
-* C9: [Implement Security Logging and Monitoring][control9], ref [Cheat Sheets][csproactive-c9]
-* C10: [Stop Server Side Request Forgery][control10], ref [Cheat Sheets][csproactive-c10]
+* C1: [Implementar Control de Acceso][control1], ref [Hojas de Referencia][csproactive-c1]
+* C2: [Usar Criptografía de la manera correcta][control2], ref [Hojas de Referencia][csproactive-c2]
+* C3: [Validar todas las Entradas y Manejar Excepciones][control3], ref [Hojas de Referencia][csproactive-c3]
+* C4: [Encargarse de la Seguridad desde el Inicio][control4], ref [Hojas de Referencia][csproactive-c4]
+* C5: [Configuraciones Seguras por Defecto][control5], ref [Hojas de Referencia][csproactive-c5]
+* C6: [Mantener sus Componentes Seguros][control6], ref [Hojas de Referencia][csproactive-c6]
+* C7: [Implementar Identidad Digital][control7], ref [Hojas de Referencia][csproactive-c7]
+* C8: [Aprovechar las Características de Seguridad del Navegador][control8], ref [Hojas de Referencia][csproactive-c8]
+* C9: [Implementar Registro y Monitoreo de Seguridad][control9], ref [Hojas de Referencia][csproactive-c9]
+* C10: [Detener la Falsificación de Solicitudes del Lado del Servidor][control10], ref [Hojas de Referencia][csproactive-c10]
 
-#### Why use them?
+#### ¿Por qué usarlos?
 
-The Proactive Controls are a well established list of security controls, first published in 2014
-and revised in 2018, so considering these controls can be seen as best practice.
-Following best practices is always encouraged: at the very least an organization should avoid the avoidable exploits.
+Los Controles Proactivos son una lista bien establecida de controles de seguridad, publicada por primera vez en 2014
+y revisada en 2018, por lo que considerar estos controles puede verse como una mejor práctica.
+Seguir las mejores prácticas siempre es recomendable: como mínimo, una organización debería evitar las vulnerabilidades evitables.
 
-Putting these proactive controls in place can help remediate common security vulnerabilities, for example:
+Implementar estos controles proactivos puede ayudar a remediar vulnerabilidades de seguridad comunes, por ejemplo:
 
 * [Clickjacking][csclick]
-* [Credential Stuffing][cscreds]
-* [Cross-site leaks][csxsleaks]
-* [Denial of Service][csdos] (DoS) attacks
-* DOM based [XSS attacks][csdom] including [DOM Clobbering][csdomclub]
-* [IDOR][csidor] (Insecure Direct Object Reference)
-* [Injection][csinjection] including [OS Command injection][csosinjection] and [XXE][csxxe]
-* LDAP specific [injection attacks][csldap]
-* [Prototype pollution][csproto]
-* [SSRF][csssrf] attacks
-* [SQL injection][cssql] and the use of [Query Parameterization][csquery]
-* [Unvalidated redirects and forwards][csredirect]
-* [XSS attacks][csxss] and [XSS Filter Evasion][csxssevade]
+* [Credential Stuffing][cscreds] (Relleno de credenciales)
+* [Cross-site leaks][csxsleaks] (Fugas entre sitios)
+* Ataques de [Denegación de Servicio][csdos] (DoS)
+* Ataques [XSS basados en DOM][csdom] incluyendo [DOM Clobbering][csdomclub]
+* [IDOR][csidor] (Referencia de Objeto Directa Insegura)
+* [Inyección][csinjection] incluyendo [inyección de comandos del sistema operativo][csosinjection] y [XXE][csxxe]
+* Ataques de [inyección][csldap] específicos de LDAP
+* [Contaminación de prototipos][csproto]
+* Ataques [SSRF][csssrf]
+* [Inyección SQL][cssql] y el uso de [Parametrización de Consultas][csquery]
+* [Redirecciones y reenvíos no validados][csredirect]
+* Ataques [XSS][csxss] y [Evasión de Filtros XSS][csxssevade]
 
-#### How to apply them
+#### Cómo aplicarlos
 
-The OWASP Spotlight series provides an overview of how to use this documentation project:
-'Project 8 - [Proactive Controls][spotlight08]'.
+La serie OWASP Spotlight proporciona una visión general de cómo utilizar este proyecto de documentación:
+'Proyecto 8 - [Controles Proactivos][spotlight08]'.
 
-During development of a web application, consider using each security control
-described in the sections of the Proactive Controls that are relevant to the application.
+Durante el desarrollo de una aplicación web, considere utilizar cada control de seguridad
+descrito en las secciones de los Controles Proactivos que sean relevantes para la aplicación.
 
-The OWASP Cheat Sheets have been indexed specifically for [each Proactive Control][csproactive],
-which can be used as additional information on implementing the control.
+Las Hojas de Referencia de OWASP han sido indexadas específicamente para [cada Control Proactivo][csproactive],
+que pueden utilizarse como información adicional sobre la implementación del control.
 
-#### References
+#### Referencias
 
-* OWASP [Proactive Controls project][proactive10]
-* OWASP Cheat Sheet [Proactive Controls index][csproactive]
+* [Proyecto de Controles Proactivos][proactive10] de OWASP
+* [Índice de Controles Proactivos][csproactive] de Hojas de Referencia de OWASP
 
 ----
+Traducción de versión [original en inglés][release070101].
 
-The OWASP Developer Guide is a community effort; if there is something that needs changing
-then [submit an issue][issue070101] or [edit on GitHub][edit070101].
+La Guía del Desarrollador de OWASP es un esfuerzo comunitario; si hay algo que necesita cambiarse,
+[cree un issue][issue070101] o [edítelo en GitHub][edit070101].
 
+[release070101]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/07-implementation/01-documentation/01-proactive-controls.md
 [csclick]: https://cheatsheetseries.owasp.org/cheatsheets/Clickjacking_Defense_Cheat_Sheet
 [cscreds]: https://cheatsheetseries.owasp.org/cheatsheets/Credential_Stuffing_Prevention_Cheat_Sheet
 [csdom]: https://cheatsheetseries.owasp.org/cheatsheets/DOM_based_XSS_Prevention_Cheat_Sheet
@@ -119,3 +121,5 @@ then [submit an issue][issue070101] or [edit on GitHub][edit070101].
 [issue070101]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2007-implementation/01-documentation/01-proactive-controls
 [proactive10]: https://top10proactive.owasp.org/
 [spotlight08]: https://youtu.be/HRtYDCWOSc0
+
+\newpage
