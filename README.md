@@ -46,7 +46,7 @@ is via the OWASP Slack [#project-developer-guide][project] project channel
 
 ----
 
-OWASP Developer Guide: _accessible security for developers_
+OWASP DevGuide: _accessible security for developers_
 
 [build]: https://github.com/OWASP/www-project-developer-guide/actions/workflows/ci.yaml
 [conduct]: code_of_conduct.md

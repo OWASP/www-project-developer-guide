@@ -14,10 +14,12 @@ permalink: /release-es/requerimientos/skf
 
 ### 3.7 Requisitos SKF
 
-El framework de conocimientos de seguridad[Security Knowledge Framework][skf] (SKF) es una aplicación de sistema experto que utiliza varios proyectos de código abierto
+El framework de conocimientos de seguridad[Security Knowledge Framework][skf] (SKF)
+es una aplicación de sistema experto que utiliza varios proyectos de código abierto
 para apoyar a los equipos de desarrollo y arquitectos de seguridad en la construcción de aplicaciones seguras.
 El SKF se basa en el [Estándar de Verificación de Seguridad de Aplicaciones][asvs] (ASVS) de OWASP
-para ayudar a los desarrolladores tanto en las fases previas al desarrollo como posteriores al desarrollo y crear aplicaciones seguras por diseño.
+para ayudar a los desarrolladores tanto en las fases previas al desarrollo como posteriores al desarrollo
+y crear aplicaciones seguras por diseño.
 
 Después de haber sido un proyecto insignia de OWASP durante muchos años, el SKF ya no forma parte de la organización OWASP;
 y continuará siendo referenciado en el OWASP Wayfinder y otros proyectos de OWASP
@@ -27,7 +29,8 @@ porque es un proyecto insignia para cualquier organización.
 
 El [SKF][skf] es una aplicación web que está disponible en el [repositorio de github][skfinstall].
 Hay una [versión demo][skfdemo] de SKF que es útil para explorar los múltiples beneficios del SKF.
-Tenga en cuenta que SKF está en proceso de migración a un [nuevo repositorio][skfrepo] por lo que el enlace de descarga puede cambiar.
+Tenga en cuenta que SKF está en proceso de migración a un [nuevo repositorio][skfrepo]
+por lo que el enlace de descarga puede cambiar.
 
 El SKF proporciona capacitación y orientación para la seguridad de aplicaciones:
 
@@ -41,7 +44,8 @@ El SKF proporciona capacitación y orientación para la seguridad de aplicacione
 
 #### ¿Por qué usar el SKF para requisitos?
 
-El SKF organiza los requisitos de seguridad en varias categorías que proporcionan un buen punto de partida para la seguridad de aplicaciones.
+El SKF organiza los requisitos de seguridad en varias categorías que proporcionan un buen punto de partida
+para la seguridad de aplicaciones.
 
 * API y Servicio Web
 * Control de Acceso
@@ -60,11 +64,13 @@ El SKF organiza los requisitos de seguridad en varias categorías que proporcion
 
 #### Cómo usar el SKF para requisitos
 
-Visite el [sitio web de la herramienta de requisitos][skfreqs] y seleccione los requisitos relevantes de las diversas categorías.
+Visite el [sitio web de la herramienta de requisitos][skfreqs]
+y seleccione los requisitos relevantes de las diversas categorías.
 Exporte la selección al formato de su elección (Markdown, hoja de cálculo CSV o texto plano)
 y utilícelo como punto de partida para los requisitos de seguridad de la aplicación.
 
-La serie OWASP Spotlight proporciona una visión general del SKF: 'Proyecto 7 - [Security Knowledge Framework (SKF)][spotlight07]'.
+La serie OWASP Spotlight proporciona una visión general del SKF:
+'Proyecto 7 - [Security Knowledge Framework (SKF)][spotlight07]'.
 
 #### Referencias
 

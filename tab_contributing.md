@@ -36,6 +36,10 @@ If you feel a section is missing then suggest changes to the structure in a [fea
 Be sure to follow our [code of conduct][conduct] and the [contributing guidelines][contribute]
 which provide style and document structure suggestions.
 
+----
+
+OWASP DevGuide: _accessible security for developers_
+
 [conduct]: https://github.com/OWASP/www-project-developer-guide/blob/main/code_of_conduct.md
 [contribute]: https://github.com/OWASP/www-project-developer-guide/blob/main/contributing.md
 [feature]: https://github.com/OWASP/www-project-developer-guide/issues/new/choose

@@ -10,4 +10,8 @@ then let us know ASAP and we will fix it as a priority.
 Open a [security advisory][advisory] and this will be provided
 only to the project's admins and in strict confidence.
 
+----
+
+OWASP DevGuide: _accessible security for developers_
+
 [advisory]: https://github.com/OWASP/www-project-developer-guide/security/advisories/new
