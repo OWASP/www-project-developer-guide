@@ -14,29 +14,37 @@ permalink: /release-es/diseño/lista_verificación_web/definir_requisitos_seguri
 
 ### 4.2.1 Lista de verificación: Definir Requisitos de Seguridad
 
-Un requisito de seguridad es una declaración de funcionalidad de seguridad que garantiza que se está satisfaciendo la seguridad del software.
-Los requisitos de seguridad se derivan de estándares de la industria, leyes aplicables y un historial de vulnerabilidades pasadas.
+Un requisito de seguridad es una declaración de funcionalidad de seguridad que garantiza
+que se está satisfaciendo la seguridad del software.
+Los requisitos de seguridad se derivan de estándares de la industria, leyes aplicables
+y un historial de vulnerabilidades pasadas.
 
-Consulte el control proactivo [C4: Abordar la Seguridad desde el Principio][control4] y sus [hojas de referencia][csproactive-c1]
+Consulte el control proactivo [C4: Abordar la Seguridad desde el Principio][control4]
+y sus [hojas de referencia][csproactive-c1]
 para más contexto del proyecto Top 10 Controles Proactivos de OWASP,
 y use las listas a continuación como sugerencias para una lista de verificación adaptada al proyecto individual.
 
 #### 1. Configuración del sistema
 
 1. Restringir aplicaciones, procesos y cuentas de servicio a los mínimos privilegios posibles
-2. Si la aplicación debe ejecutarse con privilegios elevados, elevar privilegios lo más tarde posible y reducirlos tan pronto como sea posible
+2. Si la aplicación debe ejecutarse con privilegios elevados, elevar privilegios lo más tarde posible
+    y reducirlos tan pronto como sea posible
 3. Eliminar toda funcionalidad y archivos innecesarios
 4. Eliminar código de prueba o cualquier funcionalidad no destinada a producción, antes del despliegue
-5. El almacén de configuración de seguridad para la aplicación debe estar disponible en formato legible para humanos para facilitar las auditorías
+5. El almacén de configuración de seguridad para la aplicación debe estar disponible
+    en formato legible para humanos para facilitar las auditorías
 6. Aislar los entornos de desarrollo de la producción y proporcionar acceso solo a grupos autorizados de desarrollo y prueba
-7. Implementar un sistema de control de cambios de software para gestionar y registrar cambios en el código tanto en desarrollo como en producción
+7. Implementar un sistema de control de cambios de software para gestionar
+    y registrar cambios en el código tanto en desarrollo como en producción
 
 #### 2. Prácticas criptográficas
 
 1. Utilizar módulos criptográficos de código abierto y revisados por pares
-2. Todas las funciones criptográficas utilizadas para proteger secretos del usuario de la aplicación deben implementarse en un sistema confiable
+2. Todas las funciones criptográficas utilizadas para proteger secretos del usuario
+    de la aplicación deben implementarse en un sistema confiable
 3. Los módulos criptográficos deben fallar de manera segura
-4. Asegurarse de que todos los elementos aleatorios como números, nombres de archivo, UUID(identificador único universal) y cadenas se generan
+4. Asegurarse de que todos los elementos aleatorios como números, nombres de archivo,
+    UUID(identificador único universal) y cadenas se generan
     utilizando el generador de números aleatorios aprobado del módulo criptográfico
 5. Los módulos criptográficos utilizados por la aplicación cumplen con FIPS 140-2 o un estándar equivalente
 6. Establecer y utilizar una política y proceso para la gestión de claves criptográficas
@@ -82,6 +90,5 @@ entonces [cree un issue][issue060201] o [edítelo en GitHub][edit060201].
 [issue060201]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2006-design/02-web-app-checklist/01-define-security-requirements
 [mas]: https://mas.owasp.org/
 [proactive10]: https://top10proactive.owasp.org/
-
 
 \newpage

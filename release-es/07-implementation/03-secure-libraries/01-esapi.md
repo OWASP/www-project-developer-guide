@@ -26,19 +26,28 @@ permalink: /release-es/implementación/librerías_seguras/esapi/
 
 ### 5.3.1 ESAPI
 
-La librería OWASP Enterprise Security API (ESAPI) [library][esapi-docs] es una librería de controles de seguridad para aplicaciones web escritas en Java.
+La librería OWASP Enterprise Security API (ESAPI) [library][esapi-docs] es una librería de controles de seguridad
+para aplicaciones web escritas en Java.
 
-La [librería ESAPI][esapi-project] es un proyecto de Laboratorio OWASP que se encuentra en desarrollo activo para [controles de seguridad de Java][esapi-java] con lanzamientos regulares.
+La [librería ESAPI][esapi-project] es un proyecto de Laboratorio OWASP que se encuentra en desarrollo activo
+para [controles de seguridad de Java][esapi-java] con lanzamientos regulares.
 
 #### ¿Qué es la librería ESAPI?
 
-La [librería][esapi-docs] OWASP Enterprise Security API (ESAPI) proporciona un conjunto de interfaces de control de seguridad que definen los tipos de parámetros que se pasan a los controles de seguridad.
+La [librería][esapi-docs] OWASP Enterprise Security API (ESAPI) proporciona un conjunto de interfaces de control
+de seguridad que definen los tipos de parámetros que se pasan a los controles de seguridad.
 
-ESAPI es una librería de controles de seguridad para aplicaciones web de código abierto que facilita a los programadores de Java escribir aplicaciones con menor riesgo. La librería Java de ESAPI está diseñada para ayudar a los programadores a incorporar seguridad sobre aplicaciones Java existentes, y la librería también sirve como una base sólida para nuevos desarrollos.
+ESAPI es una librería de controles de seguridad para aplicaciones web de código abierto que facilita
+a los programadores de Java escribir aplicaciones con menor riesgo.
+La librería Java de ESAPI está diseñada para ayudar a los programadores
+a incorporar seguridad sobre aplicaciones Java existentes,
+y la librería también sirve como una base sólida para nuevos desarrollos.
 
 #### ¿Por qué usarla?
 
-El uso de la librería Java ESAPI no es fácil de justificar, aunque su uso ciertamente debe ser considerado. Las decisiones de ingeniería que un equipo de desarrollo necesitará tomar al usar ESAPI se discuten en el documento '[¿Debería usar ESAPI?][esapi-question]'.
+El uso de la librería Java ESAPI no es fácil de justificar, aunque su uso ciertamente debe ser considerado.
+Las decisiones de ingeniería que un equipo de desarrollo necesitará tomar al usar ESAPI se discuten
+en el documento '[¿Debería usar ESAPI?][esapi-question]'.
 
 Para proyectos nuevos o para modificar un proyecto existente, se deberían considerar seriamente las alternativas:
 
@@ -49,11 +58,15 @@ Para proyectos nuevos o para modificar un proyecto existente, se deberían consi
 * Autenticación y autorización: [Apache Shiro][shiro], autenticación usando [Spring Security][spring]
 * Protección [CSRF][cscsrf]: Proyecto OWASP [CSRFGuard][csrfguard]
 
-Se podría considerar el uso de ESAPI si múltiples controles de seguridad proporcionados por esta librería se utilizan en un proyecto; entonces podría ser útil usar la librería monolítica ESAPI en lugar de múltiples librerías de clases dispares.
+Se podría considerar el uso de ESAPI si múltiples controles de seguridad proporcionados por esta librería se utilizan
+en un proyecto; entonces podría ser útil usar la librería monolítica ESAPI
+en lugar de múltiples librerías de clases dispares.
 
 #### Cómo usarla
 
-Si la decisión de ingeniería es usar la librería ESAPI, entonces puede descargarse como un archivo de paquete Java Archive (.jar). Hay una implementación de referencia para cada control de seguridad.
+Si la decisión de ingeniería es usar la librería ESAPI,
+entonces puede descargarse como un archivo de paquete Java Archive (.jar).
+Hay una implementación de referencia para cada control de seguridad.
 
 #### Referencias
 
@@ -61,13 +74,14 @@ Si la decisión de ingeniería es usar la librería ESAPI, entonces puede descar
 * [Documentación][esapi-docs] de ESAPI
 * [Proyecto][esapi-project] ESAPI
 * Proyecto [Java Encoder][java-encoder] de OWASP
-* [Java HTML Sanitizer][java-sanitizer] 
+* [Java HTML Sanitizer][java-sanitizer]
 * [Spring Security][spring]
 
 ----
 Traducción de versión [original en inglés][release070301].
 
-La Guía para Desarrolladores de OWASP es un esfuerzo comunitario; si hay algo que necesita cambiarse, [cree un issue][issue070301] o [edítelo en GitHub][edit070301].
+La Guía para Desarrolladores de OWASP es un esfuerzo comunitario;
+si hay algo que necesita cambiarse, [cree un issue][issue070301] o [edítelo en GitHub][edit070301].
 
 [release070301]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/07-implementation/03-secure-libraries/01-esapi.md
 [bean]: http://beanvalidation.org/

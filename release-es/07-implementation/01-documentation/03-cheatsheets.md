@@ -22,7 +22,7 @@ permalink: /release-es/implementación/documentación/serie_referencia/
 }
 </style>
 
-![Logotipo de hojas de referencia](../../../../assets/images/logos/cheatsheets.png "Hojas de Referencia de OWASP"){: .image-right }
+![Logotipo de hojas de referencia](../../../../assets/images/logos/cheatsheets.png "Hojas de Referencia"){: .image-right }
 
 ### 5.1.3 Serie de Hojas de Referencia
 
@@ -43,14 +43,17 @@ Las Hojas de Referencia son una serie de artículos autónomos escritos por la c
 sobre un tema específico dentro del dominio de seguridad.
 La gama de temas cubiertos por las hojas de referencia es amplia, casi de la A a la Z:
 desde Seguridad AJAX hasta vulnerabilidades XS (Cross Site).
-Cada hoja de referencia proporciona una introducción al tema y ofrece información suficiente para comprender el concepto básico.
+Cada hoja de referencia proporciona una introducción al tema y ofrece información suficiente
+para comprender el concepto básico.
 Luego continúa describiendo su tema con más detalle, a menudo proporcionando recomendaciones o mejores prácticas.
 
 #### ¿Por qué usarlas?
 
-La Serie de Hojas de Referencia de OWASP proporciona a los desarrolladores e ingenieros de seguridad la mayoría, y quizás toda,
+La Serie de Hojas de Referencia de OWASP proporciona a los desarrolladores
+e ingenieros de seguridad la mayoría, y quizás toda,
 la información sobre temas de seguridad que necesitarán para hacer su trabajo.
-Además, las Hojas de Referencia son consideradas autoritativas: se recomienda seguir los consejos de estas Hojas de Referencia.
+Además, las Hojas de Referencia son consideradas autoritativas:
+se recomienda seguir los consejos de estas Hojas de Referencia.
 Si una aplicación web no sigue las recomendaciones de una hoja de referencia, por ejemplo,
 la implementación podría ser cuestionada durante los procesos de prueba o revisión.
 
@@ -61,7 +64,8 @@ La serie OWASP Spotlight proporciona una buena visión general del uso de esta d
 
 Hay muchas hojas de referencia en la Serie de Hojas de Referencia de OWASP;
 91 de ellas hasta marzo de 2024 y este número está empezando a aumentar.
-La comunidad de OWASP reconoce que esto puede resultar abrumador al principio, por lo que las ha organizado de varias formas:
+La comunidad de OWASP reconoce que esto puede resultar abrumador al principio,
+por lo que las ha organizado de varias formas:
 
 * [Alfabéticamente][cheatsheet-alpha]
 * Indexadas para seguir el [proyecto ASVS][csasvs] o el [proyecto MASVS][csmasvs]

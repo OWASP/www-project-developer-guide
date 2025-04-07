@@ -35,22 +35,24 @@ proyecto [Top 10 Controles Proactivos de OWASP][proactive10].
 Estas listas de verificación proporcionan sugerencias que ciertamente deben adaptarse a
 los requisitos y el entorno específicos de un proyecto; no están destinadas a seguirse en su totalidad.
 
-Probablemente el mejor punto de partida para una lista de verificación es el proporcionado por el [Estándar de Verificación de Seguridad de Aplicaciones (ASVS)][asvs].
-El ASVS puede utilizarse para proporcionar un marco para una lista de verificación inicial, según el nivel de verificación de seguridad,
+Probablemente el mejor punto de partida para una lista de verificación es el proporcionado
+por el [Estándar de Verificación de Seguridad de Aplicaciones (ASVS)][asvs].
+El ASVS puede utilizarse para proporcionar un marco para una lista de verificación inicial,
+según el nivel de verificación de seguridad,
 y esta lista de verificación inicial del ASVS puede ampliarse utilizando las siguientes secciones de la lista.
 
 Secciones:
 
-4.2.1 [Lista de verificación: Definir requisitos de seguridad](01-define-security-requirements.md)  
-4.2.2 [Lista de verificación: Aprovechar marcos y bibliotecas de seguridad](02-frameworks-libraries.md)  
-4.2.3 [Lista de verificación: Acceso seguro a la base de datos](03-secure-database-access.md)  
-4.2.4 [Lista de verificación: Codificar y escapar datos](04-encode-escape-data.md)  
-4.2.5 [Lista de verificación: Validar todas las entradas](05-validate-inputs.md)  
-4.2.6 [Lista de verificación: Implementar identidad digital](06-digital-identity.md)  
-4.2.7 [Lista de verificación: Aplicar controles de acceso](07-access-controls.md)  
-4.2.8 [Lista de verificación: Proteger datos en todas partes](08-protect-data.md)  
-4.2.9 [Lista de verificación: Implementar registro y monitoreo de seguridad](09-logging-monitoring.md)  
-4.2.10 [Lista de verificación: Manejar todos los errores y excepciones](10-handle-errors-exceptions.md)  
+4.2.1 [Definir requisitos de seguridad](01-define-security-requirements.md)  
+4.2.2 [Aprovechar marcos y bibliotecas de seguridad](02-frameworks-libraries.md)  
+4.2.3 [Acceso seguro a la base de datos](03-secure-database-access.md)  
+4.2.4 [Codificar y escapar datos](04-encode-escape-data.md)  
+4.2.5 [Validar todas las entradas](05-validate-inputs.md)  
+4.2.6 [Implementar identidad digital](06-digital-identity.md)  
+4.2.7 [Aplicar controles de acceso](07-access-controls.md)  
+4.2.8 [Proteger datos en todas partes](08-protect-data.md)  
+4.2.9 [Implementar registro y monitoreo de seguridad](09-logging-monitoring.md)  
+4.2.10 [Manejar todos los errores y excepciones](10-handle-errors-exceptions.md)  
 
 ----
 Traducción de versión [original en inglés][release0602].

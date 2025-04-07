@@ -16,18 +16,21 @@ permalink: /release-es/implementación/dependencias/dependency_check/
 
 ### 5.2.1 Dependency-Check
 
-OWASP [Dependency-Check][depcheck] es una herramienta que proporciona Análisis de Composición de Software (SCA) desde la línea de comandos.
+OWASP [Dependency-Check][depcheck] es una herramienta que proporciona Análisis de Composición de Software (SCA)
+desde la línea de comandos.
 Identifica las bibliotecas de terceros en un proyecto de aplicación web
 y verifica si estas bibliotecas son vulnerables utilizando la [base de datos NVD][nist-db].
 
-Dependency-Check es un proyecto Insignia (Flagship) de OWASP y puede descargarse desde el área de [versiones de GitHub][depcheck-download].
+Dependency-Check es un proyecto Insignia (Flagship) de OWASP y puede descargarse desde el área
+de [versiones de GitHub][depcheck-download].
 Dependency-Check se inició en septiembre de 2012 y desde entonces ha recibido soporte continuo con versiones regulares.
 
 #### ¿Qué es Dependency-Check?
 
 Dependency-Check es una herramienta de Análisis de Composición de Software (SCA) que intenta detectar
 vulnerabilidades públicas contenidas dentro de las dependencias de un proyecto.
-Lo hace determinando si existe un identificador de enumeracion de plataforma común - [Common Platform Enumeration][cpe] (CPE) para una dependencia dada.
+Lo hace determinando si existe un identificador de enumeracion de plataforma común - [Common Platform Enumeration][cpe]
+(CPE) para una dependencia dada.
 
 El motor principal contiene una serie de analizadores que inspeccionan las dependencias del proyecto
 e identifican el CPE para la dependencia dada.
@@ -47,17 +50,19 @@ El motor de análisis principal de Dependency-Check puede usarse como:
 
 La verificación de componentes vulnerables, '[A06 Componentes Vulnerables y Desactualizados][a06]', está en el OWASP Top 10
 y es una de las actividades de seguridad más directas y efectivas para implementar.
-La herramienta Dependency-Check proporciona verificaciones de componentes vulnerables que podrían ejecutarse desde la línea de comandos.
+La herramienta Dependency-Check proporciona verificaciones de componentes vulnerables
+que podrían ejecutarse desde la línea de comandos.
 
-Esto es útil para los equipos de desarrollo; la capacidad de verificar componentes vulnerables de la aplicación desde la línea de comandos
+Esto es útil para los equipos de desarrollo; la capacidad de verificar componentes vulnerables
+de la aplicación desde la línea de comandos
 proporciona retroalimentación inmediata al desarrollador sin tener que esperar a que se ejecute un pipeline.
 
 Dependency-Check también proporciona plugins para verificar componentes vulnerables en [pipelines CI/CD][cscicd].
 
 #### Cómo usarlo
 
-La serie OWASP Spotlight proporciona un ejemplo de los riesgos involucrados en el uso de bibliotecas desactualizadas y vulnerables,
-y cómo usar Dependency-Check: 'Project 2 - [OWASP Dependency Check][spotlight02]'.
+La serie OWASP Spotlight proporciona un ejemplo de los riesgos involucrados en el uso de bibliotecas desactualizadas
+y vulnerables, y cómo usar Dependency-Check: 'Project 2 - [OWASP Dependency Check][spotlight02]'.
 
 Consulte la [documentación][depcheck-docs] de Dependency-Check para comenzar a ejecutarlo desde la línea de comandos:
 
@@ -81,8 +86,8 @@ en un pipeline que luego puede generar los informes SCA.
 ----
 Traducción de versión [original en inglés][release070201].
 
-La Guía del Desarrollador de OWASP es un esfuerzo comunitario; si hay algo que necesita cambiarse
-entonces [cree un issue][issue070201] o [edítelo en GitHub][edit070201].
+La Guía del Desarrollador de OWASP es un esfuerzo comunitario;
+si hay algo que necesita cambiarse entonces [cree un issue][issue070201] o [edítelo en GitHub][edit070201].
 
 [release070201]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/07-implementation/02-dependencies/01-dependency-check.md
 [a06]: https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/

@@ -19,7 +19,8 @@ que los arquitectos de seguridad y los equipos de desarrollo deberían considera
 
 #### ¿Qué son los Top 10 Controles Proactivos?
 
-Los Top 10 Controles Proactivos de OWASP es una lista de técnicas de seguridad que deberían considerarse para aplicaciones web.
+Los Top 10 Controles Proactivos de OWASP es una lista de técnicas de seguridad que
+deberían considerarse para aplicaciones web.
 Están ordenados por orden de importancia, siendo el control número 1 el más importante:
 
 * C1: [Implementar Control de Acceso][control1], ref [Hojas de Referencia][csproactive-c1]
@@ -37,7 +38,8 @@ Están ordenados por orden de importancia, siendo el control número 1 el más i
 
 Los Controles Proactivos son una lista bien establecida de controles de seguridad, publicada por primera vez en 2014
 y revisada en 2018, por lo que considerar estos controles puede verse como una mejor práctica.
-Seguir las mejores prácticas siempre es recomendable: como mínimo, una organización debería evitar las vulnerabilidades evitables.
+Seguir las mejores prácticas siempre es recomendable:
+como mínimo, una organización debería evitar las vulnerabilidades evitables.
 
 Implementar estos controles proactivos puede ayudar a remediar vulnerabilidades de seguridad comunes, por ejemplo:
 

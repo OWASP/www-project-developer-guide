@@ -3,7 +3,7 @@
 title: Modelado de Amenazas en la Práctica
 layout: col-document
 tags: Guía del Desarrollador OWASP
-contributors: Adam Shostack, Jon Gadsden, Roxana Calderon
+contributors: Adam Shostack, Roxana Calderon
 document: Guía del Desarrollador OWASP
 order: 46110
 permalink: /release-es/diseño/modelado_amenazas/modelado_amenazas_práctica/
@@ -14,8 +14,10 @@ permalink: /release-es/diseño/modelado_amenazas/modelado_amenazas_práctica/
 
 ### 4.1.1 Modelado de amenazas en la práctica
 
-Esta sección trata sobre el Modelado de Amenazas, una actividad descrita en el Modelo de Madurez de Aseguramiento de Software de OWASP ([SAMM][samm]).
-El modelado de amenazas es parte de la práctica de seguridad de [Evaluación de Amenazas][sammdta] en la función empresarial de [Diseño][sammd].
+Esta sección trata sobre el Modelado de Amenazas, una actividad descrita en
+el Modelo de Madurez de Aseguramiento de Software de OWASP ([SAMM][samm]).
+El modelado de amenazas es parte de la práctica de seguridad de [Evaluación de Amenazas][sammdta]
+en la función empresarial de [Diseño][sammd].
 
 Gran parte del material de esta sección está extraído del [proyecto de Modelado de Amenazas][tmproject] de OWASP,
 y la filosofía de esta sección intenta seguir el [Manifiesto de Modelado de Amenazas][tmmanifesto].
@@ -24,12 +26,14 @@ y la filosofía de esta sección intenta seguir el [Manifiesto de Modelado de Am
 
 #### Descripción general
 
-Las actividades de modelado de amenazas intentan descubrir lo que podría salir mal dentro de un sistema y determinar qué hacer al respecto.
-Los resultados del modelado de amenazas toman diversas formas, incluyendo modelos y diagramas de sistemas, listas de amenazas,
-mitigaciones o suposiciones, notas de reuniones y más.
+Las actividades de modelado de amenazas intentan descubrir lo que podría salir mal dentro de un sistema
+y determinar qué hacer al respecto.
+Los resultados del modelado de amenazas toman diversas formas, incluyendo modelos y diagramas de sistemas,
+listas de amenazas, mitigaciones o suposiciones, notas de reuniones y más.
 Esto puede reunirse en un único documento de modelo de amenazas; una representación estructurada de toda la información
 que afecta a la seguridad de una aplicación.
-Una buena visión general de esta actividad se proporciona en la sección sobre modelado de amenazas del proyecto [Cultura de Seguridad][culturetm].
+Una buena visión general de esta actividad se proporciona en la sección sobre modelado de amenazas
+del proyecto [Cultura de Seguridad][culturetm].
 
 En esencia, es una visión de la aplicación y su entorno a través de cristales de seguridad.
 
@@ -41,10 +45,12 @@ Cualquier vulnerabilidad potencial que se haya identificado a partir del modelo 
 utilizando una de las estrategias comunes: mitigar, eliminar, transferir o aceptar la amenaza de ser explotada.
 
 Hay muchas razones para hacer modelado de amenazas, pero la más importante es que esta actividad es _útil_,
-probablemente es la única etapa en un ciclo de vida de desarrollo donde un equipo se detiene y pregunta: "¿Qué puede salir mal?".
+probablemente es la única etapa en un ciclo de vida de desarrollo donde un equipo se detiene y pregunta:
+"¿Qué puede salir mal?".
 
-Hay otras razones para el modelado de amenazas, por ejemplo, el cumplimiento de estándares o el análisis para la recuperación ante desastres,
-pero el objetivo principal del modelado de amenazas es remediar vulnerabilidades (posibles) antes de que los actores maliciosos puedan explotarlas.
+Hay otras razones para el modelado de amenazas, por ejemplo, el cumplimiento de estándares
+o el análisis para la recuperación ante desastres, pero el objetivo principal del modelado de amenazas es remediar
+vulnerabilidades (posibles) antes de que los actores maliciosos puedan explotarlas.
 
 #### Qué es el modelado de amenazas
 
@@ -53,13 +59,14 @@ dentro del contexto de proteger algo de valor.
 
 El modelado de amenazas se puede aplicar a una amplia gama de cosas, incluyendo software, aplicaciones, sistemas, redes,
 sistemas distribuidos, cosas en Internet de las cosas, procesos de negocio, etc.
-Hay muy pocos productos técnicos que no puedan tener un modelado de amenazas; que sea 
-más o menos gratificante, dependiendo de cuánto éste se comunica, o interactúa, con el mundo.
+Hay muy pocos productos técnicos que no puedan tener un modelado de amenazas;
+que sea más o menos gratificante, dependiendo de cuánto éste se comunica, o interactúa, con el mundo.
 
 Un documento de modelo de amenazas es un registro del proceso de modelado de amenazas, y a menudo incluye:
 
 * una descripción / diseño / modelo de lo que es preocupante
-* una lista de suposiciones que pueden ser verificadas o rechazadas en el futuro a medida que cambia el panorama de amenazas
+* una lista de suposiciones que pueden ser verificadas o rechazadas en el futuro
+    a medida que cambia el panorama de amenazas
 * amenazas potenciales al sistema
 * remediación / acciones a tomar para cada amenaza
 * formas de validar el modelo y las amenazas, y verificación del éxito de las acciones tomadas
@@ -88,15 +95,18 @@ La inclusión del modelado de amenazas en las actividades de desarrollo seguro p
 * Documentar amenazas y mitigación
 * Asegurar que los requisitos de negocio (o metas) estén adecuadamente protegidos frente a
     un actor malicioso, accidentes u otras causas de impacto
-* Identificación de casos de prueba de seguridad / escenarios de prueba de seguridad para probar los requisitos de seguridad
+* Identificación de casos de prueba de seguridad / escenarios de prueba de seguridad
+    para probar los requisitos de seguridad
 
-El modelado de amenazas también proporciona una clara "línea de visión" (mediante límites y alcances del objetivo) a través de un proyecto que puede ser utilizada
+El modelado de amenazas también proporciona una clara "línea de visión" (mediante límites y alcances del objetivo)
+a través de un proyecto que puede ser utilizada
 para justificar otros esfuerzos de seguridad.
 El modelo de amenazas permite que las decisiones de seguridad se tomen racionalmente, con toda la información disponible,
 para que las decisiones de seguridad puedan ser adecuadamente respaldadas.
 El proceso de modelado de amenazas naturalmente produce un argumento de aseguramiento que puede ser utilizado para explicar
 y defender la seguridad de una aplicación.
-Un argumento de aseguramiento comienza con algunas afirmaciones de alto nivel y luego las justifica con sub-afirmaciones o evidencias.
+Un argumento de aseguramiento comienza con algunas afirmaciones de alto nivel
+y luego las justifica con sub-afirmaciones o evidencias.
 
 #### Cuándo modelar amenazas
 
@@ -150,8 +160,10 @@ Las técnicas y metodologías a considerar incluyen CIA, [STRIDE][stride], [LIND
 [cadenas de eliminación cibernética][chains], [PASTA][pasta], patrones de ataque comunes ([CAPEC][capec]) y otros.
 
 Existen recursos disponibles que ayudarán a identificar amenazas y vulnerabilidades.
-OWASP proporciona un conjunto de tarjetas, [Cornucopia][corncards], que ofrecen sugerencias y explicaciones para vulnerabilidades generales.
-El juego de tarjetas de modelado de amenazas [Elevation of Privileges][eop] es una forma fácil de comenzar con el modelado de amenazas,
+OWASP proporciona un conjunto de tarjetas, [Cornucopia][corncards],
+que ofrecen sugerencias y explicaciones para vulnerabilidades generales.
+El juego de tarjetas de modelado de amenazas [Elevation of Privileges][eop]
+es una forma fácil de comenzar con el modelado de amenazas,
 y existe la versión OWASP de [Serpientes y Escaleras][snakes] que realmente gamifica estas actividades.
 
 **3 ¿Qué vamos a hacer al respecto**?
@@ -176,7 +188,8 @@ y según las preferencias del propio equipo de desarrollo.
 Las diversas técnicas y conceptos se discuten en la [Hoja de Referencia de Modelado de Amenazas][cstm]
 y se pueden resumir así:
 
-1. Terminología: intente usar términos estándar como actores, límites de confianza, etc., ya que esto ayudará a transmitir estos conceptos
+1. Terminología: intente usar términos estándar como actores, límites de confianza, etc,
+    ya que esto ayudará a transmitir estos conceptos
 2. Alcance: sea claro sobre lo que se está modelando y manténgase dentro de este alcance
 3. Documentar: decida qué herramientas y qué resultados se requieren para satisfacer el cumplimiento, por ejemplo
 4. Descomponer: divida el sistema que se está modelando en partes manejables
@@ -218,7 +231,8 @@ aunque podrías preguntar al equipo que usa la pizarra cómo implementan el cont
 
 **La brevedad es primordial**:
 
-Es muy fácil crear un modelo de amenazas que se parezca mucho a un diagrama del sistema, con muchos componentes y flujos de datos.
+Es muy fácil crear un modelo de amenazas que se parezca mucho a un diagrama del sistema,
+con muchos componentes y flujos de datos.
 Esto logrará un diagrama convincente, pero no es un modelo específico para la amenaza de exploits.
 En cambio, concéntrese en las superficies de ataque/amenaza y sea robusto al consolidar múltiples componentes del sistema
 en un solo componente del modelo de amenazas.
@@ -249,11 +263,13 @@ entonces también es una elección perfectamente buena.
 #### Recursos
 
 * [Marco de Cuatro Preguntas][4QFW] de Shostack
-* [pytm][PYTM] herramienta de Modelado de Amenazas Pythonica de OWASP
+* [pytm][PYTM] herramienta de Modelado de Amenazas Pythónico de OWASP
 * OWASP [Threat Dragon][tdtm] herramienta de modelado de amenazas usando diagramas de flujo de datos
 * [Threagile](https://threagile.io), un proyecto de código abierto que proporciona modelado de amenazas Ágil
-* [Herramienta de Modelado de Amenazas][TMT] de Microsoft, una herramienta ampliamente utilizada en toda la comunidad de seguridad y de descarga gratuita
-* [threatspec](https://github.com/threatspec/threatspec), una herramienta de código abierto basada en comentarios en línea con el código
+* [Herramienta de Modelado de Amenazas][TMT] de Microsoft, una herramienta ampliamente utilizada
+    en toda la comunidad de seguridad y de descarga gratuita
+* [threatspec](https://github.com/threatspec/threatspec), una herramienta de código abierto basada
+    en comentarios en línea con el código
 * Enumeración y Clasificación de Patrones de Ataque Comunes de MITRE ([CAPEC][capec])
 * [Calculadora del Sistema Común de Puntuación de Vulnerabilidades][nist-cvss] de NIST
 

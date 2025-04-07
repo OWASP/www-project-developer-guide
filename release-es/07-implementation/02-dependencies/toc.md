@@ -44,7 +44,8 @@ Secciones:
 ----
 Traducción de versión [original en inglés][release0720].
 
-La Guía del Desarrollador de OWASP es un esfuerzo comunitario; si hay algo que necesita cambiarse entonces [cree un issue][issue0720] o [edítelo en GitHub][edit0720].
+La Guía del Desarrollador de OWASP es un esfuerzo comunitario;
+si hay algo que necesita cambiarse entonces [cree un issue][issue0720] o [edítelo en GitHub][edit0720].
 
 [release0720]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/07-implementation/02-dependencies/toc.md
 [cve]: https://cve.mitre.org/

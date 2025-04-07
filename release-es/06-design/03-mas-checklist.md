@@ -3,7 +3,7 @@
 title: Lista de verificación MAS
 layout: col-document
 tags: Guía del Desarrollador OWASP
-contributors: Jon Gadsden, Roxana Calderon
+contributors: Roxana Calderon
 document: Guía del Desarrollador OWASP
 order: 46400
 permalink: /release-es/diseño/mas_lista_verificación/
@@ -22,7 +22,7 @@ permalink: /release-es/diseño/mas_lista_verificación/
 }
 </style>
 
-![Logo de la lista de verificación MAS](../../../assets/images/logos/mas.png "Lista de verificación OWASP MAS"){: .image-right }
+![Logo de la lista de verificación MAS](../../../assets/images/logos/mas.png "Lista de verificación MAS"){: .image-right }
 
 ### 4.3 Lista de verificación MAS
 
@@ -32,11 +32,13 @@ estándares de la industria para la seguridad de aplicaciones móviles.
 El proyecto OWASP MAS proporciona el [Estándar de Verificación de Seguridad de Aplicaciones Móviles][masvs] (MASVS)
 para aplicaciones móviles y una completa [Guía de Pruebas de Seguridad de Aplicaciones Móviles][mastg] (MASTG).
 
-La [Lista de verificación de Seguridad de Aplicaciones Móviles][masc] contiene enlaces a los casos de prueba MASTG para cada control MASVS.
+La [Lista de verificación de Seguridad de Aplicaciones Móviles][masc] contiene enlaces
+a los casos de prueba MASTG para cada control MASVS.
 
 #### ¿Qué es la Lista de verificación MAS?
 
-La Lista de verificación MAS proporciona una lista que hace seguimiento de los casos de prueba MASTG para un control MASVS determinado.
+La Lista de verificación MAS proporciona una lista que hace seguimiento de los casos de prueba MASTG
+para un control MASVS determinado.
 Esta Lista de verificación MAS está dividida en categorías que coinciden con las categorías MASVS:
 
 * [MASVS-STORAGE](https://mas.owasp.org/checklists/MASVS-STORAGE/) almacenamiento de datos sensibles
@@ -44,7 +46,8 @@ Esta Lista de verificación MAS está dividida en categorías que coinciden con 
 * [MASVS-AUTH](https://mas.owasp.org/checklists/MASVS-AUTH/) mecanismos de autenticación y autorización
 * [MASVS-NETWORK](https://mas.owasp.org/checklists/MASVS-NETWORK/) comunicaciones de red
 * [MASVS-PLATFORM](https://mas.owasp.org/checklists/MASVS-PLATFORM/) interacciones con la plataforma móvil
-* [MASVS-CODE](https://mas.owasp.org/checklists/MASVS-CODE/) puntos de entrada de la plataforma y datos junto con software de terceros
+* [MASVS-CODE](https://mas.owasp.org/checklists/MASVS-CODE/) puntos de entrada de la plataforma
+y datos junto con software de terceros
 * [MASVS-RESILIENCE](https://mas.owasp.org/checklists/MASVS-RESILIENCE/) integridad y ejecución en una plataforma confiable
 * [MASVS-PRIVACY](https://mas.owasp.org/checklists/MASVS-PRIVACY/) privacidad de usuarios, datos y recursos
 

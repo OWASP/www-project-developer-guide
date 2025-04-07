@@ -17,10 +17,12 @@ permalink: /release-es/diseño/lista_verificación_web/validar_entradas/
 La validación de entradas es una colección de técnicas que aseguran que solo los datos con formato adecuado
 puedan ingresar a una aplicación de software o componente del sistema.
 
-Es vital que se realice la validación de entradas para proporcionar el punto de partida para una aplicación o sistema seguro.
+Es vital que se realice la validación de entradas para proporcionar el punto de partida para una aplicación
+o sistema seguro.
 Sin validación de entradas, la aplicación/sistema de software seguirá siendo vulnerable a ataques nuevos y variados.
 
-Consulte el control proactivo [C3: Validar Todas las Entradas y Manejar Excepciones][control3] y sus [hojas de referencia][csproactive-c5]
+Consulte el control proactivo [C3: Validar Todas las Entradas y Manejar Excepciones][control3]
+y sus [hojas de referencia][csproactive-c5]
 para más contexto del proyecto Top 10 Controles Proactivos de OWASP,
 y use la lista a continuación como sugerencias para una lista de verificación adaptada al proyecto individual.
 
@@ -51,7 +53,8 @@ y use la lista a continuación como sugerencias para una lista de verificación 
     para prevenir la creación de objetos hostiles o la manipulación de datos
 2. Aplicar restricciones estrictas de tipo durante la deserialización antes de la creación de objetos;
     típicamente se espera un conjunto definible de clases
-3. Aislar las funciones que hacen deserialización para que se ejecuten en entornos de muy bajo privilegio, como contenedores temporales
+3. Aislar las funciones que hacen deserialización para que se ejecuten en entornos de muy bajo privilegio,
+    como contenedores temporales
 4. Registrar excepciones y fallos de deserialización de seguridad
 5. Restringir o monitorear la conectividad de red entrante y saliente de contenedores o servidores que deserializan
 6. Monitorear la deserialización, por ejemplo, alertando si un agente de usuario deserializa constantemente

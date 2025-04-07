@@ -1,7 +1,7 @@
 title: Modelado de Amenazas
 layout: col-document
 tags: Guía del Desarrollador OWASP
-contributors: Jon Gadsden, Roxana Calderon
+contributors: Roxana Calderon
 document: Guía del Desarrollador OWASP
 order:
 
@@ -35,7 +35,8 @@ Secciones:
 4.1.5 [LINDDUN GO](#linddun-go)  
 4.1.6 [Kit de herramientas de modelado de amenazas](#threat-modeling-toolkit)  
 
-----
+---
+
 Traducción de versión [original en inglés][release0601].
 
 La Guía del Desarrollador de OWASP es un esfuerzo comunitario; si hay algo que necesita cambios, [cree un issue][issue0601].

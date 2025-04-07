@@ -97,7 +97,7 @@ y vale la pena considerar varias herramientas de OWASP para ayudar con esto;
 
 * **Diseño**: es importante diseñar la seguridad en la aplicación - nunca es demasiado tarde para hacerlo,
 pero cuanto antes mejor y más fácil de hacer. OWASP proporciona dos herramientas,
-[Modelado de Amenazas Pythonico][pytm] y [Threat Dragon][tdtm],
+[Modelado de Amenazas Pythónico][pytm] y [Threat Dragon][tdtm],
 para el modelado de amenazas junto con la gamificación de seguridad usando [Cornucopia][cornucopia].
 
 * **Implementación**: el proyecto [Top 10 Controles Proactivos][proactive10] de OWASP afirma que estos son
@@ -202,7 +202,7 @@ y proporcionan retroalimentación instantánea sobre las pruebas mientras se eje
 * [API de Seguridad Empresarial][esapi-project] (ESAPI)
 * [Proyecto de Estándares de Integración Wayfinder de Seguridad de Aplicaciones][intstand]
 * [Seguridad de Aplicaciones Móviles][mas] (MAS)
-* [Modelado de Amenazas Pythonico][pytm]
+* [Modelado de Amenazas Pythónico][pytm]
 * [Threat Dragon][tdtm]
 * [SecurityRAT][srat] (Herramienta de Automatización de Requisitos)
 

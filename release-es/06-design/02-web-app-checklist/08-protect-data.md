@@ -14,11 +14,14 @@ permalink: /release-es/diseño/lista_verificación_web/proteger_datos/
 
 ### 4.2.8 Lista de Verificación: Proteger Datos en Todas Partes
 
-Los datos sensibles como contraseñas, números de tarjetas de crédito, registros médicos, información personal y secretos comerciales
-requieren protección adicional, particularmente si esos datos están sujetos a leyes de privacidad (Reglamento General de Protección de Datos de la UE, GDPR),
-reglas de protección de datos financieros como el Estándar de Seguridad de Datos para la Industria de Tarjetas de Pago (PCI DSS) u otras regulaciones.
+Los datos sensibles como contraseñas, números de tarjetas de crédito, registros médicos,
+información personal y secretos comerciales requieren protección adicional, particularmente si esos datos están
+sujetos a leyes de privacidad (Reglamento General de Protección de Datos de la UE, GDPR),
+reglas de protección de datos financieros como el
+Estándar de Seguridad de Datos para la Industria de Tarjetas de Pago (PCI DSS) u otras regulaciones.
 
-Consulte el control proactivo [C2: Usar la Criptografía de manera adecuada][control2] y sus [hojas de referencia][csproactive-c8]
+Consulte el control proactivo [C2: Usar la Criptografía de manera adecuada][control2]
+y sus [hojas de referencia][csproactive-c8]
 para obtener más contexto del proyecto OWASP Top 10 Controles Proactivos,
 y utilice la lista a continuación como sugerencias para una lista de verificación adaptada para el proyecto individual.
 
@@ -29,7 +32,8 @@ y utilice la lista a continuación como sugerencias para una lista de verificaci
 3. Cifrar datos en tránsito
 4. Asegurar que los canales de comunicación seguros estén configurados correctamente
 5. Evitar almacenar datos sensibles cuando sea posible
-6. Asegurar que los datos sensibles en reposo estén protegidos criptográficamente para evitar divulgación y modificación no autorizada
+6. Asegurar que los datos sensibles en reposo estén protegidos criptográficamente para evitar divulgación
+    y modificación no autorizada
 7. Eliminar datos sensibles cuando ya no sean necesarios
 8. Almacenar secretos a nivel de aplicación en una bóveda de secretos
 9. Verificar que los secretos no estén almacenados en código, archivos de configuración o variables de entorno

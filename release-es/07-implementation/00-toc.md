@@ -15,11 +15,13 @@ order:
 
 ## 5. Implementación
 
-La función de negocio [Implementación][sammi] está descrita por el [Modelo de Madurez de Aseguramiento de Software][sammm] (SAMM) de OWASP.
+La función de negocio [Implementación][sammi] está descrita por
+el [Modelo de Madurez de Aseguramiento de Software][sammm] (SAMM) de OWASP.
 La Implementación se centra en los procesos y actividades relacionadas con la manera en que una organización
 construye y despliega componentes de software y sus defectos relacionados.
 Las actividades de Implementación tienen el mayor impacto en la vida diaria de los desarrolladores,
-y un objetivo importante de la Implementación es entregar software que funcione de manera confiable con un mínimo de defectos.
+y un objetivo importante de la Implementación es entregar software que funcione de manera confiable
+con un mínimo de defectos.
 
 La Implementación debe incluir prácticas de seguridad como:
 
@@ -30,11 +32,14 @@ La Implementación debe incluir prácticas de seguridad como:
 La Implementación es donde la aplicación/sistema comienza a tomar forma; se escribe el código fuente y se crean las pruebas.
 La implementación de la aplicación sigue un ciclo de vida de desarrollo seguro, con seguridad incorporada desde el inicio.
 
-La implementación utilizará un método seguro de control y almacenamiento del código fuente para cumplir con los requisitos de seguridad del diseño.
+La implementación utilizará un método seguro de control y almacenamiento del código fuente
+para cumplir con los requisitos de seguridad del diseño.
 El equipo de desarrollo se referirá a la documentación que aconseja sobre las mejores prácticas,
-utilizará bibliotecas seguras siempre que sea posible, además de verificar y realizar seguimiento de las dependencias externas.
+utilizará bibliotecas seguras siempre que sea posible,
+además de verificar y realizar seguimiento de las dependencias externas.
 
-Gran parte de la habilidad de implementación proviene de la experiencia, y tener en cuenta lo que se debe hacer y lo que no se debe hacer
+Gran parte de la habilidad de implementación proviene de la experiencia,
+y tener en cuenta lo que se debe hacer y lo que no se debe hacer
 durante el desarrollo seguro es en sí misma una actividad de conocimiento importante.
 
 Secciones:
@@ -56,7 +61,8 @@ Secciones:
 ----
 Traducción de versión [original en inglés][release0700].
 
-La Guía del Desarrollador de OWASP es un esfuerzo comunitario; si hay algo que necesita cambiarse, [cree un issue][issue0700].
+La Guía del Desarrollador de OWASP es un esfuerzo comunitario;
+si hay algo que necesita cambiarse, [cree un issue][issue0700].
 
 [release0700]: https://github.com/OWASP/www-project-developer-guide/blob/main/release/07-implementation/toc.md
 [issue0700]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=enhancement&template=request.md&title=Update:%2007-implementation/00-toc
