@@ -3,7 +3,7 @@
 title: Threat Dragon
 layout: col-document
 tags: Guía del Desarrollador OWASP
-contributors: Jon Gadsden, Roxana Calderon
+contributors: Roxana Calderon
 document: Guía del Desarrollador OWASP
 order: 46130
 permalink: /release-es/diseño/modelado_amenazas/threat_dragon/
@@ -65,11 +65,12 @@ La serie Spotlight de OWASP proporciona una visión general de Threat Dragon y c
 
 Es sencillo comenzar a usar Threat Dragon; la última versión está [disponible para usar en línea][tddemo]:
 
-1. seleccione 'Login to Local Session' (Iniciar sesión en sesión local)
-2. seleccione 'Explore a Sample Threat Model' (Explorar un modelo de amenazas de ejemplo)
+1. seleccione 'Conectarse con Sesión Local' (Iniciar sesión en sesión local)
+2. seleccione 'Crear un nuevo modelo de amenazas (threat model) desde cero' (Explorar un modelo de amenazas de ejemplo)
 3. seleccione 'Version 2 Demo Model' (Modelo de demostración versión 2)
 4. Se muestra los metadatos del modelo de amenazas que pueden ser editados
-5. haga clic en el diagrama 'Main Request Data Flow' (Flujo de datos de solicitud principal) para mostrar el diagrama de flujo de datos
+5. haga clic en el diagrama 'Main Request Data Flow' (Flujo de datos de solicitud principal)
+    para mostrar el diagrama de flujo de datos
 6. los componentes del diagrama pueden ser inspeccionados, y se muestran sus amenazas asociadas
 7. los componentes pueden ser añadidos y eliminados, junto con la edición de sus propiedades
 

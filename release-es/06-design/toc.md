@@ -3,7 +3,7 @@
 title: Diseño
 layout: col-document
 tags: Guía del Desarrollador OWASP
-contributors: Jon Gadsden, Roxana Calderon
+contributors: Roxana Calderon
 document: Guía del Desarrollador OWASP
 order: 46000
 permalink: /release-es/diseño/
@@ -26,13 +26,15 @@ permalink: /release-es/diseño/
 
 ## 4. Diseño
 
-Refiriéndonos a la [Hoja de Referencia de Diseño de Productos Seguros][spdcs], el propósito de la arquitectura y diseño seguros es garantizar
+Refiriéndonos a la [Hoja de Referencia de Diseño de Productos Seguros][spdcs],
+el propósito de la arquitectura y diseño seguros es garantizar
 que todos los productos cumplan o excedan los requisitos de seguridad establecidos por la organización,
 enfocándose en la seguridad vinculada a los componentes y tecnologías utilizadas durante el desarrollo de la aplicación.
 
 El Diseño de Arquitectura Segura examina la selección y composición de componentes que forman la base de la solución.
-La Gestión de Tecnología examina la seguridad de las tecnologías de apoyo utilizadas durante el desarrollo, despliegue y operaciones,
-como entornos de desarrollo y herramientas, herramientas de despliegue, y sistemas operativos y herramientas.
+La Gestión de Tecnología examina la seguridad de las tecnologías de apoyo utilizadas durante el desarrollo,
+despliegue y operaciones, como entornos de desarrollo y herramientas,
+herramientas de despliegue, y sistemas operativos y herramientas.
 
 Un diseño seguro ayudará a establecer configuraciones predeterminadas seguras, minimizar el área de superficie de ataque
 y fallar de manera segura con configuraciones predeterminadas bien definidas y comprendidas.
@@ -43,9 +45,11 @@ También considerará y seguirá varios principios, tales como:
 * Confianza Cero
 * Seguridad en Abierto
 
-Un Ciclo de Vida de Desarrollo Seguro (SDLC) ayuda a garantizar que todas las decisiones de seguridad tomadas sobre el producto en desarrollo
-sean elecciones explícitas y resulten en el nivel correcto de seguridad para el diseño del producto.
-Se pueden utilizar varios ciclos de vida de desarrollo seguro y generalmente incluyen el modelado de amenazas en el proceso de diseño.
+Un Ciclo de Vida de Desarrollo Seguro (SDLC) ayuda a garantizar que todas las decisiones de seguridad tomadas
+sobre el producto en desarrollo sean elecciones explícitas y resulten en el nivel correcto de seguridad
+para el diseño del producto.
+Se pueden utilizar varios ciclos de vida de desarrollo seguro y generalmente incluyen el modelado de amenazas
+en el proceso de diseño.
 
 Las Listas de Verificación y Hojas de Referencia son una herramienta importante durante el proceso de diseño;
 proporcionan una referencia fácil de conocimiento y ayudan a evitar repetir errores y fallos de diseño.
@@ -67,20 +71,22 @@ Secciones:
 4.1.5 [LINDDUN GO](01-threat-modeling/05-linddun-go.md)  
 4.1.6 [Kit de herramientas de modelado de amenazas](01-threat-modeling/06-toolkit.md)  
 4.2 [Lista de verificación de aplicaciones web](02-web-app-checklist/toc.md)  
-4.2.1 [Lista de verificación: Definir requisitos de seguridad](02-web-app-checklist/01-define-security-requirements.md)  
-4.2.2 [Lista de verificación: Aprovechar marcos de trabajo y bibliotecas de seguridad](02-web-app-checklist/02-frameworks-libraries.md)  
-4.2.3 [Lista de verificación: Acceso seguro a bases de datos](02-web-app-checklist/03-secure-database-access.md)  
-4.2.4 [Lista de verificación: Codificar y escapar datos](02-web-app-checklist/04-encode-escape-data.md)  
-4.2.5 [Lista de verificación: Validar todas las entradas](02-web-app-checklist/05-validate-inputs.md)  
-4.2.6 [Lista de verificación: Implementar identidad digital](02-web-app-checklist/06-digital-identity.md)  
-4.2.7 [Lista de verificación: Hacer cumplir controles de acceso](02-web-app-checklist/07-access-controls.md)  
-4.2.8 [Lista de verificación: Proteger datos en todas partes](02-web-app-checklist/08-protect-data.md)  
-4.2.9 [Lista de verificación: Implementar registro y monitoreo de seguridad](02-web-app-checklist/09-logging-monitoring.md)  
-4.2.10 [Lista de verificación: Manejar todos los errores y excepciones](02-web-app-checklist/10-handle-errors-exceptions.md)  
+4.2.1 [Definir requisitos de seguridad](02-web-app-checklist/01-define-security-requirements.md)  
+4.2.2 [Aprovechar marcos de trabajo
+y bibliotecas de seguridad](02-web-app-checklist/02-frameworks-libraries.md)  
+4.2.3 [Acceso seguro a bases de datos](02-web-app-checklist/03-secure-database-access.md)  
+4.2.4 [Codificar y escapar datos](02-web-app-checklist/04-encode-escape-data.md)  
+4.2.5 [Validar todas las entradas](02-web-app-checklist/05-validate-inputs.md)  
+4.2.6 [Implementar identidad digital](02-web-app-checklist/06-digital-identity.md)  
+4.2.7 [Hacer cumplir controles de acceso](02-web-app-checklist/07-access-controls.md)  
+4.2.8 [Proteger datos en todas partes](02-web-app-checklist/08-protect-data.md)  
+4.2.9 [Implementar registro y monitoreo de seguridad](02-web-app-checklist/09-logging-monitoring.md)  
+4.2.10 [Manejar todos los errores
+y excepciones](02-web-app-checklist/10-handle-errors-exceptions.md)  
 4.3 [Lista de verificación MAS](03-mas-checklist.md)  
 
 ----
-Traducción de versión [original en inglés][release0601].
+Traducción de versión [original en inglés][release0600].
 
 La Guía del Desarrollador OWASP es un esfuerzo comunitario; si hay algo que necesita cambiarse,
 [cree un issue][issue0600] o [edítelo en GitHub][edit0600].

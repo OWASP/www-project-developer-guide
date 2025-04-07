@@ -3,7 +3,7 @@
 title: Modelado de Amenazas Pythónico
 layout: col-document
 tags: Guía del Desarrollador OWASP
-contributors: Jon Gadsden, Roxana Calderon
+contributors: Roxana Calderon
 document: Guía del Desarrollador OWASP
 order: 46120
 permalink: /release-es/diseño/modelado_amenazas/pytm/
@@ -26,25 +26,32 @@ permalink: /release-es/diseño/modelado_amenazas/pytm/
 
 ### 4.1.2 pytm
 
-El proyecto OWASP [pytm (Modelado de Amenazas Pythónico)][pytmproject] es un marco para el modelado de amenazas y su automatización.
-El objetivo de pytm es realizar el modelado de amenazas Shift-Left, lo que significa iniciar el modelado ya en etapas tempranas del proyecto, haciendo que el modelado de amenazas sea más automatizado y centrado en el desarrollador.
+El proyecto OWASP [pytm (Modelado de Amenazas Pythónico)][pytmproject] es un marco
+para el modelado de amenazas y su automatización.
+El objetivo de pytm es realizar el modelado de amenazas Shift-Left, lo que significa iniciar
+el modelado ya en etapas tempranas del proyecto, haciendo que el modelado de amenazas sea más automatizado
+y centrado en el desarrollador.
 
-Pytm es un Proyecto de Laboratorio de OWASP con una comunidad de colaboradores que crean [versiones regulares][pytmreleases].
+Pytm es un Proyecto de Laboratorio de OWASP con una comunidad de colaboradores
+que crean [versiones regulares[pytmreleases].
 
 #### ¿Qué es pytm?
 
 Pytm es una biblioteca Java que proporciona una forma programática de modelado de amenazas;
 el modelo de aplicación en sí se define como un archivo fuente de python3 y sigue la sintaxis del programa Python.
-Los hallazgos se incluyen en el programa python del modelo de aplicación con amenazas definidas como filas en un archivo de texto asociado.
+Los hallazgos se incluyen en el programa python del modelo de aplicación con amenazas definidas
+como filas en un archivo de texto asociado.
 El archivo de amenazas puede reutilizarse entre proyectos y permite la acumulación de una base de conocimiento.
 
-Usando pytm, el modelo y las amenazas pueden ser programáticamente generados como un diagrama de flujo de datos [dot][graphvizdot]
+Usando pytm, el modelo y las amenazas pueden ser programáticamente generados
+como un diagrama de flujo de datos [dot][graphvizdot]
 que se muestra utilizando [Graphviz][graphviz], una utilidad de software de visualización de gráficos de código abierto.
 Alternativamente, el modelo y las amenazas pueden generarse como un archivo [PlantUML][plantuml] que luego puede mostrarse,
 usando Java y el archivo `.jar` de PlantUML, como un diagrama de secuencia.
 
-Si se requiere un documento de informe, un script de pytm puede generar el modelo, las amenazas y los hallazgos como markdown.
-Programas como [pandoc][pandoc] pueden tomar este archivo markdown despues 
+Si se requiere un documento de informe, un script de pytm puede generar el modelo,
+las amenazas y los hallazgos como markdown.
+Programas como [pandoc][pandoc] pueden tomar este archivo markdown despues
 y proporcionar el documento en varios formatos como PDF, ePub o html.
 
 La serie Spotlight de OWASP proporciona una visión general de pytm: 'Proyecto 6 - [OWASP pytm][spotlight06]'.
@@ -59,14 +66,17 @@ y por lo tanto pytm intenta que el modelado de amenazas "se desplace a la izquie
 
 Muchas herramientas tradicionales de modelado de amenazas como OWASP Threat Dragon proporcionan
 una forma gráfica de crear diagramas e introducir amenazas.
-Estas aplicaciones almacenan los modelos como texto, por ejemplo JSON y YAML, pero el método principal de entrada es a través de la aplicación.
+Estas aplicaciones almacenan los modelos como texto, por ejemplo JSON y YAML,
+pero el método principal de entrada es a través de la aplicación.
 
 Pytm es diferente - el método principal para crear y actualizar los modelos de amenazas es a través de código.
 Este código fuente define completamente el modelo junto con sus hallazgos, amenazas y remediaciones.
 Los diagramas e informes se consideran salidas del modelo; no las entradas al modelo.
-Esto hace que pytm sea una herramienta poderosa para describir un sistema o aplicación, y permite que el modelo se continúe construyendo con el tiempo.
+Esto hace que pytm sea una herramienta poderosa para describir un sistema o aplicación,
+y permite que el modelo se continúe construyendo con el tiempo.
 
-Este enfoque en el modelo como código y salidas programáticas hace que Pytm sea particularmente útil en entornos automatizados,
+Este enfoque en el modelo como código y salidas programáticas hace que Pytm
+sea particularmente útil en entornos automatizados,
 ayudando a que el modelo de amenazas se integre en el proceso de diseño desde el principio,
 así como en sesiones de modelado de amenazas más tradicionales.
 

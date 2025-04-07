@@ -28,7 +28,8 @@ y utilice la lista a continuación como sugerencias para una lista de verificaci
 2. Asegurar que todo comportamiento inesperado se maneje correctamente dentro de la aplicación
 3. Asegurar que los mensajes de error mostrados a los usuarios no filtren datos críticos,
     pero que sean lo suficientemente detallados para permitir la respuesta adecuada del usuario
-4. Asegurar que los registros de excepciones proporcionen información suficiente para los equipos de soporte, control de calidad, forense o respuesta a incidentes
+4. Asegurar que los registros de excepciones proporcionen información suficiente para los equipos de soporte,
+    control de calidad, forense o respuesta a incidentes
 5. Probar y verificar cuidadosamente el código de manejo de errores
 6. No revelar información sensible en las respuestas de error, por ejemplo
     detalles del sistema, identificadores de sesión o información de la cuenta

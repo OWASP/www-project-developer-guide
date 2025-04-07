@@ -29,13 +29,15 @@ y utilice la lista a continuación como sugerencias para una lista de verificaci
 4. Codificar y validar cualquier carácter peligroso antes de registrar para prevenir ataques de inyección en registros
 5. No registrar información sensible
 6. Los controles de registro deben admitir tanto el éxito como el fracaso de eventos de seguridad especificados
-7. No almacenar información sensible en los registros, incluidos detalles innecesarios del sistema, identificadores de sesión o contraseñas
+7. No almacenar información sensible en los registros, incluidos detalles innecesarios del sistema,
+    identificadores de sesión o contraseñas
 8. Utilizar una función hash criptográfica para validar la integridad de las entradas de registro
 
 #### 2. Diseño de registro de seguridad
 
 1. Proteger la integridad del registro
-2. Asegurar que las entradas de registro que incluyen datos no confiables no se ejecutarán como código en la interfaz o software de visualización de registros previsto
+2. Asegurar que las entradas de registro que incluyen datos no confiables no se ejecutarán como código
+    en la interfaz o software de visualización de registros previsto
 3. Restringir el acceso a los registros solo a individuos autorizados
 4. Utilizar una rutina central para todas las operaciones de registro
 5. Reenviar registros de sistemas distribuidos a un servicio de registro central y seguro

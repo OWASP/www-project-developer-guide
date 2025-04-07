@@ -30,9 +30,10 @@ La documentación se utiliza aquí como parte de la actividad [Capacitación y C
 que a su vez forma parte de la práctica de seguridad [Educación y Orientación][sammgeg] de SAMM
 dentro de la función de negocio [Gobernanza][sammg].
 
-Es importante que los equipos de desarrollo dispongan de buena documentación sobre técnicas de seguridad, frameworks, herramientas y amenazas.
-La documentación ayuda a promover la concienciación sobre seguridad para todos los equipos involucrados en el desarrollo de software,
-y proporciona orientación sobre cómo incorporar la seguridad en aplicaciones y sistemas.
+Es importante que los equipos de desarrollo dispongan de buena documentación sobre técnicas de seguridad,
+frameworks, herramientas y amenazas.
+La documentación ayuda a promover la concienciación sobre seguridad para todos los equipos involucrados
+en el desarrollo de software, y proporciona orientación sobre cómo incorporar la seguridad en aplicaciones y sistemas.
 
 Secciones:
 

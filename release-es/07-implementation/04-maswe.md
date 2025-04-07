@@ -3,7 +3,7 @@
 title: Enumeración de Debilidades MAS 
 layout: col-document
 tags: Guía del Desarrollador OWASP
-contributors: Roxanan Calderon
+contributors: Roxana Calderon
 document: Guía del Desarrollador OWASP
 order: 47400
 permalink: /release-es/implementación/maswe/
@@ -45,7 +45,8 @@ El MASWE se divide en categorías de debilidades que corresponden a las categor�
 * [MASVS-NETWORK](https://mas.owasp.org/MASWE/MASVS-NETWORK/MASWE-0047/) comunicaciones de red
 * [MASVS-PLATFORM](https://mas.owasp.org/MASWE/MASVS-PLATFORM/MASWE-0053/) interacciones con la plataforma móvil
 * [MASVS-CODE](https://mas.owasp.org/MASWE/MASVS-CODE/MASWE-0075/) plataforma y software de terceros
-* [MASVS-RESILIENCE](https://mas.owasp.org/MASWE/MASVS-RESILIENCE/MASWE-0089/) integridad y ejecución en una plataforma confiable
+* [MASVS-RESILIENCE](https://mas.owasp.org/MASWE/MASVS-RESILIENCE/MASWE-0089/) integridad
+  y ejecución en una plataforma confiable
 * [MASVS-PRIVACY](https://mas.owasp.org/MASWE/MASVS-PRIVACY/MASWE-0108/) privacidad de usuarios, datos y recursos
 
 #### ¿Por qué usarlo?
@@ -55,13 +56,15 @@ para discutir y categorizar debilidades encontradas en aplicaciones móviles.
 También proporciona una lista de posibles vulnerabilidades que deben considerarse durante el ciclo de vida del diseño
 y al crear o revisar requisitos de seguridad para aplicaciones móviles.
 
-El MASWE es una valiosa lista de lo que podría salir mal con las aplicaciones móviles junto con las actividades de actores maliciosos.
+El MASWE es una valiosa lista de lo que podría salir mal con las aplicaciones móviles junto
+con las actividades de actores maliciosos.
 
 #### Cómo usarlo
 
 La Enumeración de Debilidades Comunes ([CWE][cwe]), publicada por MITRE, puede ser utilizada por arquitectos de seguridad
 para que estén conscientes de qué debilidades y vulnerabilidades potenciales podrían estar presentes en una aplicación.
-Los equipos de desarrollo pueden usar el CWE como referencia para estas debilidades y para ayudar a comprender cualquier mitigación.
+Los equipos de desarrollo pueden usar el CWE como referencia para estas debilidades
+y para ayudar a comprender cualquier mitigación.
 Estos son solo dos ejemplos de cómo se utiliza ampliamente el CWE.
 
 De manera similar, el MASWE puede utilizarse en el desarrollo de aplicaciones móviles para:

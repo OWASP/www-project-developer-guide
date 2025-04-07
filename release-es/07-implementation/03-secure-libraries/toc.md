@@ -22,7 +22,7 @@ permalink: /release-es/implementación/librerías_seguras/
 }
 </style>
 
-![Logotipo de la Guía del Desarrollador](../../../assets/images/dg_logo_bbd.png "Guía del Desarrollador OWASP"){: .image-right }
+![Logotipo de la Guía](../../../assets/images/dg_logo_bbd.png "Guía del Desarrollador OWASP"){: .image-right }
 
 ### 5.3 Librerías seguras
 

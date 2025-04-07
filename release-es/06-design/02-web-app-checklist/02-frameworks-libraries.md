@@ -14,8 +14,8 @@ permalink: /release-es/diseño/lista_verificación_web/aprovechar_frameworks_lib
 
 ### 4.2.2 Lista de verificación: Aprovechar Marcos y Bibliotecas de Seguridad
 
-Las bibliotecas de código seguro y los marcos de software con seguridad integrada ayudan a los desarrolladores a protegerse contra
-fallos de diseño e implementación relacionados con la seguridad.
+Las bibliotecas de código seguro y los marcos de software con seguridad integrada ayudan
+a los desarrolladores a protegerse contra fallos de diseño e implementación relacionados con la seguridad.
 
 Consulte el control proactivo [C4: Abordar la Seguridad desde el Principio][control4]
 y sus [hojas de referencia][csproactive-c2] para más contexto del proyecto Top 10 Controles Proactivos de OWASP.
@@ -55,13 +55,15 @@ Además, considere las siguientes comprobaciones adicionales para marcos y bibli
 2. Utilizar bibliotecas y marcos de fuentes confiables que se mantengan activamente y sean ampliamente utilizados
 3. Revisar todas las aplicaciones secundarias y bibliotecas de terceros para determinar la necesidad empresarial
 4. Validar la funcionalidad segura de todas las aplicaciones secundarias y bibliotecas de terceros
-5. Crear y mantener un catálogo de inventario de todas las bibliotecas de terceros utilizando Análisis de Composición de Software (SCA)
+5. Crear y mantener un catálogo de inventario de todas las bibliotecas de terceros utilizando
+    Análisis de Composición de Software (SCA)
 6. Mantener proactivamente actualizadas todas las bibliotecas y componentes de terceros
 7. Reducir la superficie de ataque encapsulando la biblioteca y exponiendo solo el comportamiento requerido en su software
 8. Utilizar código administrado testeado y aprobado en lugar de crear nuevo código no administrado para tareas comunes
 9. Utilizar APIs específicas para tareas integradas para realizar tareas del sistema operativo
 10. No permitir que la aplicación emita comandos directamente al Sistema Operativo
-11. Utilizar sumas de verificación o hashes para verificar la integridad del código interpretado, bibliotecas, ejecutables y archivos de configuración
+11. Utilizar sumas de verificación o hashes para verificar la integridad del código interpretado,
+    bibliotecas, ejecutables y archivos de configuración
 12. Restringir a los usuarios la generación de nuevo código o la alteración del código existente
 13. Implementar actualizaciones seguras utilizando canales cifrados
 

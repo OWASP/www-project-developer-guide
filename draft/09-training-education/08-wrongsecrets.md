@@ -59,12 +59,12 @@ the tool _should_ be able to detect the secrets wrongly managed in the WrongSecr
 
 #### How to use it
 
-The demo is availble on [Heroku][wsheroku].
+The demo is available on [Heroku][wsheroku], which provides an immediate way of trying out the challenges.
+This may be sufficient for many use cases, but if not then it can be run on Docker, Kubernetes, AWS, GCP or Azure.
 
-You can set WrongSecrets up in standalone or in capture the flag (CTF) mode on Docker, Kubernetes, AWS, GCP or Azure.
+You can set WrongSecrets up in standalone or in capture the flag (CTF) mode.
 Set-up guides for the standalone version are available in the [project README][readme].
-
-For the setting up a CTF project, WrongSecrets provides the [set-up guides][ctf]
+Alternatively for the setting up a CTF project, WrongSecrets provides the [set-up guides][ctf]
 and an example [Helm chart][wrongsecrets-helm].
 
 #### References
@@ -81,9 +81,9 @@ then [submit an issue][issue0908] or [edit on GitHub][edit0908].
 [cscloud]: https://cheatsheetseries.owasp.org/cheatsheets/Secure_Cloud_Architecture_Cheat_Sheet
 [ctf]: https://github.com/OWASP/wrongsecrets/blob/master/ctf-instructions.md
 [edit0908]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/09-training-education/08-wrongsecrets.md
-[wsheroku]: https://wrongsecrets.herokuapp.com/
 [issue0908]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2009-training-education/08-wrongsecrets
 [readme]: https://github.com/OWASP/wrongsecrets/blob/master/README.md
+[wsheroku]: https://wrongsecrets.herokuapp.com/
 [wrongsecrets]: https://github.com/OWASP/wrongsecrets
 [wrongsecrets-helm]: https://owasp.org/wrongsecrets-ctf-party/
 [wrongsecrets-project]: https://owasp.org/www-project-wrongsecrets/

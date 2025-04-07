@@ -14,7 +14,8 @@ permalink: /release-es/implementación/documentación/goscp/
 
 ### 5.1.2 Prácticas de Codificación Segura en Go
 
-Las Prácticas de Codificación Segura en Go de OWASP (Go-SCP) son un conjunto de prácticas de codificación segura para el lenguaje de programación Go.
+Las Prácticas de Codificación Segura en Go de OWASP (Go-SCP) son un conjunto de prácticas de codificación segura
+para el lenguaje de programación Go.
 
 El [proyecto de documentación Go-SCP][go-scp-project] es un Proyecto Incubadora de OWASP
 que tiene suficiente soporte a largo plazo para alcanzar pronto el estado de Laboratorio.
@@ -50,10 +51,10 @@ El libro [Prácticas de Codificación Segura en Go][go-scp-project] está dispon
 
 #### ¿Por qué usar Go-SCP?
 
-Los equipos de desarrollo a menudo necesitan ayuda y soporte para implementar correctamente la seguridad en aplicaciones web,
-y parte de esta ayuda proviene de directrices y mejores prácticas de codificación segura.
-Go-SCP proporciona esta orientación para una amplia gama de temas de codificación segura, además de proporcionar ejemplos prácticos de código
-para cada práctica de codificación.
+Los equipos de desarrollo a menudo necesitan ayuda y soporte para implementar correctamente
+la seguridad en aplicaciones web, y parte de esta ayuda proviene de directrices y mejores prácticas de codificación segura.
+Go-SCP proporciona esta orientación para una amplia gama de temas de codificación segura,
+además de proporcionar ejemplos prácticos de código para cada práctica de codificación.
 
 #### Cómo usar Go-SCP
 
