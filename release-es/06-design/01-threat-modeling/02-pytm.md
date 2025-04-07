@@ -33,7 +33,7 @@ el modelado ya en etapas tempranas del proyecto, haciendo que el modelado de ame
 y centrado en el desarrollador.
 
 Pytm es un Proyecto de Laboratorio de OWASP con una comunidad de colaboradores
-que crean [versiones regulares[pytmreleases].
+que crean [versiones regulares][pytmreleases].
 
 #### ¿Qué es pytm?
 
@@ -137,7 +137,7 @@ La Guía para Desarrolladores de OWASP es un esfuerzo comunitario; si hay algo q
 [edit060102]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/06-design/01-threat-modeling/02-pytm.md
 [pytmrepo]: https://github.com/OWASP/pytm/
 [pytmproject]: https://owasp.org/www-project-pytm/
-[pytmexample]:https://github.com/OWASP/pytm/blob/master/tm.py
-[pytmreleases]:https://github.com/OWASP/pytm/releases
+[pytmexample]: https://github.com/OWASP/pytm/blob/master/tm.py
+[pytmreleases]: https://github.com/OWASP/pytm/releases
 [spotlight06]: https://youtu.be/oTqkPaEbTnE
 [TMchap4]: https://www.oreilly.com/library/view/threat-modeling/9781492056546/ch04.html
