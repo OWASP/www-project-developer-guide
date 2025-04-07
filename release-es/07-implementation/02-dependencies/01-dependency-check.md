@@ -98,7 +98,7 @@ si hay algo que necesita cambiarse entonces [cree un issue][issue070201] o [edí
 [depcheck]: https://owasp.org/www-project-dependency-check/
 [depcheck-docs]: https://jeremylong.github.io/DependencyCheck/
 [depcheck-download]: https://github.com/jeremylong/DependencyCheck/releases
-[edit070201]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/02-dependencies/01-dependency-check.
+[edit070201]: https://github.com/OWASP/www-project-developer-guide/blob/main/draft/07-implementation/02-dependencies/01-dependency-check.md
 [issue070201]: https://github.com/OWASP/www-project-developer-guide/issues/new?labels=content&template=request.md&title=Update:%2007-implementation/02-dependencies/01-dependency-check
 [nist-db]: https://nvd.nist.gov/
 [spotlight02]: https://youtu.be/YAXf3TaAYeA
