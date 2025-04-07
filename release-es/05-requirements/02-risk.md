@@ -6,7 +6,7 @@ tags: Guía del Desarrollador OWASP
 contributors: Roxana Calderon
 document: Guía del Desarrollador OWASP
 order: 45020
-permalink: /release-es/requisitos/perfil_de_riesgo/
+permalink: /release-es/requerimientos/perfil_riesgo
 
 ---
 

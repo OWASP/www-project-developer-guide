@@ -58,7 +58,7 @@ Follow the [getting started guide][deptrack-docs] to install the Dependency-Trac
 using the recommended deployment of a Docker container.
 
 Although Dependency-Track will run with its default configuration
-it should should be configured for the organization's specific needs.
+it should be configured for the organization's specific needs.
 The Dependency-Track configuration file is important for optimally running the tool
 but this is outside the scope of the Developer Guide - see the Dependency-Track [documentation][deptrack-docs]
 for a step by step guide to this configuration process.

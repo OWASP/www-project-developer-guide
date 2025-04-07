@@ -6,7 +6,7 @@ tags: Guía del Desarrollador OWASP
 contributors: Roxana Calderon
 document: Guía del Desarrollador OWASP
 order: 46280
-permalink: /release/design/web_app_checklist/protect_data/
+permalink: /release-es/diseño/lista_verificación_web/proteger_datos/
 
 ---
 
