@@ -10,9 +10,8 @@
 
 ### Document
 
-* [Latest release](release)
+* [Latest version][release]
 * Released [PDF][pdf] and [e-book][epub]
-* [Draft version](draft)
 
 ### Translations (in progress)
 
@@ -30,5 +29,6 @@
 
 [epub]: assets/exports/OWASP_Developer_Guide.epub
 [pdf]: assets/exports/OWASP_Developer_Guide.pdf
+[release]: https://devguide.owasp.org/
 [repo]: https://github.com/OWASP/www-project-developer-guide
 [license-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
