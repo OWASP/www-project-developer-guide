@@ -43,19 +43,6 @@ jobs:
           config: '.markdownlint.yaml'
           globs: '**/*.md'
 
-  spell_checker:
-    name: Check spelling
-    runs-on: ubuntu-24.04
-    steps:
-      - name: Checkout markdown
-        uses: actions/checkout@v4.2.0
-
-      - name: Spell check EN draft
-        uses: rojopolis/spellcheck-github-actions@0.48.0
-        with:
-          config_path: .spellcheck-en.yaml
-          # checks the draft directory with an EN dictionary
-
   check_es:
     name: Check ES translation
     runs-on: ubuntu-24.04
