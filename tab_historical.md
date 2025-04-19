@@ -53,7 +53,6 @@ which discusses the history and future of the project.
 #### [Developer Guide 2.0][guide-2v0] (July 2005)
 
 * English [Word][guide-2v0]
-* English draft [Word][guide-word-en-2v0]
 
 #### [Developer Guide 1.1.1][guide-1v11] (September 2002)
 
@@ -84,9 +83,8 @@ OWASP DevGuide: _accessible security for developers_
 [guide-pdf-jp-1v11]: https://github.com/OWASP/DevGuide/blob/71dfba584c0b11443b19a6caf47b9f1adc641679/DevGuide1.1.1/OWASPGuideV1.1.1-jp.pdf
 [guide-word-jp-1v11]: https://github.com/OWASP/DevGuide/blob/71dfba584c0b11443b19a6caf47b9f1adc641679/DevGuide1.1.1/OWASPGuideV1.1.1-jp.doc
 [guide-2v0]: https://github.com/OWASP/DevGuide/tree/382fe2bc834beaf9dd50fc195e09329be6f7116f/DevGuide2.0
-[guide-word-en-2v0]: https://github.com/OWASP/DevGuide/blob/master/old/Guide%203.0%20old%20text.docx
 [guide-2v01]: https://github.com/OWASP/DevGuide/tree/dc5a2977a4797d9b98486417a5527b9f15d8a251/DevGuide2.0.1
-[guide-3v0]: https://github.com/OWASP/DevGuide
+[guide-3v0]: https://github.com/OWASP/DevGuide/blob/3.0-final/old/OWASP%20Guide%203.0.docx
 [history]: https://www.youtube.com/watch?v=niqV55vPTfw
 [intstand]: https://owasp.org/www-project-integration-standards/
 [wstg]: https://owasp.org/www-project-web-security-testing-guide/

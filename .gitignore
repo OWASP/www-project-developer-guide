@@ -22,6 +22,8 @@
 !_data/*.yaml
 !_includes/
 !_includes/*.html
+!_layouts
+!_layouts/*.html
 
 # draft version
 !draft/

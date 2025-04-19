@@ -31,7 +31,7 @@ pitch: The Developer Guide allows businesses, developers, designers
 
 ![Developer Guide](assets/images/dg_logo.png "OWASP Developer Guide"){: .image-right }
 
-The [OWASP Developer Guide](release) provides an introduction to security concepts
+The [OWASP Developer Guide][latest] provides an introduction to security concepts
 and a handy reference for application and system developers.
 
 This guide does not seek to replicate the many excellent sources on specific security topics;
@@ -52,8 +52,7 @@ and then there were various [updates][versions] culminating in version 2.0 in 20
 After discussions and iterations throughout 2023 and 2024, the Developer Guide has now been updated
 for the modern security landscape using contributions from the wider application security community.
 
-Periodically the draft version is tagged and the contents promoted to the [release area](release) of the Developer Guide.
-The [draft version](draft) is a work in progress and is subject to large scale and frequent changes.
+Periodically the Developer Guide is versioned and the contents promoted to the [release area][release] of the repository.
 
 ### Contributing
 
@@ -72,8 +71,10 @@ OWASP DevGuide: _accessible security for developers_
 [conduct]: code_of_conduct.md
 [contribution]: contributing.md
 [issues]: https://github.com/OWASP/www-project-developer-guide/issues/new/choose
+[latest]: https://devguide.owasp.org/
 [project]: https://owasp.slack.com/messages/C04QN6CMNAC
-[slack]: https://owasp.org/slack/invite
+[release]: https://github.com/OWASP/DevGuide/releases
 [request]: https://github.com/OWASP/www-project-developer-guide/pulls
+[slack]: https://owasp.org/slack/invite
 [versions]: https://github.com/OWASP/DevGuide/wiki#old-versions
 [wiki]: https://github.com/OWASP/www-project-developer-guide/wiki
