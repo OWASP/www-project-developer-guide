@@ -1,7 +1,7 @@
 ---
 
 title: Encode and Escape Data Checklist
-layout: col-document
+layout: redirected
 tags: OWASP Developer Guide
 contributors: Jon Gadsden, Andreas Happe
 document: OWASP Developer Guide

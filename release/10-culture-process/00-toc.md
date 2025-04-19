@@ -1,7 +1,7 @@
 ---
 
 title: Culture Building and Process Maturing
-layout: col-document
+layout: redirected
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide

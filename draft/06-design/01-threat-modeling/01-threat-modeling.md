@@ -1,7 +1,7 @@
 ---
 
 title: Threat Modeling in Practice
-layout: col-document
+layout: redirected
 tags: OWASP Developer Guide
 contributors: Adam Shostack, Jon Gadsden
 document: OWASP Developer Guide

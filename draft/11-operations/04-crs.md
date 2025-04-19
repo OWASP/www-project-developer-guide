@@ -1,7 +1,7 @@
 ---
 
 title: OWASP CRS
-layout: col-document
+layout: redirected
 tags: OWASP Developer Guide
 contributors: Matteo Pace, Jon Gadsden
 document: OWASP Developer Guide

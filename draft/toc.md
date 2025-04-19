@@ -1,7 +1,7 @@
 ---
 
 title: Table of Contents
-layout: col-document
+layout: redirected
 tags: OWASP Developer Guide
 contributors:
 document: OWASP Developer Guide

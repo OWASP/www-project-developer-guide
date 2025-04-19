@@ -1,7 +1,7 @@
 ---
 
 title: Enforce Access Controls Checklist
-layout: col-document
+layout: redirected
 tags: OWASP Developer Guide
 contributors: Jon Gadsden, Andreas Happe
 document: OWASP Developer Guide

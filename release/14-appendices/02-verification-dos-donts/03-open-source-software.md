@@ -1,7 +1,7 @@
 ---
 
 title: Open Source Software
-layout: col-document
+layout: redirected
 tags: OWASP Developer Guide
 contributors: Shruti Kulkarni
 document: OWASP Developer Guide

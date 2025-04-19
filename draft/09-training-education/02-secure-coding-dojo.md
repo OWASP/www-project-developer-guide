@@ -1,7 +1,7 @@
 ---
 
 title: Secure Coding Dojo
-layout: col-document
+layout: redirected
 tags: OWASP Developer Guide
 contributors: Jon Gadsden
 document: OWASP Developer Guide

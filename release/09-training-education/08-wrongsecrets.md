@@ -1,6 +1,6 @@
 ---
 title: WrongSecrets
-layout: col-document
+layout: redirected
 tags: OWASP Developer Guide
 contributors: Ben de Haan 
 document: OWASP Developer Guide

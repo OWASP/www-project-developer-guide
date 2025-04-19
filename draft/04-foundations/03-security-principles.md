@@ -1,7 +1,7 @@
 ---
 
 title: Principles of Security
-layout: col-document
+layout: redirected
 tags: OWASP Developer Guide
 contributors: Jon Gadsden, Johan Sydseter, Andreas Happe
 document: OWASP Developer Guide

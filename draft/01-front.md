@@ -1,7 +1,7 @@
 ---
 
 title: Front Page
-layout: col-document
+layout: redirected
 tags: OWASP Developer Guide
 contributors: Shruti Kulkarni, Jon Gadsden, Johan Sydseter
 document: OWASP Developer Guide

@@ -1,7 +1,7 @@
 ---
 
 title: DAST
-layout: col-document
+layout: redirected
 tags: OWASP Developer Guide
 contributors: Johan Sydseter, Jon Gadsden
 document: OWASP Developer Guide
