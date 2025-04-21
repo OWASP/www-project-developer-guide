@@ -18,7 +18,7 @@ tags: dev-guide, developer guide
 }
 </style>
 
-![developer guide logo](assets/images/dg_logo_bbd.png){: .image-right }
+[![developer guide logo](assets/images/dg_logo_bbd.png){: .image-right }](https://devguide.owasp.org/)
 
 ## Contributing to the Developer Guide
 

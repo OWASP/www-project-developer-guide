@@ -18,7 +18,7 @@ tags: dev-guide, developer guide
 }
 </style>
 
-![developer guide logo](assets/images/dg_logo_di.png){: .image-right }
+[![developer guide logo](assets/images/dg_logo_di.png){: .image-right }](https://devguide.owasp.org/)
 
 ## Translations the Developer Guide
 

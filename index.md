@@ -29,7 +29,7 @@ pitch: The Developer Guide allows businesses, developers, designers
 }
 </style>
 
-![Developer Guide](assets/images/dg_logo.png "OWASP Developer Guide"){: .image-right }
+[![Developer Guide](assets/images/dg_logo.png "OWASP Developer Guide"){: .image-right }](https://devguide.owasp.org/)
 
 The [OWASP Developer Guide][latest] provides an introduction to security concepts
 and a handy reference for application and system developers.

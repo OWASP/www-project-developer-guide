@@ -1,7 +1,7 @@
-<img src="assets/images/dg_logo_di.png" alt="DevGuide logo" height="220px"/>
+<a href="https://devguide.owasp.org/"><img src="assets/images/dg_logo_di.png" alt="DevGuide logo" height="180px"/></a>
 
 [![Build status](https://github.com/OWASP/www-project-developer-guide/actions/workflows/ci.yaml/badge.svg?event=push)][build]
-[![GitHub license](https://img.shields.io/github/license/owasp/www-project-developer-guide.svg)](license.txt)
+[![CC BY-SA 4.0 license](https://img.shields.io/github/license/owasp/www-project-developer-guide.svg)](license.txt)
 [![OWASP Lab project](https://img.shields.io/badge/owasp-lab%20project-f7b73c.svg)](https://www.owasp.org/projects)
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/9373/badge)](https://www.bestpractices.dev/projects/9373)
 
