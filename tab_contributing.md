@@ -40,6 +40,6 @@ which provide style and document structure suggestions.
 
 OWASP DevGuide: _accessible security for developers_
 
-[conduct]: https://github.com/OWASP/www-project-developer-guide/blob/main/code_of_conduct.md
-[contribute]: https://github.com/OWASP/www-project-developer-guide/blob/main/contributing.md
-[feature]: https://github.com/OWASP/www-project-developer-guide/issues/new/choose
+[conduct]: https://github.com/OWASP/DevGuide/blob/main/code_of_conduct.md
+[contribute]: https://github.com/OWASP/DevGuide/blob/main/contributing.md
+[feature]: https://github.com/OWASP/DevGuide/issues/new/choose

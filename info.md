@@ -27,8 +27,8 @@
 
 * [Markdown source][repo]
 
-[epub]: assets/exports/OWASP_Developer_Guide.epub
-[pdf]: assets/exports/OWASP_Developer_Guide.pdf
+[epub]: https://github.com/OWASP/DevGuide/blob/main/docs/assets/exports/OWASP_Developer_Guide.epub
+[pdf]: https://github.com/OWASP/DevGuide/blob/main/docs/assets/exports/OWASP_Developer_Guide.pdf
 [release]: https://devguide.owasp.org/
-[repo]: https://github.com/OWASP/www-project-developer-guide
+[repo]: https://github.com/OWASP/DevGuide
 [license-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png

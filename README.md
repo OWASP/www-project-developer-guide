@@ -7,23 +7,13 @@
 
 ## OWASP Foundation Developer Guide project
 
-This repo is the source for the OWASP Developer Guide project [web pages][pages]
-and also the [developer guide][dgrelease] itself.
+This repo is the source for the OWASP Developer Guide project [project pages][pages].
+The content for the Developer Guide document can be found in its own [DevGuide repository][devguide],
+and the latest version is accessible as a [web document][latest].
 
-## Developer Guide
-
-This guide is one of the original documents from OWASP and so has a long history.
-The [original DevGuide repository][devguide] has many of the [previous versions][versions]
-going back to the [original version 1.0][original] from 2002.
-Note that the original DevGuide repository has been deprecated in favor of this one.
-
-The source for the latest draft developer guide can be found under the ['draft'][draft] directory.
-The source is in markdown and is used to create the developer guide HTML, PDF and ePub outputs.
-The draft content is subject to large scale changes with no notice.
-
-Note that the draft version provides the content for the released version of Developer Guide,
-in the ['release'][release] directory, promoted during the automated release process.
-Therefore any manual changes under the release directory are likely to be over-written.
+The Developer Guide is one of the original documents from OWASP and so has a long history.
+The original DevGuide repository has many of the [previous versions][versions]
+going back to the [very first version 1.0][original] release from 2002.
 
 ### Contributing
 
@@ -49,15 +39,13 @@ is via the OWASP Slack [#project-developer-guide][project] project channel
 OWASP DevGuide: _accessible security for developers_
 
 [build]: https://github.com/OWASP/www-project-developer-guide/actions/workflows/ci.yaml
-[conduct]: code_of_conduct.md
+[conduct]: https://github.com/OWASP/DevGuide/blob/main/code_of_conduct.md
 [devguide]: https://github.com/OWASP/DevGuide
-[draft]: draft
-[dgrelease]: https://owasp.org/www-project-developer-guide/release/
-[guide]: contributing.md
-[issues]: https://github.com/OWASP/www-project-developer-guide/issues/new/choose
+[guide]: https://github.com/OWASP/DevGuide/blob/main/contributing.md
+[issues]: https://github.com/OWASP/DevGuide/issues/new/choose
+[latest]: https://devguide.owasp.org/
 [original]: https://github.com/OWASP/DevGuide/blob/1d24d140de3724b6f95655e53b8d0cc6689fbfd8/DevGuide1.0/OWASPBuildingSecureWebApplicationsAndWebServices-V1.0.pdf
 [pages]: https://owasp.org/www-project-developer-guide/
 [project]: https://owasp.slack.com/messages/C04QN6CMNAC
-[release]: release
-[request]: https://github.com/OWASP/www-project-developer-guide/pulls
+[request]: https://github.com/OWASP/DevGuide/pulls
 [versions]: https://github.com/OWASP/DevGuide/wiki#old-versions

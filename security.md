@@ -14,4 +14,4 @@ only to the project's admins and in strict confidence.
 
 OWASP DevGuide: _accessible security for developers_
 
-[advisory]: https://github.com/OWASP/www-project-developer-guide/security/advisories/new
+[advisory]: https://github.com/OWASP/DevGuide/security/advisories/new
