@@ -74,7 +74,7 @@ OWASP DevGuide: _accessible security for developers_
 [latest]: https://devguide.owasp.org/
 [project]: https://owasp.slack.com/messages/C04QN6CMNAC
 [release]: https://github.com/OWASP/DevGuide/releases
-[request]: https://github.com/OWASP/wDevGuide/pulls
+[request]: https://github.com/OWASP/DevGuide/pulls
 [slack]: https://owasp.org/slack/invite
 [versions]: https://github.com/OWASP/DevGuide/wiki#old-versions
 [wiki-project]: https://github.com/OWASP/www-project-developer-guide/wiki

@@ -11,7 +11,7 @@
 ### Document
 
 * [Latest version][release]
-* Released [PDF][pdf] and [e-book][epub]
+* [PDF export][pdf]
 
 ### Translations (in progress)
 
@@ -27,7 +27,6 @@
 
 * [Markdown source][repo]
 
-[epub]: https://github.com/OWASP/DevGuide/blob/main/docs/assets/exports/OWASP_Developer_Guide.epub
 [pdf]: https://github.com/OWASP/DevGuide/blob/main/docs/assets/exports/OWASP_Developer_Guide.pdf
 [release]: https://devguide.owasp.org/
 [repo]: https://github.com/OWASP/DevGuide

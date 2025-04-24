@@ -1,4 +1,4 @@
-<img src="assets/images/dg_alt.png" alt="DevGuide logo" height="220px"/>
+<a href="https://devguide.owasp.org/"><img src="assets/images/dg_alt.png" alt="DevGuide logo" height="180px"/></a>
 
 ### Contributing
 
@@ -107,7 +107,7 @@ To run these checks locally before pushing a commit, run these commands from the
 1. Link checker: `lychee --max-retries 5 --exclude-path './_includes/*.html' './**/*.md'`
 2. Markdown linter: `markdownlint-cli2  **/*.md`
 3. Spell checker: `pyspelling --config .spellcheck-en.yaml` (for english)
-4. commands to set up the environment for PDF and ePub export
+4. commands to set up the environment for PDF export
 
 ```text
 mkdir draft/temp
@@ -115,15 +115,13 @@ mkdir assets/images/logos/publish
 export RESOURCE_PATH="draft/assets/images:draft/assets:draft:assets/images/logos:assets/images:assets/images/logos/publish"
 ```
 
-and the commands to create PDF and ePub outputs:
+and the commands to create PDF export:
 
 ```text
 tail -n +14 -q $(find draft -name "*[0-9]*.md" | sort) > draft/temp/draft.markdown
 sed -i "s/{: .image-right }/{height=180px}/g" draft/temp/draft.markdown
 pandoc -f markdown -o draft.pdf --resource-path="$RESOURCE_PATH" \
 -fmarkdown-implicit_figures draft/title.pdf.yaml draft/temp/draft.markdown
-pandoc -f markdown -o draft.epub --resource-path="$RESOURCE_PATH" \
--fmarkdown-implicit_figures draft/title.yaml draft/temp/draft.markdown
 ```
 
 Follow instructions to install the command line [lychee][lychee-install] and [pandoc][pandoc-install].

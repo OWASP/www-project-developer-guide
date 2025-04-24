@@ -1,4 +1,4 @@
-<img src="assets/images/dg_logo_di.png" alt="DevGuide logo" height="220px"/>
+<a href="https://devguide.owasp.org/"><img src="assets/images/dg_logo_di.png" alt="DevGuide logo" height="180px"/></a>
 
 The release process is in two stages; pre-release and the release itself
 
@@ -30,9 +30,9 @@ To trigger the release this process from within a cloned repo:
 The github release workflow then creates the pull request
 with modifications to the release area promoted from the draft area.
 Review the changes and, if all are correct, merge the pull request.
-This will also automatically update the public web document and PDF/e-book versions.
+This will also automatically update the public web document and PDF export.
 
-It is good practice to bundle the PDF and ePub files into the [release area][release],
+It is good practice to bundle the PDF file into the [release area][release],
 using the wording from the previous releases as a guide to the release notes.
 
 ----

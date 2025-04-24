@@ -111,7 +111,6 @@
 !assets/css/
 !assets/css/*.scss
 !assets/exports/
-!assets/exports/*.epub
 !assets/exports/*.pdf
 !assets/images/
 !assets/images/*.png
