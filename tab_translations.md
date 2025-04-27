@@ -41,4 +41,4 @@ If you can help with these translations then please contact the lead translator 
 OWASP DevGuide: _accessible security for developers_
 
 [latest]: https://devguide.owasp.org/
-[repo]: https://github.com/OWASP/DevGuide/docs
+[repo]: https://github.com/OWASP/DevGuide/tree/main/docs
