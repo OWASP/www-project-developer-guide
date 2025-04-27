@@ -25,7 +25,7 @@ jobs:
           # skip the jekyll files under '_includes' directory
           args: >-
             --no-progress
-            --max-retries 5
+            --max-retries 2
             --exclude-path './_includes/*.html'
             './**/*.md'
             '*.md'

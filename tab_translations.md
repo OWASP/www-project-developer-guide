@@ -22,11 +22,11 @@ tags: dev-guide, developer guide
 
 ## Translations the Developer Guide
 
-The OWASP Developer Guide aims to be accessible, and translations help to make is a useful resource
-for the global AppSec community.
+The OWASP [Developer Guide][latest] aims to be accessible,
+and translations help to make is a useful resource for the global AppSec community.
 
 The English (US) language version is the source for all the translations;
-the latest version can be found in the [releases][repo] repository.
+the latest version can be found in the [DevGuide][repo] repository.
 
 At present (March 2025) there are some translations that are in progress:
 
@@ -40,4 +40,5 @@ If you can help with these translations then please contact the lead translator 
 
 OWASP DevGuide: _accessible security for developers_
 
-[repo]: https://github.com/OWASP/www-project-developer-guide/releases
+[latest]: https://devguide.owasp.org/
+[repo]: https://github.com/OWASP/DevGuide/tree/main/docs

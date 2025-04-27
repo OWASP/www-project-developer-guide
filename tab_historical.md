@@ -29,7 +29,7 @@ Unfortunately, the original Developer Guide never really took off with the inten
 The original guide was more of a 'how to perform a web application penetration test',
 material now better covered in the OWASP [Web Security Testing Guide][wstg].
 
-The developer guide has gone through several iterations since then and is now at version 4.x .
+The developer guide has gone through several iterations since then and is now at [version 4.x][latest].
 This version does not seek to be a comprehensive and authoritative text;
 rather think of it as a text-based [Wayfinder Guide][intstand] to security projects and salient concepts,
 or a bit like a 'Lonely Planet' guide to AppSec for developers.
@@ -46,7 +46,7 @@ which discusses the history and future of the project.
 
 #### Developer Guide 2010 (abandoned)
 
-#### [Developer Guide 2.01][guide-2v01] (July 2005)
+#### [Developer Guide 2.0.1][guide-2v01] (July 2005)
 
 * English [Word][guide-2v01]
 
@@ -70,6 +70,9 @@ which discusses the history and future of the project.
 We are still looking for the original Word documents for versions 1.x (1.0, 1.1 and 1.1.1),
 if you have any of these then please get in touch.
 
+In addition if you have documents for versions 0.1, 0.2 and 0.3 then it would be great to have these historical records.
+Please get in touch with the [project leader][leaders] if you have any of these.
+
 ----
 
 OWASP DevGuide: _accessible security for developers_
@@ -87,4 +90,6 @@ OWASP DevGuide: _accessible security for developers_
 [guide-3v0]: https://github.com/OWASP/DevGuide/blob/3.0-final/old/OWASP%20Guide%203.0.docx
 [history]: https://www.youtube.com/watch?v=niqV55vPTfw
 [intstand]: https://owasp.org/www-project-integration-standards/
+[latest]: https://devguide.owasp.org/
+[leaders]: https://github.com/OWASP/www-project-developer-guide/blob/main/leaders.md
 [wstg]: https://owasp.org/www-project-web-security-testing-guide/
