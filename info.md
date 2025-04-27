@@ -27,7 +27,7 @@
 
 * [Markdown source][repo]
 
-[pdf]: https://github.com/OWASP/DevGuide/blob/main/docs/assets/exports/OWASP_Developer_Guide.pdf
+[pdf]: https://github.com/OWASP/DevGuide/releases
 [release]: https://devguide.owasp.org/
 [repo]: https://github.com/OWASP/DevGuide
 [license-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
