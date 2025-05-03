@@ -26,7 +26,7 @@ jobs:
           # skip the jekyll files under '_includes' directory, check only draft where the promotion comes from
           args: >-
             --no-progress
-            --max-retries 2
+            --max-retries 1
             --exclude-path './_includes/*.html'
             './draft/**/*.md'
           fail: true
