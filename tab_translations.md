@@ -32,7 +32,6 @@ At present (March 2025) there are some translations that are in progress:
 
 * [Brazilian Portuguese](release-pt-br) lead translator Amauri Bizerra
 * [Spanish](release-es) lead translator Roxana Calderon
-* [Japanese](release-ja) lead translator Yuuki Ebihara
 
 If you can help with these translations then please contact the lead translator or the DevGuide project leaders.
 
