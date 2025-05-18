@@ -7,6 +7,6 @@ contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 1030
 permalink: /draft/culture_building_and_process_maturing/samm/
-redirect_to: https://devguide.owasp.org/08-culture-process/03-samm/
+redirect_to: https://devguide.owasp.org/en/08-culture-process/03-samm/
 
 ---

@@ -7,6 +7,6 @@ contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 730
 permalink: /draft/implementation/secure_libraries/
-redirect_to: https://devguide.owasp.org/05-implementation/03-secure-libraries/
+redirect_to: https://devguide.owasp.org/en/05-implementation/03-secure-libraries/
 
 ---

@@ -7,6 +7,6 @@ contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 9240
 permalink: /release/training_education/mobile_top_ten/
-redirect_to: https://devguide.owasp.org/07-training-education/06-mobile-top-ten/
+redirect_to: https://devguide.owasp.org/en/07-training-education/06-mobile-top-ten/
 
 ---

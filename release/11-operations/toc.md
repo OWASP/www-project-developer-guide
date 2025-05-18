@@ -7,6 +7,6 @@ contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 11000
 permalink: /release/operations/
-redirect_to: https://devguide.owasp.org/09-operations/
+redirect_to: https://devguide.owasp.org/en/09-operations/
 
 ---

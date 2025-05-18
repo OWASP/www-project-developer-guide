@@ -7,6 +7,6 @@ contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 830
 permalink: /draft/verification/frameworks/
-redirect_to: https://devguide.owasp.org/06-verification/03-frameworks/
+redirect_to: https://devguide.owasp.org/en/06-verification/03-frameworks/
 
 ---

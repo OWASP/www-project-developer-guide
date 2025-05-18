@@ -7,6 +7,6 @@ contributors: Matteo Pace, Jon Gadsden
 document: OWASP Developer Guide
 order: 1104
 permalink: /draft/operations/crs/
-redirect_to: https://devguide.owasp.org/09-operations/04-crs/
+redirect_to: https://devguide.owasp.org/en/09-operations/04-crs/
 
 ---

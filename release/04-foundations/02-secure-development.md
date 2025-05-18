@@ -7,6 +7,6 @@ contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 4020
 permalink: /release/foundations/secure_development/
-redirect_to: https://devguide.owasp.org/02-foundations/02-secure-development/
+redirect_to: https://devguide.owasp.org/en/02-foundations/02-secure-development/
 
 ---

@@ -7,6 +7,6 @@ contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 900
 permalink: /draft/training_education/
-redirect_to: https://devguide.owasp.org/07-training-education/
+redirect_to: https://devguide.owasp.org/en/07-training-education/
 
 ---

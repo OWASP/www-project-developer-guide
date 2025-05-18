@@ -7,6 +7,6 @@ contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 800
 permalink: /draft/verification/
-redirect_to: https://devguide.owasp.org/06-verification/
+redirect_to: https://devguide.owasp.org/en/06-verification/
 
 ---

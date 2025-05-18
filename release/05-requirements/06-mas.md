@@ -7,6 +7,6 @@ contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 5060
 permalink: /release/requirements/mas/
-redirect_to: https://devguide.owasp.org/03-requirements/06-mas/
+redirect_to: https://devguide.owasp.org/en/03-requirements/06-mas/
 
 ---

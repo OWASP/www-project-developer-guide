@@ -7,6 +7,6 @@ contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 6000
 permalink: /release/design/
-redirect_to: https://devguide.owasp.org/04-design/
+redirect_to: https://devguide.owasp.org/en/04-design/
 
 ---

@@ -7,6 +7,6 @@ contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 1021
 permalink: /draft/culture_building_and_process_maturing/security_champions/program/
-redirect_to: https://devguide.owasp.org/08-culture-process/02-security-champions/01-security-champions-program/
+redirect_to: https://devguide.owasp.org/en/08-culture-process/02-security-champions/01-security-champions-program/
 
 ---

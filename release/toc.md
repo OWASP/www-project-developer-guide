@@ -7,6 +7,6 @@ contributors:
 document: OWASP Developer Guide
 order: 2000
 permalink: /release/
-redirect_to: https://devguide.owasp.org/
+redirect_to: https://devguide.owasp.org/en/
 
 ---

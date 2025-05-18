@@ -7,6 +7,6 @@ contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 11010
 permalink: /release/operations/devsecops_guideline/
-redirect_to: https://devguide.owasp.org/09-operations/01-devsecops/
+redirect_to: https://devguide.owasp.org/en/09-operations/01-devsecops/
 
 ---

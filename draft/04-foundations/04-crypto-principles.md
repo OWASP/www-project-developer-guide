@@ -7,6 +7,6 @@ contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 404
 permalink: /draft/foundations/crypto_principles/
-redirect_to: https://devguide.owasp.org/02-foundations/04-crypto-principles/
+redirect_to: https://devguide.owasp.org/en/02-foundations/04-crypto-principles/
 
 ---

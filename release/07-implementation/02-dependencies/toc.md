@@ -7,6 +7,6 @@ contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 7200
 permalink: /release/implementation/dependencies/
-redirect_to: https://devguide.owasp.org/05-implementation/02-dependencies/
+redirect_to: https://devguide.owasp.org/en/05-implementation/02-dependencies/
 
 ---

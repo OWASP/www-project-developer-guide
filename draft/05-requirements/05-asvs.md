@@ -7,6 +7,6 @@ contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 505
 permalink: /draft/requirements/asvs/
-redirect_to: https://devguide.owasp.org/03-requirements/05-asvs/
+redirect_to: https://devguide.owasp.org/en/03-requirements/05-asvs/
 
 ---

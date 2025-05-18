@@ -7,6 +7,6 @@ contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 9200
 permalink: /release/training_education/secure_coding_dojo/
-redirect_to: https://devguide.owasp.org/07-training-education/02-secure-coding-dojo/
+redirect_to: https://devguide.owasp.org/en/07-training-education/02-secure-coding-dojo/
 
 ---

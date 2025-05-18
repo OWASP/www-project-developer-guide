@@ -7,6 +7,6 @@ contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 5070
 permalink: /release/requirements/skf/
-redirect_to: https://devguide.owasp.org/03-requirements/07-skf/
+redirect_to: https://devguide.owasp.org/en/03-requirements/07-skf/
 
 ---

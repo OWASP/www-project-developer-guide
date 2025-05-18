@@ -7,6 +7,6 @@ contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 713
 permalink: /draft/implementation/documentation/cheatsheets/
-redirect_to: https://devguide.owasp.org/05-implementation/01-documentation/03-cheatsheets/
+redirect_to: https://devguide.owasp.org/en/05-implementation/01-documentation/03-cheatsheets/
 
 ---

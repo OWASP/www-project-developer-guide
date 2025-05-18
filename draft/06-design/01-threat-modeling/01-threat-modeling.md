@@ -7,6 +7,6 @@ contributors: Adam Shostack, Jon Gadsden
 document: OWASP Developer Guide
 order: 611
 permalink: /draft/design/threat_modeling/practical_threat_modeling/
-redirect_to: https://devguide.owasp.org/04-design/01-threat-modeling/01-threat-modeling/
+redirect_to: https://devguide.owasp.org/en/04-design/01-threat-modeling/01-threat-modeling/
 
 ---

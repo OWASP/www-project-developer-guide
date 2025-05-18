@@ -7,6 +7,6 @@ contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 1103
 permalink: /draft/operations/modsecurity_waf/
-redirect_to: https://devguide.owasp.org/09-operations/03-modsecurity/
+redirect_to: https://devguide.owasp.org/en/09-operations/03-modsecurity/
 
 ---
