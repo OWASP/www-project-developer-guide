@@ -1,6 +1,5 @@
 <a href="https://devguide.owasp.org/"><img src="assets/images/dg_logo_di.png" alt="DevGuide logo" height="180px"/></a>
 
-[![Build status](https://github.com/OWASP/www-project-developer-guide/actions/workflows/ci.yaml/badge.svg?event=push)][build]
 [![CC BY-SA 4.0 license](https://img.shields.io/github/license/owasp/www-project-developer-guide.svg)](license.txt)
 [![OWASP Lab project](https://img.shields.io/badge/owasp-lab%20project-f7b73c.svg)](https://www.owasp.org/projects)
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/9373/badge)](https://www.bestpractices.dev/projects/9373)
@@ -38,7 +37,6 @@ is via the OWASP Slack [#project-developer-guide][project] project channel
 
 OWASP DevGuide: _accessible security for developers_
 
-[build]: https://github.com/OWASP/www-project-developer-guide/actions/workflows/ci.yaml
 [conduct]: https://github.com/OWASP/DevGuide/blob/main/code_of_conduct.md
 [devguide]: https://github.com/OWASP/DevGuide
 [guide]: https://github.com/OWASP/DevGuide/blob/main/contributing.md
