@@ -28,10 +28,10 @@ and translations help to make is a useful resource for the global AppSec communi
 The English (US) language version is the source for all the translations;
 the latest version can be found in the [DevGuide][repo] repository.
 
-At present (March 2025) there are some translations that are in progress:
+At present (March 2025) there are two translations in progress:
 
-* [Brazilian Portuguese](release-pt-br) lead translator Amauri Bizerra
-* [Spanish](release-es) lead translator Roxana Calderon
+* [Spanish][es] lead translator Roxana Calderon
+* [Brazilian Portuguese][pt-br] lead translator Amauri Bizerra
 
 If you can help with these translations then please contact the lead translator or the DevGuide project leaders.
 
@@ -39,5 +39,7 @@ If you can help with these translations then please contact the lead translator 
 
 OWASP DevGuide: _accessible security for developers_
 
+[es]: https://devguide.owasp.org/es/
 [latest]: https://devguide.owasp.org/
+[pt-br]: https://devguide.owasp.org/pt-br/
 [repo]: https://github.com/OWASP/DevGuide/tree/main/docs
