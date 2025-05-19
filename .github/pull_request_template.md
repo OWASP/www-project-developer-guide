@@ -11,19 +11,11 @@ A short (one line) summary that describes the changes in this pull request
 for inclusion in the change log
 -->
 
-**Declaration**:
-
-- [ ] content meets the [license](../license.txt) for this project
-- [ ] AI has not been used, or has been declared, in this pull request
-
 **Other info** :  
 <!-- Add here any other information that may be of help to the reviewer -->
 
 Thanks for submitting a pull request!
 
 Please make sure you follow our [Code of Conduct](../code_of_conduct.md)
-and our [contributing guidelines](../contributing.md)
 
 Automated tests are run to check links, markdown and spelling
-
-The pull request must pass these tests before it can be merged

@@ -13,11 +13,10 @@
 * [Latest version][release]
 * [PDF export][pdf]
 
-### Translations (in progress)
+### Translations
 
-* [Brazilian Portuguese](release-pt-br)
-* [Spanish](release-es)
-* [Japanese](release-ja)
+* [Spanish][es] in progress
+* [Brazilian Portuguese][pt-br] in progress
 
 ### License
 
@@ -27,7 +26,9 @@
 
 * [Markdown source][repo]
 
+[es]: https://devguide.owasp.org/es/
 [pdf]: https://github.com/OWASP/DevGuide/releases
+[pt-br]: https://devguide.owasp.org/pt-br/
 [release]: https://devguide.owasp.org/
 [repo]: https://github.com/OWASP/DevGuide
 [license-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
