@@ -25,6 +25,7 @@
 ### Repository
 
 * [Markdown source][repo]
+* [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/9373/badge)](https://www.bestpractices.dev/projects/9373)
 
 [es]: https://devguide.owasp.org/es/
 [pdf]: https://github.com/OWASP/DevGuide/releases
