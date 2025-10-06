@@ -5,11 +5,8 @@ title: OWASP Developer Guide
 tags: dev-guide, developer guide
 level: 3
 type: documentation
-pitch: The Developer Guide allows businesses, developers, designers
-       and solution architects to produce secure web applications.
-       If done from the earliest stages, secure
-       applications cost about the same to develop as insecure applications,
-       but are far more cost effective in the long run.
+pitch: The Developer Guide provides an introduction to security concepts
+       and an initial reference for application and system developers.
 
 ---
 {% assign dev_file = site.static_files | where: "name", "devsite.txt" %}
@@ -32,7 +29,7 @@ pitch: The Developer Guide allows businesses, developers, designers
 [![Developer Guide](assets/images/dg_logo.png "OWASP Developer Guide"){: .image-right }](https://devguide.owasp.org/)
 
 The [OWASP Developer Guide][latest] provides an introduction to security concepts
-and a handy reference for application and system developers.
+and an initial reference for application and system developers.
 
 This guide does not seek to replicate the many excellent sources on specific security topics;
 it rarely tries to go into detail on a subject and instead provides links for greater depth on these security topics.
