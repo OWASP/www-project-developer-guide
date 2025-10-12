@@ -1,0 +1,42 @@
+audience:
+  - builder
+  - defender
+community:
+  - name: project-developer-guide
+    platform: slack
+    url: https://owasp.slack.com/archives/C04QN6CMNAC
+    description: Developer Guide project
+leaders:
+  - name: Andra Lezza
+    email: andra.lezza@owasp.org
+    github: AvalZ
+  - name: Shruti Kulkarni
+    email: shruti.kulkarni@owasp.org
+    github: Shruti-s-kulkarni
+  - name: Vandana Verma Sehgal
+    email: vandana.verma@owasp.org
+    github: vermava
+  - name: Harold Blankenship
+    email: harold.blankenship@owasp.org
+    github: hblankenship
+  - name: Jon Gadsden
+    email: jon.gadsden@owasp.org
+    github: jgadsden
+level: 3
+license:
+  - CC-BY-SA-4.0
+name: OWASP Developer Guide
+pitch: The Developer Guide provides an introduction to security concepts and an initial reference for application and system developers.
+repositories:
+  - name: www-project-developer-guide
+    url: https://github.com/OWASP/www-project-developer-guide
+    description: OWASP Project Developer Guide - Document and Project Web pages
+  - name: DevGuide
+    url: https://github.com/OWASP/DevGuide
+    description: The OWASP Developer Guide
+tags:
+  - dev-guide
+  - developer-guide
+  - documentation-project
+type: documentation
+website: https://owasp.org/www-project-developer-guide
