@@ -16,7 +16,7 @@ jobs:
       actions: write
     steps:
       - name: Delete stale workflow runs
-        uses: Mattraks/delete-workflow-runs@v2.0.6
+        uses: Mattraks/delete-workflow-runs@v2.1.0
         with:
           token: ${{ github.token }}
           repository: ${{ github.repository }}
@@ -24,7 +24,7 @@ jobs:
           keep_minimum_runs: 10
 
       - name: Delete unused workflows
-        uses: otto-de/purge-deprecated-workflow-runs@v3.0.1
+        uses: otto-de/purge-deprecated-workflow-runs@v4.0.1
         with:
           token: ${{ github.token }}
 
