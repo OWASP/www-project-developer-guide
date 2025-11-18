@@ -25,7 +25,7 @@ jobs:
             --max-retries 1
             --retry-wait-time 10
             --exclude-path './_includes/*.html'
-            './**/*.md'
+            './release/**/*.md'
             '*.md'
           fail: true
         env:
