@@ -7,6 +7,6 @@ contributors: Jon Gadsden
 document: OWASP Developer Guide
 order: 14200
 permalink: /release/appendices/verification_dos_donts/
-redirect_to: https://devguide.owasp.org/en/12-appendices/02-verification-dos-donts/
+redirect_to: https://devguide.owasp.org/
 
 ---

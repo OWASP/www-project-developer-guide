@@ -40,7 +40,7 @@ and providing enough detail to get developers started on various OWASP tools and
 The intended audience of the Developer Guide is application developers working in various domains
 such as web, desktop, mobile, API and cloud.
 
-### History
+## History
 
 Along with the OWASP Top Ten, the Developer Guide is one of the original resources
 published soon after OWASP was formed in 2001.
@@ -51,7 +51,7 @@ for the modern security landscape using contributions from the wider application
 
 Periodically the Developer Guide is versioned and the contents promoted to the [release area][release] of the repository.
 
-### Contributing
+## Contributing
 
 Contributions and suggestions are all welcome, we just ask that you follow our [code of conduct][conduct]
 and read the [contributing guidelines][contribution] which provide style and document structure suggestions.
