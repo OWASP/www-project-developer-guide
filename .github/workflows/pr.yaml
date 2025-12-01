@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout markdown
-        uses: actions/checkout@v5.0.0
+        uses: actions/checkout@v6
 
       - name: Link Checker
         uses: lycheeverse/lychee-action@v2.7.0
@@ -36,7 +36,7 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout markdown
-        uses: actions/checkout@v5.0.0
+        uses: actions/checkout@v6
 
       - name: Lint markdown
         uses: DavidAnson/markdownlint-cli2-action@v21.0.0
@@ -49,7 +49,7 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout markdown
-        uses: actions/checkout@v5.0.0
+        uses: actions/checkout@v6
 
       - name: Spell check
         uses: rojopolis/spellcheck-github-actions@0.54.0
