@@ -26,6 +26,9 @@ jobs:
             --retry-wait-time 10
             --exclude-path './_includes/*.html'
             './release/**/*.md'
+            './release/*.md'
+            './release-es/*.md'
+            './release-es/**/*.md'
             '*.md'
           fail: true
         env:
@@ -44,8 +47,8 @@ jobs:
           config: '.markdownlint.yaml'
           globs: '*.md'
 
-  check_spelling:
-    name: Check spelling
+  check_en_spelling:
+    name: Check EN spelling
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout markdown
@@ -56,3 +59,14 @@ jobs:
         with:
           config_path: .spellcheck.yaml
 
+  check_es_spelling:
+    name: Check ES spelling
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout markdown
+        uses: actions/checkout@v6.0.1
+
+      - name: Spell check
+        uses: rojopolis/spellcheck-github-actions@0.55.0
+        with:
+          config_path: .spellcheck-es.yaml
