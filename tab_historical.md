@@ -42,7 +42,7 @@ which discusses the history and future of the project.
 
 #### [Developer Guide 3.0][guide-3v0] (abandoned April 2021)
 
-* English [Word][guide-3v0]
+* English [Word][guide-3v0-word]
 
 #### Developer Guide 2010 (abandoned)
 
@@ -71,7 +71,7 @@ We are still looking for the original Word documents for versions 1.x (1.0, 1.1 
 if you have any of these then please get in touch.
 
 In addition if you have documents for versions 0.1, 0.2 and 0.3 then it would be great to have these historical records.
-Please get in touch with the [project leader][leaders] if you have any of these.
+Please get in touch with the [project leaders][leaders] if you have any of these.
 
 ----
 
@@ -87,7 +87,8 @@ OWASP DevGuide: _accessible security for developers_
 [guide-word-jp-1v11]: https://github.com/OWASP/DevGuide/blob/71dfba584c0b11443b19a6caf47b9f1adc641679/DevGuide1.1.1/OWASPGuideV1.1.1-jp.doc
 [guide-2v0]: https://github.com/OWASP/DevGuide/tree/382fe2bc834beaf9dd50fc195e09329be6f7116f/DevGuide2.0
 [guide-2v01]: https://github.com/OWASP/DevGuide/tree/dc5a2977a4797d9b98486417a5527b9f15d8a251/DevGuide2.0.1
-[guide-3v0]: https://github.com/OWASP/DevGuide/blob/3.0-final/old/OWASP%20Guide%203.0.docx
+[guide-3v0]: https://github.com/OWASP/DevGuide/tree/3.0/DevGuide3.0
+[guide-3v0-word]: https://github.com/OWASP/DevGuide/blob/3.0-final/old/OWASP%20Guide%203.0.docx
 [history]: https://www.youtube.com/watch?v=niqV55vPTfw
 [intstand]: https://owasp.org/www-project-integration-standards/
 [latest]: https://devguide.owasp.org/

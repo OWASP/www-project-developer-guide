@@ -37,7 +37,7 @@ it rarely tries to go into detail on a subject and instead provides links for gr
 The content of the Developer Guide aims to be accessible, introducing practical security concepts
 and providing enough detail to get developers started on various OWASP tools and documents.
 
-The intended audience of the Developer Guide is application developers working in various domains
+The expected audience of the Developer Guide is application developers working in various domains
 such as web, desktop, mobile, API and cloud.
 
 ## History

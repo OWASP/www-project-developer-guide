@@ -28,18 +28,21 @@ and translations help to make is a useful resource for the global AppSec communi
 The English (US) language version is the source for all the translations;
 the latest version can be found in the [DevGuide][repo] repository.
 
-At present (March 2025) there are two translations in progress:
+As of January 2026 there are multiple translations in progress:
 
-* [Spanish][es] lead translator Roxana Calderon
-* [Brazilian Portuguese][pt-br] lead translator Amauri Bizerra
+* [Spanish][es] lead translator [Roxana Calderon](https://github.com/roxana-calderon-owasp)
+* [Brazilian Portuguese][pt-br] lead translator [Amauri Bizerra](https://github.com/extern-c)
+* [Farsi][fa] lead translator [Ali Reza](https://github.com/alirezakkt)
 
-If you can help with these translations then please contact the lead translator or the DevGuide project leaders.
+If you can help with these translations then please contact the lead translator or the DevGuide [project leaders][leaders].
 
 ----
 
 OWASP DevGuide: _accessible security for developers_
 
 [es]: https://devguide.owasp.org/es/
+[fa]: https://devguide.owasp.org/fa/
 [latest]: https://devguide.owasp.org/
+[leaders]: https://github.com/OWASP/www-project-developer-guide/blob/main/leaders.md
 [pt-br]: https://devguide.owasp.org/pt-br/
 [repo]: https://github.com/OWASP/DevGuide/tree/main/docs
