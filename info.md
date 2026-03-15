@@ -25,11 +25,12 @@
 ### Repository
 
 * [Markdown source][repo]
-* [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/9373/badge)](https://www.bestpractices.dev/en/projects/9373)
+* [![OpenSSF Best Practices][openssf-badge]](https://www.bestpractices.dev/en/projects/9373)
 
 [es]: https://devguide.owasp.org/es/
-[pdf]: https://github.com/OWASP/DevGuide/releases
+[pdf]: https://github.com/OWASP/DevGuide/releases/latest/
 [pt-br]: https://devguide.owasp.org/pt-br/
 [release]: https://devguide.owasp.org/
 [repo]: https://github.com/OWASP/DevGuide
 [license-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[openssf-badge]: https://www.bestpractices.dev/projects/9373/badge
