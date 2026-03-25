@@ -7,7 +7,7 @@ on:
     - cron: '30 6 * * 6'
   workflow_dispatch:
 
-# for security reasons the github actions are pinned to specific release versions
+# for security reasons the github actions are pinned to specific SHAs
 jobs:
   chores:
     name: Tidy workflows
@@ -47,3 +47,19 @@ jobs:
           days-before-pr-close: 7
           stale-pr-message: 'This PR is stale because it has been open 21 days with no activity. Remove stale label, or add a comment, otherwise it will be closed in 7 days.'
           close-pr-message: 'This PR was closed because it has been stalled for 4 weeks with no activity.'
+
+  link_checker:
+    name: Link checker
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Checkout markdown
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@8646ba30535128ac92d33dfc9133794bfdd9b411
+        with:
+          args: --verbose --no-progress --max-retries 1 '**/*.md' '*.md'
+          fail: true
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

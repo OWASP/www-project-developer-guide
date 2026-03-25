@@ -1,13 +1,11 @@
 name: Pull request pipeline
-# checks are only on the draft and root directories because that is where the changes should be
-
 on:
   pull_request:
     branches:
       - main
   workflow_dispatch:
 
-# for security reasons the github actions are pinned to specific release versions
+# for security reasons the github actions are pinned to specific SHAs
 jobs:
   link_checker:
     name: Link checker
@@ -21,6 +19,7 @@ jobs:
         with:
           # skip the jekyll files under '_includes' directory
           args: >-
+            --verbose
             --no-progress
             --max-retries 1
             --retry-wait-time 10
@@ -48,7 +47,7 @@ jobs:
           globs: '*.md'
 
   check_en_spelling:
-    name: Check EN spelling
+    name: Check spelling
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout markdown
@@ -58,15 +57,3 @@ jobs:
         uses: rojopolis/spellcheck-github-actions@e3cd8e9aec4587ec73bc0e60745aafd45c37aa2e
         with:
           config_path: .spellcheck.yaml
-
-  check_es_spelling:
-    name: Check ES spelling
-    runs-on: ubuntu-24.04
-    steps:
-      - name: Checkout markdown
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
-
-      - name: Spell check
-        uses: rojopolis/spellcheck-github-actions@e3cd8e9aec4587ec73bc0e60745aafd45c37aa2e
-        with:
-          config_path: .spellcheck-es.yaml
