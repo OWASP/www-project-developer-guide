@@ -7,7 +7,7 @@ on:
     - cron: '30 6 * * 6'
   workflow_dispatch:
 
-# for security reasons the github actions are pinned to specific release versions
+# for security reasons the github actions are pinned to specific SHAs
 jobs:
   chores:
     name: Tidy workflows
@@ -16,7 +16,7 @@ jobs:
       actions: write
     steps:
       - name: Delete stale workflow runs
-        uses: Mattraks/delete-workflow-runs@v2.1.0
+        uses: Mattraks/delete-workflow-runs@5bf9a1dac5c4d041c029f0a8370ddf0c5cb5aeb7
         with:
           token: ${{ github.token }}
           repository: ${{ github.repository }}
@@ -24,7 +24,7 @@ jobs:
           keep_minimum_runs: 10
 
       - name: Delete unused workflows
-        uses: otto-de/purge-deprecated-workflow-runs@v4.0.4
+        uses: otto-de/purge-deprecated-workflow-runs@f586d3fe7f959c38ca76a0030521dfa47946bce3
         with:
           token: ${{ github.token }}
 
@@ -36,7 +36,7 @@ jobs:
       issues: write
     steps:
       - name: Tidy stale PRs and issues
-        uses: actions/stale@v10.2.0
+        uses: actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f
         with:
           days-before-issue-stale: 183
           days-before-issue-close: -1
@@ -47,3 +47,19 @@ jobs:
           days-before-pr-close: 7
           stale-pr-message: 'This PR is stale because it has been open 21 days with no activity. Remove stale label, or add a comment, otherwise it will be closed in 7 days.'
           close-pr-message: 'This PR was closed because it has been stalled for 4 weeks with no activity.'
+
+  link_checker:
+    name: Link checker
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Checkout markdown
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@8646ba30535128ac92d33dfc9133794bfdd9b411
+        with:
+          args: --verbose --no-progress --max-retries 1 '**/*.md' '*.md'
+          fail: true
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
