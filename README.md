@@ -1,3 +1,5 @@
+## Archived, this repo no longer is used to create the project page content
+
 <a href="https://devguide.owasp.org/"><img src="assets/images/dg_logo_di.png" alt="DevGuide logo" height="180px"/></a>
 
 [![CC BY-SA 4.0 license](https://img.shields.io/github/license/owasp/www-project-developer-guide.svg)](license.txt)
